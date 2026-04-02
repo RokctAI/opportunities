@@ -80,7 +80,8 @@ def parse_discrete_markdown(md_content):
         'Amount': r'-\s+\*\*Funding Amount\*\*:\s*(.+)$',
         'Focus Area': r'-\s+\*\*Focus Area\*\*:\s*(.+)$',
         'Apply Link': r'-\s+\*\*Applying Link\*\*:\s*(.+)$',
-        'Source': r'-\s+\*\*Source\*\*:\s*(.+)$'
+        'Source': r'-\s+\*\*Source\*\*:\s*(.+)$',
+        'Status': r'-\s+\*\*Verification Status\*\*:\s*(.+)$'
     }
     for label, pattern in fields.items():
         match = re.search(pattern, md_content, re.MULTILINE)
@@ -111,18 +112,23 @@ def parse_tender_markdown(md_content):
         'Institution': r'-\s+\*\*Institution\*\*:\s*(.+)$',
         'Type': r'-\s+\*\*Tender Type\*\*:\s*(.+)$',
         'Closing Date': r'-\s+\*\*Closing Date\*\*:\s*(.+)$',
-        'Applying Link': r'-\s+\*\*Applying Link\*\*:\s*(.+)$'
+        'Applying Link': r'-\s+\*\*Applying Link\*\*:\s*(.+)$',
+        'Status': r'-\s+\*\*Status\*\*:\s*(.+)$'
     }
     for label, pattern in fields.items():
         match = re.search(pattern, md_content, re.MULTILINE)
         data[label] = match.group(1).strip() if match else ""
     return data
 
+def clean_filename(name):
+    """Sanitizes names for Excel sheet constraints."""
+    return re.sub(r'[\\/*?:\[\]]', '', name)
+
 def sync_md_to_excel():
-    equity_dir = Path('opportunities/01_equity')
-    grants_dir = Path('opportunities/02_grants')
-    tenders_dir = Path('opportunities/03_tenders')
-    pub_dir = Path('opportunities/published')
+    equity_dir = Path('01_equity')
+    grants_dir = Path('02_grants')
+    tenders_dir = Path('03_tenders')
+    pub_dir = Path('published')
     pub_dir.mkdir(parents=True, exist_ok=True)
     
     # --- 1. PROCESS EQUITY ---
@@ -137,6 +143,17 @@ def sync_md_to_excel():
         if equity_dfs:
             full_equity = pd.concat(equity_dfs, ignore_index=True)
             
+            # --- VERIFICATION FILTER ---
+            # For Equity, we prioritize a 'Status' column if it exists.
+            # If not, we ensure 'Source / Verification' has meaningful content.
+            if 'Status' in full_equity.columns:
+                full_equity = full_equity[full_equity['Status'].str.upper().isin(['ACTIVE', 'VERIFIED', ''])]
+            elif 'Source / Verification' in full_equity.columns:
+                # Ensure it's not just empty or "N/A"
+                full_equity = full_equity[
+                    full_equity['Source / Verification'].fillna('').str.len() > 3
+                ]
+
             # Geographic Filters
             def is_sa(row):
                 val = (str(row.get('Country', '')) + " " + str(row.get('Territory', ''))).lower()
@@ -172,7 +189,10 @@ def sync_md_to_excel():
             if md_file.name in ['template.md']: continue
             with open(md_file, 'r', encoding='utf-8') as f:
                 data = parse_discrete_markdown(f.read())
-                if data and not is_expired(data.get('Deadline', '')):
+                # Only include ACTIVE/VERIFIED grants that are not expired
+                status = data.get('Status', '').upper()
+                is_valid = status in ['ACTIVE', 'VERIFIED']
+                if data and is_valid and not is_expired(data.get('Deadline', '')):
                     active_grants.append(data)
         
         if active_grants:
@@ -185,10 +205,12 @@ def sync_md_to_excel():
     if tenders_dir.exists():
         all_tenders = []
         for md_file in tenders_dir.glob('*.md'):
-            if md_file.name in ['template.md']: continue
+            if md_file.name in ['template.md', 'registry_audit_log.md']: continue
             with open(md_file, 'r', encoding='utf-8') as f:
                 data = parse_tender_markdown(f.read())
-                if data: all_tenders.append(data)
+                # Only include ACTIVE tenders
+                if data and data.get('Status', '').upper() == 'ACTIVE':
+                    all_tenders.append(data)
         
         if all_tenders:
             df_tenders = pd.DataFrame(all_tenders)
