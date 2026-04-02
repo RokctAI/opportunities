@@ -19,7 +19,7 @@ def send_registry_emails():
     smtp_pass = os.getenv('SMTP_PASSWORD')
     
     recipient_file = Path('.rokct/config/registry_recipients.txt')
-    published_dir = Path('opportunities/published')
+    published_dir = Path('published')
     
     if not recipient_file.exists():
         print("No recipients found. Skipping.")
