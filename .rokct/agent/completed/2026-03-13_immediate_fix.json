@@ -1,0 +1,9 @@
+{
+  "repo": "RokctAI/opportunities",
+  "prompt": "TASK: Fix and Verify metadata for ALL entries in 'opportunities/01_equity/*.md'. \n\n1) For EVERY single row in all funder files that has missing or hallucinated (generic contact@ or info@) data, you MUST find the real data. \n2) STRICT RULE: NO PLACEHOLDERS. If you cannot find a specific email, leave it blank or find the LinkedIn URL of a relevant investment partner. \n3) MANDATORY: Fill the 'Source / Verification' column for every row with a direct URL to the Team/Contact page where you verified the identity. \n4) Audit the 'Website' column to ensure all links are functional. If a funder has shut down, note it in the 'Notes' column. \n\nGoal: Focused registry audit and repair to achieve 100% verified status.",
+  "branch": "main",
+  "title": "Mission: Global Registry Audit & Repair",
+  "automation_mode": "AUTO_CREATE_PR",
+  "recurrence": "Once",
+  "immediate": true
+}

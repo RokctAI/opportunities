@@ -1,0 +1,18 @@
+name: Code Quality
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '.rokct/agent/**'
+  pull_request:
+    paths-ignore:
+      - '.rokct/agent/**'
+
+jobs:
+  lint:
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    uses: RokctAI/shared-workflows/.github/workflows/universal-linter.yml@main
+    secrets: inherit

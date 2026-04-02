@@ -1,0 +1,28 @@
+name: "Registry: Weekly Friday Report"
+
+on:
+  schedule:
+    - cron: '0 20 * * 5' # Friday 10 PM SAST / 8 PM UTC
+  workflow_dispatch:
+
+jobs:
+  send_report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install python-dotenv
+
+      - name: Send Reports
+        env:
+          PRODUCTION_ENV: ${{ secrets.PRODUCTION_ENV }}
+        run: |
+          mkdir -p .env
+          echo "$PRODUCTION_ENV" > .env/production.env
+          python .rokct/skills/agent_delegation/scripts/send_registry_emails.py
