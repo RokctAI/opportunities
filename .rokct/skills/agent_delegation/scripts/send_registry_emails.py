@@ -1,3 +1,5 @@
+# Copyright 2024 RokctAI
+
 import os
 import smtplib
 from email.mime.multipart import MIMEMultipart

@@ -1,3 +1,5 @@
+# Copyright 2024 RokctAI
+
 import os
 import requests
 import re
