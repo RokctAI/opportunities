@@ -33,11 +33,19 @@ jobs:
           
       - name: Install dependencies
         run: pip install requests python-dotenv
-        
+
+      - name: Fetch Production Environment from Monorepo
+        env:
+          GH_TOKEN: ${{ secrets.MONOREPO_PAT }}
+        run: |
+          mkdir -p .env
+          echo "🔍 Fetching production.env from RokctAI/Monorepo..."
+          gh api /repos/RokctAI/Monorepo/contents/.env/production.env -H "Accept: application/vnd.github.v3.raw" > .env/production.env
+          echo "✅ .env/production.env written."
+
       - name: Process Queue
         env:
           JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
-          PRODUCTION_ENV: ${{ secrets.PRODUCTION_ENV }}
         run: |
           # 1. Determine which files to check
           if [ "${{ github.event_name }}" == "push" ]; then
