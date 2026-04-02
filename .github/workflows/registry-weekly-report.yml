@@ -8,6 +8,7 @@ on:
 jobs:
   send_report:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - uses: actions/checkout@v4
       
@@ -19,10 +20,15 @@ jobs:
       - name: Install dependencies
         run: pip install python-dotenv
 
-      - name: Send Reports
+      - name: Fetch Production Environment from Monorepo
         env:
-          PRODUCTION_ENV: ${{ secrets.PRODUCTION_ENV }}
+          GH_TOKEN: ${{ secrets.MONOREPO_PAT }}
         run: |
           mkdir -p .env
-          echo "$PRODUCTION_ENV" > .env/production.env
+          echo "🔍 Fetching production.env from RokctAI/Monorepo..."
+          gh api /repos/RokctAI/Monorepo/contents/.env/production.env -H "Accept: application/vnd.github.v3.raw" > .env/production.env
+          echo "✅ .env/production.env written."
+
+      - name: Send Reports
+        run: |
           python .rokct/skills/agent_delegation/scripts/send_registry_emails.py
