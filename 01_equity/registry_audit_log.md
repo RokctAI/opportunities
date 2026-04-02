@@ -4,7 +4,8 @@ This file tracks the verification status of files in the `opportunities/01_equit
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | opportunities/01_equity/funders.md | STATIC | COMPLETE | 2026-03-13 | 60 | 60 | Archived (Rolled over to Part 2). |
 | opportunities/01_equity/funders_2026_part2.md | STATIC | COMPLETE | 2026-03-13 | 200 | 200 | Reached 200 row limit, marked STATIC. |
-| opportunities/01_equity/funders_2026_part3.md | LIVING | IN_PROGRESS | 2026-03-13 | 21 | 21 | Newly created rollover file. |
+| opportunities/01_equity/funders_2026_part3.md | STATIC | COMPLETE | 2026-04-02 | 200 | 200 | Reached 200 row limit, marked STATIC. |
+| opportunities/01_equity/funders_2026_part4.md | LIVING | IN_PROGRESS | 2026-04-02 | 42 | 42 | Newly created rollover file. |
 
 ## Instructions for Agent
 1. Scan the `opportunities/01_equity/` directory daily.
