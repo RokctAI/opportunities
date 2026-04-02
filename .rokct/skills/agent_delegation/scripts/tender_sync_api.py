@@ -6,7 +6,7 @@ from pathlib import Path
 
 # --- CONFIGURATION ---
 BASE_URL = "https://ocds-api.etenders.gov.za/api/OCDSReleases"
-TENDER_DIR = Path('opportunities/03_tenders')
+TENDER_DIR = Path('03_tenders')
 TEMPLATE_PATH = TENDER_DIR / 'template.md'
 
 def fetch_and_sync_tenders(page_limit=5):
