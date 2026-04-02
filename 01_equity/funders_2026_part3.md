@@ -33,7 +33,7 @@
 | Amber Group | Michael Wu | https://www.linkedin.com/in/michael-wu |  | [ambergroup.io](https://ambergroup.io) | Global | Global | Fintech / AI | VC | Seed / Series A-Z | https://ambergroup.io/ | |
 | Fenbushi Capital | Bo Shen | https://www.linkedin.com/in/bo-shen |  | [fenbushi.vc](https://fenbushi.vc) | Global | Global | AI / Emerging Markets | VC | Seed / Series A-Z | https://fenbushi.vc/our-team-of-professionals/ | |
 | NGC Ventures | Roger Lim | https://www.linkedin.com/in/roger-lim |  | [ngc.fund](https://ngc.fund) | Global | Global | Tech | VC | Seed / Series A-Z | https://ngc.fund/about-ngc | |
-| GBV Capital | Christian Ng | https://www.linkedin.com/in/christian-ng |  | [gbv.capital](https://gbv.capital) | Global | Global | AI | VC | Seed / Series A-Z | mailto:contact@gbv.capital? | |
+| GBV Capital | Christian Ng | https://www.linkedin.com/in/christian-ng |  | [gbv.capital](https://gbv.capital) | Global | Global | AI | VC | Seed / Series A-Z | https://gbv.capital/whoweare | |
 | Signum Capital | John Ng Pangilinan | https://www.linkedin.com/in/john-ng-pangilinan |  | [signum.capital](https://signum.capital) | Global | Global | Fintech / AI / Emerging Markets | VC | Seed / Series A-Z | https://www.signum.capital/about/ | |
 | Morningstar Ventures | Danilo S. Carlucci | https://www.linkedin.com/in/danilo-s.-carlucci |  | [morningstar.ventures](https://morningstar.ventures) | Global | Global | AI | VC | Seed / Series A-Z | https://morningstar.ventures/#team | |
 | KuCoin Ventures | Justin Chou | https://www.linkedin.com/in/justin-chou |  | [kucoin.com](https://kucoin.com) | Global | Global | AI | VC | Seed / Series A-Z | https://www.kucoin.com/about-us | |
