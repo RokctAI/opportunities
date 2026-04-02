@@ -15,6 +15,8 @@ concurrency:
   group: agent-delegation
   cancel-in-progress: false
 
+permissions: write-all
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
