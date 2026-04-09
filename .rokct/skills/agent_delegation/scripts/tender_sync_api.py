@@ -4,25 +4,29 @@
 import os
 import requests
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 # --- CONFIGURATION ---
 BASE_URL = "https://ocds-api.etenders.gov.za/api/OCDSReleases"
 TENDER_DIR = Path('03_tenders')
+GRANT_DIR = Path('02_grants')
 TEMPLATE_PATH = TENDER_DIR / 'template.md'
 
-def fetch_and_sync_tenders(page_limit=5):
+def fetch_and_sync_tenders(page_limit=5, days_back=7):
     """Fetches tenders from API and updates local registry."""
-    print("🚀 Starting Live OCDS Tender Sync...")
+    print(f"🚀 Starting Live OCDS Tender Sync (Last {days_back} days)...")
     
-    # We use a date range for the current year to keep it relevant
-    current_year = datetime.now().year
+    # Dynamic Date Range
+    now = datetime.now()
+    date_to = now.strftime('%Y-%m-%d')
+    date_from = (now - timedelta(days=days_back)).strftime('%Y-%m-%d')
+
     params = {
         "PageNumber": 1,
         "PageSize": 50,
-        "dateFrom": f"{current_year}-01-01",
-        "dateTo": f"{current_year}-12-31"
+        "dateFrom": date_from,
+        "dateTo": date_to
     }
 
     count = 0
@@ -62,6 +66,7 @@ def fetch_and_sync_tenders(page_limit=5):
 
     print(f"✅ Sync complete. Processed {count} tenders.")
     purge_expired_tenders()
+    purge_expired_grants()
 
 def generate_markdown_from_ocds(release):
     """Maps OCDS JSON fields to Monorepo Template."""
@@ -110,6 +115,14 @@ def generate_markdown_from_ocds(release):
     if not docs_md:
         docs_md = "    - No documents listed in API.\n"
 
+    # 5. Direct Link Logic
+    # Use first document URL as applying link if available, fallback to portal
+    docs = tender.get('documents', [])
+    if docs and docs[0].get('url'):
+        applying_link = docs[0].get('url')
+    else:
+        applying_link = "https://www.etenders.gov.za/Home/opportunities?id=1"
+
     # Assemble Markdown
     md = f"""# Tender Opportunity: {title}
 
@@ -144,7 +157,7 @@ def generate_markdown_from_ocds(release):
 - **Telephone**: {c_tel}
 
 ## Documents & Links
-- **Applying Link**: https://tenders.etenders.gov.za/
+- **Applying Link**: {applying_link}
 - **Tender Documents**:
 {docs_md}
 
@@ -182,6 +195,34 @@ def purge_expired_tenders():
                     os.remove(md_file)
             except Exception as e:
                 print(f"⚠️ Could not parse date for {md_file.name}: {e}")
+
+def purge_expired_grants():
+    """Removes grant files from 02_grants that have passed their deadline."""
+    print("Running self-cleaning audit for expired grants...")
+    now = datetime.now()
+    count = 0
+
+    if not GRANT_DIR.exists():
+        return
+
+    for md_file in GRANT_DIR.glob('*.md'):
+        if md_file.name == 'template.md':
+            continue
+
+        # Format: YYYY-MM-DD_Grant_Name.md
+        match = re.match(r'^(\d{4}-\d{2}-\d{2})_', md_file.name)
+        if match:
+            deadline_str = match.group(1)
+            try:
+                deadline_date = datetime.strptime(deadline_str, '%Y-%m-%d')
+                if deadline_date < now:
+                    print(f"🔥 Deleting expired grant: {md_file.name} (Deadline: {deadline_str})")
+                    os.remove(md_file)
+                    count += 1
+            except Exception as e:
+                print(f"⚠️ Could not parse date for {md_file.name}: {e}")
+
+    print(f"✅ Grant cleanup complete. Removed {count} expired grants.")
 
 if __name__ == "__main__":
     TENDER_DIR.mkdir(parents=True, exist_ok=True)

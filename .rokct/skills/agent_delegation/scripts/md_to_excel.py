@@ -77,6 +77,12 @@ def parse_discrete_markdown(md_content):
     title_match = re.search(r'^#\s+(.+)$', md_content, re.MULTILINE)
     data['Grant Title'] = title_match.group(1).strip() if title_match else "Unknown"
     
+    # Extract Description from the section below ## Description
+    desc_match = re.search(r'## Description\s*\n\s*([\s\S]+?)\n\n##', md_content)
+    if not desc_match:
+        desc_match = re.search(r'## Description\s*\n\s*([\s\S]+?)\n\n', md_content)
+    data['Description'] = desc_match.group(1).strip() if desc_match else "No description provided."
+
     fields = {
         'Organization': r'-\s+\*\*Organization\*\*:\s*(.+)$',
         'Deadline': r'-\s+\*\*Deadline\*\*:\s*(.+)$',
@@ -109,6 +115,13 @@ def parse_tender_markdown(md_content):
     # Extract Category from the section below ### Category
     cat_match = re.search(r'### Category\s*\n\s*(.+)', md_content)
     data['Category'] = cat_match.group(1).strip() if cat_match else "Uncategorized"
+
+    # Extract Tender Description from the section below ### Tender Description
+    desc_match = re.search(r'### Tender Description\s*\n\s*([\s\S]+?)\n\n###', md_content)
+    if not desc_match:
+        # Fallback for when there is no section after Tender Description
+        desc_match = re.search(r'### Tender Description\s*\n\s*([\s\S]+?)\n\n', md_content)
+    data['Tender Description'] = desc_match.group(1).strip() if desc_match else "No description provided."
 
     fields = {
         'Tender Number': r'-\s+\*\*Tender Number\*\*:\s*(.+)$',

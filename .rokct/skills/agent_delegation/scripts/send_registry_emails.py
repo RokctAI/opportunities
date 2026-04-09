@@ -11,15 +11,24 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
 def send_registry_emails():
-    load_dotenv('.env/production.env')
+    # Robust Path & Env Handling
+    # We calculate the root directory by climbing up from this script's location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
+    env_path = os.path.join(project_root, ".env", "production.env")
+
+    if os.path.exists(env_path):
+        load_dotenv(env_path)
+    else:
+        load_dotenv()
     
     smtp_server = os.getenv('SMTP_SERVER')
     smtp_port = os.getenv('SMTP_PORT')
     smtp_user = os.getenv('SMTP_USERNAME')
     smtp_pass = os.getenv('SMTP_PASSWORD')
     
-    recipient_file = Path('.rokct/config/registry_recipients.txt')
-    published_dir = Path('published')
+    recipient_file = Path(project_root) / '.rokct' / 'config' / 'registry_recipients.txt'
+    published_dir = Path(project_root) / 'published'
     
     if not recipient_file.exists():
         print("No recipients found. Skipping.")
