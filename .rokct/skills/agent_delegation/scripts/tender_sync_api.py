@@ -137,6 +137,9 @@ def generate_markdown_from_ocds(release):
     description = tender.get('description', 'No description provided.')
     conditions = tender.get('specialConditions', 'N/A')
     
+    # Use procurementMethodDetails as the "Type" for classification
+    t_type = tender.get('procurementMethodDetails', t_type)
+
     # 2. Briefing Session
     briefing = tender.get('briefingSession', {})
     has_briefing = "Yes" if briefing.get('isSession') else "No"
