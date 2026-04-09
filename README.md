@@ -1,5 +1,16 @@
 # RokctAI Opportunities Registry
 
+## 🚀 Registry Status Dashboard
+*Last Updated: 2026-04-09 11:42*
+
+| Registry | Total | New (7d) | Verified | Health |
+| :--- | :--- | :--- | :--- | :--- |
+| 🏦 **Equity** | 4 | 4 | 0 | 🟡 |
+| 📜 **Grants** | 14 | 14 | 14 | 🟢 |
+| 🏗️ **Tenders** | 0 | 0 | 0 | 🟢 |
+
+**Overall Progress**: `77.8%` Verified | `+18` New Opportunities This Week
+
 This repository serves as a centralized hub for tracking and managing various opportunities within the RokctAI ecosystem, including Equity investments, Grants, and Tenders.
 
 ## Repository Structure

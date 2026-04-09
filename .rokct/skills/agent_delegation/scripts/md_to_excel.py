@@ -6,6 +6,24 @@ import pandas as pd
 import re
 from pathlib import Path
 from datetime import datetime
+from dotenv import load_dotenv
+
+def load_environment():
+    """Robust environment loading from .env/production.env."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
+    env_path = os.path.join(project_root, ".env", "production.env")
+
+    if os.path.exists(env_path):
+        load_dotenv(env_path)
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if "=" in line and not line.startswith("#"):
+                    key, val = line.replace("export ", "").strip().split("=", 1)
+                    if not os.environ.get(key.strip()):
+                        os.environ[key.strip()] = val.strip("'\" ")
+    else:
+        load_dotenv()
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from reportlab.lib import colors
@@ -47,17 +65,29 @@ def apply_premium_style(writer, sheet_name, header_color):
     # 4. Auto-Filter
     worksheet.auto_filter.ref = worksheet.dimensions
 
-    # 5. Auto-Column Width
+    # 5. Auto-Column Width & Wrapping
     for col_idx in range(1, worksheet.max_column + 1):
         max_length = 0
         column = get_column_letter(col_idx)
+        is_multiline = False
         for cell in worksheet[column]:
+            if cell.row == 1: continue # Skip header for length
             try:
-                if len(str(cell.value)) > max_length:
-                    max_length = len(str(cell.value))
+                val = str(cell.value)
+                if '\n' in val: is_multiline = True
+                if len(val) > max_length:
+                    max_length = len(val)
             except:
                 pass
-        adjusted_width = min(max_length + 2, 50)
+
+        # Enable wrapping for multiline cells (like descriptions and multi-links)
+        if is_multiline:
+            for cell in worksheet[column]:
+                cell.alignment = Alignment(wrap_text=True, vertical="top")
+            adjusted_width = 40
+        else:
+            adjusted_width = min(max_length + 2, 50)
+
         worksheet.column_dimensions[column].width = adjusted_width
 
 def parse_markdown_table(md_content):
@@ -358,4 +388,5 @@ def sync_md_to_excel():
     print("Premium Registry Expansion Complete.")
 
 if __name__ == "__main__":
+    load_environment()
     sync_md_to_excel()

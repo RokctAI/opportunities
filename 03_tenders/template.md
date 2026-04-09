@@ -16,6 +16,12 @@
 ### Tender Description
 [Full description of the requirement]
 
+### AI Analysis: Compliance & Requirements
+<!-- This section is populated by Jules after document analysis -->
+- **Mandatory Requirements**: [e.g., B-BBEE Level 1, ISO 9001]
+- **Key Deliverables**: [Brief list of what needs to be done]
+- **Technical Specs**: [Crucial technical details]
+
 ### Special Conditions
 [List of special conditions, downloading instructions, etc.]
 

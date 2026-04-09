@@ -4,8 +4,28 @@
 import os
 import requests
 import re
+import difflib
 from datetime import datetime, timedelta
 from pathlib import Path
+from dotenv import load_dotenv
+
+def load_environment():
+    """Robust environment loading from .env/production.env."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
+    env_path = os.path.join(project_root, ".env", "production.env")
+
+    if os.path.exists(env_path):
+        load_dotenv(env_path)
+        # Aggressive manual recovery if standard loader misses export syntax
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if "=" in line and not line.startswith("#"):
+                    key, val = line.replace("export ", "").strip().split("=", 1)
+                    if not os.environ.get(key.strip()):
+                        os.environ[key.strip()] = val.strip("'\" ")
+    else:
+        load_dotenv()
 
 # --- CONFIGURATION ---
 BASE_URL = "https://ocds-api.etenders.gov.za/api/OCDSReleases"
@@ -46,6 +66,28 @@ def fetch_and_sync_tenders(page_limit=5, days_back=7):
                 ocid = release.get('ocid')
                 if not ocid: continue
                 
+                tender_data = release.get('tender', {})
+                title = tender_data.get('title', 'Untitled')
+
+                # FUZZY DEDUPLICATION
+                is_duplicate = False
+                for existing_file in TENDER_DIR.glob('*.md'):
+                    if existing_file.name == 'template.md': continue
+                    if existing_file.stem == ocid: continue # Same ID is fine, handled by overwrite logic
+
+                    with open(existing_file, 'r', encoding='utf-8') as ef:
+                        first_line = ef.readline()
+                        if title.lower() in first_line.lower():
+                            # Check similarity ratio
+                            existing_title = first_line.replace("# Tender Opportunity: ", "").strip()
+                            similarity = difflib.SequenceMatcher(None, title.lower(), existing_title.lower()).ratio()
+                            if similarity > 0.9:
+                                print(f"👯 Skipping {ocid} - Potential Duplicate of {existing_file.name} ({similarity:.1%})")
+                                is_duplicate = True
+                                break
+
+                if is_duplicate: continue
+
                 # RULE: OCID-Stable Filenames
                 filename = f"{ocid}.md"
                 file_path = TENDER_DIR / filename
@@ -232,5 +274,6 @@ def purge_expired_grants():
     print(f"✅ Grant cleanup complete. Removed {count} expired grants.")
 
 if __name__ == "__main__":
+    load_environment()
     TENDER_DIR.mkdir(parents=True, exist_ok=True)
     fetch_and_sync_tenders()

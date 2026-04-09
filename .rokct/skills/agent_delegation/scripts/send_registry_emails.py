@@ -19,6 +19,14 @@ def send_registry_emails():
 
     if os.path.exists(env_path):
         load_dotenv(env_path)
+        # Aggressive Manual Fallback for Monorepo-fetched files
+        required_keys = ['SMTP_SERVER', 'SMTP_PORT', 'SMTP_USERNAME', 'SMTP_PASSWORD']
+        if not all(os.environ.get(k) for k in required_keys):
+            with open(env_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if "=" in line and not line.startswith("#"):
+                        key, val = line.replace("export ", "").strip().split("=", 1)
+                        os.environ[key.strip()] = val.strip("'\" ")
     else:
         load_dotenv()
     
