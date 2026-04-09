@@ -8,6 +8,10 @@ from pathlib import Path
 from datetime import datetime
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import landscape, A4
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet
 
 # --- GLOBAL THEMES ---
 INDIGO_HEADER = "4B0082"
@@ -119,16 +123,27 @@ def parse_tender_markdown(md_content):
     # Extract Tender Description from the section below ### Tender Description
     desc_match = re.search(r'### Tender Description\s*\n\s*([\s\S]+?)\n\n###', md_content)
     if not desc_match:
-        # Fallback for when there is no section after Tender Description
         desc_match = re.search(r'### Tender Description\s*\n\s*([\s\S]+?)\n\n', md_content)
     data['Tender Description'] = desc_match.group(1).strip() if desc_match else "No description provided."
+
+    # Extract ALL Tender Documents
+    docs_match = re.search(r'## Documents & Links\s*\n\s*-\s+\*\*Direct Link\*\*:\s*(.+)\n\s*-\s+\*\*Tender Documents\*\*:\s*\n([\s\S]+?)\n\n##', md_content)
+    all_links = []
+    if docs_match:
+        direct_link = docs_match.group(1).strip()
+        all_links.append(direct_link)
+        # Parse individual document bullets
+        doc_list = docs_match.group(2)
+        bullets = re.findall(r'\[.+\]\((http[s]?://.+)\)', doc_list)
+        all_links.extend(bullets)
+
+    data['Documents / Links'] = "\n".join(list(set(all_links)))
 
     fields = {
         'Tender Number': r'-\s+\*\*Tender Number\*\*:\s*(.+)$',
         'Institution': r'-\s+\*\*Institution\*\*:\s*(.+)$',
         'Type': r'-\s+\*\*Tender Type\*\*:\s*(.+)$',
         'Closing Date': r'-\s+\*\*Closing Date\*\*:\s*(.+)$',
-        'Applying Link': r'-\s+\*\*Applying Link\*\*:\s*(.+)$',
         'Status': r'-\s+\*\*Status\*\*:\s*(.+)$'
     }
     for label, pattern in fields.items():
@@ -139,6 +154,83 @@ def parse_tender_markdown(md_content):
 def clean_filename(name):
     """Sanitizes names for Excel sheet constraints."""
     return re.sub(r'[\\/*?:\[\]]', '', name)
+
+def create_pdf_report(df, output_path, title, header_color):
+    """Generates a landscape PDF version of the report with fixed column widths."""
+    doc = SimpleDocTemplate(
+        str(output_path),
+        pagesize=landscape(A4),
+        rightMargin=20, leftMargin=20, topMargin=20, bottomMargin=20
+    )
+    elements = []
+    styles = getSampleStyleSheet()
+
+    # Title
+    elements.append(Paragraph(f"<b>{title}</b>", styles['Title']))
+    elements.append(Spacer(1, 12))
+
+    # Prepare Data
+    data = [df.columns.tolist()] + df.values.tolist()
+
+    # Intelligent Wrapping & Column Width Calculation
+    available_width = landscape(A4)[0] - 40 # Total width minus margins
+    num_cols = len(df.columns)
+
+    # Default column widths
+    col_widths = [available_width / num_cols] * num_cols
+
+    # Specific adjustments if known columns exist
+    if 'Description' in df.columns:
+        desc_idx = df.columns.get_loc('Description')
+        col_widths[desc_idx] *= 2 # Double width for description
+        # Shrink others to compensate
+        remaining = available_width - col_widths[desc_idx]
+        other_width = remaining / (num_cols - 1)
+        for i in range(num_cols):
+            if i != desc_idx: col_widths[i] = other_width
+
+    if 'Tender Description' in df.columns:
+        desc_idx = df.columns.get_loc('Tender Description')
+        col_widths[desc_idx] *= 2
+        remaining = available_width - col_widths[desc_idx]
+        other_width = remaining / (num_cols - 1)
+        for i in range(num_cols):
+            if i != desc_idx: col_widths[i] = other_width
+
+    wrapped_data = []
+    style_n = styles['Normal']
+    style_n.fontSize = 7
+    style_n.leading = 9
+
+    for row in data:
+        wrapped_row = []
+        for cell in row:
+            content = str(cell).replace('\n', '<br/>')
+            # Limit very long text to prevent layout overflow
+            if len(content) > 2000:
+                content = content[:1997] + "..."
+            wrapped_row.append(Paragraph(content, style_n))
+        wrapped_data.append(wrapped_row)
+
+    t = Table(wrapped_data, colWidths=col_widths, repeatRows=1)
+
+    # Style Table
+    t.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor(f"#{header_color}")),
+        ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+        ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
+        ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+        ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+        ('GRID', (0, 0), (-1, -1), 0.5, colors.grey),
+        ('FONTSIZE', (0, 0), (-1, -1), 7),
+    ]))
+
+    elements.append(t)
+    try:
+        doc.build(elements)
+    except Exception as e:
+        print(f"⚠️ PDF build failed for {title}: {e}")
 
 def sync_md_to_excel():
     equity_dir = Path('01_equity')
@@ -181,22 +273,35 @@ def sync_md_to_excel():
                 african_keywords = ['africa', 'kenya', 'nigeria', 'egypt', 'ghana', 'ethiopia', 'rwanda', 'uganda']
                 return any(kw in val for kw in african_keywords)
 
+            # CLEANUP: Remove Source/Verification for published files
+            cols_to_drop = ['Source', 'Source / Verification', 'Status', 'Last Verified', 'Verification Status']
+            full_equity_pub = full_equity.drop(columns=[c for c in cols_to_drop if c in full_equity.columns])
+
             # SAVE EQUITY GLOBAL
-            with pd.ExcelWriter(str(pub_dir / '01_Equity_Global.xlsx'), engine='openpyxl') as writer:
-                full_equity.to_excel(writer, sheet_name='Global_Funders', index=False)
+            excel_path = pub_dir / '01_Equity_Global.xlsx'
+            pdf_path = pub_dir / '01_Equity_Global.pdf'
+            with pd.ExcelWriter(str(excel_path), engine='openpyxl') as writer:
+                full_equity_pub.to_excel(writer, sheet_name='Global_Funders', index=False)
                 apply_premium_style(writer, 'Global_Funders', INDIGO_HEADER)
+            create_pdf_report(full_equity_pub, pdf_path, "Global Equity Funders", INDIGO_HEADER)
                 
             # SAVE EQUITY SOUTH AFRICA
-            df_sa = full_equity[full_equity.apply(is_sa, axis=1)]
-            with pd.ExcelWriter(str(pub_dir / '01_Equity_SouthAfrica.xlsx'), engine='openpyxl') as writer:
+            df_sa = full_equity_pub[full_equity.apply(is_sa, axis=1)] # Filter using original for correct data
+            excel_sa = pub_dir / '01_Equity_SouthAfrica.xlsx'
+            pdf_sa = pub_dir / '01_Equity_SouthAfrica.pdf'
+            with pd.ExcelWriter(str(excel_sa), engine='openpyxl') as writer:
                 df_sa.to_excel(writer, sheet_name='SA_Focus', index=False)
                 apply_premium_style(writer, 'SA_Focus', INDIGO_HEADER)
+            create_pdf_report(df_sa, pdf_sa, "South Africa Focused Funders", INDIGO_HEADER)
                 
             # SAVE EQUITY AFRICA
-            df_africa = full_equity[full_equity.apply(is_africa, axis=1)]
-            with pd.ExcelWriter(str(pub_dir / '01_Equity_Africa.xlsx'), engine='openpyxl') as writer:
+            df_africa = full_equity_pub[full_equity.apply(is_africa, axis=1)]
+            excel_af = pub_dir / '01_Equity_Africa.xlsx'
+            pdf_af = pub_dir / '01_Equity_Africa.pdf'
+            with pd.ExcelWriter(str(excel_af), engine='openpyxl') as writer:
                 df_africa.to_excel(writer, sheet_name='Africa_Focus', index=False)
                 apply_premium_style(writer, 'Africa_Focus', INDIGO_HEADER)
+            create_pdf_report(df_africa, pdf_af, "Africa Focused Funders", INDIGO_HEADER)
 
     # --- 2. PROCESS GRANTS ---
     if grants_dir.exists():
@@ -213,9 +318,15 @@ def sync_md_to_excel():
         
         if active_grants:
             df_grants = pd.DataFrame(active_grants)
-            with pd.ExcelWriter(str(pub_dir / '02_Grants_Active.xlsx'), engine='openpyxl') as writer:
-                df_grants.to_excel(writer, sheet_name='Active_Grants', index=False)
+            cols_to_drop = ['Source', 'Status', 'Verification Status', 'Last Verified']
+            df_grants_pub = df_grants.drop(columns=[c for c in cols_to_drop if c in df_grants.columns])
+
+            excel_gr = pub_dir / '02_Grants_Active.xlsx'
+            pdf_gr = pub_dir / '02_Grants_Active.pdf'
+            with pd.ExcelWriter(str(excel_gr), engine='openpyxl') as writer:
+                df_grants_pub.to_excel(writer, sheet_name='Active_Grants', index=False)
                 apply_premium_style(writer, 'Active_Grants', EMERALD_HEADER)
+            create_pdf_report(df_grants_pub, pdf_gr, "Active Grant Opportunities", EMERALD_HEADER)
 
     # --- 3. PROCESS TENDERS ---
     if tenders_dir.exists():
@@ -230,12 +341,19 @@ def sync_md_to_excel():
         
         if all_tenders:
             df_tenders = pd.DataFrame(all_tenders)
-            with pd.ExcelWriter(str(pub_dir / '03_Tenders_Master.xlsx'), engine='openpyxl') as writer:
-                # Group by category and save each as a sheet
-                for category, group in df_tenders.groupby('Category'):
-                    sheet_name = clean_filename(category)[:31] # Excel limit
+            # Remove status before export
+            df_tenders_pub = df_tenders.drop(columns=['Status']) if 'Status' in df_tenders.columns else df_tenders
+
+            excel_tn = pub_dir / '03_Tenders_Master.xlsx'
+            pdf_tn = pub_dir / '03_Tenders_Master.pdf'
+
+            with pd.ExcelWriter(str(excel_tn), engine='openpyxl') as writer:
+                for category, group in df_tenders_pub.groupby('Category'):
+                    sheet_name = clean_filename(category)[:31]
                     group.to_excel(writer, sheet_name=sheet_name, index=False)
                     apply_premium_style(writer, sheet_name, RUBY_HEADER)
+
+            create_pdf_report(df_tenders_pub, pdf_tn, "Master Tender Registry", RUBY_HEADER)
 
     print("Premium Registry Expansion Complete.")
 

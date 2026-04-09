@@ -49,6 +49,13 @@ def fetch_and_sync_tenders(page_limit=5, days_back=7):
                 # RULE: OCID-Stable Filenames
                 filename = f"{ocid}.md"
                 file_path = TENDER_DIR / filename
+
+                # PRESERVE VERIFIED DATA: Don't overwrite if manually verified
+                if file_path.exists():
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        if "Verification Status: VERIFIED" in f.read() or "Status: VERIFIED" in f.read():
+                            print(f"⏩ Skipping {ocid} (Already Verified)")
+                            continue
                 
                 markdown_content = generate_markdown_from_ocds(release)
                 with open(file_path, 'w', encoding='utf-8') as f:
@@ -116,12 +123,12 @@ def generate_markdown_from_ocds(release):
         docs_md = "    - No documents listed in API.\n"
 
     # 5. Direct Link Logic
-    # Use first document URL as applying link if available, fallback to portal
+    # Use first document URL as direct link if available, fallback to portal
     docs = tender.get('documents', [])
     if docs and docs[0].get('url'):
-        applying_link = docs[0].get('url')
+        direct_link = docs[0].get('url')
     else:
-        applying_link = "https://www.etenders.gov.za/Home/opportunities?id=1"
+        direct_link = "https://www.etenders.gov.za/Home/opportunities?id=1"
 
     # Assemble Markdown
     md = f"""# Tender Opportunity: {title}
@@ -157,7 +164,7 @@ def generate_markdown_from_ocds(release):
 - **Telephone**: {c_tel}
 
 ## Documents & Links
-- **Applying Link**: {applying_link}
+- **Direct Link**: {direct_link}
 - **Tender Documents**:
 {docs_md}
 
