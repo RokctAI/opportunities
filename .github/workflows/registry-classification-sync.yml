@@ -1,0 +1,34 @@
+name: "Registry: Update Classifications"
+on:
+  schedule:
+    - cron: '0 0 * * 2' # Every Tuesday at midnight
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install python-dotenv pycryptodome
+      - name: Update Classifications
+        run: python .rokct/skills/agent_delegation/scripts/update_classifications.py
+      - name: Privacy Sync
+        env:
+          EMAIL_ENCRYPTION_KEY: ${{ secrets.EMAIL_ENCRYPTION_KEY }}
+        run: python .rokct/skills/agent_delegation/scripts/privacy_sync.py
+      - name: Commit Updates
+        run: |
+          git config --global user.name "google-labs-jules[bot]"
+          git config --global user.email "161369871+google-labs-jules[bot]@users.noreply.github.com"
+          git add .rokct/config/classifications/*.txt .rokct/recipients/*.md
+          if git diff --staged --quiet; then
+            echo "No updates."
+          else
+            git commit -m "chore: sync classifications and anonymize recipients [skip ci]"
+            git push origin main
+          fi

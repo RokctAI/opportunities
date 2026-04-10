@@ -1,5 +1,16 @@
 # RokctAI Opportunities Registry
 
+## 🚀 Registry Status Dashboard
+*Last Updated: 2026-04-09 11:42*
+
+| Registry | Total | New (7d) | Verified | Health |
+| :--- | :--- | :--- | :--- | :--- |
+| 🏦 **Equity** | 4 | 4 | 0 | 🟡 |
+| 📜 **Grants** | 14 | 14 | 14 | 🟢 |
+| 🏗️ **Tenders** | 0 | 0 | 0 | 🟢 |
+
+**Overall Progress**: `77.8%` Verified | `+18` New Opportunities This Week
+
 This repository serves as a centralized hub for tracking and managing various opportunities within the RokctAI ecosystem, including Equity investments, Grants, and Tenders.
 
 ## Repository Structure
@@ -26,6 +37,12 @@ The repository uses GitHub Actions to automate several tasks:
 -   **Adding Equity Leads**: Update the table in `01_equity/funders.md`.
 -   **Adding Grants**: Create a new `.md` file in `02_grants/` using `02_grants/template.md` as a guide.
 -   **Verifying Data**: Ensure that entries have a `Status: ACTIVE` or are otherwise marked as verified to be included in the public exports.
+
+### 🔐 Privacy Protection
+This repository enforces strict PII (Personally Identifiable Information) protection for all recipient cards.
+- **Enforcement**: CI will fail if raw emails or human-readable names are found in `.rokct/recipients/`.
+- **Local Fix**: Run `python .rokct/skills/agent_delegation/scripts/privacy_sync.py` to anonymize your card before committing.
+- **Pre-commit**: We recommend installing pre-commit hooks (`pre-commit install`) to handle this automatically.
 
 ## Technical Details
 

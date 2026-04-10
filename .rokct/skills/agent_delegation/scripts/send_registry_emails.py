@@ -9,19 +9,42 @@ from email.mime.application import MIMEApplication
 from pathlib import Path
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
+from crypto_utils import decrypt_email
 
 def send_registry_emails():
-    load_dotenv('.env/production.env')
+    # Robust Path & Env Handling
+    # We calculate the root directory by climbing up from this script's location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
+    env_path = os.path.join(project_root, ".env", "production.env")
+
+    if os.path.exists(env_path):
+        load_dotenv(env_path)
+        # Aggressive Manual Fallback for Monorepo-fetched files
+        required_keys = ['SMTP_SERVER', 'SMTP_PORT', 'SMTP_USERNAME', 'SMTP_PASSWORD']
+        if not all(os.environ.get(k) for k in required_keys):
+            with open(env_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if "=" in line and not line.startswith("#"):
+                        key, val = line.replace("export ", "").strip().split("=", 1)
+                        os.environ[key.strip()] = val.strip("'\" ")
+    else:
+        load_dotenv()
     
     smtp_server = os.getenv('SMTP_SERVER')
     smtp_port = os.getenv('SMTP_PORT')
     smtp_user = os.getenv('SMTP_USERNAME')
     smtp_pass = os.getenv('SMTP_PASSWORD')
+    encryption_key = os.getenv('EMAIL_ENCRYPTION_KEY')
+
+    if not encryption_key:
+        print("❌ EMAIL_ENCRYPTION_KEY not found. Cannot send emails.")
+        return
     
-    recipient_file = Path('.rokct/config/registry_recipients.txt')
-    published_dir = Path('published')
+    recipient_dir = Path(project_root) / '.rokct' / 'recipients'
+    published_dir = Path(project_root) / 'published'
     
-    if not recipient_file.exists():
+    if not recipient_dir.exists():
         print("No recipients found. Skipping.")
         return
 
@@ -29,26 +52,47 @@ def send_registry_emails():
     now = datetime.now()
     week_ago = now - timedelta(days=7)
     
+    # We still fetch the main files
     updates = {
         'Equity': [f for f in published_dir.glob('01_Equity_*.xlsx') if datetime.fromtimestamp(f.stat().st_mtime) > week_ago],
         'Grants': [f for f in published_dir.glob('02_Grants_*.xlsx') if datetime.fromtimestamp(f.stat().st_mtime) > week_ago],
         'Tenders': [f for f in published_dir.glob('03_Tenders_*.xlsx') if datetime.fromtimestamp(f.stat().st_mtime) > week_ago]
     }
 
-    with open(recipient_file, 'r') as f:
-        for line in f:
-            if '|' not in line: continue
-            email, cats_str = [x.strip() for x in line.split('|')]
-            cats = [x.strip() for x in cats_str.split(',')]
+    # For Privacy/Monorepo setup: Real emails are stored in Monorepo secrets or a secure database.
+    # In this workflow, we assume the PR process handles the actual mapping or use a lookup.
+    # RULE: For this implementation, we will look for an unhashed backup or a mapping file.
+    # Since we Redacted them for safety, the actual sending requires the real email list
+    # which should be in MONOREPO_PAT secured storage.
+
+    # MOCK MAPPING (In production, this would be fetched from Monorepo Secrets)
+    email_mapping = {}
+
+    for card in recipient_dir.glob('*.md'):
+        with open(card, 'r') as f:
+            content = f.read()
             
-            attachments = []
-            for cat in cats:
-                if cat in updates:
-                    attachments.extend(updates[cat])
+        # Parse Subscriptions
+        attachments = []
+        if "### Tenders\n- **Subscribed**: Yes" in content:
+            attachments.extend(updates['Tenders'])
+        if "### Grants\n- **Subscribed**: Yes" in content:
+            attachments.extend(updates['Grants'])
+        if "### Equity\n- **Subscribed**: Yes" in content:
+            attachments.extend(updates['Equity'])
             
-            if attachments:
-                send_email(email, attachments, smtp_server, smtp_port, smtp_user, smtp_pass)
-                print(f"✅ Sent weekly update to {email} ({len(attachments)} files)")
+        # REVERSIBLE PRIVACY: Decrypt the stored email blob
+        email_encrypted_match = re.search(r'-\s+\*\*email_encrypted\*\*:\s*(.+)$', content, re.MULTILINE)
+
+        if email_encrypted_match:
+            encrypted_blob = email_encrypted_match.group(1).strip()
+            try:
+                real_email = decrypt_email(encrypted_blob, encryption_key)
+                if attachments:
+                    send_email(real_email, attachments, smtp_server, smtp_port, smtp_user, smtp_pass)
+                    print(f"✅ Sent weekly update to REDACTED_USER ({card.name})")
+            except Exception as e:
+                print(f"❌ Failed to decrypt email for {card.name}: {e}")
 
 def send_email(to_email, files, server, port, user, password):
     msg = MIMEMultipart()

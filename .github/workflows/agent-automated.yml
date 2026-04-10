@@ -27,7 +27,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 20 * * *' # 10 PM SAST / 8 PM UTC Daily
+    - cron: '0 20 * * 1' # 10 PM SAST / 8 PM UTC Every Monday
   workflow_dispatch:
 
 concurrency:
