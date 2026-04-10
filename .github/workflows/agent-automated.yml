@@ -70,7 +70,7 @@ jobs:
         run: |
           # 1. Determine which files to check
           if [ "${{ github.event_name }}" == "push" ]; then
-            FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep '.rokct/agent/queue/.*.json' || true)
+            FILES=$(git diff --name-only "${{ github.event.before }}" "${{ github.event.after }}" | grep '.rokct/agent/queue/.*.json' || true)
           else
             FILES=$(ls .rokct/agent/queue/*.json || true)
           fi
@@ -90,13 +90,15 @@ jobs:
             
             # Check for scheduled_at
             SCHEDULED_AT=$(jq -r '.scheduled_at // empty' "$FILE")
-            if [ ! -z "$SCHEDULED_AT" ] && [[ "$CURRENT_TIME" < "$SCHEDULED_AT" ]]; then
+            # FIX: Use -n instead of ! -z for shellcheck compliance
+            if [ -n "$SCHEDULED_AT" ] && [[ "$CURRENT_TIME" < "$SCHEDULED_AT" ]]; then
               echo "⏳ Task is scheduled for $SCHEDULED_AT. Skipping (Current: $CURRENT_TIME)."
               continue
             fi
 
             # New: "Immediate" check for initial push
             IMMEDIATE=$(jq -r '.immediate // "true"' "$FILE")
+            # FIX: Use -n instead of ! -z for shellcheck compliance
             if [ -z "$SCHEDULED_AT" ] && [ "$IMMEDIATE" == "false" ]; then
                echo "🕒 Task marked as immediate:false with no schedule. Setting first run to tonight (20:00 UTC)."
                jq --arg next "$(date -u -d "20:00" +"%Y-%m-%dT%H:%M:%SZ")" '.scheduled_at = $next' "$FILE" > tmp.json && mv tmp.json "$FILE"
