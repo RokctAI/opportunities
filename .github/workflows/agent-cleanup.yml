@@ -33,11 +33,13 @@ jobs:
       
       - name: Extract Session ID
         id: extract_id
+        env:
+          # Use env to prevent injection from branch names
+          BRANCH_NAME: ${{ github.event.pull_request.head.ref }}
         run: |
-          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
-          if [[ $BRANCH_NAME =~ ([0-9]{18,20}) ]]; then
+          if [[ "$BRANCH_NAME" =~ ([0-9]{18,20}) ]]; then
             SESSION_ID="${BASH_REMATCH[1]}"
-            echo "session_id=$SESSION_ID" >> $GITHUB_OUTPUT
+            echo "session_id=$SESSION_ID" >> "$GITHUB_OUTPUT"
             echo "✅ Found Agent Session ID: $SESSION_ID"
           else
             echo "ℹ️ No Agent Session ID in branch: $BRANCH_NAME"
@@ -48,23 +50,23 @@ jobs:
         if: steps.extract_id.outputs.session_id != ''
         env:
           AGENT_API_KEY: ${{ secrets.JULES_API_KEY }}
+          # Double quote variables to prevent globbing/splitting
+          SESSION_ID: ${{ steps.extract_id.outputs.session_id }}
         run: |
           python .rokct/skills/agent_delegation/scripts/delegate_to_agent.py delete \
-            --id "${{ steps.extract_id.outputs.session_id }}"
+            --id "$SESSION_ID"
 
       - name: Sync to Monorepo Memory
         if: steps.extract_id.outputs.session_id != ''
+        env:
+          # Use env to prevent injection from PR titles/URLs
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
         run: |
           # Logic to append PR title and link to memory.md
-          PR_TITLE="${{ github.event.pull_request.title }}"
-          PR_URL="${{ github.event.pull_request.html_url }}"
           DATE=$(date +'%Y-%m-%d')
           
           echo "* **[$DATE]** - Completed Agent Task: $PR_TITLE ($PR_URL)" >> .rokct/memory.md
-          
-          # Move task from queue to completed if it exists
-          # (Note: In actual multi-repo setups, this would require cross-repo file checks)
-          # For now, we log the success.
           
       - name: Commit Knowledge Updates
         if: steps.extract_id.outputs.session_id != ''
