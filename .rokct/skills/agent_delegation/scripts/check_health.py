@@ -9,32 +9,32 @@ from pathlib import Path
 def check_link_health():
     """Scans Equity, Grants, and Tenders for broken links."""
     print("🔍 Starting Global Registry Link Health Check...")
-
+    
     # Target all three registries
     directories = [Path('01_equity'), Path('02_grants'), Path('03_tenders')]
     broken_count = 0
     checked_count = 0
-
+    
     for directory in directories:
         if not directory.exists(): continue
         print(f"📂 Auditing {directory.name}...")
-
+        
         for md_file in directory.glob('*.md'):
             if md_file.name in ['template.md', 'registry_audit_log.md', 'global_audit_log.md']:
                 continue
-
+            
             with open(md_file, 'r', encoding='utf-8') as f:
                 content = f.read()
-
+            
             # Pattern to find URLs in markdown links [text](url) or standing alone
             links = re.findall(r'\(https?://[^\s\)]+\)|https?://[^\s\n\)]+', content)
-
+            
             file_broken = False
             for link in links:
                 url = link.strip('() ')
                 # Skip known dynamic download patterns if needed
-                if "etenders.gov.za/home/Download" in url: continue
-
+                if "etenders.gov.za/home/Download" in url: continue 
+                
                 checked_count += 1
                 try:
                     # Use a short timeout and allow redirects
@@ -45,12 +45,12 @@ def check_link_health():
                         file_broken = True
                         broken_count += 1
                 except:
-                    # Connection errors are often temporary or firewall blocks,
+                    # Connection errors are often temporary or firewall blocks, 
                     # but we flag for steward review.
                     print(f"⚠️ Connection Error in {md_file.name}: {url}")
                     file_broken = True
                     broken_count += 1
-
+            
             if file_broken:
                 # Mark status as BROKEN in the file if not already marked
                 if "Status: BROKEN" not in content and "Verification Status: BROKEN" not in content:

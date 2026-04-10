@@ -9,10 +9,10 @@ from pathlib import Path
 def update_classifications():
     """Generates classification reference files for recipients."""
     print("🏷️ Updating Registry Classifications...")
-
+    
     config_dir = Path('.rokct/config/classifications')
     config_dir.mkdir(parents=True, exist_ok=True)
-
+    
     # 1. EQUITY
     equity_dir = Path('01_equity')
     industries = set()
@@ -27,7 +27,7 @@ def update_classifications():
                     if len(parts) > 8:
                         territories.add(parts[7])
                         industries.add(parts[8])
-
+    
     save_list(config_dir / 'equity_industries.txt', industries)
     save_list(config_dir / 'equity_territories.txt', territories)
 
@@ -41,7 +41,7 @@ def update_classifications():
             if match:
                 areas = [a.strip() for a in match.group(1).split(',')]
                 focus_areas.update(areas)
-
+    
     save_list(config_dir / 'grants_focus_areas.txt', focus_areas)
 
     # 3. TENDERS
@@ -55,10 +55,10 @@ def update_classifications():
             text = content.read()
             cat_match = re.search(r'### Category\s*\n\s*(.+)', text)
             if cat_match: categories.add(cat_match.group(1).strip())
-
+            
             inst_match = re.search(r'-\s+\*\*Institution\*\*:\s*(.+)$', text, re.MULTILINE)
             if inst_match: institutions.add(inst_match.group(1).strip())
-
+            
             type_match = re.search(r'-\s+\*\*Tender Type\*\*:\s*(.+)$', text, re.MULTILINE)
             if type_match: types.add(type_match.group(1).strip())
 

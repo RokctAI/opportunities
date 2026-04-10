@@ -79,7 +79,7 @@ def apply_premium_style(writer, sheet_name, header_color):
                     max_length = len(val)
             except:
                 pass
-
+        
         # Enable wrapping for multiline cells (like descriptions and multi-links)
         if is_multiline:
             for cell in worksheet[column]:
@@ -87,7 +87,7 @@ def apply_premium_style(writer, sheet_name, header_color):
             adjusted_width = 40
         else:
             adjusted_width = min(max_length + 2, 50)
-
+            
         worksheet.column_dimensions[column].width = adjusted_width
 
 def parse_markdown_table(md_content):
@@ -166,7 +166,7 @@ def parse_tender_markdown(md_content):
         doc_list = docs_match.group(2)
         bullets = re.findall(r'\[.+\]\((http[s]?://.+)\)', doc_list)
         all_links.extend(bullets)
-
+    
     data['Documents / Links'] = "\n".join(list(set(all_links)))
 
     fields = {
@@ -188,27 +188,27 @@ def clean_filename(name):
 def create_pdf_report(df, output_path, title, header_color):
     """Generates a landscape PDF version of the report with fixed column widths."""
     doc = SimpleDocTemplate(
-        str(output_path),
+        str(output_path), 
         pagesize=landscape(A4),
         rightMargin=20, leftMargin=20, topMargin=20, bottomMargin=20
     )
     elements = []
     styles = getSampleStyleSheet()
-
+    
     # Title
     elements.append(Paragraph(f"<b>{title}</b>", styles['Title']))
     elements.append(Spacer(1, 12))
-
+    
     # Prepare Data
     data = [df.columns.tolist()] + df.values.tolist()
-
+    
     # Intelligent Wrapping & Column Width Calculation
     available_width = landscape(A4)[0] - 40 # Total width minus margins
     num_cols = len(df.columns)
-
+    
     # Default column widths
     col_widths = [available_width / num_cols] * num_cols
-
+    
     # Specific adjustments if known columns exist
     if 'Description' in df.columns:
         desc_idx = df.columns.get_loc('Description')
@@ -241,9 +241,9 @@ def create_pdf_report(df, output_path, title, header_color):
                 content = content[:1997] + "..."
             wrapped_row.append(Paragraph(content, style_n))
         wrapped_data.append(wrapped_row)
-
+        
     t = Table(wrapped_data, colWidths=col_widths, repeatRows=1)
-
+    
     # Style Table
     t.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor(f"#{header_color}")),
@@ -255,7 +255,7 @@ def create_pdf_report(df, output_path, title, header_color):
         ('GRID', (0, 0), (-1, -1), 0.5, colors.grey),
         ('FONTSIZE', (0, 0), (-1, -1), 7),
     ]))
-
+    
     elements.append(t)
     try:
         doc.build(elements)
@@ -376,13 +376,13 @@ def sync_md_to_excel():
 
             excel_tn = pub_dir / '03_Tenders_Master.xlsx'
             pdf_tn = pub_dir / '03_Tenders_Master.pdf'
-
+            
             with pd.ExcelWriter(str(excel_tn), engine='openpyxl') as writer:
                 for category, group in df_tenders_pub.groupby('Category'):
                     sheet_name = clean_filename(category)[:31]
                     group.to_excel(writer, sheet_name=sheet_name, index=False)
                     apply_premium_style(writer, sheet_name, RUBY_HEADER)
-
+            
             create_pdf_report(df_tenders_pub, pdf_tn, "Master Tender Registry", RUBY_HEADER)
 
     print("Premium Registry Expansion Complete.")

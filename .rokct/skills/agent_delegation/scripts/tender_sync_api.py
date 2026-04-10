@@ -74,7 +74,7 @@ def fetch_and_sync_tenders(page_limit=5, days_back=7):
                 for existing_file in TENDER_DIR.glob('*.md'):
                     if existing_file.name == 'template.md': continue
                     if existing_file.stem == ocid: continue # Same ID is fine, handled by overwrite logic
-
+                    
                     with open(existing_file, 'r', encoding='utf-8') as ef:
                         first_line = ef.readline()
                         if title.lower() in first_line.lower():
@@ -85,7 +85,7 @@ def fetch_and_sync_tenders(page_limit=5, days_back=7):
                                 print(f"👯 Skipping {ocid} - Potential Duplicate of {existing_file.name} ({similarity:.1%})")
                                 is_duplicate = True
                                 break
-
+                
                 if is_duplicate: continue
 
                 # RULE: OCID-Stable Filenames
@@ -253,14 +253,14 @@ def purge_expired_grants():
     print("Running self-cleaning audit for expired grants...")
     now = datetime.now()
     count = 0
-
+    
     if not GRANT_DIR.exists():
         return
 
     for md_file in GRANT_DIR.glob('*.md'):
         if md_file.name == 'template.md':
             continue
-
+            
         # Format: YYYY-MM-DD_Grant_Name.md
         match = re.match(r'^(\d{4}-\d{2}-\d{2})_', md_file.name)
         if match:
@@ -273,7 +273,7 @@ def purge_expired_grants():
                     count += 1
             except Exception as e:
                 print(f"⚠️ Could not parse date for {md_file.name}: {e}")
-
+                
     print(f"✅ Grant cleanup complete. Removed {count} expired grants.")
 
 if __name__ == "__main__":

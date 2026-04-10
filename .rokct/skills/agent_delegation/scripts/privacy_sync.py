@@ -26,7 +26,7 @@ def load_key():
             for line in f:
                 if "EMAIL_ENCRYPTION_KEY=" in line:
                     return line.replace("export ", "").strip().split("=", 1)[1].strip("'\" ")
-
+    
     return os.getenv('EMAIL_ENCRYPTION_KEY')
 
 def process_privacy(check_only=False):
@@ -41,7 +41,7 @@ def process_privacy(check_only=False):
 
     violations = []
     processed_count = 0
-
+    
     print(f"🔐 {'Checking' if check_only else 'Applying'} Recipient Encryption Privacy...")
 
     for card_file in REC_DIR.glob('*.md'):
@@ -54,7 +54,7 @@ def process_privacy(check_only=False):
         # Find raw email in content that isn't [REDACTED] or the template example
         found_emails = re.findall(EMAIL_REGEX, content)
         has_plaintext_email = any(e for e in found_emails if e.lower() != "email@example.com")
-
+        
         # Check if filename is anonymous user_<hash>.md
         is_anonymous_filename = bool(re.match(r'^user_[a-f0-9]{12}\.md$', filename))
 
@@ -62,42 +62,42 @@ def process_privacy(check_only=False):
             if check_only:
                 violations.append(f"❌ Unencrypted PII in: {filename}")
                 continue
-
+            
             # 2. Encryption Logic
             email_match = re.search(r'-\s+\*\*Email\*\*:\s*(.+)$', content, re.MULTILINE)
             name_match = re.search(r'-\s+\*\*Full Name\*\*:\s*(.+)$', content, re.MULTILINE)
-
+            
             if not email_match or not name_match:
                 print(f"⚠️ Skipping {filename}: Missing mandatory Email or Full Name fields.")
                 continue
-
+                
             email = email_match.group(1).strip()
             full_name = name_match.group(1).strip()
-
+            
             if email == "email@example.com": continue
 
             # Encrypt
             encrypted_blob = encrypt_email(email, encryption_key)
-
+            
             # Generate anonymous identifier for filename
             display_hash = hashlib.sha256(email.lower().strip().encode()).hexdigest()[:12]
             sub_id = hashlib.sha256(f"{full_name}{email}".encode()).hexdigest()[:16]
-
+            
             # Update Content
             new_content = content.replace(f"Full Name**: {full_name}", f"Full Name**: [REDACTED]")
             new_content = new_content.replace(f"Email**: {email}", f"Email**: [REDACTED]\n- **email_encrypted**: {encrypted_blob}")
             new_content = new_content.replace(f"Subscription ID**: [Leave blank, will be hashed]", f"Subscription ID**: {sub_id}")
-
+            
             # Anonymize File
             new_filename = f"user_{display_hash}.md"
             new_path = REC_DIR / new_filename
-
+            
             with open(new_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
-
+            
             if filename != new_filename:
                 os.remove(card_file)
-
+            
             print(f"🔒 Encrypted & Anonymized: {filename} -> {new_filename}")
             processed_count += 1
 
@@ -109,7 +109,7 @@ def process_privacy(check_only=False):
             return False
         print("✅ Privacy check passed. All emails are encrypted.")
         return True
-
+    
     print(f"✅ Encryption sync complete. {processed_count} files secured.")
     return True
 
@@ -117,7 +117,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Enforce encryption-based privacy.")
     parser.add_argument("--check", action="store_true", help="Check for plaintext without modifying.")
     args = parser.parse_args()
-
+    
     success = process_privacy(check_only=args.check)
     if not success:
         sys.exit(1)

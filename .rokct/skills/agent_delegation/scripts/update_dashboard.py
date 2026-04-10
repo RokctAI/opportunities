@@ -9,10 +9,10 @@ from datetime import datetime, timedelta
 def update_readme_stats():
     """Calculates registry stats and updates the main README.md."""
     print("📊 Updating README Statistics Dashboard...")
-
+    
     project_root = Path(__file__).parent.parent.parent.parent.parent
     readme_path = project_root / 'README.md'
-
+    
     if not readme_path.exists():
         print("❌ README.md not found.")
         return
@@ -23,27 +23,27 @@ def update_readme_stats():
         'Grants': {'total': 0, 'verified': 0, 'new': 0},
         'Tenders': {'total': 0, 'verified': 0, 'new': 0}
     }
-
+    
     dirs = {
         'Equity': Path('01_equity'),
         'Grants': Path('02_grants'),
         'Tenders': Path('03_tenders')
     }
-
+    
     week_ago = datetime.now() - timedelta(days=7)
-
+    
     for cat, directory in dirs.items():
         if not directory.exists(): continue
-
+        
         for f in directory.glob('*.md'):
             if f.name in ['template.md', 'registry_audit_log.md', 'global_audit_log.md']: continue
-
+            
             stats[cat]['total'] += 1
             with open(f, 'r', encoding='utf-8') as content:
                 text = content.read()
                 if "VERIFIED" in text:
                     stats[cat]['verified'] += 1
-
+            
             if datetime.fromtimestamp(f.stat().st_mtime) > week_ago:
                 stats[cat]['new'] += 1
 
@@ -52,7 +52,7 @@ def update_readme_stats():
     total_verified = sum(s['verified'] for s in stats.values())
     total_new = sum(s['new'] for s in stats.values())
     verify_pct = (total_verified / total_opps * 100) if total_opps > 0 else 0
-
+    
     dashboard = f"""
 ## 🚀 Registry Status Dashboard
 *Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}*
@@ -89,7 +89,7 @@ def update_readme_stats():
 
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(new_content)
-
+    
     print("✅ README Dashboard Updated.")
 
 if __name__ == "__main__":

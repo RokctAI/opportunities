@@ -42,7 +42,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: pip install requests python-dotenv pycryptodome
 
       - name: Run Tender Sync
         run: python .rokct/skills/agent_delegation/scripts/tender_sync_api.py

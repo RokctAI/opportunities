@@ -62,11 +62,11 @@ def send_registry_emails():
     # For Privacy/Monorepo setup: Real emails are stored in Monorepo secrets or a secure database.
     # In this workflow, we assume the PR process handles the actual mapping or use a lookup.
     # RULE: For this implementation, we will look for an unhashed backup or a mapping file.
-    # Since we Redacted them for safety, the actual sending requires the real email list
+    # Since we Redacted them for safety, the actual sending requires the real email list 
     # which should be in MONOREPO_PAT secured storage.
-
+    
     # MOCK MAPPING (In production, this would be fetched from Monorepo Secrets)
-    email_mapping = {}
+    email_mapping = {} 
 
     for card in recipient_dir.glob('*.md'):
         with open(card, 'r') as f:
@@ -83,7 +83,7 @@ def send_registry_emails():
             
         # REVERSIBLE PRIVACY: Decrypt the stored email blob
         email_encrypted_match = re.search(r'-\s+\*\*email_encrypted\*\*:\s*(.+)$', content, re.MULTILINE)
-
+        
         if email_encrypted_match:
             encrypted_blob = email_encrypted_match.group(1).strip()
             try:
