@@ -16,6 +16,12 @@
 ### Tender Description
 [Full description of the requirement]
 
+### AI Analysis: Compliance & Requirements
+<!-- This section is populated by Jules after document analysis -->
+- **Mandatory Requirements**: [e.g., B-BBEE Level 1, ISO 9001]
+- **Key Deliverables**: [Brief list of what needs to be done]
+- **Technical Specs**: [Crucial technical details]
+
 ### Special Conditions
 [List of special conditions, downloading instructions, etc.]
 
@@ -31,7 +37,7 @@
 - **Telephone**: [Number]
 
 ## Documents & Links
-- **Applying Link**: [Direct URL to Tender Portal]
+- **Direct Link**: [Direct URL to Tender Portal or First Document]
 - **Tender Documents**:
     - [File Name] (Uploaded: [Date])
 
@@ -41,5 +47,6 @@
 
 ## AI Checklist (Jules)
 <!-- This section is populated by Jules during enrichment. Format: - [ ] Subject | Due Date Offset (Days) -->
-- [ ] Review Tender Documents | 1
-- [ ] Prepare Initial Response | 3
+- [ ] Analyze Tender Documents for specific requirements | 1
+- [ ] Identify Mandatory Compliance items | 2
+- [ ] Prepare Initial Response Proposal | 3

@@ -38,7 +38,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install python-dotenv
+        run: pip install python-dotenv pycryptodome
 
       - name: Fetch Production Environment from Monorepo
         env:

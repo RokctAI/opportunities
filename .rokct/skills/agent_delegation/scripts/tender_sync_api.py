@@ -4,25 +4,49 @@
 import os
 import requests
 import re
-from datetime import datetime
+import difflib
+from datetime import datetime, timedelta
 from pathlib import Path
+from dotenv import load_dotenv
+
+def load_environment():
+    """Robust environment loading from .env/production.env."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
+    env_path = os.path.join(project_root, ".env", "production.env")
+
+    if os.path.exists(env_path):
+        load_dotenv(env_path)
+        # Aggressive manual recovery if standard loader misses export syntax
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if "=" in line and not line.startswith("#"):
+                    key, val = line.replace("export ", "").strip().split("=", 1)
+                    if not os.environ.get(key.strip()):
+                        os.environ[key.strip()] = val.strip("'\" ")
+    else:
+        load_dotenv()
 
 # --- CONFIGURATION ---
 BASE_URL = "https://ocds-api.etenders.gov.za/api/OCDSReleases"
 TENDER_DIR = Path('03_tenders')
+GRANT_DIR = Path('02_grants')
 TEMPLATE_PATH = TENDER_DIR / 'template.md'
 
-def fetch_and_sync_tenders(page_limit=5):
+def fetch_and_sync_tenders(page_limit=5, days_back=7):
     """Fetches tenders from API and updates local registry."""
-    print("🚀 Starting Live OCDS Tender Sync...")
+    print(f"🚀 Starting Live OCDS Tender Sync (Last {days_back} days)...")
     
-    # We use a date range for the current year to keep it relevant
-    current_year = datetime.now().year
+    # Dynamic Date Range
+    now = datetime.now()
+    date_to = now.strftime('%Y-%m-%d')
+    date_from = (now - timedelta(days=days_back)).strftime('%Y-%m-%d')
+
     params = {
         "PageNumber": 1,
         "PageSize": 50,
-        "dateFrom": f"{current_year}-01-01",
-        "dateTo": f"{current_year}-12-31"
+        "dateFrom": date_from,
+        "dateTo": date_to
     }
 
     count = 0
@@ -42,9 +66,38 @@ def fetch_and_sync_tenders(page_limit=5):
                 ocid = release.get('ocid')
                 if not ocid: continue
                 
+                tender_data = release.get('tender', {})
+                title = tender_data.get('title', 'Untitled')
+
+                # FUZZY DEDUPLICATION
+                is_duplicate = False
+                for existing_file in TENDER_DIR.glob('*.md'):
+                    if existing_file.name == 'template.md': continue
+                    if existing_file.stem == ocid: continue # Same ID is fine, handled by overwrite logic
+
+                    with open(existing_file, 'r', encoding='utf-8') as ef:
+                        first_line = ef.readline()
+                        if title.lower() in first_line.lower():
+                            # Check similarity ratio
+                            existing_title = first_line.replace("# Tender Opportunity: ", "").strip()
+                            similarity = difflib.SequenceMatcher(None, title.lower(), existing_title.lower()).ratio()
+                            if similarity > 0.9:
+                                print(f"👯 Skipping {ocid} - Potential Duplicate of {existing_file.name} ({similarity:.1%})")
+                                is_duplicate = True
+                                break
+
+                if is_duplicate: continue
+
                 # RULE: OCID-Stable Filenames
                 filename = f"{ocid}.md"
                 file_path = TENDER_DIR / filename
+
+                # PRESERVE VERIFIED DATA: Don't overwrite if manually verified
+                if file_path.exists():
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        if "Verification Status: VERIFIED" in f.read() or "Status: VERIFIED" in f.read():
+                            print(f"⏩ Skipping {ocid} (Already Verified)")
+                            continue
                 
                 markdown_content = generate_markdown_from_ocds(release)
                 with open(file_path, 'w', encoding='utf-8') as f:
@@ -62,6 +115,7 @@ def fetch_and_sync_tenders(page_limit=5):
 
     print(f"✅ Sync complete. Processed {count} tenders.")
     purge_expired_tenders()
+    purge_expired_grants()
 
 def generate_markdown_from_ocds(release):
     """Maps OCDS JSON fields to Monorepo Template."""
@@ -83,6 +137,9 @@ def generate_markdown_from_ocds(release):
     description = tender.get('description', 'No description provided.')
     conditions = tender.get('specialConditions', 'N/A')
     
+    # Use procurementMethodDetails as the "Type" for classification
+    t_type = tender.get('procurementMethodDetails', t_type)
+
     # 2. Briefing Session
     briefing = tender.get('briefingSession', {})
     has_briefing = "Yes" if briefing.get('isSession') else "No"
@@ -109,6 +166,14 @@ def generate_markdown_from_ocds(release):
     
     if not docs_md:
         docs_md = "    - No documents listed in API.\n"
+
+    # 5. Direct Link Logic
+    # Use first document URL as direct link if available, fallback to portal
+    docs = tender.get('documents', [])
+    if docs and docs[0].get('url'):
+        direct_link = docs[0].get('url')
+    else:
+        direct_link = "https://www.etenders.gov.za/Home/opportunities?id=1"
 
     # Assemble Markdown
     md = f"""# Tender Opportunity: {title}
@@ -144,7 +209,7 @@ def generate_markdown_from_ocds(release):
 - **Telephone**: {c_tel}
 
 ## Documents & Links
-- **Applying Link**: https://tenders.etenders.gov.za/
+- **Direct Link**: {direct_link}
 - **Tender Documents**:
 {docs_md}
 
@@ -183,6 +248,35 @@ def purge_expired_tenders():
             except Exception as e:
                 print(f"⚠️ Could not parse date for {md_file.name}: {e}")
 
+def purge_expired_grants():
+    """Removes grant files from 02_grants that have passed their deadline."""
+    print("Running self-cleaning audit for expired grants...")
+    now = datetime.now()
+    count = 0
+
+    if not GRANT_DIR.exists():
+        return
+
+    for md_file in GRANT_DIR.glob('*.md'):
+        if md_file.name == 'template.md':
+            continue
+
+        # Format: YYYY-MM-DD_Grant_Name.md
+        match = re.match(r'^(\d{4}-\d{2}-\d{2})_', md_file.name)
+        if match:
+            deadline_str = match.group(1)
+            try:
+                deadline_date = datetime.strptime(deadline_str, '%Y-%m-%d')
+                if deadline_date < now:
+                    print(f"🔥 Deleting expired grant: {md_file.name} (Deadline: {deadline_str})")
+                    os.remove(md_file)
+                    count += 1
+            except Exception as e:
+                print(f"⚠️ Could not parse date for {md_file.name}: {e}")
+
+    print(f"✅ Grant cleanup complete. Removed {count} expired grants.")
+
 if __name__ == "__main__":
+    load_environment()
     TENDER_DIR.mkdir(parents=True, exist_ok=True)
     fetch_and_sync_tenders()
