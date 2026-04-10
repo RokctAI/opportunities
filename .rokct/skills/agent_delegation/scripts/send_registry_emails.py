@@ -9,6 +9,7 @@ from email.mime.application import MIMEApplication
 from pathlib import Path
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
+from crypto_utils import decrypt_email
 
 def send_registry_emails():
     # Robust Path & Env Handling
@@ -34,6 +35,11 @@ def send_registry_emails():
     smtp_port = os.getenv('SMTP_PORT')
     smtp_user = os.getenv('SMTP_USERNAME')
     smtp_pass = os.getenv('SMTP_PASSWORD')
+    encryption_key = os.getenv('EMAIL_ENCRYPTION_KEY')
+
+    if not encryption_key:
+        print("❌ EMAIL_ENCRYPTION_KEY not found. Cannot send emails.")
+        return
     
     recipient_dir = Path(project_root) / '.rokct' / 'recipients'
     published_dir = Path(project_root) / 'published'
@@ -75,15 +81,18 @@ def send_registry_emails():
         if "### Equity\n- **Subscribed**: Yes" in content:
             attachments.extend(updates['Equity'])
             
-        # Find real email if available
-        # Note: If redacted, we need the Monorepo PAT to fetch the unredacted map
-        # For now, we process if an email is found or logged.
-        email_match = re.search(r'-\s+\*\*Email\*\*:\s*(.+)$', content, re.MULTILINE)
-        if email_match and "[REDACTED]" not in email_match.group(1):
-            email = email_match.group(1).strip()
-            if attachments:
-                send_email(email, attachments, smtp_server, smtp_port, smtp_user, smtp_pass)
-                print(f"✅ Sent weekly update to {email}")
+        # REVERSIBLE PRIVACY: Decrypt the stored email blob
+        email_encrypted_match = re.search(r'-\s+\*\*email_encrypted\*\*:\s*(.+)$', content, re.MULTILINE)
+
+        if email_encrypted_match:
+            encrypted_blob = email_encrypted_match.group(1).strip()
+            try:
+                real_email = decrypt_email(encrypted_blob, encryption_key)
+                if attachments:
+                    send_email(real_email, attachments, smtp_server, smtp_port, smtp_user, smtp_pass)
+                    print(f"✅ Sent weekly update to REDACTED_USER ({card.name})")
+            except Exception as e:
+                print(f"❌ Failed to decrypt email for {card.name}: {e}")
 
 def send_email(to_email, files, server, port, user, password):
     msg = MIMEMultipart()

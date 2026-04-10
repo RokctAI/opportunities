@@ -13,9 +13,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+      - name: Install dependencies
+        run: pip install python-dotenv pycryptodome
       - name: Update Classifications
         run: python .rokct/skills/agent_delegation/scripts/update_classifications.py
       - name: Privacy Sync
+        env:
+          EMAIL_ENCRYPTION_KEY: ${{ secrets.EMAIL_ENCRYPTION_KEY }}
         run: python .rokct/skills/agent_delegation/scripts/privacy_sync.py
       - name: Commit Updates
         run: |

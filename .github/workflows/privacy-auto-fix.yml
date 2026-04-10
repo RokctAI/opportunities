@@ -1,0 +1,43 @@
+name: "Privacy: Auto-Fix"
+
+on:
+  pull_request:
+    paths:
+      - '.rokct/recipients/*.md'
+
+jobs:
+  fix:
+    if: github.event.pull_request.head.repo.fork == false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install python-dotenv pycryptodome
+
+      - name: Apply Privacy Redactions
+        env:
+          EMAIL_ENCRYPTION_KEY: ${{ secrets.EMAIL_ENCRYPTION_KEY }}
+        run: |
+          python .rokct/skills/agent_delegation/scripts/privacy_sync.py
+
+      - name: Commit and Push Fixes
+        run: |
+          git config --global user.name "privacy-bot"
+          git config --global user.email "privacy-bot@users.noreply.github.com"
+          git add .rokct/recipients/*.md || true
+          if git diff --staged --quiet; then
+            echo "No fixes needed."
+          else
+            git commit -m "chore: automated privacy redaction and anonymization"
+            git push
+          fi

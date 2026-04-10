@@ -38,6 +38,12 @@ The repository uses GitHub Actions to automate several tasks:
 -   **Adding Grants**: Create a new `.md` file in `02_grants/` using `02_grants/template.md` as a guide.
 -   **Verifying Data**: Ensure that entries have a `Status: ACTIVE` or are otherwise marked as verified to be included in the public exports.
 
+### 🔐 Privacy Protection
+This repository enforces strict PII (Personally Identifiable Information) protection for all recipient cards.
+- **Enforcement**: CI will fail if raw emails or human-readable names are found in `.rokct/recipients/`.
+- **Local Fix**: Run `python .rokct/skills/agent_delegation/scripts/privacy_sync.py` to anonymize your card before committing.
+- **Pre-commit**: We recommend installing pre-commit hooks (`pre-commit install`) to handle this automatically.
+
 ## Technical Details
 
 -   **Languages**: Python (for sync scripts), YAML (for workflows).

@@ -20,6 +20,9 @@
 ### Tenders
 - **Subscribed**: [Yes/No]
 - **Classifications**:
-  - **Category**: [e.g., Construction]
-  - **Organ of State**: [e.g., ESKOM]
-  - **Tender Type**: [e.g., Request for Quotation]
+  - **Configuration 1**: Category: [e.g., Construction] | Organ of State: [e.g., ESKOM] | Tender Type: [e.g., Request for Quotation]
+  - **Configuration 2**: Category: [e.g., Technology] | Organ of State: [e.g., SITA] | Tender Type: [e.g., Request for Proposal]
+  - [Add more lines as needed]
+
+## Privacy Note
+> To protect your privacy, this card will be automatically hashed and redacted once submitted. Your email and full name will be removed from the public file, replaced by a unique Subscription ID.
