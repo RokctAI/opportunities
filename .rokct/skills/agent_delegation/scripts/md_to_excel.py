@@ -307,6 +307,9 @@ def sync_md_to_excel():
             cols_to_drop = ['Source', 'Source / Verification', 'Status', 'Last Verified', 'Verification Status']
             full_equity_pub = full_equity.drop(columns=[c for c in cols_to_drop if c in full_equity.columns])
 
+            # ADD NUMBERING
+            full_equity_pub.insert(0, '#', range(1, len(full_equity_pub) + 1))
+
             # SAVE EQUITY GLOBAL
             excel_path = pub_dir / '01_Equity_Global.xlsx'
             pdf_path = pub_dir / '01_Equity_Global.pdf'
@@ -316,7 +319,8 @@ def sync_md_to_excel():
             create_pdf_report(full_equity_pub, pdf_path, "Global Equity Funders", INDIGO_HEADER)
                 
             # SAVE EQUITY SOUTH AFRICA
-            df_sa = full_equity_pub[full_equity.apply(is_sa, axis=1)] # Filter using original for correct data
+            df_sa = full_equity_pub[full_equity.apply(is_sa, axis=1)].copy() # Filter using original for correct data
+            df_sa['#'] = range(1, len(df_sa) + 1)
             excel_sa = pub_dir / '01_Equity_SouthAfrica.xlsx'
             pdf_sa = pub_dir / '01_Equity_SouthAfrica.pdf'
             with pd.ExcelWriter(str(excel_sa), engine='openpyxl') as writer:
@@ -325,7 +329,8 @@ def sync_md_to_excel():
             create_pdf_report(df_sa, pdf_sa, "South Africa Focused Funders", INDIGO_HEADER)
                 
             # SAVE EQUITY AFRICA
-            df_africa = full_equity_pub[full_equity.apply(is_africa, axis=1)]
+            df_africa = full_equity_pub[full_equity.apply(is_africa, axis=1)].copy()
+            df_africa['#'] = range(1, len(df_africa) + 1)
             excel_af = pub_dir / '01_Equity_Africa.xlsx'
             pdf_af = pub_dir / '01_Equity_Africa.pdf'
             with pd.ExcelWriter(str(excel_af), engine='openpyxl') as writer:
@@ -350,6 +355,9 @@ def sync_md_to_excel():
             df_grants = pd.DataFrame(active_grants)
             cols_to_drop = ['Source', 'Status', 'Verification Status', 'Last Verified']
             df_grants_pub = df_grants.drop(columns=[c for c in cols_to_drop if c in df_grants.columns])
+            
+            # ADD NUMBERING
+            df_grants_pub.insert(0, '#', range(1, len(df_grants_pub) + 1))
 
             excel_gr = pub_dir / '02_Grants_Active.xlsx'
             pdf_gr = pub_dir / '02_Grants_Active.pdf'
@@ -373,6 +381,9 @@ def sync_md_to_excel():
             df_tenders = pd.DataFrame(all_tenders)
             # Remove status before export
             df_tenders_pub = df_tenders.drop(columns=['Status']) if 'Status' in df_tenders.columns else df_tenders
+            
+            # ADD NUMBERING
+            df_tenders_pub.insert(0, '#', range(1, len(df_tenders_pub) + 1))
 
             excel_tn = pub_dir / '03_Tenders_Master.xlsx'
             pdf_tn = pub_dir / '03_Tenders_Master.pdf'
