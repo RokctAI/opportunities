@@ -54,14 +54,17 @@ jobs:
       - name: Run Markdown to Excel/PDF Sync
         run: python .rokct/skills/agent_delegation/scripts/md_to_excel.py
 
-      - name: Commit and Push Excel/PDF Registries
+      - name: Update README Dashboard
+        run: python .rokct/skills/agent_delegation/scripts/update_dashboard.py
+
+      - name: Commit and Push Updates
         run: |
           git config --global user.name "google-labs-jules[bot]"
           git config --global user.email "161369871+google-labs-jules[bot]@users.noreply.github.com"
-          git add published/*.xlsx published/*.pdf
+          git add published/*.xlsx published/*.pdf README.md
           if git diff --staged --quiet; then
-            echo "No changes in Excel registries."
+            echo "No changes to commit."
           else
-            git commit -m "docs: auto-sync category-specific registries to excel [skip ci]"
+            git commit -m "docs: sync registries and update dashboard [skip ci]"
             git push origin main
           fi

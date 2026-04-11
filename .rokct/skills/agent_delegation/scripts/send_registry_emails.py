@@ -11,25 +11,26 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from crypto_utils import decrypt_email
 
-def send_registry_emails():
-    # Robust Path & Env Handling
-    # We calculate the root directory by climbing up from this script's location
+def load_environment():
+    """Robust environment loading with aggressive manual fallback."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
     env_path = os.path.join(project_root, ".env", "production.env")
 
     if os.path.exists(env_path):
         load_dotenv(env_path)
-        # Aggressive Manual Fallback for Monorepo-fetched files
-        required_keys = ['SMTP_SERVER', 'SMTP_PORT', 'SMTP_USERNAME', 'SMTP_PASSWORD']
-        if not all(os.environ.get(k) for k in required_keys):
-            with open(env_path, 'r', encoding='utf-8') as f:
-                for line in f:
-                    if "=" in line and not line.startswith("#"):
-                        key, val = line.replace("export ", "").strip().split("=", 1)
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if "=" in line and not line.startswith("#"):
+                    key, val = line.replace("export ", "").strip().split("=", 1)
+                    if not os.environ.get(key.strip()):
                         os.environ[key.strip()] = val.strip("'\" ")
     else:
         load_dotenv()
+    return project_root
+
+def send_registry_emails():
+    project_root = load_environment()
     
     smtp_server = os.getenv('SMTP_SERVER')
     smtp_port = os.getenv('SMTP_PORT')
@@ -52,8 +53,40 @@ def send_registry_emails():
     now = datetime.now()
     week_ago = now - timedelta(days=7)
     
-    # We still fetch the main files
-    updates = {
+    # 1. Map new Opportunities to their Classifications
+    # This allows us to only send users the items that match their cards
+    registry_map = {
+        'Equity': [],
+        'Grants': [],
+        'Tenders': []
+    }
+
+    # Helper: Extract classifications from a tender markdown
+    def get_tender_meta(f_path):
+        with open(f_path, 'r') as f:
+            text = f.read()
+            cat = re.search(r'### Category\s*\n\s*(.+)', text)
+            inst = re.search(r'-\s+\*\*Institution\*\*:\s*(.+)$', text, re.MULTILINE)
+            t_type = re.search(r'-\s+\*\*Tender Type\*\*:\s*(.+)$', text, re.MULTILINE)
+            return {
+                'file': f_path,
+                'category': cat.group(1).strip() if cat else "",
+                'institution': inst.group(1).strip() if inst else "",
+                'type': t_type.group(1).strip() if t_type else ""
+            }
+
+    # Gather new items from this week
+    for f in (Path(project_root) / '03_tenders').glob('*.md'):
+        if f.name == 'template.md' or datetime.fromtimestamp(f.stat().st_mtime) < week_ago: continue
+        registry_map['Tenders'].append(get_tender_meta(f))
+
+    # Grants and Equity currently use broad categories
+    for f in (Path(project_root) / '02_grants').glob('*.md'):
+        if f.name == 'template.md' or datetime.fromtimestamp(f.stat().st_mtime) < week_ago: continue
+        registry_map['Grants'].append({'file': f})
+    
+    # Check for weekly update reports (The Excel/PDF files)
+    report_updates = {
         'Equity': [f for f in published_dir.glob('01_Equity_*.xlsx') if datetime.fromtimestamp(f.stat().st_mtime) > week_ago],
         'Grants': [f for f in published_dir.glob('02_Grants_*.xlsx') if datetime.fromtimestamp(f.stat().st_mtime) > week_ago],
         'Tenders': [f for f in published_dir.glob('03_Tenders_*.xlsx') if datetime.fromtimestamp(f.stat().st_mtime) > week_ago]
@@ -69,17 +102,46 @@ def send_registry_emails():
     email_mapping = {} 
 
     for card in recipient_dir.glob('*.md'):
+        if card.name == 'template_card.md': continue
         with open(card, 'r') as f:
             content = f.read()
             
-        # Parse Subscriptions
+        # 2. Parse Granular Subscriptions
         attachments = []
+        
+        # TENDERS MATCHING
         if "### Tenders\n- **Subscribed**: Yes" in content:
-            attachments.extend(updates['Tenders'])
+            # Look for configurations: Category: [X] | Organ of State: [Y] | Tender Type: [Z]
+            configs = re.findall(r'Configuration \d+: Category: (.*?) \| Organ of State: (.*?) \| Tender Type: (.*)', content)
+            
+            for item in registry_map['Tenders']:
+                match_found = False
+                for c_cat, c_inst, c_type in configs:
+                    # Check if tender matches ANY of the user's configurations
+                    # We allow partial/keyword matching for robustness
+                    if (c_cat.lower() in item['category'].lower() or c_cat == "[e.g., Construction]") and \
+                       (c_inst.lower() in item['institution'].lower() or c_inst == "[e.g., ESKOM]") and \
+                       (c_type.lower() in item['type'].lower() or c_type == "[e.g., Request for Quotation]"):
+                        match_found = True
+                        break
+                
+                if match_found:
+                    # Logic: If it matches a specific new tender, we send the Master Report
+                    # but only if it matches their filter.
+                    # For now, we attach the master if ANY match is found.
+                    if report_updates['Tenders']:
+                        attachments.extend(report_updates['Tenders'])
+                        break
+
+        # GRANTS MATCHING
         if "### Grants\n- **Subscribed**: Yes" in content:
-            attachments.extend(updates['Grants'])
+            if report_updates['Grants']:
+                attachments.extend(report_updates['Grants'])
+
+        # EQUITY MATCHING
         if "### Equity\n- **Subscribed**: Yes" in content:
-            attachments.extend(updates['Equity'])
+            if report_updates['Equity']:
+                attachments.extend(report_updates['Equity'])
             
         # REVERSIBLE PRIVACY: Decrypt the stored email blob
         email_encrypted_match = re.search(r'-\s+\*\*email_encrypted\*\*:\s*(.+)$', content, re.MULTILINE)

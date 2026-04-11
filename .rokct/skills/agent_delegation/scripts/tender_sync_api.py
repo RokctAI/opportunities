@@ -116,6 +116,42 @@ def fetch_and_sync_tenders(page_limit=5, days_back=7):
     print(f"✅ Sync complete. Processed {count} tenders.")
     purge_expired_tenders()
     purge_expired_grants()
+    queue_ai_enrichment()
+
+def queue_ai_enrichment():
+    """Queues a delegation task for Jules to analyze new tenders."""
+    queue_dir = Path('.rokct/agent/queue')
+    queue_dir.mkdir(parents=True, exist_ok=True)
+    
+    # We only analyze new unverified tenders
+    new_tenders = []
+    for f in TENDER_DIR.glob('ocds-*.md'):
+        with open(f, 'r') as content:
+            text = content.read()
+            if "Verification Status: IN_PROGRESS" in text or "Status: ACTIVE" in text:
+                if "AI Analysis: Compliance & Requirements" in text and "[e.g.," in text:
+                    new_tenders.append(f.name)
+
+    if not new_tenders: return
+
+    task = {
+        "title": f"Tender Analysis: {datetime.now().strftime('%Y-%m-%d')}",
+        "repo": "opportunities",
+        "prompt": f"TASK: Deep Document Analysis for {len(new_tenders)} new tenders.\n\n"
+                  f"FILES: {', '.join(new_tenders[:10])}\n\n"
+                  f"INSTRUCTIONS:\n"
+                  f"1) For each file, visit the 'Direct Link' (document URL).\n"
+                  f"2) Extract: Mandatory Requirements (B-BBEE, Tax, etc.), Key Deliverables, and Technical Specs.\n"
+                  f"3) Update the 'AI Analysis' section of each markdown card.\n"
+                  f"4) If documents are missing or link is dead, mark as 'Status: BROKEN'.\n"
+                  f"5) Once done, change 'Verification Status' to 'VERIFIED'.",
+        "automation_mode": "AUTO_CREATE_PR"
+    }
+    
+    with open(queue_dir / f"tender_analysis_{datetime.now().strftime('%s')}.json", 'w') as f:
+        import json
+        json.dump(task, f, indent=2)
+    print(f"🤖 Queued AI enrichment task for {len(new_tenders)} tenders.")
 
 def generate_markdown_from_ocds(release):
     """Maps OCDS JSON fields to Monorepo Template."""

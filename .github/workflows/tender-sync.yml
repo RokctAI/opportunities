@@ -53,14 +53,17 @@ jobs:
       - name: Update README Dashboard
         run: python .rokct/skills/agent_delegation/scripts/update_dashboard.py
 
-      - name: Commit and Push New Tenders
+      - name: Generate Response Kits
+        run: python .rokct/skills/agent_delegation/scripts/response_kits.py
+
+      - name: Commit and Push Updates
         run: |
           git config --global user.name "google-labs-jules[bot]"
           git config --global user.email "161369871+google-labs-jules[bot]@users.noreply.github.com"
-          git add 01_equity/*.md 02_grants/*.md 03_tenders/*.md README.md
+          git add 01_equity/*.md 02_grants/*.md 03_tenders/*.md README.md .rokct/agent/queue/*.json responses/
           if git diff --staged --quiet; then
-            echo "No new tenders found."
+            echo "No updates to commit."
           else
-            git commit -m "chore: auto-sync new tenders from eTenders API [skip ci]"
+            git commit -m "chore: sync registries, queue AI analysis, and update dashboard [skip ci]"
             git push origin main
           fi
