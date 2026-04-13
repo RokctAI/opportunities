@@ -184,11 +184,17 @@
                 <div class="bg-gray-900 rounded-lg p-6 font-mono text-sm text-green-400 overflow-auto max-h-[400px]">
                     <pre>{{ cardOutput }}</pre>
                 </div>
-                <div class="mt-8 flex space-x-4">
-                    <button @click="copyCard" class="flex-grow bg-indigo-600 text-white font-bold py-3 rounded-xl hover:bg-indigo-700 transition">
-                        <i class="fas fa-copy mr-2"></i> Copy to Clipboard
+                <div class="mt-8 flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-4">
+                    <button @click="copyCard" class="flex-grow bg-gray-100 text-gray-700 font-bold py-3 rounded-xl hover:bg-gray-200 transition">
+                        <i class="fas fa-copy mr-2"></i> Copy Content
                     </button>
+                    <a :href="githubSubmitUrl" target="_blank" class="flex-grow bg-indigo-600 text-white text-center font-bold py-3 rounded-xl hover:bg-indigo-700 transition shadow-lg">
+                        <i class="fab fa-github mr-2"></i> Submit to GitHub
+                    </a>
                 </div>
+                <p class="text-[10px] text-gray-400 mt-4 text-center">
+                    Note: Clicking "Submit to GitHub" will open a new PR. Our automated bots will then encrypt your data.
+                </p>
             </div>
         </div>
     </div>
@@ -207,6 +213,7 @@
                 const form = ref({ name: '', email: '', category: 'All' })
                 const showModal = ref(false)
                 const cardOutput = ref('')
+                const subId = ref('')
 
                 onMounted(async () => {
                     try {
@@ -262,7 +269,7 @@
                 }
 
                 const generateCard = () => {
-                    const subId = Math.random().toString(36).substring(2, 10).toUpperCase()
+                    subId.value = 'REC-' + Math.random().toString(36).substring(2, 10).toUpperCase()
                     cardOutput.value = `# Recipient Subscription Card: ${form.value.name}
 
 ## Recipient Details
@@ -287,10 +294,19 @@
                     alert("Card copied to clipboard!")
                 }
 
+                const githubSubmitUrl = computed(() => {
+                    const repo = "RokctAI/Opportunities-Registry"
+                    const path = `.rokct/recipients/${subId.value}.md`
+                    const message = `feat: new subscription request [${subId.value}]`
+                    const body = encodeURIComponent(cardOutput.value)
+                    return `https://github.com/${repo}/new/main?filename=${path}&value=${body}&message=${message}`
+                })
+
                 return {
                     lastUpdated, stats, opportunities, publishedFiles, searchQuery, filterCat,
                     filteredOpportunities, getBorderColor, getBgColor, getIcon, formatFileName,
-                    getFileIcon, isUrgent, form, generateCard, showModal, cardOutput, copyCard
+                    getFileIcon, isUrgent, form, generateCard, showModal, cardOutput, copyCard,
+                    githubSubmitUrl
                 }
             }
         }).mount('#app')
