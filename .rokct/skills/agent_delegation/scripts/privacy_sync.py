@@ -78,7 +78,21 @@ def process_privacy(check_only=False):
 
             # Encrypt
             encrypted_blob = encrypt_email(email, encryption_key)
+
+            # Role Encryption Logic
+            role_match = re.search(r'-\s+\*\*Role\*\*:\s*(.+)$', content, re.MULTILINE)
+            role_encrypted_blob = ""
+            display_role = "user"
             
+            if role_match:
+                raw_role = role_match.group(1).strip()
+                # If role looks like PII (email.role), encrypt it
+                if "." in raw_role and "@" in raw_role:
+                    role_encrypted_blob = encrypt_email(raw_role, encryption_key)
+                    display_role = raw_role.split(".")[-1] # e.g., admin
+                else:
+                    display_role = raw_role
+
             # Generate anonymous identifier for filename
             display_hash = hashlib.sha256(email.lower().strip().encode()).hexdigest()[:12]
             sub_id = hashlib.sha256(f"{full_name}{email}".encode()).hexdigest()[:16]
@@ -86,6 +100,13 @@ def process_privacy(check_only=False):
             # Update Content
             new_content = content.replace(f"Full Name**: {full_name}", f"Full Name**: [REDACTED]")
             new_content = new_content.replace(f"Email**: {email}", f"Email**: [REDACTED]\n- **email_encrypted**: {encrypted_blob}")
+
+            if role_match:
+                role_line = f"Role**: {display_role}"
+                if role_encrypted_blob:
+                    role_line += f"\n- **role_encrypted**: {role_encrypted_blob}"
+                new_content = new_content.replace(f"Role**: {role_match.group(1).strip()}", role_line)
+
             new_content = new_content.replace(f"Subscription ID**: [Leave blank, will be hashed]", f"Subscription ID**: {sub_id}")
             
             # Anonymize File

@@ -3,6 +3,7 @@
 ## Recipient Details
 - **Full Name**: [Firstname Surname]
 - **Email**: [email@example.com]
+- **Role**: user
 - **Subscription ID**: [Leave blank, will be hashed]
 
 ## Subscriptions

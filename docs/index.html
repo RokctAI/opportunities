@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RokctAI Opportunities Registry Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+    <div id="app" class="min-h-screen">
+        <!-- Header -->
+        <header class="bg-indigo-900 text-white shadow-lg">
+            <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-white p-2 rounded-lg">
+                        <i class="fas fa-rocket text-indigo-900 text-2xl"></i>
+                    </div>
+                    <h1 class="text-2xl font-bold tracking-tight">RokctAI <span class="text-indigo-300">Opportunities Registry</span></h1>
+                </div>
+                <div class="text-sm text-indigo-200">
+                    Last Updated: <span class="font-mono text-white">{{ lastUpdated }}</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="container mx-auto px-4 py-8">
+            <!-- Stats Overview -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div v-for="(data, name) in stats" :key="name" class="bg-white rounded-xl shadow-sm p-6 border-b-4" :class="getBorderColor(name)">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-gray-500 text-sm font-semibold uppercase tracking-wider">{{ name }}</p>
+                            <h3 class="text-3xl font-bold mt-1">{{ data.total }}</h3>
+                        </div>
+                        <div class="p-3 rounded-full" :class="getBgColor(name)">
+                            <i :class="getIcon(name)" class="text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="mt-4 flex items-center text-sm">
+                        <span class="text-green-600 font-bold flex items-center">
+                            <i class="fas fa-plus-circle mr-1"></i> {{ data.new }}
+                        </span>
+                        <span class="text-gray-400 mx-2">|</span>
+                        <span class="text-indigo-600 font-semibold">{{ data.verified }} Verified</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Sidebar: Filters & Downloads -->
+                <div class="lg:col-span-1 space-y-6">
+                    <!-- Downloads -->
+                    <div class="bg-white rounded-xl shadow-sm p-6">
+                        <h4 class="font-bold text-gray-800 mb-4 flex items-center">
+                            <i class="fas fa-file-download mr-2 text-indigo-600"></i> Download Reports
+                        </h4>
+                        <div class="space-y-3">
+                            <a v-for="file in publishedFiles" :key="file" :href="'../published/' + file" target="_blank"
+                               class="flex items-center justify-between p-3 rounded-lg border border-gray-100 hover:bg-indigo-50 transition-colors text-sm group">
+                                <span class="truncate pr-2">{{ formatFileName(file) }}</span>
+                                <i :class="getFileIcon(file)" class="text-gray-400 group-hover:text-indigo-600"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Recipient Card Form -->
+                    <div class="bg-indigo-50 rounded-xl shadow-sm p-6 border border-indigo-100">
+                        <h4 class="font-bold text-indigo-900 mb-2 flex items-center">
+                            <i class="fas fa-user-plus mr-2"></i> Join Registry
+                        </h4>
+                        <p class="text-xs text-indigo-700 mb-4">Generate your PII-protected recipient card to receive tailored notifications.</p>
+                        <form @submit.prevent="generateCard" class="space-y-3">
+                            <input v-model="form.name" type="text" placeholder="Full Name" required
+                                   class="w-full px-3 py-2 rounded border border-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
+                            <input v-model="form.email" type="email" placeholder="Email Address" required
+                                   class="w-full px-3 py-2 rounded border border-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
+                            <select v-model="form.category" class="w-full px-3 py-2 rounded border border-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
+                                <option value="Tenders">Tenders</option>
+                                <option value="Grants">Grants</option>
+                                <option value="Equity">Equity</option>
+                                <option value="All">All Categories</option>
+                            </select>
+                            <button type="submit" class="w-full bg-indigo-600 text-white font-bold py-2 rounded hover:bg-indigo-700 transition shadow-md">
+                                Generate Card
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Opportunities List -->
+                <div class="lg:col-span-3">
+                    <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                        <!-- Search & Filter Bar -->
+                        <div class="p-4 border-b border-gray-100 bg-gray-50 flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-4">
+                            <div class="relative flex-grow">
+                                <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                                <input v-model="searchQuery" type="text" placeholder="Search by title, institution or category..."
+                                       class="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            </div>
+                            <div class="flex space-x-2">
+                                <button v-for="cat in ['All', 'Tenders', 'Grants', 'Equity']" :key="cat"
+                                        @click="filterCat = cat"
+                                        :class="filterCat === cat ? 'bg-indigo-600 text-white' : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'"
+                                        class="px-4 py-2 rounded-lg text-sm font-semibold transition shadow-sm">
+                                    {{ cat }}
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Table -->
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left">
+                                <thead class="bg-gray-50 text-gray-500 text-xs uppercase tracking-wider">
+                                    <tr>
+                                        <th class="px-6 py-4">Opportunity</th>
+                                        <th class="px-6 py-4">Institution</th>
+                                        <th class="px-6 py-4">Deadline</th>
+                                        <th class="px-6 py-4 text-center">Status</th>
+                                        <th class="px-6 py-4"></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-100">
+                                    <tr v-for="opp in filteredOpportunities" :key="opp.id" class="hover:bg-indigo-50/30 transition-colors group">
+                                        <td class="px-6 py-4">
+                                            <div class="flex items-center">
+                                                <div v-if="opp.new" class="w-2 h-2 rounded-full bg-green-500 mr-2" title="New"></div>
+                                                <div>
+                                                    <p class="font-bold text-gray-800 group-hover:text-indigo-700">{{ opp.title }}</p>
+                                                    <p class="text-xs text-gray-400 mt-1 uppercase">{{ opp.category }}</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-4 text-sm text-gray-600">{{ opp.institution }}</td>
+                                        <td class="px-6 py-4">
+                                            <span :class="isUrgent(opp.closing_date) ? 'text-red-600 font-bold' : 'text-gray-600'" class="text-sm">
+                                                {{ opp.closing_date }}
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-center">
+                                            <span v-if="opp.verified" class="px-2 py-1 rounded-full bg-blue-100 text-blue-700 text-[10px] font-bold uppercase tracking-tighter">
+                                                <i class="fas fa-check-circle mr-1"></i> Verified
+                                            </span>
+                                            <span v-else class="px-2 py-1 rounded-full bg-gray-100 text-gray-400 text-[10px] font-bold uppercase tracking-tighter">
+                                                Active
+                                            </span>
+                                        </td>
+                                        <td class="px-6 py-4 text-right">
+                                            <a :href="opp.link" target="_blank" class="text-indigo-600 hover:text-indigo-900 font-bold text-sm">
+                                                Apply <i class="fas fa-external-link-alt ml-1"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr v-if="filteredOpportunities.length === 0">
+                                        <td colspan="5" class="px-6 py-12 text-center text-gray-400 italic">
+                                            No opportunities found matching your criteria.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Recipient Card Modal (Result) -->
+        <div v-if="showModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+            <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-8 relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-4">
+                    <button @click="showModal = false" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+                </div>
+                <div class="flex items-center space-x-4 mb-6">
+                    <div class="bg-green-100 p-3 rounded-full text-green-600">
+                        <i class="fas fa-id-card text-2xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-800">Your Subscription Card is Ready!</h2>
+                        <p class="text-gray-500">Copy the content below and save it as a Markdown file in your PR.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-lg p-6 font-mono text-sm text-green-400 overflow-auto max-h-[400px]">
+                    <pre>{{ cardOutput }}</pre>
+                </div>
+                <div class="mt-8 flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-4">
+                    <button @click="copyCard" class="flex-grow bg-gray-100 text-gray-700 font-bold py-3 rounded-xl hover:bg-gray-200 transition">
+                        <i class="fas fa-copy mr-2"></i> Copy Content
+                    </button>
+                    <a :href="githubSubmitUrl" target="_blank" class="flex-grow bg-indigo-600 text-white text-center font-bold py-3 rounded-xl hover:bg-indigo-700 transition shadow-lg">
+                        <i class="fab fa-github mr-2"></i> Submit to GitHub
+                    </a>
+                </div>
+                <p class="text-[10px] text-gray-400 mt-4 text-center">
+                    Note: Clicking "Submit to GitHub" will open a new PR. Our automated bots will then encrypt your data.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp, ref, onMounted, computed } = Vue
+
+        createApp({
+            setup() {
+                const lastUpdated = ref('Loading...')
+                const stats = ref({})
+                const opportunities = ref([])
+                const publishedFiles = ref([])
+                const searchQuery = ref('')
+                const filterCat = ref('All')
+                const form = ref({ name: '', email: '', category: 'All' })
+                const showModal = ref(false)
+                const cardOutput = ref('')
+                const subId = ref('')
+
+                onMounted(async () => {
+                    try {
+                        const response = await fetch('data.json')
+                        const data = await response.json()
+                        lastUpdated.value = data.last_updated
+                        stats.value = data.stats
+                        opportunities.value = data.opportunities
+                        publishedFiles.value = data.published_files
+                    } catch (e) {
+                        console.error("Failed to load dashboard data", e)
+                    }
+                })
+
+                const filteredOpportunities = computed(() => {
+                    return opportunities.value.filter(opp => {
+                        const matchesSearch = opp.title.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
+                                              opp.institution.toLowerCase().includes(searchQuery.value.toLowerCase())
+                        const matchesCat = filterCat.value === 'All' || opp.category === filterCat.value
+                        return matchesSearch && matchesCat
+                    })
+                })
+
+                const getBorderColor = (name) => {
+                    const colors = { Tenders: 'border-blue-500', Grants: 'border-amber-500', Equity: 'border-emerald-500' }
+                    return colors[name] || 'border-indigo-500'
+                }
+
+                const getBgColor = (name) => {
+                    const colors = { Tenders: 'bg-blue-500', Grants: 'bg-amber-500', Equity: 'bg-emerald-500' }
+                    return colors[name] || 'bg-indigo-500'
+                }
+
+                const getIcon = (name) => {
+                    const icons = { Tenders: 'fas fa-hammer', Grants: 'fas fa-scroll', Equity: 'fas fa-landmark' }
+                    return icons[name] || 'fas fa-rocket'
+                }
+
+                const formatFileName = (name) => {
+                    return name.replace(/_/g, ' ').replace('.pdf', ' (PDF)').replace('.xlsx', ' (Excel)')
+                }
+
+                const getFileIcon = (name) => {
+                    return name.endsWith('.pdf') ? 'far fa-file-pdf text-red-400' : 'far fa-file-excel text-green-400'
+                }
+
+                const isUrgent = (dateStr) => {
+                    if (!dateStr || dateStr === 'N/A') return false
+                    const date = new Date(dateStr)
+                    const today = new Date()
+                    const diff = (date - today) / (1000 * 60 * 60 * 24)
+                    return diff < 7 && diff > 0
+                }
+
+                const generateCard = () => {
+                    subId.value = 'REC-' + Math.random().toString(36).substring(2, 10).toUpperCase()
+                    cardOutput.value = `# Recipient Subscription Card: ${form.value.name}
+
+## Recipient Details
+- **Full Name**: ${form.value.name}
+- **Email**: ${form.value.email}
+- **Role**: user
+- **Subscription ID**: [Leave blank, will be hashed]
+
+## Subscriptions
+### ${form.value.category}
+- **Subscribed**: Yes
+- **Classifications**:
+  - All
+
+## Privacy Note
+> To protect your privacy, this card will be automatically hashed and redacted once submitted. Your email and full name will be removed from the public file, replaced by a unique Subscription ID.`
+                    showModal.value = true
+                }
+
+                const copyCard = () => {
+                    navigator.clipboard.writeText(cardOutput.value)
+                    alert("Card copied to clipboard!")
+                }
+
+                const githubSubmitUrl = computed(() => {
+                    const repo = "RokctAI/Opportunities-Registry"
+                    const path = `.rokct/recipients/${subId.value}.md`
+                    const message = `feat: new subscription request [${subId.value}]`
+                    const body = encodeURIComponent(cardOutput.value)
+                    return `https://github.com/${repo}/new/main?filename=${path}&value=${body}&message=${message}`
+                })
+
+                return {
+                    lastUpdated, stats, opportunities, publishedFiles, searchQuery, filterCat,
+                    filteredOpportunities, getBorderColor, getBgColor, getIcon, formatFileName,
+                    getFileIcon, isUrgent, form, generateCard, showModal, cardOutput, copyCard,
+                    githubSubmitUrl
+                }
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>
