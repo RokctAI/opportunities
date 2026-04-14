@@ -1,0 +1,25 @@
+---
+# Equity Opportunity: Gobi Partners
+
+## Quick Stats
+- **Organization**: Gobi Partners
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A-Z
+- **Industry**: Tech
+- **Territory**: Asia
+- **Country**: Malaysia
+- **Website**: https://gobi.vc
+
+## Contact
+- **Contact Person**: Thomas Tsao
+- **LinkedIn**: https://www.linkedin.com/in/thomastsao
+- **Phone**:
+
+## Source
+- **Source / Verification**: https://gobi.vc/team
+- **Notes**:
+
+## Audit & Status
+- **Status**: ACTIVE
+- **Last Verified**: 2026-04-14
+---
