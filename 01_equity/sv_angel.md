@@ -1,0 +1,25 @@
+---
+# Equity Opportunity: SV Angel
+
+## Quick Stats
+- **Organization**: SV Angel
+- **Funder Type**: Angel Group
+- **Funding Type**: Seed
+- **Industry**: Tech
+- **Territory**: USA
+- **Country**: USA
+- **Website**: https://svangel.com
+
+## Contact
+- **Contact Person**: Ron Conway
+- **LinkedIn**: https://www.linkedin.com/in/ronconway/
+- **Phone**:
+
+## Source
+- **Source / Verification**: https://svangel.com/team
+- **Notes**:
+
+## Audit & Status
+- **Status**: ACTIVE
+- **Last Verified**: 2026-04-14
+---

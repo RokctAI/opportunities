@@ -18,15 +18,16 @@ def update_classifications():
     industries = set()
     territories = set()
     for f in equity_dir.glob('*.md'):
-        if f.name in ['registry_audit_log.md', 'global_audit_log.md']: continue
+        if f.name in ['template.md', 'registry_audit_log.md', 'global_audit_log.md']: continue
         with open(f, 'r') as content:
-            lines = content.readlines()
-            for line in lines:
-                if '|' in line and ':' not in line:
-                    parts = [p.strip() for p in line.split('|')]
-                    if len(parts) > 8:
-                        territories.add(parts[7])
-                        industries.add(parts[8])
+            text = content.read()
+            ind_match = re.search(r'-\s+\*\*Industry\*\*:\s*(.+)$', text, re.MULTILINE)
+            if ind_match:
+                industries.update([i.strip() for i in ind_match.group(1).split('/')])
+
+            terr_match = re.search(r'-\s+\*\*Territory\*\*:\s*(.+)$', text, re.MULTILINE)
+            if terr_match:
+                territories.update([t.strip() for t in terr_match.group(1).split('/')])
     
     save_list(config_dir / 'equity_industries.txt', industries)
     save_list(config_dir / 'equity_territories.txt', territories)

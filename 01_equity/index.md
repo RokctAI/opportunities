@@ -1,0 +1,25 @@
+---
+# Equity Opportunity: Index
+
+## Quick Stats
+- **Organization**: Index
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A-Z
+- **Industry**: Tech
+- **Territory**: Global
+- **Country**: UK
+- **Website**: https://indexventures.com
+
+## Contact
+- **Contact Person**: Neil Rimer
+- **LinkedIn**: https://www.linkedin.com/in/neilrimer
+- **Phone**:
+
+## Source
+- **Source / Verification**: https://indexventures.com/team/
+- **Notes**:
+
+## Audit & Status
+- **Status**: ACTIVE
+- **Last Verified**: 2026-04-14
+---

@@ -61,7 +61,7 @@ jobs:
         run: |
           git config --global user.name "google-labs-jules[bot]"
           git config --global user.email "161369871+google-labs-jules[bot]@users.noreply.github.com"
-          git add published/*.xlsx published/*.pdf README.md
+          git add published/*.xlsx published/*.pdf README.md docs/data.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
