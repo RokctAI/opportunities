@@ -18,16 +18,15 @@ def update_classifications():
     industries = set()
     territories = set()
     for f in equity_dir.glob('*.md'):
-        if f.name in ['template.md', 'registry_audit_log.md', 'global_audit_log.md']: continue
+        if f.name in ['registry_audit_log.md', 'global_audit_log.md']: continue
         with open(f, 'r') as content:
-            text = content.read()
-            ind_match = re.search(r'-\s+\*\*Industry\*\*:\s*(.+)$', text, re.MULTILINE)
-            if ind_match:
-                industries.update([i.strip() for i in ind_match.group(1).split('/')])
-
-            terr_match = re.search(r'-\s+\*\*Territory\*\*:\s*(.+)$', text, re.MULTILINE)
-            if terr_match:
-                territories.update([t.strip() for t in terr_match.group(1).split('/')])
+            lines = content.readlines()
+            for line in lines:
+                if '|' in line and ':' not in line:
+                    parts = [p.strip() for p in line.split('|')]
+                    if len(parts) > 8:
+                        territories.add(parts[7])
+                        industries.add(parts[8])
     
     save_list(config_dir / 'equity_industries.txt', industries)
     save_list(config_dir / 'equity_territories.txt', territories)
@@ -68,10 +67,20 @@ def update_classifications():
     save_list(config_dir / 'tender_types.txt', types)
 
 def save_list(path, items):
-    items = sorted([i for i in items if i and i != "N/A" and "[" not in i])
+    # Robust filtering: remove headers, placeholders, and examples
+    forbidden = ["industry", "territory", "organization", "name", "type", "etc", "e.g.", "none", "n/a", "all", "["]
+    clean_items = []
+    for i in items:
+        i = i.strip()
+        if not i: continue
+        if any(f in i.lower() for f in forbidden): continue
+        if len(i) < 2: continue
+        clean_items.append(i)
+
+    clean_items = sorted(list(set(clean_items)))
     with open(path, 'w') as f:
-        f.write('\n'.join(items))
-    print(f"✅ Saved {path.name}")
+        f.write('\n'.join(clean_items))
+    print(f"✅ Saved {path.name} ({len(clean_items)} entries)")
 
 if __name__ == "__main__":
     update_classifications()

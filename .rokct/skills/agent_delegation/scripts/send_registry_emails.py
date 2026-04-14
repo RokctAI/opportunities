@@ -77,16 +77,13 @@ def send_registry_emails():
 
     # Gather new items from this week
     for f in (Path(project_root) / '03_tenders').glob('*.md'):
-        if f.name in ['template.md', 'registry_audit_log.md'] or datetime.fromtimestamp(f.stat().st_mtime) < week_ago: continue
+        if f.name == 'template.md' or datetime.fromtimestamp(f.stat().st_mtime) < week_ago: continue
         registry_map['Tenders'].append(get_tender_meta(f))
 
+    # Grants and Equity currently use broad categories
     for f in (Path(project_root) / '02_grants').glob('*.md'):
-        if f.name in ['template.md', 'registry_audit_log.md'] or datetime.fromtimestamp(f.stat().st_mtime) < week_ago: continue
+        if f.name == 'template.md' or datetime.fromtimestamp(f.stat().st_mtime) < week_ago: continue
         registry_map['Grants'].append({'file': f})
-
-    for f in (Path(project_root) / '01_equity').glob('*.md'):
-        if f.name in ['template.md', 'registry_audit_log.md', 'global_audit_log.md'] or datetime.fromtimestamp(f.stat().st_mtime) < week_ago: continue
-        registry_map['Equity'].append({'file': f})
     
     # Check for weekly update reports (The Excel/PDF files)
     report_updates = {
