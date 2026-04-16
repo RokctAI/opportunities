@@ -1,0 +1,25 @@
+---
+# Equity Opportunity: Kalaari Capital
+
+## Quick Stats
+- **Organization**: Kalaari Capital
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A
+- **Industry**: Tech
+- **Territory**: India
+- **Country**: India
+- **Website**: https://kalaari.com
+
+## Contact
+- **Contact Person**: Vani Kola
+- **LinkedIn**: https://www.linkedin.com/in/vanikola
+- **Phone**:
+
+## Source
+- **Source / Verification**: https://kalaari.com/team
+- **Notes**:
+
+## Audit & Status
+- **Status**: ACTIVE
+- **Last Verified**: 2026-04-14
+---

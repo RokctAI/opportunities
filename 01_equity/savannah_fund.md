@@ -1,0 +1,25 @@
+---
+# Equity Opportunity: Savannah Fund
+
+## Quick Stats
+- **Organization**: Savannah Fund
+- **Funder Type**: VC
+- **Funding Type**: Seed
+- **Industry**: Tech
+- **Territory**: Africa
+- **Country**: Kenya
+- **Website**: https://savannah.vc
+
+## Contact
+- **Contact Person**: Mbwana Alliy
+- **LinkedIn**: https://www.linkedin.com/in/mbwana/
+- **Phone**:
+
+## Source
+- **Source / Verification**: https://savannah.vc/team
+- **Notes**:
+
+## Audit & Status
+- **Status**: ACTIVE
+- **Last Verified**: 2026-04-14
+---

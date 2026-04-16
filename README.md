@@ -1,19 +1,18 @@
 # RokctAI Opportunities Registry
 
 ## 🚀 Registry Status Dashboard
-*Last Updated: 2026-04-13 15:27*
+*Last Updated: 2026-04-14 22:32*
 
 | Registry | Total | New (7d) | Verified | Health |
 | :--- | :--- | :--- | :--- | :--- |
-| 🏦 **Equity** | 4 | 4 | 0 | 🟡 |
+| 🏦 **Equity** | 664 | 664 | 0 | 🟡 |
 | 📜 **Grants** | 14 | 14 | 14 | 🟢 |
 | 🏗️ **Tenders** | 309 | 309 | 0 | 🟡 |
 
-**Overall Progress**: `4.3%` Verified | `+327` New Opportunities This Week | [🌐 View Live Dashboard](https://rokctai.github.io/Opportunities-Registry/)
+**Overall Progress**: `1.4%` Verified | `+987` New Opportunities This Week | [🌐 View Live Dashboard](https://rokctai.github.io/Opportunities-Registry/)
 ## Repository Structure
 
-- **`01_equity/`**: Contains registries of potential funders and investment leads.
-  - `funders.md`: A comprehensive list of VCs, Accelerators, and Corporate VCs.
+- **`01_equity/`**: Individual markdown cards for potential funders and investment leads, following `template.md`.
 - **`02_grants/`**: Individual markdown files for grant opportunities, following the `template.md`.
 - **`03_tenders/`**: Individual markdown files for tender opportunities, primarily synced from the South African eTenders portal.
 - **`published/`**: Automatically generated Excel files (.xlsx) for easier distribution and consumption.
@@ -31,7 +30,7 @@ The repository uses GitHub Actions to automate several tasks:
 
 ## How to Contribute
 
--   **Adding Equity Leads**: Update the table in `01_equity/funders.md`.
+-   **Adding Equity Leads**: Create a new `.md` file in `01_equity/` using `01_equity/template.md` as a guide.
 -   **Adding Grants**: Create a new `.md` file in `02_grants/` using `02_grants/template.md` as a guide.
 -   **Verifying Data**: Ensure that entries have a `Status: ACTIVE` or are otherwise marked as verified to be included in the public exports.
 

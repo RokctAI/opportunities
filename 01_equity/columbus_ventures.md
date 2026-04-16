@@ -1,0 +1,25 @@
+---
+# Equity Opportunity: Columbus Ventures
+
+## Quick Stats
+- **Organization**: Columbus Ventures
+- **Funder Type**: VC
+- **Funding Type**: Series A-Z
+- **Industry**: HealthTech
+- **Territory**: Europe
+- **Country**: Spain
+- **Website**: https://columbusvp.com
+
+## Contact
+- **Contact Person**: Javier Garcia
+- **LinkedIn**: https://www.linkedin.com/in/javier-garcia
+- **Phone**:
+
+## Source
+- **Source / Verification**: https://columbusvp.com/team
+- **Notes**:
+
+## Audit & Status
+- **Status**: ACTIVE
+- **Last Verified**: 2026-04-14
+---

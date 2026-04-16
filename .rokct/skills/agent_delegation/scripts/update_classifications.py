@@ -67,10 +67,20 @@ def update_classifications():
     save_list(config_dir / 'tender_types.txt', types)
 
 def save_list(path, items):
-    items = sorted([i for i in items if i and i != "N/A" and "[" not in i])
+    # Robust filtering: remove headers, placeholders, and examples
+    forbidden = ["industry", "territory", "organization", "name", "type", "etc", "e.g.", "none", "n/a", "all", "["]
+    clean_items = []
+    for i in items:
+        i = i.strip()
+        if not i: continue
+        if any(f in i.lower() for f in forbidden): continue
+        if len(i) < 2: continue
+        clean_items.append(i)
+
+    clean_items = sorted(list(set(clean_items)))
     with open(path, 'w') as f:
-        f.write('\n'.join(items))
-    print(f"✅ Saved {path.name}")
+        f.write('\n'.join(clean_items))
+    print(f"✅ Saved {path.name} ({len(clean_items)} entries)")
 
 if __name__ == "__main__":
     update_classifications()
