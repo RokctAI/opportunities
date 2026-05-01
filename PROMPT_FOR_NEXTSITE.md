@@ -46,7 +46,7 @@ The site should have a search interface similar to Google's search page (but not
     - Provide a link back to the search results.
 
 4. Technical Implementation:
-    - Use Next.js 14+ with static generation (preferred for Vercel).
+    - Use the latest stable version of Next.js with static generation (preferred for Vercel).
     - Use TypeScript for type safety.
     - Load the data from `docs/data.json` at build time (in `getStaticProps` for the home page and for generating the detail pages).
     - For each opportunity, during the build, read the markdown file from the file system (using the `path` field) and convert it to HTML (or keep as markdown and convert on the client? We'll convert to HTML at build time for security and performance).
@@ -54,6 +54,13 @@ The site should have a search interface similar to Google's search page (but not
 
 5. Styling:
     - The look and feel should be similar to Google's search page: clean, minimal, with a central focus on the search bar.
+    - Avoid common AI-generated design pitfalls:
+        * Don't overuse gradients, shadows, or complex animations
+        * Avoid generic stock imagery or illustrations
+        * Maintain visual hierarchy and clear information architecture
+        * Use spacing and proportions that feel human-designed, not algorithmically perfect
+        * Focus on functionality and usability over decorative elements
+        * Ensure the design serves the content, not the other way around
     - Use a CSS framework or custom CSS. We can use Tailwind CSS for simplicity, or plain CSS.
 
 6. Deployment:
@@ -73,7 +80,7 @@ We will need to install dependencies: next, react, react-dom, and any markdown p
 ## Steps for the Agent
 1. Initialize a Next.js app with TypeScript (if not already present) by running `npx create-next-app@latest --ts` or manually setting up the files with TypeScript.
 2. Install required dependencies: `gray-matter`, `remark`, `remark-html` (or `react-markdown` if we want to do client-side rendering, but we prefer server-side for static generation).
-3. Create the pages and components as described using the App Router (Next.js 14+).
+3. Create the pages and components as described using the App Router.
 4. Implement the data loading and markdown conversion in the `generateStaticParams` and `generateMetadata` functions where appropriate, or in route handlers.
 5. Implement the search and filter logic.
 6. Style the pages to resemble Google's search page.
