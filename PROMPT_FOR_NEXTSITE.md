@@ -46,7 +46,8 @@ The site should have a search interface similar to Google's search page (but not
     - Provide a link back to the search results.
 
 4. Technical Implementation:
-    - Use Next.js with static generation (preferred for Vercel).
+    - Use Next.js 14+ with static generation (preferred for Vercel).
+    - Use TypeScript for type safety.
     - Load the data from `docs/data.json` at build time (in `getStaticProps` for the home page and for generating the detail pages).
     - For each opportunity, during the build, read the markdown file from the file system (using the `path` field) and convert it to HTML (or keep as markdown and convert on the client? We'll convert to HTML at build time for security and performance).
     - We can use a library like `gray-matter` to parse the frontmatter and `remark` or `react-markdown` to convert markdown to HTML. However, note that we are at build time, so we can do the conversion during the build and store the HTML in the component's props.
@@ -70,10 +71,10 @@ Let's decide: We will keep the `docs/` directory as is (for data) and create the
 We will need to install dependencies: next, react, react-dom, and any markdown processing libraries.
 
 ## Steps for the Agent
-1. Initialize a Next.js app (if not already present) by running `npx create-next-app@latest` or manually setting up the files.
+1. Initialize a Next.js app with TypeScript (if not already present) by running `npx create-next-app@latest --ts` or manually setting up the files with TypeScript.
 2. Install required dependencies: `gray-matter`, `remark`, `remark-html` (or `react-markdown` if we want to do client-side rendering, but we prefer server-side for static generation).
-3. Create the pages and components as described.
-4. Implement the data loading and markdown conversion in the `getStaticProps` functions.
+3. Create the pages and components as described using the App Router (Next.js 14+).
+4. Implement the data loading and markdown conversion in the `generateStaticParams` and `generateMetadata` functions where appropriate, or in route handlers.
 5. Implement the search and filter logic.
 6. Style the pages to resemble Google's search page.
 7. Ensure the site builds successfully with `next build` and can be exported or served with `next start`.
