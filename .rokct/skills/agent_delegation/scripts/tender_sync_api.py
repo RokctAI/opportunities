@@ -28,10 +28,23 @@ def load_environment():
         load_dotenv()
 
 # --- CONFIGURATION ---
-BASE_URL = "https://ocds-api.etenders.gov.za/api/OCDSReleases"
 TENDER_DIR = Path('03_tenders')
 GRANT_DIR = Path('02_grants')
 TEMPLATE_PATH = TENDER_DIR / 'template.md'
+SOURCES_DIR = TENDER_DIR / 'sources'
+
+def get_etenders_api_url():
+    """Reads the base URL from the etendersZA.md source card."""
+    source_file = SOURCES_DIR / 'etendersZA.md'
+    if source_file.exists():
+        with open(source_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+            match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
+            if match:
+                return match.group(1).strip()
+    return "https://ocds-api.etenders.gov.za/api/OCDSReleases" # Fallback
+
+BASE_URL = get_etenders_api_url()
 
 def fetch_and_sync_tenders(page_limit=5, days_back=7):
     """Fetches tenders from API and updates local registry."""
