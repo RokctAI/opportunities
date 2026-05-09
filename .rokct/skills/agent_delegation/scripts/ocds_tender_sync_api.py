@@ -93,6 +93,16 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
                 if file_path.exists():
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
+                        
+                        # FLAG RECOVERY: If flag is missing but source card exists, inject it
+                        if f"- **Flag**: {flag}" not in content and "- **Flag**:" not in content:
+                            print(f"  🚩 Injecting missing flag ({flag}) into {ocid}.md")
+                            new_line = f"- **Flag**: {flag}\n"
+                            # Inject after Source Card
+                            content = re.sub(r'(-\s+\*\*Source Card\*\*:[^\n]+\n)', r'\1' + new_line, content)
+                            with open(file_path, 'w', encoding='utf-8') as fw:
+                                fw.write(content)
+
                         if "Verification Status: VERIFIED" in content or "Status: VERIFIED" in content:
                             continue
                 
