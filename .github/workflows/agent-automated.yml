@@ -116,14 +116,18 @@ jobs:
             echo "🚀 Delegating $TITLE for $REPO..."
             
             # Run the delegation AND only proceed if it returns 0 (Success)
-            if python .rokct/skills/agent_delegation/scripts/delegate_to_agent.py create \
+            RESULT=$(python .rokct/skills/agent_delegation/scripts/delegate_to_agent.py create \
               --repo "sources/github/$REPO" \
               --prompt "$PROMPT" \
               --branch "$BRANCH" \
               --title "$TITLE" \
-              --automation-mode "$AUTOMATION_MODE"; then
-              
+              --automation-mode "$AUTOMATION_MODE")
+            
+            if [ $? -eq 0 ]; then
               echo "✅ Delegation successful. Processing outcome..."
+              SESSION_ID=$(echo "$RESULT" | jq -r '.id // "—"')
+              echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | ✅ SUCCESS | $SESSION_ID | Task delegated successfully. |" >> .rokct/agent/logs/ai_delegation.md
+              HAS_UPDATES=true
               
               # 2. Handle Recurrence & Cleanup
               if [ "$RECURRENCE" == "Daily" ]; then
@@ -143,7 +147,21 @@ jobs:
                 HAS_UPDATES=true
               fi
             else
-              echo "❌ Delegation failed. Task will stay in queue for retry."
+              echo "❌ Delegation failed. Handling retry logic..."
+              ATTEMPTS=$(jq -r '.attempts // 0' "$FILE")
+              NEW_ATTEMPTS=$((ATTEMPTS + 1))
+              
+              if [ "$NEW_ATTEMPTS" -ge 3 ]; then
+                echo "🛑 Task stalled after 3 attempts. Moving to failed."
+                mkdir -p .rokct/agent/failed
+                jq --arg next "$NEW_ATTEMPTS" '.attempts = ($next|tonumber) | .status = "stalled"' "$FILE" > tmp.json && mv tmp.json ".rokct/agent/failed/$(basename "$FILE")"
+                echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | 🛑 STALLED | ${{ github.run_id }} | Stalled after 3 failed attempts. |" >> .rokct/agent/logs/ai_delegation.md
+              else
+                echo "🔄 Incrementing attempts ($NEW_ATTEMPTS/3) and keeping in queue."
+                jq --arg next "$NEW_ATTEMPTS" '.attempts = ($next|tonumber)' "$FILE" > tmp.json && mv tmp.json "$FILE"
+                echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | ❌ FAILED | ${{ github.run_id }} | Delegation failed. Attempt $NEW_ATTEMPTS/3. |" >> .rokct/agent/logs/ai_delegation.md
+              fi
+              HAS_UPDATES=true
             fi
           done
 
