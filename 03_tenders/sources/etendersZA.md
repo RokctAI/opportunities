@@ -4,6 +4,7 @@
 - **Type**: API (OCDS)
 - **URL**: https://ocds-api.etenders.gov.za/api/OCDSReleases
 - **Is API**: true
+- **API Type**: OCDS
 - **Flag**: ZA
 - **Status**: ACTIVE
 - **Update Frequency**: Weekly
