@@ -12,9 +12,24 @@ import io
 import pdfplumber
 
 # --- CONFIGURATION ---
-RFQ_URL = "https://www.musina.gov.za/tenders/request-for-quotations/"
-BIDS_URL = "https://www.musina.gov.za/tenders/bids-received/"
 TENDER_DIR = Path('03_tenders')
+SOURCES_DIR = TENDER_DIR / 'sources'
+
+def get_musina_base_url():
+    """Reads the base URL from the musinaZA.md source card."""
+    source_file = SOURCES_DIR / 'musinaZA.md'
+    if source_file.exists():
+        with open(source_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+            match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
+            if match:
+                base = match.group(1).strip()
+                return base if base.endswith('/') else base + '/'
+    return "https://www.musina.gov.za/tenders/" # Fallback
+
+BASE_URL = get_musina_base_url()
+RFQ_URL = f"{BASE_URL}request-for-quotations/"
+BIDS_URL = f"{BASE_URL}bids-received/"
 
 def fetch_musina_rfqs():
     print(f"🚀 Scraping Musina RFQs from {RFQ_URL}...")
