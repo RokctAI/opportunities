@@ -15,19 +15,29 @@ import pdfplumber
 TENDER_DIR = Path('03_tenders')
 SOURCES_DIR = TENDER_DIR / 'sources'
 
-def get_musina_base_url():
-    """Reads the base URL from the musinaZA.md source card."""
+def get_musina_source_config():
+    """Strictly reads URL and Flag from the musinaZA.md source card."""
     source_file = SOURCES_DIR / 'musinaZA.md'
-    if source_file.exists():
-        with open(source_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-            match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
-            if match:
-                base = match.group(1).strip()
-                return base if base.endswith('/') else base + '/'
-    return "https://www.musina.gov.za/tenders/" # Fallback
+    if not source_file.exists():
+        raise FileNotFoundError(f"❌ Mandatory source card missing: {source_file}")
+    
+    config = {}
+    with open(source_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+        u_match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
+        if u_match: config["url"] = u_match.group(1).strip()
+        else: raise ValueError(f"❌ URL missing in {source_file}")
+        
+        f_match = re.search(r'-\s+\*\*Flag\*\*:\s*([A-Z]{2})', content)
+        if f_match: config["flag"] = f_match.group(1).strip()
+        else: raise ValueError(f"❌ Flag missing in {source_file}")
+            
+    if not config["url"].endswith('/'): config["url"] += '/'
+    config["source_card"] = f"sources/{source_file.name}"
+    return config
 
-BASE_URL = get_musina_base_url()
+SOURCE_CONFIG = get_musina_source_config()
+BASE_URL = SOURCE_CONFIG["url"]
 RFQ_URL = f"{BASE_URL}request-for-quotations/"
 BIDS_URL = f"{BASE_URL}bids-received/"
 
@@ -268,6 +278,8 @@ def sync_rfq_to_markdown(rfq):
 ## Quick Stats
 - **Tender Number**: {rfq['id']}
 - **Institution**: Musina Local Municipality
+- **Source Card**: {SOURCE_CARD_REF}
+- **Flag**: {REGION_FLAG}
 - **Tender Type**: Request for Quotation
 - **Province**: Limpopo
 - **Date Published**: {rfq['pub_date'] or ''}
