@@ -44,8 +44,11 @@ jobs:
       - name: Install Dependencies
         run: pip install requests python-dotenv pycryptodome
 
-      - name: Run Tender Sync
-        run: python .rokct/skills/agent_delegation/scripts/tender_sync_api.py
+      - name: Run OCDS Tender Sync
+        run: python .rokct/skills/agent_delegation/scripts/ocds_tender_sync_api.py
+
+      - name: Run Registry Maintenance
+        run: python .rokct/skills/agent_delegation/scripts/registry_maintenance.py
 
       - name: Global Health Check
         run: python .rokct/skills/agent_delegation/scripts/check_health.py
