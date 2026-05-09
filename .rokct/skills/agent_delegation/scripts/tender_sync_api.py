@@ -33,22 +33,37 @@ GRANT_DIR = Path('02_grants')
 TEMPLATE_PATH = TENDER_DIR / 'template.md'
 SOURCES_DIR = TENDER_DIR / 'sources'
 
-def get_etenders_api_url():
-    """Reads the base URL from the etendersZA.md source card."""
-    source_file = SOURCES_DIR / 'etendersZA.md'
-    if source_file.exists():
+def load_api_source_configs():
+    """Finds all markdown cards in sources/ marked as Is API: true."""
+    configs = []
+    for source_file in SOURCES_DIR.glob('*.md'):
         with open(source_file, 'r', encoding='utf-8') as f:
             content = f.read()
-            match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
-            if match:
-                return match.group(1).strip()
-    return "https://ocds-api.etenders.gov.za/api/OCDSReleases" # Fallback
+            is_api = re.search(r'-\s+\*\*Is API\*\*:\s*true', content, re.IGNORECASE)
+            if is_api:
+                config = {
+                    "name": source_file.stem,
+                    "source_card": f"sources/{source_file.name}",
+                    "url": None,
+                    "flag": "UNKNOWN"
+                }
+                u_match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
+                if u_match: config["url"] = u_match.group(1).strip()
+                
+                f_match = re.search(r'-\s+\*\*Flag\*\*:\s*([A-Z]{2})', content)
+                if f_match: config["flag"] = f_match.group(1).strip()
+                
+                if config["url"]:
+                    configs.append(config)
+    return configs
 
-BASE_URL = get_etenders_api_url()
-
-def fetch_and_sync_tenders(page_limit=5, days_back=7):
-    """Fetches tenders from API and updates local registry."""
-    print(f"🚀 Starting Live OCDS Tender Sync (Last {days_back} days)...")
+def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
+    """Fetches tenders from a specific OCDS API and updates local registry."""
+    base_url = source_config["url"]
+    flag = source_config["flag"]
+    source_ref = source_config["source_card"]
+    
+    print(f"🚀 Syncing {source_config['name']} ({flag}) from {base_url}...")
     
     # Dynamic Date Range
     now = datetime.now()
@@ -64,16 +79,14 @@ def fetch_and_sync_tenders(page_limit=5, days_back=7):
 
     count = 0
     while params["PageNumber"] <= page_limit:
-        print(f"📄 Fetching page {params['PageNumber']}...")
+        print(f"  📄 Page {params['PageNumber']}...")
         try:
-            response = requests.get(BASE_URL, params=params, timeout=30)
+            response = requests.get(base_url, params=params, timeout=30)
             response.raise_for_status()
             data = response.json()
             
             releases = data.get('releases', [])
-            if not releases:
-                print("🏁 No more releases found.")
-                break
+            if not releases: break
                 
             for release in releases:
                 ocid = release.get('ocid')
@@ -82,51 +95,45 @@ def fetch_and_sync_tenders(page_limit=5, days_back=7):
                 tender_data = release.get('tender', {})
                 title = tender_data.get('title', 'Untitled')
 
-                # FUZZY DEDUPLICATION
-                is_duplicate = False
-                for existing_file in TENDER_DIR.glob('*.md'):
-                    if existing_file.name == 'template.md': continue
-                    if existing_file.stem == ocid: continue # Same ID is fine, handled by overwrite logic
-                    
-                    with open(existing_file, 'r', encoding='utf-8') as ef:
-                        first_line = ef.readline()
-                        if title.lower() in first_line.lower():
-                            # Check similarity ratio
-                            existing_title = first_line.replace("# Tender Opportunity: ", "").strip()
-                            similarity = difflib.SequenceMatcher(None, title.lower(), existing_title.lower()).ratio()
-                            if similarity > 0.9:
-                                print(f"👯 Skipping {ocid} - Potential Duplicate of {existing_file.name} ({similarity:.1%})")
-                                is_duplicate = True
-                                break
-                
-                if is_duplicate: continue
-
-                # RULE: OCID-Stable Filenames
+                # DUPLICATION CHECK
                 filename = f"{ocid}.md"
                 file_path = TENDER_DIR / filename
-
-                # PRESERVE VERIFIED DATA: Don't overwrite if manually verified
+                
                 if file_path.exists():
                     with open(file_path, 'r', encoding='utf-8') as f:
                         if "Verification Status: VERIFIED" in f.read() or "Status: VERIFIED" in f.read():
-                            print(f"⏩ Skipping {ocid} (Already Verified)")
                             continue
                 
-                markdown_content = generate_markdown_from_ocds(release)
+                markdown_content = generate_markdown_from_ocds(release, flag, source_ref)
                 with open(file_path, 'w', encoding='utf-8') as f:
                     f.write(markdown_content)
                 count += 1
                 
-            # Check for next page
-            if not data.get('links', {}).get('next'):
-                break
+            if not data.get('links', {}).get('next'): break
             params["PageNumber"] += 1
             
         except Exception as e:
-            print(f"❌ Error fetching page {params['PageNumber']}: {e}")
+            print(f"  ❌ Error: {e}")
             break
 
-    print(f"✅ Sync complete. Processed {count} tenders.")
+    print(f"  ✅ Processed {count} tenders.")
+    return count
+
+def run_orchestrator():
+    """Orchestrates sync for all API sources."""
+    load_environment()
+    TENDER_DIR.mkdir(parents=True, exist_ok=True)
+    
+    api_configs = load_api_source_configs()
+    total_new = 0
+    
+    if not api_configs:
+        print("ℹ️ No API sources found in sources/*.md")
+    
+    for config in api_configs:
+        total_new += fetch_and_sync_tenders(config)
+        
+    print(f"🏁 Total new tenders added: {total_new}")
     purge_expired_tenders()
     purge_expired_grants()
     queue_ai_enrichment()
@@ -230,6 +237,8 @@ def generate_markdown_from_ocds(release):
 ## Quick Stats
 - **Tender Number**: {ocid}
 - **Institution**: {institution}
+- **Source Card**: {SOURCE_CARD_REF}
+- **Flag**: {REGION_FLAG}
 - **Tender Type**: {t_type}
 - **Province**: {province}
 - **Date Published**: {published}
