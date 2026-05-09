@@ -1,0 +1,20 @@
+{
+  "last_updated": "2026-05-09T13:21:54.673922Z",
+  "categories": {
+    "equity": {
+      "count": 664,
+      "last_updated": "2026-04-14T00:00:00Z",
+      "endpoint": "/api/equity.json"
+    },
+    "grants": {
+      "count": 14,
+      "last_updated": "2025-03-04T00:00:00Z",
+      "endpoint": "/api/grants.json"
+    },
+    "tenders": {
+      "count": 309,
+      "last_updated": "2026-04-12T00:00:00Z",
+      "endpoint": "/api/tenders.json"
+    }
+  }
+}
