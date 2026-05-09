@@ -1,4 +1,5 @@
 ---
+# Trigger build: 2026-05-09
 # Equity Opportunity: 10x Group
 
 ## Quick Stats
