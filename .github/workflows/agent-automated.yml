@@ -115,15 +115,12 @@ jobs:
             
             echo "🚀 Delegating $TITLE for $REPO..."
             
-            # Run the delegation AND only proceed if it returns 0 (Success)
-            RESULT=$(python .rokct/skills/agent_delegation/scripts/delegate_to_agent.py create \
+            if RESULT=$(python .rokct/skills/agent_delegation/scripts/delegate_to_agent.py create \
               --repo "sources/github/$REPO" \
               --prompt "$PROMPT" \
               --branch "$BRANCH" \
               --title "$TITLE" \
-              --automation-mode "$AUTOMATION_MODE")
-            
-            if [ $? -eq 0 ]; then
+              --automation-mode "$AUTOMATION_MODE"); then
               echo "✅ Delegation successful. Processing outcome..."
               SESSION_ID=$(echo "$RESULT" | jq -r '.id // "—"')
               echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | ✅ SUCCESS | $SESSION_ID | Task delegated successfully. |" >> .rokct/agent/logs/ai_delegation.md
