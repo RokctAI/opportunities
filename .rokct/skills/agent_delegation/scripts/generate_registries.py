@@ -7,8 +7,24 @@ import re
 from pathlib import Path
 from datetime import datetime
 
+# --- CONFIGURATION ---
+DATA_MAP = {
+    '01_equity': 'equity.json',
+    '02_grants': 'grants.json',
+    '03_tenders': 'tenders.json'
+}
+CLASSIFICATION_PATH = Path('.rokct/config/classifications')
+
+def load_classifications():
+    """Loads standardized classifications if they exist."""
+    classes = {}
+    if CLASSIFICATION_PATH.exists():
+        # Implementation could be extended to read specific mapping files
+        pass
+    return classes
+
 def parse_markdown_card(content):
-    """Parses a markdown card into a dictionary using regex for speed."""
+    """Parses a markdown card into a dictionary with improved metadata extraction."""
     data = {}
     
     # Extract Title (h1)
@@ -19,45 +35,46 @@ def parse_markdown_card(content):
     # Matches: - **Key**: Value
     matches = re.findall(r'-\s+\*\*(.+?)\*\*:\s*(.*)', content)
     for key, val in matches:
-        data[key.lower().replace(' ', '_')] = val.strip()
+        clean_key = key.lower().replace(' ', '_').strip('?')
+        data[clean_key] = val.strip()
     
-    # Special section extraction: AI Analysis / Description
-    # Matches from ## Detailed Description until next ##
-    desc_match = re.search(r'## Detailed Description\s*\n\s*([\s\S]+?)\n\n##', content)
-    if desc_match:
-        data['description'] = desc_match.group(1).strip()
+    # Ensure mandatory metadata fields exist (even if empty)
+    for field in ['flag', 'source_card', 'status', 'last_verified']:
+        if field not in data:
+            data[field] = "N/A"
+            
+    # Category Extraction
+    category = "General"
+    cat_match = re.search(r'### Category\n\s*(.+)', content)
+    if cat_match:
+        category = cat_match.group(1).strip()
+    data['category'] = category
         
     return data
 
 def generate_registries():
-    print("🚀 Generating optimized JSON registries...")
-    
-    data_map = {
-        '01_equity': 'equity.json',
-        '02_grants': 'grants.json',
-        '03_tenders': 'tenders.json'
-    }
+    print("🚀 Generating Enhanced JSON Database...")
     
     meta = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
-        "categories": {}
+        "registries": {}
     }
     
     api_dir = Path('published/api')
     api_dir.mkdir(parents=True, exist_ok=True)
     
-    for folder, output_file in data_map.items():
+    for folder, output_file in DATA_MAP.items():
         folder_path = Path(folder)
-        if not folder_path.exists():
-            print(f"⚠️ Folder {folder} not found. Skipping.")
-            continue
+        if not folder_path.exists(): continue
             
         items = []
+        category_counts = {}
         last_item_update = None
         
-        print(f"📦 Processing {folder}...")
+        reg_name = folder.split('_')[1]
+        print(f"📦 Indexing {reg_name}...")
+        
         for md_file in folder_path.glob('*.md'):
-            # Skip templates and logs
             if md_file.name in ['template.md', 'registry_audit_log.md', 'global_audit_log.md']:
                 continue
                 
@@ -68,22 +85,28 @@ def generate_registries():
                     item_data['slug'] = md_file.stem
                     items.append(item_data)
                     
-                    # Track latest update in this category
+                    # Track breakdown by category
+                    cat = item_data.get('category', 'General')
+                    category_counts[cat] = category_counts.get(cat, 0) + 1
+                    
+                    # Track latest update
                     updated_at = item_data.get('last_verified')
-                    if updated_at:
+                    if updated_at and updated_at != "N/A":
                         if not last_item_update or updated_at > last_item_update:
                             last_item_update = updated_at
+                            
             except Exception as e:
                 print(f"❌ Error parsing {md_file}: {e}")
         
-        # Save Category JSON
+        # Save Registry JSON
         with open(api_dir / output_file, 'w', encoding='utf-8') as f:
             json.dump(items, f, indent=2)
             
-        # Update Meta
-        meta['categories'][folder.split('_')[1]] = {
-            "count": len(items),
-            "last_updated": last_item_update + "T00:00:00Z" if last_item_update else meta['last_updated'],
+        # Update Meta with detailed breakdown
+        meta['registries'][reg_name] = {
+            "total_count": len(items),
+            "breakdown": category_counts,
+            "last_verified": last_item_update if last_item_update else "N/A",
             "endpoint": f"/api/{output_file}"
         }
         
@@ -91,7 +114,7 @@ def generate_registries():
     with open(api_dir / 'meta.json', 'w', encoding='utf-8') as f:
         json.dump(meta, f, indent=2)
         
-    print(f"✅ Registries generated in {api_dir}/")
+    print(f"✅ JSON Database regenerated at {api_dir}/")
 
 if __name__ == "__main__":
     generate_registries()
