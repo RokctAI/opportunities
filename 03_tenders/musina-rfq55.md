@@ -3,6 +3,7 @@
 ## Quick Stats
 - **Tender Number**: RFQ55
 - **Institution**: Musina Local Municipality
+- **Source Card**: sources/musinaZA.md
 - **Tender Type**: Request for Quotation
 - **Province**: Limpopo
 - **Date Published**:
