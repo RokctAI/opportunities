@@ -1,0 +1,44 @@
+# Copyright (c) 2026 RokctAI
+name: "Registry: Data-to-API Sync"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '01_equity/**'
+      - '02_grants/**'
+      - '03_tenders/**'
+  workflow_dispatch:
+
+concurrency:
+  group: registry-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Generate Registries
+        run: |
+          python .rokct/skills/agent_delegation/scripts/generate_registries.py
+          
+      - name: Commit API Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add published/api/*.json
+          if git diff --staged --quiet; then
+            echo "No API changes to commit."
+          else
+            git commit -m "🤖 [CI] Sync Registry API (JSON) [skip ci]"
+            git push origin main
+          fi
