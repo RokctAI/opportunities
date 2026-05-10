@@ -8,7 +8,7 @@
 - **Industry**: Crypto
 - **Territory**: Global
 - **Country**: Germany / Global
-- **Flag**: DE
+- **Flag**: DE / GLOBAL
 - **Website**: https://1kx.network
 
 ## Contact

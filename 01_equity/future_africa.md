@@ -8,7 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Africa
 - **Country**: Nigeria
-- **Flag**: NE
+- **Flag**: NG
 - **Website**: https://www.future.africa
 
 ## Contact

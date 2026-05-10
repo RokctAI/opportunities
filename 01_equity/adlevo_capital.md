@@ -8,7 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Africa
 - **Country**: Nigeria / Mauritius
-- **Flag**: MU
+- **Flag**: MU / NG
 - **Website**: https://adlevocapital.com
 
 ## Contact

@@ -8,7 +8,7 @@
 - **Industry**: Gaming / Tech
 - **Territory**: Global
 - **Country**: USA / UK / Asia
-- **Flag**: GB
+- **Flag**: GB / US
 - **Website**: https://makersfund.com
 
 ## Contact

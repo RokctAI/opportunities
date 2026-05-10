@@ -8,7 +8,7 @@
 - **Industry**: Tech / AI / Fintech
 - **Territory**: Latin America
 - **Country**: USA / Brazil
-- **Flag**: BR
+- **Flag**: BR / US
 - **Website**: https://valorcapitalgroup.com
 
 ## Contact

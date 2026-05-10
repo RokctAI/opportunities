@@ -8,7 +8,7 @@
 - **Industry**: Tech / DeepTech / AI
 - **Territory**: Southeast Asia
 - **Country**: Singapore / USA
-- **Flag**: SG
+- **Flag**: SG / US
 - **Website**: https://wavemaker.vc
 
 ## Contact
