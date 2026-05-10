@@ -49,15 +49,12 @@ def load_ocds_api_configs():
     for source_file in SOURCES_DIR.glob('*.md'):
         with open(source_file, 'r', encoding='utf-8') as f:
             content = f.read()
-            
-            # Robust Regex for all fields
             is_api = re.search(r'-\s+\*\*Is API\*\*:\s*true', content, re.IGNORECASE)
             is_ocds = re.search(r'-\s+\*\*API Type\*\*:\s*OCDS', content, re.IGNORECASE)
             
             if is_api and is_ocds:
                 u_match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
                 f_match = re.search(r'-\s+\*\*Flag\*\*:\s*([A-Z]{2})', content)
-                
                 if u_match and f_match:
                     configs.append({
                         "name": source_file.stem,
@@ -68,25 +65,18 @@ def load_ocds_api_configs():
     return configs
 
 def fetch_and_sync_tenders(source_config, days_back=7):
-    """Fetches tenders using Ultra-Batching for maximum stability."""
+    """Fetches tenders using Ultra-Batching and Latest-First Deduplication."""
     base_url = source_config["url"]
     flag = source_config["flag"]
     source_ref = source_config["source_card"]
     session = get_resilient_session()
     
-    # Ultra-Batching PageSize (Up to 20,000 supported by server via Postman)
     PAGE_SIZE = 5000 
-    
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] [Sync] Requesting {source_config['name']} ({flag}, PageSize: {PAGE_SIZE})...")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] [Sync] Fetching {source_config['name']} (PageSize: {PAGE_SIZE})...")
     
     date_to = datetime.now().strftime('%Y-%m-%d')
     date_from = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
-    params = {
-        "PageNumber": 1, 
-        "PageSize": PAGE_SIZE, 
-        "dateFrom": date_from, 
-        "dateTo": date_to
-    }
+    params = {"PageNumber": 1, "PageSize": PAGE_SIZE, "dateFrom": date_from, "dateTo": date_to}
 
     try:
         response = session.get(base_url, params=params, timeout=120)
@@ -95,17 +85,27 @@ def fetch_and_sync_tenders(source_config, days_back=7):
         releases = data.get('releases', [])
         
         if not releases:
-            print("  [Info] No releases found for this period.")
+            print("  [Info] No releases found.")
             return 0
 
-        unique_ids = set()
-        updates = 0
-
+        # --- DEDUPLICATION: Keep only the latest release for each OCID ---
+        # OCDS releases are usually ordered by date descending, but we ensure it.
+        latest_releases = {}
         for release in releases:
             ocid = release.get('ocid')
             if not ocid: continue
             
+            # If multiple releases exist for the same OCID, keep the one with the latest 'date'
+            rel_date = release.get('date', '')
+            if ocid not in latest_releases or rel_date > latest_releases[ocid].get('date', ''):
+                latest_releases[ocid] = release
+
+        updates = 0
+        print(f"  [Integrity] Found {len(releases)} releases ({len(latest_releases)} unique tenders). Checking for changes...")
+
+        for ocid, release in latest_releases.items():
             file_path = TENDER_DIR / f"{ocid}.md"
+            
             existing_content = ""
             if file_path.exists():
                 with open(file_path, 'r', encoding='utf-8') as f:
@@ -116,22 +116,24 @@ def fetch_and_sync_tenders(source_config, days_back=7):
 
             new_content = generate_markdown_from_ocds(release, flag, source_ref)
             
-            # Deterministic comparison
-            if new_content.strip() != existing_content.strip():
-                with open(file_path, 'w', encoding='utf-8') as f:
+            # ROBUST COMPARISON: Ignore line endings and trailing whitespace
+            existing_lines = [line.strip() for line in existing_content.splitlines() if line.strip()]
+            new_lines = [line.strip() for line in new_content.splitlines() if line.strip()]
+            
+            if existing_lines != new_lines:
+                with open(file_path, 'w', encoding='utf-8', newline='\n') as f:
                     f.write(new_content)
                 updates += 1
-                unique_ids.add(ocid)
         
-        print(f"  [Status] Received {len(releases)} releases. Updated {updates} tenders.")
-        return len(unique_ids)
+        print(f"  [Status] Done. {updates} files genuinely updated.")
+        return len(latest_releases)
 
     except Exception as e:
         print(f"  [Error] Sync failed: {e}")
         return 0
 
 def generate_markdown_from_ocds(release, flag, source_ref):
-    """Maps OCDS JSON fields with Deterministic Stability (Sorting)."""
+    """Maps OCDS JSON fields with Deterministic Stability."""
     tender = release.get('tender', {})
     ocid = release.get('ocid')
     
@@ -223,9 +225,7 @@ if __name__ == "__main__":
     if not configs:
         print("No API sources found.")
     else:
-        total = 0
         for config in configs:
-            total += fetch_and_sync_tenders(config)
-        print(f"Total Unique Tenders Synced: {total}")
+            fetch_and_sync_tenders(config)
         
     print(f"[{datetime.now().strftime('%H:%M:%S')}] OCDS Sync Complete.")
