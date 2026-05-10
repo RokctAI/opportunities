@@ -78,14 +78,15 @@ jobs:
             
             echo "🚀 Delegating $TITLE for $REPO..."
             
-            # Run the delegation AND only proceed if it returns 0 (Success)
-            if RESULT=$(python .rokct/scripts/agent_delegation/delegate_to_agent.py create \
+            # Run the delegation and capture output for both success and failure
+            RESULT=$(python .rokct/scripts/agent_delegation/delegate_to_agent.py create \
               --repo "sources/github/$REPO" \
               --prompt "$PROMPT" \
               --branch "$BRANCH" \
               --title "$TITLE" \
-              --automation-mode "$AUTOMATION_MODE"); then
-              
+              --automation-mode "$AUTOMATION_MODE" 2>&1)
+            
+            if [ $? -eq 0 ]; then
               echo "✅ Delegation successful."
               SESSION_ID=$(echo "$RESULT" | jq -r '.id // "—"')
               echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | ✅ SUCCESS | $SESSION_ID | Task delegated successfully. |" >> .rokct/agent/logs/ai_delegation.md
@@ -103,15 +104,16 @@ jobs:
               fi
             else
               echo "❌ Delegation failed."
+              REASON=$(echo "$RESULT" | tail -n 1 | sed 's/|/\\|/g')
               ATTEMPTS=$(jq -r '.attempts // 0' "$FILE")
               NEW_ATTEMPTS=$((ATTEMPTS + 1))
               if [ "$NEW_ATTEMPTS" -ge 3 ]; then
                 mkdir -p .rokct/agent/failed
                 mv "$FILE" ".rokct/agent/failed/$(basename "$FILE")"
-                echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | 🛑 STALLED | ${{ github.run_id }} | Stalled after 3 failed attempts. |" >> .rokct/agent/logs/ai_delegation.md
+                echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | 🛑 STALLED | ${{ github.run_id }} | Stalled after 3 attempts. Reason: $REASON |" >> .rokct/agent/logs/ai_delegation.md
               else
                 jq --arg next "$NEW_ATTEMPTS" '.attempts = ($next|tonumber)' "$FILE" > tmp.json && mv tmp.json "$FILE"
-                echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | ❌ FAILED | ${{ github.run_id }} | Attempt $NEW_ATTEMPTS/3. |" >> .rokct/agent/logs/ai_delegation.md
+                echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | ❌ FAILED | ${{ github.run_id }} | Attempt $NEW_ATTEMPTS/3. Reason: $REASON |" >> .rokct/agent/logs/ai_delegation.md
               fi
               HAS_UPDATES=true
             fi
