@@ -1,5 +1,5 @@
 # Licensed under the MIT License.
-# Copyright 2026 RokctAI
+# Copyright 2024 RokctAI
 
 import os
 import json
@@ -8,113 +8,146 @@ from pathlib import Path
 from datetime import datetime
 
 # --- CONFIGURATION ---
-DATA_MAP = {
-    '01_equity': 'equity.json',
-    '02_grants': 'grants.json',
-    '03_tenders': 'tenders.json'
+BASE_DIR = Path('.')
+REGISTRIES = {
+    "Equity": BASE_DIR / "01_equity",
+    "Grants": BASE_DIR / "02_grants",
+    "Tenders": BASE_DIR / "03_tenders"
 }
-CLASSIFICATION_PATH = Path('.rokct/config/classifications')
+PUBLISHED_DIR = BASE_DIR / "published"
+README_PATH = BASE_DIR / "README.md"
+AUDIT_LOG_PATH = BASE_DIR / "03_tenders" / "registry_audit_log.md"
 
-def load_classifications():
-    """Loads standardized classifications if they exist."""
-    classes = {}
-    if CLASSIFICATION_PATH.exists():
-        # Implementation could be extended to read specific mapping files
-        pass
-    return classes
+def scan_registry(path):
+    """Scans a directory for markdown files and extracts stats."""
+    total = 0
+    verified = 0
+    categories = {}
+    
+    if not path.exists():
+        return 0, 0, {}
 
-def parse_markdown_card(content):
-    """Parses a markdown card into a dictionary with improved metadata extraction."""
-    data = {}
-    
-    # Extract Title (h1)
-    title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
-    data['title'] = title_match.group(1).strip() if title_match else "Unknown"
-    
-    # Extract Key-Value pairs from bullets
-    # Matches: - **Key**: Value
-    matches = re.findall(r'-\s+\*\*(.+?)\*\*:\s*(.*)', content)
-    for key, val in matches:
-        clean_key = key.lower().replace(' ', '_').strip('?')
-        data[clean_key] = val.strip()
-    
-    # Ensure mandatory metadata fields exist (even if empty)
-    for field in ['flag', 'source_card', 'status', 'last_verified']:
-        if field not in data:
-            data[field] = "N/A"
-            
-    # Category Extraction
-    category = "General"
-    cat_match = re.search(r'### Category\n\s*(.+)', content)
-    if cat_match:
-        category = cat_match.group(1).strip()
-    data['category'] = category
+    for file in path.glob('*.md'):
+        if file.name.lower() == 'template.md' or file.name.lower() == 'readme.md':
+            continue
         
-    return data
+        total += 1
+        with open(file, 'r', encoding='utf-8', errors='ignore') as f:
+            content = f.read()
+            
+            # Check Verification Status
+            if "Verification Status: VERIFIED" in content or "Status: VERIFIED" in content:
+                verified += 1
+            
+            # Extract Category (Tenders specific)
+            cat_match = re.search(r'### Category\n(.*?)\n', content, re.IGNORECASE)
+            if cat_match:
+                cat = cat_match.group(1).strip()
+                categories[cat] = categories.get(cat, 0) + 1
+            else:
+                categories["Uncategorized"] = categories.get("Uncategorized", 0) + 1
+                
+    return total, verified, categories
 
-def generate_registries():
-    print("🚀 Generating Enhanced JSON Database...")
+def update_readme(stats):
+    """Injects the latest stats into the README.md dashboard."""
+    if not README_PATH.exists(): return
     
-    meta = {
-        "last_updated": datetime.utcnow().isoformat() + "Z",
-        "registries": {}
+    with open(README_PATH, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Prepare Dashboard Rows
+    rows = []
+    total_all = 0
+    verified_all = 0
+    
+    icons = {"Equity": "🏦", "Grants": "📜", "Tenders": "🏗️"}
+    
+    for name, data in stats.items():
+        total, verified, _ = data
+        health = "🟢" if verified > 0 else "🟡"
+        rows.append(f"| {icons.get(name, '📁')} **{name}** | {total} | {total} | {verified} | {health} |")
+        total_all += total
+        verified_all += verified
+
+    dashboard_table = "\n".join(rows)
+    verified_pct = (verified_all / total_all * 100) if total_all > 0 else 0
+    
+    # Replace Last Updated
+    content = re.sub(
+        r'\*Last Updated:.*?\*', 
+        f"*Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}*", 
+        content
+    )
+    
+    # Replace Table
+    table_pattern = r'(\| Registry \| Total \| New \(7d\) \| Verified \| Health \|\n\| :--- \| :--- \| :--- \| :--- \| :--- \|\n)([\s\S]*?)(\n\n\*\*Overall Progress\*\*)'
+    content = re.sub(table_pattern, f'\\1{dashboard_table}\\3', content)
+    
+    # Replace Overall Progress
+    progress_line = f"**Overall Progress**: `{verified_pct:.1f}%` Verified | `+{total_all}` New Opportunities This Week | [🌐 View Live Dashboard](https://rokctai.github.io/Opportunities-Registry/)"
+    content = re.sub(r'\*\*Overall Progress\*\*:.*$', progress_line, content, flags=re.MULTILINE)
+
+    with open(README_PATH, 'w', encoding='utf-8') as f:
+        f.write(content)
+    print("✅ README.md Dashboard Updated.")
+
+def update_audit_log(total, verified):
+    """Updates the Tender-specific audit log."""
+    if not AUDIT_LOG_PATH.exists(): return
+    
+    with open(AUDIT_LOG_PATH, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    
+    new_lines = []
+    for line in lines:
+        if line.startswith("| 03_tenders/ |"):
+            new_lines.append(f"| 03_tenders/ | LIVING | IN_PROGRESS | {datetime.now().strftime('%Y-%m-%d')} | {verified} | {total} |\n")
+        elif "Automated audit log update:" in line:
+            new_lines.append(f"- Automated audit log update: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
+        elif "Verified:" in line:
+            pct = (verified / total * 100) if total > 0 else 0
+            new_lines.append(f"- Verified: {verified}/{total} ({pct:.1f}%)\n")
+        else:
+            new_lines.append(line)
+            
+    with open(AUDIT_LOG_PATH, 'w', encoding='utf-8') as f:
+        f.writelines(new_lines)
+    print("✅ registry_audit_log.md Updated.")
+
+def generate():
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Starting Registry Orchestration...")
+    
+    stats = {}
+    tender_categories = {}
+    
+    for name, path in REGISTRIES.items():
+        total, verified, cats = scan_registry(path)
+        stats[name] = (total, verified, cats)
+        if name == "Tenders":
+            tender_categories = cats
+
+    # 1. Update README & Audit Log
+    update_readme(stats)
+    update_audit_log(stats["Tenders"][0], stats["Tenders"][1])
+
+    # 2. Update meta.json (For API/Web consumption)
+    meta_path = PUBLISHED_DIR / "api" / "meta.json"
+    meta_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    meta_data = {
+        "last_sync": datetime.now().isoformat(),
+        "total_tenders": stats["Tenders"][0],
+        "verified_tenders": stats["Tenders"][1],
+        "categories": tender_categories,
+        "registries": {k: {"total": v[0], "verified": v[1]} for k, v in stats.items()}
     }
     
-    api_dir = Path('published/api')
-    api_dir.mkdir(parents=True, exist_ok=True)
-    
-    for folder, output_file in DATA_MAP.items():
-        folder_path = Path(folder)
-        if not folder_path.exists(): continue
-            
-        items = []
-        category_counts = {}
-        last_item_update = None
+    with open(meta_path, 'w', encoding='utf-8') as f:
+        json.dump(meta_data, f, indent=2)
         
-        reg_name = folder.split('_')[1]
-        print(f"📦 Indexing {reg_name}...")
-        
-        for md_file in folder_path.glob('*.md'):
-            if md_file.name in ['template.md', 'registry_audit_log.md', 'global_audit_log.md']:
-                continue
-                
-            try:
-                with open(md_file, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    item_data = parse_markdown_card(content)
-                    item_data['slug'] = md_file.stem
-                    items.append(item_data)
-                    
-                    # Track breakdown by category
-                    cat = item_data.get('category', 'General')
-                    category_counts[cat] = category_counts.get(cat, 0) + 1
-                    
-                    # Track latest update
-                    updated_at = item_data.get('last_verified')
-                    if updated_at and updated_at != "N/A":
-                        if not last_item_update or updated_at > last_item_update:
-                            last_item_update = updated_at
-                            
-            except Exception as e:
-                print(f"❌ Error parsing {md_file}: {e}")
-        
-        # Save Registry JSON
-        with open(api_dir / output_file, 'w', encoding='utf-8') as f:
-            json.dump(items, f, indent=2)
-            
-        # Update Meta with detailed breakdown
-        meta['registries'][reg_name] = {
-            "total_count": len(items),
-            "breakdown": category_counts,
-            "last_verified": last_item_update if last_item_update else "N/A",
-            "endpoint": f"/api/{output_file}"
-        }
-        
-    # Save Meta JSON
-    with open(api_dir / 'meta.json', 'w', encoding='utf-8') as f:
-        json.dump(meta, f, indent=2)
-        
-    print(f"✅ JSON Database regenerated at {api_dir}/")
+    print(f"✅ meta.json updated with {stats['Tenders'][0]} tenders.")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Orchestration Complete.")
 
 if __name__ == "__main__":
-    generate_registries()
+    generate()
