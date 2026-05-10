@@ -8,8 +8,11 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import re
 import time
-import io
-import pdfplumber
+try:
+    import pdfplumber
+    HAS_PDF_PARSER = True
+except ImportError:
+    HAS_PDF_PARSER = False
 
 # --- CONFIGURATION ---
 TENDER_DIR = Path('03_tenders')
