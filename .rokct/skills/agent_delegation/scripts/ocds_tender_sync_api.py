@@ -31,8 +31,8 @@ def get_resilient_session():
     """Creates a requests session with retry logic and SSL tolerance."""
     session = requests.Session()
     retry_strategy = Retry(
-        total=3,
-        backoff_factor=1,
+        total=5, # Increased retries
+        backoff_factor=2, # Slower backoff
         status_forcelist=[429, 500, 502, 503, 504],
         allowed_methods=["HEAD", "GET", "OPTIONS"]
     )
@@ -71,8 +71,8 @@ def load_ocds_api_configs():
                     configs.append(config)
     return configs
 
-def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
-    """Fetches tenders from an OCDS API and updates local registry."""
+def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
+    """Fetches ALL tenders from an OCDS API for the given date range."""
     base_url = source_config["url"]
     flag = source_config["flag"]
     source_ref = source_config["source_card"]
@@ -86,24 +86,25 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
 
     params = {
         "PageNumber": 1,
-        "PageSize": 50,
+        "PageSize": 100, # Increased page size for efficiency
         "dateFrom": date_from,
         "dateTo": date_to
     }
 
     releases_processed = 0
-    unique_tenders = set()
+    unique_tenders_updated = 0
+    unique_ids = set()
 
     while params["PageNumber"] <= page_limit:
-        print(f"  [{datetime.now().strftime('%H:%M:%S')}] Requesting Page {params['PageNumber']}...")
+        print(f"  [{datetime.now().strftime('%H:%M:%S')}] Fetching Page {params['PageNumber']}...")
         try:
-            response = session.get(base_url, params=params, timeout=30)
+            response = session.get(base_url, params=params, timeout=60)
             response.raise_for_status()
             data = response.json()
             
             releases = data.get('releases', [])
             if not releases:
-                print("  [Info] No more releases in this range.")
+                print("  [Info] Reached end of data stream.")
                 break
                 
             for release in releases:
@@ -111,6 +112,8 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
                 if not ocid: continue
                 
                 file_path = TENDER_DIR / f"{ocid}.md"
+                is_new = not file_path.exists()
+                
                 if file_path.exists():
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
@@ -130,17 +133,23 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
                     f.write(markdown_content)
                 
                 releases_processed += 1
-                unique_tenders.add(ocid)
+                if ocid not in unique_ids:
+                    unique_tenders_updated += 1
+                    unique_ids.add(ocid)
                 
-            if not data.get('links', {}).get('next'): break
+            # OCDS APIs often use 'links' for pagination
+            if not data.get('links', {}).get('next'): 
+                print("  [Info] No 'next' link found. Sync complete.")
+                break
+            
             params["PageNumber"] += 1
             
         except Exception as e:
-            print(f"  [Error] Syncing {source_config['name']} at page {params['PageNumber']}: {e}")
+            print(f"  [Error] Failed at page {params['PageNumber']}: {e}")
             break
 
-    print(f"  [Status] Finished {source_config['name']}: {releases_processed} releases ({len(unique_tenders)} unique tenders).")
-    return len(unique_tenders)
+    print(f"  [Status] {source_config['name']} Done: {releases_processed} releases handled. {unique_tenders_updated} tenders synced.")
+    return unique_tenders_updated
 
 def generate_markdown_from_ocds(release, flag, source_ref):
     """Maps OCDS JSON fields to Monorepo Template."""
@@ -247,9 +256,9 @@ if __name__ == "__main__":
     total_unique = 0
     
     if not api_configs:
-        print("No OCDS API sources found in sources/*.md")
+        print("No API sources found.")
     else:
         for config in api_configs:
             total_unique += fetch_and_sync_tenders(config)
         
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] OCDS Sync complete. Unique tenders updated: {total_unique}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] OCDS Sync complete. Unique tenders in registry: {total_unique}")
