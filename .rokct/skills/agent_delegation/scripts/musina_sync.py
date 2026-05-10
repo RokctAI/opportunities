@@ -38,6 +38,8 @@ def get_musina_source_config():
 
 SOURCE_CONFIG = get_musina_source_config()
 BASE_URL = SOURCE_CONFIG["url"]
+REGION_FLAG = SOURCE_CONFIG["flag"]
+SOURCE_CARD_REF = SOURCE_CONFIG["source_card"]
 RFQ_URL = f"{BASE_URL}request-for-quotations/"
 BIDS_URL = f"{BASE_URL}bids-received/"
 
