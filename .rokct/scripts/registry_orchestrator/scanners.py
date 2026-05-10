@@ -9,8 +9,15 @@ from healers import heal_equity_flags
 DEFAULT_AI_BLOCK = """- [ ] Review Tender Documents | 1
 - [ ] Prepare Initial Response | 3"""
 
+# --- THE WHITELIST (Only aggregate these for the JSON) ---
+INTERESTING_KEYS = [
+    "Category", "Tender Type", "Province", "Institution", # Tenders
+    "Industry", "Territory", "Funder Type", "Funding Type", "Country", # Equity
+    "Focus Area" # Grants
+]
+
 def scan_registry(name, path):
-    """Scans a directory with deep metadata extraction and auto-healing."""
+    """Scans a directory with filtered metadata extraction."""
     total = 0
     verified = 0
     stats_aggregation = {} 
@@ -30,28 +37,28 @@ def scan_registry(name, path):
             with open(file, 'r', encoding='utf-8', errors='ignore') as f:
                 content = f.read()
                 
-                # --- HEALING STEP ---
+                # 1. Healing Step
                 if name == "Equity":
-                    # Automatically add missing flags based on Country
                     content = heal_equity_flags(file, content)
 
-                # --- SCANNING LOGIC ---
-                # 1. Verification Logic
+                # 2. Verification Logic (Regex for bolded status)
                 is_active = re.search(r'-\s+\*\*Status\*\*:\s*ACTIVE', content, re.I)
                 is_verified = re.search(r'Verification Status:\s*VERIFIED', content, re.I)
-                
                 if is_active or is_verified:
                     verified += 1
                 
-                # 2. Universal Metadata Extraction
+                # 3. Filtered Metadata Extraction
                 stat_matches = re.finditer(r'-\s+\*\*(?P<key>.*?)\*\*:\s*(?P<val>.*)', content)
                 for m in stat_matches:
                     key = m.group('key').strip()
                     val = m.group('val').strip()
-                    if key not in stats_aggregation: stats_aggregation[key] = {}
-                    stats_aggregation[key][val] = stats_aggregation[key].get(val, 0) + 1
+                    
+                    # ONLY aggregate if it's an "Interesting Key"
+                    if key in INTERESTING_KEYS:
+                        if key not in stats_aggregation: stats_aggregation[key] = {}
+                        stats_aggregation[key][val] = stats_aggregation[key].get(val, 0) + 1
 
-                # 3. Tender AI Logic
+                # 4. Tender AI Logic
                 if name == "Tenders":
                     match = re.search(r'## AI Checklist \(Jules\)[\s\S]*?-->\s*([\s\S]*)$', content)
                     if match:
