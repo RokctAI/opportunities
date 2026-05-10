@@ -6,10 +6,15 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+# The Global Defaults to be used by Next.js for "BASIC" tenders
+GLOBAL_DEFAULT_TASKS = [
+    "Review Tender Documents",
+    "Prepare Initial Response"
+]
+
 def update_readme(readme_path, stats):
     """Injects the latest stats into the README.md dashboard."""
     if not readme_path.exists(): return
-    
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
@@ -19,7 +24,7 @@ def update_readme(readme_path, stats):
     icons = {"Equity": "🏦", "Grants": "📜", "Tenders": "🏗️"}
     
     for name, data in stats.items():
-        total, verified, _ = data
+        total, verified, _, _, _ = data
         health = "🟢" if verified > (total * 0.8) else "🟡"
         rows.append(f"| {icons.get(name, '📁')} **{name}** | {total} | {total} | {verified} | {health} |")
         total_all += total
@@ -40,7 +45,6 @@ def update_readme(readme_path, stats):
 def update_audit_log(audit_path, total, verified):
     """Updates the Tender-specific audit log."""
     if not audit_path.exists(): return
-    
     with open(audit_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     
@@ -55,19 +59,35 @@ def update_audit_log(audit_path, total, verified):
             new_lines.append(f"- Verified: {verified}/{total} ({pct:.1f}%)\n")
         else:
             new_lines.append(line)
-            
     with open(audit_path, 'w', encoding='utf-8') as f:
         f.writelines(new_lines)
 
-def update_json_meta(meta_path, stats, tender_categories):
-    """Generates the meta.json file."""
+def update_json_meta(meta_path, stats, tender_categories, advanced_data):
+    """Generates the meta.json with tiered enrichment support."""
     meta_path.parent.mkdir(parents=True, exist_ok=True)
+    
     meta_data = {
         "last_sync": datetime.now().isoformat(),
         "total_tenders": stats["Tenders"][0],
         "verified_tenders": stats["Tenders"][1],
+        "global_defaults": GLOBAL_DEFAULT_TASKS,
         "categories": tender_categories,
+        "advanced_enrichment": advanced_data, # OCID -> Tasks
         "registries": {k: {"total": v[0], "verified": v[1]} for k, v in stats.items()}
     }
     with open(meta_path, 'w', encoding='utf-8') as f:
         json.dump(meta_data, f, indent=2)
+
+def save_jules_todo(base_dir, todo_list):
+    """Saves the work list for Jules' weekly session."""
+    todo_path = base_dir / '.rokct' / 'agent' / 'todo.json'
+    todo_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    data = {
+        "title": f"Tender Enrichment Queue: {datetime.now().strftime('%Y-%m-%d')}",
+        "pending_count": len(todo_list),
+        "files": todo_list
+    }
+    with open(todo_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+    print(f"✅ Jules Todo List saved ({len(todo_list)} items).")
