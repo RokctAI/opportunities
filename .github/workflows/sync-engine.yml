@@ -2,6 +2,13 @@
 name: "Opportunities: Universal Sync Engine"
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '01_equity/**'
+      - '02_grants/**'
+      - '03_tenders/**'
   schedule:
     - cron: '0 0 * * *' # Every night at midnight
   workflow_dispatch:
