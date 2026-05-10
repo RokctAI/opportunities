@@ -45,19 +45,18 @@ jobs:
         run: pip install requests python-dotenv pycryptodome
 
       - name: Run OCDS Tender Sync
-        run: python .rokct/skills/agent_delegation/scripts/ocds_tender_sync_api.py
+        run: python .rokct/scripts/tenders/index.py
 
       - name: Run Registry Maintenance
-        run: python .rokct/skills/agent_delegation/scripts/registry_maintenance.py
+        run: python .rokct/scripts/maintenance/index.py
 
-      - name: Global Health Check
-        run: python .rokct/skills/agent_delegation/scripts/check_health.py
+      # Health check consolidated into Orchestrator
 
       - name: Update README Dashboard
-        run: python .rokct/skills/agent_delegation/scripts/update_dashboard.py
+        run: python .rokct/scripts/registry_orchestrator/index.py
 
       - name: Generate Response Kits
-        run: python .rokct/skills/agent_delegation/scripts/response_kits.py
+        run: python .rokct/scripts/response_kits/index.py
 
       - name: Commit and Push Updates
         run: |
