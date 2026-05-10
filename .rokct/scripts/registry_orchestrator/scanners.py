@@ -10,14 +10,15 @@ DEFAULT_AI_BLOCK = """- [ ] Review Tender Documents | 1
 - [ ] Prepare Initial Response | 3"""
 
 # --- THE WHITELIST (Only aggregate these for the JSON) ---
+# We use 'Flag' instead of 'Country' for more deterministic counting
 INTERESTING_KEYS = [
     "Category", "Tender Type", "Province", "Institution", # Tenders
-    "Industry", "Territory", "Funder Type", "Funding Type", "Country", # Equity
+    "Industry", "Territory", "Funder Type", "Funding Type", "Flag", # Equity
     "Focus Area" # Grants
 ]
 
 def scan_registry(name, path):
-    """Scans a directory with filtered metadata extraction."""
+    """Scans a directory with Multi-Tag splitting and ISO Flag aggregation."""
     total = 0
     verified = 0
     stats_aggregation = {} 
@@ -41,22 +42,27 @@ def scan_registry(name, path):
                 if name == "Equity":
                     content = heal_equity_flags(file, content)
 
-                # 2. Verification Logic (Regex for bolded status)
+                # 2. Verification Logic
                 is_active = re.search(r'-\s+\*\*Status\*\*:\s*ACTIVE', content, re.I)
                 is_verified = re.search(r'Verification Status:\s*VERIFIED', content, re.I)
                 if is_active or is_verified:
                     verified += 1
                 
-                # 3. Filtered Metadata Extraction
+                # 3. Multi-Tag Metadata Extraction
                 stat_matches = re.finditer(r'-\s+\*\*(?P<key>.*?)\*\*:\s*(?P<val>.*)', content)
                 for m in stat_matches:
                     key = m.group('key').strip()
                     val = m.group('val').strip()
                     
-                    # ONLY aggregate if it's an "Interesting Key"
                     if key in INTERESTING_KEYS:
                         if key not in stats_aggregation: stats_aggregation[key] = {}
-                        stats_aggregation[key][val] = stats_aggregation[key].get(val, 0) + 1
+                        
+                        # Split by slash for multi-tag support
+                        tags = [t.strip() for t in val.split('/')] if "/" in val else [val]
+                        
+                        for tag in tags:
+                            if tag: # Don't count empty tags
+                                stats_aggregation[key][tag] = stats_aggregation[key].get(tag, 0) + 1
 
                 # 4. Tender AI Logic
                 if name == "Tenders":
