@@ -49,9 +49,15 @@ def load_ocds_api_configs():
     for source_file in SOURCES_DIR.glob('*.md'):
         with open(source_file, 'r', encoding='utf-8') as f:
             content = f.read()
-            if 'Is API: true' in content and 'API Type: OCDS' in content:
+            
+            # Robust Regex for all fields
+            is_api = re.search(r'-\s+\*\*Is API\*\*:\s*true', content, re.IGNORECASE)
+            is_ocds = re.search(r'-\s+\*\*API Type\*\*:\s*OCDS', content, re.IGNORECASE)
+            
+            if is_api and is_ocds:
                 u_match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
                 f_match = re.search(r'-\s+\*\*Flag\*\*:\s*([A-Z]{2})', content)
+                
                 if u_match and f_match:
                     configs.append({
                         "name": source_file.stem,
@@ -68,10 +74,10 @@ def fetch_and_sync_tenders(source_config, days_back=7):
     source_ref = source_config["source_card"]
     session = get_resilient_session()
     
-    # Use Ultra-Batching PageSize as suggested by documentation
-    PAGE_SIZE = 10000 
+    # Ultra-Batching PageSize (Up to 20,000 supported by server via Postman)
+    PAGE_SIZE = 5000 
     
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] [Sync] Requesting {source_config['name']} (Window: {days_back} days, PageSize: {PAGE_SIZE})...")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] [Sync] Requesting {source_config['name']} ({flag}, PageSize: {PAGE_SIZE})...")
     
     date_to = datetime.now().strftime('%Y-%m-%d')
     date_from = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
@@ -83,7 +89,7 @@ def fetch_and_sync_tenders(source_config, days_back=7):
     }
 
     try:
-        response = session.get(base_url, params=params, timeout=120) # Increased timeout for large payload
+        response = session.get(base_url, params=params, timeout=120)
         response.raise_for_status()
         data = response.json()
         releases = data.get('releases', [])
@@ -110,13 +116,14 @@ def fetch_and_sync_tenders(source_config, days_back=7):
 
             new_content = generate_markdown_from_ocds(release, flag, source_ref)
             
+            # Deterministic comparison
             if new_content.strip() != existing_content.strip():
                 with open(file_path, 'w', encoding='utf-8') as f:
                     f.write(new_content)
                 updates += 1
                 unique_ids.add(ocid)
         
-        print(f"  [Status] Received {len(releases)} releases. Updated {updates} unique tenders.")
+        print(f"  [Status] Received {len(releases)} releases. Updated {updates} tenders.")
         return len(unique_ids)
 
     except Exception as e:
@@ -145,7 +152,7 @@ def generate_markdown_from_ocds(release, flag, source_ref):
     b_date = briefing.get('date', 'N/A').replace('T', ' ')[:16] if briefing.get('date') else "N/A"
     b_venue = briefing.get('venue', 'N/A')
     
-    # Documents - STABLE SORTING (by Title)
+    # Documents - STABLE SORTING
     raw_docs = tender.get('documents', [])
     processed_docs = sorted(
         [(doc.get('title', 'Document'), doc.get('url', '#')) for doc in raw_docs],
