@@ -6,37 +6,28 @@ import requests
 import json
 import argparse
 import sys
-import base64
 
 def load_monorepo_env(custom_path=None):
     """
-    Recovers the JULES_API_KEY.
-    1. If MONOREPO_PAT is present, fetches from GitHub API (CI Mode).
-    2. Fallback to local hunting (Local Mode).
+    Recovers the JULES_API_KEY from the central Monorepo.
+    Priority 1: Remote Vault (GitHub API via MONOREPO_PAT)
+    Priority 2: Local Hunting (Monorepo sibling folder)
     """
     # --- 1. REMOTE CI MODE (GitHub API) ---
     pat = os.environ.get("MONOREPO_PAT")
     if pat:
-        if os.environ.get("GITHUB_ACTIONS"):
-            print("🚀 [CI] MONOREPO_PAT found. Fetching keys from RokctAI/monorepo via API...")
-        
         url = "https://api.github.com/repos/RokctAI/monorepo/contents/.env/production.env"
         headers = {
             "Authorization": f"token {pat}",
             "Accept": "application/vnd.github.v3.raw"
         }
-        
         try:
+            # We fetch as RAW plain text
             resp = requests.get(url, headers=headers, timeout=30)
             if resp.status_code == 200:
                 parse_env_content(resp.text)
-                if os.environ.get("GITHUB_ACTIONS"):
-                    print("✅ [CI] Keys successfully recovered from remote Monorepo.")
                 return True
-            else:
-                print(f"⚠️ [CI] Remote fetch failed (Status: {resp.status_code}). Falling back to local...")
-        except Exception as e:
-            print(f"⚠️ [CI] Remote API error: {e}")
+        except: pass
 
     # --- 2. LOCAL FALLBACK MODE ---
     env_paths = []
@@ -46,7 +37,6 @@ def load_monorepo_env(custom_path=None):
     workspace_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
     env_paths.append(os.path.join(workspace_root, "Monorepo", ".env", "production.env"))
     env_paths.append(os.path.join(workspace_root, ".env", "production.env"))
-    env_paths.append(os.path.join(os.getcwd(), ".env", "production.env"))
 
     for path in env_paths:
         if os.path.exists(path):
@@ -58,12 +48,22 @@ def load_monorepo_env(custom_path=None):
     return False
 
 def parse_env_content(content):
-    """Parses .env content for keys."""
-    for line in content.splitlines():
-        if "JULES_API_KEY=" in line or "AGENT_API_KEY=" in line:
+    """Parses .env content for keys. Priority: JULES then AGENT."""
+    lines = content.splitlines()
+    
+    # Pass 1: JULES_API_KEY
+    for line in lines:
+        if "JULES_API_KEY=" in line:
             val = line.replace("export ", "").strip().split("=", 1)[1].strip("'\" ")
-            key_name = "JULES_API_KEY" if "JULES_API_KEY" in line else "AGENT_API_KEY"
-            os.environ[key_name] = val
+            os.environ["JULES_API_KEY"] = val
+            return
+            
+    # Pass 2: AGENT_API_KEY
+    for line in lines:
+        if "AGENT_API_KEY=" in line:
+            val = line.replace("export ", "").strip().split("=", 1)[1].strip("'\" ")
+            os.environ["AGENT_API_KEY"] = val
+            return
 
 BASE_URL = "https://jules.googleapis.com/v1alpha"
 
@@ -88,8 +88,7 @@ class AgentCLI:
             "automationMode": automation_mode,
             "requirePlanApproval": require_approval
         }
-        if title:
-            payload["title"] = title
+        if title: payload["title"] = title
         
         response = requests.post(url, json=payload, headers=self.headers)
         response.raise_for_status()
@@ -102,35 +101,34 @@ class AgentCLI:
         return response.json()
 
 def main():
-    parser = argparse.ArgumentParser(description="Delegate tasks to an AI Agent (Remote-Vault Aware).")
-    parser.add_argument("--api-key", help="Agent API Key (overrides vault)")
-    parser.add_argument("--env-file", help="Local path to production.env (Fallback)")
+    parser = argparse.ArgumentParser(description="Delegate tasks to an AI Agent (Silent Vault Mode).")
+    parser.add_argument("--api-key", help="Explicit API Key")
+    parser.add_argument("--env-file", help="Local env file (Fallback)")
     subparsers = parser.add_subparsers(dest="command", help="Commands")
 
     # Create Session
-    create_parser = subparsers.add_parser("create", help="Create a new Agent session")
-    create_parser.add_argument("--prompt", required=True, help="User prompt/task for the Agent")
-    create_parser.add_argument("--repo", required=True, help="Full source name (e.g., 'RokctAI/opportunities')")
-    create_parser.add_argument("--branch", default="main", help="Starting branch")
-    create_parser.add_argument("--title", help="Session title")
-    create_parser.add_argument("--require-approval", action="store_true", help="Require plan approval")
-    create_parser.add_argument("--automation-mode", default="AUTO_CREATE_PR", help="Automation mode")
+    create_parser = subparsers.add_parser("create", help="Create session")
+    create_parser.add_argument("--prompt", required=True)
+    create_parser.add_argument("--repo", required=True)
+    create_parser.add_argument("--branch", default="main")
+    create_parser.add_argument("--title")
+    create_parser.add_argument("--require-approval", action="store_true")
+    create_parser.add_argument("--automation-mode", default="AUTO_CREATE_PR")
 
     # Get Status
-    status_parser = subparsers.add_parser("status", help="Get session status")
-    status_parser.add_argument("--id", required=True, help="Session ID")
+    status_parser = subparsers.add_parser("status", help="Get status")
+    status_parser.add_argument("--id", required=True)
 
     args = parser.parse_args()
 
-    # Priority: 1. Arg, 2. Env Var (already loaded), 3. Remote Vault (API), 4. Local File
-    api_key = args.api_key or os.environ.get("AGENT_API_KEY") or os.environ.get("JULES_API_KEY")
-    
+    # Load from Vault if missing
+    api_key = args.api_key or os.environ.get("JULES_API_KEY") or os.environ.get("AGENT_API_KEY")
     if not api_key:
         load_monorepo_env(args.env_file)
-        api_key = os.environ.get("AGENT_API_KEY") or os.environ.get("JULES_API_KEY")
+        api_key = os.environ.get("JULES_API_KEY") or os.environ.get("AGENT_API_KEY")
 
     if not api_key:
-        print("❌ Error: API Key missing. Remote Vault fetch failed and no local env found.")
+        print("❌ Error: Delegation Failed. Key vault unreachable.")
         sys.exit(1)
 
     cli = AgentCLI(api_key)
@@ -138,9 +136,7 @@ def main():
     try:
         if args.command == "create":
             repo = args.repo
-            if not repo.startswith("sources/"):
-                repo = f"sources/github/{repo}"
-                
+            if not repo.startswith("sources/"): repo = f"sources/github/{repo}"
             result = cli.create_session(args.prompt, repo, title=args.title, branch=args.branch,
                                      require_approval=args.require_approval, automation_mode=args.automation_mode)
             print(json.dumps(result, indent=2))
@@ -151,8 +147,6 @@ def main():
             parser.print_help()
     except Exception as e:
         print(f"❌ Error: {e}")
-        if hasattr(e, 'response') and e.response is not None:
-            print(f"Details: {e.response.text}")
         sys.exit(1)
 
 if __name__ == "__main__":
