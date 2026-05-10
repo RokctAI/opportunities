@@ -259,6 +259,16 @@ def sync_rfq_to_markdown(rfq):
     if file_path.exists():
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
+            
+            # FLAG RECOVERY: If flag is missing but source card exists, inject it
+            if f"- **Flag**: {REGION_FLAG}" not in content and "- **Flag**:" not in content:
+                print(f"  🚩 Injecting missing flag ({REGION_FLAG}) into {filename}")
+                new_line = f"- **Flag**: {REGION_FLAG}\n"
+                # Inject after Source Card
+                content = re.sub(r'(-\s+\*\*Source Card\*\*:[^\n]+\n)', r'\1' + new_line, content)
+                with open(file_path, 'w', encoding='utf-8') as fw:
+                    fw.write(content)
+
             if "Status: VERIFIED" in content or "Verification Status: VERIFIED" in content:
                 return False
 
