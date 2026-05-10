@@ -28,13 +28,13 @@ TENDER_DIR = Path('03_tenders')
 SOURCES_DIR = TENDER_DIR / 'sources'
 
 def get_resilient_session():
-    """Creates a requests session with retry logic and SSL tolerance."""
+    """Creates a requests session with high resilience for flaky government APIs."""
     session = requests.Session()
     retry_strategy = Retry(
-        total=5, # Increased retries
-        backoff_factor=2, # Slower backoff
+        total=5,
+        backoff_factor=2,
         status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["HEAD", "GET", "OPTIONS"]
+        allowed_methods=["GET"]
     )
     adapter = HTTPAdapter(max_retries=retry_strategy)
     session.mount("https://", adapter)
@@ -44,132 +44,91 @@ def get_resilient_session():
 def load_ocds_api_configs():
     """Finds all markdown cards in sources/ marked as Is API: true and API Type: OCDS."""
     configs = []
-    if not SOURCES_DIR.exists():
-        print(f"Sources directory missing: {SOURCES_DIR}")
-        return configs
+    if not SOURCES_DIR.exists(): return configs
 
     for source_file in SOURCES_DIR.glob('*.md'):
         with open(source_file, 'r', encoding='utf-8') as f:
             content = f.read()
-            is_api = re.search(r'-\s+\*\*Is API\*\*:\s*true', content, re.IGNORECASE)
-            is_ocds = re.search(r'-\s+\*\*API Type\*\*:\s*OCDS', content, re.IGNORECASE)
-            
-            if is_api and is_ocds:
+            if 'Is API: true' in content and 'API Type: OCDS' in content:
                 config = {
                     "name": source_file.stem,
                     "source_card": f"sources/{source_file.name}",
-                    "url": None,
-                    "flag": "UNKNOWN"
+                    "url": re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content).group(1).strip(),
+                    "flag": re.search(r'-\s+\*\*Flag\*\*:\s*([A-Z]{2})', content).group(1).strip()
                 }
-                u_match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
-                if u_match: config["url"] = u_match.group(1).strip()
-                
-                f_match = re.search(r'-\s+\*\*Flag\*\*:\s*([A-Z]{2})', content)
-                if f_match: config["flag"] = f_match.group(1).strip()
-                
-                if config["url"]:
-                    configs.append(config)
+                configs.append(config)
     return configs
 
 def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
-    """Fetches ALL tenders from an OCDS API for the given date range."""
+    """Fetches tenders from an OCDS API with persistence logic."""
     base_url = source_config["url"]
     flag = source_config["flag"]
     source_ref = source_config["source_card"]
-    
     session = get_resilient_session()
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] [Sync] Starting {source_config['name']} ({flag})...")
     
-    now = datetime.now()
-    date_to = now.strftime('%Y-%m-%d')
-    date_from = (now - timedelta(days=days_back)).strftime('%Y-%m-%d')
+    print(f"  [Pass] Fetching {source_config['name']} ({flag})...")
+    
+    date_to = datetime.now().strftime('%Y-%m-%d')
+    date_from = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
+    params = {"PageNumber": 1, "PageSize": 100, "dateFrom": date_from, "dateTo": date_to}
 
-    params = {
-        "PageNumber": 1,
-        "PageSize": 100, # Increased page size for efficiency
-        "dateFrom": date_from,
-        "dateTo": date_to
-    }
-
-    releases_processed = 0
-    unique_tenders_updated = 0
+    updates = 0
     unique_ids = set()
 
     while params["PageNumber"] <= page_limit:
-        print(f"  [{datetime.now().strftime('%H:%M:%S')}] Fetching Page {params['PageNumber']}...")
         try:
             response = session.get(base_url, params=params, timeout=60)
             response.raise_for_status()
             data = response.json()
-            
             releases = data.get('releases', [])
-            if not releases:
-                print("  [Info] Reached end of data stream.")
-                break
+            if not releases: break
                 
             for release in releases:
                 ocid = release.get('ocid')
                 if not ocid: continue
                 
                 file_path = TENDER_DIR / f"{ocid}.md"
-                is_new = not file_path.exists()
-                
+                existing_content = ""
                 if file_path.exists():
                     with open(file_path, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                        
-                        # FLAG RECOVERY
-                        if f"- **Flag**: {flag}" not in content and "- **Flag**:" not in content:
-                            new_line = f"- **Flag**: {flag}\n"
-                            content = re.sub(r'(-\s+\*\*Source Card\*\*:[^\n]+\n)', r'\1' + new_line, content)
-                            with open(file_path, 'w', encoding='utf-8') as fw:
-                                fw.write(content)
+                        existing_content = f.read()
+                    
+                    if "Verification Status: VERIFIED" in existing_content:
+                        continue
 
-                        if "Verification Status: VERIFIED" in content or "Status: VERIFIED" in content:
-                            continue
+                new_content = generate_markdown_from_ocds(release, flag, source_ref, existing_content)
                 
-                markdown_content = generate_markdown_from_ocds(release, flag, source_ref)
-                with open(file_path, 'w', encoding='utf-8') as f:
-                    f.write(markdown_content)
-                
-                releases_processed += 1
-                if ocid not in unique_ids:
-                    unique_tenders_updated += 1
+                # Only write if content actually changed (to keep Git history clean)
+                if new_content.strip() != existing_content.strip():
+                    with open(file_path, 'w', encoding='utf-8') as f:
+                        f.write(new_content)
+                    updates += 1
                     unique_ids.add(ocid)
                 
-            # OCDS APIs often use 'links' for pagination
-            if not data.get('links', {}).get('next'): 
-                print("  [Info] No 'next' link found. Sync complete.")
-                break
-            
+            if not data.get('links', {}).get('next'): break
             params["PageNumber"] += 1
             
         except Exception as e:
-            print(f"  [Error] Failed at page {params['PageNumber']}: {e}")
+            print(f"    [Error] Page {params['PageNumber']}: {e}")
             break
 
-    print(f"  [Status] {source_config['name']} Done: {releases_processed} releases handled. {unique_tenders_updated} tenders synced.")
-    return unique_tenders_updated
+    return updates
 
-def generate_markdown_from_ocds(release, flag, source_ref):
-    """Maps OCDS JSON fields to Monorepo Template."""
+def generate_markdown_from_ocds(release, flag, source_ref, existing_content=""):
+    """Maps OCDS JSON fields and MERGES with existing documents to prevent data loss."""
     tender = release.get('tender', {})
     ocid = release.get('ocid')
     
+    # Basic Metadata
     title = tender.get('title', 'Untitled Opportunity')
     institution = tender.get('procuringEntity', {}).get('name', 'Unknown')
     t_type = tender.get('procurementMethodDetails', tender.get('mainProcurementCategory', 'Tender'))
     province = tender.get('province', 'National')
     published = release.get('date', '')[:10]
-    
-    closing = tender.get('tenderPeriod', {}).get('endDate', '')
-    if closing and 'T' in closing:
-        closing = closing.replace('T', ' ')[:16]
-    
+    closing = (tender.get('tenderPeriod', {}).get('endDate', '') or "").replace('T', ' ')[:16]
     location = tender.get('deliveryLocation', 'See Documents')
     category = tender.get('category', 'General')
     description = tender.get('description', 'No description provided.')
-    conditions = tender.get('specialConditions', 'N/A')
 
     # Briefing
     briefing = tender.get('briefingSession', {})
@@ -178,24 +137,19 @@ def generate_markdown_from_ocds(release, flag, source_ref):
     b_date = briefing.get('date', 'N/A').replace('T', ' ')[:16] if briefing.get('date') else "N/A"
     b_venue = briefing.get('venue', 'N/A')
     
-    # Contacts
-    contact = tender.get('contactPerson', {})
-    c_name = contact.get('name', 'N/A')
-    c_email = contact.get('email', 'N/A')
-    c_tel = contact.get('telephoneNumber', 'N/A')
+    # Documents - MERGE LOGIC
+    existing_docs = set(re.findall(r'\[(.*?)\]\((.*?)\)', existing_content))
+    new_docs = set()
+    for doc in tender.get('documents', []):
+        new_docs.add((doc.get('title', 'Document'), doc.get('url', '#')))
     
-    # Documents
-    docs_md = ""
-    direct_link = "https://www.etenders.gov.za/Home/opportunities?id=1"
-    docs = tender.get('documents', [])
-    for doc in docs:
-        d_title = doc.get('title', 'Document')
-        d_url = doc.get('url', '#')
-        docs_md += f"    - [{d_title}]({d_url})\n"
-        if not direct_link or "etenders.gov.za" in direct_link:
-            direct_link = d_url
-
+    all_docs = sorted(list(existing_docs.union(new_docs)))
+    docs_md = "".join([f"    - [{t}]({u})\n" for t, u in all_docs])
     if not docs_md: docs_md = "    - No documents listed in API.\n"
+
+    # Direct Link Logic (prefer new, fallback to existing)
+    direct_link = "https://www.etenders.gov.za/Home/opportunities?id=1"
+    if all_docs: direct_link = all_docs[0][1]
 
     # Assemble Markdown
     md = f"""# Tender Opportunity: {title}
@@ -218,9 +172,6 @@ def generate_markdown_from_ocds(release, flag, source_ref):
 ### Tender Description
 {description}
 
-### Special Conditions
-{conditions}
-
 ## Briefing Session
 - **Is there a briefing session?**: {has_briefing}
 - **Is it compulsory?**: {compulsory}
@@ -228,9 +179,9 @@ def generate_markdown_from_ocds(release, flag, source_ref):
 - **Briefing Venue**: {b_venue}
 
 ## Enquiries
-- **Contact Person**: {c_name}
-- **Email**: {c_email}
-- **Telephone**: {c_tel}
+- **Contact Person**: {tender.get('contactPerson', {}).get('name', 'N/A')}
+- **Email**: {tender.get('contactPerson', {}).get('email', 'N/A')}
+- **Telephone**: {tender.get('contactPerson', {}).get('telephoneNumber', 'N/A')}
 
 ## Documents & Links
 - **Direct Link**: {direct_link}
@@ -251,14 +202,18 @@ def generate_markdown_from_ocds(release, flag, source_ref):
 if __name__ == "__main__":
     load_environment()
     TENDER_DIR.mkdir(parents=True, exist_ok=True)
+    configs = load_ocds_api_configs()
     
-    api_configs = load_ocds_api_configs()
-    total_unique = 0
-    
-    if not api_configs:
+    if not configs:
         print("No API sources found.")
     else:
-        for config in api_configs:
-            total_unique += fetch_and_sync_tenders(config)
+        # TRIPLE-PASS SWEEP for flaky API resilience
+        for pass_num in range(1, 4):
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] --- SWEEP PASS {pass_num}/3 ---")
+            total = 0
+            for config in configs:
+                total += fetch_and_sync_tenders(config)
+            print(f"  [Pass {pass_num}] Updated {total} files.")
+            if pass_num < 3: time.sleep(5) # Cooldown
         
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] OCDS Sync complete. Unique tenders in registry: {total_unique}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] OCDS Sync Complete.")
