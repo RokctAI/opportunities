@@ -83,6 +83,7 @@ def generate_md(release, flag, source_ref):
 ## Enquiries
 - **Contact Person**: {tender.get('contactPerson', {}).get('name', 'N/A')}
 - **Email**: {tender.get('contactPerson', {}).get('email', 'N/A')}
+- **Telephone**: {tender.get('contactPerson', {}).get('telephoneNumber', 'N/A')}
 
 ## Documents & Links
 - **Direct Link**: {direct_link}
