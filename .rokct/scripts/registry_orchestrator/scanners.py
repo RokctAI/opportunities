@@ -42,7 +42,7 @@ def scan_registry(name, path):
                 if name == "Equity":
                     content = heal_equity_flags(file, content)
 
-                # 2. Verification Logic
+                # 2. Verification Logic (Universal: Any valid Last Verified date counts)
                 is_active = re.search(r'-\s+\*\*Status\*\*:\s*ACTIVE', content, re.I)
                 is_verified = re.search(r'Verification Status:\s*VERIFIED', content, re.I)
                 has_date = re.search(r'-\s+\*\*Last Verified\*\*:\s*\d{4}-\d{2}-\d{2}', content, re.I)
