@@ -8,6 +8,7 @@
 - **Industry**: Fintech / AI / Military / Emerging Markets
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://tdk-ventures.com
 
 ## Contact

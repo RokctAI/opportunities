@@ -8,6 +8,7 @@
 - **Industry**: Tech / General
 - **Territory**: Global
 - **Country**: Norway
+- **Flag**: NO
 - **Website**: https://nbim.no
 
 ## Contact

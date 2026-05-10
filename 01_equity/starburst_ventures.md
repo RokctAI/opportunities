@@ -8,6 +8,7 @@
 - **Industry**: Aerospace / Military / Tech
 - **Territory**: Global
 - **Country**: USA / France
+- **Flag**: FR
 - **Website**: https://starburst.aero
 
 ## Contact

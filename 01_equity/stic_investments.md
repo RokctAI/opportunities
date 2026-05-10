@@ -8,6 +8,7 @@
 - **Industry**: Tech / Industry
 - **Territory**: Asia
 - **Country**: South Korea
+- **Flag**: KR
 - **Website**: http://www.stic.co.kr
 
 ## Contact

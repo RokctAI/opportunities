@@ -8,6 +8,7 @@
 - **Industry**: Tech / Software
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://battery.com
 
 ## Contact

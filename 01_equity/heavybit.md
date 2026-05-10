@@ -8,6 +8,7 @@
 - **Industry**: Tech / DevTools
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://heavybit.com
 
 ## Contact

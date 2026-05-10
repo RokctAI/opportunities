@@ -8,6 +8,7 @@
 - **Industry**: Consumer
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://active.partners
 
 ## Contact

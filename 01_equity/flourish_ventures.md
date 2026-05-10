@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Global / Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://flourishventures.com
 
 ## Contact

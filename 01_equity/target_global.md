@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe / Global
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://www.targetglobal.vc
 
 ## Contact

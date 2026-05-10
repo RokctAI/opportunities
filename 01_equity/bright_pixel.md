@@ -8,6 +8,7 @@
 - **Industry**: Tech / Retail
 - **Territory**: Europe
 - **Country**: Portugal
+- **Flag**: PT
 - **Website**: https://brpx.com
 
 ## Contact

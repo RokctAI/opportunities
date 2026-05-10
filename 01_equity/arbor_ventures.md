@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Global / Asia
 - **Country**: Singapore / USA
+- **Flag**: SG
 - **Website**: https://arborventures.com
 
 ## Contact

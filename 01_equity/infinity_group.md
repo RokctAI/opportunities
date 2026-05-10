@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: China / Israel
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://www.infinity-cp.com
 
 ## Contact

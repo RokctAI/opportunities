@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / Military
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://gulatech.com
 
 ## Contact

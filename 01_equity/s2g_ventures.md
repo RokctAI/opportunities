@@ -8,6 +8,7 @@
 - **Industry**: AI
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://s2gventures.com
 
 ## Contact

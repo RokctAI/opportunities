@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Australia
+- **Flag**: AU
 - **Website**: https://blackbird.vc
 
 ## Contact

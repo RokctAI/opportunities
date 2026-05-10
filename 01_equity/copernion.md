@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://copernion.com
 
 ## Contact

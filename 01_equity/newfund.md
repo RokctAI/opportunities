@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe / USA
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.newfundcap.com
 
 ## Contact

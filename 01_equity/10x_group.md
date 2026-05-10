@@ -9,6 +9,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://10x.group
 
 ## Contact

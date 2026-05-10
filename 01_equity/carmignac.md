@@ -8,6 +8,7 @@
 - **Industry**: Fintech / General
 - **Territory**: Global
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://carmignac.com
 
 ## Contact

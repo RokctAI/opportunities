@@ -8,6 +8,7 @@
 - **Industry**: AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://aixventures.com
 
 ## Contact

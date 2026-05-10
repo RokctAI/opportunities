@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / AI
 - **Territory**: Europe
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://fly.vc
 
 ## Contact

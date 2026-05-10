@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS
 - **Territory**: Europe
 - **Country**: Poland
+- **Flag**: PL
 - **Website**: https://cogitocapital.vc
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / PropTech
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://breega.com
 
 ## Contact

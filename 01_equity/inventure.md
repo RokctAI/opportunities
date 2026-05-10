@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Nordics / Baltics
 - **Country**: Finland
+- **Flag**: FI
 - **Website**: https://inventure.vc
 
 ## Contact

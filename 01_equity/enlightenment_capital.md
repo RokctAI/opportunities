@@ -8,6 +8,7 @@
 - **Industry**: Defense / Aerospace / GovTech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://enlightenment-cap.com
 
 ## Contact

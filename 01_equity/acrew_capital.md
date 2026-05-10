@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Security
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://acrewcapital.com
 
 ## Contact

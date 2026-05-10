@@ -8,6 +8,7 @@
 - **Industry**: Defense / Dual-use
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.marqueventures.com
 
 ## Contact

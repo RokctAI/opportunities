@@ -8,6 +8,7 @@
 - **Industry**: Diverse Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://gaingels.com
 
 ## Contact

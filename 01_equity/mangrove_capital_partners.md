@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe / Israel
 - **Country**: Luxembourg
+- **Flag**: LU
 - **Website**: https://mangrove.vc
 
 ## Contact

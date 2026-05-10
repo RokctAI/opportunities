@@ -8,6 +8,7 @@
 - **Industry**: Tech / Military / Space
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://foundersfund.com
 
 ## Contact

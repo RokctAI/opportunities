@@ -8,6 +8,7 @@
 - **Industry**: Fintech / AI
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://project-a.com
 
 ## Contact

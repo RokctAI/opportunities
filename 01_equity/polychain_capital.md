@@ -8,6 +8,7 @@
 - **Industry**: Tech / Crypto
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://polychain.capital
 
 ## Contact

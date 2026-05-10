@@ -8,6 +8,7 @@
 - **Industry**: Tech / Automation
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://calibratevc.com
 
 ## Contact

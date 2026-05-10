@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Innovation
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://ark-invest.com
 
 ## Contact

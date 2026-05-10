@@ -8,6 +8,7 @@
 - **Industry**: Tech / Health
 - **Territory**: Israel
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://pitango.com
 
 ## Contact

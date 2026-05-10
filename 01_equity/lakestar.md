@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Switzerland
+- **Flag**: CH
 - **Website**: https://www.lakestar.com
 
 ## Contact

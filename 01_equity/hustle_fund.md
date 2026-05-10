@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.hustlefund.vc
 
 ## Contact

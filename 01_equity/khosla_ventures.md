@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / DeepTech
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://khoslaventures.com
 
 ## Contact

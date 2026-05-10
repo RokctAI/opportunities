@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Asia
 - **Country**: China
+- **Flag**: CN
 - **Website**: http://www.kaitaicapital.com
 
 ## Contact

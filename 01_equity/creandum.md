@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Sweden
+- **Flag**: SE
 - **Website**: https://creandum.com
 
 ## Contact

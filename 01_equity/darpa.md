@@ -8,6 +8,7 @@
 - **Industry**: Military / DeepTech / AI
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://darpa.mil
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Network Effects
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://nfx.com
 
 ## Contact

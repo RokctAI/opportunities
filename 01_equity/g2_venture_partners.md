@@ -8,6 +8,7 @@
 - **Industry**: ClimateTech / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://g2vp.com
 
 ## Contact

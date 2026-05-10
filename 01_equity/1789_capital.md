@@ -8,6 +8,7 @@
 - **Industry**: Defense / Tech / AI
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://1789.vc
 
 ## Contact

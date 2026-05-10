@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Brazil / USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://onevc.vc
 
 ## Contact

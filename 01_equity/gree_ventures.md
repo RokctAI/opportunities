@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://strive.vc
 
 ## Contact

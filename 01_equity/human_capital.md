@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://human.capital
 
 ## Contact

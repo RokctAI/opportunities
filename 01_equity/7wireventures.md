@@ -8,6 +8,7 @@
 - **Industry**: HealthTech
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://7wireventures.com
 
 ## Contact

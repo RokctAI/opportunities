@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / SaaS
 - **Territory**: Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://kalonvp.com
 
 ## Contact

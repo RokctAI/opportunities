@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Qatar
+- **Flag**: QA
 - **Website**: https://qia.qa
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Japan
 - **Country**: Japan
+- **Flag**: JP
 - **Website**: https://www.jic-vgi.jp
 
 ## Contact

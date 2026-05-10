@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Italy
+- **Flag**: IT
 - **Website**: https://unitedventures.com
 
 ## Contact

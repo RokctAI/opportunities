@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Health
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://gv.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Fintech / AI / Military
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://nvidia.com
 
 ## Contact

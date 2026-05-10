@@ -8,6 +8,7 @@
 - **Industry**: Marketplaces / Platforms
 - **Territory**: Europe
 - **Country**: Spain
+- **Flag**: ES
 - **Website**: https://samaipata.vc
 
 ## Contact

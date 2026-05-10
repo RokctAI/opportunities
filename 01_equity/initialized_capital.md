@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://initialized.com
 
 ## Contact

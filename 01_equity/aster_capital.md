@@ -8,6 +8,7 @@
 - **Industry**: Tech / Mobility
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.aster.com
 
 ## Contact

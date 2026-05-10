@@ -8,6 +8,7 @@
 - **Industry**: Deep Science
 - **Territory**: UK
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.oxfordscienceenterprises.com
 
 ## Contact

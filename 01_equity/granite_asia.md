@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Asia
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://www.graniteasia.com
 
 ## Contact

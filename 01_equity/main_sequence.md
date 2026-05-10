@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / AI
 - **Territory**: Australia
 - **Country**: Australia
+- **Flag**: AU
 - **Website**: https://mseq.vc
 
 ## Contact

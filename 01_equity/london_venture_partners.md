@@ -8,6 +8,7 @@
 - **Industry**: Gaming
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://lvp.vc
 
 ## Contact

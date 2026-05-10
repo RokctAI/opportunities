@@ -8,6 +8,7 @@
 - **Industry**: Healthcare
 - **Territory**: Global
 - **Country**: Switzerland
+- **Flag**: CH
 - **Website**: https://www.hbmhealthcare.com
 
 ## Contact

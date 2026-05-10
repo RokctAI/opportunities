@@ -8,6 +8,7 @@
 - **Industry**: Crypto / Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://electriccapital.com
 
 ## Contact

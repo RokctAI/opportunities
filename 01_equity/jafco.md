@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Asia / Global
 - **Country**: Japan
+- **Flag**: JP
 - **Website**: https://www.jafco.co.jp
 
 ## Contact

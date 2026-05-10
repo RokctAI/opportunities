@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Russia
 - **Country**: Russia
+- **Flag**: RU
 - **Website**: https://iidf.ru
 
 ## Contact

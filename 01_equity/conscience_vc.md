@@ -8,6 +8,7 @@
 - **Industry**: DeepTech
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://conscience.vc
 
 ## Contact

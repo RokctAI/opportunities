@@ -8,6 +8,7 @@
 - **Industry**: Venture Debt
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://claret-capital.com
 
 ## Contact

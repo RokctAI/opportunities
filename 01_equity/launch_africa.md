@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Africa
 - **Country**: Mauritius
+- **Flag**: MU
 - **Website**: https://launchafrica.vc
 
 ## Contact

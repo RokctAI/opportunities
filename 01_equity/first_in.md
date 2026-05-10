@@ -8,6 +8,7 @@
 - **Industry**: Military / Cybersecurity / AI
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://firstin.vc
 
 ## Contact

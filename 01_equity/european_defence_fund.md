@@ -8,6 +8,7 @@
 - **Industry**: Military / Tech
 - **Territory**: Europe
 - **Country**: Europe
+- **Flag**: GLOBAL
 - **Website**: https://defence-industry-space.ec.europa.eu
 
 ## Contact

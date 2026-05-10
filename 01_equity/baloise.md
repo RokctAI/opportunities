@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Insurtech
 - **Territory**: Europe
 - **Country**: Switzerland
+- **Flag**: CH
 - **Website**: https://www.baloise.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Israel
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: http://www.genesispartners.com
 
 ## Contact

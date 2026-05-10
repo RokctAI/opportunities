@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Deeptech
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.iris.vc
 
 ## Contact

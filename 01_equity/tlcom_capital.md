@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Africa
 - **Country**: UK / Kenya
+- **Flag**: KE
 - **Website**: https://tlcomcapital.com
 
 ## Contact

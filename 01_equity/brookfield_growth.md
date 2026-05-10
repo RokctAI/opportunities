@@ -8,6 +8,7 @@
 - **Industry**: Tech / PropTech
 - **Territory**: Global
 - **Country**: Canada
+- **Flag**: CA
 - **Website**: https://www.brookfield.com
 
 ## Contact

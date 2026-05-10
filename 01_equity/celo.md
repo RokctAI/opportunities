@@ -8,6 +8,7 @@
 - **Industry**: Crypto
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://celo.org
 
 ## Contact

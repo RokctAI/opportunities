@@ -8,6 +8,7 @@
 - **Industry**: Narrative Violations / Tech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://bedrock.com
 
 ## Contact

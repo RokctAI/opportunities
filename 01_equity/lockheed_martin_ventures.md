@@ -8,6 +8,7 @@
 - **Industry**: Military / Tech / Aerospace
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://lockheedmartin.com
 
 ## Contact

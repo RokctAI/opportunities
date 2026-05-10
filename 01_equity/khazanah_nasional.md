@@ -8,6 +8,7 @@
 - **Industry**: Tech / General
 - **Territory**: Global / Asia
 - **Country**: Malaysia
+- **Flag**: MY
 - **Website**: https://khazanah.com.my
 
 ## Contact

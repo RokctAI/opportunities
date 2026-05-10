@@ -8,6 +8,7 @@
 - **Industry**: Fintech / AI / Emerging Markets
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://elevarequity.com
 
 ## Contact

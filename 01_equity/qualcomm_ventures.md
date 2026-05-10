@@ -8,6 +8,7 @@
 - **Industry**: Tech / Mobile / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://qualcommventures.com
 
 ## Contact

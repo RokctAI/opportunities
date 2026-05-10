@@ -8,6 +8,7 @@
 - **Industry**: Tech / Consumer
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://felixcap.com
 
 ## Contact

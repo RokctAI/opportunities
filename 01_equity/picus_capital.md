@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: Global
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://picuscap.com
 
 ## Contact

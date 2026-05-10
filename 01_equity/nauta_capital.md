@@ -8,6 +8,7 @@
 - **Industry**: B2B SaaS
 - **Territory**: Europe
 - **Country**: Spain
+- **Flag**: ES
 - **Website**: https://nautacapital.com
 
 ## Contact

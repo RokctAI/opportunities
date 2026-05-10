@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / AI
 - **Territory**: Greece / Europe
 - **Country**: Greece
+- **Flag**: GR
 - **Website**: https://bigpi.vc
 
 ## Contact

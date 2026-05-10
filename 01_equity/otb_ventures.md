@@ -8,6 +8,7 @@
 - **Industry**: DeepTech
 - **Territory**: CEE
 - **Country**: Poland
+- **Flag**: PL
 - **Website**: https://otb.vc
 
 ## Contact

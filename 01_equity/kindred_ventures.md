@@ -8,6 +8,7 @@
 - **Industry**: Tech / Crypto / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://kindredventures.com
 
 ## Contact

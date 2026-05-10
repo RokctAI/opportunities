@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Nordics / Baltics
 - **Country**: Denmark
+- **Flag**: DK
 - **Website**: https://byfounders.vc
 
 ## Contact

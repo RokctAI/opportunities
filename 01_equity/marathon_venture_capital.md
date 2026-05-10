@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Greece
 - **Country**: Greece
+- **Flag**: GR
 - **Website**: https://marathon.vc
 
 ## Contact

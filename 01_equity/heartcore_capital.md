@@ -8,6 +8,7 @@
 - **Industry**: Consumer Tech
 - **Territory**: Europe
 - **Country**: Denmark
+- **Flag**: DK
 - **Website**: https://heartcore.com
 
 ## Contact

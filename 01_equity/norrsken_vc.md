@@ -8,6 +8,7 @@
 - **Industry**: Tech / Impact / Emerging Markets
 - **Territory**: Europe / Africa
 - **Country**: Sweden
+- **Flag**: SE
 - **Website**: https://norrsken.vc
 
 ## Contact

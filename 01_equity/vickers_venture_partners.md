@@ -8,6 +8,7 @@
 - **Industry**: Tech / DeepTech / Health
 - **Territory**: Global / Asia
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://vickersventure.com
 
 ## Contact

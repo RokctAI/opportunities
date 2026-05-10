@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Latin America
 - **Country**: Argentina
+- **Flag**: AR
 - **Website**: https://kaszek.com
 
 ## Contact

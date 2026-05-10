@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://redpoint.com
 
 ## Contact

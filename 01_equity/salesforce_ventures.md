@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://salesforceventures.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Healthcare
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.bairdcapital.com
 
 ## Contact

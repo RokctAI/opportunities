@@ -8,6 +8,7 @@
 - **Industry**: Gaming / Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://patron.xyz
 
 ## Contact

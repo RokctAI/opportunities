@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Europe / Africa
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://partechpartners.com
 
 ## Contact

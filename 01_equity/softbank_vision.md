@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Japan
+- **Flag**: JP
 - **Website**: https://visionfund.com
 
 ## Contact

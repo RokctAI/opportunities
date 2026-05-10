@@ -8,6 +8,7 @@
 - **Industry**: Tech / Big Data
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.aminocapital.com
 
 ## Contact

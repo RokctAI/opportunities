@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://kalaari.com
 
 ## Contact

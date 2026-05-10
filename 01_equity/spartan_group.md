@@ -8,6 +8,7 @@
 - **Industry**: Crypto
 - **Territory**: Global / Asia
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://spartangroup.io
 
 ## Contact

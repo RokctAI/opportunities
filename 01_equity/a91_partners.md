@@ -8,6 +8,7 @@
 - **Industry**: AI
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://a91partners.com
 
 ## Contact

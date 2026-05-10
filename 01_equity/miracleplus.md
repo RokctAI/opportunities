@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: China
 - **Country**: China
+- **Flag**: CN
 - **Website**: http://www.miracleplus.com
 
 ## Contact

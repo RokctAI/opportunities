@@ -8,6 +8,7 @@
 - **Industry**: Tech / Health
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.bcapgroup.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://endeavor.org/catalyst
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.serena.vc
 
 ## Contact

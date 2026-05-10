@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Indonesia
 - **Country**: Indonesia
+- **Flag**: ID
 - **Website**: https://acv.vc
 
 ## Contact

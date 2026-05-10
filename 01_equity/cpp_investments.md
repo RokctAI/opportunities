@@ -8,6 +8,7 @@
 - **Industry**: Tech / General
 - **Territory**: Global
 - **Country**: Canada
+- **Flag**: CA
 - **Website**: https://cppinvestments.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://quona.com
 
 ## Contact

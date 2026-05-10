@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Logistics
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://susaventures.com
 
 ## Contact

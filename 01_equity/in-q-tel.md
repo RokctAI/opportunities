@@ -8,6 +8,7 @@
 - **Industry**: Tech / Military / AI
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://iqt.org
 
 ## Contact

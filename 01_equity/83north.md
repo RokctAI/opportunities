@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe / Israel
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.83north.com
 
 ## Contact

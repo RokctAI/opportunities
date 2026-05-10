@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://kimaventures.com
 
 ## Contact

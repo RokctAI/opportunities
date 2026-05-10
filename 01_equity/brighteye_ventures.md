@@ -8,6 +8,7 @@
 - **Industry**: EdTech
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.brighteyevc.com
 
 ## Contact

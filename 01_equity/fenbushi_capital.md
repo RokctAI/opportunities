@@ -8,6 +8,7 @@
 - **Industry**: AI / Emerging Markets
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://fenbushi.vc
 
 ## Contact

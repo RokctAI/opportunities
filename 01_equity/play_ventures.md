@@ -8,6 +8,7 @@
 - **Industry**: Gaming
 - **Territory**: Global
 - **Country**: Singapore / Finland
+- **Flag**: FI
 - **Website**: https://playventures.vc
 
 ## Contact

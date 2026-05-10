@@ -8,6 +8,7 @@
 - **Industry**: Tech / General
 - **Territory**: Europe / Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://bridgepoint.eu
 
 ## Contact

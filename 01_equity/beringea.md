@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.beringea.com
 
 ## Contact

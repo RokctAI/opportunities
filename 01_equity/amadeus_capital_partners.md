@@ -8,6 +8,7 @@
 - **Industry**: DeepTech
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.amadeuscapital.com
 
 ## Contact

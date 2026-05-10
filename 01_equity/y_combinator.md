@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://ycombinator.com
 
 ## Contact

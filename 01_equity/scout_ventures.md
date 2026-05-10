@@ -8,6 +8,7 @@
 - **Industry**: Frontier / Defense Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.scout.vc
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Impact
 - **Territory**: Latin America
 - **Country**: Mexico
+- **Flag**: MX
 - **Website**: https://daluscapital.com
 
 ## Contact

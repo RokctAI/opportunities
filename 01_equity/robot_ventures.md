@@ -8,6 +8,7 @@
 - **Industry**: Crypto / Fintech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://robotventures.com
 
 ## Contact

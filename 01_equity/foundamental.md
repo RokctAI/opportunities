@@ -8,6 +8,7 @@
 - **Industry**: Tech / Construction
 - **Territory**: Global
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://foundamental.com
 
 ## Contact

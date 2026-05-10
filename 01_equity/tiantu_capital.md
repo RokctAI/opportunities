@@ -8,6 +8,7 @@
 - **Industry**: Consumer Tech
 - **Territory**: China
 - **Country**: China
+- **Flag**: CN
 - **Website**: http://www.tiantucapital.com
 
 ## Contact

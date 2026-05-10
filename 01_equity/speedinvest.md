@@ -8,6 +8,7 @@
 - **Industry**: Fintech / DeepTech
 - **Territory**: Europe
 - **Country**: Austria
+- **Flag**: AT
 - **Website**: https://speedinvest.com
 
 ## Contact

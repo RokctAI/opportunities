@@ -8,6 +8,7 @@
 - **Industry**: Tech / Health / Services
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://apax.com
 
 ## Contact

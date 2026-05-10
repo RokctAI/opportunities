@@ -8,6 +8,7 @@
 - **Industry**: Tech / B2B
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://albion.vc
 
 ## Contact

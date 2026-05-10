@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: China
 - **Country**: China
+- **Flag**: CN
 - **Website**: http://www.k2vc.com
 
 ## Contact

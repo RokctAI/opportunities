@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Australia / Israel / SEA
 - **Country**: Australia
+- **Flag**: AU
 - **Website**: https://squarepegcap.com
 
 ## Contact

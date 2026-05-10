@@ -8,6 +8,7 @@
 - **Industry**: Tech / Defense
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://8vc.com
 
 ## Contact

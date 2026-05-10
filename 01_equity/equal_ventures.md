@@ -8,6 +8,7 @@
 - **Industry**: Tech / Logistics / Fintech
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://equal.vc
 
 ## Contact

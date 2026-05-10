@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Southeast Asia
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://jungle.vc
 
 ## Contact

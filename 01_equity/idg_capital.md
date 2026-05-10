@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: China
+- **Flag**: CN
 - **Website**: https://idgcapital.com
 
 ## Contact

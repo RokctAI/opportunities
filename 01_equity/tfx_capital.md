@@ -8,6 +8,7 @@
 - **Industry**: Tech / Military / Dual-use
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://tfxcap.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / General
 - **Territory**: Global
 - **Country**: Luxembourg / UK
+- **Flag**: LU
 - **Website**: https://cvc.com
 
 ## Contact

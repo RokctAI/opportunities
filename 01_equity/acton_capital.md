@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe / North America
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://actoncapital.com
 
 ## Contact

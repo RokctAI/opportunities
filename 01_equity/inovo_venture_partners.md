@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: CEE
 - **Country**: Poland
+- **Flag**: PL
 - **Website**: https://inovo.vc
 
 ## Contact

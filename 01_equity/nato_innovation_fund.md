@@ -8,6 +8,7 @@
 - **Industry**: Military / DeepTech
 - **Territory**: Europe / North America
 - **Country**: Europe
+- **Flag**: GLOBAL
 - **Website**: https://nif.fund
 
 ## Contact

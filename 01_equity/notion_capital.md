@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.notion.vc
 
 ## Contact

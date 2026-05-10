@@ -8,6 +8,7 @@
 - **Industry**: Tech / Health / AI
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://section32.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Africa
 - **Country**: Kenya
+- **Flag**: KE
 - **Website**: https://novastarventures.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / Tech
 - **Territory**: Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://savant.co.za
 
 ## Contact

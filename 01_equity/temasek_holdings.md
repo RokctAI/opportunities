@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Global
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://temasek.com.sg
 
 ## Contact

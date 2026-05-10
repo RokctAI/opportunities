@@ -8,6 +8,7 @@
 - **Industry**: Tech / All
 - **Territory**: France
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.bpifrance.fr
 
 ## Contact

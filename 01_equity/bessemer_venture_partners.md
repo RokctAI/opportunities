@@ -8,6 +8,7 @@
 - **Industry**: Tech / Cloud / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://bvp.com
 
 ## Contact

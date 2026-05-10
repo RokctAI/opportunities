@@ -8,6 +8,7 @@
 - **Industry**: Tech / AgTech
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://builders.vc
 
 ## Contact

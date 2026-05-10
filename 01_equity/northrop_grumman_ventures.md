@@ -8,6 +8,7 @@
 - **Industry**: Military / Aerospace
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.northropgrumman.com
 
 ## Contact

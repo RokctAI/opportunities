@@ -8,6 +8,7 @@
 - **Industry**: DeepTech
 - **Territory**: North America
 - **Country**: Canada
+- **Flag**: CA
 - **Website**: https://chrysalix.com
 
 ## Contact

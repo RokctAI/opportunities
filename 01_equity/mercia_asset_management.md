@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: UK
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.mercia.co.uk
 
 ## Contact

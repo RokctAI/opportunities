@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Hardware
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://samsungnext.com
 
 ## Contact

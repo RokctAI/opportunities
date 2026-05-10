@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / Defense
 - **Territory**: China
 - **Country**: China
+- **Flag**: CN
 - **Website**: http://www.casstar.com.cn
 
 ## Contact

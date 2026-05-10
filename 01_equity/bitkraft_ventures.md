@@ -8,6 +8,7 @@
 - **Industry**: Gaming / Web3
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.bitkraft.vc
 
 ## Contact

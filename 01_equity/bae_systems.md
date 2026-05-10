@@ -8,6 +8,7 @@
 - **Industry**: Military / Tech
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://baesystems.com
 
 ## Contact

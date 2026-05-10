@@ -8,6 +8,7 @@
 - **Industry**: Frontier / Defense
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.silentvc.com
 
 ## Contact

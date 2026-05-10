@@ -8,6 +8,7 @@
 - **Industry**: AI
 - **Territory**: Europe / North America
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://airstreet.com
 
 ## Contact

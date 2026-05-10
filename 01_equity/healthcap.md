@@ -8,6 +8,7 @@
 - **Industry**: Life Sciences
 - **Territory**: Europe
 - **Country**: Sweden
+- **Flag**: SE
 - **Website**: https://www.healthcap.eu
 
 ## Contact

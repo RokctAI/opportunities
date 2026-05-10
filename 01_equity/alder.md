@@ -8,6 +8,7 @@
 - **Industry**: Tech / Impact
 - **Territory**: Europe
 - **Country**: Sweden
+- **Flag**: SE
 - **Website**: https://alder.se
 
 ## Contact

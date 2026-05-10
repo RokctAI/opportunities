@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Enterprise
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://greylock.com
 
 ## Contact

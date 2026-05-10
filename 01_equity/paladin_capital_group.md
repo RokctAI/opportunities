@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / Defense
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.paladincapitalgroup.com
 
 ## Contact

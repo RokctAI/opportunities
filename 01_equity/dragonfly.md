@@ -8,6 +8,7 @@
 - **Industry**: Crypto / Tech
 - **Territory**: Global
 - **Country**: USA / Asia
+- **Flag**: US
 - **Website**: https://dragonfly.xyz
 
 ## Contact

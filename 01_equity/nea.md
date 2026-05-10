@@ -8,6 +8,7 @@
 - **Industry**: Tech / Healthcare
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://nea.com
 
 ## Contact

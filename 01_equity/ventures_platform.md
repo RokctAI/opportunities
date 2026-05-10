@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Africa
 - **Country**: Nigeria
+- **Flag**: NE
 - **Website**: https://www.venturesplatform.com
 
 ## Contact

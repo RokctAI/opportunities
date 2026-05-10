@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Africa / Emerging Markets
 - **Country**: Nigeria
+- **Flag**: NE
 - **Website**: https://www.echovc.com
 
 ## Contact

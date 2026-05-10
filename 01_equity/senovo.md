@@ -8,6 +8,7 @@
 - **Industry**: B2B SaaS
 - **Territory**: Europe
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://senovo.vc
 
 ## Contact

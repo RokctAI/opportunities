@@ -8,6 +8,7 @@
 - **Industry**: Agritech
 - **Territory**: Europe
 - **Country**: Netherlands
+- **Flag**: NL
 - **Website**: https://www.anterracapital.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Military / Dual-Use Tech
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://diu.mil
 
 ## Contact

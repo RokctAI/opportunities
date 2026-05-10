@@ -8,6 +8,7 @@
 - **Industry**: AI
 - **Territory**: Global
 - **Country**: Canada
+- **Flag**: CA
 - **Website**: https://radical.vc
 
 ## Contact

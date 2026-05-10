@@ -8,6 +8,7 @@
 - **Industry**: Crypto
 - **Territory**: Global
 - **Country**: UK / Singapore
+- **Flag**: SG
 - **Website**: https://wintermute.com
 
 ## Contact

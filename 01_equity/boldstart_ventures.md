@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS / Enterprise
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://boldstart.vc
 
 ## Contact

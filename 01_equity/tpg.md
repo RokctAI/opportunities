@@ -8,6 +8,7 @@
 - **Industry**: Tech / General
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://tpg.com
 
 ## Contact

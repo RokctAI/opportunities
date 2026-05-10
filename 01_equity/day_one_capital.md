@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: CEE
 - **Country**: Hungary
+- **Flag**: HU
 - **Website**: https://dayonecapital.com
 
 ## Contact

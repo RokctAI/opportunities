@@ -8,6 +8,7 @@
 - **Industry**: Gaming
 - **Territory**: Global
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://vgames.vc
 
 ## Contact

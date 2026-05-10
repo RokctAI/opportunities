@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Africa
 - **Country**: Nigeria
+- **Flag**: NE
 - **Website**: https://ingressivecapital.com
 
 ## Contact

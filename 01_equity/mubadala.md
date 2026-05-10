@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://mubadala.com
 
 ## Contact

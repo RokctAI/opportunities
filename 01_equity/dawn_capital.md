@@ -8,6 +8,7 @@
 - **Industry**: SaaS / FinTech
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://dawncapital.com
 
 ## Contact

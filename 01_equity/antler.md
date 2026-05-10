@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://antler.co
 
 ## Contact

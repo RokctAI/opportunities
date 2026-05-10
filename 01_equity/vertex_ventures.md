@@ -8,6 +8,7 @@
 - **Industry**: Tech / FinTech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://vertexventures.com
 
 ## Contact

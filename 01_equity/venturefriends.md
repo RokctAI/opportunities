@@ -8,6 +8,7 @@
 - **Industry**: Marketplaces / PropTech
 - **Territory**: Europe / MENA
 - **Country**: Greece
+- **Flag**: GR
 - **Website**: https://venturefriends.vc
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe / USA
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://dncapital.com
 
 ## Contact

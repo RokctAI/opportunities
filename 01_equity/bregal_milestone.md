@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://bregalmilestone.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Israel / US
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://upwest.vc
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://playfaircapital.com
 
 ## Contact

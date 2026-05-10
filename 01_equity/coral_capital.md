@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Asia
 - **Country**: Japan
+- **Flag**: JP
 - **Website**: https://coralcap.co
 
 ## Contact

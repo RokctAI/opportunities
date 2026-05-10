@@ -8,6 +8,7 @@
 - **Industry**: Tech / DeepTech
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://octopusventures.com
 
 ## Contact

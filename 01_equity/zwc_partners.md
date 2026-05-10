@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Asia
 - **Country**: Hong Kong
+- **Flag**: GLOBAL
 - **Website**: http://www.zwcpartners.com
 
 ## Contact

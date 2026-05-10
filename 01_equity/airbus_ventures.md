@@ -8,6 +8,7 @@
 - **Industry**: Aerospace / Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://airbusventures.vc
 
 ## Contact

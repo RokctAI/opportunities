@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://bailliegifford.com
 
 ## Contact

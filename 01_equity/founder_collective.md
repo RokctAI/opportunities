@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://foundercollective.com
 
 ## Contact

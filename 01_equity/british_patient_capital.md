@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / Life Sciences
 - **Territory**: UK
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.britishpatientcapital.co.uk
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: AI / Robotics
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://cometlabs.io
 
 ## Contact

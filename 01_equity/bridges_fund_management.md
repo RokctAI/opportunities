@@ -8,6 +8,7 @@
 - **Industry**: Impact
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.bridgesfundmanagement.com
 
 ## Contact

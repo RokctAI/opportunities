@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Global
 - **Country**: Canada
+- **Flag**: CA
 - **Website**: https://portagevc.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Healthcare
 - **Territory**: Asia
 - **Country**: China
+- **Flag**: CN
 - **Website**: https://qimingvc.com
 
 ## Contact

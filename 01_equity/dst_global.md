@@ -8,6 +8,7 @@
 - **Industry**: Tech / Internet
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://dst-global.com
 
 ## Contact

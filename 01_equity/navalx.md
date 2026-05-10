@@ -8,6 +8,7 @@
 - **Industry**: Military / Tech
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.secnav.navy.mil
 
 ## Contact

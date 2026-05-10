@@ -8,6 +8,7 @@
 - **Industry**: AgriTech
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://omnivore.vc
 
 ## Contact

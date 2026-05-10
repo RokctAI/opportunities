@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: DACH
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://capnamic.com
 
 ## Contact

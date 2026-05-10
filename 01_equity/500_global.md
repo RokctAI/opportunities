@@ -8,6 +8,7 @@
 - **Industry**: Tech / Gen
 - **Territory**: Global / Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://500.co
 
 ## Contact

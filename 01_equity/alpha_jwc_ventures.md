@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Southeast Asia
 - **Country**: Indonesia
+- **Flag**: ID
 - **Website**: https://alphajwc.com
 
 ## Contact

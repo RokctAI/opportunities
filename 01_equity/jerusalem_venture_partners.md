@@ -8,6 +8,7 @@
 - **Industry**: Cyber / AI / Fintech
 - **Territory**: Global
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://jvpvc.com
 
 ## Contact

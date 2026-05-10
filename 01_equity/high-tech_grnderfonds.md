@@ -8,6 +8,7 @@
 - **Industry**: Tech / DeepTech
 - **Territory**: Germany
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://www.htgf.de
 
 ## Contact

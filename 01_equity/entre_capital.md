@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / SaaS
 - **Territory**: Global
 - **Country**: Israel / UK
+- **Flag**: IL
 - **Website**: https://entreecap.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Spain
+- **Flag**: ES
 - **Website**: https://kiboventures.com
 
 ## Contact

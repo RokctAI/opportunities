@@ -8,6 +8,7 @@
 - **Industry**: Tech / Industry
 - **Territory**: China
 - **Country**: China
+- **Flag**: CN
 - **Website**: http://www.chinareform.com
 
 ## Contact

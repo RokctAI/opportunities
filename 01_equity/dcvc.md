@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://dcvc.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Enterprise
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.amplifypartners.com
 
 ## Contact

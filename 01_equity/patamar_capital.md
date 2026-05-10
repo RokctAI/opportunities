@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Impact
 - **Territory**: Southeast Asia
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://patamar.com
 
 ## Contact

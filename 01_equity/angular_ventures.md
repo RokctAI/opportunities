@@ -8,6 +8,7 @@
 - **Industry**: DeepTech
 - **Territory**: Europe / Israel
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://angularventures.com
 
 ## Contact

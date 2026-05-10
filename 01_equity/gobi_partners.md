@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Asia
 - **Country**: Malaysia
+- **Flag**: MY
 - **Website**: https://gobi.vc
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: SaaS / Marketplaces
 - **Territory**: Europe
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://www.pointnine.com
 
 ## Contact

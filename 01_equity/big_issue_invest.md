@@ -8,6 +8,7 @@
 - **Industry**: Impact
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://bigissueinvest.com
 
 ## Contact

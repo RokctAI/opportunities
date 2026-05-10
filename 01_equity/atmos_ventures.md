@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / Energy
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://atmos.vc
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Gaming / Tech / Web3
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://galaxyinteractive.io
 
 ## Contact

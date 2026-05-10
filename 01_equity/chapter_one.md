@@ -8,6 +8,7 @@
 - **Industry**: Tech / Crypto
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://chapterone.com
 
 ## Contact

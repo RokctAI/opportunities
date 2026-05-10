@@ -8,6 +8,7 @@
 - **Industry**: AI / Tech
 - **Territory**: China
 - **Country**: China
+- **Flag**: CN
 - **Website**: http://www.sinovationventures.com
 
 ## Contact

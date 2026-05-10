@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Africa
 - **Country**: Kenya
+- **Flag**: KE
 - **Website**: https://savannah.vc
 
 ## Contact

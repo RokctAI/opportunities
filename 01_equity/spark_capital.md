@@ -8,6 +8,7 @@
 - **Industry**: Tech / Consumer
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://sparkcapital.com
 
 ## Contact

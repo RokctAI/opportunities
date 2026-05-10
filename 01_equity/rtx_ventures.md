@@ -8,6 +8,7 @@
 - **Industry**: Military / Tech / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://rtx.com
 
 ## Contact

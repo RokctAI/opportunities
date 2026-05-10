@@ -8,6 +8,7 @@
 - **Industry**: Tech / Semiconductors
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.waldenintl.com
 
 ## Contact

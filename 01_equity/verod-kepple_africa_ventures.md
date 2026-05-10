@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Africa
 - **Country**: Nigeria / Kenya
+- **Flag**: KE
 - **Website**: https://vkav.vc
 
 ## Contact

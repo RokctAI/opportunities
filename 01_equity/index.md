@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://indexventures.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / General
 - **Territory**: Global / Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://sovereignscapital.com
 
 ## Contact

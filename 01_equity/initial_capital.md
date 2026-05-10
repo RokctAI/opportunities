@@ -8,6 +8,7 @@
 - **Industry**: Gaming / Tech
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://initialcapital.com
 
 ## Contact

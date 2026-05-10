@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity
 - **Territory**: Global
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://cyberstarts.com
 
 ## Contact

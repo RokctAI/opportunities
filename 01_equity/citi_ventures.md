@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://citi.com/ventures
 
 ## Contact

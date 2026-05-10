@@ -8,6 +8,7 @@
 - **Industry**: Tech / Infrastructure
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://essencevc.com
 
 ## Contact

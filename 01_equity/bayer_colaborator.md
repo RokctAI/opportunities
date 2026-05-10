@@ -8,6 +8,7 @@
 - **Industry**: HealthTech
 - **Territory**: Global
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://www.bayer.com
 
 ## Contact

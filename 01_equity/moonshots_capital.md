@@ -8,6 +8,7 @@
 - **Industry**: Tech / Defense
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.moonshotscapital.com
 
 ## Contact

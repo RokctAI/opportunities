@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Crypto
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://a16z.com
 
 ## Contact

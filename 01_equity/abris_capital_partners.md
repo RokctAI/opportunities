@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Poland
+- **Flag**: PL
 - **Website**: https://abris-capital.com
 
 ## Contact

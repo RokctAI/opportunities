@@ -8,6 +8,7 @@
 - **Industry**: DeepTech
 - **Territory**: Europe
 - **Country**: Austria
+- **Flag**: AT
 - **Website**: https://apex.ventures
 
 ## Contact

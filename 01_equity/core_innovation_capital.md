@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://corevc.com
 
 ## Contact

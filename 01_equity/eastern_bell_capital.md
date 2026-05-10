@@ -8,6 +8,7 @@
 - **Industry**: Logistics / Tech
 - **Territory**: China
 - **Country**: China
+- **Flag**: CN
 - **Website**: http://www.ebellcap.com
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Public/Private
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://coatue.com
 
 ## Contact

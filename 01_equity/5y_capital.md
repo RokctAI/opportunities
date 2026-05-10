@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: Asia
 - **Country**: China
+- **Flag**: CN
 - **Website**: https://www.5ycap.com
 
 ## Contact

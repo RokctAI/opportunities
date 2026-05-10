@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe / Asia
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://korelyacapital.com
 
 ## Contact

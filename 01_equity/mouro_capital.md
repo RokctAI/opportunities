@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://mourocapital.com
 
 ## Contact

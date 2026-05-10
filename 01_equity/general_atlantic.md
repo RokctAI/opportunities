@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Health
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://generalatlantic.com
 
 ## Contact

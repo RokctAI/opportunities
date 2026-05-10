@@ -8,6 +8,7 @@
 - **Industry**: Defense / GovTech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://piedmontcapital.com
 
 ## Contact

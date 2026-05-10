@@ -8,6 +8,7 @@
 - **Industry**: Deep Science / Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.intellectualventures.com
 
 ## Contact

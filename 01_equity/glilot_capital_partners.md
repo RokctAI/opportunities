@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / AI
 - **Territory**: Israel
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://glilotcapital.com
 
 ## Contact

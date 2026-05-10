@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / Health
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://plumalley.co
 
 ## Contact

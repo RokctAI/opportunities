@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Asia
 - **Country**: China
+- **Flag**: CN
 - **Website**: https://ceic.com
 
 ## Contact

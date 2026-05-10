@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Southeast Asia
 - **Country**: Indonesia
+- **Flag**: ID
 - **Website**: https://intudo.vc
 
 ## Contact

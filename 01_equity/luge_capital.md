@@ -8,6 +8,7 @@
 - **Industry**: Fintech / AI
 - **Territory**: North America
 - **Country**: Canada
+- **Flag**: CA
 - **Website**: https://luge.vc
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: DeepTech / Military / AI
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://luxcapital.com
 
 ## Contact

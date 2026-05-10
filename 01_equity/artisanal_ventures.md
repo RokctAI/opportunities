@@ -8,6 +8,7 @@
 - **Industry**: Tech / B2B
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.artisanalventures.com
 
 ## Contact

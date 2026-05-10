@@ -8,6 +8,7 @@
 - **Industry**: Tech / Mobility
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://autotechvc.com
 
 ## Contact

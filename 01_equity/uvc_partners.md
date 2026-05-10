@@ -8,6 +8,7 @@
 - **Industry**: AI / Military
 - **Territory**: Global
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://uvcpartners.com
 
 ## Contact

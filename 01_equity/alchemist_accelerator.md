@@ -8,6 +8,7 @@
 - **Industry**: Tech / Enterprise
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://alchemistaccelerator.com
 
 ## Contact

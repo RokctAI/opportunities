@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://outwardvc.com
 
 ## Contact

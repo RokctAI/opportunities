@@ -8,6 +8,7 @@
 - **Industry**: DeepTech
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.elaia.com
 
 ## Contact

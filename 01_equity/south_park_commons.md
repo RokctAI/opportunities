@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / DeepTech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://southparkcommons.com
 
 ## Contact

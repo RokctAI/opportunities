@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Defense
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://p72.vc
 
 ## Contact

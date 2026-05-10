@@ -8,6 +8,7 @@
 - **Industry**: DeepTech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://boldcapitalpartners.com
 
 ## Contact

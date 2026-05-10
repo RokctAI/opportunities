@@ -8,6 +8,7 @@
 - **Industry**: Tech / Defense
 - **Territory**: Global
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: http://www.portongroup.com
 
 ## Contact

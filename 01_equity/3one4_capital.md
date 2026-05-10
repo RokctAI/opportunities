@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: Asia
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://3one4capital.com
 
 ## Contact

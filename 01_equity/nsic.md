@@ -8,6 +8,7 @@
 - **Industry**: Military / Hardware
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://nsic.mil
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / SaaS
 - **Territory**: Southeast Asia
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://qualgro.com
 
 ## Contact

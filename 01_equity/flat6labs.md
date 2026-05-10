@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: MENA
 - **Country**: Egypt
+- **Flag**: EG
 - **Website**: https://flat6labs.com
 
 ## Contact

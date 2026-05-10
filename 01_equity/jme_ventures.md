@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Spain
 - **Country**: Spain
+- **Flag**: ES
 - **Website**: https://jme.vc
 
 ## Contact

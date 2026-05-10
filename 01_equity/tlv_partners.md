@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI
 - **Territory**: Israel
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://tlv.partners
 
 ## Contact

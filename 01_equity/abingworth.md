@@ -8,6 +8,7 @@
 - **Industry**: Life Sciences
 - **Territory**: Europe / USA
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.abingworth.com
 
 ## Contact

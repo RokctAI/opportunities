@@ -8,6 +8,7 @@
 - **Industry**: Tech / Enterprise SaaS
 - **Territory**: North America
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://work-bench.com
 
 ## Contact

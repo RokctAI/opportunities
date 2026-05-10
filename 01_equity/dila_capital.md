@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Latin America
 - **Country**: Mexico
+- **Flag**: MX
 - **Website**: https://dila.vc
 
 ## Contact

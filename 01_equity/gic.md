@@ -8,6 +8,7 @@
 - **Industry**: Tech / General
 - **Territory**: Global
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://gic.com.sg
 
 ## Contact
