@@ -1,47 +1,44 @@
 # RokctAI Opportunities Registry
 
 ## 🚀 Registry Status Dashboard
-*Last Updated: 2026-05-10 20:59*
+*Last Updated: 2026-05-10 21:05*
 
 | Registry | Total | New (7d) | Verified | Health |
 | :--- | :--- | :--- | :--- | :--- |
 | 🏦 **Equity** | 664 | 664 | 664 | 🟢 |
-| 📜 **Grants** | 14 | 14 | 0 | 🟡 |
+| 📜 **Grants** | 14 | 14 | 14 | 🟢 |
 | 🏗️ **Tenders** | 554 | 554 | 554 | 🟢 |
 
-**Overall Progress**: `98.9%` Verified | `+1232` New Opportunities This Week | [🌐 View Live Dashboard](https://rokctai.github.io/Opportunities-Registry/)
+**Overall Progress**: `100.0%` Verified | `+1232` New Opportunities This Week | [🌐 View Live Dashboard](https://rokctai.github.io/Opportunities-Registry/)
 ## Repository Structure
 
-- **`01_equity/`**: Individual markdown cards for potential funders and investment leads, following `template.md`.
-- **`02_grants/`**: Individual markdown files for grant opportunities, following the `template.md`.
-- **`03_tenders/`**: Individual markdown files for tender opportunities, primarily synced from the South African eTenders portal.
-- **`published/`**: Automatically generated Excel files (.xlsx) for easier distribution and consumption.
-- **`.rokct/`**: Contains automation scripts and agent-related configurations.
+- **`01_equity/`**: Individual markdown cards for potential funders and investment leads.
+- **`02_grants/`**: Individual markdown files for grant opportunities.
+- **`03_tenders/`**: Individual markdown files for tender opportunities (Scraped from OCDS).
+- **`published/api/`**: Single source of truth JSON API for the Next.js frontend.
+- **`.rokct/scripts/`**: Modularized automation engine (Sync, Maintenance, Orchestration).
 
 ## Automation & Workflows
 
-The repository uses GitHub Actions to automate several tasks:
+The repository uses a **Universal Sync Engine** (`.github/workflows/sync-engine.yml`) to manage the pipeline:
 
-1.  **Tender Sync (`.github/workflows/tender-sync.yml`)**: Periodically fetches new tenders from the South African eTenders OCDS API and updates the `03_tenders/` directory.
-2.  **Excel Sync (`.github/workflows/registry-sync-excel.yml`)**: Triggered on pushes to the registry directories. It converts the markdown data into styled Excel files located in `published/`.
-    -   **Note**: Only "Verified" or "ACTIVE" entries are included in the published Excel files.
-3.  **Weekly Report (`.github/workflows/registry-weekly-report.yml`)**: Sends a summary report of new and active opportunities every Friday.
-4.  **Agent Delegation (`.github/workflows/agent-automated.yml`)**: Processes a task queue for AI-driven automation tasks.
+1.  **Weekly Sync (Mondays)**: Performs heavy OCDS and Musina scraping to find new opportunities.
+2.  **Maintenance**: Purges closed tenders and generates the weekly `todo.json` for Jules.
+3.  **Fast Refresh (On Push)**: Triggered by manual edits. Heals metadata (Flags/Verified) and instantly regenerates the JSON API.
 
 ## How to Contribute
 
--   **Adding Equity Leads**: Create a new `.md` file in `01_equity/` using `01_equity/template.md` as a guide.
--   **Adding Grants**: Create a new `.md` file in `02_grants/` using `02_grants/template.md` as a guide.
--   **Verifying Data**: Ensure that entries have a `Status: ACTIVE` or are otherwise marked as verified to be included in the public exports.
+-   **Adding Equity/Grants**: Use the `template.md` in the respective folders.
+-   **Multi-Tag Filtering**: Use slashes (`/`) in fields like Industry or Territory to add multiple tags (e.g., `Tech / Fintech`).
+-   **Flags**: Add a `- **Country**: India` line, and the bot will automatically inject the `- **Flag**: IN` line for you.
 
 ### 🔐 Privacy Protection
-This repository enforces strict PII (Personally Identifiable Information) protection for all recipient cards.
+This repository enforces strict PII protection for all recipient cards.
 - **Enforcement**: CI will fail if raw emails or human-readable names are found in `.rokct/recipients/`.
-- **Local Fix**: Run `python .rokct/skills/agent_delegation/scripts/privacy_sync.py` to anonymize your card before committing.
-- **Pre-commit**: We recommend installing pre-commit hooks (`pre-commit install`) to handle this automatically.
+- **Local Fix**: Run `python .rokct/scripts/privacy/index.py` to anonymize your card before committing.
 
 ## Technical Details
 
--   **Languages**: Python (for sync scripts), YAML (for workflows).
--   **Dependencies**: `pandas`, `openpyxl`, `requests`, `python-dotenv`.
--   **Secrets**: The repository fetches environment configurations from the central `RokctAI/Monorepo` to ensure consistency across the ecosystem.
+-   **Backend**: Python 3.10+
+-   **Database**: Git-as-a-Database (Markdown + JSON API).
+-   **Frontend Integration**: The Next.js app consumes `published/api/meta.json` for all data.
