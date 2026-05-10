@@ -4,7 +4,7 @@
 import os
 import requests
 import re
-import difflib
+import json
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -26,9 +26,10 @@ def load_environment():
 # --- CONFIGURATION ---
 TENDER_DIR = Path('03_tenders')
 SOURCES_DIR = TENDER_DIR / 'sources'
+DEBUG_OCID = "ocds-9t57fa-155419"
 
 def get_resilient_session():
-    """Creates a requests session with high resilience for flaky government APIs."""
+    """Creates a requests session with high resilience."""
     session = requests.Session()
     retry_strategy = Retry(
         total=5,
@@ -60,7 +61,7 @@ def load_ocds_api_configs():
     return configs
 
 def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
-    """Fetches tenders from an OCDS API with persistence logic."""
+    """Fetches tenders from an OCDS API with deterministic stability."""
     base_url = source_config["url"]
     flag = source_config["flag"]
     source_ref = source_config["source_card"]
@@ -87,6 +88,11 @@ def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
                 ocid = release.get('ocid')
                 if not ocid: continue
                 
+                # DEBUG TRACE
+                if ocid == DEBUG_OCID:
+                    print(f"    [Trace] Found {DEBUG_OCID} in Page {params['PageNumber']}")
+                    print(f"    [Trace] Raw Docs: {[d.get('title') for d in release.get('tender', {}).get('documents', [])]}")
+                
                 file_path = TENDER_DIR / f"{ocid}.md"
                 existing_content = ""
                 if file_path.exists():
@@ -96,10 +102,12 @@ def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
                     if "Verification Status: VERIFIED" in existing_content:
                         continue
 
-                new_content = generate_markdown_from_ocds(release, flag, source_ref, existing_content)
+                new_content = generate_markdown_from_ocds(release, flag, source_ref)
                 
-                # Only write if content actually changed (to keep Git history clean)
+                # Only write if content actually changed
                 if new_content.strip() != existing_content.strip():
+                    if ocid == DEBUG_OCID:
+                        print(f"    [Trace] Content change detected for {DEBUG_OCID}!")
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(new_content)
                     updates += 1
@@ -114,8 +122,8 @@ def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
 
     return updates
 
-def generate_markdown_from_ocds(release, flag, source_ref, existing_content=""):
-    """Maps OCDS JSON fields and MERGES with existing documents to prevent data loss."""
+def generate_markdown_from_ocds(release, flag, source_ref):
+    """Maps OCDS JSON fields with Deterministic Stability (Sorting)."""
     tender = release.get('tender', {})
     ocid = release.get('ocid')
     
@@ -137,19 +145,21 @@ def generate_markdown_from_ocds(release, flag, source_ref, existing_content=""):
     b_date = briefing.get('date', 'N/A').replace('T', ' ')[:16] if briefing.get('date') else "N/A"
     b_venue = briefing.get('venue', 'N/A')
     
-    # Documents - MERGE LOGIC
-    existing_docs = set(re.findall(r'\[(.*?)\]\((.*?)\)', existing_content))
-    new_docs = set()
-    for doc in tender.get('documents', []):
-        new_docs.add((doc.get('title', 'Document'), doc.get('url', '#')))
+    # Documents - STABLE SORTING (by Title)
+    raw_docs = tender.get('documents', [])
+    # Filter and Sort to ensure stable position
+    processed_docs = sorted(
+        [(doc.get('title', 'Document'), doc.get('url', '#')) for doc in raw_docs],
+        key=lambda x: x[0]
+    )
     
-    all_docs = sorted(list(existing_docs.union(new_docs)))
-    docs_md = "".join([f"    - [{t}]({u})\n" for t, u in all_docs])
+    docs_md = "".join([f"    - [{t}]({u})\n" for t, u in processed_docs])
     if not docs_md: docs_md = "    - No documents listed in API.\n"
 
-    # Direct Link Logic (prefer new, fallback to existing)
+    # Direct Link Determinism (Always pick the first sorted document)
     direct_link = "https://www.etenders.gov.za/Home/opportunities?id=1"
-    if all_docs: direct_link = all_docs[0][1]
+    if processed_docs:
+        direct_link = processed_docs[0][1]
 
     # Assemble Markdown
     md = f"""# Tender Opportunity: {title}
@@ -207,13 +217,11 @@ if __name__ == "__main__":
     if not configs:
         print("No API sources found.")
     else:
-        # TRIPLE-PASS SWEEP for flaky API resilience
-        for pass_num in range(1, 4):
-            print(f"[{datetime.now().strftime('%H:%M:%S')}] --- SWEEP PASS {pass_num}/3 ---")
-            total = 0
-            for config in configs:
-                total += fetch_and_sync_tenders(config)
-            print(f"  [Pass {pass_num}] Updated {total} files.")
-            if pass_num < 3: time.sleep(5) # Cooldown
+        # SINGLE-PASS for testing stability (Sweep removed to reduce noise for debug)
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] --- STABILITY CHECK PASS ---")
+        total = 0
+        for config in configs:
+            total += fetch_and_sync_tenders(config)
+        print(f"  Total Updated: {total}")
         
     print(f"[{datetime.now().strftime('%H:%M:%S')}] OCDS Sync Complete.")
