@@ -4,7 +4,7 @@
 import re
 from pathlib import Path
 
-# ISO Mapping (Order doesn't matter as much now because we find ALL matches)
+# Full Comprehensive ISO Mapping
 ISO_MAP = {
     "afghanistan": "AF", "albania": "AL", "algeria": "DZ", "andorra": "AD", "angola": "AO",
     "argentina": "AR", "armenia": "AM", "australia": "AU", "austria": "AT", "azerbaijan": "AZ",
@@ -49,11 +49,8 @@ ISO_MAP = {
 }
 
 def heal_equity_flags(file_path, content):
-    """Automatically injects MULTI-FLAGS based on the Country field."""
-    # If flag exists, we don't heal (to avoid infinite loops)
-    if re.search(r'-\s+\*\*Flag\*\*:', content):
-        return content
-
+    """Deep healing for Multi-Flags. Syncs Flag field with Country field."""
+    # 1. Extract Current Country & Flag
     country_match = re.search(r'-\s+\*\*Country\*\*:\s*(.*)', content, re.I)
     if not country_match:
         return content
@@ -61,28 +58,36 @@ def heal_equity_flags(file_path, content):
     country_raw = country_match.group(1).strip()
     country_key = country_raw.lower()
     
-    # 2. Multi-Match Logic
+    flag_match = re.search(r'-\s+\*\*Flag\*\*:\s*(.*)', content, re.I)
+    current_flag = flag_match.group(1).strip() if flag_match else ""
+
+    # 2. Calculate Correct Multi-Flag
     found_flags = []
     for name, code in ISO_MAP.items():
-        # Match word boundaries to avoid 'india' matching 'indiana'
         if re.search(r'\b' + re.escape(name) + r'\b', country_key):
             if code not in found_flags:
                 found_flags.append(code)
     
-    # Handle "Global" specifically if it's there
     if "global" in country_key and "GLOBAL" not in found_flags:
         found_flags.append("GLOBAL")
     
     if not found_flags:
         found_flags = ["GLOBAL"]
 
-    # Join multiple flags with /
-    final_flag = " / ".join(found_flags)
+    new_flag = " / ".join(found_flags)
+
+    # 3. Check for Changes
+    if current_flag == new_flag:
+        return content
+
+    print(f"  🚩 Healing Flag Update: {file_path.name} ({current_flag} -> {new_flag})")
     
-    # 3. Inject Flag
-    print(f"  🚩 Healing Multi-Flag: {file_path.name} ({country_raw} -> {final_flag})")
-    new_line = f"\n- **Flag**: {final_flag}"
-    content = re.sub(r'(-\s+\*\*Country\*\*:[^\n]+)', r'\1' + new_line, content, count=1)
+    if flag_match:
+        # Overwrite existing
+        content = re.sub(r'-\s+\*\*Flag\*\*:[^\n]+', f'- **Flag**: {new_flag}', content)
+    else:
+        # Inject new
+        content = re.sub(r'(-\s+\*\*Country\*\*:[^\n]+)', r'\1' + f'\n- **Flag**: {new_flag}', content, count=1)
     
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(content)
