@@ -18,7 +18,7 @@ PUBLISHED_DIR = BASE_DIR / "published"
 README_PATH = BASE_DIR / "README.md"
 AUDIT_LOG_PATH = BASE_DIR / "03_tenders" / "registry_audit_log.md"
 
-def scan_registry(path):
+def scan_registry(name, path):
     """Scans a directory for markdown files and extracts stats."""
     total = 0
     verified = 0
@@ -36,8 +36,10 @@ def scan_registry(path):
         with open(file, 'r', encoding='utf-8', errors='ignore') as f:
             content = f.read()
             
-            # Check Verification Status
-            if "Verification Status: VERIFIED" in content or "Status: VERIFIED" in content:
+            # Logic: Tenders from API are "Verified" by default if Active
+            if name == "Tenders" and "Status: ACTIVE" in content:
+                verified += 1
+            elif "Verification Status: VERIFIED" in content or "Status: VERIFIED" in content:
                 verified += 1
             
             # Extract Category (Tenders specific)
@@ -66,7 +68,7 @@ def update_readme(stats):
     
     for name, data in stats.items():
         total, verified, _ = data
-        health = "🟢" if verified > 0 else "🟡"
+        health = "🟢" if verified > (total * 0.8) else "🟡"
         rows.append(f"| {icons.get(name, '📁')} **{name}** | {total} | {total} | {verified} | {health} |")
         total_all += total
         verified_all += verified
@@ -74,18 +76,19 @@ def update_readme(stats):
     dashboard_table = "\n".join(rows)
     verified_pct = (verified_all / total_all * 100) if total_all > 0 else 0
     
-    # Replace Last Updated
+    # 1. Replace Last Updated
     content = re.sub(
         r'\*Last Updated:.*?\*', 
         f"*Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}*", 
         content
     )
     
-    # Replace Table
-    table_pattern = r'(\| Registry \| Total \| New \(7d\) \| Verified \| Health \|\n\| :--- \| :--- \| :--- \| :--- \| :--- \|\n)([\s\S]*?)(\n\n\*\*Overall Progress\*\*)'
-    content = re.sub(table_pattern, f'\\1{dashboard_table}\\3', content)
+    # 2. Replace Table Content (more flexible regex)
+    # This looks for the table header and replaces everything until the next double newline or progress marker
+    table_pattern = r'(\| Registry \| Total \| New \(7d\) \| Verified \| Health \|\n\| :--- \| :--- \| :--- \| :--- \| :--- \|\n)([\s\S]*?)(?=\n\s*\n|\n\*\*Overall Progress\*\*)'
+    content = re.sub(table_pattern, f'\\1{dashboard_table}', content)
     
-    # Replace Overall Progress
+    # 3. Replace Overall Progress
     progress_line = f"**Overall Progress**: `{verified_pct:.1f}%` Verified | `+{total_all}` New Opportunities This Week | [🌐 View Live Dashboard](https://rokctai.github.io/Opportunities-Registry/)"
     content = re.sub(r'\*\*Overall Progress\*\*:.*$', progress_line, content, flags=re.MULTILINE)
 
@@ -123,7 +126,7 @@ def generate():
     tender_categories = {}
     
     for name, path in REGISTRIES.items():
-        total, verified, cats = scan_registry(path)
+        total, verified, cats = scan_registry(name, path)
         stats[name] = (total, verified, cats)
         if name == "Tenders":
             tender_categories = cats
@@ -132,7 +135,7 @@ def generate():
     update_readme(stats)
     update_audit_log(stats["Tenders"][0], stats["Tenders"][1])
 
-    # 2. Update meta.json (For API/Web consumption)
+    # 2. Update meta.json
     meta_path = PUBLISHED_DIR / "api" / "meta.json"
     meta_path.parent.mkdir(parents=True, exist_ok=True)
     
