@@ -36,7 +36,7 @@ def run_orchestration():
     # Trigger Updaters
     update_readme(README_PATH, stats)
     update_audit_log(AUDIT_LOG_PATH, stats["Tenders"][0], stats["Tenders"][1])
-    update_json_meta(META_PATH, stats, tender_categories, all_advanced_data)
+    update_json_meta(META_PATH, stats, all_advanced_data)
     save_jules_todo(BASE_DIR, jules_todo)
     
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Orchestration Complete.")
