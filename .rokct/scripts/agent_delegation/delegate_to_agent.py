@@ -6,43 +6,64 @@ import requests
 import json
 import argparse
 import sys
+import base64
 
 def load_monorepo_env(custom_path=None):
     """
-    Attempts to recover the JULES_API_KEY from the monorepo's production.env.
-    This is used when keys are stored in a central repository rather than CI secrets.
+    Recovers the JULES_API_KEY.
+    1. If MONOREPO_PAT is present, fetches from GitHub API (CI Mode).
+    2. Fallback to local hunting (Local Mode).
     """
+    # --- 1. REMOTE CI MODE (GitHub API) ---
+    pat = os.environ.get("MONOREPO_PAT")
+    if pat:
+        if os.environ.get("GITHUB_ACTIONS"):
+            print("🚀 [CI] MONOREPO_PAT found. Fetching keys from RokctAI/monorepo via API...")
+        
+        url = "https://api.github.com/repos/RokctAI/monorepo/contents/.env/production.env"
+        headers = {
+            "Authorization": f"token {pat}",
+            "Accept": "application/vnd.github.v3.raw"
+        }
+        
+        try:
+            resp = requests.get(url, headers=headers, timeout=30)
+            if resp.status_code == 200:
+                parse_env_content(resp.text)
+                if os.environ.get("GITHUB_ACTIONS"):
+                    print("✅ [CI] Keys successfully recovered from remote Monorepo.")
+                return True
+            else:
+                print(f"⚠️ [CI] Remote fetch failed (Status: {resp.status_code}). Falling back to local...")
+        except Exception as e:
+            print(f"⚠️ [CI] Remote API error: {e}")
+
+    # --- 2. LOCAL FALLBACK MODE ---
     env_paths = []
-    if custom_path:
-        env_paths.append(custom_path)
+    if custom_path: env_paths.append(custom_path)
     
-    # Conventional Hunting: Look for Monorepo sibling
-    # Path: opportunities/.rokct/scripts/agent_delegation/delegate_to_agent.py
-    # Up 4 levels gets us to the workspace root (e.g. Desktop/RokctAI/)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     workspace_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
-    
-    # Check both the monorepo sibling and the current repo root
     env_paths.append(os.path.join(workspace_root, "Monorepo", ".env", "production.env"))
     env_paths.append(os.path.join(workspace_root, ".env", "production.env"))
     env_paths.append(os.path.join(os.getcwd(), ".env", "production.env"))
 
     for path in env_paths:
         if os.path.exists(path):
-            if os.environ.get("GITHUB_ACTIONS"):
-                print(f"🔍 [CI] Found monorepo env at: {path}")
             try:
                 with open(path, 'r', encoding='utf-8') as f:
-                    for line in f:
-                        if "JULES_API_KEY=" in line or "AGENT_API_KEY=" in line:
-                            # Strip 'export ', whitespace, and quotes
-                            val = line.replace("export ", "").strip().split("=", 1)[1].strip("'\" ")
-                            key_name = "JULES_API_KEY" if "JULES_API_KEY" in line else "AGENT_API_KEY"
-                            os.environ[key_name] = val
+                    parse_env_content(f.read())
                 return True
-            except Exception as e:
-                print(f"⚠️ [CI] Failed to read env file: {e}")
+            except: pass
     return False
+
+def parse_env_content(content):
+    """Parses .env content for keys."""
+    for line in content.splitlines():
+        if "JULES_API_KEY=" in line or "AGENT_API_KEY=" in line:
+            val = line.replace("export ", "").strip().split("=", 1)[1].strip("'\" ")
+            key_name = "JULES_API_KEY" if "JULES_API_KEY" in line else "AGENT_API_KEY"
+            os.environ[key_name] = val
 
 BASE_URL = "https://jules.googleapis.com/v1alpha"
 
@@ -81,9 +102,9 @@ class AgentCLI:
         return response.json()
 
 def main():
-    parser = argparse.ArgumentParser(description="Delegate tasks to an AI Agent (Monorepo-Aware).")
-    parser.add_argument("--api-key", help="Agent API Key (overrides env)")
-    parser.add_argument("--env-file", help="Path to the monorepo production.env file")
+    parser = argparse.ArgumentParser(description="Delegate tasks to an AI Agent (Remote-Vault Aware).")
+    parser.add_argument("--api-key", help="Agent API Key (overrides vault)")
+    parser.add_argument("--env-file", help="Local path to production.env (Fallback)")
     subparsers = parser.add_subparsers(dest="command", help="Commands")
 
     # Create Session
@@ -101,14 +122,15 @@ def main():
 
     args = parser.parse_args()
 
-    # Try to load from monorepo file if keys are missing from environment
-    if not os.environ.get("AGENT_API_KEY") and not os.environ.get("JULES_API_KEY"):
-        load_monorepo_env(args.env_file)
-
+    # Priority: 1. Arg, 2. Env Var (already loaded), 3. Remote Vault (API), 4. Local File
     api_key = args.api_key or os.environ.get("AGENT_API_KEY") or os.environ.get("JULES_API_KEY")
     
     if not api_key:
-        print("❌ Error: API Key missing. Ensure it is in the monorepo .env/production.env or passed via --api-key.")
+        load_monorepo_env(args.env_file)
+        api_key = os.environ.get("AGENT_API_KEY") or os.environ.get("JULES_API_KEY")
+
+    if not api_key:
+        print("❌ Error: API Key missing. Remote Vault fetch failed and no local env found.")
         sys.exit(1)
 
     cli = AgentCLI(api_key)
@@ -119,14 +141,8 @@ def main():
             if not repo.startswith("sources/"):
                 repo = f"sources/github/{repo}"
                 
-            result = cli.create_session(
-                args.prompt, 
-                repo, 
-                title=args.title,
-                branch=args.branch,
-                require_approval=args.require_approval,
-                automation_mode=args.automation_mode
-            )
+            result = cli.create_session(args.prompt, repo, title=args.title, branch=args.branch,
+                                     require_approval=args.require_approval, automation_mode=args.automation_mode)
             print(json.dumps(result, indent=2))
         elif args.command == "status":
             result = cli.get_session(args.id)
