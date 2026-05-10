@@ -28,7 +28,7 @@ def load_ocds_api_configs():
     """Finds all markdown cards in sources/ marked as Is API: true and API Type: OCDS."""
     configs = []
     if not SOURCES_DIR.exists():
-        print(f"⚠️ Sources directory missing: {SOURCES_DIR}")
+        print(f"Sources directory missing: {SOURCES_DIR}")
         return configs
 
     for source_file in SOURCES_DIR.glob('*.md'):
@@ -60,7 +60,7 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
     flag = source_config["flag"]
     source_ref = source_config["source_card"]
     
-    print(f"🚀 Syncing {source_config['name']} ({flag}) from {base_url}...")
+    print(f"[Sync] Starting {source_config['name']} ({flag}) from {base_url}...")
     
     now = datetime.now()
     date_to = now.strftime('%Y-%m-%d')
@@ -73,9 +73,11 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
         "dateTo": date_to
     }
 
-    count = 0
+    releases_processed = 0
+    unique_tenders = set()
+
     while params["PageNumber"] <= page_limit:
-        print(f"  📄 Page {params['PageNumber']}...")
+        print(f"  Page {params['PageNumber']}...")
         try:
             response = requests.get(base_url, params=params, timeout=30)
             response.raise_for_status()
@@ -94,11 +96,10 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
                         
-                        # FLAG RECOVERY: If flag is missing but source card exists, inject it
+                        # FLAG RECOVERY
                         if f"- **Flag**: {flag}" not in content and "- **Flag**:" not in content:
-                            print(f"  🚩 Injecting missing flag ({flag}) into {ocid}.md")
+                            print(f"  [Flag] Injecting {flag} into {ocid}.md")
                             new_line = f"- **Flag**: {flag}\n"
-                            # Inject after Source Card
                             content = re.sub(r'(-\s+\*\*Source Card\*\*:[^\n]+\n)', r'\1' + new_line, content)
                             with open(file_path, 'w', encoding='utf-8') as fw:
                                 fw.write(content)
@@ -109,17 +110,19 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
                 markdown_content = generate_markdown_from_ocds(release, flag, source_ref)
                 with open(file_path, 'w', encoding='utf-8') as f:
                     f.write(markdown_content)
-                count += 1
+                
+                releases_processed += 1
+                unique_tenders.add(ocid)
                 
             if not data.get('links', {}).get('next'): break
             params["PageNumber"] += 1
             
         except Exception as e:
-            print(f"  ❌ Error syncing {source_config['name']}: {e}")
+            print(f"  [Error] Syncing {source_config['name']}: {e}")
             break
 
-    print(f"  ✅ Processed {count} tenders.")
-    return count
+    print(f"  [Status] Processed {releases_processed} releases ({len(unique_tenders)} unique tenders updated).")
+    return len(unique_tenders)
 
 def generate_markdown_from_ocds(release, flag, source_ref):
     """Maps OCDS JSON fields to Monorepo Template."""
@@ -223,12 +226,12 @@ if __name__ == "__main__":
     TENDER_DIR.mkdir(parents=True, exist_ok=True)
     
     api_configs = load_ocds_api_configs()
-    total_new = 0
+    total_unique = 0
     
     if not api_configs:
-        print("ℹ️ No OCDS API sources found in sources/*.md")
+        print("No OCDS API sources found in sources/*.md")
     else:
         for config in api_configs:
-            total_new += fetch_and_sync_tenders(config)
+            total_unique += fetch_and_sync_tenders(config)
         
-    print(f"🏁 OCDS Sync complete. Total new: {total_new}")
+    print(f"OCDS Sync complete. Total unique tenders updated: {total_unique}")
