@@ -1,0 +1,45 @@
+# Copyright (c) 2026 RokctAI
+name: "Opportunities: Universal Sync Engine"
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every night at midnight
+  workflow_dispatch:
+
+jobs:
+  sync_and_orchestrate:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests python-dotenv beautifulsoup4 lxml
+
+      - name: 🏗️ Run Tender Engine (Sync)
+        run: python .rokct/scripts/tenders/index.py
+
+      - name: 🧹 Run Maintenance (Purge/Queue)
+        run: python .rokct/scripts/maintenance/index.py
+
+      - name: 📊 Run Registry Orchestrator (Dashboard/JSON/Todo)
+        run: python .rokct/scripts/registry_orchestrator/index.py
+
+      - name: 🚀 Commit and Push Updates
+        run: |
+          git config --global user.name "google-labs-jules[bot]"
+          git config --global user.email "161369871+google-labs-jules[bot]@users.noreply.github.com"
+          git add 03_tenders/*.md README.md published/api/meta.json .rokct/agent/todo.json 01_equity/*.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: nightly sync, metadata healing, and orchestration [skip ci]"
+            git push origin main
+          fi
