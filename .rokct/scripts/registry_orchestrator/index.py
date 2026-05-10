@@ -4,7 +4,7 @@
 from pathlib import Path
 from datetime import datetime
 from scanners import scan_registry
-from updaters import update_readme, update_audit_log, update_json_meta
+from updaters import update_readme, update_audit_log, update_json_meta, save_jules_todo
 
 # --- CONFIGURATION ---
 BASE_DIR = Path(__file__).parent.parent.parent.parent
@@ -22,17 +22,22 @@ def run_orchestration():
     
     stats = {}
     tender_categories = {}
+    all_advanced_data = {}
+    jules_todo = []
     
     for name, path in REGISTRIES.items():
-        total, verified, cats = scan_registry(name, path)
-        stats[name] = (total, verified, cats)
+        total, verified, cats, advanced, todo = scan_registry(name, path)
+        stats[name] = (total, verified, cats, advanced, todo)
         if name == "Tenders":
             tender_categories = cats
+            all_advanced_data = advanced
+            jules_todo = todo
 
     # Trigger Updaters
     update_readme(README_PATH, stats)
     update_audit_log(AUDIT_LOG_PATH, stats["Tenders"][0], stats["Tenders"][1])
-    update_json_meta(META_PATH, stats, tender_categories)
+    update_json_meta(META_PATH, stats, tender_categories, all_advanced_data)
+    save_jules_todo(BASE_DIR, jules_todo)
     
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Orchestration Complete.")
 
