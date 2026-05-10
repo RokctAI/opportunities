@@ -5,9 +5,12 @@ import os
 import requests
 import re
 import difflib
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 def load_environment():
     """Robust environment loading from .env/production.env."""
@@ -23,6 +26,20 @@ def load_environment():
 # --- CONFIGURATION ---
 TENDER_DIR = Path('03_tenders')
 SOURCES_DIR = TENDER_DIR / 'sources'
+
+def get_resilient_session():
+    """Creates a requests session with retry logic and SSL tolerance."""
+    session = requests.Session()
+    retry_strategy = Retry(
+        total=3,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["HEAD", "GET", "OPTIONS"]
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
 
 def load_ocds_api_configs():
     """Finds all markdown cards in sources/ marked as Is API: true and API Type: OCDS."""
@@ -60,7 +77,8 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
     flag = source_config["flag"]
     source_ref = source_config["source_card"]
     
-    print(f"[Sync] Starting {source_config['name']} ({flag}) from {base_url}...")
+    session = get_resilient_session()
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] [Sync] Starting {source_config['name']} ({flag})...")
     
     now = datetime.now()
     date_to = now.strftime('%Y-%m-%d')
@@ -77,20 +95,21 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
     unique_tenders = set()
 
     while params["PageNumber"] <= page_limit:
-        print(f"  Page {params['PageNumber']}...")
+        print(f"  [{datetime.now().strftime('%H:%M:%S')}] Requesting Page {params['PageNumber']}...")
         try:
-            response = requests.get(base_url, params=params, timeout=30)
+            response = session.get(base_url, params=params, timeout=30)
             response.raise_for_status()
             data = response.json()
             
             releases = data.get('releases', [])
-            if not releases: break
+            if not releases:
+                print("  [Info] No more releases in this range.")
+                break
                 
             for release in releases:
                 ocid = release.get('ocid')
                 if not ocid: continue
                 
-                # Check duplication and verification status
                 file_path = TENDER_DIR / f"{ocid}.md"
                 if file_path.exists():
                     with open(file_path, 'r', encoding='utf-8') as f:
@@ -98,7 +117,6 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
                         
                         # FLAG RECOVERY
                         if f"- **Flag**: {flag}" not in content and "- **Flag**:" not in content:
-                            print(f"  [Flag] Injecting {flag} into {ocid}.md")
                             new_line = f"- **Flag**: {flag}\n"
                             content = re.sub(r'(-\s+\*\*Source Card\*\*:[^\n]+\n)', r'\1' + new_line, content)
                             with open(file_path, 'w', encoding='utf-8') as fw:
@@ -118,10 +136,10 @@ def fetch_and_sync_tenders(source_config, page_limit=5, days_back=7):
             params["PageNumber"] += 1
             
         except Exception as e:
-            print(f"  [Error] Syncing {source_config['name']}: {e}")
+            print(f"  [Error] Syncing {source_config['name']} at page {params['PageNumber']}: {e}")
             break
 
-    print(f"  [Status] Processed {releases_processed} releases ({len(unique_tenders)} unique tenders updated).")
+    print(f"  [Status] Finished {source_config['name']}: {releases_processed} releases ({len(unique_tenders)} unique tenders).")
     return len(unique_tenders)
 
 def generate_markdown_from_ocds(release, flag, source_ref):
@@ -234,4 +252,4 @@ if __name__ == "__main__":
         for config in api_configs:
             total_unique += fetch_and_sync_tenders(config)
         
-    print(f"OCDS Sync complete. Total unique tenders updated: {total_unique}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] OCDS Sync complete. Unique tenders updated: {total_unique}")
