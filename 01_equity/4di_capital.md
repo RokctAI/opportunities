@@ -1,5 +1,5 @@
 ---
-# Equity Opportunity: 4Di Capital 
+# Equity Opportunity: 4Di Capital
 
 ## Quick Stats
 - **Organization**: 4Di Capital
