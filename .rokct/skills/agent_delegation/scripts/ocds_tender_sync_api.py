@@ -50,14 +50,22 @@ def load_ocds_api_configs():
     for source_file in SOURCES_DIR.glob('*.md'):
         with open(source_file, 'r', encoding='utf-8') as f:
             content = f.read()
-            if 'Is API: true' in content and 'API Type: OCDS' in content:
-                config = {
-                    "name": source_file.stem,
-                    "source_card": f"sources/{source_file.name}",
-                    "url": re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content).group(1).strip(),
-                    "flag": re.search(r'-\s+\*\*Flag\*\*:\s*([A-Z]{2})', content).group(1).strip()
-                }
-                configs.append(config)
+            
+            # Use Regex for robust field extraction
+            is_api = re.search(r'-\s+\*\*Is API\*\*:\s*true', content, re.IGNORECASE)
+            is_ocds = re.search(r'-\s+\*\*API Type\*\*:\s*OCDS', content, re.IGNORECASE)
+            
+            if is_api and is_ocds:
+                u_match = re.search(r'-\s+\*\*URL\*\*:\s*(https?://[^\s\n]+)', content)
+                f_match = re.search(r'-\s+\*\*Flag\*\*:\s*([A-Z]{2})', content)
+                
+                if u_match and f_match:
+                    configs.append({
+                        "name": source_file.stem,
+                        "source_card": f"sources/{source_file.name}",
+                        "url": u_match.group(1).strip(),
+                        "flag": f_match.group(1).strip()
+                    })
     return configs
 
 def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
@@ -67,7 +75,7 @@ def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
     source_ref = source_config["source_card"]
     session = get_resilient_session()
     
-    print(f"  [Pass] Fetching {source_config['name']} ({flag})...")
+    print(f"  [Sync] Processing {source_config['name']} ({flag})...")
     
     date_to = datetime.now().strftime('%Y-%m-%d')
     date_from = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
@@ -91,7 +99,7 @@ def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
                 # DEBUG TRACE
                 if ocid == DEBUG_OCID:
                     print(f"    [Trace] Found {DEBUG_OCID} in Page {params['PageNumber']}")
-                    print(f"    [Trace] Raw Docs: {[d.get('title') for d in release.get('tender', {}).get('documents', [])]}")
+                    print(f"    [Trace] API Documents Found: {len(release.get('tender', {}).get('documents', []))}")
                 
                 file_path = TENDER_DIR / f"{ocid}.md"
                 existing_content = ""
@@ -107,7 +115,7 @@ def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
                 # Only write if content actually changed
                 if new_content.strip() != existing_content.strip():
                     if ocid == DEBUG_OCID:
-                        print(f"    [Trace] Content change detected for {DEBUG_OCID}!")
+                        print(f"    [Trace] Writing update for {DEBUG_OCID} (Content changed/stabilized)")
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(new_content)
                     updates += 1
@@ -127,7 +135,6 @@ def generate_markdown_from_ocds(release, flag, source_ref):
     tender = release.get('tender', {})
     ocid = release.get('ocid')
     
-    # Basic Metadata
     title = tender.get('title', 'Untitled Opportunity')
     institution = tender.get('procuringEntity', {}).get('name', 'Unknown')
     t_type = tender.get('procurementMethodDetails', tender.get('mainProcurementCategory', 'Tender'))
@@ -147,7 +154,6 @@ def generate_markdown_from_ocds(release, flag, source_ref):
     
     # Documents - STABLE SORTING (by Title)
     raw_docs = tender.get('documents', [])
-    # Filter and Sort to ensure stable position
     processed_docs = sorted(
         [(doc.get('title', 'Document'), doc.get('url', '#')) for doc in raw_docs],
         key=lambda x: x[0]
@@ -156,7 +162,7 @@ def generate_markdown_from_ocds(release, flag, source_ref):
     docs_md = "".join([f"    - [{t}]({u})\n" for t, u in processed_docs])
     if not docs_md: docs_md = "    - No documents listed in API.\n"
 
-    # Direct Link Determinism (Always pick the first sorted document)
+    # Direct Link Determinism
     direct_link = "https://www.etenders.gov.za/Home/opportunities?id=1"
     if processed_docs:
         direct_link = processed_docs[0][1]
@@ -215,10 +221,9 @@ if __name__ == "__main__":
     configs = load_ocds_api_configs()
     
     if not configs:
-        print("No API sources found.")
+        print("No OCDS API sources found.")
     else:
-        # SINGLE-PASS for testing stability (Sweep removed to reduce noise for debug)
-        print(f"[{datetime.now().strftime('%H:%M:%S')}] --- STABILITY CHECK PASS ---")
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] --- STABILITY CHECK ---")
         total = 0
         for config in configs:
             total += fetch_and_sync_tenders(config)
