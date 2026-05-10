@@ -6,7 +6,6 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-# The Global Defaults to be used by Next.js for "BASIC" tenders
 GLOBAL_DEFAULT_TASKS = [
     "Review Tender Documents",
     "Prepare Initial Response"
@@ -25,7 +24,7 @@ def update_readme(readme_path, stats):
     
     for name, data in stats.items():
         total, verified, _, _, _ = data
-        health = "🟢" if verified > (total * 0.8) else "🟡"
+        health = "🟢" if verified > (total * 0.5) else "🟡"
         rows.append(f"| {icons.get(name, '📁')} **{name}** | {total} | {total} | {verified} | {health} |")
         total_all += total
         verified_all += verified
@@ -62,19 +61,28 @@ def update_audit_log(audit_path, total, verified):
     with open(audit_path, 'w', encoding='utf-8') as f:
         f.writelines(new_lines)
 
-def update_json_meta(meta_path, stats, tender_categories, advanced_data):
-    """Generates the meta.json with tiered enrichment support."""
+def update_json_meta(meta_path, stats, advanced_data):
+    """Generates a rich meta.json with full classification data."""
     meta_path.parent.mkdir(parents=True, exist_ok=True)
     
+    # Flatten registry stats and classifications
+    registry_details = {}
+    for name, data in stats.items():
+        total, verified, aggregations, _, _ = data
+        registry_details[name] = {
+            "total": total,
+            "verified": verified,
+            "classifications": aggregations
+        }
+
     meta_data = {
         "last_sync": datetime.now().isoformat(),
-        "total_tenders": stats["Tenders"][0],
-        "verified_tenders": stats["Tenders"][1],
+        "total_verified_all": sum(v["verified"] for v in registry_details.values()),
         "global_defaults": GLOBAL_DEFAULT_TASKS,
-        "categories": tender_categories,
-        "advanced_enrichment": advanced_data, # OCID -> Tasks
-        "registries": {k: {"total": v[0], "verified": v[1]} for k, v in stats.items()}
+        "registries": registry_details,
+        "advanced_enrichment": advanced_data
     }
+    
     with open(meta_path, 'w', encoding='utf-8') as f:
         json.dump(meta_data, f, indent=2)
 
