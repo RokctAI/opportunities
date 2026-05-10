@@ -24,4 +24,4 @@ jobs:
 
       - name: Run Privacy Enforcement Check
         run: |
-          python .rokct/skills/agent_delegation/scripts/privacy_sync.py --check
+          python .rokct/scripts/privacy/index.py --check
