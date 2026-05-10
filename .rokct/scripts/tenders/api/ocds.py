@@ -9,8 +9,8 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 def run_sync(tender_dir, sources_dir, generate_md_fn):
-    """Resilient OCDS Sync with Safe Batching."""
-    print("[OCDS] Starting API Sync (Safe PageSize: 1000)...")
+    """Resilient OCDS Sync with full parameters."""
+    print("[OCDS] Starting API Sync (PageSize: 5000)...")
     
     session = requests.Session()
     session.mount("https://", HTTPAdapter(max_retries=Retry(total=5, backoff_factor=2)))
@@ -28,8 +28,17 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
                         configs.append({"url": u.group(1).strip(), "flag": f_match.group(1).strip(), "ref": f"sources/{sf.name}"})
     
     for c in configs:
-        # Use 1000 for maximum compatibility while still being fast
-        params = {"PageNumber": 1, "PageSize": 1000, "dateFrom": (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%d')}
+        now = datetime.now()
+        date_to = now.strftime('%Y-%m-%d')
+        date_from = (now - timedelta(days=7)).strftime('%Y-%m-%d')
+        
+        # Include BOTH dateFrom and dateTo for API compliance
+        params = {
+            "PageNumber": 1, 
+            "PageSize": 5000, 
+            "dateFrom": date_from, 
+            "dateTo": date_to
+        }
         
         try:
             resp = session.get(c['url'], params=params, timeout=120)
