@@ -3,7 +3,7 @@
 
 ## Quick Stats
 - **Organization**: 4Di Capital
-- **Funder Type**: VC
+- **Funder Type**: VC 
 - **Funding Type**: Seed / Series A
 - **Industry**: Tech / Fintech
 - **Territory**: Africa
