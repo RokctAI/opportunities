@@ -16,12 +16,15 @@ def load_monorepo_env(custom_path=None):
     if custom_path:
         env_paths.append(custom_path)
     
-    # Conventional Hunting: Look for .env/production.env relative to the script
+    # Conventional Hunting: Look for Monorepo sibling
     # Path: opportunities/.rokct/scripts/agent_delegation/delegate_to_agent.py
-    # Up 4 levels gets us to the workspace root where the monorepo .env usually sits.
+    # Up 4 levels gets us to the workspace root (e.g. Desktop/RokctAI/)
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    monorepo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
-    env_paths.append(os.path.join(monorepo_root, ".env", "production.env"))
+    workspace_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(script_dir))))
+    
+    # Check both the monorepo sibling and the current repo root
+    env_paths.append(os.path.join(workspace_root, "Monorepo", ".env", "production.env"))
+    env_paths.append(os.path.join(workspace_root, ".env", "production.env"))
     env_paths.append(os.path.join(os.getcwd(), ".env", "production.env"))
 
     for path in env_paths:
