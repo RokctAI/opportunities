@@ -45,7 +45,9 @@ def scan_registry(name, path):
                 # 2. Verification Logic
                 is_active = re.search(r'-\s+\*\*Status\*\*:\s*ACTIVE', content, re.I)
                 is_verified = re.search(r'Verification Status:\s*VERIFIED', content, re.I)
-                if is_active or is_verified:
+                has_date = re.search(r'-\s+\*\*Last Verified\*\*:\s*\d{4}-\d{2}-\d{2}', content, re.I)
+                
+                if is_active or is_verified or has_date:
                     verified += 1
                 
                 # 3. Multi-Tag Metadata Extraction

@@ -15,6 +15,7 @@
 ## How to Apply
 - **Applying Link**: [URL to application page]
 - **Source**: [Direct URL citation]
+- **Source Card**: [Path to source markdown file]
 
 ## Audit & Status
 - **Verification Status**: IN_PROGRESS

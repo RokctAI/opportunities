@@ -98,4 +98,4 @@ def save_jules_todo(base_dir, todo_list):
     }
     with open(todo_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
-    print(f"✅ Jules Todo List saved ({len(todo_list)} items).")
+    print(f"[Done] Jules Todo List saved ({len(todo_list)} items).")

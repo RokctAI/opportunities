@@ -10,7 +10,7 @@ on:
       - '02_grants/**'
       - '03_tenders/**'
   schedule:
-    - cron: '0 0 * * *' # Every night at midnight
+    - cron: '0 0 * * 1' # Every Monday at Midnight (Heavy Fetch)
   workflow_dispatch:
 
 jobs:
@@ -30,23 +30,28 @@ jobs:
       - name: Install Dependencies
         run: pip install requests python-dotenv beautifulsoup4 lxml
 
-      - name: 🏗️ Run Tender Engine (Sync)
-        run: python .rokct/scripts/tenders/index.py
+      - name: 🏗️ Run Heavy Sync (Scrapers + Maintenance)
+        # ONLY runs on Monday Schedule or Manual Trigger
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          python .rokct/scripts/tenders/index.py
+          python .rokct/scripts/maintenance/index.py
 
-      - name: 🧹 Run Maintenance (Purge/Queue)
-        run: python .rokct/scripts/maintenance/index.py
-
-      - name: 📊 Run Registry Orchestrator (Dashboard/JSON/Todo)
+      - name: 📊 Run Fast Refresh (Orchestrator Only)
+        # ALWAYS runs to keep JSON, Tags, and Dashboard in sync
         run: python .rokct/scripts/registry_orchestrator/index.py
+
+      - name: 🧱 Satisfy Jekyll Ghost
+        run: mkdir -p docs && touch docs/.gitkeep
 
       - name: 🚀 Commit and Push Updates
         run: |
-          git config --global user.name "google-labs-jules[bot]"
-          git config --global user.email "161369871+google-labs-jules[bot]@users.noreply.github.com"
-          git add 03_tenders/*.md README.md published/api/meta.json .rokct/agent/todo.json 01_equity/*.md
+          git config --global user.name "rokct-bot[bot]"
+          git config --global user.email "rokct-bot@users.noreply.github.com"
+          git add 03_tenders/*.md README.md published/api/meta.json .rokct/agent/todo.json 01_equity/*.md docs/.gitkeep .nojekyll
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: nightly sync, metadata healing, and orchestration [skip ci]"
+            git commit -m "chore(bot): sync orchestration and metadata healing [skip ci]"
             git push origin main
           fi
