@@ -6,6 +6,7 @@ import requests
 import re
 import json
 import time
+import difflib
 from datetime import datetime, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
@@ -96,11 +97,6 @@ def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
                 ocid = release.get('ocid')
                 if not ocid: continue
                 
-                # DEBUG TRACE
-                if ocid == DEBUG_OCID:
-                    print(f"    [Trace] Found {DEBUG_OCID} in Page {params['PageNumber']}")
-                    print(f"    [Trace] API Documents Found: {len(release.get('tender', {}).get('documents', []))}")
-                
                 file_path = TENDER_DIR / f"{ocid}.md"
                 existing_content = ""
                 if file_path.exists():
@@ -115,7 +111,16 @@ def fetch_and_sync_tenders(source_config, page_limit=20, days_back=7):
                 # Only write if content actually changed
                 if new_content.strip() != existing_content.strip():
                     if ocid == DEBUG_OCID:
-                        print(f"    [Trace] Writing update for {DEBUG_OCID} (Content changed/stabilized)")
+                        print(f"    [Trace] Change detected in {DEBUG_OCID} on Page {params['PageNumber']}!")
+                        # Print Diff
+                        diff = difflib.unified_diff(
+                            existing_content.splitlines(), 
+                            new_content.splitlines(), 
+                            fromfile='existing', tofile='new'
+                        )
+                        for line in diff:
+                            print(f"      {line}")
+                            
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(new_content)
                     updates += 1
@@ -156,7 +161,7 @@ def generate_markdown_from_ocds(release, flag, source_ref):
     raw_docs = tender.get('documents', [])
     processed_docs = sorted(
         [(doc.get('title', 'Document'), doc.get('url', '#')) for doc in raw_docs],
-        key=lambda x: x[0]
+        key=lambda x: (x[0], x[1]) # Sort by title, then URL
     )
     
     docs_md = "".join([f"    - [{t}]({u})\n" for t, u in processed_docs])
@@ -223,7 +228,7 @@ if __name__ == "__main__":
     if not configs:
         print("No OCDS API sources found.")
     else:
-        print(f"[{datetime.now().strftime('%H:%M:%S')}] --- STABILITY CHECK ---")
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] --- DEBUG TRACE PASS ---")
         total = 0
         for config in configs:
             total += fetch_and_sync_tenders(config)
