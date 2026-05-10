@@ -5,17 +5,16 @@ import re
 from pathlib import Path
 
 # --- THE GOLDEN DEFAULTS ---
-# This is what CI uses to detect if Jules has done her work.
 DEFAULT_AI_BLOCK = """- [ ] Review Tender Documents | 1
 - [ ] Prepare Initial Response | 3"""
 
 def scan_registry(name, path):
-    """Scans a directory and detects if AI enrichment has happened."""
+    """Scans a directory with deep metadata extraction."""
     total = 0
     verified = 0
-    categories = {}
-    advanced_tenders = {} # OCID -> Custom Tasks
-    todo_list = [] # List of paths for Jules to work on
+    stats_aggregation = {} # FieldName -> Value -> Count
+    advanced_tenders = {}
+    todo_list = []
     
     if not path.exists():
         return 0, 0, {}, {}, []
@@ -30,36 +29,45 @@ def scan_registry(name, path):
             with open(file, 'r', encoding='utf-8', errors='ignore') as f:
                 content = f.read()
                 
-                if name == "Tenders":
-                    # 1. Verification Logic
-                    if "Status: ACTIVE" in content or "VERIFIED" in content:
-                        verified += 1
+                # 1. Verification Logic (Regex for bolded status)
+                is_active = re.search(r'-\s+\*\*Status\*\*:\s*ACTIVE', content, re.I)
+                is_verified = re.search(r'Verification Status:\s*VERIFIED', content, re.I)
+                
+                if is_active or is_verified:
+                    verified += 1
+                
+                # 2. Universal Metadata Extraction (Quick Stats)
+                # Look for all: - **Key**: Value
+                stat_matches = re.finditer(r'-\s+\*\*(?P<key>.*?)\*\*:\s*(?P<val>.*)', content)
+                for m in stat_matches:
+                    key = m.group('key').strip()
+                    val = m.group('val').strip()
                     
-                    # 2. AI Enrichment Detection
-                    # We look for the section below the Jules header
+                    if key not in stats_aggregation:
+                        stats_aggregation[key] = {}
+                    stats_aggregation[key][val] = stats_aggregation[key].get(val, 0) + 1
+
+                # 3. Category Header Extraction (Legacy support)
+                cat_match = re.search(r'### Category\n(.*?)\n', content, re.I)
+                if cat_match:
+                    cat = cat_match.group(1).strip()
+                    if "Category" not in stats_aggregation: stats_aggregation["Category"] = {}
+                    stats_aggregation["Category"][cat] = stats_aggregation["Category"].get(cat, 0) + 1
+
+                # 4. Tender AI Logic
+                if name == "Tenders":
                     match = re.search(r'## AI Checklist \(Jules\)[\s\S]*?-->\s*([\s\S]*)$', content)
                     if match:
                         current_tasks = match.group(1).strip()
-                        # Compare against defaults
                         if current_tasks != DEFAULT_AI_BLOCK and len(current_tasks) > 10:
-                            # Jules has worked on this!
                             advanced_tenders[file.stem] = {
                                 "enrichment": "ADVANCED",
                                 "tasks": [t.strip('- [ ]').strip() for t in current_tasks.splitlines() if t.strip()]
                             }
                         else:
-                            # Still basic - add to Jules' Todo List
                             todo_list.append(str(file.relative_to(path.parent.parent)))
-                
-                elif "VERIFIED" in content:
-                    verified += 1
-                
-                # Category Extraction
-                cat_match = re.search(r'### Category\n(.*?)\n', content, re.IGNORECASE)
-                if cat_match:
-                    cat = cat_match.group(1).strip()
-                    categories[cat] = categories.get(cat, 0) + 1
+                            
         except Exception:
             continue
                 
-    return total, verified, categories, advanced_tenders, todo_list
+    return total, verified, stats_aggregation, advanced_tenders, todo_list
