@@ -1,6 +1,6 @@
 {
-  "last_sync": "2026-05-11T17:51:51.370118",
-  "total_verified_all": 1276,
+  "last_sync": "2026-05-11T22:01:51.317244",
+  "total_verified_all": 1271,
   "global_defaults": [
     "Review Tender Documents",
     "Prepare Initial Response"
@@ -232,17 +232,17 @@
       }
     },
     "Tenders": {
-      "total": 598,
-      "verified": 598,
+      "total": 593,
+      "verified": 593,
       "classifications": {
         "Institution": {
           "Transnet SOC Ltd": 8,
           "Johannesburg Water": 23,
           "Passenger Rail Agency of South Africa": 11,
-          "ESKOM": 49,
+          "ESKOM": 50,
           "Nelson Mandela Bay Municipality": 3,
           "City of Cape Town": 7,
-          "Agricultural Research Council": 8,
+          "Agricultural Research Council": 9,
           "South African Weather Service": 3,
           "Msunduzi Local Municipality": 4,
           "Bergrivier - WC Local Municipality": 3,
@@ -256,7 +256,7 @@
           "South African Nuclear Energy Corporation Limited": 4,
           "Higher Education & Training": 1,
           "South African National Parks": 11,
-          "Musina Local Municipality": 28,
+          "Musina Local Municipality": 16,
           "Gauteng \u2013 Community Education and Training College": 6,
           "Siyathemba Local Municipality": 4,
           "Greater Taung Local Municipality": 8,
@@ -290,7 +290,7 @@
           "Mohokare Local Municipality": 3,
           "Lesedi Local Municipality": 4,
           "Health": 1,
-          "Mpumalanga - Public Works Roads and Transport": 2,
+          "Mpumalanga - Public Works Roads and Transport": 3,
           "Mbombela Local Municipality": 2,
           "Rand Water": 3,
           "Ntabankulu Local Municipality": 2,
@@ -309,6 +309,7 @@
           "Mpumalanga - Education": 2,
           "Eastern Cape - Health": 3,
           "Ngaka Modiri Molema District Municipality": 5,
+          "Mpumalanga - Agriculture Rural Development and Land Administration": 2,
           "Capricorn District Municipality": 3,
           "South Cape TVET College": 4,
           "CENTLEC SOC LTD": 1,
@@ -346,7 +347,7 @@
           "Pixley Ka Seme District Municipality": 1,
           "Cape Agulhas Municipality": 3,
           "National Film and Video Foundation of South Africa": 1,
-          "Thembisile Hani Local Municipality": 1,
+          "Thembisile Hani Local Municipality": 2,
           "National - Department of Agriculture": 2,
           "BRAND RSA": 1,
           "Eskom National Transmission Company of South Africa": 2,
@@ -426,6 +427,7 @@
           "Dube Tradeport": 1,
           "Northern Cape - Health": 1,
           "Elangeni TVET College": 2,
+          "JB Marks Local Municipality": 1,
           "Mpofana Local Municipality": 1,
           "Alexkor Limited": 2,
           "Broadband Infraco SOC": 1,
@@ -447,11 +449,11 @@
           "King Hintsa College": 1
         },
         "Flag": {
-          "ZA": 598
+          "ZA": 593
         },
         "Tender Type": {
-          "Request for Bid(Open-Tender)": 287,
-          "Request for Quotation": 252,
+          "Request for Bid(Open-Tender)": 293,
+          "Request for Quotation": 241,
           "Request for Bid(Limited-Tender": 1,
           "Request for Proposal": 41,
           "Participation": 7,
@@ -461,14 +463,14 @@
         },
         "Province": {
           "Eastern Cape": 60,
-          "Gauteng": 136,
-          "Mpumalanga": 44,
+          "Gauteng": 137,
+          "Mpumalanga": 49,
           "Western Cape": 67,
           "KwaZulu-Natal": 90,
           "Free State": 33,
           "National": 56,
-          "North West": 25,
-          "Limpopo": 64,
+          "North West": 26,
+          "Limpopo": 52,
           "Northern Cape": 23
         }
       }
