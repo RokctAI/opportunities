@@ -98,11 +98,16 @@ def fetch_deep_details(url, existing_pub):
         # 1. Look for Publication Date on the page
         found_pub = existing_pub
         pub_match = re.search(r'([A-Z][a-z]+ \d{1,2}, \d{4})\s*[\s\|]+Musina Web', text_content)
+        if not pub_match:
+            # Common pattern in 'Download' details page
+            pub_match = re.search(r'(?:Create Date|Posted)\s*:?\s*([A-Z][a-z]+ \d{1,2}, \d{4})', text_content, re.IGNORECASE)
         if pub_match:
             found_pub = pub_match.group(1).strip()
 
         # 2. Look for Closing Date patterns
         patterns = [
+            r'Closing\s*Date\s*[:\s]\s*(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
+            r'Deadline\s*[:\s]\s*(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
             r'provided on or before\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
             r'on or before\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
             r'before\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})'
@@ -196,11 +201,15 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
                 full_id = f"musina-rfq{base_id}"
 
                 pub_date = ""
+                # Try sibling text or parent container for publication date
+                context_text = link.get_text()
                 parent = link.find_parent()
                 if parent:
-                    date_match = re.search(r'([A-Z][a-z]+ \d{1,2}, \d{4})', parent.get_text())
-                    if date_match:
-                        pub_date = date_match.group(1)
+                    context_text = parent.get_text(" ", strip=True)
+
+                date_match = re.search(r'([A-Z][a-z]+ \d{1,2}, \d{4})', context_text)
+                if date_match:
+                    pub_date = date_match.group(1)
 
                 if full_id not in rfqs_found:
                     rfqs_found[full_id] = {'text': text, 'url': url, 'pub': pub_date}
