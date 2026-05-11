@@ -165,7 +165,7 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
                 if "VERIFIED" in existing: continue
 
             closing_date, is_est, found_pub = fetch_deep_details(rdata['url'], rdata['pub'])
-            final_pub = normalize_date(found_pub) or normalize_date(rdata['pub']) or datetime.now().strftime('%Y-%m-%d')
+            final_pub = normalize_date(found_pub) or normalize_date(rdata['pub']) or ""
             final_close = closing_date if closing_date else "See Documents"
 
             release = {
@@ -184,7 +184,7 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
                 }
             }
 
-            new_c = generate_md_fn(release, flag, source_ref)
+            new_c = generate_md_fn(release, flag, source_ref, existing)
             if [l.strip() for l in existing.splitlines() if l.strip()] != [l.strip() for l in new_c.splitlines() if l.strip()]:
                 with open(fpath, 'w', encoding='utf-8', newline='\n') as fw: fw.write(new_c)
                 updates += 1
