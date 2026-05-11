@@ -7,7 +7,7 @@
 - **Flag**: ZA
 - **Tender Type**: Request for Quotation
 - **Province**: Limpopo
-- **Date Published**: 2026-05-10
+- **Date Published**: 2026-05-11
 - **Closing Date**: 
 - **Place Required**: Musina
 
@@ -37,7 +37,7 @@ RFQ27 Service provider for Repair and Restore New Building at Municipal Vehicle 
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Last Verified**: 2026-05-10
+- **Last Verified**: 2026-05-11
 
 ## AI Checklist (Jules)
 <!-- This section is populated by Jules during enrichment. -->
