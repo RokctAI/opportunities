@@ -2,10 +2,10 @@
   "repo": "RokctAI/opportunities",
   "prompt": "TASK: Advanced Registry Enrichment & Repair.\n\n1) WORK LIST: Read '.rokct/agent/todo.json' to find the specific files requiring attention.\n2) AUDIT: For each file in the list, scan for ANY missing metadata, generic placeholders (contact@, info@), or incomplete AI Checklists.\n3) FIX: Find real, verified metadata/citations. MANDATORY: Direct URL citations. NO PLACEHOLDERS.\n4) ENRICH: Populate the '## AI Checklist (Jules)' section with 3-5 high-value, specific proposal/research tasks.\n5) STEWARDSHIP: \n   - Update the 'Last Verified' date to today's date once repairs are complete.\n   - Explicitly IGNORE the 'published/' directory.\n\nGoal: Perpetually maintain 100% data integrity and premium AI enrichment in the opportunities registry.",
   "branch": "main",
-  "title": "Mission: Registry Auditor (Daily Audit)",
+  "title": "Mission: Registry Auditor (Weekly Audit)",
   "automation_mode": "AUTO_CREATE_PR",
-  "recurrence": "Daily",
+  "recurrence": "Weekly",
   "immediate": false,
-  "scheduled_at": "2026-04-03T20:00:00Z",
-  "attempts": 1
+  "scheduled_at": "2026-05-12T20:00:00Z",
+  "attempts": 0
 }
