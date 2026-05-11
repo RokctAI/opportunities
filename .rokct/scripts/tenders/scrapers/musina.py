@@ -261,3 +261,5 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
 
     except Exception as e:
         print(f"  [Error] Musina sync failed: {e}")
+        if "Timeout" in str(e) or "Max retries exceeded" in str(e):
+            print("🚨 Musina site is likely broken or down. Skipping.")
