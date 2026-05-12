@@ -36,6 +36,7 @@ jobs:
         run: |
           python .rokct/scripts/tenders/index.py
           python .rokct/scripts/tenders/enrichment/pdf_to_md.py
+          python .rokct/scripts/tenders/enrichment/extract_requirements.py
           python .rokct/scripts/maintenance/index.py
 
       - name: 📊 Run Fast Refresh (Orchestrator Only)
