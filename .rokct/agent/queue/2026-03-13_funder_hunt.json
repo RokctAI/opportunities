@@ -7,5 +7,5 @@
   "recurrence": "Daily",
   "immediate": false,
   "scheduled_at": "2026-04-03T20:00:00Z",
-  "attempts": 1
+  "attempts": 2
 }
