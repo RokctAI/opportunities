@@ -5,11 +5,16 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from pathlib import Path
+import sys
 import re
 import io
 import time
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+# Add utils to path
+sys.path.append(str(Path(__file__).parent.parent / 'utils'))
+from tender_resolver import resolve_card_path, resolve_write_path
 
 try:
     import pdfplumber
@@ -220,10 +225,10 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
 
         updates = 0
         for fid, rdata in rfqs_found.items():
-            fpath = tender_dir / f"{fid}.md"
+            card_path = resolve_card_path(tender_dir, fid)
             existing = ""
-            if fpath.exists():
-                with open(fpath, 'r', encoding='utf-8') as f:
+            if card_path and card_path.exists():
+                with open(card_path, 'r', encoding='utf-8') as f:
                     existing = f.read()
                 if "VERIFIED" in existing:
                     continue
@@ -254,9 +259,10 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
                 }
             }
 
-            new_c = generate_md_fn(release, flag, source_ref, existing)
+            new_c = generate_md_fn(release, flag, source_ref)
             if [l.strip() for l in existing.splitlines() if l.strip()] != [l.strip() for l in new_c.splitlines() if l.strip()]:
-                with open(fpath, 'w', encoding='utf-8', newline='\n') as fw:
+                write_path = resolve_write_path(tender_dir, fid)
+                with open(write_path, 'w', encoding='utf-8', newline='\n') as fw:
                     fw.write(new_c)
                 updates += 1
 

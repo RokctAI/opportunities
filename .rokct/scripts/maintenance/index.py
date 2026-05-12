@@ -3,9 +3,15 @@
 
 import os
 import re
+import shutil
+import sys
 from datetime import datetime
 from pathlib import Path
 import json
+
+# Add utils to path
+sys.path.append(str(Path(__file__).parent.parent / 'tenders' / 'utils'))
+from tender_resolver import resolve_card_path
 
 # --- CONFIGURATION ---
 BASE_DIR = Path(__file__).parent.parent.parent.parent
@@ -20,13 +26,32 @@ def purge_expired():
     count = 0
     
     # Purge Tenders
-    for f in TENDER_DIR.glob('*.md'):
-        if f.name in ['template.md', 'registry_audit_log.md'] or f.name.startswith('registry_'):
+    # We need to find all unique tender IDs first to avoid double processing or missing folder structures
+    tender_ids = set()
+    for item in TENDER_DIR.iterdir():
+        if item.is_file() and item.suffix == '.md':
+            if item.name in ['template.md', 'registry_audit_log.md'] or item.name.startswith('registry_'):
+                continue
+            tender_ids.add(item.stem)
+        elif item.is_dir():
+            # If it's a directory, we check if it follows the folder structure {tender_id}/{tender_id}.md
+            if (item / f"{item.name}.md").exists():
+                tender_ids.add(item.name)
+
+    for tender_id in tender_ids:
+        card_path = resolve_card_path(TENDER_DIR, tender_id)
+        if not card_path or not card_path.exists():
             continue
-        with open(f, 'r', encoding='utf-8') as content:
-            match = re.search(r'-\s+\*\*Closing Date\*\*:\s*(\d{4}-\d{2}-\d{2})', content.read())
+
+        with open(card_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+            match = re.search(r'-\s+\*\*Closing Date\*\*:\s*(\d{4}-\d{2}-\d{2})', content)
             if match and datetime.strptime(match.group(1), '%Y-%m-%d') < now:
-                os.remove(f)
+                # If it's in a folder, delete the entire folder
+                if card_path.parent != TENDER_DIR:
+                    shutil.rmtree(card_path.parent)
+                else:
+                    os.remove(card_path)
                 count += 1
     
     print(f"  [Status] Purged {count} expired items.")
