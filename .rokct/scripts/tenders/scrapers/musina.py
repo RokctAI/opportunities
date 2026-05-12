@@ -50,30 +50,20 @@ def calculate_fallback_date(pub_date_str):
         return None, False
 
 
-def extract_date_from_pdf(url):
+def extract_text_from_pdf(url):
     if not pdfplumber:
-        return None
+        return ""
     try:
         resp = requests.get(url, timeout=30)
         if resp.status_code != 200:
-            return None
+            return ""
         with pdfplumber.open(io.BytesIO(resp.content)) as pdf:
             text = ""
-            for i in range(min(len(pdf.pages), 2)):
-                text += pdf.pages[i].extract_text() or ""
-            patterns = [
-                r'provided on or before\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
-                r'on or before\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
-                r'Closing date\s*[:\s]\s*(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
-                r'Closing Date\s*[:\s]\s*(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})'
-            ]
-            for pattern in patterns:
-                match = re.search(pattern, text, re.IGNORECASE)
-                if match:
-                    return normalize_date(match.group(1).strip())
+            for page in pdf.pages:
+                text += page.extract_text() or ""
+            return text
     except:
-        pass
-    return None
+        return ""
 
 
 def fetch_deep_details(url, existing_pub):
@@ -82,10 +72,23 @@ def fetch_deep_details(url, existing_pub):
     When no closing date is found, falls back to pub_date + 14 days (is_estimated=True).
     When pub_date is also unknown, returns (None, False, ...) → caller sets 'See Documents'.
     """
+    explicit_patterns = [
+        r'Closing\s*date\s*[:\s]\s*(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
+        r'Closing\s*date\s*[:\s]\s*([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})',
+        r'Deadline\s*[:\s]\s*(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})'
+    ]
+    buried_patterns = [
+        r'(?:on or before|before|not later than|submitted by)\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})'
+    ]
+
     if url.lower().endswith('.pdf'):
-        pdf_date = extract_date_from_pdf(url)
-        if pdf_date:
-            return pdf_date, False, None
+        pdf_text = extract_text_from_pdf(url)
+        for pattern in explicit_patterns + buried_patterns:
+            match = re.search(pattern, pdf_text, re.IGNORECASE)
+            if match:
+                norm = normalize_date(match.group(1).strip())
+                if norm:
+                    return norm, False, None
         # Fallback: estimate from existing pub date
         val, est = calculate_fallback_date(existing_pub)
         return val, est, None
@@ -102,37 +105,68 @@ def fetch_deep_details(url, existing_pub):
 
         # 1. Look for Publication Date on the page
         found_pub = existing_pub
-        pub_match = re.search(r'([A-Z][a-z]+ \d{1,2}, \d{4})\s*[\s\|]+Musina Web', text_content)
-        if not pub_match:
-            # Common pattern in 'Download' details page
-            pub_match = re.search(r'(?:Create Date|Posted)\s*:?\s*([A-Z][a-z]+ \d{1,2}, \d{4})', text_content, re.IGNORECASE)
-        if pub_match:
-            found_pub = pub_match.group(1).strip()
+        # BS4 structural approach for Create Date
+        # Find the specific element containing the label, avoiding containers
+        create_date_label = soup.find(lambda tag: tag.name in ['span', 'div', 'strong', 'b', 'td', 'th'] and
+                                     "Create Date" in tag.get_text() and len(tag.find_all()) == 0)
+        if not create_date_label:
+            # Fallback if it has some nested tag like <b>Create Date</b>
+            create_date_label = soup.find(lambda tag: tag.name in ['span', 'div', 'strong', 'b', 'td', 'th'] and
+                                         "Create Date" in tag.get_text())
 
-        # 2. Look for Closing Date patterns
-        patterns = [
-            r'Closing\s*Date\s*[:\s]\s*(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
-            r'Deadline\s*[:\s]\s*(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
-            r'provided on or before\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
-            r'on or before\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})',
-            r'before\s+(\d{1,2}\s+[A-Z][a-z]+\s+\d{4})'
-        ]
-        for pattern in patterns:
+        if create_date_label:
+            sibling = create_date_label.find_next_sibling()
+            if sibling:
+                found_pub = sibling.get_text(strip=True)
+
+        # Existing regex fallback for pub date
+        if not found_pub or found_pub == existing_pub:
+            pub_match = re.search(r'([A-Z][a-z]+ \d{1,2}, \d{4})\s*[\s\|]+Musina Web', text_content)
+            if not pub_match:
+                pub_match = re.search(r'(?:Create Date|Posted)\s*:?\s*([A-Z][a-z]+ \d{1,2}, \d{4})', text_content, re.IGNORECASE)
+            if pub_match:
+                found_pub = pub_match.group(1).strip()
+
+        # 2. Look for Closing Date patterns in detail page
+        # Priority 1: Explicit patterns on detail page
+        for pattern in explicit_patterns:
             match = re.search(pattern, text_content, re.IGNORECASE)
             if match:
                 norm = normalize_date(match.group(1).strip())
                 if norm:
                     return norm, False, found_pub
 
-        # 3. Try to find and parse a linked PDF
+        # Priority 2: Buried patterns on detail page
+        for pattern in buried_patterns:
+            match = re.search(pattern, text_content, re.IGNORECASE)
+            if match:
+                norm = normalize_date(match.group(1).strip())
+                if norm:
+                    return norm, False, found_pub
+
+        # Priority 3 & 4: PDF explicit then buried
         pdf_link = soup.find('a', href=re.compile(r'\.pdf$', re.I))
         if pdf_link:
             pdf_url = pdf_link['href']
             if not pdf_url.startswith('http'):
                 pdf_url = "https://www.musina.gov.za" + pdf_url
-            pdf_date = extract_date_from_pdf(pdf_url)
-            if pdf_date:
-                return pdf_date, False, found_pub
+            pdf_text = extract_text_from_pdf(pdf_url)
+
+            # Explicit in PDF
+            for pattern in explicit_patterns:
+                match = re.search(pattern, pdf_text, re.IGNORECASE)
+                if match:
+                    norm = normalize_date(match.group(1).strip())
+                    if norm:
+                        return norm, False, found_pub
+
+            # Buried in PDF
+            for pattern in buried_patterns:
+                match = re.search(pattern, pdf_text, re.IGNORECASE)
+                if match:
+                    norm = normalize_date(match.group(1).strip())
+                    if norm:
+                        return norm, False, found_pub
 
         # 4. Nothing found — fall back to pub date + 14 days
         val, est = calculate_fallback_date(found_pub)
@@ -166,7 +200,7 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
     session.headers.update({'User-Agent': 'Mozilla/5.0 RokctAI-Scraper/1.0'})
 
     # 1. Bids Received Intelligence
-    log_path = Path(__file__).parent.parent.parent.parent / '.rokct' / 'agent' / 'logs' / 'musina_bids_intelligence.log'
+    log_path = Path(__file__).resolve().parent.parent.parent.parent.parent / '.rokct' / 'agent' / 'logs' / 'musina_bids_intelligence.log'
     log_path.parent.mkdir(parents=True, exist_ok=True)
     audit_entries = []
 
@@ -224,6 +258,9 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
                         rfqs_found[full_id] = {'text': text, 'url': url, 'pub': pub_date}
 
         updates = 0
+        failure_log = Path(__file__).resolve().parent.parent.parent.parent.parent / '.rokct' / 'agent' / 'logs' / 'pdf_extraction_failures.log'
+        failure_log.parent.mkdir(parents=True, exist_ok=True)
+
         for fid, rdata in rfqs_found.items():
             card_path = resolve_card_path(tender_dir, fid)
             existing = ""
@@ -236,6 +273,11 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
             closing_date, is_est, found_pub = fetch_deep_details(rdata['url'], rdata['pub'])
 
             final_pub = normalize_date(found_pub) or normalize_date(rdata['pub']) or ""
+
+            if not final_pub:
+                with open(failure_log, 'a', encoding='utf-8') as fl:
+                    fl.write(f"[{datetime.now().isoformat()}] Skipped: no published date found - {fid} ({rdata['url']})\n")
+                continue
 
             # Apply (Estimated) suffix when date is a fallback, "See Documents" when unknown
             if closing_date:
@@ -259,7 +301,7 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
                 }
             }
 
-            new_c = generate_md_fn(release, flag, source_ref)
+            new_c = generate_md_fn(release, flag, source_ref, existing)
             if [l.strip() for l in existing.splitlines() if l.strip()] != [l.strip() for l in new_c.splitlines() if l.strip()]:
                 write_path = resolve_write_path(tender_dir, fid)
                 with open(write_path, 'w', encoding='utf-8', newline='\n') as fw:

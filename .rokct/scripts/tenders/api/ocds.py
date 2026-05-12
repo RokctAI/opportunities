@@ -65,7 +65,7 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
                         existing = f.read()
                     if "VERIFIED" in existing: continue
                 
-                new_c = generate_md_fn(rel, c['flag'], c['ref'])
+                new_c = generate_md_fn(rel, c['flag'], c['ref'], existing)
                 if [l.strip() for l in existing.splitlines() if l.strip()] != [l.strip() for l in new_c.splitlines() if l.strip()]:
                     write_path = resolve_write_path(tender_dir, ocid)
                     with open(write_path, 'w', encoding='utf-8', newline='\n') as fw: fw.write(new_c)
