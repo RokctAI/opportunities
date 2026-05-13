@@ -7,11 +7,3 @@ repos:
       - id: check-yaml
       - id: check-added-large-files
 
-  - repo: local
-    hooks:
-      - id: privacy-sync
-        name: Registry Privacy Sync
-        entry: python .rokct/scripts/privacy/index.py
-        language: system
-        files: ^.rokct/recipients/.*\.md$
-        pass_filenames: false
