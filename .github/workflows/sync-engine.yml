@@ -31,8 +31,8 @@ jobs:
         run: pip install requests python-dotenv beautifulsoup4 lxml pdfplumber
 
       - name: 🏗️ Run Heavy Sync (Scrapers + Maintenance)
-        # TEMPORARY: Runs on push, schedule, or dispatch for testing
-        if: github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        # Runs on schedule, or dispatch for testing
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           python .rokct/scripts/tenders/index.py
           python .rokct/scripts/tenders/enrichment/pdf_to_md.py
