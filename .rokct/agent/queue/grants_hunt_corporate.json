@@ -6,6 +6,6 @@
   "automation_mode": "AUTO_CREATE_PR",
   "recurrence": "Weekly",
   "immediate": true,
-  "scheduled_at": "2026-04-08T20:00:00Z",
+  "scheduled_at": "2026-05-20T20:00:00Z",
   "attempts": 2
 }
