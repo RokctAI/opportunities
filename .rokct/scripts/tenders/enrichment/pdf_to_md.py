@@ -15,7 +15,9 @@ from datetime import datetime
 sys.path.append(str(Path(__file__).parent.parent / 'utils'))
 from tender_resolver import resolve_card_path
 
-BASE_DIR = Path(__file__).parent.parent.parent.parent.parent
+BASE_DIR = Path(__file__).resolve()
+while not (BASE_DIR / '.rokct').exists():
+    BASE_DIR = BASE_DIR.parent
 TENDER_DIR = BASE_DIR / '03_tenders'
 TODO_JSON = BASE_DIR / '.rokct' / 'agent' / 'todo.json'
 LOG_FILE = BASE_DIR / '.rokct' / 'agent' / 'logs' / 'pdf_extraction_failures.log'
