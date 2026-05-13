@@ -76,7 +76,7 @@ def extract_requirements_from_pdf(pdf_stream, tender_id):
         log_failure(tender_id, f"PDF Processing Error: {str(e)}")
     return results
 
-def generate_actionable_tasks(requirements):
+def generate_actionable_tasks(requirements, tender_id):
     tasks = []
     mandatory = requirements.get("gate_1_mandatory", [])
     if mandatory:
@@ -108,14 +108,16 @@ def generate_actionable_tasks(requirements):
         tasks.append("Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2")
 
     if not tasks:
+        log_failure(tender_id, "Insufficient extraction — checklist used generic fallback")
         tasks = ["Analyze Tender Documents for specific requirements | 1", "Identify Mandatory Compliance items | 2", "Prepare Initial Response Proposal | 3"]
     return tasks[:5]
 
 def update_tender_card(md_path, requirements):
+    tender_id = md_path.stem
     with open(md_path, 'r', encoding='utf-8') as f:
         content = f.read()
     standard_comment = "<!-- This section is populated by Jules during enrichment. -->"
-    tasks = generate_actionable_tasks(requirements)
+    tasks = generate_actionable_tasks(requirements, tender_id)
     checklist_header = "## AI Checklist (Jules)"
     new_checklist_block = f"{checklist_header}\n{standard_comment}\n"
     for task in tasks:
