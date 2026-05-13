@@ -28,9 +28,9 @@ def scan_registry(name, path):
     if not path.exists():
         return 0, 0, {}, {}, []
 
-    for file in path.glob('*.md'):
+    for file in path.rglob('*.md'):
         fname = file.name.lower()
-        if fname in ['template.md', 'readme.md', 'registry_audit_log.md'] or fname.startswith('registry_'):
+        if fname in ['template.md', 'readme.md', 'registry_audit_log.md'] or fname.startswith('registry_') or fname.endswith('_content.md'):
             continue
         
         total += 1
