@@ -5,10 +5,19 @@ import json
 import requests
 import io
 import os
+import datetime
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
-def extract_requirements_from_pdf(pdf_stream):
+LOG_FILE = Path(__file__).resolve().parent.parent.parent.parent.parent / ".rokct" / "agent" / "logs" / "requirement_extraction_failures.log"
+
+def log_failure(tender_id, reason):
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    os.makedirs(LOG_FILE.parent, exist_ok=True)
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] {tender_id}: {reason}\n")
+
+def extract_requirements_from_pdf(pdf_stream, tender_id):
     results = {
         "gate_1_mandatory": [],
         "gate_2_functional": [],
@@ -59,8 +68,12 @@ def extract_requirements_from_pdf(pdf_stream):
             pp_match = re.search(r'(80/20|90/10)', full_text)
             if pp_match:
                 results["pricing_preference"] = pp_match.group(1)
-    except:
-        pass
+
+            if not results["gate_1_mandatory"] and not results["gate_2_functional"]:
+                log_failure(tender_id, "No Gate 1 or Gate 2 requirements detected in PDF.")
+
+    except Exception as e:
+        log_failure(tender_id, f"PDF Processing Error: {str(e)}")
     return results
 
 def generate_actionable_tasks(requirements):
@@ -107,47 +120,94 @@ def update_tender_card(md_path, requirements):
     new_checklist_block = f"{checklist_header}\n{standard_comment}\n"
     for task in tasks:
         new_checklist_block += f"- [ ] {task}\n"
+
     if checklist_header in content:
-        parts = content.split(checklist_header)
-        # Assuming the checklist is at the end or we want to replace the whole section
-        # For simplicity, if it exists, we replace from the header onwards or just append
-        # Based on previous code, let's just append or replace
-        new_content = parts[0] + new_checklist_block
+        # Replace the section until the next header or end of file
+        pattern = re.escape(checklist_header) + r".*?(?=\n## |$)"
+        new_content = re.sub(pattern, new_checklist_block.strip(), content, flags=re.DOTALL)
     else:
         new_content = content.strip() + "\n\n" + new_checklist_block
+
     with open(md_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(new_content)
 
 def process_file(md_file):
+    tender_id = md_file.stem
     try:
         with open(md_file, 'r', encoding='utf-8') as f:
             md_content = f.read()
         url_match = re.search(r'- \*\*Direct Link\*\*:\s*(https?://[^\s\n]+)', md_content)
-        if not url_match: return False
+        if not url_match:
+            log_failure(tender_id, "No Direct Link found in card.")
+            return False
         url = url_match.group(1).strip()
-        if not url.lower().endswith(".pdf"): return False
+        if not url.lower().endswith(".pdf"):
+            log_failure(tender_id, f"Direct Link is not a PDF: {url}")
+            return False
+
         resp = requests.get(url, timeout=15)
         if resp.status_code == 200:
             pdf_stream = io.BytesIO(resp.content)
-            reqs = extract_requirements_from_pdf(pdf_stream)
+            reqs = extract_requirements_from_pdf(pdf_stream, tender_id)
             update_tender_card(md_file, reqs)
             return True
-        return False
-    except:
+        else:
+            log_failure(tender_id, f"Failed to fetch PDF: HTTP {resp.status_code}")
+            return False
+    except Exception as e:
+        log_failure(tender_id, f"Error processing file: {str(e)}")
         return False
 
 def main():
     root = Path(__file__).resolve().parent.parent.parent.parent.parent
     tender_dir = root / "03_tenders"
-    all_md_files = list(tender_dir.rglob("*.md"))
+    todo_path = root / ".rokct" / "agent" / "todo.json"
+
     target_files = []
-    for f in all_md_files:
-        if f.name in ["template.md", "registry_audit_log.md"] or f.name.endswith("_content.md"):
-            continue
-        # Only process files that are either in the root tender_dir or whose name matches their parent folder name
-        if f.parent == tender_dir or f.stem == f.parent.name:
-            target_files.append(f)
+    use_fallback = False
+
+    if todo_path.exists():
+        try:
+            with open(todo_path, 'r', encoding='utf-8') as f:
+                todo_data = json.load(f)
+            if isinstance(todo_data, list) and todo_data:
+                for rel_path in todo_data:
+                    target_files.append(root / rel_path)
+            else:
+                use_fallback = True
+        except Exception as e:
+            print(f"Error reading todo.json: {e}")
+            use_fallback = True
+    else:
+        use_fallback = True
+
+    if use_fallback:
+        print("todo.json not found or empty — falling back to full scan")
+        all_md_files = list(tender_dir.rglob("*.md"))
+        target_files = []
+        for f in all_md_files:
+            if f.name in ["template.md", "registry_audit_log.md"] or f.name.endswith("_content.md"):
+                continue
+            if f.parent == tender_dir or f.stem == f.parent.name:
+                target_files.append(f)
+    else:
+        # Safety filter even for todo.json items
+        filtered_targets = []
+        for f in target_files:
+            if not f.exists():
+                continue
+            if f.name in ["template.md", "registry_audit_log.md"] or f.name.endswith("_content.md"):
+                continue
+            filtered_targets.append(f)
+        target_files = filtered_targets
+
     print(f"Enriching {len(target_files)} tender cards...")
+    for f in target_files:
+        try:
+            print(f" - {f.relative_to(root)}")
+        except ValueError:
+            print(f" - {f}")
+
     with ThreadPoolExecutor(max_workers=5) as executor:
         results = list(executor.map(process_file, target_files))
     print(f"Finished. Enriched {sum(results)} tenders.")
