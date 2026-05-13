@@ -28,13 +28,15 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install requests python-dotenv beautifulsoup4 lxml
+        run: pip install requests python-dotenv beautifulsoup4 lxml pdfplumber
 
       - name: 🏗️ Run Heavy Sync (Scrapers + Maintenance)
         # TEMPORARY: Runs on push, schedule, or dispatch for testing
         if: github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           python .rokct/scripts/tenders/index.py
+          python .rokct/scripts/tenders/enrichment/pdf_to_md.py
+          python .rokct/scripts/tenders/enrichment/extract_requirements.py
           python .rokct/scripts/maintenance/index.py
 
       - name: 📊 Run Fast Refresh (Orchestrator Only)
@@ -48,10 +50,10 @@ jobs:
         run: |
           git config --global user.name "rokctbot[bot]"
           git config --global user.email "rokctbot@users.noreply.github.com"
-          git add 03_tenders/*.md README.md published/api/meta.json .rokct/agent/todo.json 01_equity/*.md docs/.gitkeep .nojekyll
+          git add 03_tenders/ README.md published/api/meta.json .rokct/agent/todo.json 01_equity/*.md docs/.gitkeep .nojekyll
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore(bot): sync orchestration and metadata healing [skip ci]"
+            git commit -m "chore: pdf extraction + folder migration [skip ci]"
             git push origin main
           fi

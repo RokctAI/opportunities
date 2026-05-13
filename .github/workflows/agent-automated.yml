@@ -36,6 +36,7 @@ jobs:
         env:
           JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
           AGENT_API_KEY: ${{ secrets.AGENT_API_KEY }}
+          MONOREPO_PAT: ${{ secrets.MONOREPO_PAT }}
         run: |
           if [ "${{ github.event_name }}" == "push" ]; then
             FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep '.rokct/agent/queue/.*.json' || true)
