@@ -24,5 +24,9 @@ on:
 
 jobs:
   license:
-    uses: RokctAI/shared-workflows/.github/workflows/universal-license.yml@main
-    secrets: inherit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: apache/skywalking-eyes/header@v0.4.0
+        with:
+          config: .licenserc.yaml
