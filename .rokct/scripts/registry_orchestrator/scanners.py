@@ -17,7 +17,7 @@ INTERESTING_KEYS = [
     "Focus Area" # Grants
 ]
 
-def scan_registry(name, path):
+def scan_registry(name, path, base_dir):
     """Scans a directory with Multi-Tag splitting and ISO Flag aggregation."""
     total = 0
     verified = 0
@@ -77,7 +77,7 @@ def scan_registry(name, path):
                                 "tasks": [t.strip('- [ ]').strip() for t in current_tasks.splitlines() if t.strip()]
                             }
                         else:
-                            todo_list.append(str(file.relative_to(path.parent.parent)))
+                            todo_list.append(str(file.relative_to(base_dir)))
                             
         except Exception:
             continue
