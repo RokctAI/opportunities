@@ -6,9 +6,11 @@ on:
     branches:
       - main
     paths:
+      # Only human/external edits to equity & grants trigger a sync.
+      # 03_tenders/** is intentionally excluded — tenders are written
+      # exclusively by this bot (with [skip ci]) or fetched on schedule.
       - '01_equity/**'
       - '02_grants/**'
-      - '03_tenders/**'
   schedule:
     - cron: '0 0 * * 1' # Every Monday at Midnight (Heavy Fetch)
   workflow_dispatch:
