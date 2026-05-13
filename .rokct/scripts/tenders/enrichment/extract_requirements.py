@@ -9,7 +9,11 @@ import datetime
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
-LOG_FILE = Path(__file__).resolve().parent.parent.parent.parent.parent / ".rokct" / "agent" / "logs" / "requirement_extraction_failures.log"
+BASE_DIR = Path(__file__).resolve()
+while not (BASE_DIR / '.rokct').exists():
+    BASE_DIR = BASE_DIR.parent
+
+LOG_FILE = BASE_DIR / ".rokct" / "agent" / "logs" / "requirement_extraction_failures.log"
 
 def log_failure(tender_id, reason):
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -161,7 +165,7 @@ def process_file(md_file):
         return False
 
 def main():
-    root = Path(__file__).resolve().parent.parent.parent.parent.parent
+    root = BASE_DIR
     tender_dir = root / "03_tenders"
     todo_path = root / ".rokct" / "agent" / "todo.json"
 
