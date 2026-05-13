@@ -6,9 +6,11 @@ on:
     branches:
       - main
     paths:
+      # Only human/external edits to equity & grants trigger a sync.
+      # 03_tenders/** is intentionally excluded — tenders are written
+      # exclusively by this bot (with [skip ci]) or fetched on schedule.
       - '01_equity/**'
       - '02_grants/**'
-      - '03_tenders/**'
   schedule:
     - cron: '0 0 * * 1' # Every Monday at Midnight (Heavy Fetch)
   workflow_dispatch:
@@ -31,8 +33,8 @@ jobs:
         run: pip install requests python-dotenv beautifulsoup4 lxml pdfplumber
 
       - name: 🏗️ Run Heavy Sync (Scrapers + Maintenance)
-        # TEMPORARY: Runs on push, schedule, or dispatch for testing
-        if: github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        # Runs on schedule, or dispatch for testing
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           python .rokct/scripts/tenders/index.py
           python .rokct/scripts/tenders/enrichment/pdf_to_md.py
