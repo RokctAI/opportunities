@@ -7,7 +7,10 @@ from scanners import scan_registry
 from updaters import update_readme, update_audit_log, update_json_meta, save_jules_todo
 
 # --- CONFIGURATION ---
-BASE_DIR = Path(__file__).parent.parent.parent.parent
+BASE_DIR = Path(__file__).resolve()
+while not (BASE_DIR / '.rokct').exists():
+    BASE_DIR = BASE_DIR.parent
+
 REGISTRIES = {
     "Equity": BASE_DIR / "01_equity",
     "Grants": BASE_DIR / "02_grants",
@@ -26,7 +29,7 @@ def run_orchestration():
     jules_todo = []
     
     for name, path in REGISTRIES.items():
-        total, verified, cats, advanced, todo = scan_registry(name, path)
+        total, verified, cats, advanced, todo = scan_registry(name, path, BASE_DIR)
         stats[name] = (total, verified, cats, advanced, todo)
         if name == "Tenders":
             tender_categories = cats
