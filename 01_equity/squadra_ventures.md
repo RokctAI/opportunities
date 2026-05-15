@@ -5,22 +5,21 @@
 - **Organization**: Squadra Ventures
 - **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Military / Cybersecurity
-- **Territory**: North America
+- **Industry**: Cybersecurity / Defense / AI
+- **Territory**: USA
 - **Country**: USA
-- **Flag**: US
-- **Website**: https://squadra.vc
+- **Website**: https://www.squadra.vc/
 
 ## Contact
 - **Contact Person**: Guy Filippelli
-- **LinkedIn**: https://www.linkedin.com/in/gfilippelli
+- **LinkedIn**: https://www.linkedin.com/in/guyfilippelli/
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://squadra.vc/team
-- **Notes**:
+- **Source / Verification**: https://www.squadra.vc/team
+- **Notes**: Early-stage national security tech.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Last Verified**: 2026-04-14
+- **Last Verified**: 2026-05-14
 ---
