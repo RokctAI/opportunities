@@ -37,6 +37,7 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           python .rokct/scripts/tenders/index.py
+          python .rokct/scripts/grants/scrapers/f4c.py
           python .rokct/scripts/tenders/enrichment/pdf_to_md.py
           python .rokct/scripts/tenders/enrichment/extract_requirements.py
           python .rokct/scripts/maintenance/index.py
