@@ -4,23 +4,22 @@
 ## Quick Stats
 - **Organization**: Marque Ventures
 - **Funder Type**: VC
-- **Funding Type**: Early Stage
-- **Industry**: Defense / Dual-use
+- **Funding Type**: Seed / Series A
+- **Industry**: Defense / AI / Robotics
 - **Territory**: USA
 - **Country**: USA
-- **Flag**: US
-- **Website**: https://www.marqueventures.com
+- **Website**: https://www.marque.vc/
 
 ## Contact
-- **Contact Person**: Jake Chapman
-- **LinkedIn**: https://www.linkedin.com/in/jakechapman/
+- **Contact Person**: Amit Patel
+- **LinkedIn**: https://www.linkedin.com/in/amitpatel/
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.marqueventures.com/team
-- **Notes**:
+- **Source / Verification**: https://www.marque.vc/team
+- **Notes**: Defense technology focus.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Last Verified**: 2026-04-14
+- **Last Verified**: 2026-05-14
 ---

@@ -4,23 +4,22 @@
 ## Quick Stats
 - **Organization**: Silent Ventures
 - **Funder Type**: VC
-- **Funding Type**: Early Stage
-- **Industry**: Frontier / Defense
-- **Territory**: USA
+- **Funding Type**: Seed / Series A
+- **Industry**: Defense / Aerospace / AI / Energy
+- **Territory**: USA / Global
 - **Country**: USA
-- **Flag**: US
-- **Website**: https://www.silentvc.com
+- **Website**: https://www.silentventures.com/
 
 ## Contact
-- **Contact Person**: Jackson Moses
-- **LinkedIn**: https://www.linkedin.com/in/jacksonmoses/
+- **Contact Person**: Max Gazor
+- **LinkedIn**: https://www.linkedin.com/in/maxgazor/
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.silentvc.com/team/
-- **Notes**:
+- **Source / Verification**: https://www.silentventures.com/team
+- **Notes**: Defense and industrial tech.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Last Verified**: 2026-04-14
+- **Last Verified**: 2026-05-14
 ---

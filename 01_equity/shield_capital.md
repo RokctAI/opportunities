@@ -4,23 +4,22 @@
 ## Quick Stats
 - **Organization**: Shield Capital
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A-Z
-- **Industry**: Tech / Military / AI
-- **Territory**: North America
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Defense / AI / Cybersecurity / Space
+- **Territory**: USA / Global
 - **Country**: USA
-- **Flag**: US
-- **Website**: https://shieldcap.com
+- **Website**: https://shieldcap.com/
 
 ## Contact
 - **Contact Person**: Raj Shah
-- **LinkedIn**: https://www.linkedin.com/in/rajmshah
+- **LinkedIn**: https://www.linkedin.com/in/rajshah/
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://shieldcap.com/team/
-- **Notes**: Frontier technologies
+- **Source / Verification**: https://shieldcap.com/team
+- **Notes**: Dual-use technology focus.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Last Verified**: 2026-04-14
+- **Last Verified**: 2026-05-14
 ---
