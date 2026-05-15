@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / SaaS
 - **Territory**: Middle East / North Africa
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://visionvc.co/
 
 ## Contact

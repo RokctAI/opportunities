@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Africa
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://lateralfrontiers.com/
 
 ## Contact

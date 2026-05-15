@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / AI
 - **Territory**: Global
 - **Country**: Netherlands
+- **Flag**: NL
 - **Website**: https://www.startupbootcamp.org/
 
 ## Contact

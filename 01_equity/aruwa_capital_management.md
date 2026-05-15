@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Healthcare
 - **Territory**: Africa
 - **Country**: Nigeria
+- **Flag**: NG
 - **Website**: https://aruwacapital.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Healthcare
 - **Territory**: Southeast Asia / Japan
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://spiral-ventures.com/
 
 ## Contact

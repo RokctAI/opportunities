@@ -8,6 +8,7 @@
 - **Industry**: Tech / Energy / Financial Services
 - **Territory**: Africa
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.heliosinvestment.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Fintech / Health
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.techstars.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Energy / Logistics / Healthcare
 - **Territory**: Global
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://www.adq.ae/
 
 ## Contact

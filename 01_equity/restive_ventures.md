@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.restive.com/
 
 ## Contact

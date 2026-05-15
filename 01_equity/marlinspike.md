@@ -8,6 +8,7 @@
 - **Industry**: Defense / AI / Cybersecurity / Aerospace
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://marlinspike.us/
 
 ## Contact

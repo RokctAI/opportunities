@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Climate Tech
 - **Territory**: Emerging Markets
 - **Country**: Kenya
+- **Flag**: KE
 - **Website**: https://www.catalystfund.vc/
 
 ## Contact

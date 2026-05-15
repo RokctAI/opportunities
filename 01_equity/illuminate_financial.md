@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Enterprise Software
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.illuminatefinancial.com/
 
 ## Contact

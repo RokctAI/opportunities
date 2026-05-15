@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity
 - **Territory**: USA / Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://allegiscyber.com/
 
 ## Contact

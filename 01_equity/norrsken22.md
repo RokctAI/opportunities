@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Edtech / Medtech
 - **Territory**: Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://www.norrsken22.com/
 
 ## Contact

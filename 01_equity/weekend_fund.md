@@ -8,6 +8,7 @@
 - **Industry**: Tech / Consumer / SaaS
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.weekend.fund/
 
 ## Contact

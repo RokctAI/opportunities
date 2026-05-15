@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Middle East / North Africa
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://beco.capital/
 
 ## Contact

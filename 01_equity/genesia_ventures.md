@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS / Fintech
 - **Territory**: Japan / Southeast Asia
 - **Country**: Japan
+- **Flag**: JP
 - **Website**: https://www.genesiaventures.com/
 
 ## Contact

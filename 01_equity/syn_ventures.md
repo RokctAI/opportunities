@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.synventures.com/
 
 ## Contact

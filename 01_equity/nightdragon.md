@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / Defense / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.nightdragon.com/
 
 ## Contact

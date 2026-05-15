@@ -8,6 +8,7 @@
 - **Industry**: Defense / AI / Robotics
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.marque.vc/
 
 ## Contact

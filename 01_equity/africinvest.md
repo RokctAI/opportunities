@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Financial Services
 - **Territory**: Africa
 - **Country**: Tunisia
+- **Flag**: TN
 - **Website**: https://www.africinvest.com/
 
 ## Contact

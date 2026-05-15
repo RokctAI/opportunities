@@ -8,6 +8,7 @@
 - **Industry**: Tech / Consumer / Fintech
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.oriosvp.com/
 
 ## Contact

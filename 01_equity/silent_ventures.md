@@ -8,6 +8,7 @@
 - **Industry**: Defense / Aerospace / AI / Energy
 - **Territory**: USA / Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.silentventures.com/
 
 ## Contact

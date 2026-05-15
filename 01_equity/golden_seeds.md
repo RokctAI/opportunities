@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Consumer / Healthcare
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://goldenseeds.com/
 
 ## Contact

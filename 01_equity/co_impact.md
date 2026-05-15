@@ -8,6 +8,7 @@
 - **Industry**: Health / Education / Economic Opportunity
 - **Territory**: Global / Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.co-impact.org/
 
 ## Contact

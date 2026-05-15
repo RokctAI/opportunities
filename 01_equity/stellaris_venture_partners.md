@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Software / Healthcare
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.stellarisvp.com/
 
 ## Contact

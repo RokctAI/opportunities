@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Biotech / Clean Tech
 - **Territory**: India / Global
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.indianangelnetwork.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / AI / Biotech / Crypto
 - **Territory**: Global
 - **Country**: Estonia
+- **Flag**: EE
 - **Website**: https://metaplanet.com/
 
 ## Contact

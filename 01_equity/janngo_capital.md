@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Consumer Tech
 - **Territory**: Africa
 - **Country**: Ivory Coast
+- **Flag**: GLOBAL
 - **Website**: https://www.janngo.com/
 
 ## Contact

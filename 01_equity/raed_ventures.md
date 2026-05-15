@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Logistics
 - **Territory**: Middle East / North Africa
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://www.raedvc.com/
 
 ## Contact

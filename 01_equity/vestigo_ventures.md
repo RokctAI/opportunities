@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Insurtech / Real Estate Tech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.vestigoventures.com/
 
 ## Contact

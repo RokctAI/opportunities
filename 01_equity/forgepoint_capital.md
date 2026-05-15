@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / Infra Software
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://forgepointcap.com/
 
 ## Contact

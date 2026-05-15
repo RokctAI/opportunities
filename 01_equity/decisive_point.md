@@ -8,6 +8,7 @@
 - **Industry**: Defense / AI / Space / Cybersecurity
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.decisivepoint.com/
 
 ## Contact

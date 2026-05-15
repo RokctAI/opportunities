@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / AI / Cyber / Space
 - **Territory**: Europe / CEE
 - **Country**: Netherlands
+- **Flag**: NL
 - **Website**: https://otb.vc/
 
 ## Contact

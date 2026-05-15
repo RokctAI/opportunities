@@ -8,6 +8,7 @@
 - **Industry**: Enterprise Tech / AI / IoT
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.alchemistaccelerator.com/
 
 ## Contact

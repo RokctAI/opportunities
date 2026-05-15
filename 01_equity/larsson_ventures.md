@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Fintech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://larsson.vc/
 
 ## Contact

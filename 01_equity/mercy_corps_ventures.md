@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Climate Tech / Web3
 - **Territory**: Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.mercycorps.org/ventures
 
 ## Contact

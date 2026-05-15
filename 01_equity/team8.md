@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / AI / Fintech / Digital Health
 - **Territory**: Global
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://team8.vc/
 
 ## Contact

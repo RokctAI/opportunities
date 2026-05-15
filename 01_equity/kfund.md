@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS / AI
 - **Territory**: Southern Europe / LATAM
 - **Country**: Spain
+- **Flag**: ES
 - **Website**: https://kfund.vc/
 
 ## Contact

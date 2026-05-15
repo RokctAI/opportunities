@@ -8,6 +8,7 @@
 - **Industry**: Industrial Tech / Life Sciences / AI
 - **Territory**: USA / Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://anzupartners.com/
 
 ## Contact

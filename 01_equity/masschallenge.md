@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Defense / Health
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://masschallenge.org/
 
 ## Contact

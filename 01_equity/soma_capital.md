@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / SaaS / Fintech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://somacap.com/
 
 ## Contact

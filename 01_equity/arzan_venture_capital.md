@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Fintech
 - **Territory**: Middle East / North Africa
 - **Country**: Kuwait
+- **Flag**: KW
 - **Website**: https://arzanvc.com/
 
 ## Contact

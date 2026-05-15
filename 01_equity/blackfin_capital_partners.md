@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Financial Services
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.blackfin.com/
 
 ## Contact

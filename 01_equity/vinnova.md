@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Defense / Sustainability
 - **Territory**: Sweden
 - **Country**: Sweden
+- **Flag**: SE
 - **Website**: https://www.vinnova.se/en/
 
 ## Contact

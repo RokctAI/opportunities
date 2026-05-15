@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Consumer
 - **Territory**: Middle East
 - **Country**: Egypt
+- **Flag**: EG
 - **Website**: https://www.startupstadium.vc/
 
 ## Contact

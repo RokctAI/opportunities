@@ -8,6 +8,7 @@
 - **Industry**: Civic Tech / AI / Data Rights
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.luminategroup.com/
 
 ## Contact

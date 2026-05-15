@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Biotech / Fintech
 - **Territory**: Global
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://www.sanabil.com/
 
 ## Contact

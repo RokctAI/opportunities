@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / E-commerce
 - **Territory**: Africa
 - **Country**: Japan
+- **Flag**: JP
 - **Website**: https://www.kepple-africa-ventures.com/
 
 ## Contact

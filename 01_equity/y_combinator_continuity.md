@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / SaaS
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.ycombinator.com/continuity/
 
 ## Contact

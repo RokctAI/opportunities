@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / SaaS
 - **Territory**: Middle East / North Africa
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://www.nama.vc/
 
 ## Contact

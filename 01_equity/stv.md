@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Middle East / North Africa
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://stv.vc/
 
 ## Contact

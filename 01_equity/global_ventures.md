@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Emerging Markets
 - **Territory**: Emerging Markets
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://www.global.vc/
 
 ## Contact

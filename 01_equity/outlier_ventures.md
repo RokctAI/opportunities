@@ -8,6 +8,7 @@
 - **Industry**: Web3 / AI / Metaverse
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://outlierventures.io/
 
 ## Contact

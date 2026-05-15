@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Digital Identity / Education
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.omidyar.com/
 
 ## Contact

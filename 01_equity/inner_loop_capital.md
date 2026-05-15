@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / AI / Cloud Infra
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.innerloopcap.com/
 
 ## Contact

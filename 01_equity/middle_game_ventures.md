@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Financial Services
 - **Territory**: Europe / USA
 - **Country**: Luxembourg
+- **Flag**: LU
 - **Website**: https://www.middlegamevc.com/
 
 ## Contact

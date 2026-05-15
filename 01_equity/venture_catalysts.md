@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Fintech / Health
 - **Territory**: India / Global
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://venturecatalysts.in/
 
 ## Contact

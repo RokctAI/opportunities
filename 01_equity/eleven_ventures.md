@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Healthcare / Future of Food
 - **Territory**: Southeast Europe
 - **Country**: Bulgaria
+- **Flag**: BG
 - **Website**: https://www.11.vc/
 
 ## Contact

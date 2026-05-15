@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity
 - **Territory**: USA / Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.raincapital.vc/
 
 ## Contact

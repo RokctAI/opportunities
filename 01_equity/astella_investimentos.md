@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS / Fintech
 - **Territory**: Latin America
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://www.astellainvest.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / SaaS
 - **Territory**: Latin America
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://www.atlantico.vc/
 
 ## Contact

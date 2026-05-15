@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Saudi Arabia
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://derayah.com/
 
 ## Contact

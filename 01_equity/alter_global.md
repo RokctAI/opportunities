@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Emerging Markets
 - **Territory**: Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.alter.global/
 
 ## Contact

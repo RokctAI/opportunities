@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / AI / SaaS
 - **Territory**: Europe / Nordics
 - **Country**: Finland
+- **Flag**: FI
 - **Website**: https://maki.vc/
 
 ## Contact

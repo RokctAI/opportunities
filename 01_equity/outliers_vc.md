@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / AI
 - **Territory**: Middle East / North Africa / USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://outliers.vc/
 
 ## Contact

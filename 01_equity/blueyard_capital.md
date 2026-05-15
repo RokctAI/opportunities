@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Crypto / Biology
 - **Territory**: Europe / Global
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://www.blueyard.com/
 
 ## Contact

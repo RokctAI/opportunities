@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://augmentum.vc/
 
 ## Contact

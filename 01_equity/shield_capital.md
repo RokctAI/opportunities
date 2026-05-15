@@ -8,6 +8,7 @@
 - **Industry**: Defense / AI / Cybersecurity / Space
 - **Territory**: USA / Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://shieldcap.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / Enterprise AI
 - **Territory**: USA / Europe
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://evolutionequity.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Fintech
 - **Territory**: Global
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://www.antler.co/
 
 ## Contact

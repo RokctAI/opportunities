@@ -8,6 +8,7 @@
 - **Industry**: Enterprise Tech / AI / Cyber
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.wing.vc/
 
 ## Contact

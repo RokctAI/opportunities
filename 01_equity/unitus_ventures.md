@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Edtech / Healthtech
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://unitus.vc/
 
 ## Contact

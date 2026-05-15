@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Healthcare / Fintech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.techcoastangels.com/
 
 ## Contact

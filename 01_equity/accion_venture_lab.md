@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Financial Inclusion
 - **Territory**: Global / Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.accion.org/how-we-work/invest/accion-venture-lab
 
 ## Contact

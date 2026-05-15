@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / E-commerce
 - **Territory**: Middle East / North Africa
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://www.wamda.com/capital
 
 ## Contact

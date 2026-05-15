@@ -8,6 +8,7 @@
 - **Industry**: Fintech / AI / SaaS
 - **Territory**: Europe / SE Asia
 - **Country**: Netherlands
+- **Flag**: NL
 - **Website**: https://www.finchcapital.com/
 
 ## Contact

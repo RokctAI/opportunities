@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Healthcare / Defense
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.keiretsuforum.com/
 
 ## Contact

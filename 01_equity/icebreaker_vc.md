@@ -8,6 +8,7 @@
 - **Industry**: Tech / SaaS / AI
 - **Territory**: Nordics / Baltics
 - **Country**: Finland
+- **Flag**: FI
 - **Website**: https://www.icebreaker.vc/
 
 ## Contact

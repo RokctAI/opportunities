@@ -8,6 +8,7 @@
 - **Industry**: Defense / AI / Healthcare
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://redcellpartners.com/
 
 ## Contact

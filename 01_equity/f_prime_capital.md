@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Tech / Healthcare
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://fprimecapital.com/
 
 ## Contact

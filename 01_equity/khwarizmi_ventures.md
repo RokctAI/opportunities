@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Fintech
 - **Territory**: Middle East / North Africa
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://khwarizmivc.com/
 
 ## Contact

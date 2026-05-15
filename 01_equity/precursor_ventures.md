@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Consumer / B2B
 - **Territory**: USA / Canada
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://precursorvc.com/
 
 ## Contact

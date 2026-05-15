@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / Defense / AI
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.squadra.vc/
 
 ## Contact

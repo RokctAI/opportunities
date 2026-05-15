@@ -8,6 +8,7 @@
 - **Industry**: Crypto / Web3
 - **Territory**: Europe / Global
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://greenfield.xyz/
 
 ## Contact

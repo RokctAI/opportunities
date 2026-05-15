@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Defense / Aerospace
 - **Territory**: Spain
 - **Country**: Spain
+- **Flag**: ES
 - **Website**: https://www.cdti.es/
 
 ## Contact

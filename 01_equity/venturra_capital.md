@@ -8,6 +8,7 @@
 - **Industry**: Tech / Consumer / Fintech
 - **Territory**: Southeast Asia
 - **Country**: Indonesia
+- **Flag**: ID
 - **Website**: https://www.venturra.id/
 
 ## Contact

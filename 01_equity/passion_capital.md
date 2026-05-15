@@ -8,6 +8,7 @@
 - **Industry**: Fintech / SaaS / Consumer
 - **Territory**: UK / Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.passcap.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Emerging Markets
 - **Territory**: Middle East / North Africa / Pakistan
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://www.shorooq.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Consumer / Fintech
 - **Territory**: USA / Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.liquid2.vc/
 
 ## Contact

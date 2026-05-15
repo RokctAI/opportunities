@@ -8,6 +8,7 @@
 - **Industry**: Tech / E-commerce / Fintech
 - **Territory**: Middle East
 - **Country**: Kuwait
+- **Flag**: KW
 - **Website**: https://www.faithcap.com/
 
 ## Contact

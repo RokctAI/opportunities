@@ -8,6 +8,7 @@
 - **Industry**: Defense / Space / AI / Cyber
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.razorsedge.com/
 
 ## Contact

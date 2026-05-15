@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Africa
 - **Country**: Nigeria
+- **Flag**: NG
 - **Website**: https://greenhouse.cap/
 
 ## Contact

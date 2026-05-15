@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Biotech / Fintech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.sandhillangels.com/
 
 ## Contact

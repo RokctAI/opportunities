@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / AI / Defense / Health
 - **Territory**: Europe
 - **Country**: Belgium
+- **Flag**: BE
 - **Website**: https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en
 
 ## Contact

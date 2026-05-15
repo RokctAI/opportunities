@@ -8,6 +8,7 @@
 - **Industry**: Consumer Tech / Fintech / SaaS / AI
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.elevationcapital.com/
 
 ## Contact

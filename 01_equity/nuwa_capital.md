@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Consumer
 - **Territory**: Middle East / North Africa
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://nuwacapital.io/
 
 ## Contact

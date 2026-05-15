@@ -8,6 +8,7 @@
 - **Industry**: Tech / Consumer / Fintech
 - **Territory**: Latin America
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://rpeventures.com.br/
 
 ## Contact

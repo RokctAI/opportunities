@@ -8,6 +8,7 @@
 - **Industry**: B2B SaaS / Cyber / Fintech
 - **Territory**: Europe / Emerging Markets
 - **Country**: Estonia
+- **Flag**: EE
 - **Website**: https://startupwiseguys.com/
 
 ## Contact

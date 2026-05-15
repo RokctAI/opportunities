@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Consumer Tech
 - **Territory**: Middle East / North Africa
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://www.mevp.com/
 
 ## Contact

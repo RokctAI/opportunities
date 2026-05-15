@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Africa
 - **Country**: Nigeria
+- **Flag**: NG
 - **Website**: https://loftyinc.vc/
 
 ## Contact
