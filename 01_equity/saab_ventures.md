@@ -1,0 +1,25 @@
+---
+# Equity Opportunity: Saab Ventures
+
+## Quick Stats
+- **Organization**: Saab Ventures
+- **Funder Type**: Corporate VC
+- **Funding Type**: Series A-Z
+- **Industry**: Defense
+- **Territory**: Global
+- **Country**: Sweden
+- **Website**: https://www.saab.com/about/innovation/saab-ventures
+
+## Contact
+- **Contact Person**: Micael Johansson
+- **LinkedIn**: https://www.linkedin.com/in/micael-johansson-saab/
+- **Phone**:
+
+## Source
+- **Source / Verification**: https://www.saab.com/about/innovation/saab-ventures
+- **Notes**:
+
+## Audit & Status
+- **Status**: ACTIVE
+- **Last Verified**: 2026-05-15
+---
