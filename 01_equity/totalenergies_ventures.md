@@ -8,6 +8,7 @@
 - **Industry**: Energy
 - **Territory**: Global
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://ventures.totalenergies.com/
 
 ## Contact

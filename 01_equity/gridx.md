@@ -8,6 +8,7 @@
 - **Industry**: Biotech
 - **Territory**: LatAm
 - **Country**: Argentina
+- **Flag**: AR
 - **Website**: https://www.gridx.tech/
 
 ## Contact

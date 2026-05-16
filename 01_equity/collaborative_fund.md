@@ -8,6 +8,7 @@
 - **Industry**: Tech / Climate
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.collaborativefund.com/
 
 ## Contact

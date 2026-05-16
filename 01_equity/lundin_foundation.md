@@ -8,6 +8,7 @@
 - **Industry**: Impact
 - **Territory**: Global
 - **Country**: Canada
+- **Flag**: CA
 - **Website**: https://lundinfoundation.org/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Egypt
 - **Country**: Egypt
+- **Flag**: EG
 - **Website**: https://disruptechvm.com/
 
 ## Contact

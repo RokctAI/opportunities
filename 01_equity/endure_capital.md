@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global / Emerging Markets
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.endurecap.com/
 
 ## Contact

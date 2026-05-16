@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Egypt
 - **Country**: Egypt
+- **Flag**: EG
 - **Website**: https://algebraventures.com/
 
 ## Contact

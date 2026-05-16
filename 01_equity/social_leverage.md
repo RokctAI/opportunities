@@ -8,6 +8,7 @@
 - **Industry**: Fintech / SaaS
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://socialleverage.com/
 
 ## Contact

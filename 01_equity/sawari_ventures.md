@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Egypt / North Africa
 - **Country**: Egypt
+- **Flag**: EG
 - **Website**: https://sawariventures.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: General
 - **Territory**: Africa
 - **Country**: Mauritius
+- **Flag**: MU
 - **Website**: https://www.adenia.com/
 
 ## Contact

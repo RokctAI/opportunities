@@ -8,6 +8,7 @@
 - **Industry**: Tech / Health
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.borealisventures.com/
 
 ## Contact

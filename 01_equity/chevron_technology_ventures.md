@@ -8,6 +8,7 @@
 - **Industry**: Energy
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.chevron.com/technology/technology-ventures
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech
 - **Territory**: LatAm
 - **Country**: Argentina
+- **Flag**: AR
 - **Website**: https://cites-gss.com/
 
 ## Contact

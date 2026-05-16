@@ -8,6 +8,7 @@
 - **Industry**: Tech / Emerging Markets
 - **Territory**: Africa
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://sunucapital.com/
 
 ## Contact

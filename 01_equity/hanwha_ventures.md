@@ -8,6 +8,7 @@
 - **Industry**: Aerospace / Defense
 - **Territory**: Global
 - **Country**: South Korea
+- **Flag**: KR
 - **Website**: https://www.hanwha.com/
 
 ## Contact

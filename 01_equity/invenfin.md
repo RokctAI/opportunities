@@ -8,6 +8,7 @@
 - **Industry**: Consumer
 - **Territory**: Global / Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://www.invenfin.com/
 
 ## Contact

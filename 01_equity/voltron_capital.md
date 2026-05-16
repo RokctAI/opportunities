@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Africa
 - **Country**: Nigeria
+- **Flag**: NG
 - **Website**: https://voltron.capital/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: LatAm
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://www.latitud.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Internet Health / AI
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://foundation.mozilla.org/
 
 ## Contact

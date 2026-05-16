@@ -8,6 +8,7 @@
 - **Industry**: Semiconductors / AI
 - **Territory**: Global
 - **Country**: South Korea
+- **Flag**: KR
 - **Website**: https://www.skhynix.com/
 
 ## Contact

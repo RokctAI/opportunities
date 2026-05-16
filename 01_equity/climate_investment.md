@@ -8,6 +8,7 @@
 - **Industry**: Climate
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.climateinvestment.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: AI / Computing
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.nvidia.com/en-us/research/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Energy / Climate
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.energyimpactpartners.com/
 
 ## Contact

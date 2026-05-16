@@ -8,6 +8,7 @@
 - **Industry**: Impact / Infrastructure
 - **Territory**: Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://www.mergence.co.za/
 
 ## Contact

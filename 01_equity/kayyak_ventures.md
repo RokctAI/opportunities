@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Chile
 - **Country**: Chile
+- **Flag**: CL
 - **Website**: https://www.kayyakventures.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Climate
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.breakthroughenergy.org/
 
 ## Contact

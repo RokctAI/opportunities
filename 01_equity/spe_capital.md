@@ -8,6 +8,7 @@
 - **Industry**: General
 - **Territory**: Africa / Middle East
 - **Country**: Tunisia
+- **Flag**: TN
 - **Website**: https://spe-capital.com/
 
 ## Contact

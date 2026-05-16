@@ -8,6 +8,7 @@
 - **Industry**: Agri / Food
 - **Territory**: Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://exeocapital.com/
 
 ## Contact

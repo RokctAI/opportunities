@@ -8,6 +8,7 @@
 - **Industry**: Impact
 - **Territory**: Emerging Markets
 - **Country**: Switzerland
+- **Flag**: CH
 - **Website**: https://www.vital-capital.com/
 
 ## Contact

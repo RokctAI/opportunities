@@ -8,6 +8,7 @@
 - **Industry**: Health
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://wellcome.org/
 
 ## Contact

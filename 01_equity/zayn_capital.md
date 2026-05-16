@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech
 - **Territory**: Pakistan
 - **Country**: Pakistan
+- **Flag**: PK
 - **Website**: https://zayn.vc/
 
 ## Contact

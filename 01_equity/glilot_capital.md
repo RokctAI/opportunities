@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / Enterprise
 - **Territory**: Global
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://www.glilotcapital.com/
 
 ## Contact

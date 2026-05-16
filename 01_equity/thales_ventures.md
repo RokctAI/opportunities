@@ -8,6 +8,7 @@
 - **Industry**: Defense / Aerospace
 - **Territory**: Global
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.thalesgroup.com/
 
 ## Contact

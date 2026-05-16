@@ -8,6 +8,7 @@
 - **Industry**: General
 - **Territory**: Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://www.sanlam.co.za/
 
 ## Contact

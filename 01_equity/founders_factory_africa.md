@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://www.foundersfactory.africa/
 
 ## Contact

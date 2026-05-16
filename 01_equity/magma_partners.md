@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: LatAm
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.magmapartners.com/
 
 ## Contact

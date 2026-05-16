@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Vietnam
 - **Country**: Vietnam
+- **Flag**: VN
 - **Website**: https://www.viisa.vn/
 
 ## Contact

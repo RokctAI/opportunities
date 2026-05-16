@@ -8,6 +8,7 @@
 - **Industry**: General
 - **Territory**: Africa
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://amethis.com/
 
 ## Contact

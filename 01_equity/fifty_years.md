@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / Climate
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://fiftyyears.com/
 
 ## Contact

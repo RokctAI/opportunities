@@ -8,6 +8,7 @@
 - **Industry**: Social Justice / Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.fordfoundation.org/
 
 ## Contact

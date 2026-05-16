@@ -8,6 +8,7 @@
 - **Industry**: Health / Global Development
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.gatesfoundation.org/
 
 ## Contact

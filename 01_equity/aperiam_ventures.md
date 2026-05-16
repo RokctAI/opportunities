@@ -8,6 +8,7 @@
 - **Industry**: Defense / AI
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://aperiam.vc/
 
 ## Contact

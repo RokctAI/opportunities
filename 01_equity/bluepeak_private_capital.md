@@ -8,6 +8,7 @@
 - **Industry**: General
 - **Territory**: Africa
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://bluepeakpc.com/
 
 ## Contact

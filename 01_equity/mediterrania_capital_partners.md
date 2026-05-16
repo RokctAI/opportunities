@@ -8,6 +8,7 @@
 - **Industry**: General
 - **Territory**: Africa
 - **Country**: Malta
+- **Flag**: MT
 - **Website**: https://www.mcapitalp.com/
 
 ## Contact

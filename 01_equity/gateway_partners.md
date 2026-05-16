@@ -8,6 +8,7 @@
 - **Industry**: General
 - **Territory**: Africa / Asia
 - **Country**: UAE
+- **Flag**: AE
 - **Website**: https://gatewayfund.net/
 
 ## Contact

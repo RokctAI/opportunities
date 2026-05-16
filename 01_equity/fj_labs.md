@@ -8,6 +8,7 @@
 - **Industry**: Marketplaces
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://fjlabs.com/
 
 ## Contact

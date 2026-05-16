@@ -8,6 +8,7 @@
 - **Industry**: Cybersecurity / AI
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://lyticalventures.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: General
 - **Territory**: East Africa
 - **Country**: Ethiopia
+- **Flag**: ET
 - **Website**: https://www.zoscales.com/
 
 ## Contact

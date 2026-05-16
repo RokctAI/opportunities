@@ -8,6 +8,7 @@
 - **Industry**: Proptech / Climate
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.fifthwall.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Pakistan
 - **Country**: Pakistan
+- **Flag**: PK
 - **Website**: https://www.indusvalley.vc/
 
 ## Contact

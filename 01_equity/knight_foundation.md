@@ -8,6 +8,7 @@
 - **Industry**: Journalism / Tech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://knightfoundation.org/
 
 ## Contact

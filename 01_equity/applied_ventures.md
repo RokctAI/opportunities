@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / Defense
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.appliedventures.com/
 
 ## Contact

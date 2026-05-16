@@ -8,6 +8,7 @@
 - **Industry**: Science / Education
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://chanzuckerberg.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Defense
 - **Territory**: Global
 - **Country**: Sweden
+- **Flag**: SE
 - **Website**: https://www.saab.com/about/innovation/saab-ventures
 
 ## Contact

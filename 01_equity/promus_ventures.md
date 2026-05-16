@@ -8,6 +8,7 @@
 - **Industry**: Space / Defense
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://promusventures.com/
 
 ## Contact

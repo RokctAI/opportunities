@@ -8,6 +8,7 @@
 - **Industry**: B2B Tech
 - **Territory**: LatAm
 - **Country**: Argentina
+- **Flag**: AR
 - **Website**: https://nxtp.vc/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Africa
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://partechpartners.com/africa/
 
 ## Contact

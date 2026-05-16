@@ -8,6 +8,7 @@
 - **Industry**: B2B Tech
 - **Territory**: Europe / USA
 - **Country**: Ireland
+- **Flag**: IE
 - **Website**: https://www.frontline.vc/
 
 ## Contact

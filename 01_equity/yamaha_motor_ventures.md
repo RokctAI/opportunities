@@ -8,6 +8,7 @@
 - **Industry**: Mobility / Robotics
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.ymv.vc/
 
 ## Contact

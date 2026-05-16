@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Vietnam / Korea
 - **Country**: South Korea
+- **Flag**: KR
 - **Website**: https://www.nextrans.vn/
 
 ## Contact

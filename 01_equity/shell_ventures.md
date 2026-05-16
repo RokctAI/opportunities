@@ -8,6 +8,7 @@
 - **Industry**: Energy
 - **Territory**: Global
 - **Country**: Netherlands
+- **Flag**: NL
 - **Website**: https://www.shell.com/shell-ventures.html
 
 ## Contact

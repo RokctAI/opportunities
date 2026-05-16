@@ -8,6 +8,7 @@
 - **Industry**: SaaS
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.oxx.vc/
 
 ## Contact

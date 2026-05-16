@@ -8,6 +8,7 @@
 - **Industry**: Enterprise Tech / AI
 - **Territory**: Europe
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://crane.vc/
 
 ## Contact

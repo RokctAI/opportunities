@@ -8,6 +8,7 @@
 - **Industry**: Energy
 - **Territory**: Global
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.bp.com/en/global/bp-ventures.html
 
 ## Contact

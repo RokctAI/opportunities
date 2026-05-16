@@ -8,6 +8,7 @@
 - **Industry**: Science / Economics
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://sloan.org/
 
 ## Contact

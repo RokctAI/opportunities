@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Saudi Arabia
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://halavc.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: AgriTech
 - **Territory**: Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://agventures.co.za/
 
 ## Contact

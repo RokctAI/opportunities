@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.starlight.vc/
 
 ## Contact
