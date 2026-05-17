@@ -80,7 +80,7 @@ jobs:
             echo "🚀 Delegating $TITLE for $REPO..."
             
             # Run the delegation and capture output for both success and failure
-            if RESULT=$(python .rokct/scripts/agent_delegation/delegate_to_agent.py create \
+            if RESULT=$(python .rokct/scripts/agent_delegation/call_jules.py create \
               --repo "sources/github/$REPO" \
               --prompt "$PROMPT" \
               --branch "$BRANCH" \
