@@ -1,15 +1,15 @@
 # RokctAI Opportunities Registry
 
 ## 🚀 Registry Status Dashboard
-*Last Updated: 2026-05-16 06:59*
+*Last Updated: 2026-05-18 05:07*
 
 | Registry | Total | New (7d) | Verified | Health |
 | :--- | :--- | :--- | :--- | :--- |
 | 🏦 **Equity** | 881 | 881 | 881 | 🟢 |
-| 📜 **Grants** | 101 | 101 | 101 | 🟢 |
-| 🏗️ **Tenders** | 734 | 734 | 734 | 🟢 |
+| 📜 **Grants** | 201 | 201 | 201 | 🟢 |
+| 🏗️ **Tenders** | 600 | 600 | 600 | 🟢 |
 
-**Overall Progress**: `100.0%` Verified | `+1716` New Opportunities This Week | [🌐 View Live Dashboard](https://rokctai.github.io/Opportunities-Registry/)
+**Overall Progress**: `100.0%` Verified | `+1682` New Opportunities This Week | [🌐 View Live Dashboard](https://rokctai.github.io/Opportunities-Registry/)
 ## Repository Structure
 
 - **`01_equity/`**: Individual markdown cards for potential funders and investment leads.

@@ -37,7 +37,7 @@ RFQ 40 (Re-advertisement)Procurement of a Service Provider for 1CE Class of Work
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Last Verified**: 2026-05-13
+- **Last Verified**: 2026-05-18
 
 ## AI Checklist (Jules)
 <!-- This section is populated by Jules during enrichment. -->
