@@ -4,23 +4,22 @@
 ## Quick Stats
 - **Organization**: Shield Capital
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A / Series B
-- **Industry**: Defense / AI / Cybersecurity / Space
-- **Territory**: USA / Global
+- **Funding Type**: Early Stage
+- **Industry**: Defense / Military / AI
+- **Territory**: Global
 - **Country**: USA
-- **Flag**: US
 - **Website**: https://shieldcap.com/
 
 ## Contact
-- **Contact Person**: Raj Shah
-- **LinkedIn**: https://www.linkedin.com/in/rajshah/
-- **Phone**:
+- **Contact Person**: Philip Bilden
+- **LinkedIn**: https://www.linkedin.com/in/philip-bilden-728b75161/
+- **Phone**: 415-326-6150
 
 ## Source
 - **Source / Verification**: https://shieldcap.com/team
-- **Notes**: Dual-use technology focus.
+- **Notes**: Focuses on national security and commercial technology.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Last Verified**: 2026-05-14
+- **Last Verified**: 2026-05-17
 ---
