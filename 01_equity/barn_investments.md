@@ -8,6 +8,7 @@
 - **Industry**: Tech / AgTech
 - **Territory**: LatAm
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://www.barninvestments.com/
 
 ## Contact

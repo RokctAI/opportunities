@@ -8,6 +8,7 @@
 - **Industry**: SaaS / B2B
 - **Territory**: Europe
 - **Country**: Poland
+- **Flag**: PL
 - **Website**: https://www.innovationnest.com/
 
 ## Contact

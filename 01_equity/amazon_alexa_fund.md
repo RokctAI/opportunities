@@ -8,6 +8,7 @@
 - **Industry**: Voice / AI / Tech
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://developer.amazon.com/alexa-fund
 
 ## Contact

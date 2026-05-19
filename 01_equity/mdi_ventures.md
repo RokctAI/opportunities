@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global / Indonesia
 - **Country**: Indonesia
+- **Flag**: ID
 - **Website**: https://mdi.vc/
 
 ## Contact

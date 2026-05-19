@@ -8,6 +8,7 @@
 - **Industry**: Consumer / Tech
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://indiaquotient.in/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe / Emerging Markets
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://flashpointvc.com/
 
 ## Contact

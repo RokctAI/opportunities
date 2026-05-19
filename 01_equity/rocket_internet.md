@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://www.rocket-internet.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Health
 - **Territory**: Europe
 - **Country**: Germany
+- **Flag**: DE
 - **Website**: https://earlybird.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: Australia
 - **Country**: Australia
+- **Flag**: AU
 - **Website**: https://www.x15ventures.com.au/
 
 ## Contact

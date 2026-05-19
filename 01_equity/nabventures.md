@@ -8,6 +8,7 @@
 - **Industry**: AgTech / Rural Tech
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.nabventures.in/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Diversified
 - **Territory**: Global
 - **Country**: Canada
+- **Flag**: CA
 - **Website**: https://www.otpp.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Software
 - **Territory**: UK
 - **Country**: UK
+- **Flag**: GB
 - **Website**: https://www.episode1.com/
 
 ## Contact

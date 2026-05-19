@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Australia / USA
+- **Flag**: AU / US
 - **Website**: https://telstraventures.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Energy / Tech
 - **Territory**: Global
 - **Country**: Saudi Arabia
+- **Flag**: SA
 - **Website**: https://www.saev.com/
 
 ## Contact

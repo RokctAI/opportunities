@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.singular.vc/
 
 ## Contact

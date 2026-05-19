@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Hungary
+- **Flag**: HU
 - **Website**: https://www.hiventures.hu/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Impact / Fintech / Health
 - **Territory**: Global Emerging Markets
 - **Country**: Global
+- **Flag**: GLOBAL
 - **Website**: https://leapfroginvest.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.accel.com/india
 
 ## Contact

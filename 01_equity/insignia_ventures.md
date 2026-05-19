@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: SEA
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://www.insignia.vc/
 
 ## Contact

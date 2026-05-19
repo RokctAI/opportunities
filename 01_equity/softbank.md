@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Japan
+- **Flag**: JP
 - **Website**: https://group.softbank/en/
 
 ## Contact

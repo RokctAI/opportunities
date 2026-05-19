@@ -8,6 +8,7 @@
 - **Industry**: Impact / Tech
 - **Territory**: Global
 - **Country**: UK / Global
+- **Flag**: GB / GLOBAL
 - **Website**: https://www.lightrock.com/
 
 ## Contact

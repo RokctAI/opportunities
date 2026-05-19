@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech
 - **Territory**: Europe / USA
 - **Country**: Ireland
+- **Flag**: IE
 - **Website**: https://abven.com/
 
 ## Contact

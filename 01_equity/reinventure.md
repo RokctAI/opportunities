@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Tech
 - **Territory**: Australia
 - **Country**: Australia
+- **Flag**: AU
 - **Website**: https://reinventure.com.au/
 
 ## Contact

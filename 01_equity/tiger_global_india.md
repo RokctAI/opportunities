@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: India
 - **Country**: USA / India
+- **Flag**: IN / US
 - **Website**: https://www.tigerglobal.com/
 
 ## Contact

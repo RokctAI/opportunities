@@ -8,6 +8,7 @@
 - **Industry**: Tech / Consumer
 - **Territory**: LatAm
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://www.domoinvest.com.br/
 
 ## Contact

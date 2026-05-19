@@ -8,6 +8,7 @@
 - **Industry**: Inclusion / Energy
 - **Territory**: Emerging Markets
 - **Country**: Switzerland
+- **Flag**: CH
 - **Website**: https://bamboocp.com/
 
 ## Contact

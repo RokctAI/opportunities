@@ -8,6 +8,7 @@
 - **Industry**: Tech / Consumer
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://otiumcapital.com/
 
 ## Contact

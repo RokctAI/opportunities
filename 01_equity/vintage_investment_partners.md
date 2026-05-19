@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Israel
+- **Flag**: IL
 - **Website**: https://www.vintage-ip.com/
 
 ## Contact

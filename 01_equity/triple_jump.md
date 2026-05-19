@@ -8,6 +8,7 @@
 - **Industry**: Inclusion / Tech
 - **Territory**: Emerging Markets
 - **Country**: Netherlands
+- **Flag**: NL
 - **Website**: https://triplejump.eu/
 
 ## Contact

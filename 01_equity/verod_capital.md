@@ -8,6 +8,7 @@
 - **Industry**: Diversified
 - **Territory**: Africa
 - **Country**: Nigeria
+- **Flag**: NG
 - **Website**: https://verod.com/
 
 ## Contact

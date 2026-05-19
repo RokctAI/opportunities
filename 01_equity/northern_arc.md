@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Inclusion
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.northernarc.com/
 
 ## Contact

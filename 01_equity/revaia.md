@@ -8,6 +8,7 @@
 - **Industry**: Tech / Sustainability
 - **Territory**: Europe
 - **Country**: France
+- **Flag**: FR
 - **Website**: https://www.revaia.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Turkey
 - **Country**: Turkey
+- **Flag**: TR
 - **Website**: https://collectivespark.com/
 
 ## Contact

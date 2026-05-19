@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Tech
 - **Territory**: Global
 - **Country**: Singapore / UK
+- **Flag**: SG / GB
 - **Website**: https://scventures.io/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Inclusion / Climate
 - **Territory**: Emerging Markets
 - **Country**: Switzerland
+- **Flag**: CH
 - **Website**: https://www.blueorchard.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: AgTech
 - **Territory**: LatAm
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://www.spventures.com.br/
 
 ## Contact

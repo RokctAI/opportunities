@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.rev1ventures.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech / Diversified
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.sequoiaheritage.com/
 
 ## Contact

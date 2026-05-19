@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Croatia
+- **Flag**: HR
 - **Website**: https://filrougecapital.com/
 
 ## Contact

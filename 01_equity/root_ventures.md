@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / Engineering
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.root.vc/
 
 ## Contact

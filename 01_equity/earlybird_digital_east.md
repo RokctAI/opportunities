@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: Germany / Turkey
+- **Flag**: DE / TR
 - **Website**: https://earlybird.com/digitaleast/
 
 ## Contact

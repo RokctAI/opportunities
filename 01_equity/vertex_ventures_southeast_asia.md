@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: SEA / India
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://www.vertexventures.sg/
 
 ## Contact

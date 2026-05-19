@@ -8,6 +8,7 @@
 - **Industry**: Fintech
 - **Territory**: India
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.vivriticapital.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Europe
 - **Country**: UK / Germany / France
+- **Flag**: FR / DE / GB
 - **Website**: https://lsvp.com/
 
 ## Contact

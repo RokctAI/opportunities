@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Tech
 - **Territory**: Australia / Global
 - **Country**: Australia
+- **Flag**: AU
 - **Website**: https://www.nab.com.au/about-us/nab-ventures
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Diversified
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.pasadenaangels.com/
 
 ## Contact

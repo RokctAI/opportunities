@@ -8,6 +8,7 @@
 - **Industry**: Industrial Tech / Aerospace
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.honeywell.com/us/en/honeywell-ventures
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.tbdangels.com/
 
 ## Contact

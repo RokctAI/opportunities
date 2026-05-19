@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: India / SEA
 - **Country**: India
+- **Flag**: IN
 - **Website**: https://www.innovencapital.com/
 
 ## Contact

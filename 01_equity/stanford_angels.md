@@ -8,6 +8,7 @@
 - **Industry**: Diversified
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.stanfordangels.org/
 
 ## Contact

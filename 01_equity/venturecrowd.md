@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Australia
 - **Country**: Australia
+- **Flag**: AU
 - **Website**: https://www.venturecrowd.com.au/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Consumer
 - **Territory**: USA
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://circleup.com/
 
 ## Contact
