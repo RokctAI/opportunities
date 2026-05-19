@@ -25,9 +25,10 @@ def load_monorepo_env(custom_path=None):
             # We fetch as RAW plain text
             resp = requests.get(url, headers=headers, timeout=30)
             if resp.status_code == 200:
-                parse_env_content(resp.text)
-                return True
-        except: pass
+                if parse_env_content(resp.text):
+                    return True
+        except Exception as e:
+            print(f"⚠️ Vault fetch error: {e}")
 
     # --- 2. LOCAL FALLBACK MODE ---
     env_paths = []
@@ -50,20 +51,25 @@ def load_monorepo_env(custom_path=None):
 def parse_env_content(content):
     """Parses .env content for keys. Priority: JULES then AGENT."""
     lines = content.splitlines()
+    found = False
     
     # Pass 1: JULES_API_KEY
     for line in lines:
         if "JULES_API_KEY=" in line:
             val = line.replace("export ", "").strip().split("=", 1)[1].strip("'\" ")
             os.environ["JULES_API_KEY"] = val
-            return
+            found = True
+            break
             
-    # Pass 2: AGENT_API_KEY
-    for line in lines:
-        if "AGENT_API_KEY=" in line:
-            val = line.replace("export ", "").strip().split("=", 1)[1].strip("'\" ")
-            os.environ["AGENT_API_KEY"] = val
-            return
+    # Pass 2: AGENT_API_KEY (if JULES not found)
+    if not found:
+        for line in lines:
+            if "AGENT_API_KEY=" in line:
+                val = line.replace("export ", "").strip().split("=", 1)[1].strip("'\" ")
+                os.environ["AGENT_API_KEY"] = val
+                found = True
+                break
+    return found
 
 BASE_URL = "https://jules.googleapis.com/v1alpha"
 
@@ -121,9 +127,15 @@ def main():
 
     args = parser.parse_args()
 
-    # Load from Vault if missing
+    # Force Vault Priority: Try to load from Monorepo first if MONOREPO_PAT is present
+    if os.environ.get("MONOREPO_PAT"):
+        load_monorepo_env(args.env_file)
+
+    # Resolve Key
     api_key = args.api_key or os.environ.get("JULES_API_KEY") or os.environ.get("AGENT_API_KEY")
-    if not api_key:
+
+    # Final fallback: If still no key, try local env search one last time
+    if not api_key and not os.environ.get("MONOREPO_PAT"):
         load_monorepo_env(args.env_file)
         api_key = os.environ.get("JULES_API_KEY") or os.environ.get("AGENT_API_KEY")
 

@@ -5,8 +5,13 @@ import requests
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
+import sys
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+# Add utils to path
+sys.path.append(str(Path(__file__).parent.parent / 'utils'))
+from tender_resolver import resolve_card_path, resolve_write_path
 
 def run_sync(tender_dir, sources_dir, generate_md_fn):
     """Resilient OCDS Sync with full parameters."""
@@ -53,16 +58,17 @@ def run_sync(tender_dir, sources_dir, generate_md_fn):
             
             updates = 0
             for ocid, rel in latest_map.items():
-                fpath = tender_dir / f"{ocid}.md"
+                card_path = resolve_card_path(tender_dir, ocid)
                 existing = ""
-                if fpath.exists():
-                    with open(fpath, 'r', encoding='utf-8') as f:
+                if card_path and card_path.exists():
+                    with open(card_path, 'r', encoding='utf-8') as f:
                         existing = f.read()
                     if "VERIFIED" in existing: continue
                 
-                new_c = generate_md_fn(rel, c['flag'], c['ref'])
+                new_c = generate_md_fn(rel, c['flag'], c['ref'], existing)
                 if [l.strip() for l in existing.splitlines() if l.strip()] != [l.strip() for l in new_c.splitlines() if l.strip()]:
-                    with open(fpath, 'w', encoding='utf-8', newline='\n') as fw: fw.write(new_c)
+                    write_path = resolve_write_path(tender_dir, ocid)
+                    with open(write_path, 'w', encoding='utf-8', newline='\n') as fw: fw.write(new_c)
                     updates += 1
             print(f"  [+] {c['flag']}: {len(releases)} releases. Updated {updates} files.")
         except Exception as e: print(f"  [Error] {c['flag']} Sync: {e}")
