@@ -31,6 +31,7 @@ class FunderManager:
 
 ## Audit & Status
 - **Status**: ACTIVE
+- **Verification Status**: {Verification Status}
 - **Last Verified**: {Last Verified}
 ---
 """
@@ -80,6 +81,8 @@ class FunderManager:
             data["Last Verified"] = str(date.today())
         if "Status" not in data:
             data["Status"] = "ACTIVE"
+        if "Verification Status" not in data:
+            data["Verification Status"] = "UNVERIFIED"
         if "Phone" not in data:
             data["Phone"] = ""
         if "Notes" not in data:

@@ -86,16 +86,16 @@ def update_json_meta(meta_path, stats, advanced_data):
     with open(meta_path, 'w', encoding='utf-8') as f:
         json.dump(meta_data, f, indent=2)
 
-def save_jules_todo(base_dir, todo_list):
+def save_jules_todo(base_dir, todo_list, filename="todo.json", title_prefix="Tender Enrichment Queue"):
     """Saves the work list for Jules' weekly session."""
-    todo_path = base_dir / '.rokct' / 'agent' / 'todo.json'
+    todo_path = base_dir / '.rokct' / 'agent' / filename
     todo_path.parent.mkdir(parents=True, exist_ok=True)
     
     data = {
-        "title": f"Tender Enrichment Queue: {datetime.now().strftime('%Y-%m-%d')}",
+        "title": f"{title_prefix}: {datetime.now().strftime('%Y-%m-%d')}",
         "pending_count": len(todo_list),
         "files": todo_list
     }
     with open(todo_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
-    print(f"[Done] Jules Todo List saved ({len(todo_list)} items).")
+    print(f"[Done] {filename} saved ({len(todo_list)} items).")

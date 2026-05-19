@@ -1,0 +1,11 @@
+{
+  "repo": "RokctAI/opportunities",
+  "prompt": "TASK: Weekly Funder Audit & Enrichment. 1) Focus on Equity cards listed in '.rokct/agent/equity_todo.json'. 2) Audit these '.md' files in '01_equity/' for missing fields, broken links, or stale verification dates. 3) Once a card is fully researched and verified, update its 'Verification Status' to 'VERIFIED'. 4) Discover new funders by checking active sources in '01_equity/sources/'. 5) Ensure all information is cited with a direct 'Source / Verification' URL.",
+  "branch": "main",
+  "title": "Mission: Weekly Funder Audit & Enrichment",
+  "automation_mode": "AUTO_CREATE_PR",
+  "recurrence": "Weekly",
+  "immediate": true,
+  "scheduled_at": "2026-05-18T20:00:00Z",
+  "attempts": 0
+}
