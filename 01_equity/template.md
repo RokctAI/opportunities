@@ -21,5 +21,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
+- **Verification Status**: UNVERIFIED
 - **Last Verified**: [YYYY-MM-DD]
 ---

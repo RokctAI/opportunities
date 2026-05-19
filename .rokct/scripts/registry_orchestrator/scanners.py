@@ -42,29 +42,38 @@ def scan_registry(name, path, base_dir):
                 if name == "Equity":
                     content = heal_equity_flags(file, content)
 
-                # 2. Verification Logic (Universal: Any valid Last Verified date counts)
+                # 2. Verification Logic
                 is_active = re.search(r'-\s+\*\*Status\*\*:\s*ACTIVE', content, re.I)
-                is_verified = re.search(r'Verification Status:\s*VERIFIED', content, re.I)
+                is_verified = re.search(r'Verification Status\*\*:\s*VERIFIED', content, re.I)
                 has_date = re.search(r'-\s+\*\*Last Verified\*\*:\s*\d{4}-\d{2}-\d{2}', content, re.I)
                 
-                if is_active or is_verified or has_date:
+                # Strict verification for Equity/Grants (must have VERIFIED status)
+                # Tenders are verified if active and have a date (legacy logic)
+                is_v = False
+                if name == "Tenders":
+                    is_v = is_active or is_verified or has_date
+                else:
+                    is_v = is_verified
+
+                if is_v:
                     verified += 1
                 
-                # 3. Multi-Tag Metadata Extraction
-                stat_matches = re.finditer(r'-\s+\*\*(?P<key>.*?)\*\*:\s*(?P<val>.*)', content)
-                for m in stat_matches:
-                    key = m.group('key').strip()
-                    val = m.group('val').strip()
-                    
-                    if key in INTERESTING_KEYS:
-                        if key not in stats_aggregation: stats_aggregation[key] = {}
+                # 3. Multi-Tag Metadata Extraction (Only for Verified Entries)
+                if is_v:
+                    stat_matches = re.finditer(r'-\s+\*\*(?P<key>.*?)\*\*:\s*(?P<val>.*)', content)
+                    for m in stat_matches:
+                        key = m.group('key').strip()
+                        val = m.group('val').strip()
                         
-                        # Split by slash for multi-tag support
-                        tags = [t.strip() for t in val.split('/')] if "/" in val else [val]
-                        
-                        for tag in tags:
-                            if tag: # Don't count empty tags
-                                stats_aggregation[key][tag] = stats_aggregation[key].get(tag, 0) + 1
+                        if key in INTERESTING_KEYS:
+                            if key not in stats_aggregation: stats_aggregation[key] = {}
+
+                            # Split by slash for multi-tag support
+                            tags = [t.strip() for t in val.split('/')] if "/" in val else [val]
+
+                            for tag in tags:
+                                if tag: # Don't count empty tags
+                                    stats_aggregation[key][tag] = stats_aggregation[key].get(tag, 0) + 1
 
                 # 4. Tender AI Logic
                 if name == "Tenders":
@@ -78,6 +87,11 @@ def scan_registry(name, path, base_dir):
                             }
                         else:
                             todo_list.append(str(file.relative_to(base_dir)))
+
+                # 5. Equity / Grants Unverified Logic
+                if name in ["Equity", "Grants"]:
+                    if "Verification Status**: UNVERIFIED" in content or "Verification Status**: IN_PROGRESS" in content:
+                        todo_list.append(str(file.relative_to(base_dir)))
                             
         except Exception:
             continue
