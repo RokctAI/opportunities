@@ -1,0 +1,25 @@
+---
+# Equity Opportunity: Lightspeed India
+
+## Quick Stats
+- **Organization**: Lightspeed India
+- **Funder Type**: VC
+- **Funding Type**: Early Stage
+- **Industry**: Tech
+- **Territory**: India
+- **Country**: India
+- **Website**: https://lsip.com/
+
+## Contact
+- **Contact Person**: Bejul Somaia
+- **LinkedIn**: https://www.linkedin.com/in/bejulsomaia/
+- **Phone**:
+
+## Source
+- **Source / Verification**: https://lsip.com/team/
+- **Notes**: Indian arm of Lightspeed Venture Partners.
+
+## Audit & Status
+- **Status**: ACTIVE
+- **Last Verified**: 2026-05-17
+---
