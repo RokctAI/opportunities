@@ -49,7 +49,7 @@ def run_orchestration():
     update_audit_log(AUDIT_LOG_PATH, stats["Tenders"][0], stats["Tenders"][1])
     update_json_meta(META_PATH, stats, all_advanced_data)
 
-    # Save specialized todo lists
+    # Save specialized task queues
     save_jules_todo(BASE_DIR, tenders_todo, filename="todo.json", title_prefix="Tender Enrichment Queue")
     save_jules_todo(BASE_DIR, equity_todo, filename="equity_todo.json", title_prefix="Equity Audit Queue")
     save_jules_todo(BASE_DIR, grants_todo, filename="grants_todo.json", title_prefix="Grants Verification Queue")
