@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / InsurTech / Healthcare
 - **Territory**: Africa / Global
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://4dicapital.com/
 
 ## Contact

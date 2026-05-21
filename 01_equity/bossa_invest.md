@@ -8,6 +8,7 @@
 - **Industry**: SaaS / B2B
 - **Territory**: Latin America
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://bossainvest.com/
 
 ## Contact

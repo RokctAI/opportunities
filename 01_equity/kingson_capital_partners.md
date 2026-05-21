@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Food Security / Healthcare
 - **Territory**: South Africa / Global
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://kingsoncapital.com/
 
 ## Contact

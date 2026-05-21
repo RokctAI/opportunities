@@ -8,6 +8,7 @@
 - **Industry**: Tech / Multi-sector
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.techstars.com/
 
 ## Contact

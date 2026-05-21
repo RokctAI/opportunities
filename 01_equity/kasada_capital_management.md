@@ -8,6 +8,7 @@
 - **Industry**: Hospitality
 - **Territory**: Africa / Sub-Saharan Africa
 - **Country**: South Africa / Mauritius / Ivory Coast
+- **Flag**: MU / ZA
 - **Website**: https://www.kasada.com/
 
 ## Contact

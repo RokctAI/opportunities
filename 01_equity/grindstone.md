@@ -8,6 +8,7 @@
 - **Industry**: Tech / High-Growth Innovation
 - **Territory**: South Africa / Africa
 - **Country**: South Africa
+- **Flag**: ZA
 - **Website**: https://grindstonexl.com/
 
 ## Contact

@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / AI / Climate / TechBio / Space
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.dcvc.com/
 
 ## Contact

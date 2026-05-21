@@ -8,6 +8,7 @@
 - **Industry**: Tech / Fintech / Enterprise / Consumer
 - **Territory**: Europe / Israel
 - **Country**: UK / Israel
+- **Flag**: IL / GB
 - **Website**: https://www.83north.com/
 
 ## Contact

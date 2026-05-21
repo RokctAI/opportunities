@@ -8,6 +8,7 @@
 - **Industry**: Deep Tech / Life Sciences / Climate / Hardware
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://sosv.com/
 
 ## Contact

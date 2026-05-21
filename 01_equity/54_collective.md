@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Africa
 - **Country**: South Africa / Nigeria / Kenya
+- **Flag**: KE / NG / ZA
 - **Website**: https://54collective.vc/
 
 ## Contact

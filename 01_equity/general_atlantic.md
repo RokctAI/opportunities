@@ -8,6 +8,7 @@
 - **Industry**: Tech / Healthcare / Financial Services / Consumer / Life Sciences / Energy Transition
 - **Territory**: Global
 - **Country**: USA
+- **Flag**: US
 - **Website**: https://www.generalatlantic.com/
 
 ## Contact

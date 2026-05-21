@@ -8,6 +8,7 @@
 - **Industry**: Tech / AI / Deep Tech
 - **Territory**: Southeast Asia
 - **Country**: Singapore
+- **Flag**: SG
 - **Website**: https://www.monkshill.com/
 
 ## Contact

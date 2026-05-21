@@ -8,6 +8,7 @@
 - **Industry**: Tech / Multi-sector
 - **Territory**: Latin America / Brazil
 - **Country**: Brazil
+- **Flag**: BR
 - **Website**: https://www.canary.com.br/
 
 ## Contact

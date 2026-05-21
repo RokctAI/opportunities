@@ -8,6 +8,7 @@
 - **Industry**: Fintech / Software / Web3
 - **Territory**: MENA / Middle East
 - **Country**: United Arab Emirates
+- **Flag**: AE
 - **Website**: https://shorooq.com/
 
 ## Contact

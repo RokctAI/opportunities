@@ -8,6 +8,7 @@
 - **Industry**: Tech / Multi-sector
 - **Territory**: Southeast Asia / Indonesia
 - **Country**: Indonesia / Singapore
+- **Flag**: ID / SG
 - **Website**: https://east.vc/
 
 ## Contact
