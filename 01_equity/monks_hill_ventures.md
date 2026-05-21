@@ -1,27 +1,26 @@
 ---
-# Equity Opportunity: Monk's Hill Ventures
+# Equity Opportunity: Monks Hill Ventures
 
 ## Quick Stats
-- **Organization**: Monk's Hill Ventures
+- **Organization**: Monks Hill Ventures
 - **Funder Type**: VC
-- **Funding Type**: Series A
-- **Industry**: Tech
+- **Funding Type**: Series A / Series B
+- **Industry**: Tech / AI / Deep Tech
 - **Territory**: Southeast Asia
 - **Country**: Singapore
-- **Flag**: SG
-- **Website**: https://monkshill.com
+- **Website**: https://www.monkshill.com/
 
 ## Contact
-- **Contact Person**: Kuo-Yi Lim
-- **LinkedIn**: https://www.linkedin.com/in/kuoyilim
-- **Phone**:
+- **Contact Person**: Peng T. Ong
+- **LinkedIn**: https://www.linkedin.com/company/monk's-hill-ventures/
+- **Phone**: 
 
 ## Source
-- **Source / Verification**: https://monkshill.com/team
-- **Notes**:
+- **Source / Verification**: https://waveup.com/blog/venture-capital-angel-investors-singapore/
+- **Notes**: Pan-Southeast Asia early-stage VC. Discovered via equity sync from failory_za.md.
 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-04-14
+- **Last Verified**: 2026-05-21
 ---

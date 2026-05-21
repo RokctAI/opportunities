@@ -8,13 +8,12 @@
 - **Industry**: Tech / Healthcare / Financial Services / Consumer / Life Sciences / Energy Transition
 - **Territory**: Global
 - **Country**: USA
-- **Flag**: US
 - **Website**: https://www.generalatlantic.com/
 
 ## Contact
 - **Contact Person**: William E. Ford
 - **LinkedIn**: https://www.linkedin.com/company/general-atlantic/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.generalatlantic.com/team/

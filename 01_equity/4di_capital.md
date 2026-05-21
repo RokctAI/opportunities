@@ -8,13 +8,12 @@
 - **Industry**: Tech / Fintech / InsurTech / Healthcare
 - **Territory**: Africa / Global
 - **Country**: South Africa
-- **Flag**: ZA
 - **Website**: https://4dicapital.com/
 
 ## Contact
 - **Contact Person**: Justin Stanford
 - **LinkedIn**: https://www.linkedin.com/in/justinstanford
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.4dicapital.com/the-team
@@ -23,5 +22,5 @@
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-05-20
+- **Last Verified**: 2026-05-21
 ---

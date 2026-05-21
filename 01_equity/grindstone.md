@@ -8,13 +8,12 @@
 - **Industry**: Tech / High-Growth Innovation
 - **Territory**: South Africa / Africa
 - **Country**: South Africa
-- **Flag**: ZA
 - **Website**: https://grindstonexl.com/
 
 ## Contact
 - **Contact Person**: Keet van Zyl
 - **LinkedIn**: https://www.linkedin.com/in/keetvanzyl/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://grindstonexl.com/

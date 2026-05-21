@@ -8,13 +8,12 @@
 - **Industry**: Tech / Fintech / Food Security / Healthcare
 - **Territory**: South Africa / Global
 - **Country**: South Africa
-- **Flag**: ZA
 - **Website**: https://kingsoncapital.com/
 
 ## Contact
 - **Contact Person**: Gavin Reardon
 - **LinkedIn**: https://www.linkedin.com/in/gavreardon/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://kingsoncapital.com/about-kingson/

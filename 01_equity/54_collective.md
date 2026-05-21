@@ -8,7 +8,6 @@
 - **Industry**: Tech
 - **Territory**: Africa
 - **Country**: South Africa / Nigeria / Kenya
-- **Flag**: KE / NG / ZA
 - **Website**: https://54collective.vc/
 
 ## Contact
@@ -23,5 +22,5 @@
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-05-20
+- **Last Verified**: 2026-05-21
 ---

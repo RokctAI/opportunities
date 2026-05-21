@@ -8,13 +8,12 @@
 - **Industry**: Hospitality
 - **Territory**: Africa / Sub-Saharan Africa
 - **Country**: South Africa / Mauritius / Ivory Coast
-- **Flag**: MU / ZA
 - **Website**: https://www.kasada.com/
 
 ## Contact
 - **Contact Person**: Olivier Granet
 - **LinkedIn**: https://za.linkedin.com/company/kasada-capital-management
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.kasada.com/en/about-us/who-we-are
