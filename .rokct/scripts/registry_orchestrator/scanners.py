@@ -14,7 +14,8 @@ DEFAULT_AI_BLOCK = """- [ ] Review Tender Documents | 1
 INTERESTING_KEYS = [
     "Category", "Tender Type", "Province", "Institution", # Tenders
     "Industry", "Territory", "Funder Type", "Funding Type", "Flag", # Equity
-    "Focus Area" # Grants
+    "Focus Area", # Grants
+    "Multinational Company", "Investment / Funding Type", "Application Status" # EEIP
 ]
 
 def scan_registry(name, path, base_dir):
@@ -88,8 +89,8 @@ def scan_registry(name, path, base_dir):
                         else:
                             todo_list.append(str(file.relative_to(base_dir)))
 
-                # 5. Equity / Grants Unverified Logic
-                if name in ["Equity", "Grants"]:
+                # 5. Equity / Grants / EEIP Unverified Logic
+                if name in ["Equity", "Grants", "EEIP"]:
                     if "Verification Status**: UNVERIFIED" in content or "Verification Status**: IN_PROGRESS" in content:
                         todo_list.append(str(file.relative_to(base_dir)))
                             
