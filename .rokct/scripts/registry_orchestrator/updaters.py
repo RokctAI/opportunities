@@ -20,7 +20,7 @@ def update_readme(readme_path, stats):
     rows = []
     total_all = 0
     verified_all = 0
-    icons = {"Equity": "🏦", "Grants": "📜", "Tenders": "🏗️"}
+    icons = {"Equity": "🏦", "Grants": "📜", "Tenders": "🏗️", "EEIP": "🤝"}
     
     for name, data in stats.items():
         total, verified, _, _, _ = data
