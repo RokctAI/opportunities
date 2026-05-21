@@ -8,7 +8,7 @@
 - **Focus Area**: Enterprise Development / Skills Development / R&D
 - **Investment / Funding Type**: Grants / Incubation / Supplier Development
 - **Region / Territory**: South Africa
-- **Website**: https://www.samsung.com/za/
+- **Website**: https://www.samsung.com/za/local-programme/ed-programme/
 
 ## Program Benefits
 - **Financial Support**: Enterprise development grants, research funding at South African universities, and supplier development funding.
@@ -21,8 +21,8 @@
 Samsung South Africa's R280 million EEIP focuses on ICT and electronic engineering. It includes the Samsung Innovation Campus for software and coding skills, university R&D funding, and direct incubation/supplier development support for Black-owned electronic and ICT vendors.
 
 ## How to Apply
-- **Apply Link**: https://www.samsung.com/za/
-- **Source**: https://www.samsung.com/za/
+- **Apply Link**: https://www.samsung.com/za/local-programme/ed-programme/
+- **Source**: https://www.samsung.com/za/local-programme/ed-programme/
 - **Source Card**: 04_eeip/sources/samsung.md
 
 ## Audit & Status
