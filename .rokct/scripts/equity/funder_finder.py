@@ -1,56 +1,47 @@
-import re
 import requests
 from bs4 import BeautifulSoup
-from funder_manager import FunderManager
+import re
+from pathlib import Path
 import sys
 
+# Identify project root
+BASE_DIR = Path(__file__).resolve()
+while not (BASE_DIR / '.rokct').exists():
+    BASE_DIR = BASE_DIR.parent
+
+# Mocking FunderManager for local call if needed
+sys.path.append(str(BASE_DIR / '.rokct' / 'scripts' / 'equity'))
+from funder_manager import FunderManager
+
 def find_candidates(url):
-    manager = FunderManager()
+    manager = FunderManager(registry_path=str(BASE_DIR / '01_equity'))
     try:
-        response = requests.get(url, timeout=15)
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, timeout=15, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Heuristic: look for list items or table cells that look like names
-        potential_names = []
+        candidates = []
 
-        # Check list items
-        for li in soup.find_all('li'):
-            text = li.get_text().strip()
-            if 3 < len(text) < 50:
-                potential_names.append(text)
+        # Look for numbers followed by dot in h2 or other elements
+        # Failory uses <h2>1. <a ...>Name</a></h2>
+        for h2 in soup.find_all(['h2', 'h3']):
+            text = h2.get_text().strip()
+            match = re.search(r'^\d+\.\s+(.*)', text)
+            if match:
+                name = match.group(1).strip()
+                if not manager.is_duplicate(name):
+                    candidates.append(name)
 
-        # Check table cells
-        for td in soup.find_all('td'):
-            text = td.get_text().strip()
-            if 3 < len(text) < 50:
-                potential_names.append(text)
+        # Fallback: look for common patterns if nothing found
+        if not candidates:
+            for item in soup.find_all(['li', 'strong']):
+                text = item.get_text().strip()
+                if 3 < len(text) < 50 and re.match(r'^[A-Z0-9]', text):
+                    if not manager.is_duplicate(text):
+                        candidates.append(text)
 
-        # Check links
-        for a in soup.find_all('a'):
-            text = a.get_text().strip()
-            if 3 < len(text) < 50:
-                potential_names.append(text)
-
-        unique_candidates = sorted(list(set(potential_names)))
-
-        new_candidates = []
-        for name in unique_candidates:
-            if not manager.is_duplicate(name):
-                new_candidates.append(name)
-
-        return new_candidates
+        return list(set(candidates))
     except Exception as e:
         print(f"Error fetching {url}: {e}")
         return []
-
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python3 funder_finder.py <URL>")
-        sys.exit(1)
-
-    url = sys.argv[1]
-    new_ones = find_candidates(url)
-    print(f"Found {len(new_ones)} potential new funders:")
-    for name in new_ones[:50]:
-        print(f"- {name}")
