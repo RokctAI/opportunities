@@ -13,11 +13,11 @@
 ## Contact
 - **Contact Person**: Roo Rogers
 - **LinkedIn**: https://www.linkedin.com/in/roorogers/
-- **Phone**: 
+- **Phone**:
 
 ## Source
 - **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-africa
-- **Notes**: Formerly known as Founders Factory Africa. Provides capital and venture engineering. Verified active in May 2026. Note: Website (54collective.vc) currently returns SSL error 526.
+- **Notes**: Formerly known as Founders Factory Africa. Provides capital and venture engineering. Discovered via equity sync from failory_za.md. Note: Website (54collective.vc) currently returns SSL error 526.
 
 ## Audit & Status
 - **Status**: ACTIVE

@@ -17,7 +17,7 @@
 
 ## Source
 - **Source / Verification**: https://www.norrsken22.com/
-- **Notes**: $205 million tech growth fund backed by 30+ unicorn founders. Verified active in May 2026.
+- **Notes**: $205 million tech growth fund backed by 30+ unicorn founders. Discovered via equity sync from failory_za.md. Verified active in May 2026.
 
 ## Audit & Status
 - **Status**: ACTIVE

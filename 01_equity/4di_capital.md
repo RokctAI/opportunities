@@ -17,7 +17,7 @@
 
 ## Source
 - **Source / Verification**: https://www.4dicapital.com/the-team
-- **Notes**: Authorized FSP no. 51250. Verified active in May 2026.
+- **Notes**: Discovered via equity sync from failory_za.md. Authorized FSP no. 51250.
 
 ## Audit & Status
 - **Status**: ACTIVE
