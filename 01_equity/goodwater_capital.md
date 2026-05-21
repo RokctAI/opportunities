@@ -14,7 +14,7 @@
 ## Contact
 - **Contact Person**: Unspecified
 - **LinkedIn**: Unspecified
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/

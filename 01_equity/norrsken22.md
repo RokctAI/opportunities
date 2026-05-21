@@ -8,13 +8,12 @@
 - **Industry**: Tech / Fintech / Medtech / Edtech / Market Enablement
 - **Territory**: Africa / Sub-Saharan Africa
 - **Country**: South Africa / Nigeria / Kenya / Ghana
-- **Flag**: GH / KE / NG / ZA
 - **Website**: https://www.norrsken22.com/
 
 ## Contact
 - **Contact Person**: Natalie Kolbe
 - **LinkedIn**: https://www.linkedin.com/in/natalie-kolbe-64b96711/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.norrsken22.com/

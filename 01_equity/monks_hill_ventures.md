@@ -8,13 +8,12 @@
 - **Industry**: Tech / AI / Deep Tech
 - **Territory**: Southeast Asia
 - **Country**: Singapore
-- **Flag**: SG
 - **Website**: https://www.monkshill.com/
 
 ## Contact
 - **Contact Person**: Peng T. Ong
 - **LinkedIn**: https://www.linkedin.com/company/monk's-hill-ventures/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://waveup.com/blog/venture-capital-angel-investors-singapore/

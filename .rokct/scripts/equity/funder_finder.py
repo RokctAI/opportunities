@@ -22,7 +22,7 @@ def find_candidates(url):
         soup = BeautifulSoup(response.text, 'html.parser')
 
         candidates = []
-
+        
         # 1. Failory pattern (<h2>1. <a ...>Name</a></h2>)
         if "failory.com" in url:
             for h2 in soup.find_all(['h2', 'h3']):

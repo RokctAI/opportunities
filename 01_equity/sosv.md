@@ -8,13 +8,12 @@
 - **Industry**: Deep Tech / Life Sciences / Climate / Hardware
 - **Territory**: Global
 - **Country**: USA
-- **Flag**: US
 - **Website**: https://sosv.com/
 
 ## Contact
 - **Contact Person**: Sean O'Sullivan
 - **LinkedIn**: https://www.linkedin.com/company/sosv/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://sosv.com/

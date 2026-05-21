@@ -294,3 +294,243 @@
 2026-05-21 14:22:03,100 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-south-africa
 2026-05-21 14:22:03,296 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-south-africa
 2026-05-21 14:22:03,296 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 15:33:14,071 - INFO - Processing source: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 15:33:14,534 - INFO - Found 0 candidates from https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 15:33:14,534 - INFO - Added 0 new funders from https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 15:33:14,534 - INFO - Processing source: https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 15:33:14,970 - INFO - Found 1 candidates from https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 15:33:14,973 - INFO - Created new funder card: /app/01_equity/canary_ventures.md
+2026-05-21 15:33:14,973 - INFO - Added 1 new funders from https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 15:33:14,973 - INFO - Processing source: https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 15:33:15,372 - INFO - Found 10 candidates from https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 15:33:15,375 - INFO - Created new funder card: /app/01_equity/capital_raised.md
+2026-05-21 15:33:15,377 - INFO - Created new funder card: /app/01_equity/emea.md
+2026-05-21 15:33:15,378 - INFO - Created new funder card: /app/01_equity/asia.md
+2026-05-21 15:33:15,379 - INFO - Created new funder card: /app/01_equity/list.md
+2026-05-21 15:33:15,380 - INFO - Created new funder card: /app/01_equity/americas.md
+2026-05-21 15:33:15,381 - INFO - Created new funder card: /app/01_equity/see_also.md
+2026-05-21 15:33:15,382 - INFO - Created new funder card: /app/01_equity/contents.md
+2026-05-21 15:33:15,383 - INFO - Created new funder card: /app/01_equity/references.md
+2026-05-21 15:33:15,383 - INFO - Created new funder card: /app/01_equity/assets_under_management.md
+2026-05-21 15:33:15,384 - INFO - Created new funder card: /app/01_equity/deal_flow.md
+2026-05-21 15:33:15,384 - INFO - Added 10 new funders from https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 15:33:15,384 - INFO - Processing source: https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 15:33:17,385 - INFO - Found 5 candidates from https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 15:33:17,387 - INFO - Created new funder card: /app/01_equity/hummingbird_ventures.md
+2026-05-21 15:33:17,387 - INFO - Created new funder card: /app/01_equity/overview.md
+2026-05-21 15:33:17,388 - INFO - Created new funder card: /app/01_equity/vc_funds.md
+2026-05-21 15:33:17,389 - INFO - Created new funder card: /app/01_equity/related.md
+2026-05-21 15:33:17,389 - INFO - Created new funder card: /app/01_equity/20vc_(the_twenty_minute_vc).md
+2026-05-21 15:33:17,389 - INFO - Added 5 new funders from https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 15:33:17,389 - INFO - Processing source: https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 15:33:18,725 - INFO - Found 0 candidates from https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 15:33:18,725 - INFO - Added 0 new funders from https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 15:33:18,725 - INFO - Processing source: https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 15:33:19,104 - INFO - Found 0 candidates from https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 15:33:19,105 - INFO - Added 0 new funders from https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 15:33:19,105 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 15:33:19,384 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 15:33:19,385 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 15:33:19,385 - INFO - Processing source: https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 15:33:19,742 - INFO - Found 2 candidates from https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 15:33:19,743 - INFO - Created new funder card: /app/01_equity/60%_off.md
+2026-05-21 15:33:19,743 - INFO - Created new funder card: /app/01_equity/check_it_out_>.md
+2026-05-21 15:33:19,743 - INFO - Added 2 new funders from https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 15:33:19,743 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 15:33:19,979 - INFO - Found 6 candidates from https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 15:33:19,980 - INFO - Created new funder card: /app/01_equity/mizuho_capital.md
+2026-05-21 15:33:19,981 - INFO - Created new funder card: /app/01_equity/delight_ventures.md
+2026-05-21 15:33:19,982 - INFO - Created new funder card: /app/01_equity/ntt_docomo_ventures.md
+2026-05-21 15:33:19,982 - INFO - Created new funder card: /app/01_equity/sbi_investment.md
+2026-05-21 15:33:19,983 - INFO - Created new funder card: /app/01_equity/nissay_capital.md
+2026-05-21 15:33:19,983 - INFO - Created new funder card: /app/01_equity/aozora_corporate_investment.md
+2026-05-21 15:33:19,984 - INFO - Added 6 new funders from https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 15:33:19,984 - INFO - Processing source: https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 15:33:20,640 - INFO - Found 26 candidates from https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 15:33:20,642 - INFO - Created new funder card: /app/01_equity/20_dst_global_(india).md
+2026-05-21 15:33:20,642 - INFO - Created new funder card: /app/01_equity/3_z47_(formerly_matrix_partners_india).md
+2026-05-21 15:33:20,643 - INFO - Created new funder card: /app/01_equity/15_stellaris_venture_partners.md
+2026-05-21 15:33:20,644 - INFO - Created new funder card: /app/01_equity/4_nexus_venture_partners.md
+2026-05-21 15:33:20,644 - INFO - Created new funder card: /app/01_equity/6_blume_ventures.md
+2026-05-21 15:33:20,645 - INFO - Created new funder card: /app/01_equity/17_together_fund.md
+2026-05-21 15:33:20,646 - INFO - Created new funder card: /app/01_equity/vc_salary_benchmarks_in_india_(2026).md
+2026-05-21 15:33:20,647 - INFO - Created new funder card: /app/01_equity/how_vc_firms_in_india_hire.md
+2026-05-21 15:33:20,647 - INFO - Created new funder card: /app/01_equity/9_lightspeed_india_partners.md
+2026-05-21 15:33:20,648 - INFO - Created new funder card: /app/01_equity/how_to_break_into_venture_capital_in_india.md
+2026-05-21 15:33:20,649 - INFO - Created new funder card: /app/01_equity/20_top_venture_capital_firms_in_india_(2026).md
+2026-05-21 15:33:20,650 - INFO - Created new funder card: /app/01_equity/16_waterbridge_ventures.md
+2026-05-21 15:33:20,650 - INFO - Created new funder card: /app/01_equity/14_prime_venture_partners.md
+2026-05-21 15:33:20,651 - INFO - Created new funder card: /app/01_equity/13_fireside_ventures.md
+2026-05-21 15:33:20,652 - INFO - Created new funder card: /app/01_equity/5_kalaari_capital.md
+2026-05-21 15:33:20,652 - INFO - Created new funder card: /app/01_equity/ready_to_build_your_vc_career?.md
+2026-05-21 15:33:20,653 - INFO - Created new funder card: /app/01_equity/19_jungle_ventures.md
+2026-05-21 15:33:20,653 - INFO - Created new funder card: /app/01_equity/12_india_quotient.md
+2026-05-21 15:33:20,654 - INFO - Created new funder card: /app/01_equity/7_elevation_capital_(formerly_saif_partners).md
+2026-05-21 15:33:20,655 - INFO - Created new funder card: /app/01_equity/18_iron_pillar.md
+2026-05-21 15:33:20,655 - INFO - Created new funder card: /app/01_equity/11_chiratae_ventures.md
+2026-05-21 15:33:20,656 - INFO - Created new funder card: /app/01_equity/2_accel.md
+2026-05-21 15:33:20,657 - INFO - Created new funder card: /app/01_equity/why_india’s_vc_landscape_is_booming_in_2026.md
+2026-05-21 15:33:20,657 - INFO - Created new funder card: /app/01_equity/frequently_asked_questions.md
+2026-05-21 15:33:20,658 - INFO - Created new funder card: /app/01_equity/10_3one4_capital.md
+2026-05-21 15:33:20,658 - INFO - Created new funder card: /app/01_equity/8_tiger_global_(india).md
+2026-05-21 15:33:20,658 - INFO - Added 26 new funders from https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 15:33:20,658 - INFO - Processing source: https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 15:33:20,948 - INFO - Found 0 candidates from https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 15:33:20,949 - INFO - Added 0 new funders from https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 15:33:20,949 - INFO - Processing source: https://www.openvc.app/country/United%20Kingdom
+2026-05-21 15:33:21,128 - INFO - Found 0 candidates from https://www.openvc.app/country/United%20Kingdom
+2026-05-21 15:33:21,128 - INFO - Added 0 new funders from https://www.openvc.app/country/United%20Kingdom
+2026-05-21 15:33:21,128 - INFO - Processing source: https://www.openvc.app/country/USA
+2026-05-21 15:33:21,267 - INFO - Found 0 candidates from https://www.openvc.app/country/USA
+2026-05-21 15:33:21,267 - INFO - Added 0 new funders from https://www.openvc.app/country/USA
+2026-05-21 15:33:21,268 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 15:33:21,457 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 15:33:21,458 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 16:28:52,262 - INFO - Processing source: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 16:28:52,618 - INFO - Found 0 candidates from https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 16:28:52,619 - INFO - Added 0 new funders from https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 16:28:52,619 - INFO - Processing source: https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 16:28:53,371 - INFO - Found 0 candidates from https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 16:28:53,371 - INFO - Added 0 new funders from https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 16:28:53,371 - INFO - Processing source: https://waveup.com/blog/venture-capital-firms-australia-vc-ecosystem-overview/
+2026-05-21 16:28:53,891 - INFO - Found 8 candidates from https://waveup.com/blog/venture-capital-firms-australia-vc-ecosystem-overview/
+2026-05-21 16:28:53,892 - INFO - Created new funder card: /app/01_equity/most_active_australia_venture_capital_funds.md
+2026-05-21 16:28:53,892 - INFO - Created new funder card: /app/01_equity/best_5_australia_vcs_at_a_glance.md
+2026-05-21 16:28:53,893 - INFO - Created new funder card: /app/01_equity/methodology_—_how_we_keep_this_list_current.md
+2026-05-21 16:28:53,893 - INFO - Created new funder card: /app/01_equity/related_posts.md
+2026-05-21 16:28:53,894 - INFO - Created new funder card: /app/01_equity/how_to_raise_venture_capital_in_australia_in_2026.md
+2026-05-21 16:28:53,894 - INFO - Created new funder card: /app/01_equity/why_australia_founders_need_australia_vcs.md
+2026-05-21 16:28:53,895 - INFO - Created new funder card: /app/01_equity/seo_outsourcing_guide_for_startups.md
+2026-05-21 16:28:53,896 - INFO - Created new funder card: /app/01_equity/where_the_money_is_going_in_2025–2026.md
+2026-05-21 16:28:53,896 - INFO - Added 8 new funders from https://waveup.com/blog/venture-capital-firms-australia-vc-ecosystem-overview/
+2026-05-21 16:28:53,896 - INFO - Processing source: https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 16:28:54,302 - INFO - Found 0 candidates from https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 16:28:54,303 - INFO - Added 0 new funders from https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 16:28:54,303 - INFO - Processing source: https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 16:28:55,532 - INFO - Found 0 candidates from https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 16:28:55,532 - INFO - Added 0 new funders from https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 16:28:55,532 - INFO - Processing source: https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 16:28:56,820 - INFO - Found 0 candidates from https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 16:28:56,820 - INFO - Added 0 new funders from https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 16:28:56,821 - INFO - Processing source: https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 16:28:57,212 - INFO - Found 0 candidates from https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 16:28:57,213 - INFO - Added 0 new funders from https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 16:28:57,213 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 16:28:57,454 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 16:28:57,454 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 16:28:57,454 - INFO - Processing source: https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 16:28:57,887 - INFO - Found 0 candidates from https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 16:28:57,887 - INFO - Added 0 new funders from https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 16:28:57,887 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 16:28:58,215 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 16:28:58,215 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 16:28:58,215 - INFO - Processing source: https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 16:28:58,866 - INFO - Found 0 candidates from https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 16:28:58,867 - INFO - Added 0 new funders from https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 16:28:58,867 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-israel
+2026-05-21 16:28:59,175 - INFO - Found 5 candidates from https://www.failory.com/blog/venture-capital-firms-israel
+2026-05-21 16:28:59,176 - INFO - Created new funder card: /app/01_equity/pitango_vc.md
+2026-05-21 16:28:59,177 - INFO - Created new funder card: /app/01_equity/f2_venture_capital.md
+2026-05-21 16:28:59,177 - INFO - Created new funder card: /app/01_equity/hetz_ventures.md
+2026-05-21 16:28:59,177 - INFO - Created new funder card: /app/01_equity/pontifax.md
+2026-05-21 16:28:59,177 - INFO - Created new funder card: /app/01_equity/cardumen_capital.md
+2026-05-21 16:28:59,177 - INFO - Added 5 new funders from https://www.failory.com/blog/venture-capital-firms-israel
+2026-05-21 16:28:59,178 - INFO - Processing source: https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 16:28:59,412 - INFO - Found 0 candidates from https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 16:28:59,412 - INFO - Added 0 new funders from https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 16:28:59,412 - INFO - Processing source: https://www.openvc.app/country/United%20Kingdom
+2026-05-21 16:28:59,571 - INFO - Found 0 candidates from https://www.openvc.app/country/United%20Kingdom
+2026-05-21 16:28:59,572 - INFO - Added 0 new funders from https://www.openvc.app/country/United%20Kingdom
+2026-05-21 16:28:59,572 - INFO - Processing source: https://waveup.com/blog/top-venture-capital-firms-germany/
+2026-05-21 16:29:00,044 - INFO - Found 5 candidates from https://waveup.com/blog/top-venture-capital-firms-germany/
+2026-05-21 16:29:00,045 - INFO - Created new funder card: /app/01_equity/best_5_germany_vcs_at_a_glance.md
+2026-05-21 16:29:00,045 - INFO - Created new funder card: /app/01_equity/most_active_germany_venture_capital_funds.md
+2026-05-21 16:29:00,045 - INFO - Created new funder card: /app/01_equity/why_germany_founders_need_germany_vcs.md
+2026-05-21 16:29:00,046 - INFO - Created new funder card: /app/01_equity/germany_sub_niches:_which_one_matches_your_raise?.md
+2026-05-21 16:29:00,046 - INFO - Created new funder card: /app/01_equity/how_to_raise_venture_capital_in_germany_in_2026.md
+2026-05-21 16:29:00,046 - INFO - Added 5 new funders from https://waveup.com/blog/top-venture-capital-firms-germany/
+2026-05-21 16:29:00,046 - INFO - Processing source: https://www.openvc.app/country/USA
+2026-05-21 16:29:00,193 - INFO - Found 0 candidates from https://www.openvc.app/country/USA
+2026-05-21 16:29:00,193 - INFO - Added 0 new funders from https://www.openvc.app/country/USA
+2026-05-21 16:29:00,193 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 16:29:00,378 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 16:29:00,379 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 16:29:00,379 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-canada
+2026-05-21 16:29:00,604 - INFO - Found 6 candidates from https://www.failory.com/blog/venture-capital-firms-canada
+2026-05-21 16:29:00,607 - INFO - Created new funder card: /app/01_equity/georgian.md
+2026-05-21 16:29:00,607 - INFO - Created new funder card: /app/01_equity/fonds_de_solidarité_ftq.md
+2026-05-21 16:29:00,608 - INFO - Created new funder card: /app/01_equity/golden_ventures.md
+2026-05-21 16:29:00,608 - INFO - Created new funder card: /app/01_equity/version_one_ventures.md
+2026-05-21 16:29:00,609 - INFO - Created new funder card: /app/01_equity/whitecap_venture_partners.md
+2026-05-21 16:29:00,609 - INFO - Created new funder card: /app/01_equity/omers_ventures.md
+2026-05-21 16:29:00,609 - INFO - Added 6 new funders from https://www.failory.com/blog/venture-capital-firms-canada
+2026-05-21 16:46:21,155 - INFO - Processing source: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 16:46:21,534 - INFO - Found 0 candidates from https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 16:46:21,534 - INFO - Added 0 new funders from https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
+2026-05-21 16:46:21,534 - INFO - Processing source: https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 16:46:21,891 - INFO - Found 0 candidates from https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 16:46:21,892 - INFO - Added 0 new funders from https://visible.vc/blog/venture-capital-in-latin-america/
+2026-05-21 16:46:21,892 - INFO - Processing source: https://waveup.com/blog/venture-capital-firms-australia-vc-ecosystem-overview/
+2026-05-21 16:46:22,163 - INFO - Found 0 candidates from https://waveup.com/blog/venture-capital-firms-australia-vc-ecosystem-overview/
+2026-05-21 16:46:22,164 - INFO - Added 0 new funders from https://waveup.com/blog/venture-capital-firms-australia-vc-ecosystem-overview/
+2026-05-21 16:46:22,164 - INFO - Processing source: https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 16:46:22,536 - INFO - Found 0 candidates from https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 16:46:22,537 - INFO - Added 0 new funders from https://en.wikipedia.org/wiki/List_of_venture_capital_firms
+2026-05-21 16:46:22,537 - INFO - Processing source: https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 16:46:23,775 - INFO - Found 0 candidates from https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 16:46:23,775 - INFO - Added 0 new funders from https://basepoint.vc/guides/top-european-venture-capital-firms-2026
+2026-05-21 16:46:23,775 - INFO - Processing source: https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 16:46:25,073 - INFO - Found 0 candidates from https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 16:46:25,073 - INFO - Added 0 new funders from https://shizune.co/investors/saas-vc-funds-africa
+2026-05-21 16:46:25,073 - INFO - Processing source: https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 16:46:25,489 - INFO - Found 0 candidates from https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 16:46:25,489 - INFO - Added 0 new funders from https://visible.vc/blog/top-venture-capitalists-southeast-asia/
+2026-05-21 16:46:25,490 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 16:46:25,791 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 16:46:25,791 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-singapore
+2026-05-21 16:46:25,791 - INFO - Processing source: https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 16:46:26,172 - INFO - Found 0 candidates from https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 16:46:26,172 - INFO - Added 0 new funders from https://www.basetemplates.com/investors/top-9-vc-investors-in-the-united-arab-emirates
+2026-05-21 16:46:26,172 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 16:46:26,427 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 16:46:26,428 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-japan
+2026-05-21 16:46:26,428 - INFO - Processing source: https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 16:46:26,960 - INFO - Found 0 candidates from https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 16:46:26,961 - INFO - Added 0 new funders from https://quintedge.com/blog/venture-capital-firms-in-india
+2026-05-21 16:46:26,961 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-israel
+2026-05-21 16:46:27,266 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-israel
+2026-05-21 16:46:27,266 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-israel
+2026-05-21 16:46:27,266 - INFO - Processing source: https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 16:46:27,535 - INFO - Found 0 candidates from https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 16:46:27,535 - INFO - Added 0 new funders from https://www.failory.com/blog/climate-sustainability-venture-capital-firms
+2026-05-21 16:46:27,535 - INFO - Processing source: https://www.openvc.app/country/United%20Kingdom
+2026-05-21 16:46:27,689 - INFO - Found 0 candidates from https://www.openvc.app/country/United%20Kingdom
+2026-05-21 16:46:27,690 - INFO - Added 0 new funders from https://www.openvc.app/country/United%20Kingdom
+2026-05-21 16:46:27,690 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-sweden
+2026-05-21 16:46:27,896 - INFO - Found 6 candidates from https://www.failory.com/blog/venture-capital-firms-sweden
+2026-05-21 16:46:27,897 - INFO - Created new funder card: /app/01_equity/spintop_ventures.md
+2026-05-21 16:46:27,897 - INFO - Created new funder card: /app/01_equity/eqt.md
+2026-05-21 16:46:27,897 - INFO - Created new funder card: /app/01_equity/luminar_ventures.md
+2026-05-21 16:46:27,898 - INFO - Created new funder card: /app/01_equity/sound_bioventures.md
+2026-05-21 16:46:27,898 - INFO - Created new funder card: /app/01_equity/pale_blue_dot.md
+2026-05-21 16:46:27,898 - INFO - Created new funder card: /app/01_equity/ampli_ventures.md
+2026-05-21 16:46:27,898 - INFO - Added 6 new funders from https://www.failory.com/blog/venture-capital-firms-sweden
+2026-05-21 16:46:27,898 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-france
+2026-05-21 16:46:28,111 - INFO - Found 4 candidates from https://www.failory.com/blog/venture-capital-firms-france
+2026-05-21 16:46:28,111 - INFO - Created new funder card: /app/01_equity/iris.md
+2026-05-21 16:46:28,111 - INFO - Created new funder card: /app/01_equity/sofinnova_partners.md
+2026-05-21 16:46:28,112 - INFO - Created new funder card: /app/01_equity/c4_ventures.md
+2026-05-21 16:46:28,114 - INFO - Created new funder card: /app/01_equity/supernova_invest.md
+2026-05-21 16:46:28,114 - INFO - Added 4 new funders from https://www.failory.com/blog/venture-capital-firms-france
+2026-05-21 16:46:28,114 - INFO - Processing source: https://waveup.com/blog/top-venture-capital-firms-germany/
+2026-05-21 16:46:28,417 - INFO - Found 0 candidates from https://waveup.com/blog/top-venture-capital-firms-germany/
+2026-05-21 16:46:28,418 - INFO - Added 0 new funders from https://waveup.com/blog/top-venture-capital-firms-germany/
+2026-05-21 16:46:28,418 - INFO - Processing source: https://www.openvc.app/country/USA
+2026-05-21 16:46:28,562 - INFO - Found 0 candidates from https://www.openvc.app/country/USA
+2026-05-21 16:46:28,562 - INFO - Added 0 new funders from https://www.openvc.app/country/USA
+2026-05-21 16:46:28,562 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 16:46:28,767 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 16:46:28,767 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-south-africa
+2026-05-21 16:46:28,767 - INFO - Processing source: https://www.failory.com/blog/venture-capital-firms-canada
+2026-05-21 16:46:29,001 - INFO - Found 0 candidates from https://www.failory.com/blog/venture-capital-firms-canada
+2026-05-21 16:46:29,002 - INFO - Added 0 new funders from https://www.failory.com/blog/venture-capital-firms-canada

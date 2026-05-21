@@ -8,13 +8,12 @@
 - **Industry**: Marketplaces / Consumer Tech
 - **Territory**: Global
 - **Country**: USA
-- **Flag**: US
 - **Website**: https://fjlabs.com/
 
 ## Contact
 - **Contact Person**: Fabrice Grinda
 - **LinkedIn**: https://www.linkedin.com/company/fj-labs/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://fjlabs.com/

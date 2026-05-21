@@ -8,13 +8,12 @@
 - **Industry**: SaaS / B2B
 - **Territory**: Latin America
 - **Country**: Brazil
-- **Flag**: BR
 - **Website**: https://bossainvest.com/
 
 ## Contact
 - **Contact Person**: João Kepler
 - **LinkedIn**: https://www.linkedin.com/company/bossainvest/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://visible.vc/blog/venture-capital-in-latin-america/

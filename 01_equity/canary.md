@@ -8,13 +8,12 @@
 - **Industry**: Tech / Multi-sector
 - **Territory**: Latin America / Brazil
 - **Country**: Brazil
-- **Flag**: BR
 - **Website**: https://www.canary.com.br/
 
 ## Contact
 - **Contact Person**: Florian Hagenbuch
 - **LinkedIn**: https://www.linkedin.com/company/canaryvc/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://visible.vc/blog/venture-capital-in-latin-america/

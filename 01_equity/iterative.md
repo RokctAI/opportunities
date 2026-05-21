@@ -14,7 +14,7 @@
 ## Contact
 - **Contact Person**: Unspecified
 - **LinkedIn**: Unspecified
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-singapore

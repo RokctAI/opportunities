@@ -4,24 +4,23 @@
 ## Quick Stats
 - **Organization**: Grindstone
 - **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funding Type**: Seed / Early Stage
+- **Industry**: Tech / High-Growth Innovation
+- **Territory**: South Africa / Africa
+- **Country**: South Africa
+- **Website**: https://grindstonexl.com/
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
-- **Phone**:
+- **Contact Person**: Keet van Zyl
+- **LinkedIn**: https://www.linkedin.com/in/keetvanzyl/
+- **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-africa
-- **Notes**: Discovered via equity sync from failory_za.md
+- **Source / Verification**: https://grindstonexl.com/
+- **Notes**: Co-owned by Knife Capital and Thinkroom Limited. Discovered via equity sync from failory_za.md.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-05-20
 ---

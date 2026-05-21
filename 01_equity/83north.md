@@ -8,13 +8,12 @@
 - **Industry**: Tech / Fintech / Enterprise / Consumer
 - **Territory**: Europe / Israel
 - **Country**: UK / Israel
-- **Flag**: IL / GB
 - **Website**: https://www.83north.com/
 
 ## Contact
 - **Contact Person**: Laurel Bowden
 - **LinkedIn**: https://www.linkedin.com/in/laurel-bowden-0a8635/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.83north.com/team/

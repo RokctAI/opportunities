@@ -3,25 +3,24 @@
 
 ## Quick Stats
 - **Organization**: Kingson Capital Partners
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / Fintech / Food Security / Healthcare
+- **Territory**: South Africa / Global
+- **Country**: South Africa
+- **Website**: https://kingsoncapital.com/
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
-- **Phone**:
+- **Contact Person**: Gavin Reardon
+- **LinkedIn**: https://www.linkedin.com/in/gavreardon/
+- **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-africa
-- **Notes**: Discovered via equity sync from failory_za.md
+- **Source / Verification**: https://kingsoncapital.com/about-kingson/
+- **Notes**: Discovered via equity sync from failory_za.md. Verified active in May 2026.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-05-20
 ---

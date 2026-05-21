@@ -8,13 +8,12 @@
 - **Industry**: Fintech / Software / Web3
 - **Territory**: MENA / Middle East
 - **Country**: United Arab Emirates
-- **Flag**: AE
 - **Website**: https://shorooq.com/
 
 ## Contact
 - **Contact Person**: Mahmoud Adi
 - **LinkedIn**: https://www.linkedin.com/company/shorooqpartners/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-united-arab-emirates

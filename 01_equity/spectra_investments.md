@@ -14,7 +14,7 @@
 ## Contact
 - **Contact Person**: Unspecified
 - **LinkedIn**: Unspecified
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://visible.vc/blog/venture-capital-in-latin-america/

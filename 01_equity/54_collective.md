@@ -8,13 +8,12 @@
 - **Industry**: Tech
 - **Territory**: Africa
 - **Country**: South Africa / Nigeria / Kenya
-- **Flag**: KE / NG / ZA
 - **Website**: https://54collective.vc/
 
 ## Contact
 - **Contact Person**: Roo Rogers
 - **LinkedIn**: https://www.linkedin.com/in/roorogers/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-africa

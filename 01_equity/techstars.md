@@ -8,13 +8,12 @@
 - **Industry**: Tech / Multi-sector
 - **Territory**: Global
 - **Country**: USA
-- **Flag**: US
 - **Website**: https://www.techstars.com/
 
 ## Contact
 - **Contact Person**: David Cohen
 - **LinkedIn**: https://www.linkedin.com/company/techstars/
-- **Phone**:
+- **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.techstars.com/about
