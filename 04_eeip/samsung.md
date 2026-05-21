@@ -8,7 +8,7 @@
 - **Focus Area**: Enterprise Development / Skills Development / R&D
 - **Investment / Funding Type**: Grants / Incubation / Supplier Development
 - **Region / Territory**: South Africa
-- **Website**: https://www.samsung.com/za/local-programme/ed-programme/
+- **Website**: https://www.samsung.com/za/
 
 ## Program Benefits
 - **Financial Support**: Enterprise development grants, research funding at South African universities, and supplier development funding.
