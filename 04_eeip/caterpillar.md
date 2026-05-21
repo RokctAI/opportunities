@@ -21,8 +21,8 @@
 Caterpillar's EEIP focuses on localization and supplier development in the heavy machinery and engineering sectors. It aims to integrate South African Black-owned SMMEs into Caterpillar's global and local supply chains.
 
 ## How to Apply
-- **Apply Link**: https://www.cat.com/
-- **Source**: https://www.cat.com/
+- **Apply Link**: https://www.barloworld-equipment.com
+- **Source**: https://www.barloworld-equipment.com
 - **Source Card**: 04_eeip/sources/caterpillar.md
 
 ## Audit & Status

@@ -21,8 +21,8 @@
 The AWS Equity Equivalent Investment Programme is designed to accelerate the growth of Black-owned ICT small businesses. It provides high-potential businesses with AWS cloud credits, technical training, business mentorship, and access to the global AWS Partner Network.
 
 ## How to Apply
-- **Apply Link**: https://aws.amazon.com/
-- **Source**: https://aws.amazon.com/
+- **Apply Link**: https://aws.amazon.com/local/south-africa/
+- **Source**: https://aws.amazon.com/local/south-africa/
 - **Source Card**: 04_eeip/sources/aws.md
 
 ## Audit & Status

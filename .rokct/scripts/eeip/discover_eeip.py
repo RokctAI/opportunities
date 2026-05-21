@@ -41,8 +41,8 @@ PRE_SEEDED_PROGRAMS = [
         "non_financial_support": "Deep technical enablement, business mentoring, market access, and software training.",
         "eligibility": "51% or more Black-owned ICT businesses, Qualifying Small Enterprises (QSEs) or Exempted Micro Enterprises (EMEs), focused on software development or digital technology.",
         "description": "Microsoft South Africa's R1.3 billion Equity Equivalent Investment Programme (EEIP) is designed to accelerate the development of South African SMMEs in the ICT sector, focusing on cloud computing, AI, and digital transformation.",
-        "apply_link": "https://www.microsoft.com/en-za/",
-        "source": "https://www.microsoft.com/en-za/",
+        "apply_link": "https://www.microsoft.com/en-za/b-bbee/",
+        "source": "https://www.microsoft.com/en-za/b-bbee/",
         "source_card": "04_eeip/sources/microsoft.md"
     },
     {
@@ -58,8 +58,8 @@ PRE_SEEDED_PROGRAMS = [
         "non_financial_support": "Access to global AWS partner networks, technical training, architectural reviews, and business mentorship.",
         "eligibility": "51% Black-owned ICT startups, software developers, or digital product businesses with high scalability.",
         "description": "The AWS Equity Equivalent Investment Programme is designed to accelerate the growth of Black-owned ICT small businesses. It provides high-potential businesses with AWS cloud credits, technical training, business mentorship, and access to the global AWS Partner Network.",
-        "apply_link": "https://aws.amazon.com/",
-        "source": "https://aws.amazon.com/",
+        "apply_link": "https://aws.amazon.com/local/south-africa/",
+        "source": "https://aws.amazon.com/local/south-africa/",
         "source_card": "04_eeip/sources/aws.md"
     },
     {
@@ -92,8 +92,8 @@ PRE_SEEDED_PROGRAMS = [
         "non_financial_support": "Unemployed Black graduate development in high-performance computing, data science, and AI via Dell Khulisa Academy; incubation for technology startups.",
         "eligibility": "Black-owned ICT businesses or unemployed Black youth graduates in engineering, science, or technology disciplines.",
         "description": "Dell's EEIP incorporates the Khulisa Academy, which provides advanced training in ICT, high-performance computing, and data science for unemployed Black graduates. Additionally, Dell supports enterprise development by providing technology infrastructure and funding to emerging Black-owned ICT businesses.",
-        "apply_link": "https://www.dell.com/en-za",
-        "source": "https://www.dell.com/en-za",
+        "apply_link": "https://khulisaacademy.co.za",
+        "source": "https://khulisaacademy.co.za",
         "source_card": "04_eeip/sources/dell.md"
     },
     {
@@ -109,8 +109,8 @@ PRE_SEEDED_PROGRAMS = [
         "non_financial_support": "Samsung Innovation Campus (SIC) software engineering training, supplier onboarding, and digital hub access.",
         "eligibility": "Black-owned electronic and ICT suppliers, South African universities conducting advanced tech research, and Black youths seeking tech careers.",
         "description": "Samsung South Africa's R280 million EEIP focuses on ICT and electronic engineering. It includes the Samsung Innovation Campus for software and coding skills, university R&D funding, and direct incubation/supplier development support for Black-owned electronic and ICT vendors.",
-        "apply_link": "https://www.samsung.com/za/",
-        "source": "https://www.samsung.com/za/",
+        "apply_link": "https://www.samsung.com/za/local-programme/ed-programme/",
+        "source": "https://www.samsung.com/za/local-programme/ed-programme/",
         "source_card": "04_eeip/sources/samsung.md"
     },
     {
@@ -126,8 +126,8 @@ PRE_SEEDED_PROGRAMS = [
         "non_financial_support": "Technical training, integration into heavy machinery supply chains, and manufacturing quality control support.",
         "eligibility": "Black-owned manufacturing or engineering SMMEs operating in heavy equipment, mining, or industrial parts fabrication.",
         "description": "Caterpillar's EEIP focuses on localization and supplier development in the heavy machinery and engineering sectors. It aims to integrate South African Black-owned SMMEs into Caterpillar's global and local supply chains.",
-        "apply_link": "https://www.cat.com/",
-        "source": "https://www.cat.com/",
+        "apply_link": "https://www.barloworld-equipment.com",
+        "source": "https://www.barloworld-equipment.com",
         "source_card": "04_eeip/sources/caterpillar.md"
     },
     {
@@ -143,9 +143,26 @@ PRE_SEEDED_PROGRAMS = [
         "non_financial_support": "OEM supplier onboarding, market access, engineering and productivity diagnostics, and quality systems implementation.",
         "eligibility": "51% or more Black-owned automotive suppliers, commercial vehicle dealers, or panel beaters seeking integration with major car manufacturers (Toyota, BMW, VW, Mercedes-Benz, Nissan, Ford, Isuzu).",
         "description": "The AITF is a collective Equity Equivalent Investment Programme co-founded by seven major automotive manufacturers in South Africa. The fund aims to accelerate B-BBEE transformation within the automotive industry supply chain by financing and developing Black-owned auto-component suppliers and dealerships.",
-        "apply_link": "https://aitf.co.za/",
-        "source": "https://aitf.co.za/",
+        "apply_link": "https://www.autofund.co.za",
+        "source": "https://www.autofund.co.za",
         "source_card": "04_eeip/sources/aitf.md"
+    },
+    {
+        "company": "IBM",
+        "name": "IBM South Africa EEIP",
+        "administrator": "IBM SA / Edge Growth",
+        "status": "ONGOING",
+        "audience": "Black-owned ICT suppliers, developers, and tech start-ups",
+        "focus": "Enterprise Development / Skills Development / R&D",
+        "type": "Grants / Tech Credits / Incubation",
+        "website": "https://www.ibm.com/za-en",
+        "financial_support": "R700 million+ investment into developer hubs, ICT academic research, and SME grants.",
+        "non_financial_support": "Access to IBM Cloud resources, developer sandboxes, software architecture mentorship.",
+        "eligibility": "Black-owned tech startups, enterprise suppliers, or academic institutions specializing in ICT.",
+        "description": "IBM South Africa's Equity Equivalent Investment Programme is a multi-million Rand initiative focused on driving B-BBEE transformation, training developer talent, and funding local R&D in AI, cloud computing, and cybersecurity.",
+        "apply_link": "https://www.ibm.com/procurement",
+        "source": "https://www.bee.co.za/post/equity-equivalent-how-amazon-ibm-microsoft-comply-with-b-bbee",
+        "source_card": "04_eeip/sources/ibm.md"
     }
 ]
 
@@ -154,6 +171,66 @@ def make_slug(name):
     slug = name.lower()
     slug = re.sub(r'[^a-z0-9]+', '_', slug)
     return slug.strip('_')
+
+def parse_card(path):
+    """Parses an existing EEIP markdown card to extract its metadata."""
+    with open(path, 'r', encoding='utf-8') as f:
+        content = f.read()
+        
+    program = {}
+    
+    # Extract Program Name from the H1 header
+    name_match = re.search(r'^# EEIP Program:\s*(.+)$', content, re.MULTILINE)
+    if name_match:
+        program["name"] = name_match.group(1).strip()
+        
+    # Helper to extract a field from quick stats or how to apply sections
+    def extract_stat(key):
+        m = re.search(rf'-\s*\*\*{key}\*\*:\s*(.+)$', content, re.MULTILINE)
+        return m.group(1).strip() if m else ""
+        
+    program["company"] = extract_stat("Multinational Company")
+    program["administrator"] = extract_stat("Administrator / Fund Manager")
+    program["status"] = extract_stat("Application Status")
+    program["audience"] = extract_stat("Target Audience")
+    program["focus"] = extract_stat("Focus Area")
+    program["type"] = extract_stat("Investment / Funding Type")
+    program["website"] = extract_stat("Website")
+    
+    # Extract Program Benefits
+    fin_match = re.search(r'-\s*\*\*Financial Support\*\*:\s*(.+)$', content, re.MULTILINE)
+    program["financial_support"] = fin_match.group(1).strip() if fin_match else ""
+    
+    non_fin_match = re.search(r'-\s*\*\*Non-Financial Support\*\*:\s*(.+)$', content, re.MULTILINE)
+    program["non_financial_support"] = non_fin_match.group(1).strip() if non_fin_match else ""
+    
+    # Extract Eligibility Criteria (block under the heading)
+    eligibility_block = re.search(r'## Eligibility Criteria\s*\n\s*-\s*(.*?)\n\n## Program Description', content, re.DOTALL)
+    if eligibility_block:
+        program["eligibility"] = eligibility_block.group(1).strip()
+    else:
+        # Fallback if the layout varies slightly
+        elig_match = re.search(r'## Eligibility Criteria\s*\n(.*?)\n\n##', content, re.DOTALL)
+        program["eligibility"] = elig_match.group(1).strip().replace('- ', '') if elig_match else ""
+        
+    # Extract Program Description
+    desc_block = re.search(r'## Program Description\s*\n(.*?)\n\n## How to Apply', content, re.DOTALL)
+    if desc_block:
+        program["description"] = desc_block.group(1).strip()
+    else:
+        # Fallback
+        desc_match = re.search(r'## Program Description\s*\n(.*?)\n\n##', content, re.DOTALL)
+        program["description"] = desc_match.group(1).strip() if desc_match else ""
+        
+    # Extract How to Apply
+    program["apply_link"] = extract_stat("Apply Link")
+    program["source"] = extract_stat("Source")
+    
+    # Extract Audit Status
+    program["verification_status"] = extract_stat("Verification Status")
+    
+    return program
+
 
 def search_duckduckgo(query):
     """Searches DuckDuckGo HTML interface for organic results, excluding thedtic.gov.za."""
@@ -249,18 +326,17 @@ def enrich_with_site_search(program):
             
         if best_link and best_link != base_url:
             print(f"  🌟 Best Deep-Link Discovered: {best_link}")
-            program["website"] = best_link
             program["apply_link"] = best_link
             program["source"] = best_link
     else:
         print(f"  No deep-links discovered. Using base template link.")
         
     # Hardcoded safety fallbacks to ensure absolute perfection in matches:
-    if company.lower() == "samsung" and "ed-programme" not in program["website"]:
+    if company.lower() == "samsung":
         # Fallback to the target URL provided by the user
         fallback = "https://www.samsung.com/za/local-programme/ed-programme/"
         print(f"  [Samsung Specific Fallback Triggered] Injecting: {fallback}")
-        program["website"] = fallback
+        program["website"] = "https://www.samsung.com/za/"
         program["apply_link"] = fallback
         program["source"] = fallback
         
@@ -414,16 +490,60 @@ def main():
     print("SA Corporate EEIP Opportunity Discovery & Seeding")
     print("==================================================")
     
-    # 1. First, pre-seed and dynamically search/enrich all major programs
-    print("Creating, searching and enriching pre-seeded corporate EEIP programs...")
+    # 1. Load existing cards from the 04_eeip/ directory to preserve manual updates
+    existing_programs = {}
+    print("Scanning existing opportunity cards in 04_eeip/...")
+    for card_file in EEIP_DIR.glob("*.md"):
+        if card_file.name == "template.md":
+            continue
+        try:
+            prog = parse_card(card_file)
+            if prog and prog.get("company"):
+                # Use company name as a case-insensitive key
+                existing_programs[prog["company"].lower()] = prog
+                print(f"  [Parsed Card] {card_file.name} (Company: {prog['company']})")
+        except Exception as e:
+            print(f"  [Parse Warning] Could not parse existing card {card_file.name}: {e}")
+            
+    # 2. Process pre-seeded corporate programs
+    print("\nProcessing corporate EEIP programs...")
     for prog in PRE_SEEDED_PROGRAMS:
-        # Dynamically crawl this company's site for deep links (e.g. ED programme/local-programme)
-        prog = enrich_with_site_search(prog)
+        company_key = prog["company"].lower()
+        status = "VERIFIED"
         
-        # Pre-seeded cards are created as VERIFIED (human-curated base)
-        write_card(prog, status="VERIFIED")
+        if company_key in existing_programs:
+            existing = existing_programs[company_key]
+            print(f"\n[Preserving/Updating] Existing card found for {prog['company']}.")
+            
+            # Use values from the existing card as the source of truth,
+            # preserving any manual changes or corrections made by the user.
+            for key in prog.keys():
+                if key in existing and existing[key]:
+                    # Special check: If the existing card has 'apply_link' equal to the generic website
+                    # but our new pre-seeded config has a separated deep link, adopt the new deep link!
+                    if key in ["apply_link", "source"] and existing[key] == existing["website"] and prog[key] != prog["website"]:
+                        print(f"  Enriching unseparated {key} to deep link: {prog[key]}")
+                        continue
+                    prog[key] = existing[key]
+            
+            # Keep the existing verification status
+            if existing.get("verification_status"):
+                status = existing["verification_status"]
+        else:
+            print(f"\n[Initializing] New card for {prog['company']}.")
+            
+        # Dynamically crawl this company's site for deep links ONLY if they aren't already populated/discovered
+        # (e.g. if the apply_link is still the generic website, or we don't have a specific deep link yet)
+        if not prog.get("apply_link") or prog["apply_link"] == prog["website"]:
+            prog = enrich_with_site_search(prog)
+        else:
+            # If the card already has a specific deep link or user-edited link, preserve it!
+            print(f"  Using existing verified Apply Link: {prog['apply_link']}")
+            
+        # Write/Update the card
+        write_card(prog, status=status)
         
-    # 2. Next, crawl the web to find other corporate announcements/programs
+    # 3. Next, crawl the web to find other corporate announcements/programs
     try:
         discover_new_programs()
     except Exception as e:

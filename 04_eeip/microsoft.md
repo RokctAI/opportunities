@@ -21,8 +21,8 @@
 Microsoft South Africa's R1.3 billion Equity Equivalent Investment Programme (EEIP) is designed to accelerate the development of South African SMMEs in the ICT sector, focusing on cloud computing, AI, and digital transformation.
 
 ## How to Apply
-- **Apply Link**: https://www.microsoft.com/en-za/
-- **Source**: https://www.microsoft.com/en-za/
+- **Apply Link**: https://www.microsoft.com/en-za/b-bbee/
+- **Source**: https://www.microsoft.com/en-za/b-bbee/
 - **Source Card**: 04_eeip/sources/microsoft.md
 
 ## Audit & Status

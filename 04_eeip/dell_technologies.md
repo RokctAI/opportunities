@@ -21,8 +21,8 @@
 Dell's EEIP incorporates the Khulisa Academy, which provides advanced training in ICT, high-performance computing, and data science for unemployed Black graduates. Additionally, Dell supports enterprise development by providing technology infrastructure and funding to emerging Black-owned ICT businesses.
 
 ## How to Apply
-- **Apply Link**: https://www.dell.com/en-za
-- **Source**: https://www.dell.com/en-za
+- **Apply Link**: https://khulisaacademy.co.za
+- **Source**: https://khulisaacademy.co.za
 - **Source Card**: 04_eeip/sources/dell_technologies.md
 
 ## Audit & Status

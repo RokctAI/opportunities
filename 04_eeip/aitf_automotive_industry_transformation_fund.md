@@ -21,8 +21,8 @@
 The AITF is a collective Equity Equivalent Investment Programme co-founded by seven major automotive manufacturers in South Africa. The fund aims to accelerate B-BBEE transformation within the automotive industry supply chain by financing and developing Black-owned auto-component suppliers and dealerships.
 
 ## How to Apply
-- **Apply Link**: https://aitf.co.za/
-- **Source**: https://aitf.co.za/
+- **Apply Link**: https://www.autofund.co.za
+- **Source**: https://www.autofund.co.za
 - **Source Card**: 04_eeip/sources/aitf_automotive_industry_transformation_fund.md
 
 ## Audit & Status

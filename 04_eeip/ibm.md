@@ -21,7 +21,7 @@
 IBM South Africa's Equity Equivalent Investment Programme is a multi-million Rand initiative focused on driving B-BBEE transformation, training developer talent, and funding local R&D in AI, cloud computing, and cybersecurity.
 
 ## How to Apply
-- **Apply Link**: https://www.ibm.com/za-en
+- **Apply Link**: https://www.ibm.com/procurement
 - **Source**: https://www.bee.co.za/post/equity-equivalent-how-amazon-ibm-microsoft-comply-with-b-bbee
 - **Source Card**: 04_eeip/sources/ibm.md
 
