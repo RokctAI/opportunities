@@ -14,7 +14,8 @@ while not (BASE_DIR / '.rokct').exists():
 REGISTRIES = {
     "Equity": BASE_DIR / "01_equity",
     "Grants": BASE_DIR / "02_grants",
-    "Tenders": BASE_DIR / "03_tenders"
+    "Tenders": BASE_DIR / "03_tenders",
+    "EEIP": BASE_DIR / "04_eeip"
 }
 README_PATH = BASE_DIR / "README.md"
 AUDIT_LOG_PATH = BASE_DIR / "03_tenders" / "registry_audit_log.md"
@@ -30,6 +31,7 @@ def run_orchestration():
     tenders_todo = []
     equity_todo = []
     grants_todo = []
+    eeip_todo = []
     
     for name, path in REGISTRIES.items():
         total, verified, cats, advanced, todo = scan_registry(name, path, BASE_DIR)
@@ -43,6 +45,8 @@ def run_orchestration():
             equity_todo = todo
         elif name == "Grants":
             grants_todo = todo
+        elif name == "EEIP":
+            eeip_todo = todo
 
     # Trigger Updaters
     update_readme(README_PATH, stats)
@@ -53,6 +57,7 @@ def run_orchestration():
     save_jules_todo(BASE_DIR, tenders_todo, filename="todo.json", title_prefix="Tender Enrichment Queue")
     save_jules_todo(BASE_DIR, equity_todo, filename="equity_todo.json", title_prefix="Equity Audit Queue")
     save_jules_todo(BASE_DIR, grants_todo, filename="grants_todo.json", title_prefix="Grants Verification Queue")
+    save_jules_todo(BASE_DIR, eeip_todo, filename="eeip_todo.json", title_prefix="EEIP Verification Queue")
     
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Orchestration Complete.")
 
