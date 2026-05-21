@@ -3,12 +3,12 @@
 
 ## Quick Stats
 - **Organization**: Norrsken22
-- **Funder Type**: VC
+- **Funder Type**: VC / Growth Fund
 - **Funding Type**: Series A / Series B / Growth
-- **Industry**: Tech / Fintech / Edtech / Medtech
-- **Territory**: Africa
-- **Country**: South Africa
-- **Flag**: ZA
+- **Industry**: Tech / Fintech / Medtech / Edtech / Market Enablement
+- **Territory**: Africa / Sub-Saharan Africa
+- **Country**: South Africa / Nigeria / Kenya / Ghana
+- **Flag**: GH / KE / NG / ZA
 - **Website**: https://www.norrsken22.com/
 
 ## Contact
@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.norrsken22.com/
-- **Notes**: Africa tech growth.
+- **Notes**: $205 million tech growth fund backed by 30+ unicorn founders. Discovered via equity sync from failory_za.md. Verified active in May 2026.
 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-05-14
+- **Last Verified**: 2026-05-20
 ---

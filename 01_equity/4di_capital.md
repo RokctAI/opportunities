@@ -5,11 +5,11 @@
 - **Organization**: 4Di Capital
 - **Funder Type**: VC 
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech / Fintech
-- **Territory**: Africa
+- **Industry**: Tech / Fintech / InsurTech / Healthcare
+- **Territory**: Africa / Global
 - **Country**: South Africa
 - **Flag**: ZA
-- **Website**: https://4dicapital.com
+- **Website**: https://4dicapital.com/
 
 ## Contact
 - **Contact Person**: Justin Stanford
@@ -17,11 +17,11 @@
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.4dicapital.com/team
-- **Notes**:
+- **Source / Verification**: https://www.4dicapital.com/the-team
+- **Notes**: Discovered via equity sync from failory_za.md. Authorized FSP no. 51250.
 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-04-14
+- **Last Verified**: 2026-05-20
 ---
