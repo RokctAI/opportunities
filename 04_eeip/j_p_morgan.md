@@ -26,5 +26,5 @@ The Abadali Fund is a R340 million Equity Equivalent Investment Programme by J.P
 - **Source Card**: 04_eeip/sources/j_p_morgan.md
 
 ## Audit & Status
-- **Verification Status**: VERIFIED
-- **Last Verified**: 2026-05-22
+- **Verification Status**: UNVERIFIED
+- **Last Verified**: 2026-06-07

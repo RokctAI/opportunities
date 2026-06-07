@@ -26,5 +26,5 @@ The AWS Equity Equivalent Investment Programme is designed to accelerate the gro
 - **Source Card**: 04_eeip/sources/aws.md
 
 ## Audit & Status
-- **Verification Status**: VERIFIED
-- **Last Verified**: 2026-05-22
+- **Verification Status**: UNVERIFIED
+- **Last Verified**: 2026-06-07

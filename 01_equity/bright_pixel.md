@@ -22,4 +22,4 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-**Verification Status**: VERIFIED
+**Verification Status**: UNVERIFIED
