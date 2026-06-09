@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: VERIFIED
-- **Last Verified**: 2026-05-15
+- **Verification Status**: UNVERIFIED
+- **Last Verified**: 2026-06-07
 ---

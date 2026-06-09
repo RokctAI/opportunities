@@ -71,7 +71,17 @@ class FunderManager:
 
     def generate_filename(self, name):
         # Convert to snake_case, remove special chars
-        fname = name.lower().replace(' ', '_').replace("'", "").replace("&", "and").replace(".", "").replace("-", "_")
+        fname = name.lower()
+
+        # Replace spaces (including non-breaking spaces) with underscores
+        fname = re.sub(r'\s+', '_', fname)
+
+        # Strip out characters that are invalid on Windows: ? : * " < > | \
+        fname = re.sub(r'[?:*"<>|\\]', '', fname)
+
+        # Other replacements from original logic
+        fname = fname.replace("'", "").replace("&", "and").replace(".", "").replace("-", "_")
+
         if not fname.endswith(".md"):
             fname += ".md"
         return fname

@@ -26,5 +26,5 @@ Microsoft South Africa's R1.3 billion Equity Equivalent Investment Programme (EE
 - **Source Card**: 04_eeip/sources/microsoft.md
 
 ## Audit & Status
-- **Verification Status**: VERIFIED
-- **Last Verified**: 2026-05-22
+- **Verification Status**: UNVERIFIED
+- **Last Verified**: 2026-06-07
