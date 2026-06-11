@@ -36,7 +36,7 @@ The repository uses a **Universal Sync Engine** (`.github/workflows/sync-engine.
 ### 🔐 Privacy Protection
 This repository enforces strict PII protection for all recipient cards.
 - **Enforcement**: CI will fail if raw emails or human-readable names are found in `.rokct/recipients/`.
-- **Local Fix**: Run `python scripts/privacy/index.py` to anonymize your card before committing.
+- **Local Fix**: Run `python .rokct/skills/agent_delegation/scripts/privacy_sync.py --target recipients` to anonymize your card before committing.
 
 ## Technical Details
 
