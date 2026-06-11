@@ -1,31 +1,28 @@
-# Licensed under the MIT License.
-# Copyright 2024 RokctAI
+# compliance-silent
+import os, sys, subprocess
 
-from pathlib import Path
+def main():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = current_dir
+    while repo_root:
+        if os.path.exists(os.path.join(repo_root, ".rokct")):
+            break
+        parent = os.path.dirname(repo_root)
+        if parent == repo_root:
+            break
+        repo_root = parent
+    
+    scripts_dir = os.path.join(repo_root, "scripts")
+    rel_path = os.path.relpath(os.path.abspath(__file__), scripts_dir)
+    target = os.path.join(repo_root, ".rokct", "skills", "opportunities_registry", "scripts", rel_path)
+    
+    if not os.path.exists(target):
+        print(f"Error: Target script not found in .rokct skill path: {target}", file=sys.stderr)
+        print("Please run initiate.py first to fetch skills.", file=sys.stderr)
+        sys.exit(1)
+        
+    res = subprocess.run([sys.executable, target] + sys.argv[1:])
+    sys.exit(res.returncode)
 
-def resolve_card_path(tender_dir, tender_id):
-    """Finds the tender card by checking first 03_tenders/{tender_id}/{tender_id}.md then 03_tenders/{tender_id}.md."""
-    tender_dir = Path(tender_dir)
-
-    # 1. Check folder structure: 03_tenders/{tender_id}/{tender_id}.md
-    folder_card = tender_dir / tender_id / f"{tender_id}.md"
-    if folder_card.exists():
-        return folder_card
-
-    # 2. Check flat structure: 03_tenders/{tender_id}.md
-    flat_card = tender_dir / f"{tender_id}.md"
-    if flat_card.exists():
-        return flat_card
-
-    return None
-
-def resolve_write_path(tender_dir, tender_id):
-    """Determines where to write a new or updated tender card."""
-    tender_dir = Path(tender_dir)
-
-    # If folder 03_tenders/{tender_id}/ exists return 03_tenders/{tender_id}/{tender_id}.md
-    if (tender_dir / tender_id).is_dir():
-        return tender_dir / tender_id / f"{tender_id}.md"
-
-    # otherwise return 03_tenders/{tender_id}.md
-    return tender_dir / f"{tender_id}.md"
+if __name__ == "__main__":
+    main()
