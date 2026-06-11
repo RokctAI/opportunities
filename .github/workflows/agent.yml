@@ -1,4 +1,3 @@
-# .github/workflows/agent-automated.yml
 name: "Agent: Automated Git Delegation"
 
 on:
@@ -16,113 +15,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  delegate:
-    runs-on: ubuntu-latest
-    permissions: write-all
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          
-      - name: Install dependencies
-        run: pip install requests python-dotenv
-        
-      - name: Process Queue
-        env:
-          JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
-          AGENT_API_KEY: ${{ secrets.AGENT_API_KEY }}
-          MONOREPO_PAT: ${{ secrets.MONOREPO_PAT }}
-        run: |
-          if [ "${{ github.event_name }}" == "push" ]; then
-            FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep '.rokct/agent/queue/.*.json' || true)
-          else
-            FILES=$(ls .rokct/agent/queue/*.json || true)
-          fi
-          
-          if [ -z "$FILES" ]; then
-            echo "ℹ️ No task files found to process."
-            exit 0
-          fi
-          
-          CURRENT_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          HAS_UPDATES=false
-          
-          for FILE in $FILES; do
-            if [ ! -f "$FILE" ]; then continue; fi
-            echo "📂 Analyzing: $FILE"
-            
-            SCHEDULED_AT=$(jq -r '.scheduled_at // empty' "$FILE")
-            if [ -n "$SCHEDULED_AT" ] && [[ "$CURRENT_TIME" < "$SCHEDULED_AT" ]]; then
-              echo "⏳ Task is scheduled for $SCHEDULED_AT. Skipping."
-              continue
-            fi
-
-            IMMEDIATE=$(jq -r '.immediate // "true"' "$FILE")
-            if [ -z "$SCHEDULED_AT" ] && [ "$IMMEDIATE" == "false" ]; then
-               echo "🕒 Setting first run to tonight (20:00 UTC)."
-               jq --arg next "$(date -u -d "20:00" +"%Y-%m-%dT%H:%M:%SZ")" '.scheduled_at = $next' "$FILE" > tmp.json && mv tmp.json "$FILE"
-               HAS_UPDATES=true
-               continue
-            fi
-            
-            REPO=$(jq -r '.repo' "$FILE")
-            PROMPT=$(jq -r '.prompt' "$FILE")
-            BRANCH=$(jq -r '.branch // "main"' "$FILE")
-            TITLE=$(jq -r '.title // "AI-Automation"' "$FILE")
-            AUTOMATION_MODE=$(jq -r '.automation_mode // "AUTO_CREATE_PR"' "$FILE")
-            RECURRENCE=$(jq -r '.recurrence // "Once"' "$FILE")
-            
-            echo "🚀 Delegating $TITLE for $REPO..."
-            
-            # Run the delegation and capture output for both success and failure
-            if RESULT=$(python .rokct/scripts/agent_delegation/call_jules.py create \
-              --repo "sources/github/$REPO" \
-              --prompt "$PROMPT" \
-              --branch "$BRANCH" \
-              --title "$TITLE" \
-              --automation-mode "$AUTOMATION_MODE" 2>&1); then
-              echo "✅ Delegation successful."
-              SESSION_ID=$(echo "$RESULT" | jq -r '.id // "—"')
-              echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | ✅ SUCCESS | $SESSION_ID | Task delegated successfully. |" >> .rokct/agent/logs/ai_delegation.md
-              HAS_UPDATES=true
-              
-              if [ "$RECURRENCE" == "Daily" ]; then
-                NEXT_RUN=$(date -u -d "tomorrow 20:00" +"%Y-%m-%dT%H:%M:%SZ")
-                jq --arg next "$NEXT_RUN" '.scheduled_at = $next' "$FILE" > tmp.json && mv tmp.json "$FILE"
-              elif [ "$RECURRENCE" == "Weekly" ]; then
-                NEXT_RUN=$(date -u -d "next week 20:00" +"%Y-%m-%dT%H:%M:%SZ")
-                jq --arg next "$NEXT_RUN" '.scheduled_at = $next' "$FILE" > tmp.json && mv tmp.json "$FILE"
-              else
-                mkdir -p .rokct/agent/completed
-                mv "$FILE" ".rokct/agent/completed/$(basename "$FILE")"
-              fi
-            else
-              echo "❌ Delegation failed."
-              REASON=$(echo "$RESULT" | tail -n 1 | sed 's/|/\\|/g')
-              ATTEMPTS=$(jq -r '.attempts // 0' "$FILE")
-              NEW_ATTEMPTS=$((ATTEMPTS + 1))
-              if [ "$NEW_ATTEMPTS" -ge 3 ]; then
-                mkdir -p .rokct/agent/failed
-                mv "$FILE" ".rokct/agent/failed/$(basename "$FILE")"
-                echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | 🛑 STALLED | ${{ github.run_id }} | Stalled after 3 attempts. Reason: $REASON |" >> .rokct/agent/logs/ai_delegation.md
-              else
-                jq --arg next "$NEW_ATTEMPTS" '.attempts = ($next|tonumber)' "$FILE" > tmp.json && mv tmp.json "$FILE"
-                echo "| $(date -u +"%Y-%m-%d %H:%M") | $TITLE | Jules | ❌ FAILED | ${{ github.run_id }} | Attempt $NEW_ATTEMPTS/3. Reason: $REASON |" >> .rokct/agent/logs/ai_delegation.md
-              fi
-              HAS_UPDATES=true
-            fi
-          done
-
-          if [ "$HAS_UPDATES" == "true" ]; then
-            git config --global user.name "rokctbot[bot]"
-            git config --global user.email "rokctbot@users.noreply.github.com"
-            git add .
-            git commit -m "🤖 [CI] Update Agent Task Queue (Rescheduled/Completed) [skip ci]"
-            git pull --rebase origin main
-            git push origin main
-          fi
+  agent-run:
+    uses: RokctAI/shared-workflows/.github/workflows/universal-agent.yml@main
+    with:
+      mode: 'run'
+    secrets:
+      JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.AGENT_API_KEY }}
+      MONOREPO_PAT: ${{ secrets.MONOREPO_PAT }}
