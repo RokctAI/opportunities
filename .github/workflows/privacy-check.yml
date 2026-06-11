@@ -9,19 +9,8 @@ on:
       - '.rokct/recipients/*.md'
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          
-      - name: Install dependencies
-        run: pip install python-dotenv pycryptodome
-
-      - name: Run Privacy Enforcement Check
-        run: |
-          python scripts/privacy/index.py --check
+  privacy-check:
+    uses: RokctAI/shared-workflows/.github/workflows/universal-privacy.yml@main
+    with:
+      mode: 'check'
+      script-path: 'scripts/privacy/index.py'
