@@ -8,7 +8,14 @@ import sys
 import argparse
 from pathlib import Path
 from dotenv import load_dotenv
-from crypto_utils import encrypt_email
+# Import dynamically from the shared protocol skills folder
+sys.path.append(str(Path(__file__).resolve().parents[3] / '.rokct' / 'skills' / 'agent_delegation' / 'scripts'))
+try:
+    from crypto_utils import encrypt_pii as encrypt_email
+except ImportError:
+    # Fallback/local import just in case
+    from crypto_utils import encrypt_email
+
 
 # Configuration
 REC_DIR = Path('.rokct/recipients')
