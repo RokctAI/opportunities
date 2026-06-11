@@ -51,11 +51,11 @@ jobs:
 
       - name: Run link audit
         run: |
-          python .rokct/scripts/ci/check_links.py
+          python scripts/ci/check_links.py
 
       - name: Run registry orchestrator sync
         run: |
-          python .rokct/scripts/registry_orchestrator/index.py
+          python scripts/registry_orchestrator/index.py
 
       - name: Commit and push changes
         run: |

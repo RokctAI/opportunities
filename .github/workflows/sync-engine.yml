@@ -36,16 +36,16 @@ jobs:
         # Runs on schedule, or dispatch for testing
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
-          python .rokct/scripts/tenders/index.py
-          python .rokct/scripts/grants/scrapers/f4c.py
-          python .rokct/scripts/equity/equity_sync.py
-          python .rokct/scripts/tenders/enrichment/pdf_to_md.py
-          python .rokct/scripts/tenders/enrichment/extract_requirements.py
-          python .rokct/scripts/maintenance/index.py
+          python scripts/tenders/index.py
+          python scripts/grants/scrapers/f4c.py
+          python scripts/equity/equity_sync.py
+          python scripts/tenders/enrichment/pdf_to_md.py
+          python scripts/tenders/enrichment/extract_requirements.py
+          python scripts/maintenance/index.py
 
       - name: 📊 Run Fast Refresh (Orchestrator Only)
         # ALWAYS runs to keep JSON, Tags, and Dashboard in sync
-        run: python .rokct/scripts/registry_orchestrator/index.py
+        run: python scripts/registry_orchestrator/index.py
 
       - name: 🧱 Satisfy Jekyll Ghost
         run: mkdir -p docs && touch docs/.gitkeep
