@@ -17,7 +17,7 @@
 - **`02_grants/`**: Individual markdown files for grant opportunities.
 - **`03_tenders/`**: Individual markdown files for tender opportunities (Scraped from OCDS).
 - **`published/api/`**: Single source of truth JSON API for the Next.js frontend.
-- **`.rokct/scripts/`**: Modularized automation engine (Sync, Maintenance, Orchestration).
+- **`scripts/`**: Modularized automation engine (Sync, Maintenance, Orchestration).
 
 ## Automation & Workflows
 
@@ -36,7 +36,7 @@ The repository uses a **Universal Sync Engine** (`.github/workflows/sync-engine.
 ### 🔐 Privacy Protection
 This repository enforces strict PII protection for all recipient cards.
 - **Enforcement**: CI will fail if raw emails or human-readable names are found in `.rokct/recipients/`.
-- **Local Fix**: Run `python .rokct/scripts/privacy/index.py` to anonymize your card before committing.
+- **Local Fix**: Run `python scripts/privacy/index.py` to anonymize your card before committing.
 
 ## Technical Details
 

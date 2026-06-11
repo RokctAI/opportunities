@@ -28,7 +28,7 @@ jobs:
         env:
           EMAIL_ENCRYPTION_KEY: ${{ secrets.EMAIL_ENCRYPTION_KEY }}
         run: |
-          python .rokct/scripts/privacy/index.py
+          python scripts/privacy/index.py
 
       - name: Commit and Push Fixes
         run: |

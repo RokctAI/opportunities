@@ -24,4 +24,4 @@ jobs:
 
       - name: Run Privacy Enforcement Check
         run: |
-          python .rokct/scripts/privacy/index.py --check
+          python scripts/privacy/index.py --check

@@ -134,7 +134,7 @@ def process_privacy(check_only=False):
         if violations:
             print("\n".join(violations))
             print("\n🚨 PRIVACY CHECK FAILED: Plaintext PII detected.")
-            print("👉 Run 'python .rokct/scripts/privacy/index.py' to encrypt.")
+            print("👉 Run 'python scripts/privacy/index.py' to encrypt.")
             return False
         print("✅ Privacy check passed. All emails are encrypted.")
         return True
