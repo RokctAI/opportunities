@@ -1,0 +1,27 @@
+name: "Privacy Safeguard"
+
+on:
+  push:
+    paths:
+      - '.rokct/recipients/*.md'
+  pull_request:
+    paths:
+      - '.rokct/recipients/*.md'
+
+jobs:
+  privacy-check:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == true)
+    uses: RokctAI/shared-workflows/.github/workflows/universal-privacy.yml@main
+    with:
+      mode: 'check'
+      script-path: 'scripts/privacy/index.py'
+
+  privacy-auto-fix:
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == false
+    uses: RokctAI/shared-workflows/.github/workflows/universal-privacy.yml@main
+    with:
+      mode: 'fix'
+      script-path: 'scripts/privacy/index.py'
+      commit-pattern: '.rokct/recipients/*.md'
+    secrets:
+      EMAIL_ENCRYPTION_KEY: ${{ secrets.EMAIL_ENCRYPTION_KEY }}
