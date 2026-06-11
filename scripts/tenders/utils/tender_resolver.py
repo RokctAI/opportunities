@@ -14,7 +14,7 @@ def main():
     
     scripts_dir = os.path.join(repo_root, "scripts")
     rel_path = os.path.relpath(os.path.abspath(__file__), scripts_dir)
-    target = os.path.join(repo_root, ".rokct", "skills", "opportunities_registry", "scripts", rel_path)
+    target = os.path.join(repo_root, ".rokct", "skills", ".rok", "opportunities_registry", "scripts", rel_path)
     
     if not os.path.exists(target):
         print(f"Error: Target script not found in .rokct skill path: {target}", file=sys.stderr)
