@@ -19,44 +19,20 @@ ROKCT_DIR = os.path.join(PROJECT_ROOT, ".rokct")
 def check_self_update():
     dest_initiate = os.path.join(ROKCT_DIR, "initiate.py")
     if os.path.exists(dest_initiate) and os.path.abspath(__file__) == os.path.abspath(dest_initiate):
-        is_protocol_repo = False
+        url = f"{GITHUB_RAW_BASE}/profiles/web/initiate.py"
         try:
-            url = subprocess.check_output(["git", "config", "--get", "remote.origin.url"], text=True, stderr=subprocess.DEVNULL).strip()
-            if "The-Rokct-Protocol" in url or "the-rokct-protocol" in url:
-                is_protocol_repo = True
-        except Exception:
-            pass
-
-        src_local = None
-        if is_protocol_repo:
-            src_local = os.path.join(PROTOCOL_DIR, "profiles", "local", "initiate.py")
-            if not os.path.exists(src_local):
-                src_local = os.path.join(PROTOCOL_DIR, "profiles", "web", "initiate.py")
-            
-        new_content = False
-        if src_local and os.path.exists(src_local):
-            if file_hash(src_local) != file_hash(dest_initiate):
-                print("[init] Local protocol has a newer initiate.py. Updating...")
-                shutil.copy2(src_local, dest_initiate)
-                new_content = True
-        else:
-            url = f"{GITHUB_RAW_BASE}/profiles/web/initiate.py"
-            try:
-                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-                with urllib.request.urlopen(req) as r:
-                    remote_data = r.read()
-                remote_hash = hashlib.sha256(remote_data).hexdigest()[:16]
-                if remote_hash != file_hash(dest_initiate):
-                    print("[init] GitHub has a newer initiate.py. Self-updating...")
-                    with open(dest_initiate, "wb") as f:
-                        f.write(remote_data)
-                    new_content = True
-            except Exception as e:
-                print(f"[init] Self-update check failed: {e}", file=sys.stderr)
-                
-        if new_content:
-            print("[init] Reloading initiate.py...")
-            os.execv(sys.executable, [sys.executable] + sys.argv)
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req) as r:
+                remote_data = r.read()
+            remote_hash = hashlib.sha256(remote_data).hexdigest()[:16]
+            if remote_hash != file_hash(dest_initiate):
+                print("[init] GitHub has a newer initiate.py. Self-updating...")
+                with open(dest_initiate, "wb") as f:
+                    f.write(remote_data)
+                print("[init] Reloading initiate.py...")
+                os.execv(sys.executable, [sys.executable] + sys.argv)
+        except Exception as e:
+            print(f"[init] Self-update check failed: {e}", file=sys.stderr)
 
 def fetch_from_github(rel_path, dest_path):
     url = f"{GITHUB_RAW_BASE}/{rel_path}"
