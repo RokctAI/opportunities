@@ -49,13 +49,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Initialize Protocol Skills
+        run: |
+          python .rokct/initiate.py
+
       - name: Run link audit
         run: |
-          python scripts/ci/check_links.py
+          python .rokct/skills/.rok/opportunities_registry/scripts/ci/check_links.py
 
       - name: Run registry orchestrator sync
         run: |
-          python scripts/registry_orchestrator/index.py
+          python .rokct/skills/.rok/opportunities_registry/scripts/registry_orchestrator/index.py
 
       - name: Commit and push changes
         run: |
