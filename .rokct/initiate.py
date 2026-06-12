@@ -19,19 +19,22 @@ ROKCT_DIR = os.path.join(PROJECT_ROOT, ".rokct")
 def check_self_update():
     dest_initiate = os.path.join(ROKCT_DIR, "initiate.py")
     if os.path.exists(dest_initiate) and os.path.abspath(__file__) == os.path.abspath(dest_initiate):
-        src_local = os.path.join(PROTOCOL_DIR, "profiles", "local", "initiate.py")
-        if not os.path.exists(src_local):
-            src_local = os.path.join(PROTOCOL_DIR, "profiles", "web", "initiate.py")
-            
-        if not os.path.exists(src_local):
-            sibling_proto = os.path.join(PROJECT_ROOT, "..", "The-Rokct-Protocol")
-            if os.path.isdir(sibling_proto):
-                src_local = os.path.join(sibling_proto, "profiles", "web", "initiate.py")
-                if not os.path.exists(src_local):
-                    src_local = os.path.join(sibling_proto, "profiles", "local", "initiate.py")
+        is_protocol_repo = False
+        try:
+            url = subprocess.check_output(["git", "config", "--get", "remote.origin.url"], text=True, stderr=subprocess.DEVNULL).strip()
+            if "The-Rokct-Protocol" in url or "the-rokct-protocol" in url:
+                is_protocol_repo = True
+        except Exception:
+            pass
+
+        src_local = None
+        if is_protocol_repo:
+            src_local = os.path.join(PROTOCOL_DIR, "profiles", "local", "initiate.py")
+            if not os.path.exists(src_local):
+                src_local = os.path.join(PROTOCOL_DIR, "profiles", "web", "initiate.py")
             
         new_content = False
-        if os.path.exists(src_local):
+        if src_local and os.path.exists(src_local):
             if file_hash(src_local) != file_hash(dest_initiate):
                 print("[init] Local protocol has a newer initiate.py. Updating...")
                 shutil.copy2(src_local, dest_initiate)
