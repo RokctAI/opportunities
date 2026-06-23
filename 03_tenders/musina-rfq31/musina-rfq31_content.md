@@ -205,7 +205,7 @@ I, the undersigned, in submitting the accompanying bid:
 ________________________________________________________________________
 (Bid Number and Description)
 in response to the invitation for the bid made by:
-______________________________________________________________________________
+________________________________________________________________________
 (Name of Municipality / Municipal Entity)
 do hereby make the following statements that I certify to be true and complete in every respect:
 I certify, on behalf of:_______________________________________________________that:

@@ -204,7 +204,7 @@ I,theundersigned, insubmitting theaccompanying bid:
 ________________________________________________________________________
 (BidNumber andDescription)
 in responsetotheinvitationfor thebidmadeby:
-______________________________________________________________________________
+________________________________________________________________________
 (Nameof Municipality /Municipal Entity)
 doherebymakethefollowing statements thatI certifytobe trueand completein every respect:
 I certify, on behalf of:_______________________________________________________that:
