@@ -61,6 +61,12 @@ jobs:
         run: |
           python .rokct/skills/.rok/opportunities_registry/scripts/registry_orchestrator/index.py
 
+      - name: End Protocol
+        run: |
+          if [ -f ".rokct/end_protocol.py" ]; then
+            python .rokct/end_protocol.py
+          fi
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
