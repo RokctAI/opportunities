@@ -140,6 +140,10 @@ def main():
     ensure_file(".cursorrules", os.path.join(PROJECT_ROOT, ".cursorrules"))
 
     copy_dir("core/skills", os.path.join(ROKCT_DIR, "skills"))
+    # Pre-populate the scaffold delegate cache so a transient
+    # raw.githubusercontent.com failure mid-workflow falls back to a copy
+    # fetched at workflow start instead of killing the run.
+    copy_dir("core/utils/agent_deligation", os.path.join(ROKCT_DIR, "tmp", "delegate_cache"))
     try:
         origin_url = subprocess.check_output(["git", "config", "--get", "remote.origin.url"], text=True, stderr=subprocess.DEVNULL).strip()
     except Exception:
@@ -203,16 +207,18 @@ def main():
             print(f"[init] Registered safe identity: {safe_id}")
 
     ignore = os.path.join(ROKCT_DIR, ".gitignore")
+    required_ignores = ("skills/", "cache/", "tmp/")
     if not os.path.exists(ignore):
         with open(ignore, "w", encoding="utf-8") as f:
-            f.write("skills/\n")
+            f.write("\n".join(required_ignores) + "\n")
         print("[init] Created .gitignore")
     else:
         txt = open(ignore, "r", encoding="utf-8").read()
-        if "skills/" not in txt:
+        missing = [entry for entry in required_ignores if entry not in txt]
+        if missing:
             with open(ignore, "a", encoding="utf-8") as f:
-                f.write("skills/\n")
-            print("[init] Updated .gitignore")
+                f.write("\n".join(missing) + "\n")
+            print(f"[init] Updated .gitignore (added: {', '.join(missing)})")
 
     ensure_file("workflows/sync_workspace.py", os.path.join(ROKCT_DIR, "sync_workspace.py"))
     ensure_file("workflows/sync_workspace.yml", os.path.join(PROJECT_ROOT, ".github", "workflows", "sync_workspace.yml"))

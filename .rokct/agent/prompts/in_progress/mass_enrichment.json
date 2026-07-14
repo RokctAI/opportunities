@@ -5,7 +5,7 @@
   "title": "Mission: Script Learning from Failures (Monthly)",
   "automation_mode": "AUTO_CREATE_PR",
   "recurrence": "Monthly",
-  "immediate": false,
-  "scheduled_at": "2026-06-01T20:00:00Z",
+  "immediate": "false",
+  "scheduled_at": "2026-08-14T13:56:08Z",
   "attempts": 1
 }

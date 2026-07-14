@@ -5,7 +5,7 @@
   "title": "Mission: Corporate Grant Hunt",
   "automation_mode": "AUTO_CREATE_PR",
   "recurrence": "Weekly",
-  "immediate": true,
-  "scheduled_at": "2026-05-20T20:00:00Z",
+  "immediate": "false",
+  "scheduled_at": "2026-07-21T13:56:06Z",
   "attempts": 0
 }
