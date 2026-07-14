@@ -58,7 +58,7 @@ jobs:
         run: |
           git config --global user.name "rokctbot[bot]"
           git config --global user.email "rokctbot@users.noreply.github.com"
-          git add 03_tenders/ README.md published/api/meta.json .rokct/agent/todo.json 01_equity/*.md docs/.gitkeep .nojekyll
+          git add 03_tenders/ README.md published/api/meta.json .rokct/agent/todo.json 01_equity/*.md 02_grants/ docs/.gitkeep .nojekyll
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
