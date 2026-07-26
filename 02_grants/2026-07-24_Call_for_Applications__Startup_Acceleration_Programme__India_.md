@@ -18,5 +18,5 @@ The Startup Acceleration Programme is requesting applications to support high-po
 - **Source Card**: 02_grants/sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: IN_PROGRESS
-- **Last Verified**: 2026-07-14
+- **Verification Status**: UNVERIFIED
+- **Last Verified**: 2026-07-26
