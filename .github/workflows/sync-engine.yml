@@ -96,9 +96,11 @@ jobs:
           fi
 
       - name: 📄 Enrich Tenders (Requirements Extraction)
-        # The script itself now caps its no-todo.json fallback to a
-        # bounded batch (unenriched/newest first) instead of the full
-        # corpus; the step timeout is a second line of defense.
+        # Root cause of the canceled runs: this script misread the
+        # committed dict-format todo.json as "empty" and scanned the
+        # full corpus. Fixed protocol-side (accepts the dict; bounded
+        # 200-card fallback kept as a safety net); the step timeout
+        # is a second line of defense.
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         timeout-minutes: 60
         continue-on-error: true
