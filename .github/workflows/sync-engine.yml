@@ -18,6 +18,11 @@ on:
 jobs:
   sync_and_orchestrate:
     runs-on: ubuntu-latest
+    # The whole job must finish comfortably inside GitHub's 6-hour default;
+    # the 2026-07-27 / 2026-08-03 runs died at that default limit mid-
+    # enrichment ("Error: The operation was canceled.") before anything
+    # was committed, discarding a fully successful OCDS sync.
+    timeout-minutes: 300
     permissions: write-all
     steps:
       - uses: actions/checkout@v4
@@ -36,16 +41,68 @@ jobs:
         run: |
           python .rokct/initiate.py
 
-      - name: 🏗️ Run Heavy Sync (Scrapers + Maintenance)
-        # Runs on schedule, or dispatch for testing
+      - name: 🏗️ Run Heavy Sync (Scrapers + Purge)
+        # Runs on schedule, or dispatch for testing.
+        # Maintenance/purge now runs HERE, before enrichment, so expired
+        # entries are removed even if enrichment later times out.
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           python .rokct/skills/.rok/opportunities_registry/scripts/tenders/index.py
           python .rokct/skills/.rok/opportunities_registry/scripts/grants/scrapers/f4c.py
           python .rokct/skills/.rok/opportunities_registry/scripts/equity/equity_sync.py
-          python .rokct/skills/.rok/opportunities_registry/scripts/tenders/enrichment/pdf_to_md.py
-          python .rokct/skills/.rok/opportunities_registry/scripts/tenders/enrichment/extract_requirements.py
           python .rokct/skills/.rok/opportunities_registry/scripts/maintenance/index.py
+
+      - name: 🚀 Commit Sync Results (before enrichment)
+        # Fetched tenders + purge results are pushed BEFORE enrichment
+        # starts, so a canceled/timed-out enrichment can never throw the
+        # sync away again.
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config --global user.name "rokctbot[bot]"
+          git config --global user.email "rokctbot@users.noreply.github.com"
+          git add 03_tenders/ 01_equity/*.md 02_grants/ .rokct/agent/todo.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: tender sync + purge [skip ci]"
+            for i in 1 2 3; do
+              git push origin main && break
+              git pull --rebase origin main || { git rebase --abort || true; exit 1; }
+              sleep $((RANDOM % 3 + 1))
+            done
+          fi
+
+      - name: 📄 Enrich Tenders (PDF -> Markdown)
+        # Bounded: a hung/oversized PDF batch is cut off by the step
+        # timeout and must not fail the job — the sync is already pushed.
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        timeout-minutes: 60
+        continue-on-error: true
+        run: python .rokct/skills/.rok/opportunities_registry/scripts/tenders/enrichment/pdf_to_md.py
+
+      - name: 🚀 Commit Enrichment Progress (PDF extraction)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git add 03_tenders/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: pdf extraction progress [skip ci]"
+            for i in 1 2 3; do
+              git push origin main && break
+              git pull --rebase origin main || { git rebase --abort || true; exit 1; }
+              sleep $((RANDOM % 3 + 1))
+            done
+          fi
+
+      - name: 📄 Enrich Tenders (Requirements Extraction)
+        # The script itself now caps its no-todo.json fallback to a
+        # bounded batch (unenriched/newest first) instead of the full
+        # corpus; the step timeout is a second line of defense.
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        timeout-minutes: 60
+        continue-on-error: true
+        run: python .rokct/skills/.rok/opportunities_registry/scripts/tenders/enrichment/extract_requirements.py
 
       - name: 📊 Run Fast Refresh (Orchestrator Only)
         # ALWAYS runs to keep JSON, Tags, and Dashboard in sync
