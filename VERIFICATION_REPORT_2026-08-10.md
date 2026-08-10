@@ -276,7 +276,7 @@ They were **left untouched**: whether to delete them is a decision for Ray.
 - **by stage** — OpenVC site navigation fragment ("By stage"), not an organization
 - **can i raise pre seed or seed funding on openvc** — Scraped FAQ heading from OpenVC page, not an organization
 - **capital raised** — Wikipedia table column header scraped as an org name
-- **check it out ** — Scraped call-to-action button text from basetemplates listicle, not an organization
+- **check it out** — Scraped call-to-action button text from basetemplates listicle, not an organization
 - **claim your investor profile on openvc** — Scraped promo banner from OpenVC page, not an organization
 - **colaborativo** — Lowercase generic Spanish word scraped from failory Mexico listicle; no website, no contact — page fragment
 - **contents** — Wikipedia "Contents" table-of-contents fragment scraped as an org name
@@ -333,7 +333,7 @@ They were **left untouched**: whether to delete them is a decision for Ray.
 - **what are vc salary benchmarks in india (2026)** — FAQ heading from quintedge blog scrape, not an organization
 - **what founders are saying** — testimonial section fragment from latitud.com scrape, not an organization
 - **what is a venture capital firm** — FAQ heading from openvc.app scrape, not an organization
-- **what is openvc ** — FAQ heading from openvc.app scrape, not an organization
+- **what is openvc** — FAQ heading from openvc.app scrape, not an organization
 - **what startups have raised capital with openvc** — FAQ heading from openvc.app scrape, not an organization
 - **what you get** — Latitud page fragment ("What you get" section heading), not an organization
 - **where are most of the top vc firms located** — OpenVC FAQ heading scraped as an org
