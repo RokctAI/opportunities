@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Northern Territory Government Department of Trade, Business and Asian Relations
 - **Deadline**: 2026-09-07
-- **Funding Amount**: up to $15,000
+- **Funding Amount**: Up to $15,000 per grant
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. 
+- Eligible Countries: Australia (Northern Territory businesses only). Must have a completed Innovation Project Plan (Stream A or equivalent) and validated innovation; projects completed within six months of approval
 
 ## Description
 Ignite Program Stream B for Start-up Commercialisation (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Ignite Program Stream B for Start-up Commercialisation (Australia) - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

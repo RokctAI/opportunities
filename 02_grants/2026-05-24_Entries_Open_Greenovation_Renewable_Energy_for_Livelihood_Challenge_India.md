@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: Startup India
 - **Deadline**: 2026-05-24
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Cash prizes up to INR 2 lakhs; equity and debt support up to INR 1 crore
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Early-stage entrepreneurs in India developing clean energy solutions to strengthen rural livelihoods
+- Focus areas: decentralized renewable energy, solar-powered irrigation, clean cold storage, sustainable farming, rural entrepreneurship
 
 ## Description
 Entries Open: Greenovation Renewable Energy for Livelihood Challenge (India) - Refer to source for full description.
@@ -18,5 +19,5 @@ Entries Open: Greenovation Renewable Energy for Livelihood Challenge (India) - R
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

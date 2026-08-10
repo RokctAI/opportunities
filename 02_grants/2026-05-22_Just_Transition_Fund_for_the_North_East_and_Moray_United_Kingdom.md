@@ -7,7 +7,8 @@
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Registered charities, businesses, or public sector bodies in Aberdeen City, Aberdeenshire, or Moray (North East Scotland)
+- Projects must contribute to the transition to net zero while helping diversify the regional economy
 
 ## Description
 Just Transition Fund for the North East and Moray (United Kingdom) - Refer to source for full description.
@@ -18,5 +19,5 @@ Just Transition Fund for the North East and Moray (United Kingdom) - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -9,7 +9,7 @@
 - **Territory**: Europe / Global
 - **Country**: Germany
 - **Flag**: DE
-- **Website**: https://greenfield.xyz/
+- **Website**: https://greenfieldcapital.com/
 
 ## Contact
 - **Contact Person**: Jascha Samadi
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

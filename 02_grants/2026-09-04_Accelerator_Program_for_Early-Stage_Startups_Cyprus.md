@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Unspecified
 - **Deadline**: 2026-09-04
-- **Funding Amount**: €50,000
+- **Funding Amount**: Cash prizes (amount unspecified); applicants must not have raised more than €50,000 in prior equity or grants
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Cyprus. eligibility requirements
+- Eligible Countries: Cyprus. Concept/idea or MVP-stage teams of 2+ members (at least one Cyprus resident, all 18+); winners must register the company in Cyprus; existing companies must be Cyprus-registered and under 5 years old
 
 ## Description
 Accelerator Program for Early-Stage Startups (Cyprus) - Refer to source for full description.
@@ -18,6 +18,6 @@ Accelerator Program for Early-Stage Startups (Cyprus) - Refer to source for full
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: organization
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: City of Sydney
 - **Deadline**: 2026-09-01
-- **Funding Amount**: funding of up to $50,000
+- **Funding Amount**: Up to $50,000 per project for social/community projects; up to $250,000 annually (small-scale food support) or $500,000 annually (large-scale food support)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. eligibility criteria for the grant program, comply with the City of Sydney’s ethics framework, have an active Australian Business Number (ABN) if applying as a business, have satisfactorily completed any previous City of Sydney grants projects, and be free of any debts owed to the City of Sydney
+- Eligible Countries: Australia (City of Sydney local area). Individuals or legal entities with an active ABN; must comply with the City of Sydney ethics framework, have satisfactorily completed any previous City of Sydney grant projects, and be free of debts to the City.
 
 ## Description
 Applications open for Social and Community Grants (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Applications open for Social and Community Grants (Australia) - Refer to source 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

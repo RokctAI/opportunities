@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: CSIRO
 - **Deadline**: 2026-08-16
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Not applicable (free 8-week R&D development program, no direct funding)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Applications Open for Innovate to Grow: Aquaculture Program (Australia) - Refer 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

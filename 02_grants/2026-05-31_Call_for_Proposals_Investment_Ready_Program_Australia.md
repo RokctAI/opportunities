@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: EnergyLab
 - **Deadline**: 2026-05-31
-- **Funding Amount**: $100 billion
+- **Funding Amount**: Not specified
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Startups headquartered in Queensland, Australia
+- Focus on reducing greenhouse gas emissions, addressing climate change impacts, or supporting environmental sustainability (climate tech, renewable energy, sustainable transport, alternative protein, carbon sequestration, land management, waste reduction, biodiversity)
+- Traction such as customer validation, paying customers, or a minimum viable product
 
 ## Description
 Call for Proposals: Investment Ready Program (Australia) - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Proposals: Investment Ready Program (Australia) - Refer to source for f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

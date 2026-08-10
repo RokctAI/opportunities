@@ -1,13 +1,13 @@
 # Grant Opportunity: Apply for Government Guarantee Fund (Hungary)
 
 ## Quick Stats
-- **Organization**: Foundations
+- **Organization**: National Research, Development and Innovation Fund (Hungary)
 - **Deadline**: 2026-10-30
-- **Funding Amount**: Unspecified
+- **Funding Amount**: HUF 8,000,000,000 (approx. €21.3 million)
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Entities established in Hungary, or European Economic Area entities with a branch in Hungary. Eligible applicants include higher education institutions, research organizations, enterprises, non-profit entities, and private individuals in certain cases. Applicants must have successfully submitted a consortium proposal or plan to participate as a beneficiary in Horizon Europe, Erasmus+, or similar EU-funded programs.
 
 ## Description
 Apply for Government Guarantee Fund (Hungary) - Refer to source for full description.
@@ -18,5 +18,5 @@ Apply for Government Guarantee Fund (Hungary) - Refer to source for full descrip
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

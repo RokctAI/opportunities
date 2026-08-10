@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: CSIR
 - **Deadline**: 2026-08-28
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Maximum R100,000 (excluding VAT) per project
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: South Africa. 
+- Eligible Countries: South Africa; SMMEs and new suppliers; additive manufacturing prototypes/products services only; max 6-month project duration.
 
 ## Description
 CFAs: Collaborative Programme for Additive Manufacturing Industry Development (South Africa) - Refer to source for full description.
@@ -18,6 +18,6 @@ CFAs: Collaborative Programme for Additive Manufacturing Industry Development (S
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Queensland Government
 - **Deadline**: 2026-08-10
-- **Funding Amount**: $1 million
+- **Funding Amount**: AUD $1 million to $5 million (GST exclusive), 1:1 co-contribution basis
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Call for Applications: Tourism Icons Investment Fund (Australia) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

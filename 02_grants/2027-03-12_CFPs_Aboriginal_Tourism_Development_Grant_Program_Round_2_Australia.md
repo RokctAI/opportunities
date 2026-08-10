@@ -18,6 +18,6 @@ CFPs: Aboriginal Tourism Development Grant Program Round 2 (Australia) - Refer t
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

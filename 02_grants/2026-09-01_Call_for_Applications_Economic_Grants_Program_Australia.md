@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: City of Sydney
 - **Deadline**: 2026-09-01
-- **Funding Amount**: funding of up to $50,000
+- **Funding Amount**: Up to $50,000 (1-3 years); capital expenditure capped at $10,000; requests over $25,000 require matching funding
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. eligibility criteria, comply with the City of Sydney’s ethics framework, have an active Australian Business Number (ABN) if applying as a business, have satisfactorily completed previous City of Sydney grants projects, and be free of any debts owed to the City of Sydney
+- Eligible Countries: Australia (City of Sydney local area or demonstrating significant community benefits). Individuals or legal entities (auspice allowed); active ABN for businesses; must comply with the City's ethics framework, have completed previous City grants satisfactorily, and owe no debts to the City.
 
 ## Description
 Call for Applications: Economic Grants Program (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Call for Applications: Economic Grants Program (Australia) - Refer to source for
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

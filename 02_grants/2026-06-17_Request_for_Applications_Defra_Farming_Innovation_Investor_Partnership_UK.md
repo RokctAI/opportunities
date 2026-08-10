@@ -1,13 +1,16 @@
 # Grant Opportunity: Request for Applications: Defra Farming Innovation Investor Partnership (UK)
 
 ## Quick Stats
-- **Organization**: Innovate UK
+- **Organization**: Defra in partnership with Innovate UK
 - **Deadline**: 2026-06-17
-- **Funding Amount**: £5 million
+- **Funding Amount**: Up to £5 million total; per-project eligible costs £750,000 to £3 million
 - **Focus Area**: General
 
 ## Eligibility
-- eligibility and alignment with investor support before grant funding is offered
+- UK registered micro, small and medium sized enterprises (SMEs)
+- All project activities within the UK, with benefits to farming, growing or forestry sectors in England
+- Private financing of at least twice the value of the grant requested
+- Project duration: 18 months
 
 ## Description
 Request for Applications: Defra Farming Innovation Investor Partnership (UK) - Refer to source for full description.
@@ -18,5 +21,5 @@ Request for Applications: Defra Farming Innovation Investor Partnership (UK) - R
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

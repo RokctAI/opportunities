@@ -1,13 +1,14 @@
 # Grant Opportunity: Asian Institute of Management – Dado Banatao Incubator Program (Philippines)
 
 ## Quick Stats
-- **Organization**: AIM
+- **Organization**: Asian Institute of Management (AIM)
 - **Deadline**: 2026-05-31
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Startup founders in the Philippines building scalable, sustainable, and impact-driven businesses
+- Open to early-stage ideas and developing startups with growth potential across technology, innovation, AI, and data-driven sectors
 
 ## Description
 Asian Institute of Management – Dado Banatao Incubator Program (Philippines) - Refer to source for full description.
@@ -18,5 +19,5 @@ Asian Institute of Management – Dado Banatao Incubator Program (Philippines) -
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

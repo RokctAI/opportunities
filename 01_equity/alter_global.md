@@ -4,12 +4,12 @@
 ## Quick Stats
 - **Organization**: Alter Global
 - **Funder Type**: VC
-- **Funding Type**: Growth
+- **Funding Type**: Seed / Early Stage
 - **Industry**: Tech / Fintech / Emerging Markets
 - **Territory**: Emerging Markets
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://www.alter.global/
+- **Website**: https://alter.vc/
 
 ## Contact
 - **Contact Person**: Jesse Sullivan
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

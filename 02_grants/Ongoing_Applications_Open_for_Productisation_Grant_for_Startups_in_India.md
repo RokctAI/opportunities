@@ -2,8 +2,8 @@
 
 ## Quick Stats
 - **Organization**: Kerala Startup Mission
-- **Deadline**: Ongoing
-- **Funding Amount**: Unspecified
+- **Deadline**: 2026-12-31
+- **Funding Amount**: up to ₹7 lakhs (up to ₹12 lakhs for women-led startups)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Applications Open for Productisation Grant for Startups in India - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified), funding amount
-- **Last Verified**: 2026-07-20
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
+- **Last Verified**: 2026-08-10

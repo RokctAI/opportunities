@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: City of Onkaparinga
 - **Deadline**: 2026-08-26
-- **Funding Amount**: $2,000
+- **Funding Amount**: $2,000 to $10,000
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. Eligibility does not guarantee funding, and applications must meet the grant requirements to be considered
+- Eligible Countries: Australia (City of Onkaparinga). Not-for-profit organisations, incorporated bodies, co-operatives or associations, registered charities, auspiced unincorporated community groups, for-profit businesses delivering non-profit projects, and Aboriginal/Torres Strait Islander corporations
 
 ## Description
 Apply for Community Festivals and Events Grant (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Apply for Community Festivals and Events Grant (Australia) - Refer to source for
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

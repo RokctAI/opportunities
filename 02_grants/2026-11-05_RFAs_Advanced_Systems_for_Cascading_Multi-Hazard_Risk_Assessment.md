@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: European Commission
 - **Deadline**: 2026-11-05
-- **Funding Amount**: funding available for this topic is €8,000,000,
+- **Funding Amount**: €8,000,000 (approx. €4,000,000 per project)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ RFAs: Advanced Systems for Cascading Multi-Hazard Risk Assessment - Refer to sou
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

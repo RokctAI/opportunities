@@ -1,13 +1,17 @@
 # Grant Opportunity: Call for Thailand Joint Industrial Technology Pilot Projects
 
 ## Quick Stats
-- **Organization**: Israel Innovation Authority
+- **Organization**: National Innovation Agency (NIA) of Thailand and Israel Innovation Authority
 - **Deadline**: 2026-07-21
-- **Funding Amount**: Unspecified
+- **Funding Amount**: NIA may fund up to 75% of eligible pilot costs (Thailand); Israel Innovation Authority may fund up to 50% of eligible costs (Israel)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Thailand. 
+- Eligible Countries: Thailand and Israel
+- Joint proposals with at least one eligible Thai company and one eligible Israeli company
+- Thai applicants must be companies carrying out pilot activities in Thailand; Israeli applicants must be registered companies conducting pilot activities in Israel
+- Projects must focus on piloting a new product or process; maximum implementation period of three years
+- Applicants must agree on intellectual property rights and commercialization arrangements
 
 ## Description
 Call for Thailand Joint Industrial Technology Pilot Projects - Refer to source for full description.
@@ -18,6 +22,6 @@ Call for Thailand Joint Industrial Technology Pilot Projects - Refer to source f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
+- **Last Verified**: 2026-08-10

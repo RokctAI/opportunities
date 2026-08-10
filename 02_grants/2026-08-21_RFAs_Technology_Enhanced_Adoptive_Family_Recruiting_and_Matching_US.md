@@ -1,9 +1,9 @@
 # Grant Opportunity: RFAs: Technology Enhanced Adoptive Family Recruiting and Matching (US)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: U.S. Department of Health and Human Services, Administration for Children and Families
 - **Deadline**: 2026-08-21
-- **Funding Amount**: funding of $10,696,000
+- **Funding Amount**: $10,696,000 total (4 awards expected, $1,500,000 to $2,674,000 each)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ RFAs: Technology Enhanced Adoptive Family Recruiting and Matching (US) - Refer t
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

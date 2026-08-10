@@ -1,13 +1,13 @@
 # Grant Opportunity: Submit Applications for Laundry Transformation Challenge
 
 ## Quick Stats
-- **Organization**: Asian Development Bank
+- **Organization**: Asian Development Bank (ADB)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: funding of up to USD 450,000,
+- **Funding Amount**: Up to USD 450,000 per pilot project (10% co-financing requirement)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In Afghanistan, Armenia, Australia, Austria, Azerbaijan, Bangladesh, Belgium, Bhutan, Brunei, Cambodia, Canada, China, Latest Grants And Resources In Cook Islands, Denmark, Latest Grants And Resources In East Timor Timor Leste, Federated States Of Micronesia, Fiji, Finland, France, Georgia, Germany, Latest Grants And Resources In Hong Kong Sar, India, Indonesia, Ireland, Israel, Italy, Japan, Kazakhstan, Kiribati, Kyrgyzstan, Laos, Luxembourg, Malaysia, Maldives, Marshall Islands, Mongolia, Myanmar, Latest Grants And Resources In Nauru, Nepal, Netherlands, New Zealand, Latest Grants And Resources In Niue, Norway, Pakistan, Palau, Papua New Guinea, Philippines, Latest Grants And Resources In Portugal, Samoa, Singapore, Solomon Islands, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Tajikistan, Thailand, Tonga, Turkey, Turkmenistan, Tuvalu, United Kingdom, United States, Uzbekistan, Vanuatu, Vietnam. 
+- Eligible Countries: Asia and the Pacific (ADB member countries). Solutions addressing laundry innovation — washing, drying, sustainable detergents, water recycling, filtration, or shared laundry services for low-income communities; priority on reducing women's unpaid domestic labor and minimizing water use/pollution.
 
 ## Description
 Submit Applications for Laundry Transformation Challenge - Refer to source for full description.
@@ -18,6 +18,6 @@ Submit Applications for Laundry Transformation Challenge - Refer to source for f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

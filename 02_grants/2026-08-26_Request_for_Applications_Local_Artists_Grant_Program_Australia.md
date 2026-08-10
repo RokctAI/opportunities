@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: City of Onkaparinga
 - **Deadline**: 2026-08-26
-- **Funding Amount**: $2,000
+- **Funding Amount**: $2,000 to $7,500 per project
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Request for Applications: Local Artists Grant Program (Australia) - Refer to sou
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

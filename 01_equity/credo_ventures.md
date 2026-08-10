@@ -6,9 +6,9 @@
 - **Funder Type**: VC
 - **Funding Type**: Seed / Series A-Z
 - **Industry**: AI
-- **Territory**: Global
-- **Country**: Global
-- **Flag**: GLOBAL
+- **Territory**: Europe (CEE)
+- **Country**: Czech Republic
+- **Flag**: CZ
 - **Website**: https://credoventures.com
 
 ## Contact
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

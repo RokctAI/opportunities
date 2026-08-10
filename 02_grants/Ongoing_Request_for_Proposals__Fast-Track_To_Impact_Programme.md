@@ -2,12 +2,12 @@
 
 ## Quick Stats
 - **Organization**: ProVeg Incubator
-- **Deadline**: Ongoing
+- **Deadline**: 2026-12-31
 - **Funding Amount**: Unspecified
 - **Focus Area**: Unspecified
 
 ## Eligibility
-- Unspecified
+- Registered companies globally with at least a minimum viable alternative protein product
 
 ## Description
 The Fast-track To Impact Programme is currently accepting applications to support alternative protein startups with mentorship, networking, and resources to accelerate sustainable food innovation.
@@ -18,5 +18,5 @@ The Fast-track To Impact Programme is currently accepting applications to suppor
 - **Source Card**: 02_grants/sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: IN_PROGRESS
-- **Last Verified**: 2026-07-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

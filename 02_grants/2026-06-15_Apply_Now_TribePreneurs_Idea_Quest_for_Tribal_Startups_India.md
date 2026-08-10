@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Startup India
 - **Deadline**: 2026-06-15
-- **Funding Amount**: Unspecified
+- **Funding Amount**: First prize Rs 7 lakhs; second Rs 5 lakhs; third Rs 4 lakhs
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ Apply Now: TribePreneurs Idea Quest for Tribal Startups (India) - Refer to sourc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

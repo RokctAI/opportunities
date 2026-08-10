@@ -1,13 +1,13 @@
 # Grant Opportunity: Applications Open: Customer and Community Investment Fund (UK)
 
 ## Quick Stats
-- **Organization**: LNER
+- **Organization**: LNER (London North Eastern Railway)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: £10,000
+- **Funding Amount**: £1,000–£10,000 per project
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: United Kingdom. Eligibility for CCIF is open to registered charities, community groups, CICs, co-operative societies, limited companies, community rail partnerships, business partnerships, and schools (for extracurricular projects only)
+- Eligible Countries: United Kingdom (within 15 miles of the LNER route in England or Scotland). Open to registered charities, community groups, CICs, co-operative societies, limited companies, community rail partnerships, business partnerships, and schools (extracurricular projects only); annual income £10,000–£1 million.
 
 ## Description
 Applications Open: Customer and Community Investment Fund (UK) - Refer to source for full description.
@@ -18,6 +18,6 @@ Applications Open: Customer and Community Investment Fund (UK) - Refer to source
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Grants.gov
 - **Deadline**: 2026-08-24
-- **Funding Amount**: $600,000,
+- **Funding Amount**: $600,000
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Apply for Community Services Block Grant Essentials Programme (US) - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

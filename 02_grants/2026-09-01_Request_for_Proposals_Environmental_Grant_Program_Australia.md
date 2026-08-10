@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: City of Sydney
 - **Deadline**: 2026-09-01
-- **Funding Amount**: funding of up to $50,000
+- **Funding Amount**: Up to $50,000 per project (capital expenditure capped at $10,000)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. eligibility criteria for the grant program
+- Eligible Countries: Australia. Applicants must operate in the City of Sydney local area or demonstrate significant local community benefits; active ABN required for businesses.
 
 ## Description
 Request for Proposals: Environmental Grant Program (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Request for Proposals: Environmental Grant Program (Australia) - Refer to source
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

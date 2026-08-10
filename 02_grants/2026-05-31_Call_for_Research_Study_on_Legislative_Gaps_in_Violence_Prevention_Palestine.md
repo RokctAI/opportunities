@@ -1,13 +1,15 @@
 # Grant Opportunity: Call for Research Study on Legislative Gaps in Violence Prevention (Palestine)
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: Italian Agency for Development Cooperation (AICS)
 - **Deadline**: 2026-05-31
-- **Funding Amount**: EUR
+- **Funding Amount**: Up to EUR 15,000
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Research targets Palestine, with comparative analysis of selected Arab States
+- Aimed at strengthening legal frameworks on violence prevention and response (domestic violence, gender-based violence, stalking, digital violence)
+- Applicants submit Expressions of Interest
 
 ## Description
 Call for Research Study on Legislative Gaps in Violence Prevention (Palestine) - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Research Study on Legislative Gaps in Violence Prevention (Palestine) -
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Vienna Business Agency
 - **Deadline**: 2026-09-15
-- **Funding Amount**: €8,000
+- **Funding Amount**: €8,000 per participant over six months, paid in three installments; max three people per startup project
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Austria. 
+- Eligible Countries: Austria (Vienna). Innovative, scalable business idea; not currently self-employed; primary residence in Vienna for at least six months (or secondary residence for at least one year); not receiving AMS benefits or in the Public Employment Service start-up program
 
 ## Description
 Applications open for Start-up Grant Program (Austria) - Refer to source for full description.
@@ -18,6 +18,6 @@ Applications open for Start-up Grant Program (Austria) - Refer to source for ful
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

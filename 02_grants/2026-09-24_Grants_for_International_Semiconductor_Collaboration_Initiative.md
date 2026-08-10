@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: European Commission
 - **Deadline**: 2026-09-24
-- **Funding Amount**: funding of €5,000,000
+- **Funding Amount**: €5,000,000 total; individual grants range from €3,000,000 to €5,000,000
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Latest Grants And Resources In Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latest Grants And Resources In Latvia, Liechtenstein, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Latest Grants And Resources In Portugal, Romania, Slovak Republic, Slovenia, Spain, Sweden. 
+- Eligible Countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovak Republic, Slovenia, Spain, Sweden.
+- Applicants must apply as a consortium of at least three independent legal entities.
 
 ## Description
 Grants for International Semiconductor Collaboration Initiative - Refer to source for full description.
@@ -18,6 +19,6 @@ Grants for International Semiconductor Collaboration Initiative - Refer to sourc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

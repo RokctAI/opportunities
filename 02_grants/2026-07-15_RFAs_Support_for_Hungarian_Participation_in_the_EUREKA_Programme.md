@@ -1,9 +1,9 @@
 # Grant Opportunity: RFAs: Support for Hungarian Participation in the EUREKA Programme
 
 ## Quick Stats
-- **Organization**: NKFIH
+- **Organization**: National Research, Development and Innovation Fund (NKFIH)
 - **Deadline**: 2026-07-15
-- **Funding Amount**: Unspecified
+- **Funding Amount**: HUF 20 million to HUF 70 million per project (total budget HUF 450,000,000)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ RFAs: Support for Hungarian Participation in the EUREKA Programme - Refer to sou
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: European Commission
 - **Deadline**: 2026-09-16
-- **Funding Amount**: €7,000,000
+- **Funding Amount**: €7,000,000 total (LIFE Project Grants programme)
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Eligible Countries: EU Member States, eligible EEA countries, or countries associated with the LIFE Programme. Legal entities (public or private bodies) and international organisations; coordinator must be established in an eligible country; natural persons generally ineligible except self-employed sole traders
 
 ## Description
 CFPs: Facilitating Cooperation Among Energy Communities - Refer to source for full description.
@@ -18,5 +18,5 @@ CFPs: Facilitating Cooperation Among Energy Communities - Refer to source for fu
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

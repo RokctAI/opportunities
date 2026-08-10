@@ -7,7 +7,7 @@
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. 
+- Eligible Countries: Australia. Australian citizens/Northern Territory residents (18+) and NT companies with capacity and resources to complete the project
 
 ## Description
 Open Call for Game Prototype Development Grant (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Open Call for Game Prototype Development Grant (Australia) - Refer to source for
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

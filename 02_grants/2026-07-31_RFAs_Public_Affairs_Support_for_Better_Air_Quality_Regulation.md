@@ -7,7 +7,9 @@
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Latest Grants And Resources In Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latest Grants And Resources In Latvia, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Netherlands, Poland, Latest Grants And Resources In Portugal, Romania, Slovak Republic, Slovenia, Spain, Sweden. 
+- European Union and Member State levels, with emphasis on priority countries
+- Applicants must demonstrate strong expertise in EU public affairs and the ability to provide coverage across priority countries either through direct capacity or trusted partner networks
+- Service provider should support air quality initiatives, including implementation of the revised Ambient Air Quality Directive
 
 ## Description
 RFAs: Public Affairs Support for Better Air Quality Regulation - Refer to source for full description.
@@ -18,6 +20,6 @@ RFAs: Public Affairs Support for Better Air Quality Regulation - Refer to source
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

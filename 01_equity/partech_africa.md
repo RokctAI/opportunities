@@ -9,7 +9,7 @@
 - **Territory**: Africa
 - **Country**: France
 - **Flag**: FR
-- **Website**: https://partechpartners.com/africa/
+- **Website**: https://partechpartners.com/
 
 ## Contact
 - **Contact Person**: Cyril Collon
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

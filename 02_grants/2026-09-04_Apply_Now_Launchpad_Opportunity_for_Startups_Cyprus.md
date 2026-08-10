@@ -1,13 +1,13 @@
 # Grant Opportunity: Apply Now: Launchpad Opportunity for Startups (Cyprus)
 
 ## Quick Stats
-- **Organization**: Launchpad Opportunity
+- **Organization**: CyEC (Cyprus Entrepreneurship Cluster)
 - **Deadline**: 2026-09-04
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Cyprus. eligibility criteria
+- Eligible Countries: Cyprus. Startups at MVP-with-users or revenue-generating stage; teams of 2+ members (at least one Cyprus resident, all 18+); winners must register a company in Cyprus; previous CyEC prize winners ineligible
 
 ## Description
 Apply Now: Launchpad Opportunity for Startups (Cyprus) - Refer to source for full description.
@@ -18,6 +18,6 @@ Apply Now: Launchpad Opportunity for Startups (Cyprus) - Refer to source for ful
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

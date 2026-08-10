@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Startup India
 - **Deadline**: 2026-06-15
-- **Funding Amount**: Unspecified
+- **Funding Amount**: First prize Rs 5 lakhs; second Rs 4 lakhs; third Rs 3 lakhs
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ CFAs: Tribal Business Conclave Open Grand Challenge (India) - Refer to source fo
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

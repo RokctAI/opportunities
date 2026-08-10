@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Ukrainian Cultural Foundation
 - **Deadline**: 2026-08-14
-- **Funding Amount**: €400,000
+- **Funding Amount**: 19,108,000 UAH (€400,000) total; individual grants 500,000–1,000,000 UAH (€10,000–€20,000)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Ukraine. 
+- Eligible Countries: Ukraine. Projects must involve international partnerships between Ukrainian entities and organizations registered in EU countries; eligible sectors include audio art, audiovisual content, visual arts, cultural heritage, literary works, performing arts, and cross-sectoral creative industries
 
 ## Description
 Apply now for Competition 1: Innovative Cultural Products (Ukraine) - Refer to source for full description.
@@ -18,6 +18,6 @@ Apply now for Competition 1: Innovative Cultural Products (Ukraine) - Refer to s
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

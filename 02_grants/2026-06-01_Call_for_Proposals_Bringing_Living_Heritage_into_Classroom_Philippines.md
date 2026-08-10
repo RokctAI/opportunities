@@ -1,13 +1,15 @@
 # Grant Opportunity: Call for Proposals: Bringing Living Heritage into Classroom (Philippines)
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: UNESCO (with the National Commission for Culture and the Arts, Philippines)
 - **Deadline**: 2026-06-01
-- **Funding Amount**: grants of USD 1,000
+- **Funding Amount**: USD 1,000 per selected school (10 pilot grants)
 - **Focus Area**: General
 
 ## Eligibility
-- open to all legally constituted national and international suppliers capable of providing the requested services
+- Philippines
+- Open to legally constituted national and international suppliers capable of providing the requested services
+- Entities on UN sanctions lists or associated with firms that prepared procurement documents are ineligible
 
 ## Description
 Call for Proposals: Bringing Living Heritage into Classroom (Philippines) - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Proposals: Bringing Living Heritage into Classroom (Philippines) - Refe
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

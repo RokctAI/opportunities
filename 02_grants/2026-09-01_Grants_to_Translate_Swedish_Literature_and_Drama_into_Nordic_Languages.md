@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Swedish Arts Council
 - **Deadline**: 2026-09-01
-- **Funding Amount**: SEK 20,000
+- **Funding Amount**: Around 50% of the translation fee; production support capped at SEK 20,000
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Denmark, Finland, Iceland, Norway, Sweden. 
+- Eligible Countries: Denmark, Finland, Iceland, Norway, Sweden (Nordic countries). Professional publishing houses with established distribution and documented publishing experience; translations from Swedish or Sweden's national minority languages; natural persons (translators, authors) ineligible.
 
 ## Description
 Grants to Translate Swedish Literature and Drama into Nordic Languages - Refer to source for full description.
@@ -18,6 +18,6 @@ Grants to Translate Swedish Literature and Drama into Nordic Languages - Refer t
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

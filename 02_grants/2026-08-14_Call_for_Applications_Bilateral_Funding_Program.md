@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: EEA Grants Portugal
 - **Deadline**: 2026-08-14
-- **Funding Amount**: EUR 500,000
+- **Funding Amount**: EUR 500,000 total; individual grants EUR 10,000 to EUR 50,000
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ Call for Applications: Bilateral Funding Program - Refer to source for full desc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

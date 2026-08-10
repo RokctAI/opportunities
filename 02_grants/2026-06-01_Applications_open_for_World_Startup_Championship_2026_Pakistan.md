@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: SEE Pakistan
 - **Deadline**: 2026-06-01
-- **Funding Amount**: up to $10,000
+- **Funding Amount**: Prizes of up to $10,000 plus investor funding opportunities
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Global platform inviting entrepreneurs and emerging startups with innovative ideas; no explicit geographic restrictions stated
+- Held at SEE Pakistan Entrepreneurial Expo
 
 ## Description
 Applications open for World Startup Championship 2026 (Pakistan) - Refer to source for full description.
@@ -18,5 +19,5 @@ Applications open for World Startup Championship 2026 (Pakistan) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

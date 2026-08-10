@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: Netherlands Enterprise Agency
 - **Deadline**: 2026-06-04
-- **Funding Amount**: budget of €2.2 million
+- **Funding Amount**: Total budget of €2.2 million for the current application round
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Target location: Benin
+- Supports fund managers that invest in early-stage startups led by young entrepreneurs
+- Broader geographic focus includes Africa, Asia, and the Middle East
 
 ## Description
 Applications open for Orange Corners Innovation Fund (Benin) - Refer to source for full description.
@@ -18,5 +20,5 @@ Applications open for Orange Corners Innovation Fund (Benin) - Refer to source f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

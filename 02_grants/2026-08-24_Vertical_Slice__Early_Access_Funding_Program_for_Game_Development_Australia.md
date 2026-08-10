@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Screen Territory
 - **Deadline**: 2026-08-24
-- **Funding Amount**: funding of up to AUD 30,000
+- **Funding Amount**: up to AUD 30,000 per application
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Vertical Slice / Early Access Funding Program for Game Development (Australia) -
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

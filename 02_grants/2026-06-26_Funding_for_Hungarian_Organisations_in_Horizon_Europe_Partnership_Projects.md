@@ -1,13 +1,14 @@
 # Grant Opportunity: Funding for Hungarian Organisations in Horizon Europe Partnership Projects
 
 ## Quick Stats
-- **Organization**: Horizon Europe
+- **Organization**: National Research, Development and Innovation Fund (NKFIH), Hungary
 - **Deadline**: 2026-06-26
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Total budget HUF 1,809,180,000
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible applicants include Hungarian members of consortia involved in joint international projects recommended for funding under the relevant European Partnership evaluation schemes, as well as Hungarian participants joining such consortia at a later stage
+- Legal entities registered in Hungary, or in the EEA with a branch office in Hungary (higher education institutions, research organizations, enterprises, non-profits, HUN-REN)
+- Hungarian members of consortia in joint international projects recommended for funding under the relevant European Partnership evaluation schemes, including participants joining later
 
 ## Description
 Funding for Hungarian Organisations in Horizon Europe Partnership Projects - Refer to source for full description.
@@ -18,5 +19,5 @@ Funding for Hungarian Organisations in Horizon Europe Partnership Projects - Ref
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

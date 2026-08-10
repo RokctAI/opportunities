@@ -3,21 +3,21 @@
 ## Quick Stats
 - **Organization**: Google
 - **Deadline**: 2026-08-31
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Equity-free support (mentoring, Google product credits, technical bootcamps); no cash amount specified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Algeria, Bahrain, Egypt, Iran, Iraq, Israel, Jordan, Latest Grants And Resources In Kuwait, Lebanon, Libya, Morocco, Oman, Latest Grants And Resources In Palestinian Territories, Qatar, Saudi Arabia, Sudan, Syria, Tunisia, Turkey, United Arab Emirates, Latest Grants And Resources In Western Sahara, Yemen. 
+- Eligible Countries: Middle East, North Africa, and Turkey. Seed to Series A startups with traction, using technology (ML/AI, cloud) to solve scalable market needs; CTO/technical team commitment required.
 
 ## Description
 Apply Now: Google for Startups Accelerator Program - Refer to source for full description.
 
 ## How to Apply
-- **Applying Link**: https://fundsforcompanies.fundsforngos.org/training-and-mentorship/apply-now-google-for-startups-accelerator-program/
+- **Applying Link**: https://startup.google.com/programs/accelerator/middle-east-north-africa-turkey/
 - **Source**: https://fundsforcompanies.fundsforngos.org/training-and-mentorship/apply-now-google-for-startups-accelerator-program/
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

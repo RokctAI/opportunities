@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: European Commission
 - **Deadline**: 2026-09-16
-- **Funding Amount**: €5,000,000,
+- **Funding Amount**: €5,000,000 total available; individual projects €1,000,000 to €5,000,000
 - **Focus Area**: innovative design and integration concepts for neuromorphic computing systems with very low energy consumption, connectivity, and embedded functions for mobile applications; alternative semiconductor chip manufacturing process technologies for frontend and backend heterogeneous integration; and advanced packaging solutions for integrating multiple functions and materials in communication, sensing, actuating, power management, and active/passive integration applications
 
 ## Eligibility
-- Unspecified
+- Legal entities established in EU Member States, EEA Countries, Associated Countries, OECD countries, and Mercosur countries; entities from non-eligible countries may participate with approved guarantees ensuring no negative impact on EU strategic interests, assets, autonomy, or security
 
 ## Description
 The European Commission is seeking applications to strengthen international cooperation in developing advanced semiconductor and integration technologies.
@@ -18,5 +18,5 @@ The European Commission is seeking applications to strengthen international coop
 - **Source Card**: 02_grants/sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: IN_PROGRESS
-- **Last Verified**: 2026-07-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

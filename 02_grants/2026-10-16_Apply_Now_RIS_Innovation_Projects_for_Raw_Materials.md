@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: EIT RawMaterials
 - **Deadline**: 2026-10-16
-- **Funding Amount**: €800,000
+- **Funding Amount**: €800,000 to €1 million per project, covering up to 70% of project costs
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania, Bosnia And Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Latest Grants And Resources In Estonia, France, Latest Grants And Resources In French Guiana, Greece, Hungary, Israel, Italy, Latest Grants And Resources In Latvia, Latest Grants And Resources In Lithuania, Malta, Latest Grants And Resources In Martinique, Montenegro, Poland, Latest Grants And Resources In Portugal, Latest Grants And Resources In Republic Of Macedonia, Latest Grants And Resources In Reunion, Romania, Serbia, Slovak Republic, Slovenia, Spain, Turkey, Ukraine. open to startups, SMEs, large companies, universities, research centres, NGOs, government agencies, and public institutions
+- Eligible Countries: Albania, Bosnia And Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Estonia, France, French Guiana, Greece, Hungary, Israel, Italy, Latvia, Lithuania, Malta, Martinique, Montenegro, Poland, Portugal, Republic Of Macedonia, Reunion, Romania, Serbia, Slovak Republic, Slovenia, Spain, Turkey, Ukraine.
+- Open to startups, SMEs, large companies, universities, research centres, NGOs, government agencies, and public institutions.
+- Consortia require at least two organizations from different RIS-eligible countries, representing at least two elements of the knowledge triangle (education, research, business); lead partner must be based in an RIS-eligible country.
 
 ## Description
 Apply Now: RIS Innovation Projects for Raw Materials - Refer to source for full description.
@@ -18,6 +20,6 @@ Apply Now: RIS Innovation Projects for Raw Materials - Refer to source for full 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

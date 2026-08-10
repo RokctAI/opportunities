@@ -9,7 +9,7 @@
 - **Territory**: North America
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://theory.vc
+- **Website**: https://theoryvc.com
 
 ## Contact
 - **Contact Person**: Tomasz Tunguz
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

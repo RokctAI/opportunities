@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://cavalry.vc/team
-- **Notes**:
+- **Notes**: Rebranded to NAP (www.nap.vc); pre-seed/seed software investments of EUR 500k-4m across Europe.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

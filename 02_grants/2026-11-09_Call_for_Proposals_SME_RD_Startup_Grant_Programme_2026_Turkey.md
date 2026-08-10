@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: TUBITAK
 - **Deadline**: 2026-11-09
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to 20 million TL per project (75% funding rate for the first five supported projects, 60% thereafter)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In Turkey. 
+- Eligible Countries: Turkey. Targets small and medium-sized enterprises (SMEs) pursuing project-based research, technology development, and innovation activities across all sectors and technology fields.
 
 ## Description
 Call for Proposals: SME R/D Startup Grant Programme 2026 (Turkey) - Refer to source for full description.
@@ -18,6 +18,6 @@ Call for Proposals: SME R/D Startup Grant Programme 2026 (Turkey) - Refer to sou
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

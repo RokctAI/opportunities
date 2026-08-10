@@ -7,7 +7,10 @@
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Nurse-led/nurse-founded startups registered in the United States
+- Valid U.S. bank account required
+- Total capital must be less than $50,000
+- Projects focused on healthcare innovation and improving workforce conditions
 
 ## Description
 Track 03 US Startups: Nurse-Founded Startup Grants - Refer to source for full description.
@@ -18,5 +21,5 @@ Track 03 US Startups: Nurse-Founded Startup Grants - Refer to source for full de
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

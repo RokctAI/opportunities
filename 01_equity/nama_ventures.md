@@ -9,7 +9,7 @@
 - **Territory**: Middle East / North Africa
 - **Country**: Saudi Arabia
 - **Flag**: SA
-- **Website**: https://www.nama.vc/
+- **Website**: https://www.namaventures.com/
 
 ## Contact
 - **Contact Person**: Mohammed Al-Zubi
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-11
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

@@ -1,13 +1,16 @@
 # Grant Opportunity: ICAR SHITIJ 2.0 Startup Incubation Program for Agriculture Innovation (India)
 
 ## Quick Stats
-- **Organization**: Pusa Krishi
+- **Organization**: National Agricultural Innovation Fund (NAIF) / Pusa Krishi
 - **Deadline**: 2026-07-24
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: India. 
+- Eligible Countries: India
+- Indian citizens who are founders of startups (founder's name must match their Aadhar card)
+- Must have an innovation, idea, product, or solution relevant to agriculture
+- Application process is free of cost; third-party involvement is not encouraged
 
 ## Description
 ICAR SHITIJ 2.0 Startup Incubation Program for Agriculture Innovation (India) - Refer to source for full description.
@@ -18,6 +21,6 @@ ICAR SHITIJ 2.0 Startup Incubation Program for Agriculture Innovation (India) - 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

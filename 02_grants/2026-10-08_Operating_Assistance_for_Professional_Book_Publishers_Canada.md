@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: BC Arts Council
 - **Deadline**: 2026-10-08
-- **Funding Amount**: $20,000,
+- **Funding Amount**: minimum $20,000 for new entrants; no maximum specified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Canada. 
+- Eligible Countries: Canada (British Columbia only).
+- B.C.-based non-profit book publishers or Canadian-owned publishing companies registered in B.C.; must have operated in B.C. for at least one year with book publishing as primary activity, at least four eligible titles in print, and at least two eligible titles published in the previous year.
 
 ## Description
 Operating Assistance for Professional Book Publishers (Canada) - Refer to source for full description.
@@ -18,6 +19,6 @@ Operating Assistance for Professional Book Publishers (Canada) - Refer to source
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

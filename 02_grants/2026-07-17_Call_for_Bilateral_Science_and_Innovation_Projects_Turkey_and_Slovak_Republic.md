@@ -3,11 +3,14 @@
 ## Quick Stats
 - **Organization**: TÜBİTAK
 - **Deadline**: 2026-07-17
-- **Funding Amount**: 120,000 eur
+- **Funding Amount**: Up to 3,750,000 Turkish Liras per project (Turkish participants); up to EUR 120,000 per project (Slovak partners); indicative budget EUR 360,000 for three projects
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Projects must include at least one eligible Slovak research institute from the Slovak Academy of Sciences and one Turkish institution eligible under TUBITAK regulations
+- Main Slovak applicant must be employed by a Slovak Academy of Sciences institute
+- Project duration limited to 36 months maximum
+- Proposals must focus on specified thematic areas: health, AI, materials science, climate change, environment
 
 ## Description
 Call for Bilateral Science and Innovation Projects (Turkey and Slovak Republic) - Refer to source for full description.
@@ -18,5 +21,5 @@ Call for Bilateral Science and Innovation Projects (Turkey and Slovak Republic) 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

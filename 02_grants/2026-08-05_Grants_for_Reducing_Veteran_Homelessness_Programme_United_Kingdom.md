@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Armed Forces Covenant Fund Trust
 - **Deadline**: 2026-08-05
-- **Funding Amount**: up to £1.25 million
+- **Funding Amount**: up to £1.25 million (high and complex needs); up to £750,000 (low to medium or mixed needs)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In United Kingdom. Eligible applicants include registered charities with at least five years of experience in providing housing for veterans, registered social housing providers, registered social landlords, registered housing associations, local authorities, and Community Interest Companies with a minimum of five years’ experience in delivering supported housing for veterans
+- Eligible Countries: United Kingdom. Eligible applicants include registered charities with at least five years of experience in providing housing for veterans, registered social housing providers, registered social landlords, registered housing associations, local authorities, and Community Interest Companies with a minimum of five years’ experience in delivering supported housing for veterans
 
 ## Description
 Grants for Reducing Veteran Homelessness Programme (United Kingdom) - Refer to source for full description.
@@ -18,6 +18,6 @@ Grants for Reducing Veteran Homelessness Programme (United Kingdom) - Refer to s
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

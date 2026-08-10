@@ -1,13 +1,13 @@
 # Grant Opportunity: SMART ERA Open Call 2: Followers Micro-Pilots Funding Programme
 
 ## Quick Stats
-- **Organization**: SMART ERA
+- **Organization**: SMART ERA Consortium
 - **Deadline**: 2026-09-15
-- **Funding Amount**: up to €90,000,
+- **Funding Amount**: Up to €90,000 for consortium applications (€30,000 Community Activator + €60,000 Pilot Orchestrator/Technical Provider); up to €60,000 for individual applicants
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania, Armenia, Austria, Belgium, Bosnia And Herzegovina, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Latest Grants And Resources In Estonia, Latest Grants And Resources In Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Latest Grants And Resources In Kosovo, Latest Grants And Resources In Latvia, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Moldova, Montenegro, Netherlands, New Zealand, Norway, Poland, Latest Grants And Resources In Portugal, Latest Grants And Resources In Republic Of Macedonia, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Tunisia, Turkey, Ukraine, United Kingdom. eligibility requirements, successfully complete the evaluation process, and sign the Subgrant Agreement with the SMART ERA Consortium to participate in the support programme
+- Eligible Countries: Albania, Armenia, Austria, Belgium, Bosnia And Herzegovina, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Kosovo, Latvia, Lithuania, Luxembourg, Malta, Moldova, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Republic Of Macedonia, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Tunisia, Turkey, Ukraine, United Kingdom. Applicants must be a consortium of a Community Activator (public administration, university, NGO, or local organization) and a Pilot Orchestrator (SME or Technical Provider), or an individual legal entity fulfilling both roles; must complete the evaluation process and sign the Subgrant Agreement with the SMART ERA Consortium
 
 ## Description
 SMART ERA Open Call 2: Followers Micro-Pilots Funding Programme - Refer to source for full description.
@@ -18,6 +18,6 @@ SMART ERA Open Call 2: Followers Micro-Pilots Funding Programme - Refer to sourc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

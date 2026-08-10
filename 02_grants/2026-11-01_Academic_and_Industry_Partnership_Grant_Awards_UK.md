@@ -1,13 +1,13 @@
 # Grant Opportunity: Academic and Industry Partnership Grant Awards (UK)
 
 ## Quick Stats
-- **Organization**: UK Human Functional Genomics Initiative00
+- **Organization**: UK Human Functional Genomics Initiative
 - **Deadline**: 2026-11-01
-- **Funding Amount**: up to £100,000
+- **Funding Amount**: £15,000–£50,000 (up to £100,000 in exceptional cases)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In United Kingdom. 
+- Eligible Countries: United Kingdom. 
 
 ## Description
 Academic and Industry Partnership Grant Awards (UK) - Refer to source for full description.
@@ -18,6 +18,6 @@ Academic and Industry Partnership Grant Awards (UK) - Refer to source for full d
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

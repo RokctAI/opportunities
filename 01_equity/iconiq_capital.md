@@ -9,7 +9,7 @@
 - **Territory**: Global
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://iconiqcapital.com
+- **Website**: https://www.iconiq.com/
 
 ## Contact
 - **Contact Person**: Divesh Makan
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

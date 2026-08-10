@@ -1,13 +1,13 @@
 # Grant Opportunity: NEB Academy | Fashion Shift Programme
 
 ## Quick Stats
-- **Organization**: Horizon Europe
+- **Organization**: EIT Culture & Creativity (Horizon Europe)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: €2,500,000,
+- **Funding Amount**: €2,500,000 total EIT funding allocated
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania, Armenia, Bosnia And Herzegovina, Canada, Latest Grants And Resources In Faroe Islands, Georgia, Iceland, Israel, Latest Grants And Resources In Kosovo, Moldova, Montenegro, New Zealand, Norway, Latest Grants And Resources In Republic Of Macedonia, Serbia, South Korea, Tunisia, Turkey, Ukraine, United Kingdom. open to legal entities registered in countries eligible under Horizon Europe at the closure time of the call
+- Eligible Countries: Legal entities registered in Horizon Europe-eligible countries. Consortia of 4-6 independent legal entities from at least 2 eligible countries, including an independent fashion SME (3+ years), a research institution, a public authority/innovation cluster, and a fashion value-chain partner.
 
 ## Description
 NEB Academy | Fashion Shift Programme - Refer to source for full description.
@@ -18,6 +18,6 @@ NEB Academy | Fashion Shift Programme - Refer to source for full description.
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

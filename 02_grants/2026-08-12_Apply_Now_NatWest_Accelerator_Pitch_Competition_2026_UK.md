@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: NatWest
 - **Deadline**: 2026-08-12
-- **Funding Amount**: £100,000
+- **Funding Amount**: £100,000 prize pool per live final (£70,000 first, £20,000 second, £10,000 third)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In United Kingdom. 
+- Eligible Countries: United Kingdom. Open to UK-registered Limited Companies incorporated for up to 5 years, generating up to £1 million in revenue; applicants must be 18+ UK residents and part of the NatWest Accelerator App Community
 
 ## Description
 Apply Now: NatWest Accelerator Pitch Competition 2026 (UK) - Refer to source for full description.
@@ -18,6 +18,6 @@ Apply Now: NatWest Accelerator Pitch Competition 2026 (UK) - Refer to source for
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

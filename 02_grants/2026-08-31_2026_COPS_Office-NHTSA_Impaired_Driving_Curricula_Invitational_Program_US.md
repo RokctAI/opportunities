@@ -1,13 +1,13 @@
 # Grant Opportunity: 2026 COPS Office-NHTSA Impaired Driving Curricula Invitational Program (US)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: COPS Office (U.S. Department of Justice) in partnership with NHTSA
 - **Deadline**: 2026-08-31
-- **Funding Amount**: $2,000,000,
+- **Funding Amount**: $2,000,000 (award ceiling $2,000,000)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: United States. Eligible applicants include nonprofits with a 501(c)(3) status with the IRS (other than institutions of higher education), nonprofits without a 501(c)(3) status with the IRS (other than institutions of higher education), and small businesses
+- Eligible Countries: United States. Nonprofits with or without 501(c)(3) status (excluding institutions of higher education) and small businesses; limited to applicants with a direct invitation from the COPS Office.
 
 ## Description
 2026 COPS Office-NHTSA Impaired Driving Curricula Invitational Program (US) - Refer to source for full description.
@@ -18,6 +18,6 @@
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

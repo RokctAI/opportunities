@@ -1,9 +1,9 @@
 # Grant Opportunity: Open Call: CSBG Performance Management and Compliance Support (United States)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: Office of Community Services, Administration for Children and Families (ACF)
 - **Deadline**: 2026-08-24
-- **Funding Amount**: funding of $650,000,
+- **Funding Amount**: $650,000 (single award via cooperative agreement)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Open Call: CSBG Performance Management and Compliance Support (United States) - 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

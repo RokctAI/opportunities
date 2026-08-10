@@ -2,7 +2,7 @@
 
 ## Quick Stats
 - **Organization**: City of Sydney
-- **Deadline**: Ongoing
+- **Deadline**: 2026-12-31
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
@@ -18,6 +18,6 @@ Submit Applications for Venue Hire Support Grant Program (Australia) - Refer to 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified), funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: INCOMPLETE — missing: funding amount (not specified on source page)
 - **Last Verified**: 2026-08-10

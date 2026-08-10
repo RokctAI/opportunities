@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: NSW Government
 - **Deadline**: 2026-08-14
-- **Funding Amount**: $1,000
+- **Funding Amount**: $1,000 to $6,000 per grant
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. 
+- Eligible Countries: Australia (New South Wales only). Open to Aboriginal Community-controlled, not-for-profit organisations including Aboriginal Corporations, incorporated associations, Local Aboriginal Land Councils, and unincorporated groups with eligible sponsorship
 
 ## Description
 NSW Aboriginal Languages Week Grant Program 2026 (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ NSW Aboriginal Languages Week Grant Program 2026 (Australia) - Refer to source f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

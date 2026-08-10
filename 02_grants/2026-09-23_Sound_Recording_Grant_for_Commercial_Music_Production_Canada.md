@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: Creative Saskatchewan
 - **Deadline**: 2026-09-23
-- **Funding Amount**: maximum of $10,000
+- **Funding Amount**: up to $10,000 (Single/EP stream) or up to $15,000 (Full Length/LP stream), covering 50% of eligible expenses
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Canada. 
+- Eligible Countries: Canada (Saskatchewan only).
+- Saskatchewan musicians, recording artists, and music businesses; corporations must be incorporated/registered in Saskatchewan with majority Saskatchewan ownership.
 
 ## Description
 Sound Recording Grant for Commercial Music Production (Canada) - Refer to source for full description.
@@ -18,6 +19,6 @@ Sound Recording Grant for Commercial Music Production (Canada) - Refer to source
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

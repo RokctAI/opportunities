@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: Eureka Network
 - **Deadline**: 2026-10-08
-- **Funding Amount**: €1 million
+- **Funding Amount**: national budgets of €1-2.5 million per country; maximum project funding €150,000-€750,000, at 25%-70% of eligible project costs
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Minimum two independent legal entities from at least two participating Eureka countries.
+- Eligible applicants: SMEs, large companies, research organizations, universities.
+- No single organization or country may exceed 70% of the total project budget; maximum project duration 36 months.
 
 ## Description
 Open Call for Transnational Eureka Lightweighting 2026 - Refer to source for full description.
@@ -18,5 +20,5 @@ Open Call for Transnational Eureka Lightweighting 2026 - Refer to source for ful
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

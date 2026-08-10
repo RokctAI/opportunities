@@ -2,8 +2,8 @@
 
 ## Quick Stats
 - **Organization**: Pro Helvetia
-- **Deadline**: Ongoing
-- **Funding Amount**: Unspecified
+- **Deadline**: 2026-12-31
+- **Funding Amount**: up to CHF 25,000
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Funding Opportunity for Folk Theatre Production (Switzerland) - Refer to source 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified), funding amount
-- **Last Verified**: 2026-07-20
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
+- **Last Verified**: 2026-08-10

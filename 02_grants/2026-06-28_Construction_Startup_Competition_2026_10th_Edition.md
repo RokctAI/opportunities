@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: Construction Startup Competition
 - **Deadline**: 2026-06-28
-- **Funding Amount**: €10,000
+- **Funding Amount**: Equity-free cash prizes of approximately €10,000 for selected regional winners
 - **Focus Area**: General
 
 ## Eligibility
-- open to startups worldwide
+- Open to startups worldwide (no territorial restriction)
+- Legally incorporated from 2017 onwards, operating in construction or built environment
+- Pre-seed, seed, or Series A stage with market validation and product-market fit
 
 ## Description
 Construction Startup Competition 2026 (10th Edition) - Refer to source for full description.
@@ -18,5 +20,5 @@ Construction Startup Competition 2026 (10th Edition) - Refer to source for full 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

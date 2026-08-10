@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: European Commission
 - **Deadline**: 2026-07-24
-- **Funding Amount**: €10,000,000,
+- **Funding Amount**: €1,000,000 to €10,000,000 per grant (total available funding €10,000,000)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Latest Grants And Resources In Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latest Grants And Resources In Latvia, Liechtenstein, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Latest Grants And Resources In Portugal, Romania, Slovak Republic, Slovenia, Spain, Sweden. eligibility conditions and applicable participation requirements
+- Legal entities established in eligible EU Member States and EEA countries
+- Applicants must comply with the DIGITAL Europe Programme eligibility conditions and applicable participation requirements
+- Targets higher education institutions and industry partners developing semiconductor skills and talent programs
 
 ## Description
 Apply now for Skills Hubs of Excellence Initiative - Refer to source for full description.
@@ -18,6 +20,6 @@ Apply now for Skills Hubs of Excellence Initiative - Refer to source for full de
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

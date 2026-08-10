@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: European Commission
 - **Deadline**: 2026-11-05
-- **Funding Amount**: budget of €6 million
+- **Funding Amount**: €6,000,000
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- European countries and territories under the Horizon Europe framework; applicants should include public and private sector organizations involved in disaster risk management.
 
 ## Description
 Open Call: Driving Innovation Uptake of Disaster Risk Solutions Program - Refer to source for full description.
@@ -18,5 +18,5 @@ Open Call: Driving Innovation Uptake of Disaster Risk Solutions Program - Refer 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

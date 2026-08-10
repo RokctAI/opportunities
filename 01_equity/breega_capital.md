@@ -5,7 +5,7 @@
 - **Organization**: Breega Capital
 - **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech / PropTech
+- **Industry**: Tech / Climate / DeepTech
 - **Territory**: Europe
 - **Country**: France
 - **Flag**: FR
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

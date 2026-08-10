@@ -1,13 +1,16 @@
 # Grant Opportunity: Applications open for Social Projects Castilla-La Mancha 2026 (Spain)
 
 ## Quick Stats
-- **Organization**: Deadline Date: June 11, 2026 The “la Caixa” Foundation
+- **Organization**: "la Caixa" Foundation
 - **Deadline**: 2026-06-11
-- **Funding Amount**: funding of up to €50,000
+- **Funding Amount**: Up to €50,000 for initiatives with a maximum duration of 12 months
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible applicants include non-profit entities and social economy organizations whose statutes explicitly state social cohesion or social and/or cultural interest as a main objective
+- Spain (Castilla-La Mancha region)
+- Non-profit entities and social economy organizations whose statutes explicitly state social cohesion or social and/or cultural interest as a main objective
+- Registered administratively, headquartered in the region, with a tax identification number and at least one year of activity before the deadline
+- Public administrations are ineligible
 
 ## Description
 Applications open for Social Projects Castilla-La Mancha 2026 (Spain) - Refer to source for full description.
@@ -18,5 +21,5 @@ Applications open for Social Projects Castilla-La Mancha 2026 (Spain) - Refer to
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

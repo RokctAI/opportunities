@@ -7,7 +7,10 @@
 - **Focus Area**: General
 
 ## Eligibility
-- open to businesses operating for at least 12 months and no more than three years, with fewer than five employees and strong growth potential
+- Businesses must be registered and operating within Hume City (Australia), hold a valid ABN, and maintain all required permits and licences
+- Must comply with all state, territory, and local government regulations
+- Chain stores, franchisors, and primary fundraising charities are generally excluded
+- Independently operated small franchise businesses with 1-20 employees may apply
 
 ## Description
 Nominations open for Hume Business Awards in Australia - Refer to source for full description.
@@ -18,5 +21,5 @@ Nominations open for Hume Business Awards in Australia - Refer to source for ful
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

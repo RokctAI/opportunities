@@ -7,7 +7,9 @@
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Startups and researchers developing technologies for the sustainable ocean economy (global; no participation fees, no equity taken)
+- Early-stage companies, growth-stage ventures, and pre-incorporation projects are all eligible
+- Focus areas: shipping/logistics, sustainable fishing, offshore aquaculture, marine resources, bio-products, marine energy, naval/defense technologies, underwater acoustics, sensors, robotics, and data technologies
 
 ## Description
 Call for Applications: CDL Program&#8217;s Oceans Stream - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Applications: CDL Program&#8217;s Oceans Stream - Refer to source for f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

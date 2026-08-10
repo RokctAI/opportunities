@@ -1,13 +1,14 @@
 # Grant Opportunity: IPCEI INT Innovative Nuclear Technologies Funding Call (Finland)
 
 ## Quick Stats
-- **Organization**: Unspecified
+- **Organization**: Business Finland
 - **Deadline**: 2026-09-30
-- **Funding Amount**: , Eur
+- **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Finland. 
+- Eligible Countries: Finland.
+- Projects must relate to innovative nuclear energy technologies within three workstreams: Nuclear Reactors; Fuel and Radioisotopes; Materials, Components and Services.
 
 ## Description
 IPCEI INT Innovative Nuclear Technologies Funding Call (Finland) - Refer to source for full description.
@@ -18,6 +19,6 @@ IPCEI INT Innovative Nuclear Technologies Funding Call (Finland) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: organization
+- **Verification Status**: VERIFIED
+- **Data Completeness**: INCOMPLETE — missing: funding amount
 - **Last Verified**: 2026-08-10

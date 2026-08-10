@@ -1,7 +1,7 @@
 # Grant Opportunity: Open Call: Zepto Nova Pitch in 10 Programme (India)
 
 ## Quick Stats
-- **Organization**: Zepto Limited, in collaboration with Startup India,
+- **Organization**: Zepto Limited, in collaboration with Startup India
 - **Deadline**: 2026-05-22
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
@@ -18,5 +18,5 @@ Open Call: Zepto Nova Pitch in 10 Programme (India) - Refer to source for full d
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

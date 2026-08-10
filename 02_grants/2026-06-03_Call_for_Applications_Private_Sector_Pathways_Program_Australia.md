@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: Queensland Government
 - **Deadline**: 2026-06-03
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to AUD 200,000 per selected SME
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Queensland-based SMEs with an active Queensland-registered ABN
+- Project delivered within Queensland; fewer than 200 full-time equivalent employees
+- Ineligible: businesses with prior commercial contracts with participating corporates; research organizations and university researchers unless solutions are market-ready
 
 ## Description
 Call for Applications: Private Sector Pathways Program (Australia) - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Applications: Private Sector Pathways Program (Australia) - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

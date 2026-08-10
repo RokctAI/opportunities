@@ -1,13 +1,17 @@
 # Grant Opportunity: Apply Now: Naaripreneur for Her Program Cohort &#8211; 2 (India)
 
 ## Quick Stats
-- **Organization**: IIMVFIELD
+- **Organization**: IIMV FIELD (Incubation and Startup Hub of IIM Visakhapatnam)
 - **Deadline**: 2026-06-30
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to ₹5 lakhs in total (performance-based grants to top five startups)
 - **Focus Area**: General
 
 ## Eligibility
-- eligibility criteria
+- Applicants must be at least 18 years old
+- Ventures can be women-led or focused on solutions for women
+- Startups may operate from anywhere in India
+- At least one core team member must be committed full-time
+- Previous Cohort 1 graduates are not eligible for Cohort 2
 
 ## Description
 Apply Now: Naaripreneur for Her Program Cohort &#8211; 2 (India) - Refer to source for full description.
@@ -18,5 +22,5 @@ Apply Now: Naaripreneur for Her Program Cohort &#8211; 2 (India) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

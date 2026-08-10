@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: TUBITAK
 - **Deadline**: 2026-10-22
-- **Funding Amount**: Unspecified
+- **Funding Amount**: maximum 20 million TL per project; funding rate 75% for a company's first five supported projects, 60% for subsequent projects
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In Turkey. open to small and medium-sized enterprises (SMEs)
+- Eligible Countries: Turkey.
+- Open to small and medium-sized enterprises (SMEs); projects across all sectors and technology fields; maximum project duration 24 months.
 
 ## Description
 Apply for Industrial R/D Projects Grant Programme (Turkey) - Refer to source for full description.
@@ -18,6 +19,6 @@ Apply for Industrial R/D Projects Grant Programme (Turkey) - Refer to source for
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

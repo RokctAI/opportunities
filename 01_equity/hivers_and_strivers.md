@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.hiversandstrivers.com/team-1
-- **Notes**: US Military Academy graduates focus.
+- **Notes**: Invests in ventures led by U.S. military veterans; industry agnostic, seed through Series B.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: NSW Government
 - **Deadline**: Ongoing
-- **Funding Amount**: AUD 10,000
+- **Funding Amount**: AUD 10,000 to AUD 50,000
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ NSW Women’s Week Grants for Gender Equality Initiatives (Australia) - Refer to
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified)
+- **Verification Status**: VERIFIED
+- **Data Completeness**: INCOMPLETE — missing: deadline (source page does not specify a deadline)
 - **Last Verified**: 2026-08-10

@@ -1,13 +1,13 @@
 # Grant Opportunity: CFAs: HEDGE-IoT Open Call for SMEs and Innovators
 
 ## Quick Stats
-- **Organization**: European Commission
+- **Organization**: HEDGE-IoT project (Horizon Europe)
 - **Deadline**: 2026-08-25
-- **Funding Amount**: up to €60,000
+- **Funding Amount**: up to €60,000 per project (up to 18 projects funded)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania, Armenia, Bosnia And Herzegovina, Canada, Latest Grants And Resources In Faroe Islands, Georgia, Iceland, Israel, Latest Grants And Resources In Kosovo, Moldova, Montenegro, New Zealand, Norway, Latest Grants And Resources In Republic Of Macedonia, Serbia, South Korea, Tunisia, Turkey, Ukraine, United Kingdom. open to SMEs and startups legally established in Horizon Europe participating countries
+- Eligibility: SMEs and startups legally established in Horizon Europe participating countries; profit-making entities developing IoT-enabled and data-driven energy services; valid VAT number and EC PIC required; single legal entities, one proposal per applicant
 
 ## Description
 CFAs: HEDGE-IoT Open Call for SMEs and Innovators - Refer to source for full description.
@@ -18,6 +18,6 @@ CFAs: HEDGE-IoT Open Call for SMEs and Innovators - Refer to source for full des
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

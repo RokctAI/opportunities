@@ -1,9 +1,9 @@
 # Grant Opportunity: Environmental Grants for Sustainable Initiatives (Namibia)
 
 ## Quick Stats
-- **Organization**: EIF
+- **Organization**: Environmental Investment Fund of Namibia
 - **Deadline**: 2026-08-06
-- **Funding Amount**: $50,000.00
+- **Funding Amount**: N$50,000 to N$150,000 per project
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Environmental Grants for Sustainable Initiatives (Namibia) - Refer to source for
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

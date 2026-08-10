@@ -1,13 +1,15 @@
 # Grant Opportunity: RFAs: GICAT Innovation Competition at EUROSATORY 2026 (France)
 
 ## Quick Stats
-- **Organization**: Agorize
+- **Organization**: GICAT
 - **Deadline**: 2026-05-31
-- **Funding Amount**: prize of $10,000
+- **Funding Amount**: Grand prize of $10,000 plus up to $25,000 worth of Proof of Concept support
 - **Focus Area**: General
 
 ## Eligibility
-- open to startups capable of presenting innovative solutions that are both practical and scalable
+- Startups with a Minimum Viable Product (MVP) and proprietary technology aligned with challenge categories
+- Solutions must be innovative, practical, and scalable
+- Presentations submitted in English (PPT or PDF)
 
 ## Description
 RFAs: GICAT Innovation Competition at EUROSATORY 2026 (France) - Refer to source for full description.
@@ -18,5 +20,5 @@ RFAs: GICAT Innovation Competition at EUROSATORY 2026 (France) - Refer to source
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

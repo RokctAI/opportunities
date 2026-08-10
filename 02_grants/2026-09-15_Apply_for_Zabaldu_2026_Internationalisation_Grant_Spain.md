@@ -1,9 +1,9 @@
 # Grant Opportunity: Apply for Zabaldu+ 2026 Internationalisation Grant (Spain)
 
 ## Quick Stats
-- **Organization**: SPRI
+- **Organization**: SPRI (Basque economic development agency)
 - **Deadline**: 2026-09-15
-- **Funding Amount**: budget of €13.6 million
+- **Funding Amount**: Up to €75,000 per company (up to 70% of approved project expenditure); total programme budget €13.6 million
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Apply for Zabaldu+ 2026 Internationalisation Grant (Spain) - Refer to source for
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

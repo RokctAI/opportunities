@@ -1,13 +1,14 @@
 # Grant Opportunity: Call for Applications: Innovation Connect Grant 2026 (Australia)
 
 ## Quick Stats
-- **Organization**: Canberra Innovation Network
+- **Organization**: ACT Government (in partnership with Canberra Innovation Network)
 - **Deadline**: 2026-10-08
-- **Funding Amount**: AUD 10,000
+- **Funding Amount**: AUD 10,000 to AUD 30,000 (matched funding, exclusive of GST)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. 
+- Eligible Countries: Australia (Australian Capital Territory or surrounding region).
+- Must have an ABN; annual turnover under AUD 2 million or pre-revenue; registered for GST if applicable.
 
 ## Description
 Call for Applications: Innovation Connect Grant 2026 (Australia) - Refer to source for full description.
@@ -18,6 +19,6 @@ Call for Applications: Innovation Connect Grant 2026 (Australia) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

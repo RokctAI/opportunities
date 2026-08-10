@@ -7,7 +7,7 @@
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. Eligibility for the fund is open to both individuals and companies
+- Eligible Countries: Australia. Australian citizens, permanent residents, or Australian-incorporated companies with central management in Australia; must hold an ABN and control project rights
 
 ## Description
 Open Call for Emerging Gamemakers Fund (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Open Call for Emerging Gamemakers Fund (Australia) - Refer to source for full de
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

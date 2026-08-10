@@ -1,13 +1,15 @@
 # Grant Opportunity: RFPs: Hands-On ToT Programme for MSME Competitiveness and Export Initiative (Afghanistan)
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: United Nations Development Programme (UNDP)
 - **Deadline**: 2026-05-25
 - **Funding Amount**: USD 400,000
 - **Focus Area**: General
 
 ## Eligibility
-- eligibility criteria
+- Afghanistan-based initiative
+- Strong experience in value chain development, MSME competitiveness, and export readiness
+- Required financial turnover and proven delivery of similar assignments
 
 ## Description
 RFPs: Hands-On ToT Programme for MSME Competitiveness and Export Initiative (Afghanistan) - Refer to source for full description.
@@ -18,5 +20,5 @@ RFPs: Hands-On ToT Programme for MSME Competitiveness and Export Initiative (Afg
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

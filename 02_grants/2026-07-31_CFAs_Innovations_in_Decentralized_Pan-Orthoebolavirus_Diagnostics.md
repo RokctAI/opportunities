@@ -1,13 +1,15 @@
 # Grant Opportunity: CFAs: Innovations in Decentralized Pan-Orthoebolavirus Diagnostics
 
 ## Quick Stats
-- **Organization**: Foundations
+- **Organization**: Gates Foundation (Grand Challenges)
 - **Deadline**: 2026-07-31
-- **Funding Amount**: $350,000
+- **Funding Amount**: US$150,000 to US$800,000 depending on opportunity track (Biomarkers: $350,000-$750,000; Specimen Innovations: $300,000-$600,000; Diagnostic Products: $300,000-$800,000; Quality & Implementation: $150,000-$400,000)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In Congo Brazzaville, Latest Grants And Resources In Congo Dr, Latest Grants And Resources In Cote Divoire Ivory Coast, Gabon, Guinea, Liberia, Sierra Leone, South Sudan, Uganda. open to research institutes, nonprofit organizations, for-profit companies, international organizations, government agencies, and academic institutions
+- Eligible Countries: Democratic Republic of the Congo, Uganda, or other Ebola virus disease-endemic countries
+- Open to research institutes, nonprofit organizations, for-profit companies, international organizations, government agencies, and academic institutions
+- Priority given to applicants with prior experience in diagnostics for high-consequence pathogens, especially Orthoebolaviruses or other BSL-4-classified pathogens
 
 ## Description
 CFAs: Innovations in Decentralized Pan-Orthoebolavirus Diagnostics - Refer to source for full description.
@@ -18,6 +20,6 @@ CFAs: Innovations in Decentralized Pan-Orthoebolavirus Diagnostics - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

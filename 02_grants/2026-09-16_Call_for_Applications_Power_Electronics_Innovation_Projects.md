@@ -1,13 +1,13 @@
 # Grant Opportunity: Call for Applications: Power Electronics Innovation Projects
 
 ## Quick Stats
-- **Organization**: European Commission
+- **Organization**: Chips Joint Undertaking (Chips JU)
 - **Deadline**: 2026-09-16
-- **Funding Amount**: €20 million
+- **Funding Amount**: €20 million total; €1–10 million per project
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania, Argentina, Armenia, Australia, Austria, Belgium, Bolivia, Bosnia And Herzegovina, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Latest Grants And Resources In Estonia, Latest Grants And Resources In Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latest Grants And Resources In Kosovo, Latest Grants And Resources In Latvia, Liechtenstein, Latest Grants And Resources In Lithuania, Luxembourg, Macedonia, Malta, Latest Grants And Resources In Mexico, Montenegro, Netherlands, New Zealand, Latest Grants And Resources In North Korea, Norway, Paraguay, Poland, Latest Grants And Resources In Portugal, Latest Grants And Resources In Republic Of Moldova, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Switzerland, Tunisia, Turkey, Ukraine, United Kingdom, United States, Uruguay. eligibility conditions of the call
+- Eligible Countries: Albania, Argentina, Armenia, Australia, Austria, Belgium, Bolivia, Bosnia And Herzegovina, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Macedonia, Malta, Mexico, Montenegro, Netherlands, New Zealand, North Korea, Norway, Paraguay, Poland, Portugal, Republic Of Moldova, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Switzerland, Tunisia, Turkey, Ukraine, United Kingdom, United States, Uruguay. Legal entities established in EU Member States, EEA countries, Associated Countries, OECD countries, or Mercosur countries
 
 ## Description
 Call for Applications: Power Electronics Innovation Projects - Refer to source for full description.
@@ -18,6 +18,6 @@ Call for Applications: Power Electronics Innovation Projects - Refer to source f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

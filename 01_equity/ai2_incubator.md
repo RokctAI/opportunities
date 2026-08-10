@@ -9,7 +9,7 @@
 - **Territory**: Global
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://www.ai2incubator.com/
+- **Website**: https://aihouse.vc/
 
 ## Contact
 - **Contact Person**: Jacob Colker
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-07-12
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

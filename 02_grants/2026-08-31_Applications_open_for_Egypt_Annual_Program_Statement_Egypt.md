@@ -1,9 +1,9 @@
 # Grant Opportunity: Applications open for Egypt Annual Program Statement (Egypt)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: U.S. Department of State, Bureau of Near Eastern Affairs, Office of Assistance Coordination (NEA/AC)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: $18 million
+- **Funding Amount**: $100 million total across six initiatives (individual initiatives $10–25 million)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Applications open for Egypt Annual Program Statement (Egypt) - Refer to source f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

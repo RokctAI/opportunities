@@ -1,13 +1,16 @@
 # Grant Opportunity: Fifth Call for Funding Applications: FUNGUO Innovation Programme (Tanzania)
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: United Nations Development Programme (UNDP)
 - **Deadline**: 2026-05-31
-- **Funding Amount**: USD 100,000
+- **Funding Amount**: Not specified
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- For-profit or market-oriented social enterprises legally registered in Tanzania, majority-owned by Tanzanian citizens
+- Beyond ideation/pilot stage with a minimum viable product and market traction
+- Must not have raised more than USD 100,000 in equity or debt funding to date
+- Focus areas: agricultural value chain innovation, digital innovation, critical minerals value chain development
 
 ## Description
 Fifth Call for Funding Applications: FUNGUO Innovation Programme (Tanzania) - Refer to source for full description.
@@ -18,5 +21,5 @@ Fifth Call for Funding Applications: FUNGUO Innovation Programme (Tanzania) - Re
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -1,13 +1,13 @@
 # Grant Opportunity: Call for Projects: Protecting Public Health through Global Health Security (United States)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: U.S. Centers for Disease Control and Prevention (CDC)
 - **Deadline**: 2026-08-14
-- **Funding Amount**: funding of $10.5 million,
+- **Funding Amount**: $10.5 million (Year 1); 2-3 awards over five years
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: United States. Eligible applicants include government entities, higher education institutions, nonprofit and for-profit organizations, small businesses , tribal organizations, and foreign or non-U
+- Eligible Countries: United States (project implementation in Kenya). Eligible applicants include government entities, higher education institutions, nonprofit and for-profit organizations, small businesses, tribal organizations, and foreign or non-U.S.-based entities
 
 ## Description
 Call for Projects: Protecting Public Health through Global Health Security (United States) - Refer to source for full description.
@@ -18,6 +18,6 @@ Call for Projects: Protecting Public Health through Global Health Security (Unit
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

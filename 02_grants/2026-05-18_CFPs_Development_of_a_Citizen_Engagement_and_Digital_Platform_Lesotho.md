@@ -1,13 +1,14 @@
 # Grant Opportunity: CFPs: Development of a Citizen Engagement and Digital Platform (Lesotho)
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: United Nations Development Programme (UNDP)
 - **Deadline**: 2026-05-18
 - **Funding Amount**: up to $40,000
 - **Focus Area**: General
 
 ## Eligibility
-- open to individuals, companies, and teams
+- Open to individuals, companies, and teams based in Lesotho through citizenship or establishment
+- Must demonstrate capacity to implement within 120 days and adequate resources
 
 ## Description
 CFPs: Development of a Citizen Engagement and Digital Platform (Lesotho) - Refer to source for full description.
@@ -18,5 +19,5 @@ CFPs: Development of a Citizen Engagement and Digital Platform (Lesotho) - Refer
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

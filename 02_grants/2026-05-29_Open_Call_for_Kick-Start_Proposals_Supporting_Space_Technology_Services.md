@@ -7,7 +7,9 @@
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Businesses across ESA member states and cooperating nations
+- Early-stage feasibility studies assessing the technical and commercial potential of space-based services
+- Projects must incorporate at least one space asset (satellite communications, Earth observation data, or satellite navigation)
 
 ## Description
 Open Call for Kick-Start Proposals Supporting Space Technology Services - Refer to source for full description.
@@ -18,5 +20,5 @@ Open Call for Kick-Start Proposals Supporting Space Technology Services - Refer 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

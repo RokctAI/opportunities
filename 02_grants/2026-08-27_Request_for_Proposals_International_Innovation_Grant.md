@@ -1,13 +1,13 @@
 # Grant Opportunity: Request for Proposals: International Innovation Grant
 
 ## Quick Stats
-- **Organization**: World Bank
+- **Organization**: Conquer Cancer, the ASCO Foundation
 - **Deadline**: 2026-08-27
-- **Funding Amount**: up to $20,000
+- **Funding Amount**: up to $20,000 for one-year projects
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In Afghanistan, Albania, Algeria, Angola, Argentina, Armenia, Azerbaijan, Bangladesh, Belarus, Belize, Benin, Bhutan, Bolivia, Bosnia And Herzegovina, Botswana, Brazil, Burkina Faso, Burundi, Cambodia, Cameroon, Cape Verde, Central African Republic, Chad, China, Colombia, Comoros, Latest Grants And Resources In Congo Brazzaville, Latest Grants And Resources In Congo Dr, Latest Grants And Resources In Cote Divoire Ivory Coast, Latest Grants And Resources In Cuba, Djibouti, Dominica, Dominican Republic, Latest Grants And Resources In East Timor Timor Leste, Latest Grants And Resources In Ecuador, Egypt, El Salvador, Latest Grants And Resources In Equatorial Guinea, Eritrea, Latest Grants And Resources In Eswatini, Federated States Of Micronesia, Fiji, Gabon, Gambia, Georgia, Ghana, Grenada, Guatemala, Guinea, Guinea Bissau, Haiti, Honduras, Iceland, India, Indonesia, Iran, Iraq, Jamaica, Jordan, Kazakhstan, Kenya, Kiribati, Latest Grants And Resources In Kosovo, Kyrgyzstan, Laos, Lebanon, Lesotho, Liberia, Libya, Madagascar, Malawi, Malaysia, Maldives, Mali, Marshall Islands, Mauritania, Mauritius, Latest Grants And Resources In Mexico, Moldova, Mongolia, Montenegro, Morocco, Mozambique, Myanmar, Namibia, Nepal, Nicaragua, Niger, Nigeria, Latest Grants And Resources In North Korea, Pakistan, Papua New Guinea, Paraguay, Peru, Philippines, Latest Grants And Resources In Republic Of Macedonia, Rwanda, Saint Lucia, Saint Vincent And The Grenadines, Samoa, Sao Tome And Principe, Senegal, Serbia, Sierra Leone, Solomon Islands, Somalia, South Africa, South Sudan, Sri Lanka, Sudan, Suriname, Syria, Tajikistan, Tanzania, Thailand, Togo, Tonga, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, Uzbekistan, Vanuatu, Vietnam, Yemen, Zambia, Zimbabwe. 
+- Eligibility: Registered not-for-profit organizations in World Bank-classified low-, lower-middle-, or upper-middle-income countries, operating for at least one year; Principal Investigator must be an ASCO member (or applicant) who is a citizen or permanent resident of an eligible LMIC; hypothesis-driven cancer control research
 
 ## Description
 Request for Proposals: International Innovation Grant - Refer to source for full description.
@@ -18,6 +18,6 @@ Request for Proposals: International Innovation Grant - Refer to source for full
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

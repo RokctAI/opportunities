@@ -1,9 +1,9 @@
 # Grant Opportunity: Funding for Domestic and International Intellectual Property Protection Activities (Hungary)
 
 ## Quick Stats
-- **Organization**: Deadline Date: June 30, 2026 The National Research, Development and Innovation Fund
+- **Organization**: National Research, Development and Innovation Fund
 - **Deadline**: 2026-06-30
-- **Funding Amount**: Unspecified
+- **Funding Amount**: HUF 500,000,000 (total budget; project duration 18 months)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ Funding for Domestic and International Intellectual Property Protection Activiti
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -1,9 +1,9 @@
 # Grant Opportunity: Apply for Community Services Block Grant Support Initiative (US)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: Office of Community Services, Administration for Children and Families (ACF)
 - **Deadline**: 2026-08-24
-- **Funding Amount**: aud,
+- **Funding Amount**: $4,350,000 total (individual awards of $725,000)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Apply for Community Services Block Grant Support Initiative (US) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10
