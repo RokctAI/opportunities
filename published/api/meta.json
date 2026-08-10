@@ -1,6 +1,6 @@
 {
-  "last_sync": "2026-08-09T04:00:31.870538",
-  "total_verified_all": 1296,
+  "last_sync": "2026-08-10T01:34:55.122588",
+  "total_verified_all": 1628,
   "global_defaults": [
     "Review Tender Documents",
     "Prepare Initial Response"
@@ -304,232 +304,309 @@
       }
     },
     "Grants": {
-      "total": 210,
+      "total": 310,
       "verified": 0,
-      "incomplete": 29,
+      "incomplete": 51,
       "classifications": {}
     },
     "Tenders": {
-      "total": 559,
-      "verified": 559,
-      "incomplete": 1,
+      "total": 891,
+      "verified": 891,
+      "incomplete": 8,
       "classifications": {
         "Institution": {
-          "Eastern Cape - Officer of the Premier": 1,
-          "PetroSA": 4,
-          "Ethekwini Metropolitan Municipality": 21,
-          "ESKOM": 49,
-          "National Film and Video Foundation of South Africa": 2,
-          "Johannesburg Water": 26,
-          "Dihlabeng Local Municipality": 1,
-          "City of Ekurhuleni": 1,
-          "Airports Company of South Africa Limited": 4,
-          "Mpumalanga - Public Works Roads and Transport": 9,
-          "Industrial Development Corporation of South Africa Limited": 9,
-          "Cross-Border Road Transport Agency": 3,
-          "Free State - Public Works": 10,
-          "Technology Innovation Agency": 2,
-          "IKHALA PUBLIC TVET COLLEGE": 4,
-          "Public Works": 6,
-          "Kwazulu Natal - Cooperative Governance and Traditional Affairs": 2,
-          "Umzinyathi District Municipality": 1,
-          "Mhlontlo Local Municipality": 8,
-          "Legal Aid South Africa": 1,
-          "Air Traffic and Navigation Services Company Limited": 7,
+          "ARMSCOR": 2,
+          "Ethekwini Metropolitan Municipality": 22,
+          "Mnquma Local Municipality": 11,
+          "uMhlathuze Municipality": 9,
+          "Development Bank of Southern Africa": 7,
+          "NamaKwa District Municipality": 1,
+          "Iziko Museums of Cape Town": 3,
+          "Makhado Local Municipality": 3,
+          "Umzimvubu Local Municipality": 6,
+          "King Sabata Dalindyebo Local Municipality": 11,
+          "City of Ekurhuleni": 5,
+          "Oudtshoorn Municipality": 4,
+          "Tourism": 6,
+          "North West - North West Parks and Tourism Board": 2,
+          "Limpopo - Provincial Treasury": 3,
+          "Public Works": 11,
+          "Kwazulu Natal - Economic Development, Tourism and Environ Affairs": 5,
+          "Water and Sanitation": 9,
+          "IKHALA PUBLIC TVET COLLEGE": 2,
+          "Richtersveld Municipality": 4,
+          "Transport": 1,
+          "Umzinyathi District Municipality": 2,
+          "Swellendam Municipality": 4,
+          "ESKOM": 53,
+          "Legal Aid South Africa": 3,
+          "Northern Cape - Transport Safety and Liaison": 3,
           "Defence": 5,
-          "BRAND RSA": 1,
-          "Kwa-Zulu Natal - Trade and Investment KwaZulu-Natal": 6,
-          "Mine Health and Safety Council": 2,
-          "Eastcape Midlands Tvet College": 5,
+          "Rural Development & Land Reform": 2,
+          "Moqhaka Local Municipality": 1,
           "Eastern Cape - Roads and Public Works": 1,
-          "Sekhukhune District Municipality": 3,
-          "State Information Technology Agency": 2,
-          "JB Marks Local Municipality": 1,
-          "City of Cape Town": 4,
-          "Development Bank of Southern Africa": 4,
-          "Oudtshoorn Municipality": 1,
-          "Mpumalanga - Agriculture Rural Development and Land Administration": 1,
-          "Water and Sanitation": 3,
-          "Education, Training and Development Practices SETA": 5,
-          "Maluti-a-Phofung Local Municipality": 1,
+          "Agricultural Research Council": 18,
+          "Ulundi Local Municipality": 5,
+          "Eskom National Transmission Company of South Africa": 8,
+          "Science & Technology": 3,
+          "South African Post Office Limited": 5,
+          "City of Cape Town": 10,
+          "Ingquza Hill Local Municipality": 2,
+          "iSimangaliso Wetland Park": 4,
+          "Bergrivier - WC Local Municipality": 7,
+          "Eastern Cape - East London Industrial Development Zone Corporation": 2,
+          "Passenger Rail Agency of South Africa": 25,
+          "South African Broadcasting Corporation Limited": 3,
+          "National Nuclear Regulator": 1,
+          "Perishable Products Export Control Board": 3,
+          "GERT SIBANDE TVET COLLEGE": 3,
+          "Municipal Infrastructure Support Agent": 3,
+          "DENEL (Pty) Ltd": 1,
+          "Commission for Conciliation Mediation & Arbitration": 6,
           "Knysna Municipality": 4,
+          "Transnet SOC Ltd": 20,
           "Western Cape - Education": 1,
-          "Joe Gqabi District Municipality": 6,
-          "Trade & Industry": 1,
-          "Rand Water": 3,
-          "National - Department of Agriculture": 4,
-          "Eastern Cape - Health": 2,
-          "City of Tshwane": 2,
-          "Vhembe District Municipality": 3,
-          "Nelson Mandela Bay Municipality": 7,
+          "Joe Gqabi District Municipality": 5,
+          "Kwadukuza Municipality": 2,
+          "Medical Research Council of South Africa": 5,
+          "Kwa-Zulu Natal - Trade and Investment KwaZulu-Natal": 2,
+          "CASIDRA (SOC) Limited": 4,
+          "Special Investigation Unit": 3,
+          "Phokwane Local Municipality": 4,
+          "Council for Scientific and Industrial Research (CSIR)": 5,
           "Kwazulu Natal - Transport": 1,
           "Free State - Health": 1,
-          "Iziko Museums of Cape Town": 5,
-          "Ombud Council": 1,
-          "Airports Company of South Africa": 10,
-          "Ulundi Local Municipality": 7,
-          "Special Investigation Unit": 2,
-          "Media, Information and Communication Technologies Sector Education and training Authority (MICT SETA)": 1,
-          "Luthuli museum": 2,
-          "Border Management Authority": 5,
+          "Department of Rural Development & Land Reform": 9,
+          "Electoral Commission (IEC)": 4,
+          "JOBURG THEATRE (SOC) LTD": 9,
+          "Airports Company of South Africa": 24,
+          "Cape Town International Convention Centre": 2,
+          "Free State - Public Works": 9,
+          "Musina Local Municipality": 5,
+          "Road Accident Fund": 9,
+          "Limpopo - Social Development": 4,
+          "TSHWANE AUTOMOTIVE SPECIAL ECONOMIC ZONE": 3,
+          "Johannesburg Water": 2,
+          "Tygerburg Hospital": 1,
+          "Border Management Authority": 4,
           "South African National Space Agency": 1,
-          "Gauteng - Gauteng Enterprise Propeller": 2,
-          "Western Cape - Health": 4,
-          "South African Broadcasting Corporation Limited": 4,
+          "South African Maritime Safety Authority": 1,
+          "South African National Roads Agency Soc Limited (SANRAL)": 17,
+          "PetroSA": 4,
+          "Gauteng - Provincial Treasury": 2,
+          "Independent Development Trust": 4,
+          "Langeberg Municipality": 5,
+          "Western Cape - Health": 6,
           "George Municipality": 3,
           "Construction Education and Training Authority": 1,
-          "False Bay TVET College": 1,
-          "Cape Winelands District Municipality": 6,
-          "Department of Rural Development & Land Reform": 2,
-          "Transnet SOC Ltd": 8,
-          "Road Accident Fund": 7,
-          "The South African Bureau of Standards (SABS)": 3,
-          "National Radioactive Waste Disposal Institute (NRWDI)": 3,
-          "Dr Nkosazana Dlamini Zuma Local Municipality": 1,
-          "Ports Regulator of South Africa": 2,
-          "Limpopo - Legislature": 3,
-          "Onderstepoort Biological Products Limited": 3,
+          "Eastern Cape CET College": 1,
+          "South African Social Security Agency": 10,
+          "Emalahleni Local Municipality": 2,
+          "Kwazulu Natal - Public Works (Head Office)": 5,
+          "City of Johannesburg - Metro Bus": 4,
+          "Private Security Industry Regulatory Authority": 1,
+          "South African Weather Service": 4,
+          "Sentech Limited": 3,
+          "Eastern Cape - Health": 5,
+          "National Youth Development Agency": 4,
+          "CENTLEC SOC LTD": 1,
+          "Enoch Mgijima Local Municipality": 5,
+          "Gauteng - Agriculture and Rural Development": 1,
+          "North West - North West Community Education and Training College": 3,
+          "Mkhondo Local Municipality": 5,
+          "Drakenstein Municipality": 4,
+          "Nongoma Local Municipality": 1,
+          "Nelson Mandela Bay Municipality": 3,
+          "Northern Cape - Cooperative Governance Human Settlement and Traditional Affairs": 7,
           "Thembelihle Local Municipality": 2,
-          "Marine Living Resources Fund": 4,
+          "City of Tshwane": 4,
+          "Western Cape - Agriculture": 1,
           "Productivity SA": 1,
-          "South African National Roads Agency Soc Limited (SANRAL)": 12,
+          "Magalies Water": 2,
+          "Emadlangeni Local Municipality": 2,
+          "Department of Agriculture, Land Reform & Rural Development": 3,
+          "Overberg District Municipality": 4,
+          "Mhlontlo Local Municipality": 10,
+          "Onderstepoort Biological Products Limited": 6,
           "Mpumalanga - Co-operative Governance, Human Settlements, and Traditional Affairs": 5,
-          "Kwa-Zulu Natal - Ezemvelo KwaZulu-Natal Wildlife": 2,
-          "Western Cape - Transport and Public Works": 2,
-          "South African Nuclear Energy Corporation Limited": 5,
-          "Safety and Security Sector Education and Training Authority (Sasseta)": 4,
-          "Enoch Mgijima Local Municipality": 1,
-          "NATIONAL METROLOGY INSTITUTE OF SOUTH AFRICA": 1,
-          "CEF (Pty) Ltd": 1,
-          "Overberg District Municipality": 5,
-          "South African Diamond and Precious Metals Regulator": 1,
-          "Western Cape - Provincial Treasury": 1,
-          "National Treasury": 1,
-          "National Home Builders Registration Council": 1,
-          "Municipal Infrastructure Support Agent": 1,
-          "Trans-Caledon Tunnel Authority": 1,
-          "KwaZulu-Natal - Tourism And Film Authority": 1,
-          "Northlink TVET College": 1,
-          "Ga-Segonyana Local Municipality": 1,
-          "TSHWANE AUTOMOTIVE SPECIAL ECONOMIC ZONE": 1,
-          "Passenger Rail Agency of South Africa": 13,
-          "South African Airways (Pty) Limited": 1,
-          "Kwazulu Natal - Public Works (Head Office)": 1,
-          "National Heritage Council of South Africa": 2,
-          "Stellenbosch Municipality": 1,
-          "Transnet National Ports Authority": 4,
-          "Commission for Conciliation Mediation & Arbitration": 2,
-          "Eastern Cape - Mayibuye Transport Corporation": 1,
-          "National Nuclear Regulator": 1,
-          "Agricultural Research Council": 5,
-          "Limpopo - Sport Arts and culture": 1,
-          "Statistics South Africa": 3,
-          "South African Local Government Association": 1,
-          "Medical Research Council of South Africa": 1,
-          "Eskom National Transmission Company of South Africa": 6,
-          "Eastern Cape - Agriculture": 3,
-          "Elangeni TVET College": 1,
-          "National - Environment, Forestry and Fisheries": 2,
-          "Council for Scientific and Industrial Research (CSIR)": 3,
-          "KZN Growth Fund Trust": 1,
-          "Bergrivier - WC Local Municipality": 3,
-          "South African Post Office Limited": 4,
-          "Science & Technology": 2,
-          "Northern Cape - Health": 1,
-          "National Regulator for Compulsory Specifications": 2,
-          "Financial Intelligence Centre": 1,
-          "South African Forestry Company Limited": 4,
-          "Thabazimbi Local Municipality": 3,
-          "Agr\u00e9ment South Africa": 2,
-          "National Economic Development and Labour Council": 1,
-          "Limpopo - Economic Development Environment & Tourism": 2,
-          "South African Social Security Agency": 3,
-          "Kannaland Municipality": 1,
-          "Limpopo - Limpopo Gambling Board": 1,
-          "Die Afrikaanse Taal Museum": 2,
-          "William Humphreys Art Gallery": 1,
-          "Kwazulu Natal - Department of Agriculture and Rural Develeopment": 5,
-          "Castle Control Board": 1,
-          "Kwazulu Natal - Social Development": 1,
+          "Banking Sector Education and Training Authority": 4,
+          "Letaba TVET College": 4,
+          "Statistics South Africa": 7,
+          "Media, Information and Communication Technologies Sector Education and training Authority (MICT SETA)": 3,
+          "Laingsburg Municipality": 3,
+          "Blue crane route local municipality": 2,
+          "Marine Living Resources Fund": 2,
+          "Human Sciences Research Council": 3,
+          "Prince Albert Municipality": 2,
+          "Industrial Development Corporation of South Africa Limited": 4,
+          "Energy and Water Sector Education and Training Authority": 1,
+          "National - Environment, Forestry and Fisheries": 6,
+          "Mpofana Local Municipality": 3,
+          "South African Forestry Company Limited": 1,
+          "Council for Medical Schemes": 1,
+          "Council for Geoscience": 1,
           "National Research Foundation": 3,
-          "Mpumalanga - Mpumalanga Economic Growth Agency (MEGA)": 2,
-          "Nama Khoi Local Municipality": 1,
-          "Kgatelopele Local Municipality": 1,
-          "Eastern Cape - Eastern Cape Parks and Tourism Agency": 1,
-          "Lepelle-Nkumpi Municipality": 1,
-          "Umzimvubu Local Municipality": 3,
-          "Swellendam Municipality": 2,
-          "Ratlou Local Municipality": 1,
-          "Mandela Bay Theatre Complex": 1,
           "SA Bureau of Standards": 2,
-          "National Museum Bloemfontein": 1,
-          "DENEL (Pty) Ltd": 1,
-          "uMlalazi Municipality": 1,
-          "Government Communications (GCIS)": 1,
-          "Ephraim Mogale Local Municipality": 2,
-          "VUSELELA TVET COLLEGE": 1,
-          "The South African Qualifications Authority (SAQA)": 1,
-          "Land and Agricultural Development Bank of South Africa": 1,
+          "Insurance Sector Education and Training Authority": 1,
+          "KwaZulu-Natal - Tourism And Film Authority": 1,
+          "ILembe - Enterprise iLembe Economic Development Agency": 1,
+          "Dihlabeng Local Municipality": 2,
+          "Siyathemba Local Municipality": 1,
+          "Greater Kokstad Local Municipality": 3,
+          "Land and Agricultural Development Bank of South Africa": 3,
+          "Ga-Segonyana Local Municipality": 1,
+          "Mogale City Local Municipality": 2,
+          "Culture Arts, Tourism, Hospitality And Sport Sector Education And Training Authority (CATHSSETA)": 1,
+          "John Taolo Gaetsewe District Municipality": 3,
+          "Air Traffic and Navigation Services Company Limited": 7,
+          "Cederberg Municipality": 4,
+          "THE MVULA TRUST": 3,
           "Manufacturing, Engineering and Related Services SETA (merSETA)": 2,
-          "Amajuba District Municipality": 1,
-          "CASIDRA (SOC) Limited": 1,
-          "Limpopo - Provincial Treasury": 1,
-          "Electoral Commission (IEC)": 4,
-          "Council on Higher Education": 1,
-          "Alexkor Limited": 3,
-          "Mpumalanga - Provincial Treasury": 1,
+          "Stellenbosch Municipality": 1,
+          "Dannhauser Local Municipality": 2,
+          "Thulamela Local Municipality": 2,
+          "Transnet National Ports Authority": 5,
+          "Eastern Cape - Education": 1,
+          "Technology Innovation Agency": 3,
+          "Limpopo - Sport Arts and culture": 4,
+          "Thembisile Hani Local Municipality": 5,
+          "Umzimkhulu Local Municipality": 2,
+          "National Arts Council of South Africa": 2,
+          "Ekurhuieni Housing Company": 1,
+          "Postbank SOC": 1,
+          "National Lotteries Commission": 3,
+          "South African Nuclear Energy Corporation Limited": 3,
+          "Maquassi hill Local Municipality": 1,
+          "Francis Baard District Municipality": 1,
+          "The Playhouse Company": 2,
+          "Health": 3,
+          "Social Development": 1,
+          "uMlalazi Municipality": 3,
+          "Johannesburg City Parks and Zoo": 2,
+          "Theewaterkloof Municipality": 2,
+          "Information Regulator": 1,
+          "National - Department of Electricity and Energy": 3,
+          "The Richards Bay Industrial Development Zone": 1,
+          "KwaZulu-Natal Museum": 1,
+          "North West - Department of Health": 1,
+          "State Information Technology Agency": 2,
+          "Koukamma Municipality": 2,
+          "Office Of The Valuer-General": 1,
+          "Die Afrikaanse Taal Museum": 2,
+          "South African Revenue Service": 1,
+          "BRAND RSA": 2,
+          "William Humphreys Art Gallery": 1,
+          "Mpumalanga - Public Works Roads and Transport": 3,
+          "Kwazulu Natal - Department of Agriculture and Rural Develeopment": 5,
+          "South African National Parks": 1,
+          "Western Cape - Western Cape Liquor Board": 1,
+          "Umgeni Water": 3,
+          "Kgatelopele Local Municipality": 1,
+          "National Credit Regulator": 1,
+          "Rand Water": 1,
+          "Winnie Madikizela-Mandela Local Municipality": 2,
+          "Castle Control Board": 1,
+          "Victor Khanye Local Municipality": 1,
+          "Tswaing Local Municipality": 2,
+          "Dube Tradeport": 2,
+          "Kwa-Zulu Natal - Ezemvelo KwaZulu-Natal Wildlife": 2,
+          "Majuba Tvet college": 2,
+          "National Prosecuting Authority (NPA)": 1,
+          "KwaZulu Natal Economic Regulatory Authority": 1,
+          "Limpopo - Gateway Airport Authority Limited": 1,
+          "Lepelle-Nkumpi Municipality": 1,
+          "Mossel Bay Municipality": 1,
+          "Mandeni Local Municipality": 1,
+          "The South African State Theatre": 2,
+          "Northern Cape - Provincial Treasury": 1,
+          "Newcastle Local Municipality": 3,
+          "Vaal Central Water": 2,
+          "Xhariep District Municipality": 1,
+          "Eastern Cape - Cooperative Governance  and Traditional Affairs": 1,
+          "National Heritage Council of South Africa": 1,
+          "Freedom Park Trust": 1,
+          "Ingonyama Trust Board": 1,
+          "The South African Bureau of Standards (SABS)": 1,
+          "Ephraim Mogale Local Municipality": 1,
+          "Kwazulu Natal - Cooperative Governance and Traditional Affairs": 1,
+          "Nkomazi Local Municipality": 2,
+          "South Cape TVET College": 1,
+          "Limpopo - Economic Development Agency": 1,
+          "Eastern Cape - Coega Development Cooperation": 1,
+          "Amajuba District Municipality": 3,
+          "Eastern Cape - Officer of the Premier": 2,
+          "Mandela Bay Theatre Complex": 2,
+          "Msunduzi Local Municipality": 3,
+          "False Bay TVET College": 1,
+          "Sekhukhune District Municipality": 2,
+          "Quality Council for Trades and Occupations": 2,
+          "Ehlanzeni District Municipality": 3,
+          "Ray Nkonyeni Local Municipality": 1,
+          "South African Airways (Pty) Limited": 4,
+          "Air Chefs SOC Ltd": 1,
           "EMAKHAZENI LOCAL MUNICIPALITY": 1,
-          "National - Employment and Labour": 1,
-          "South African Maritime Safety Authority": 1,
-          "North West - Department of Community Safety and Transport Management": 1,
-          "Inxuba Yethemba Local Municipality": 2,
+          "Commission for Gender Equality": 1,
+          "Nkangala District Municipality": 3,
+          "DEPARTMENTOF COMMUNICATIONS AND DIGITAL TECHNOLOGIES": 1,
+          "Vhembe District Municipality": 2,
+          "National School of Government": 1,
+          "Eastern Cape Rural Development Agency": 1,
+          "Trade & Industry": 1,
           "Alfred Duma Local Municipality": 1,
           "Nkandla Local Municipality": 2,
-          "Siyathemba Local Municipality": 1,
+          "Limpopo - Economic Development Environment & Tourism": 1,
+          "Eastern Cape - Safety and Liaison": 1,
+          "Airports Company of South Africa Limited": 1,
+          "SALDANHA BAY MUNICIPALITY": 3,
+          "Public Service Sector Education and Training Authority": 1,
+          "African Exploration Mining and Finance Corporation Soc Ltd": 1,
           "Mbombela Local Municipality": 1,
+          "Ekurhuleni Water Care Company (ERWAT)": 1,
+          "Housing Development Agency": 1,
+          "Greater Tzaneen Municipality": 1,
           "South African National Energy Development Institute": 1,
-          "KwaZulu-Natal Museum": 1,
-          "Blouberg Municipality": 1,
+          "uMgungundlovu District Municipality": 1,
           "Makhuduthamaga Local Municipality": 1,
           "National Housing Finance Corporation Limited": 2,
-          "SALDANHA BAY MUNICIPALITY": 1,
-          "Public Service & Administration": 1,
-          "SOUTH AFRICAN HEALTH PRODUCTS REGULATORY AUTHORITY": 1,
-          "Msunduzi Local Municipality": 1,
-          "Kheis Local Municipality": 1,
-          "Automotive Industry Development Centre (AIDC)": 1,
-          "Cape Agulhas Municipality": 1,
+          "Finance and Accounting Services Sector Education and Training Authority (Fasset)": 1,
+          "Western Cape - Transport and Public Works": 3,
+          "National Gambling Board of South Africa": 1,
+          "Kouga Municipality": 2,
+          "South African Local Government Association": 1,
+          "National Radioactive Waste Disposal Institute (NRWDI)": 1,
           "Elundini Local Municipality": 1,
-          "Road Traffic Infringement Agency": 1,
-          "Sentech Limited": 1,
-          "Musina Local Municipality": 2,
-          "Health": 1
+          "Garden Route District Local Municipality": 1,
+          "Northern Cape - Health": 1,
+          "Safety and Security Sector Education and Training Authority (Sasseta)": 1,
+          "Thabazimbi Local Municipality": 3,
+          "Western Cape - Provincial Treasury": 1,
+          "National Treasury": 1,
+          "Cape Agulhas Municipality": 1
         },
         "Flag": {
-          "ZA": 559
+          "ZA": 891
         },
         "Tender Type": {
-          "Request for Quotation": 228,
-          "Request for Bid(Open-Tender)": 251,
-          "Request for Information": 4,
-          "Request for Proposal": 56,
-          "Expression of interest": 11,
-          "Sole source bidding": 1,
-          "Participation": 4,
-          "Request for Bid(Limited-Tender": 1,
+          "Request for Information": 8,
+          "Request for Bid(Open-Tender)": 477,
+          "Request for Proposal": 97,
+          "Request for Quotation": 283,
+          "Expression of interest": 14,
+          "Participation": 5,
+          "Request for Bid(Limited-Tender": 4,
           "SITA contract": 1
         },
         "Province": {
-          "Eastern Cape": 59,
-          "Western Cape": 82,
-          "KwaZulu-Natal": 80,
-          "Free State": 21,
-          "Gauteng": 121,
-          "National": 72,
-          "Mpumalanga": 50,
-          "Limpopo": 31,
-          "North West": 16,
-          "Northern Cape": 25
+          "Gauteng": 188,
+          "KwaZulu-Natal": 148,
+          "Eastern Cape": 115,
+          "Northern Cape": 44,
+          "Western Cape": 140,
+          "Limpopo": 53,
+          "North West": 23,
+          "Mpumalanga": 56,
+          "National": 93,
+          "Free State": 29
         }
       }
     },
@@ -568,21 +645,6 @@
     }
   },
   "advanced_enrichment": {
-    "ocds-9t57fa-162477": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162238": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD 9, SBD5 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1"
-      ]
-    },
     "ocds-9t57fa-162808": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -591,26 +653,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
-      ]
-    },
-    "ocds-9t57fa-162749": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD 8, SBD 9 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and specific goals must not' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS POINTS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162601": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162157": {
@@ -623,66 +665,12 @@
         "Draft detailed methodology addressing 'a maximum of' (80 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162313": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162279": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162649": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Bidder\u2019s experience' (35 pts) | 3",
-        "Draft detailed methodology addressing 'Qualifications, skills, and experience of the team' (25 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162415": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 6, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162755": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162638": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162461": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (80 pts) | 3"
       ]
     },
     "ocds-9t57fa-162376": {
@@ -701,72 +689,7 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162144": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162263": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Tender Cancellation Letter' (1 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162731": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162328": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162662": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Detailed budget breakdown' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162470": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4, SBD6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'total price weighs' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162433": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD 7, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'A maximum of' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162527": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
@@ -784,36 +707,6 @@
         "Draft detailed methodology addressing 'ALLOW FOR SCAFFOLDING' (92 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162661": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022Valid BBBEE Certificate issued' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162648": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 5, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD4, MBD7, MBD8, MBD9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162330": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD9 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162623": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -822,29 +715,6 @@
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162278": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Final draft for authorisation' (1 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162590": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Within the boundaries of the Oudtshoorn municipali' (10 pts) | 3",
-        "Draft detailed methodology addressing 'Within the Eden District' (5 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162275": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
       ]
     },
     "ocds-9t57fa-162717": {
@@ -857,53 +727,12 @@
         "Draft detailed methodology addressing 'RDP Goal: Sub-contracting 30%' (10 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162299": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD1, SBD3, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162549": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD4 | 1"
-      ]
-    },
-    "ocds-9t57fa-162596": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162137": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Republic of South Africa' (8 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162553": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162544": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162810": {
@@ -914,24 +743,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
-      ]
-    },
-    "ocds-9t57fa-162523": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162473": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'TOOL RATCHET SPANNER 24X32MM PODGER' (100 pts) | 3",
-        "Draft detailed methodology addressing 'TOOL PLIERS WATERPUMP 200MM SANS 1120' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162701": {
@@ -952,32 +763,6 @@
         "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162368": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162617": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Gearbox breather element for Hansen QHRJ3S-CTN-28 ' (100 pts) | 3",
-        "Draft detailed methodology addressing 'FILTER, ELEMENT: TYPE: HYDRAULIC; DIMENSIONS: ID X' (90 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162629": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162622": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -986,68 +771,6 @@
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Draft detailed methodology addressing 'Basic Due Diligence Total' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162231": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Form Header and Footer Portait Template' (5 pts) | 3",
-        "Draft detailed methodology addressing 'OHS/SHE policy signed by CEO' (5 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162657": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162351": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162577": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND SPECIFIC' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162298": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162439": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-158073": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
       ]
     },
     "ocds-9t57fa-162434": {
@@ -1060,14 +783,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-158072": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162679": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -1076,40 +791,12 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162600": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162296": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'DISHWASHING LIQUID 750ML' (82 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162768": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'All signature must be displayed' (8 pts) | 3",
         "Draft detailed methodology addressing 'Full completed with all documents' (7 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162449": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD4, SBD6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Sum of items 1 to 6. This' (7 pts) | 3",
-        "Draft detailed methodology addressing 'Signed RFQ document.' (4 pts) | 3"
       ]
     },
     "ocds-9t57fa-162790": {
@@ -1130,53 +817,7 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162212": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD3 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Workspace Support' (77 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162762": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162151": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Calibration certificates' (15 pts) | 3",
-        "Draft detailed methodology addressing 'CoC issue and inspection' (14 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162317": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162383": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 4, MBD 5, MBD 6, MBD 8, MBD 9, MBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for price and specific goals' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162584": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
@@ -1192,24 +833,6 @@
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162406": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162510": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR FUNCTIONALITY' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162578": {
@@ -1240,34 +863,6 @@
         "Draft detailed methodology addressing 'Total evaluation points for quality' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162746": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Template for a Typical' (5 pts) | 3",
-        "Draft detailed methodology addressing 'Document Identifier' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-158017": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 2, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Tender Price' (90 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162490": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162631": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -1276,16 +871,6 @@
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Draft detailed methodology addressing 'Total points for Price and B-BBEE must not exceed' (100 pts) | 3",
         "Draft detailed methodology addressing 'B-BBEE STATUS LEVEL OF CONTRIBUTOR' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162563": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD 8, SBD 9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'The tender submission will be functionally evaluat' (105 pts) | 3",
-        "Draft detailed methodology addressing 'Bidders not meeting the minimum threshold of' (85 pts) | 3"
       ]
     },
     "ocds-9t57fa-162511": {
@@ -1308,39 +893,11 @@
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
       ]
     },
-    "ocds-9t57fa-162236": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162754": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
-      ]
-    },
-    "ocds-9t57fa-162685": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162774": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 4, MBD 6, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
       ]
     },
     "ocds-9t57fa-162414": {
@@ -1351,172 +908,7 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162333": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6 | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162325": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162730": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-158069": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162404": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162800": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162705": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Price will be evaluated on' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162478": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD1, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PRINCIPLE WILL BE APPLICABLE FOR THIS REQUEST OF W' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-158179": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162374": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Regret Letter' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Document' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162742": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162294": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162494": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Draft detailed methodology addressing 'Total points' (20 pts) | 3",
-        "Draft detailed methodology addressing 'Enterprises located in Limpopo province' (4 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162684": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162681": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162589": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD1, SBD4, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and B-BBEE must not exceed' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Weighted score' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162676": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162448": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162516": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
@@ -1532,14 +924,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162469": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162647": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -1550,58 +934,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162410": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD4, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162625": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162489": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162608": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Specification was due for revision and in addition' (3 pts) | 3",
-        "Draft detailed methodology addressing 'Specification reviewed to be aligned with the' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-161089": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162189": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162169": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -1610,190 +942,12 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162344": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PRICE OFFER' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162678": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD4, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'where the' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162615": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162674": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162533": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162185": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162211": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-158068": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162467": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4, SBD6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'total price weighs' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162579": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 6, MBD 8, MBD 9, MBD1, MBD4, MBD7, MBD9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162654": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and B-BBEE must not' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162280": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162732": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 2, MBD 3, MBD 4, MBD 5, MBD 6, MBD 7, MBD 8, MBD 9, MBD2, MBD4, MBD5, MBD6, MBD7, MBD8, MBD9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'where the' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162306": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162700": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-160481": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162735": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162773": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Maximum possible score for functionality (Ms)' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162534": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162276": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Bidders that score less than' (30 pts) | 3"
       ]
     },
     "ocds-9t57fa-162806": {
@@ -1806,44 +960,12 @@
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
       ]
     },
-    "ocds-9t57fa-162453": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Bidder/ The ETD Practitioner has submitted' (11 pts) | 3",
-        "Draft detailed methodology addressing 'Bidder/ The ETD Practitioners has submitted' (8 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162506": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR FUNCTIONALITY' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162675": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162750": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Medicals and Inductions (for 4 drivers)' (4 pts) | 3",
-        "Draft detailed methodology addressing 'Safety File' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162300": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Letter to Extend Validity Period of' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162146": {
@@ -1872,14 +994,6 @@
         "Draft detailed methodology addressing 'Total points for Price and' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162173": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing '110mm 90 bend plain PVC' (100 pts) | 3",
-        "Draft detailed methodology addressing '110mm pvc pipe 6m' (99 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162256": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -1888,32 +1002,6 @@
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
         "Draft detailed methodology addressing 'A maximum of' (90 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162656": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 3, SBD 6, SBD3, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'TOTAL FOR FUNCTIONALITY' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162408": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1"
-      ]
-    },
-    "ocds-9t57fa-162609": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD 7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and Specific Goals' (100 pts) | 3",
-        "Draft detailed methodology addressing 'The lowest acceptable quotation will score' (80 pts) | 3"
       ]
     },
     "ocds-9t57fa-162632": {
@@ -1926,24 +1014,6 @@
         "Draft detailed methodology addressing 'Total points for Price, BBBEE and Locality (must n' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162504": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162334": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162667": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -1952,88 +1022,12 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162431": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Draft detailed methodology addressing 'Total technical/functional' (100 pts) | 3",
-        "Draft detailed methodology addressing 'TOTAL FOR PRICE and PREFERENCE POINTS' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162614": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD 7, SBD 9, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND SPECIFIC' (100 pts) | 3",
-        "Draft detailed methodology addressing 'tal points for Price and SPECIFIC' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162365": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162711": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162401": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'An overall threshold of' (75 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162734": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162611": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4, SBD6 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Maximum' (100 pts) | 3",
-        "Draft detailed methodology addressing 'If the service provider submitted five (5) traceab' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162683": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162728": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162783": {
@@ -2046,74 +1040,12 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162650": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD4 | 1",
-        "Draft detailed methodology addressing 'Technical Requirements' (12 pts) | 3",
-        "Draft detailed methodology addressing 'Authorization to Tender Form' (11 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162518": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Forklift per day' (11 pts) | 3",
-        "Draft detailed methodology addressing 'Overtime labour (public holidays)' (10 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162703": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing '20L Cold and Hot water dispenser' (4 pts) | 3",
-        "Draft detailed methodology addressing 'Proposed maintenance agreement' (1 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162702": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162440": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD1, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and Specific Goals' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162606": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Supply and install 40 ergonomic' (40 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162698": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD 7, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'GRAND TOTAL' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162132": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1"
       ]
     },
     "ocds-9t57fa-162558": {
@@ -2124,51 +1056,6 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162208": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162682": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162567": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Tender Cancellation Letter' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162174": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Functional minimum threshold on' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162412": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162708": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2177,67 +1064,12 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162201": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162535": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD1, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and Specific Goals' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162311": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162692": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total Price and B-BBEE Points' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162234": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162198": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD4, MBD6, MBD7, MBD8, MBD9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'claim form of the Preferential Procurement Regulat' (80 pts) | 3",
-        "Draft detailed methodology addressing 'Bergrivier Jurisdiction' (10 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162751": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
       ]
     },
     "ocds-9t57fa-162639": {
@@ -2250,26 +1082,6 @@
         "Draft detailed methodology addressing 'MAINTENANCE CONTRACT (optional)' (28 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162239": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD1, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'BEE Certificate - SANAS accredited OR Signed' (10 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162474": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4, SBD6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Refilling water cooler bottles' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162386": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2278,58 +1090,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Draft detailed methodology addressing 'Total points for price and specific goals' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162143": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Minimum Required Score for functionality evaluatio' (60 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162507": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD 7, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Bidder to provide a list of data and analytics sol' (50 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162230": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total Points for PRICE and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162184": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Light Bulb Fitting' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Light Bulbs' (5 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162694": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Annexure B: Eskom' (5 pts) | 3",
-        "Draft detailed methodology addressing 'Document' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162564": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD4 | 1"
       ]
     },
     "ocds-9t57fa-162425": {
@@ -2347,38 +1107,6 @@
       "tasks": [
         "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD1, SBD7 | 1",
         "Verify Tax Compliance status on SARS and provide valid PIN | 1"
-      ]
-    },
-    "ocds-9t57fa-162491": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162346": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162218": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162645": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
       ]
     },
     "ocds-9t57fa-162807": {
@@ -2409,24 +1137,6 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162493": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Regret Letter' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Document' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162484": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'BOLT AND NUT M6X20MM A4 STAINLESS STEEL 316 IN' (100 pts) | 3",
-        "Draft detailed methodology addressing 'BOLT AND NUT M6X100MM A4 STAINLESS STEEL 316 IN' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162183": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2446,40 +1156,12 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162341": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'BIDDERS RELEVANT EXPERIENCE IN RATING INSTITUTIONS' (30 pts) | 3",
-        "Draft detailed methodology addressing 'FINAL PRESENTATION TO IDC' (30 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162255": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD1, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and Specific Goals' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162513": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'Test communication' (62 pts) | 3",
         "Draft detailed methodology addressing 'Clean and Test printers' (61 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162636": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
       ]
     },
     "ocds-9t57fa-162289": {
@@ -2500,42 +1182,6 @@
         "Draft detailed methodology addressing 'Minimum Points' (75 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162557": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162718": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162536": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Prices will be scored out of' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162635": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162155": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2554,44 +1200,6 @@
         "Draft detailed methodology addressing 'Total points' (24 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162664": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD 7, SBD1, SBD3, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Overall total' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162340": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162465": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 2, MBD 3, MBD 4, MBD 5, MBD 6, MBD 7, MBD 8, MBD 9, MBD2, MBD4, MBD5, MBD6, MBD7, MBD8, MBD9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'where the' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162499": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Prices will be scored out of' (80 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162799": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2602,24 +1210,6 @@
         "Draft detailed methodology addressing 'Maximum possible score for Functionality (Ms)' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162259": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162197": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD4, MBD6, MBD7, MBD8, MBD9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'claim form of the Preferential Procurement Regulat' (80 pts) | 3",
-        "Draft detailed methodology addressing 'Bergrivier Jurisdiction' (10 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162459": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2628,150 +1218,11 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162188": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162630": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'B-BBEE Status Level 1 - 2' (10 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162240": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162572": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1"
-      ]
-    },
-    "ocds-9t57fa-162153": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'preference point system will be used where' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162782": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162495": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Draft detailed methodology addressing 'Total points' (20 pts) | 3",
-        "Draft detailed methodology addressing 'Enterprises located in Limpopo province' (4 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162337": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-157918": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Network map shows minimum two POPs' (12 pts) | 3",
-        "Draft detailed methodology addressing 'Network map shows minimum two POPs' (11 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162627": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162167": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Environmental Emergency Plan (including' (5 pts) | 3",
-        "Draft detailed methodology addressing 'Environmental Incidents Register (including' (4 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162655": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'Tender Cancellation Letter' (1 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162573": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 4, MBD 5, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND SPECIFIC' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162520": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162384": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD3, MBD4, MBD6, MBD7, MBD8, MBD9 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162607": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Specification was due for revision and in addition' (3 pts) | 3",
-        "Draft detailed methodology addressing 'Specification reviewed to be aligned with the' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-157817": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD3, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Company details' (86 pts) | 3"
       ]
     },
     "ocds-9t57fa-162422": {
@@ -2794,16 +1245,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162161": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Spray and apply gel treatment for cockroaches, ant' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162696": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2811,16 +1252,6 @@
         "Draft detailed methodology addressing 'qualification and will be required to achieve a mi' (70 pts) | 3",
         "Draft detailed methodology addressing 'Company Experience' (40 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162485": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD4, SBD6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
       ]
     },
     "ocds-9t57fa-162784": {
@@ -2833,16 +1264,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162677": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162804": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2853,20 +1274,6 @@
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
       ]
     },
-    "ocds-9t57fa-162541": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1"
-      ]
-    },
-    "ocds-9t57fa-162129": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162791": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -2874,15 +1281,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Draft detailed methodology addressing 'Total points for PRICE and SPECIFIC GOALS' (100 pts) | 3",
         "Draft detailed methodology addressing 'Each bidder must obtain a minimum of' (98 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162548": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'The minimum qualifying score for functionality wil' (70 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -2896,146 +1294,12 @@
         "Draft detailed methodology addressing 'TOTAL POINTS' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162556": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1"
-      ]
-    },
-    "ocds-9t57fa-162427": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD 8, SBD 9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'The tender submission will be functionally evaluat' (105 pts) | 3",
-        "Draft detailed methodology addressing 'Bidders not meeting the minimum threshold of' (85 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162560": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Demonstrated specialist expertise in the' (50 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162599": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162248": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Stainless Steel Seat Spray' (81 pts) | 3",
-        "Draft detailed methodology addressing 'Stainless Steel Toilet paper' (81 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162500": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC' (100 pts) | 3",
-        "Draft detailed methodology addressing 'B-BBEE Level 1' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162265": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total Points for functionality' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162524": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Price (Note: All Prices must' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162202": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162372": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Regret Letter' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Document' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162796": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Tagr Projects' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Mulemba Construction and Distribution' (5 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162181": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162223": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Description' (1 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162466": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162744": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Mon \u2013 Fri @' (60 pts) | 3",
-        "Draft detailed methodology addressing 'Mon \u2013 Fri @' (60 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162192": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4, SBD6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and Transformation must not' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and Transformation' (100 pts) | 3"
       ]
     },
     "ocds-9t57fa-162370": {
@@ -3046,34 +1310,6 @@
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
         "Draft detailed methodology addressing 'OVERALL TOTAL' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162235": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'preference point system will be used where' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162719": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162666": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD1, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Maximum possible score' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and B-BBEE must not exceed' (100 pts) | 3"
       ]
     },
     "ocds-9t57fa-162802": {
@@ -3092,24 +1328,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1"
       ]
     },
-    "ocds-9t57fa-162436": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Annexure B: Eskom' (5 pts) | 3",
-        "Draft detailed methodology addressing 'Document' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162273": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD1, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162789": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3117,24 +1335,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Draft detailed methodology addressing 'Total points for PRICE and SPECIFIC GOALS' (100 pts) | 3",
         "Draft detailed methodology addressing 'Each bidder must obtain a minimum of' (98 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162392": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total Points' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162486": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'R e v ision' (7 pts) | 3",
-        "Draft detailed methodology addressing 'Section A Score Option 2' (3 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -3156,90 +1356,12 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162382": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 4, MBD 5, MBD 6, MBD 8, MBD 9, MBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for price and specific goals' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162464": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 4, MBD 5, MBD 6, MBD 8, MBD 9, MBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for price and specific goals' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162595": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162551": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162207": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD 7 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'suppliers must obtain a minimum of' (50 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162581": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD1, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and Specific Goals' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162514": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162658": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD4 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162811": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (80 pts) | 3"
       ]
     },
     "ocds-9t57fa-162672": {
@@ -3250,43 +1372,6 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162225": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD 7, SBD1, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'A maximum of' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162697": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD 7, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162512": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD 7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162496": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1"
-      ]
-    },
     "ocds-9t57fa-162206": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3294,22 +1379,6 @@
         "Draft detailed methodology addressing 'TOTAL POINTS CLAIMED' (20 pts) | 3",
         "Draft detailed methodology addressing 'points are for price and' (20 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162247": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162642": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
       ]
     },
     "ocds-9t57fa-162420": {
@@ -3332,34 +1401,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162191": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Specification was due for revision and in addition' (3 pts) | 3",
-        "Draft detailed methodology addressing 'Specification reviewed to be aligned with the' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162162": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD1, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'BEE Certificate - SANAS accredited OR Signed Sworn' (10 pts) | 3",
-        "Draft detailed methodology addressing 'Phase 1 Assessments as per the' (1 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162714": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Minimum of' (70 pts) | 3",
-        "Draft detailed methodology addressing 'Valid Public Liability Insurance' (25 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162180": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3379,16 +1420,6 @@
         "Draft detailed methodology addressing 'Provide Letter from' (40 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162152": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 8, MBD 9, MBD3, MBD6, MBD9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'TotalpointsforPriceandSPECIFICGOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '(cid:891)(cid:115)(cid:258)(cid:367)(cid:349)(cid:' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162690": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3397,44 +1428,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Draft detailed methodology addressing 'Total Points for Price and SPECIFIC GOALS' (100 pts) | 3",
         "Draft detailed methodology addressing '2. Proposal submitted is in line with Scope of Wor' (30 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162200": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total Points for PRICE and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162526": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162229": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total Points for PRICE and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162224": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
       ]
     },
     "ocds-9t57fa-162220": {
@@ -3447,22 +1440,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162271": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162353": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Accommodation' (60 pts) | 3",
-        "Draft detailed methodology addressing 'Subsistence' (60 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162712": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3471,22 +1448,6 @@
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
         "Draft detailed methodology addressing 'Tenderer who obtained less than the minimum thresh' (60 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162176": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162438": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
       ]
     },
     "ocds-9t57fa-162787": {
@@ -3509,16 +1470,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162258": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD1, SBD4, SBD6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Bidders that score' (80 pts) | 3",
-        "Draft detailed methodology addressing 'References (for the company/bidder)' (40 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162187": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3527,44 +1478,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
-      ]
-    },
-    "ocds-9t57fa-162743": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'One (1) to two (2) years relevant experience' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162671": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162318": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
-      ]
-    },
-    "ocds-9t57fa-162688": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4, SBD6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'total price weighs' (80 pts) | 3"
       ]
     },
     "ocds-9t57fa-162624": {
@@ -3583,42 +1496,6 @@
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
         "Draft detailed methodology addressing 'Minimum Points' (70 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162305": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Black women' (8 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162249": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'The lowest acceptable price will score' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162591": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-158075": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
       ]
     },
     "ocds-9t57fa-162695": {
@@ -3640,16 +1517,6 @@
         "Draft detailed methodology addressing 'Price Assessment' (80 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162483": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162725": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3660,14 +1527,6 @@
         "Draft detailed methodology addressing 'Experience of service provider in executing' (30 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162753": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'The contractor should have experience working on' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Proof of technical ability with tools \u2013 Score 5' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162747": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3676,72 +1535,7 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162243": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'million' (80 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-158203": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162487": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD6 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'SDL&I Strategy Setting' (1 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162602": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'The bidder is not a restricted supplier as per the' (7 pts) | 3",
-        "Draft detailed methodology addressing 'The bidder is not a tender defaulter as per the re' (6 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162592": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'VALVE GATE COPPER ALLOY 050MM NON RISING' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162575": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'A minimum score of' (75 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162586": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162588": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
@@ -3755,36 +1549,6 @@
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162308": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162251": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD4, MBD6, MBD7, MBD8, MBD9 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'claim form of the Preferential Procurement Regulat' (80 pts) | 3",
-        "Draft detailed methodology addressing 'Bergrivier Jurisdiction' (10 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162670": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 9 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing '2KG WASHING POWDER' (100 pts) | 3"
       ]
     },
     "ocds-9t57fa-162160": {
@@ -3807,14 +1571,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-158074": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162739": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3823,41 +1579,11 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162745": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Mon \u2013 Fri @' (60 pts) | 3",
-        "Draft detailed methodology addressing 'Mon \u2013 Fri @' (60 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162733": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Price will be evaluated on' (80 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162154": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'minimum qualifying points will be' (70 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162481": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 8, MBD 9 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
       ]
     },
     "ocds-9t57fa-162398": {
@@ -3876,25 +1602,6 @@
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162338": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162626": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'points will be allocated in respect of price and' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162707": {
@@ -3917,24 +1624,6 @@
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162442": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162583": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD 7, SBD3, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162291": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -3945,47 +1634,11 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162343": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PRICE OFFER' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162435": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162505": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'Car Rental Building' (7 pts) | 3",
         "Draft detailed methodology addressing 'Arrival Hall (Replace one glass door broken at arr' (6 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162182": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and Preference Points must ' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162691": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'R e v is ion' (7 pts) | 3",
-        "Draft detailed methodology addressing 'Section A Score Option 2' (3 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -4009,15 +1662,6 @@
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
       ]
     },
-    "ocds-9t57fa-162314": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162738": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -4026,51 +1670,10 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162529": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162598": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD4 | 1"
-      ]
-    },
     "ocds-9t57fa-162574": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'Invitation to Tender/ Request' (23 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162502": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Supplier Declaration of' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Document' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162559": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Black Ownership' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Women Owned' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162480": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 2, MBD 4, MBD 7, MBD 9, MBD2, MBD8, MBD9 | 1",
-        "Draft detailed methodology addressing '14. Euroclear Anti-Scratch' (100 pts) | 3",
-        "Draft detailed methodology addressing '15. Garden digging spades' (100 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -4084,44 +1687,6 @@
         "Draft detailed methodology addressing 'Minimum Points' (75 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162668": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 9 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'HP Laser Jet 89A Black' (10 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162322": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Form Header and Footer Portait Template' (5 pts) | 3",
-        "Draft detailed methodology addressing 'OHS policy signed by CEO' (5 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162390": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '\u2022 Valid BBBEE Certificate' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162680": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4, SBD6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'total price weighs' (80 pts) | 3"
-      ]
-    },
     "ocds-9t57fa-162428": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -4130,16 +1695,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
         "Draft detailed methodology addressing 'or the evaluation of responsive bids will be based' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162163": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 8, MBD 9, MBD3, MBD6, MBD9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'TotalpointsforPriceandSPECIFICGOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing '(cid:891)(cid:115)(cid:258)(cid:367)(cid:349)(cid:' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162569": {
@@ -4156,24 +1711,6 @@
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-158076": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162462": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 6, MBD 8, MBD 9 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Draft detailed methodology addressing 'TOOL SHOVEL ROUND NOSE OPEN SOCKET 230MM' (100 pts) | 3",
-        "Draft detailed methodology addressing 'TOOL PROFESSIONAL SOLID HACKSAW FRAME 300MM' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162371": {
@@ -4193,58 +1730,12 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162651": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD 7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE AND SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'MINIMUM WEIGHTING SCORE' (65 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162752": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4 | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
-      ]
-    },
     "ocds-9t57fa-162320": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162740": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4, SBD6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'total price weighs' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162424": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD1, SBD4, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total Functionality' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162603": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162801": {
@@ -4257,49 +1748,12 @@
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2"
       ]
     },
-    "ocds-9t57fa-162232": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162292": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Analyze Tender Documents for specific requirements | 1",
         "Identify Mandatory Compliance items | 2",
         "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162196": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD4, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Koo chakalaka mild & spicy 410g' (96 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162349": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'The solution is supplied with a 3 years\u2019 Support a' (10 pts) | 3",
-        "Draft detailed methodology addressing 'a) Bidder has included a CV of a resource to imple' (8 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162178": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'The minimum qualifying score for functionality wil' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-162403": {
@@ -4310,42 +1764,6 @@
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Draft detailed methodology addressing 'Total points for Price and Specific Goals must not' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162221": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162604": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Price will be evaluated on' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-162186": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162468": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PRINCIPLE WILL BE APPLICABLE FOR THIS REQUEST OF W' (80 pts) | 3"
       ]
     },
     "ocds-9t57fa-162214": {
@@ -4376,13 +1794,6 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-162445": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'G. Modiakgotla' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-162597": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -4397,24 +1808,6 @@
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'Tender Cancellation Letter' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162379": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162748": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD 8, SBD 9 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and specific goals must not' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFIC GOALS POINTS' (20 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -4435,14 +1828,6 @@
         "Prepare Initial Response Proposal | 3"
       ]
     },
-    "ocds-9t57fa-162447": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162217": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -4453,90 +1838,10 @@
         "Draft detailed methodology addressing 'Only bidders who attain a' (70 pts) | 3"
       ]
     },
-    "ocds-9t57fa-162542": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1"
-      ]
-    },
-    "ocds-9t57fa-162530": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Dyna test Cap & rod grinder' (20 pts) | 3",
-        "Draft detailed methodology addressing 'Line bore machine' (19 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162552": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162546": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Sliding door guides' (80 pts) | 3",
-        "Draft detailed methodology addressing 'Cabin hook 150mm' (70 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-162336": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162175": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162385": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162669": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
     "ocds-9t57fa-162758": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Verify Tax Compliance status on SARS and provide valid PIN | 1"
-      ]
-    },
-    "ocds-9t57fa-162766": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Analyze Tender Documents for specific requirements | 1",
-        "Identify Mandatory Compliance items | 2",
-        "Prepare Initial Response Proposal | 3"
-      ]
-    },
-    "ocds-9t57fa-162426": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD3, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'preference points where a maximum of' (80 pts) | 3"
       ]
     },
     "ocds-9t57fa-162156": {
