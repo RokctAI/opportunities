@@ -7,7 +7,7 @@
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania, Armenia, Austria, Belgium, Bosnia And Herzegovina, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Latest Grants And Resources In Estonia, Latest Grants And Resources In Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Latest Grants And Resources In Kosovo, Latest Grants And Resources In Latvia, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Moldova, Montenegro, Netherlands, New Zealand, Norway, Poland, Latest Grants And Resources In Portugal, Latest Grants And Resources In Republic Of Macedonia, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Switzerland, Tunisia, Turkey, Ukraine, United Kingdom. Any legal entity, regardless of its place of establishment, including entities from non-associated third countries or international organisations, may participate if the conditions under the Horizon Europe Regulation and specific call requirements are met.
+- Eligible Countries: Albania, Armenia, Austria, Belgium, Bosnia And Herzegovina, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Kosovo, Latvia, Lithuania, Luxembourg, Malta, Moldova, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Republic Of Macedonia, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Switzerland, Tunisia, Turkey, Ukraine, United Kingdom. Any legal entity, regardless of its place of establishment, including entities from non-associated third countries or international organisations, may participate if the conditions under the Horizon Europe Regulation and specific call requirements are met.
 
 ## Description
 Call for Biotechnology Innovations for Healthy Ageing - Refer to source for full description.
@@ -18,6 +18,6 @@ Call for Biotechnology Innovations for Healthy Ageing - Refer to source for full
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

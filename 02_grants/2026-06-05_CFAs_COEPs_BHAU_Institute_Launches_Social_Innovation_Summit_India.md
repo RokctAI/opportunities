@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: COEP’s BHAU Institute of Innovation, Entrepreneurship, and Leadership
 - **Deadline**: 2026-06-05
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Dr. Gauri Shah Best Ideation Grant: top three innovators receive Rs 50,000 each, plus incubation and mentorship support
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- India: social entrepreneurs and innovators working on sustainable solutions (healthcare, agriculture, environment, clean tech, waste-to-wealth, grassroots and SDG-aligned innovations)
+- Innovations at Prototype, MVP, and Commercialization stages
 
 ## Description
 CFAs: COEP’s BHAU Institute Launches Social Innovation Summit (India) - Refer to source for full description.
@@ -18,5 +19,5 @@ CFAs: COEP’s BHAU Institute Launches Social Innovation Summit (India) - Refer 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -1,9 +1,9 @@
 # Grant Opportunity: Call for Applications: GrowthGia Agro Grant 2026 (Nigeria)
 
 ## Quick Stats
-- **Organization**: GrowthGia Agro Business Grant
+- **Organization**: GrowthGia
 - **Deadline**: 2026-08-28
-- **Funding Amount**: Unspecified
+- **Funding Amount**: ₦1,000,000 per beneficiary (₦5,000,000 total fund)
 - **Focus Area**: General
 
 ## Eligibility
@@ -13,11 +13,11 @@
 Call for Applications: GrowthGia Agro Grant 2026 (Nigeria) - Refer to source for full description.
 
 ## How to Apply
-- **Applying Link**: https://fundsforcompanies.fundsforngos.org/grant/call-for-applications-growthgia-agro-grant-2026-nigeria/
+- **Applying Link**: https://www.linkedin.com/posts/growthgia-growthgiaagrogrant-agribusiness-share-7485190907781214208-DP-K/
 - **Source**: https://fundsforcompanies.fundsforngos.org/grant/call-for-applications-growthgia-agro-grant-2026-nigeria/
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

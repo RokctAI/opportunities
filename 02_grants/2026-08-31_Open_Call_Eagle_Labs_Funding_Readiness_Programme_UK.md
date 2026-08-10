@@ -1,13 +1,13 @@
 # Grant Opportunity: Open Call: Eagle Labs Funding Readiness Programme (UK)
 
 ## Quick Stats
-- **Organization**: Barclays
+- **Organization**: Barclays Eagle Labs
 - **Deadline**: 2026-08-31
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: United Kingdom. open to exploring one or more funding routes, including grants, crowdfunding, equity , debt, or alternative finance, and be committed to attending all programme sessions
+- Eligible Countries: United Kingdom. UK-registered businesses (12+ months) with UK-based founders, digital technology/innovation in the value proposition, and an MVP; open to exploring multiple funding routes (grants, crowdfunding, equity, debt, alternative finance) and committed to attending all programme sessions.
 
 ## Description
 Open Call: Eagle Labs Funding Readiness Programme (UK) - Refer to source for full description.
@@ -18,6 +18,6 @@ Open Call: Eagle Labs Funding Readiness Programme (UK) - Refer to source for ful
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
 - **Last Verified**: 2026-08-10

@@ -18,6 +18,6 @@ Apply Now: AI NATION Accelerator for AI Startups (Germany) - Refer to source for
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

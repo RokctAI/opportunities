@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Wilson Fish Bridge to Employment Program
 - **Deadline**: 2026-08-10
-- **Funding Amount**: $17,388,363
+- **Funding Amount**: $17,388,363 total; individual awards $250,000 to $14,438,363
 - **Focus Area**: Unspecified
 
 ## Eligibility
-- Unspecified
+- Eligible Countries: United States. Eligible applicants include government entities, public institutions, Native American tribal governments, nonprofit organizations, and faith-based or community organizations; individuals, sole proprietorships, federal entities, and foreign entities are ineligible
 
 ## Description
 The Wilson Fish Bridge to Employment Program provides funding to ensure recipients of Refugee Cash Assistance can access required employment and related support services in states where the Refugee Support Services program will no longer operate beginning in FY 2027.
@@ -18,5 +18,5 @@ The Wilson Fish Bridge to Employment Program provides funding to ensure recipien
 - **Source Card**: 02_grants/sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: IN_PROGRESS
-- **Last Verified**: 2026-07-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

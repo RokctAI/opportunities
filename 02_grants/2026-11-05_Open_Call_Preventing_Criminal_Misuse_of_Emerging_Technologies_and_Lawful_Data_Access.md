@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: European Commission
 - **Deadline**: 2026-11-05
-- **Funding Amount**: €9,000,000,
+- **Funding Amount**: €9,000,000 (approx. €4,500,000 per project)
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Targets European member states; focus on development of modern tools, methodologies, and training curricula for police authorities, subject to Horizon Europe participation requirements.
 
 ## Description
 Open Call: Preventing Criminal Misuse of Emerging Technologies and Lawful Data Access - Refer to source for full description.
@@ -18,5 +18,5 @@ Open Call: Preventing Criminal Misuse of Emerging Technologies and Lawful Data A
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

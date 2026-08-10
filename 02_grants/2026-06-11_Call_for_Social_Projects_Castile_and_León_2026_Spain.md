@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: “La Caixa” Foundation
 - **Deadline**: 2026-06-11
-- **Funding Amount**: funding of up to €50,000,
+- **Funding Amount**: Up to €50,000 (projects up to 12 months)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible applicants include non-profit organizations and social economy entities that are legally registered and domiciled in Castilla y León
+- Non-profit organizations and social economy entities legally registered and domiciled in Castilla y León, Spain
+- Public administrations are not eligible
 
 ## Description
 Call for Social Projects Castile and León 2026 (Spain) - Refer to source for full description.
@@ -18,5 +19,5 @@ Call for Social Projects Castile and León 2026 (Spain) - Refer to source for fu
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

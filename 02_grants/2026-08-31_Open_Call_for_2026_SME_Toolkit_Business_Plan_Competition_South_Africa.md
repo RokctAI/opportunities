@@ -1,9 +1,9 @@
 # Grant Opportunity: Open Call for 2026 SME Toolkit Business Plan Competition (South Africa)
 
 ## Quick Stats
-- **Organization**: SME Toolkit
+- **Organization**: Business Partners Limited (SME Toolkit SA)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: Unspecified
+- **Funding Amount**: R100,000 for the national winner (R50,000 cash prize plus R50,000 mentorship voucher); additional prizes for runners-up
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Open Call for 2026 SME Toolkit Business Plan Competition (South Africa) - Refer 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
+- **Last Verified**: 2026-08-10

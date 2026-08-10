@@ -2,8 +2,8 @@
 
 ## Quick Stats
 - **Organization**: Kerala Startup Mission
-- **Deadline**: Ongoing
-- **Funding Amount**: Unspecified
+- **Deadline**: 2026-12-31
+- **Funding Amount**: up to Rs. 20 lakhs (grant for validation/development); up to Rs. 50 lakhs (debt/convertible instruments for scaling)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Apply now for Startup India Seed Fund Scheme - Refer to source for full descript
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified), funding amount
-- **Last Verified**: 2026-07-20
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
+- **Last Verified**: 2026-08-10

@@ -1,7 +1,7 @@
 # Grant Opportunity: Apply Now: iHatch Cohort 5 Startups Incubation Programme (Nigeria)
 
 ## Quick Stats
-- **Organization**: FCT
+- **Organization**: ONDI under NITDA
 - **Deadline**: 2026-05-27
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
@@ -18,5 +18,5 @@ Apply Now: iHatch Cohort 5 Startups Incubation Programme (Nigeria) - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

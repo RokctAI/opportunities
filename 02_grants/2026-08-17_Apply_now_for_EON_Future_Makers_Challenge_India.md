@@ -1,13 +1,13 @@
 # Grant Opportunity: Apply now for E.ON Future Makers Challenge (India)
 
 ## Quick Stats
-- **Organization**: Sayuj
+- **Organization**: E.ON (in collaboration with Infosys and IIT Madras)
 - **Deadline**: 2026-08-17
-- **Funding Amount**: funding of up to EUR 80,000
+- **Funding Amount**: up to EUR 80,000 total for up to four selected ideas
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: India. open to students enrolled in accredited Indian colleges or universities at the undergraduate, postgraduate, or PhD level
+- Eligible Countries: India. Open to students enrolled in accredited Indian colleges or universities at the undergraduate, postgraduate, or PhD level, and to startups legally incorporated in India with valid DPIIT registration or Certificate of Incorporation
 
 ## Description
 Apply now for E.ON Future Makers Challenge (India) - Refer to source for full description.
@@ -18,6 +18,6 @@ Apply now for E.ON Future Makers Challenge (India) - Refer to source for full de
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

@@ -1,7 +1,7 @@
 # Grant Opportunity: CFAs: Youth Participation at the 36th Malawi International Trade Fair
 
 ## Quick Stats
-- **Organization**: Unspecified
+- **Organization**: National Youth Council of Malawi
 - **Deadline**: 2026-05-16
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
@@ -13,10 +13,10 @@
 CFAs: Youth Participation at the 36th Malawi International Trade Fair - Refer to source for full description.
 
 ## How to Apply
-- **Applying Link**: https://fundsforcompanies.fundsforngos.org/events/cfas-youth-participation-at-the-36th-malawi-international-trade-fair/
+- **Applying Link**: https://www.facebook.com/photo?fbid=1380040017493914&set=a.620688243429099
 - **Source**: https://fundsforcompanies.fundsforngos.org/events/cfas-youth-participation-at-the-36th-malawi-international-trade-fair/
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

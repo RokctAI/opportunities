@@ -1,13 +1,15 @@
 # Grant Opportunity: Apply Now: GITA Innovative Startup Acceleration Program 2026 (Georgia)
 
 ## Quick Stats
-- **Organization**: GITA Innovative Startup Acceleration Program 2026
+- **Organization**: GITA (implemented by Founder Institute, 2080 Ventures, and Startup Büro)
 - **Deadline**: 2026-06-14
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible applicants include startups with a solid idea and problem-solution fit, with a working product and early adopters considered an advantage
+- Early-stage startups with a solid idea and problem-solution fit; a working product and early adopters are an advantage
+- Open to both local and international startups operating in Georgia
+- Must already have a registered legal entity in Georgia or be willing to establish one
 
 ## Description
 Apply Now: GITA Innovative Startup Acceleration Program 2026 (Georgia) - Refer to source for full description.
@@ -18,5 +20,5 @@ Apply Now: GITA Innovative Startup Acceleration Program 2026 (Georgia) - Refer t
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

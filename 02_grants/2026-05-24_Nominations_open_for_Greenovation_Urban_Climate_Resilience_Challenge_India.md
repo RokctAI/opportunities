@@ -1,9 +1,9 @@
 # Grant Opportunity: Nominations open for Greenovation Urban Climate Resilience Challenge (India)
 
 ## Quick Stats
-- **Organization**: EarthON
+- **Organization**: EarthON Foundation
 - **Deadline**: 2026-05-24
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Initial support up to ₹20 lakh; investment support up to ₹1 crore
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ Nominations open for Greenovation Urban Climate Resilience Challenge (India) - R
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

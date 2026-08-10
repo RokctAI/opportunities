@@ -18,6 +18,6 @@ Apply Now: Digital Health Technologies in Clinical Drug Development (US) - Refer
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

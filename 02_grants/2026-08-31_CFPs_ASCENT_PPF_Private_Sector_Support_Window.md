@@ -1,13 +1,13 @@
 # Grant Opportunity: CFPs: ASCENT PPF Private Sector Support Window
 
 ## Quick Stats
-- **Organization**: ESA
+- **Organization**: ASCENT PPF (administered through COMESA)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: grants of USD 50,000 to USD 200,000
+- **Funding Amount**: USD 50,000 to USD 200,000
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Burundi, Comoros, Latest Grants And Resources In Congo Dr, Ethiopia, Kenya, Lesotho, Madagascar, Malawi, Mozambique, Rwanda, Sao Tome And Principe, Somalia, South Sudan, Tanzania, Uganda, Zambia. 
+- Eligible Countries: Burundi, Comoros, DR Congo, Ethiopia, Kenya, Lesotho, Madagascar, Malawi, Mozambique, Rwanda, Sao Tome and Principe, Somalia, South Sudan, Tanzania, Uganda, Zambia. Private-sector companies operating 3+ years with paying customers, experienced management, active investor/lender engagement, and minimum 20% co-financing.
 
 ## Description
 CFPs: ASCENT PPF Private Sector Support Window - Refer to source for full description.
@@ -18,6 +18,6 @@ CFPs: ASCENT PPF Private Sector Support Window - Refer to source for full descri
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

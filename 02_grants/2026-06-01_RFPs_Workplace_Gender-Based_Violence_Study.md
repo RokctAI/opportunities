@@ -1,13 +1,15 @@
 # Grant Opportunity: RFPs: Workplace Gender-Based Violence Study
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: United Nations Development Programme (UNDP)
 - **Deadline**: 2026-06-01
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Study focuses on Bosnia and Herzegovina
+- At least five years of experience in quantitative and qualitative research, econometric modelling, and disaggregated data analysis
+- Expertise in workplace harassment assessment, risk analysis, and intersectional analysis frameworks
 
 ## Description
 RFPs: Workplace Gender-Based Violence Study - Refer to source for full description.
@@ -18,5 +20,5 @@ RFPs: Workplace Gender-Based Violence Study - Refer to source for full descripti
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

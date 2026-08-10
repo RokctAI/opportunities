@@ -9,7 +9,7 @@
 - **Territory**: Latin America
 - **Country**: Brazil
 - **Flag**: BR
-- **Website**: https://monashees.com.br
+- **Website**: https://monashees.com
 
 ## Contact
 - **Contact Person**: Eric Acher
@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://monashees.com.br/team
-- **Notes**: Website down. Funder may have shut down.
+- **Notes**: Domain moved to monashees.com; site live.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

@@ -18,6 +18,6 @@ Open Call for Feasibility Fund (New Zealand) - Refer to source for full descript
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

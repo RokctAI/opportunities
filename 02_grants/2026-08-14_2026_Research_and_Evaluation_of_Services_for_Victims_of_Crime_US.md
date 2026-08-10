@@ -1,9 +1,9 @@
 # Grant Opportunity: 2026 Research and Evaluation of Services for Victims of Crime (US)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: National Institute of Justice (NIJ) and Office for Victims of Crime (OVC)
 - **Deadline**: 2026-08-14
-- **Funding Amount**: up to $1,500,000
+- **Funding Amount**: up to $1,500,000 per award ($3,000,000 total program funding)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

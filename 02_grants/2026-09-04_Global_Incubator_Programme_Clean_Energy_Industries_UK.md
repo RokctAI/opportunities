@@ -7,7 +7,7 @@
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In United Kingdom. open to companies with a novel or innovative solution with some commercial traction and customer adoption
+- Eligible Countries: United Kingdom. UK-based innovation-led clean energy companies with fewer than 250 employees, validated products or technologies, and willingness to participate in New York-based activities
 
 ## Description
 Global Incubator Programme: Clean Energy Industries (UK) - Refer to source for full description.
@@ -18,6 +18,6 @@ Global Incubator Programme: Clean Energy Industries (UK) - Refer to source for f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
 - **Last Verified**: 2026-08-10

@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Asian Development Bank
 - **Deadline**: 2026-09-04
-- **Funding Amount**: funding of up to USD 450,000,
+- **Funding Amount**: Up to USD 450,000 per project (with 10% co-financing requirement)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In Afghanistan, Armenia, Australia, Austria, Azerbaijan, Bangladesh, Belgium, Bhutan, Brunei, Cambodia, Canada, China, Latest Grants And Resources In Cook Islands, Denmark, Latest Grants And Resources In East Timor Timor Leste, Federated States Of Micronesia, Fiji, Finland, France, Georgia, Germany, Latest Grants And Resources In Hong Kong Sar, India, Indonesia, Ireland, Israel, Italy, Japan, Kazakhstan, Kiribati, Kyrgyzstan, Laos, Luxembourg, Malaysia, Maldives, Marshall Islands, Mongolia, Myanmar, Latest Grants And Resources In Nauru, Nepal, Netherlands, New Zealand, Latest Grants And Resources In Niue, Norway, Pakistan, Palau, Papua New Guinea, Philippines, Latest Grants And Resources In Portugal, Samoa, Singapore, Solomon Islands, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Tajikistan, Thailand, Tonga, Turkey, Turkmenistan, Tuvalu, United Kingdom, United States, Uzbekistan, Vanuatu, Vietnam. open to for-profit entities, not-for-profit organizations, civil society organizations, research institutions, and government-owned enterprises that are legally and financially autonomous of the government in the implementation country
+- Eligible Countries: ADB member countries (Afghanistan, Armenia, Australia, Austria, Azerbaijan, Bangladesh, Belgium, Bhutan, Brunei, Cambodia, Canada, China, Cook Islands, Denmark, East Timor/Timor-Leste, Federated States of Micronesia, Fiji, Finland, France, Georgia, Germany, Hong Kong SAR, India, Indonesia, Ireland, Israel, Italy, Japan, Kazakhstan, Kiribati, Kyrgyzstan, Laos, Luxembourg, Malaysia, Maldives, Marshall Islands, Mongolia, Myanmar, Nauru, Nepal, Netherlands, New Zealand, Niue, Norway, Pakistan, Palau, Papua New Guinea, Philippines, Portugal, Samoa, Singapore, Solomon Islands, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Tajikistan, Thailand, Tonga, Turkey, Turkmenistan, Tuvalu, United Kingdom, United States, Uzbekistan, Vanuatu, Vietnam); implementation focus is India (street vendors in fruit and vegetable distribution). Open to for-profit entities, not-for-profit organizations, civil society organizations, research institutions, and government-owned enterprises that are legally and financially autonomous of the government in the implementation country; individuals are not eligible
 
 ## Description
 Apply Now: Bridging the Cold Chain Gap Challenge for Last-Mile Vendors - Refer to source for full description.
@@ -18,6 +18,6 @@ Apply Now: Bridging the Cold Chain Gap Challenge for Last-Mile Vendors - Refer t
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

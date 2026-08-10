@@ -17,11 +17,11 @@
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://circleup.com/about/
-- **Notes**: Investment platform for consumer brands.
+- **Source / Verification**: https://circleup.com/
+- **Notes**: Investment platform for consumer brands. Site now a minimal landing page (contact team@circleup.com); /about page removed.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

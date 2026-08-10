@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: ventureLAB
 - **Deadline**: 2026-08-14
-- **Funding Amount**: $10,000
+- **Funding Amount**: $10,000 per awardee (7 qualified businesses; matching contribution required)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Canada. 
+- Eligible Countries: Canada. Companies must be incorporated and based in Canada, operating in York Region, with 1-99 employees, at least one business and one technical co-founder, and a minimum viable product or validation-stage traction
 
 ## Description
 Funding Opportunity for Agri-food and Clean-tech Entrepreneurs (Canada) - Refer to source for full description.
@@ -18,6 +18,6 @@ Funding Opportunity for Agri-food and Clean-tech Entrepreneurs (Canada) - Refer 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

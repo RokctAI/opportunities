@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: E-Cell IIT Bombay
 - **Deadline**: 2026-08-14
-- **Funding Amount**: funding of up to $500,000
+- **Funding Amount**: up to $500,000
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: India. 
+- Eligible Countries: India. Anyone with an innovative idea or startup is eligible; teams of 1-7 members, which may include faculty, industrialists, professionals, and experts
 
 ## Description
 Asia&#8217;s Largest Startup Launchpad by Eureka (India) - Refer to source for full description.
@@ -18,6 +18,6 @@ Asia&#8217;s Largest Startup Launchpad by Eureka (India) - Refer to source for f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

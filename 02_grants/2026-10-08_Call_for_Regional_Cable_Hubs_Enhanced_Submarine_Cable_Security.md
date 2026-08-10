@@ -7,7 +7,8 @@
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In Aruba, Austria, Belgium, Latest Grants And Resources In Bonaire Sint Eustatius And Saba, Bulgaria, Croatia, Latest Grants And Resources In Curacao, Cyprus, Czech Republic, Denmark, Latest Grants And Resources In Estonia, Finland, France, Latest Grants And Resources In French Polynesia, Latest Grants And Resources In French Southern Territories, Germany, Greece, Latest Grants And Resources In Greenland, Hungary, Iceland, Ireland, Italy, Latest Grants And Resources In Latvia, Liechtenstein, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Netherlands, Latest Grants And Resources In New Caledonia, Norway, Poland, Latest Grants And Resources In Portugal, Romania, Latest Grants And Resources In Saint Barthelemy, Latest Grants And Resources In Saint Pierre And Miquelon, Latest Grants And Resources In Sint Maarten Dutch Part, Slovenia, Spain, Sweden, Latest Grants And Resources In Wallis And Futuna. 
+- Eligible Countries: Aruba, Austria, Belgium, Bonaire Sint Eustatius And Saba, Bulgaria, Croatia, Curacao, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, French Polynesia, French Southern Territories, Germany, Greece, Greenland, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, New Caledonia, Norway, Poland, Portugal, Romania, Saint Barthelemy, Saint Pierre And Miquelon, Sint Maarten Dutch Part, Slovenia, Spain, Sweden, Wallis And Futuna.
+- Legal entities (public or private bodies) established in EU Member States, overseas countries and territories (OCTs), and EEA countries.
 
 ## Description
 Call for Regional Cable Hubs Enhanced Submarine Cable Security - Refer to source for full description.
@@ -18,6 +19,6 @@ Call for Regional Cable Hubs Enhanced Submarine Cable Security - Refer to source
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

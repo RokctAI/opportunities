@@ -1,13 +1,13 @@
 # Grant Opportunity: RFAs: Offshore Wind Energy Community Support Programme (Canada)
 
 ## Quick Stats
-- **Organization**: Government of Canada
+- **Organization**: Government of Canada (Natural Resources Canada)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: funding of up to $10,000
+- **Funding Amount**: Up to $10,000 per fiscal year per applicant
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Canada. Eligible applicants include Indigenous communities or governments, Tribal Councils, entities fulfilling similar functions, national or regional Indigenous councils, tribal organizations, and Indigenous majority-owned and controlled for-profit and not-for-profit organizations based in eligible areas
+- Eligible Countries: Canada. Indigenous communities/governments, Tribal Councils, national/regional Indigenous councils, Indigenous majority-owned organizations, and legally incorporated Canadian for-profit and not-for-profit entities (development corporations, research and industry associations) operating in specified offshore areas.
 
 ## Description
 RFAs: Offshore Wind Energy Community Support Programme (Canada) - Refer to source for full description.
@@ -18,6 +18,6 @@ RFAs: Offshore Wind Energy Community Support Programme (Canada) - Refer to sourc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

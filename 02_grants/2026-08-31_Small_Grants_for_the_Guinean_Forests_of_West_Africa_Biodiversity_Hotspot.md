@@ -1,13 +1,13 @@
 # Grant Opportunity: Small Grants for the Guinean Forests of West Africa Biodiversity Hotspot
 
 ## Quick Stats
-- **Organization**: CEPF
+- **Organization**: Critical Ecosystem Partnership Fund (CEPF)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: $50,000
+- **Funding Amount**: Up to US$50,000 per project
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Benin, Cameroon, Latest Grants And Resources In Cote Divoire Ivory Coast, Latest Grants And Resources In Equatorial Guinea, Ghana, Guinea, Liberia, Nigeria, Sao Tome And Principe, Sierra Leone, Togo. Eligible applicants include non-governmental organizations, community groups, universities, and small private enterprises
+- Eligible Countries: Benin, Cameroon, Cote d'Ivoire, Equatorial Guinea, Ghana, Guinea, Liberia, Nigeria, Sao Tome and Principe, Sierra Leone, Togo. NGOs, community groups, universities, and small private enterprises; individuals must partner with civil society organizations; government entities only with independent legal personality.
 
 ## Description
 Small Grants for the Guinean Forests of West Africa Biodiversity Hotspot - Refer to source for full description.
@@ -18,6 +18,6 @@ Small Grants for the Guinean Forests of West Africa Biodiversity Hotspot - Refer
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

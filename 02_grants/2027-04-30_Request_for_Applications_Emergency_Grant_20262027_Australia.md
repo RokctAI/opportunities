@@ -18,6 +18,6 @@ Request for Applications: Emergency Grant 2026–2027 (Australia) - Refer to sou
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

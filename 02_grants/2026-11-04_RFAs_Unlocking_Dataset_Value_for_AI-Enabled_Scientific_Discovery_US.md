@@ -1,13 +1,13 @@
 # Grant Opportunity: RFAs: Unlocking Dataset Value for AI-Enabled Scientific Discovery (US)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: National Science Foundation (NSF)
 - **Deadline**: 2026-11-04
 - **Funding Amount**: $100,000,000
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: United States. Eligible applicants include U
+- Eligible Countries: United States. Eligible applicants include U.S.-based for-profit organizations (including small businesses), non-profit non-academic organizations (e.g., independent museums, observatories, research laboratories, professional societies), federal agencies, FFRDCs, state/local governments, accredited U.S. higher education institutions, and federally recognized Tribal Nations.
 
 ## Description
 RFAs: Unlocking Dataset Value for AI-Enabled Scientific Discovery (US) - Refer to source for full description.
@@ -18,6 +18,6 @@ RFAs: Unlocking Dataset Value for AI-Enabled Scientific Discovery (US) - Refer t
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

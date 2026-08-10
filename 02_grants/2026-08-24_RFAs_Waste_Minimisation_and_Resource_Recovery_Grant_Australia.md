@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Mildura Rural City Council
 - **Deadline**: 2026-08-24
-- **Funding Amount**: Funding of up to $20,000
+- **Funding Amount**: up to $20,000 (GST free) per year per eligible applicant
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. 
+- Eligible Countries: Australia (Mildura Rural City Council area). ABN-registered businesses, community groups, for-profit and not-for-profit organisations, state government entities, and schools; projects must focus on waste minimisation, circular economy, or resource recovery
 
 ## Description
 RFAs: Waste Minimisation and Resource Recovery Grant (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ RFAs: Waste Minimisation and Resource Recovery Grant (Australia) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

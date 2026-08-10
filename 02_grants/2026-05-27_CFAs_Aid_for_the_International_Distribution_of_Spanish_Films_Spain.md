@@ -1,9 +1,9 @@
 # Grant Opportunity: CFAs: Aid for the International Distribution of Spanish Films (Spain)
 
 ## Quick Stats
-- **Organization**: Ministry of Culture
+- **Organization**: Spanish Ministry of Culture
 - **Deadline**: 2026-05-27
-- **Funding Amount**: , aud
+- **Funding Amount**: €500,000 total budget; individual grants up to €120,000 (up to 50% of eligible expenses)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ CFAs: Aid for the International Distribution of Spanish Films (Spain) - Refer to
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

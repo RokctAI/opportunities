@@ -1,13 +1,14 @@
 # Grant Opportunity: Global Startup EXPO 2026: Call for Deep-Tech Startups (Japan)
 
 ## Quick Stats
-- **Organization**: Deadline Date: July 20, 2026 The JETRO
+- **Organization**: JETRO (Japan External Trade Organization)
 - **Deadline**: 2026-07-20
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Unspecified (non-monetary: complimentary exhibition booth, free participant passes, and other support)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Japan. 
+- Overseas deep-tech startups registered under JETRO's Invest Japan Anken or J-Bridge support programmes
+- Must have an English-speaking or Japanese-speaking representative available
 
 ## Description
 Global Startup EXPO 2026: Call for Deep-Tech Startups (Japan) - Refer to source for full description.
@@ -18,6 +19,6 @@ Global Startup EXPO 2026: Call for Deep-Tech Startups (Japan) - Refer to source 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

@@ -5,7 +5,7 @@
 - **Organization**: Vestigo Ventures
 - **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Fintech / Insurtech / Real Estate Tech
+- **Industry**: Fintech / AI
 - **Territory**: USA
 - **Country**: USA
 - **Flag**: US
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

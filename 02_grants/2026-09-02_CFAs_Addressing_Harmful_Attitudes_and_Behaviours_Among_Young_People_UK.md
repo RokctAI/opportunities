@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Youth Endowment Fund
 - **Deadline**: 2026-09-02
-- **Funding Amount**: maximum of £20,000
+- **Funding Amount**: Up to £20,000 for a 4-month co-design process
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In United Kingdom. Applications are invited from organisations delivering targeted interventions for children and young people aged 10–18
+- Eligible Countries: United Kingdom (delivery must occur in England). Registered charities, companies, statutory bodies, or Community Interest Companies delivering targeted interventions for children and young people aged 10–18 (up to 19 in SEND settings)
 
 ## Description
 CFAs: Addressing Harmful Attitudes and Behaviours Among Young People (UK) - Refer to source for full description.
@@ -18,6 +18,6 @@ CFAs: Addressing Harmful Attitudes and Behaviours Among Young People (UK) - Refe
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

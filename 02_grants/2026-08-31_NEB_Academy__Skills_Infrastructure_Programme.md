@@ -1,13 +1,13 @@
 # Grant Opportunity: NEB Academy | Skills Infrastructure Programme
 
 ## Quick Stats
-- **Organization**: Foundations
+- **Organization**: EIT Culture & Creativity (Horizon Europe)
 - **Deadline**: 2026-08-31
-- **Funding Amount**: €3,500,000,
+- **Funding Amount**: Up to €600,000 per project (total estimated allocation €3,500,000)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania, Armenia, Austria, Belgium, Bosnia And Herzegovina, Bulgaria, Canada, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Latest Grants And Resources In Estonia, Latest Grants And Resources In Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Latest Grants And Resources In Kosovo, Latest Grants And Resources In Latvia, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Moldova, Montenegro, Netherlands, New Zealand, Norway, Poland, Latest Grants And Resources In Portugal, Latest Grants And Resources In Republic Of Macedonia, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Switzerland, Tunisia, Turkey, Ukraine, United Kingdom. eligibility requirements
+- Eligible Countries: EU Member States and Horizon Europe Associated Countries. Consortia of 3-8 independent participants from at least 2 eligible countries, including an education provider, a public authority/public-sector organization, and a private organization from the lived environment ecosystem.
 
 ## Description
 NEB Academy | Skills Infrastructure Programme - Refer to source for full description.
@@ -18,6 +18,6 @@ NEB Academy | Skills Infrastructure Programme - Refer to source for full descrip
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

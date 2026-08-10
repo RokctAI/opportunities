@@ -1,13 +1,16 @@
 # Grant Opportunity: Call for Proposals: Pcieerd Startup Grant Fund Program (Philippines)
 
 ## Quick Stats
-- **Organization**: e Philippine Council for Industry, Energy and Emerging Technology Research and Development (PCIEERD)
+- **Organization**: Philippine Council for Industry, Energy and Emerging Technology Research and Development (PCIEERD)
 - **Deadline**: 2026-07-31
-- **Funding Amount**: , Aud
+- **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Philippines. open to qualified startups, especially those located in DOST-supported Technology Business Incubators
+- Eligible Countries: Philippines; open to qualified startups, especially those located in DOST-supported Technology Business Incubators
+- Legally registered with the DTI or Securities and Exchange Commission (SEC) for at least one year and up to seven years
+- Early-stage prototype or proof of concept for their product or service
+- Must demonstrate capability to conduct R&D while maintaining compliance with ownership, nationality, and legal requirements
 
 ## Description
 Call for Proposals: Pcieerd Startup Grant Fund Program (Philippines) - Refer to source for full description.
@@ -18,6 +21,6 @@ Call for Proposals: Pcieerd Startup Grant Fund Program (Philippines) - Refer to 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Verification Status**: VERIFIED
+- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Last Verified**: 2026-08-10

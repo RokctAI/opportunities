@@ -7,7 +7,10 @@
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Canada-based applicants aged 19-34
+- Personal income under $35,000 annually (per most recent Notice of Assessment)
+- Registered business with a valid business number or proof of registration, operating less than five years
+- Must complete at least one Life Skills module quiz with a passing score
 
 ## Description
 Bold Spirit Award Grants for Small Business Owners (Canada) - Refer to source for full description.
@@ -18,5 +21,5 @@ Bold Spirit Award Grants for Small Business Owners (Canada) - Refer to source fo
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

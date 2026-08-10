@@ -7,7 +7,9 @@
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Open globally: social entrepreneurs, corporate leaders, and impact-focused professionals working across sectors and geographies
+- Must demonstrate positive, direct, and intentional impact aligned with one or more SDGs within the last 12 months
+- Must have played a leading role in developing the relevant product, service, or project
 
 ## Description
 Meaningful Business 100 (MB100) Award Programme 2026 - Refer to source for full description.
@@ -18,5 +20,5 @@ Meaningful Business 100 (MB100) Award Programme 2026 - Refer to source for full 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

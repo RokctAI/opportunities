@@ -1,13 +1,15 @@
 # Grant Opportunity: Applications open for Circular Solutions for Communities (Serbia)
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: United Nations Development Programme (UNDP), in partnership with the Ministry of Environmental Protection of the Republic of Serbia and the Global Environment Facility (GEF)
 - **Deadline**: 2026-07-31
-- **Funding Amount**: up to USD 40,000
+- **Funding Amount**: Up to USD 40,000 per initiative (total funding budget USD 180,000)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources For Serbia. open to local self-government units, public utility companies, private sector entities, research and educational institutions, civil society organizations, professional associations, and foundations
+- Eligible Countries: Serbia
+- Open to local self-government units, public utility companies, private sector entities, research and educational institutions, civil society organizations, professional associations, and foundations
+- Applications may be submitted individually or through a consortium
 
 ## Description
 Applications open for Circular Solutions for Communities (Serbia) - Refer to source for full description.
@@ -18,6 +20,6 @@ Applications open for Circular Solutions for Communities (Serbia) - Refer to sou
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

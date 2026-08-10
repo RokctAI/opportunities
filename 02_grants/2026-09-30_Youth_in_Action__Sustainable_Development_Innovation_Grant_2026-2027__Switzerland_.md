@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: Sustainable Development Incentive Programme
 - **Deadline**: 2026-09-30
-- **Funding Amount**: CHF 20,000
+- **Funding Amount**: maximum CHF 20,000 per project
 - **Focus Area**: the future of work and entrepreneurship, sustainable production and consumption, and innovation for strengthening a sustainable economy
 
 ## Eligibility
-- Eligible applicants must be organizations or institutions located in Switzerland, including
+- Eligible applicants must be organizations or institutions located in Switzerland, including public entities, associations, foundations, federations, and companies.
+- Projects must be led, planned, and implemented by young people aged 16-26.
 
 ## Description
 The Youth in Action: Innovative Projects for a Sustainable Economy Grant supports youth-led projects that contribute to sustainable development and economic solutions in Switzerland.
@@ -18,5 +19,5 @@ The Youth in Action: Innovative Projects for a Sustainable Economy Grant support
 - **Source Card**: 02_grants/sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: IN_PROGRESS
-- **Last Verified**: 2026-07-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

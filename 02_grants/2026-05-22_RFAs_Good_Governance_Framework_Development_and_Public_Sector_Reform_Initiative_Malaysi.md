@@ -1,13 +1,15 @@
 # Grant Opportunity: RFAs: Good Governance Framework Development and Public Sector Reform Initiative (Malaysia)
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: United Nations Development Programme (UNDP)
 - **Deadline**: 2026-05-22
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Malaysia (primary focus)
+- Team of experts with extensive experience in public sector governance, policy advisory, and anti-corruption work
+- Strong analytical and bilingual communication capabilities; six-month engagement timeline
 
 ## Description
 RFAs: Good Governance Framework Development and Public Sector Reform Initiative (Malaysia) - Refer to source for full description.
@@ -18,5 +20,5 @@ RFAs: Good Governance Framework Development and Public Sector Reform Initiative 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

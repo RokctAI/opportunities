@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: Young Professionals Bootcamp
 - **Deadline**: 2026-05-24
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to N150 million in seed grant funding available for pitching enterprises
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Nigerian citizens only, aged 20-35 by June 2026
+- Final-year students or graduates of tertiary institutions
+- 300 participants will be selected
 
 ## Description
 Call for Applications: Young Professionals Bootcamp (Nigeria) - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Applications: Young Professionals Bootcamp (Nigeria) - Refer to source 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

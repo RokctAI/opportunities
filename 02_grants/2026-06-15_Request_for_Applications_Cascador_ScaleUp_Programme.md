@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Cascador
 - **Deadline**: 2026-06-15
-- **Funding Amount**: USD,
+- **Funding Amount**: Founder stipend of USD 5,000 on completion; pitch prizes totaling USD 50,000; alumni access to Cascador Catalytic Fund (up to USD 5 million annually)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ Request for Applications: Cascador ScaleUp Programme - Refer to source for full 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -18,6 +18,6 @@ Call for Circular Economy Financing Strategies Initiative (Philippines) - Refer 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
 - **Last Verified**: 2026-08-10

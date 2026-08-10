@@ -7,7 +7,7 @@
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Targets European nations and organizations including police authorities, civil society organizations, NGOs, and forensic institutes, subject to Horizon Europe participation requirements.
 
 ## Description
 Call for Missing Persons: Prevention and Investigation - Refer to source for full description.
@@ -18,5 +18,5 @@ Call for Missing Persons: Prevention and Investigation - Refer to source for ful
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

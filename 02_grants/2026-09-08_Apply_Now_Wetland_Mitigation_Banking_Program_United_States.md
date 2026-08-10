@@ -1,9 +1,9 @@
 # Grant Opportunity: Apply Now: Wetland Mitigation Banking Program (United States)
 
 ## Quick Stats
-- **Organization**: The Natural Resources Conservation Service has
+- **Organization**: Natural Resources Conservation Service (USDA)
 - **Deadline**: 2026-09-08
-- **Funding Amount**: maximum of $1,000,000
+- **Funding Amount**: $100,000 to $1,000,000 per award ($3 million total program funding)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Apply Now: Wetland Mitigation Banking Program (United States) - Refer to source 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

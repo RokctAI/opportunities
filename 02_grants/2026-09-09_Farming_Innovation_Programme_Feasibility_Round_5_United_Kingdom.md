@@ -1,13 +1,13 @@
 # Grant Opportunity: Farming Innovation Programme: Feasibility Round 5 (United Kingdom)
 
 ## Quick Stats
-- **Organization**: Innovate UK
+- **Organization**: Department for Environment, Food and Rural Affairs (Defra), delivered in partnership with Innovate UK
 - **Deadline**: 2026-09-09
-- **Funding Amount**: up to £15 million
+- **Funding Amount**: Up to £15 million total (individual project costs £200,000–£500,000)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In United Kingdom. 
+- Eligible Countries: United Kingdom. UK-registered businesses only; lead must be an established commercial entity collaborating with at least one additional grant-claiming UK-registered organisation; all project activities in the UK
 
 ## Description
 Farming Innovation Programme: Feasibility Round 5 (United Kingdom) - Refer to source for full description.
@@ -18,6 +18,6 @@ Farming Innovation Programme: Feasibility Round 5 (United Kingdom) - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

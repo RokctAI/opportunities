@@ -1,9 +1,9 @@
 # Grant Opportunity: LASR Bilateral Cooperation Call for Joint R&#038;D Projects (Turkey and Libya)
 
 ## Quick Stats
-- **Organization**: ESA
+- **Organization**: Scientific and Technological Research Council of Türkiye (TÜBİTAK) and Libyan Authority for Scientific Research (LASR)
 - **Deadline**: 2026-08-03
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to 3,750,000 Turkish Liras per project (Turkish partners); up to 250,000 Libyan Dinars per project (Libyan partners)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ LASR Bilateral Cooperation Call for Joint R&#038;D Projects (Turkey and Libya) -
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

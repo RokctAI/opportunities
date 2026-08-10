@@ -1,13 +1,13 @@
 # Grant Opportunity: Call for English Language Teaching and Learning Program (Uzbekistan)
 
 ## Quick Stats
-- **Organization**: Department of State has
+- **Organization**: U.S. Department of State
 - **Deadline**: 2026-08-15
-- **Funding Amount**: $200,000
+- **Funding Amount**: $200,000 to $500,000 per award ($500,000 total pool)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Uzbekistan. 
+- Eligible Countries: Uzbekistan. Eligible applicants include nonprofit organizations, civil society organizations, think tanks, public international organizations, and governmental institutions
 
 ## Description
 Call for English Language Teaching and Learning Program (Uzbekistan) - Refer to source for full description.
@@ -18,6 +18,6 @@ Call for English Language Teaching and Learning Program (Uzbekistan) - Refer to 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

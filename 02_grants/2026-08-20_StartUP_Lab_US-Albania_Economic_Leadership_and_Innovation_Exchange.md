@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Grants.gov
 - **Deadline**: 2026-08-20
-- **Funding Amount**: $53,400,
+- **Funding Amount**: $10,000 to $53,400
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania. Eligible applicants include not-for-profit U
+- Eligible Countries: Albania. Eligible applicants include not-for-profit U.S. and Albanian organisations (think tanks, civil society/NGOs) and U.S. and Albanian individuals; entrepreneur participants aged 18-40 with concrete startup ideas; for-profit entities ineligible
 
 ## Description
 StartUP Lab: U.S.-Albania Economic Leadership and Innovation Exchange - Refer to source for full description.
@@ -18,6 +18,6 @@ StartUP Lab: U.S.-Albania Economic Leadership and Innovation Exchange - Refer to
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

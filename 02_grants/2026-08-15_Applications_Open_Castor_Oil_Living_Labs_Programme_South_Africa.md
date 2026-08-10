@@ -1,13 +1,13 @@
 # Grant Opportunity: Applications Open: Castor Oil Living Labs Programme (South Africa)
 
 ## Quick Stats
-- **Organization**: Technology Innovation Agency
+- **Organization**: Department of Science, Technology and Innovation (DSTI), in partnership with the Technology Innovation Agency (TIA)
 - **Deadline**: 2026-08-15
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to R4,717,440 per project
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: South Africa. 
+- Eligible Countries: South Africa. Registered legal entities in South Africa complying with statutory requirements, with experience in community-based innovation support and castor oil beneficiation; project located in Frances Baard District Municipality, Northern Cape Province
 
 ## Description
 Applications Open: Castor Oil Living Labs Programme (South Africa) - Refer to source for full description.
@@ -18,6 +18,6 @@ Applications Open: Castor Oil Living Labs Programme (South Africa) - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
+- **Last Verified**: 2026-08-10

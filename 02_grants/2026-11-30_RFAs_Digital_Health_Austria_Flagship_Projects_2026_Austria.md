@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: FFG
 - **Deadline**: 2026-11-30
-- **Funding Amount**: budget of EUR 7.5 million
+- **Funding Amount**: EUR 7,500,000 total (max EUR 3,000,000 per project)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ RFAs: Digital Health Austria Flagship Projects 2026 (Austria) - Refer to source 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

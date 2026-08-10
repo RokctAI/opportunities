@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Ceredigion County Council
 - **Deadline**: 2026-08-03
-- **Funding Amount**: up to £50,000,
+- **Funding Amount**: £2,500 to £50,000 (up to 50% of eligible project costs)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In United Kingdom. open to start-up businesses, micro businesses, and small and medium-sized enterprises with fewer than 250 employees that have a registered business address in Ceredigion
+- Eligible Countries: United Kingdom. Open to start-up businesses, micro businesses, and small and medium-sized enterprises with fewer than 250 employees that have a registered business address in Ceredigion, Wales
 
 ## Description
 Cynnal y Cardi &#8211; Local Growth Fund 2026-2027 (UK) - Refer to source for full description.
@@ -18,6 +18,6 @@ Cynnal y Cardi &#8211; Local Growth Fund 2026-2027 (UK) - Refer to source for fu
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

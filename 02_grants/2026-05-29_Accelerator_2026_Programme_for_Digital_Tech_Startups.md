@@ -1,9 +1,9 @@
 # Grant Opportunity: Accelerator 2026 Programme for Digital Tech Startups
 
 ## Quick Stats
-- **Organization**: Google
+- **Organization**: Baltic Ventures
 - **Deadline**: 2026-05-29
-- **Funding Amount**: £25,000
+- **Funding Amount**: £25,000 initial investment; potential additional £75,000 follow-on funding
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ Accelerator 2026 Programme for Digital Tech Startups - Refer to source for full 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

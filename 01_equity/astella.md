@@ -9,7 +9,7 @@
 - **Territory**: LatAm
 - **Country**: Brazil
 - **Flag**: BR
-- **Website**: https://www.astellainvest.com/
+- **Website**: https://www.astella.com.br/
 
 ## Contact
 - **Contact Person**: Edson Rigonatti
@@ -22,6 +22,6 @@
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

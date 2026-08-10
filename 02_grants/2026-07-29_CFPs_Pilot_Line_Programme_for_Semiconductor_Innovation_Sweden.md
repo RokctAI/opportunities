@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: Vinnova
 - **Deadline**: 2026-07-29
-- **Funding Amount**: 7 million SEK
+- **Funding Amount**: Maximum 3.5 million SEK per project (total budget 7 million SEK for 2026-2027)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible applicants include Swedish small and medium-sized enterprises engaged in semiconductor-related activities such as design, production process development, manufacturing , research, and innovation
+- Swedish small and medium-sized enterprises engaged in semiconductor-related activities such as design, production process development, manufacturing, research, and innovation
+- Applicants must have prior approval to access the pilot line infrastructure under the Chips JU framework
 
 ## Description
 CFPs: Pilot Line Programme for Semiconductor Innovation (Sweden) - Refer to source for full description.
@@ -18,5 +19,5 @@ CFPs: Pilot Line Programme for Semiconductor Innovation (Sweden) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -1,9 +1,9 @@
 # Grant Opportunity: Mini-Grant Competition for Summer Playground Arrangement (Ukraine)
 
 ## Quick Stats
-- **Organization**: Deadline Date: May 18, 2026 The charitable foundation “Women’s Opportunities in Ukraine”
+- **Organization**: Charitable foundation "Women's Opportunities in Ukraine"
 - **Deadline**: 2026-05-18
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to 50,000 hryvnias per recipient (total budget 455,000 hryvnias)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ Mini-Grant Competition for Summer Playground Arrangement (Ukraine) - Refer to so
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Austrian Research Promotion Agency
 - **Deadline**: 2026-12-31
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to 80% of eligible costs (varies by research category, organizational type, and entity size)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Broadband GigaApp Program 2030 (Austria) - Refer to source for full description.
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

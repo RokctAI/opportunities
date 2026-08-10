@@ -1,13 +1,13 @@
 # Grant Opportunity: Request for Applications: Digitalisation of the Water Sector Initiative
 
 ## Quick Stats
-- **Organization**: ESA
+- **Organization**: European Space Agency (ESA)
 - **Deadline**: 2026-08-30
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Companies with digital solutions for water management leveraging space-based technologies; must demonstrate strong customer engagement, market potential, and technical feasibility.
 
 ## Description
 Request for Applications: Digitalisation of the Water Sector Initiative - Refer to source for full description.
@@ -18,5 +18,5 @@ Request for Applications: Digitalisation of the Water Sector Initiative - Refer 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

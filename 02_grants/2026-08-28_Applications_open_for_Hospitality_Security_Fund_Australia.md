@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Business Victoria
 - **Deadline**: 2026-08-28
-- **Funding Amount**: $5,000
+- **Funding Amount**: Security Uplift Grant $5,000 (with $5,000 co-contribution); Direct Impact Grant $5,000-$25,000 (no co-contribution)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. eligibility requirements, project details, photographs of the current venue, and evidence of estimated project costs
+- Eligible Countries: Australia (Victoria: City of Melbourne, Port Phillip, Stonnington, or Yarra). Licensed hospitality businesses with fewer than 50 employees, active ABN, GST registration, eligible liquor licence, and WorkSafe Victoria registration; venues operating regularly past 6:00 PM
 
 ## Description
 Applications open for Hospitality Security Fund (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Applications open for Hospitality Security Fund (Australia) - Refer to source fo
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

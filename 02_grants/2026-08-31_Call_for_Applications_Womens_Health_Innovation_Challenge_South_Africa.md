@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: GIZ
 - **Deadline**: 2026-08-31
-- **Funding Amount**: receive a grant of €75,000
+- **Funding Amount**: €75,000 per winner (two streams, one winner each)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: South Africa. 
+- Eligible Countries: South Africa. Registered start-ups/small businesses or research groups in South Africa; innovations in diagnostic screening (Biotechnology stream) or pharmaceutical/drug delivery (Pharmaceutical stream); must own rights to the innovation; not subsidiaries of or tax-liable in Germany/EU.
 
 ## Description
 Call for Applications: Women’s Health Innovation Challenge (South Africa) - Refer to source for full description.
@@ -18,6 +18,6 @@ Call for Applications: Women’s Health Innovation Challenge (South Africa) - Re
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

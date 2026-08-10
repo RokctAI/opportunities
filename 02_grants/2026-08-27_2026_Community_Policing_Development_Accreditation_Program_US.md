@@ -1,9 +1,9 @@
 # Grant Opportunity: 2026 Community Policing Development Accreditation Program (US)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: Office of Community Oriented Policing Services (COPS), U.S. Department of Justice
 - **Deadline**: 2026-08-27
-- **Funding Amount**: $2,500,000,
+- **Funding Amount**: $2,500,000 total (award ceiling $350,000)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

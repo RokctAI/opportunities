@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: PLAI Accelerator
 - **Deadline**: Ongoing
-- **Funding Amount**: 300,000 eur
+- **Funding Amount**: up to €300,000 equity investment
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,5 +18,5 @@ Apply for Artificial Intelligence Startup Acceleration Programme - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

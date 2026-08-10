@@ -1,8 +1,8 @@
 # Grant Opportunity: Open Call for Rio de Janeiro Botanical Garden Research Institute (Brazil)
 
 ## Quick Stats
-- **Organization**: Deadline Date: 31 December 2026 The Rio de Janeiro Botanical Garden Research Institute (JBRJ)
-- **Deadline**: Ongoing
+- **Organization**: Rio de Janeiro Botanical Garden Research Institute (JBRJ)
+- **Deadline**: 2026-12-31
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
@@ -18,6 +18,6 @@ Open Call for Rio de Janeiro Botanical Garden Research Institute (Brazil) - Refe
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified), funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: INCOMPLETE — missing: funding amount (not specified on source page)
 - **Last Verified**: 2026-08-10

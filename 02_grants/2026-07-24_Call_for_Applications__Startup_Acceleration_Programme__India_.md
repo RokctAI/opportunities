@@ -1,13 +1,15 @@
 # Grant Opportunity: Call for Applications: Startup Acceleration Programme (India)
 
 ## Quick Stats
-- **Organization**: Startup Acceleration Programme
+- **Organization**: Gujarat Student Startup and Innovation Hub (i-Hub Gujarat)
 - **Deadline**: 2026-07-24
-- **Funding Amount**: R 8,00,000,
+- **Funding Amount**: INR 8,00,000 per acceleration programme (50% paid in advance, remainder upon completion)
 - **Focus Area**: Unspecified
 
 ## Eligibility
-- Unspecified
+- India (specifically Gujarat)
+- Startup accelerators, investment funds, and ecosystem enablers
+- Must have a strong track record in startup acceleration, investment support, mentorship, and ecosystem development
 
 ## Description
 The Startup Acceleration Programme is requesting applications to support high-potential startups through mentorship, investment opportunities, and structured growth support in Gujarat.
@@ -18,5 +20,5 @@ The Startup Acceleration Programme is requesting applications to support high-po
 - **Source Card**: 02_grants/sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-07-26
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Grants.gov
 - **Deadline**: 2026-08-24
-- **Funding Amount**: $990,000,
+- **Funding Amount**: $990,000 total (individual awards $200,000 to $330,000)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Call for Reflective Supervision in Home Visiting Research Awards Grant (US) - Re
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

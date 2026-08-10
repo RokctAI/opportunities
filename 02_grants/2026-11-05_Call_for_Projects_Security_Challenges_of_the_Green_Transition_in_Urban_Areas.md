@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: European Commission
 - **Deadline**: 2026-11-05
-- **Funding Amount**: funding of €4,000,000,
+- **Funding Amount**: €4,000,000
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Targets countries across Europe, including EU member states and associated countries, subject to Horizon Europe participation requirements.
 
 ## Description
 Call for Projects: Security Challenges of the Green Transition in Urban Areas - Refer to source for full description.
@@ -18,5 +18,5 @@ Call for Projects: Security Challenges of the Green Transition in Urban Areas - 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

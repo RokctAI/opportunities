@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: King Baudouin Foundation
 - **Deadline**: 2026-08-12
-- **Funding Amount**: €75,000
+- **Funding Amount**: €75,000 to €125,000
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Green&#8217;er Call for Projects – A Circular Alternative to the Silo Tire (Be
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

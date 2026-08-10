@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: Creative Saskatchewan
 - **Deadline**: 2026-10-07
-- **Funding Amount**: maximum of $5,000
+- **Funding Amount**: up to 50% of approved project budget, maximum $5,000 per applicant per fiscal year
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Canada. 
+- Eligible Countries: Canada (Saskatchewan only).
+- Active practitioners in creative industries (book publishing, craft/visual arts, digital game development, film/TV, live performing arts, music) with commercial intent; Saskatchewan residents with majority ownership.
 
 ## Description
 Marketing Grant – Micro Stream for Creative Industry Marketing Projects (Canada) - Refer to source for full description.
@@ -18,6 +19,6 @@ Marketing Grant – Micro Stream for Creative Industry Marketing Projects (Canad
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

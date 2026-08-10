@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://unitus.vc/team/
-- **Notes**: BOP focus in India.
+- **Notes**: BOP focus in India. Now a strategic partner of Capria Ventures; unitus.vc is a redirect page pointing to Capria.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

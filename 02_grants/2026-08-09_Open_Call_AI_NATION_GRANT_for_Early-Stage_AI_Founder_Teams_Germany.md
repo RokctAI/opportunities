@@ -1,13 +1,13 @@
 # Grant Opportunity: Open Call: AI NATION GRANT for Early-Stage AI Founder Teams (Germany)
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: AI NATION
 - **Deadline**: 2026-08-09
-- **Funding Amount**: funding of up to €54,000,
+- **Funding Amount**: up to €54,000 (equity-free)
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Germany. eligibility check, followed by submission of the online application
+- Eligible Countries: Germany. Open to Germany-based founder teams that have not yet incorporated a company or secured external private investment, with a minimum of two committed co-founders and AI/engineering expertise
 
 ## Description
 Open Call: AI NATION GRANT for Early-Stage AI Founder Teams (Germany) - Refer to source for full description.
@@ -18,6 +18,6 @@ Open Call: AI NATION GRANT for Early-Stage AI Founder Teams (Germany) - Refer to
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

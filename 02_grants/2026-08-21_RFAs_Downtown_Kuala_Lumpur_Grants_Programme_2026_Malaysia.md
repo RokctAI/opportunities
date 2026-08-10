@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Think City
 - **Deadline**: 2026-08-21
-- **Funding Amount**: Unspecified
+- **Funding Amount**: RM30,000 to RM100,000 per application
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ RFAs: Downtown Kuala Lumpur Grants Programme 2026 (Malaysia) - Refer to source f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

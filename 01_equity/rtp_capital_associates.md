@@ -9,7 +9,7 @@
 - **Territory**: USA
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://rtpcapital.org/
+- **Website**: https://rtpangelfund.com/
 
 ## Contact
 - **Contact Person**: Elaine Bolle
@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://rtpcapital.org/leadership
-- **Notes**: North Carolina based angel network.
+- **Notes**: North Carolina based angel network. Rebranded as RTP Angel Fund (rtpcapital.org redirects to rtpangelfund.com).
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-07-19
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: Creative Saskatchewan
 - **Deadline**: 2026-10-21
-- **Funding Amount**: funding of up to $35,000
+- **Funding Amount**: up to $35,000 or 50% of total eligible project expenses (whichever is less) per fiscal year
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Canada. eligibility requirements and demonstrate commercial intent within the live performing arts sector
+- Eligible Countries: Canada (Saskatchewan-based applicants).
+- Active practitioners in creative industries under The Creative Saskatchewan Act (2013) with commercial intent for live performance projects; individuals, corporations, non-profits, and performing musician groups; corporations must be incorporated/registered in Saskatchewan with majority Saskatchewan ownership.
 
 ## Description
 Live Performing Arts Production and Performance Grant (Canada) - Refer to source for full description.
@@ -18,6 +19,6 @@ Live Performing Arts Production and Performance Grant (Canada) - Refer to source
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

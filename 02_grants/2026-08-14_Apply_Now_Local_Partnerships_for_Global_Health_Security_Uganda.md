@@ -1,9 +1,9 @@
 # Grant Opportunity: Apply Now: Local Partnerships for Global Health Security (Uganda)
 
 ## Quick Stats
-- **Organization**: Grants.gov
+- **Organization**: Centers for Disease Control and Prevention (CDC)
 - **Deadline**: 2026-08-14
-- **Funding Amount**: $5 million
+- **Funding Amount**: $5 million total program funding
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Apply Now: Local Partnerships for Global Health Security (Uganda) - Refer to sou
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

@@ -1,13 +1,14 @@
 # Grant Opportunity: Applications Open for L-CAMP Vietnam Program 2026
 
 ## Quick Stats
-- **Organization**: Deadline Date: June 19, 2026 The LOTTE Ventures
+- **Organization**: LOTTE Ventures
 - **Deadline**: 2026-06-19
-- **Funding Amount**: USD 80,000
+- **Funding Amount**: Approximately USD 80,000 in total PoC grant funding
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Vietnam
+- High-potential startups across various industries seeking collaboration with LOTTE Group affiliates in Vietnam
 
 ## Description
 Applications Open for L-CAMP Vietnam Program 2026 - Refer to source for full description.
@@ -18,5 +19,5 @@ Applications Open for L-CAMP Vietnam Program 2026 - Refer to source for full des
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -7,7 +7,7 @@
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Albania, Argentina, Armenia, Australia, Austria, Belgium, Bolivia, Bosnia And Herzegovina, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Latest Grants And Resources In Estonia, Latest Grants And Resources In Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latest Grants And Resources In Kosovo, Latest Grants And Resources In Latvia, Liechtenstein, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Latest Grants And Resources In Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Paraguay, Poland, Latest Grants And Resources In Portugal, Latest Grants And Resources In Republic Of Macedonia, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Switzerland, Tunisia, Turkey, Ukraine, United Kingdom, United States, Uruguay. Eligible applicants include companies, research institutions, and non-profit organizations, with an indicative EU contribution of around EUR 2 million per project
+- Eligible Countries: Albania, Argentina, Armenia, Australia, Austria, Belgium, Bolivia, Bosnia And Herzegovina, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Estonia, Faroe Islands, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Paraguay, Poland, Portugal, Republic Of Macedonia, Romania, Serbia, Slovak Republic, Slovenia, South Korea, Spain, Sweden, Switzerland, Tunisia, Turkey, Ukraine, United Kingdom, United States, Uruguay. Eligible applicants include companies, research institutions, and non-profit organizations, with an indicative EU contribution of around EUR 2 million per project
 
 ## Description
 Open Call: Supply Chain Resilience CSA for Semiconductor Sector - Refer to source for full description.
@@ -18,6 +18,6 @@ Open Call: Supply Chain Resilience CSA for Semiconductor Sector - Refer to sourc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

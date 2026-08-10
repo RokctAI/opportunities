@@ -1,13 +1,14 @@
 # Grant Opportunity: Contract Opportunity for IT Software Firm to Develop Digital Legal Aid System &#8211; Bangladesh
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: United Nations Development Programme (UNDP)
 - **Deadline**: 2026-05-24
-- **Funding Amount**: , aud
+- **Funding Amount**: Unspecified (payments structured by deliverables)
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Qualified IT software firms with proven experience in government or donor-supported digital transformation projects (Bangladesh)
+- Required expertise: system architecture, cybersecurity, accessibility compliance, AI integration, database management, DevOps, enterprise systems
 
 ## Description
 Contract Opportunity for IT Software Firm to Develop Digital Legal Aid System &#8211; Bangladesh - Refer to source for full description.
@@ -18,5 +19,5 @@ Contract Opportunity for IT Software Firm to Develop Digital Legal Aid System &#
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

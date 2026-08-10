@@ -1,7 +1,7 @@
 # Grant Opportunity: Request for Applications: Legal and Financial Grant (Malta)
 
 ## Quick Stats
-- **Organization**: Foundations
+- **Organization**: Arts Council Malta
 - **Deadline**: 2026-09-02
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
@@ -18,6 +18,6 @@ Request for Applications: Legal and Financial Grant (Malta) - Refer to source fo
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: funding amount
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

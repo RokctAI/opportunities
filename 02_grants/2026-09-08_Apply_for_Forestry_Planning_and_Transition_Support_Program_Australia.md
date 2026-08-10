@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: NSW Government
 - **Deadline**: 2026-09-08
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to AUD $275,000 per applicant
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Eligible Countries: Australia (New South Wales). Businesses impacted by harvesting restrictions in the Great Koala National Park moratorium; previously approved under the Forestry Industry Supply Chain Grant Program, or demonstrating significant revenue reduction or increased operating costs due to the moratorium; active ABN and ATO registration required
 
 ## Description
 Apply for Forestry Planning and Transition Support Program (Australia) - Refer to source for full description.
@@ -18,5 +18,5 @@ Apply for Forestry Planning and Transition Support Program (Australia) - Refer t
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

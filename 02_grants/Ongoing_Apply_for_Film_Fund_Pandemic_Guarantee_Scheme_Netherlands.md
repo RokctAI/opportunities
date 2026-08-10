@@ -2,7 +2,7 @@
 
 ## Quick Stats
 - **Organization**: Netherlands Film Fund
-- **Deadline**: Ongoing
+- **Deadline**: 2026-12-31
 - **Funding Amount**: up to €1,000,000
 - **Focus Area**: General
 
@@ -18,6 +18,6 @@ Apply for Film Fund Pandemic Guarantee Scheme (Netherlands) - Refer to source fo
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified)
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

@@ -1,9 +1,9 @@
 # Grant Opportunity: Broadband Austria 2030: Access Funding Programme
 
 ## Quick Stats
-- **Organization**: ESA
+- **Organization**: FFG (Austrian Research Promotion Agency)
 - **Deadline**: 2026-12-31
-- **Funding Amount**: €10 million
+- **Funding Amount**: Up to 50% of eligible project costs (up to 65% for area coverage); minimum 25% own contribution required
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Broadband Austria 2030: Access Funding Programme - Refer to source for full desc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

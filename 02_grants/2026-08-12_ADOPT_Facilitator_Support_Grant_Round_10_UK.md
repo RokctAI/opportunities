@@ -1,13 +1,13 @@
 # Grant Opportunity: ADOPT Facilitator Support Grant Round 10 (UK)
 
 ## Quick Stats
-- **Organization**: Innovate UK
+- **Organization**: Department for Environment, Food and Rural Affairs (Defra), delivered in partnership with Innovate UK
 - **Deadline**: 2026-08-12
 - **Funding Amount**: £2,500
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Latest Grants And Resources In United Kingdom. 
+- Eligible Countries: United Kingdom (England-based businesses only). Open to established commercial farming, growing, or forestry entities of any size with a UK bank account; Community Interest Companies, charities, and non-commercial organizations are ineligible
 
 ## Description
 ADOPT Facilitator Support Grant Round 10 (UK) - Refer to source for full description.
@@ -18,6 +18,6 @@ ADOPT Facilitator Support Grant Round 10 (UK) - Refer to source for full descrip
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

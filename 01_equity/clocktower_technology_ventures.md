@@ -9,7 +9,7 @@
 - **Territory**: Global
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://www.clocktowergroup.com/fintech/
+- **Website**: https://www.clocktowergroup.com/
 
 ## Contact
 - **Contact Person**: Ben Savage
@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.clocktowergroup.com/fintech-team/
-- **Notes**: Venture capital arm of Clocktower Group.
+- **Notes**: Venture capital arm of Clocktower Group, now branded "Clocktower Ventures"; fintech and climate, seed through growth; Santa Monica based.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Innovation Fund of Montenegro
 - **Deadline**: 2026-08-31
-- **Funding Amount**: €5,000
+- **Funding Amount**: €5,000 growth award for the overall winner; three regional winners receive one-year EIT Water membership for 2027
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ WAVEMAKER Business Creation Award for Blue Economy Ventures - Refer to source fo
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

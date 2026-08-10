@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Entrepreneurship World Cup
 - **Deadline**: 2026-05-31
-- **Funding Amount**: up to $30,000
+- **Funding Amount**: $1M equity-free prize pool distributed across 12 winners (top individual prize $200,000)
 - **Focus Area**: General
 
 ## Eligibility
-- open to startups across all stages, including idea stage entrepreneurs developing early concepts or prototypes , early stage startups with products already in the market seeking traction and revenue growth, and growth stage companies focused on scaling operations and entering new markets
+- open to startups across all stages, including idea stage entrepreneurs developing early concepts or prototypes, early stage startups with products already in the market seeking traction and revenue growth, and growth stage companies focused on scaling operations and entering new markets
 
 ## Description
 Request for Applications: Entrepreneurship World Cup 2026 - Refer to source for full description.
@@ -18,5 +18,5 @@ Request for Applications: Entrepreneurship World Cup 2026 - Refer to source for 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

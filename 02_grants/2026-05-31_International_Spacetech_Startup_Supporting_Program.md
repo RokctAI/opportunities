@@ -3,11 +3,12 @@
 ## Quick Stats
 - **Organization**: Taiwan Accelerator Plus
 - **Deadline**: 2026-05-31
-- **Funding Amount**: up to USD 2,500
+- **Funding Amount**: Up to USD 2,500 (round-trip ticket reimbursement)
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Spacetech companies established within the last 10 years; startups with flight heritage preferred
+- Sectors: communication satellites and systems integration, remote imaging/sensing, drones/UAVs, satellite manufacturing, launch services, ground equipment, satellite services, other space-related applications
 
 ## Description
 International Spacetech Startup Supporting Program - Refer to source for full description.
@@ -18,5 +19,5 @@ International Spacetech Startup Supporting Program - Refer to source for full de
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Grants.gov
 - **Deadline**: 2027-05-27
-- **Funding Amount**: $500,000,000,
+- **Funding Amount**: $500,000,000
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: United States. Eligible applicants include nonprofit organizations with or without 501(c)(3) status, for-profit organizations other than small businesses , small businesses, and other eligible entities as specified in the program information
+- Eligible Countries: United States. Eligible applicants include nonprofit organizations with or without 501(c)(3) status, for-profit organizations other than small businesses, small businesses, and other eligible entities as specified in the program information
 
 ## Description
 U.S.-Africa Strategic Investment Program - Refer to source for full description.
@@ -18,6 +18,6 @@ U.S.-Africa Strategic Investment Program - Refer to source for full description.
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

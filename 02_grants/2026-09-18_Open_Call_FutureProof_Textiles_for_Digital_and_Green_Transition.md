@@ -1,13 +1,13 @@
 # Grant Opportunity: Open Call: FutureProof Textiles for Digital and Green Transition
 
 ## Quick Stats
-- **Organization**: European Commission
+- **Organization**: FutureProof Textiles Eurocluster
 - **Deadline**: 2026-09-18
-- **Funding Amount**: up to €50,000
+- **Funding Amount**: Up to €50,000 per SME
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Latest Grants And Resources In Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latest Grants And Resources In Latvia, Liechtenstein, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Latest Grants And Resources In Portugal, Romania, Slovak Republic, Slovenia, Spain, Sweden. eligibility and declaration documents as part of the application process
+- Eligible Countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovak Republic, Slovenia, Spain, Sweden (Single Market Programme participating countries). SMEs in the textile value chain or complementary sectors meeting the EU SME definition (2003/361/EC); TRL 5 or higher; at least one English-speaking staff member involved in the project
 
 ## Description
 Open Call: FutureProof Textiles for Digital and Green Transition - Refer to source for full description.
@@ -18,6 +18,6 @@ Open Call: FutureProof Textiles for Digital and Green Transition - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

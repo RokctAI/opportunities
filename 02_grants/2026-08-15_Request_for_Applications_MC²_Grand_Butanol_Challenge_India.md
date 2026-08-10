@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: C-CAMP
 - **Deadline**: 2026-08-15
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to ₹12.5 Crore total (grant pool up to ₹7.5 Crore; prize pool up to ₹5 Crore)
 - **Focus Area**: General
 
 ## Eligibility
@@ -18,6 +18,6 @@ Request for Applications: MC²+ Grand Butanol Challenge (India) - Refer to sourc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: funding amount
+- **Verification Status**: VERIFIED
+- **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

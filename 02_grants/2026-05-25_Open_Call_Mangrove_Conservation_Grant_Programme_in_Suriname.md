@@ -1,13 +1,15 @@
 # Grant Opportunity: Open Call: Mangrove Conservation Grant Programme in Suriname
 
 ## Quick Stats
-- **Organization**: United Nations
+- **Organization**: United Nations Development Programme (UNDP)
 - **Deadline**: 2026-05-25
 - **Funding Amount**: up to USD 25,000
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Suriname-based legal entities with minimum 3 years of operational history
+- MSMEs engaged in mangrove-related value chains (honey production, fisheries, eco-tourism, non-timber forest products)
+- Priority for women-led and youth-led enterprises
 
 ## Description
 Open Call: Mangrove Conservation Grant Programme in Suriname - Refer to source for full description.
@@ -18,5 +20,5 @@ Open Call: Mangrove Conservation Grant Programme in Suriname - Refer to source f
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

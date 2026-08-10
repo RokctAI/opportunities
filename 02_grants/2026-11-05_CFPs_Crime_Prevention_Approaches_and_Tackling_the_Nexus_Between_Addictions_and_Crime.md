@@ -18,5 +18,5 @@ CFPs: Crime Prevention Approaches and Tackling the Nexus Between Addictions and 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

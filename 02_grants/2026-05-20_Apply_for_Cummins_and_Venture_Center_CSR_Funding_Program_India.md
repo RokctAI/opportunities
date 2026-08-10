@@ -1,13 +1,15 @@
 # Grant Opportunity: Apply for Cummins and Venture Center CSR Funding Program (India)
 
 ## Quick Stats
-- **Organization**: Venture Center
+- **Organization**: Cummins India Foundation and Venture Center
 - **Deadline**: 2026-05-20
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to INR 20 lakhs per project
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- India-based applicants with pilot trials, field testing, or technology implementation projects (max six months)
+- Focus areas: energy and environment, energy efficiency, renewable energy, air pollution, drinking water, waste management, alternative energy, environmental clean tech, biomass utilization
+- Excludes pure software development without IP potential and pure academic research
 
 ## Description
 Apply for Cummins and Venture Center CSR Funding Program (India) - Refer to source for full description.
@@ -18,5 +20,5 @@ Apply for Cummins and Venture Center CSR Funding Program (India) - Refer to sour
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

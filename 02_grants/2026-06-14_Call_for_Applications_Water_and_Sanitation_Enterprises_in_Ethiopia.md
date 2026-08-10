@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: Aqua for All
 - **Deadline**: 2026-06-14
-- **Funding Amount**: EUR 50,000
+- **Funding Amount**: Milestone-based grants EUR 50,000-250,000; results-based grants EUR 150,000-300,000; SIINC EUR 150,000-400,000; technical assistance EUR 20,000-100,000
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Registered enterprises in Ethiopia with at least two years of operations
+- Alignment with SDG 6; at least proof-of-concept for core products or services
+- Market-based or commercial approach; financially sustainable or a clear pathway toward financial sustainability
 
 ## Description
 Call for Applications: Water and Sanitation Enterprises in Ethiopia - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Applications: Water and Sanitation Enterprises in Ethiopia - Refer to s
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

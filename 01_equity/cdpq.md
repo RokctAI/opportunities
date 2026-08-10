@@ -9,7 +9,7 @@
 - **Territory**: Global
 - **Country**: Canada
 - **Flag**: CA
-- **Website**: https://cdpq.com
+- **Website**: https://www.lacaisse.com/
 
 ## Contact
 - **Contact Person**: Charles Emond
@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.cdpq.com/en/about-us/leadership
-- **Notes**:
+- **Notes**: Now branded "La Caisse"; cdpq.com redirects to lacaisse.com.
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
 ---

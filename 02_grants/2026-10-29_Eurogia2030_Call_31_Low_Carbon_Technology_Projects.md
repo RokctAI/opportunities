@@ -7,7 +7,7 @@
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Austria, Belgium, Brazil, Canada, Czech Republic, France, Hungary, Ireland, Israel, Latest Grants And Resources In Lithuania, Luxembourg, Poland, Latest Grants And Resources In Portugal, Singapore, Slovak Republic, South Africa, South Korea, Spain, Turkey, United Kingdom. open to applicants from Austria, Belgium (Flanders and Wallonia), Brazil, Canada, Czech Republic, France, Hungary, Ireland, Israel, Lithuania, Luxembourg, Poland, Portugal, Singapore, Slovakia, Spain, South Africa, South Korea, Türkiye, and the United Kingdom
+- Eligible Countries: Austria, Belgium, Brazil, Canada, Czech Republic, France, Hungary, Ireland, Israel, Lithuania, Luxembourg, Poland, Portugal, Singapore, Slovak Republic, South Africa, South Korea, Spain, Turkey, United Kingdom. open to applicants from Austria, Belgium (Flanders and Wallonia), Brazil, Canada, Czech Republic, France, Hungary, Ireland, Israel, Lithuania, Luxembourg, Poland, Portugal, Singapore, Slovakia, Spain, South Africa, South Korea, Türkiye, and the United Kingdom
 
 ## Description
 Eurogia2030 Call 31: Low Carbon Technology Projects - Refer to source for full description.
@@ -18,6 +18,6 @@ Eurogia2030 Call 31: Low Carbon Technology Projects - Refer to source for full d
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-07-20
+- **Last Verified**: 2026-08-10

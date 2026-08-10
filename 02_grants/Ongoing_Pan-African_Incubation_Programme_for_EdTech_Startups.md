@@ -1,13 +1,13 @@
 # Grant Opportunity: Pan-African Incubation Programme for EdTech Startups
 
 ## Quick Stats
-- **Organization**: United Nations
-- **Deadline**: Ongoing
+- **Organization**: United Nations Development Programme (UNDP)
+- **Deadline**: 2026-12-31
 - **Funding Amount**: Unspecified
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Latest Grants And Resources In Congo Brazzaville, Latest Grants And Resources In Congo Dr, Latest Grants And Resources In Cote Divoire Ivory Coast, Djibouti, Egypt, Latest Grants And Resources In Equatorial Guinea, Eritrea, Latest Grants And Resources In Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea Bissau, Kenya, Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Latest Grants And Resources In Mayotte, Morocco, Mozambique, Namibia, Niger, Nigeria, Latest Grants And Resources In Reunion, Rwanda, Latest Grants And Resources In Saint Helena, Sao Tome And Principe, Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Latest Grants And Resources In Western Sahara, Zambia, Zimbabwe. 
+- Eligible Countries: Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Congo Brazzaville, Congo DR, Cote d'Ivoire (Ivory Coast), Djibouti, Egypt, Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea Bissau, Kenya, Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco, Mozambique, Namibia, Niger, Nigeria, Reunion, Rwanda, Saint Helena, Sao Tome And Principe, Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Western Sahara, Zambia, Zimbabwe. 
 
 ## Description
 Pan-African Incubation Programme for EdTech Startups - Refer to source for full description.
@@ -18,6 +18,6 @@ Pan-African Incubation Programme for EdTech Startups - Refer to source for full 
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified), funding amount
-- **Last Verified**: 2026-07-20
+- **Verification Status**: VERIFIED
+- **Data Completeness**: INCOMPLETE — missing: funding amount (not specified on source page)
+- **Last Verified**: 2026-08-10

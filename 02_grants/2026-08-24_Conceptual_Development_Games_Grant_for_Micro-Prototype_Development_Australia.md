@@ -3,11 +3,11 @@
 ## Quick Stats
 - **Organization**: Screen Territory
 - **Deadline**: 2026-08-24
-- **Funding Amount**: funding of up to AUD 5,000
+- **Funding Amount**: up to AUD 5,000 per project
 - **Focus Area**: General
 
 ## Eligibility
-- Eligible Countries: Australia. 
+- Eligible Countries: Australia (Northern Territory). Local developers pursuing early-stage development of innovative digital games via micro-prototypes
 
 ## Description
 Conceptual Development Games Grant for Micro-Prototype Development (Australia) - Refer to source for full description.
@@ -18,6 +18,6 @@ Conceptual Development Games Grant for Micro-Prototype Development (Australia) -
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
+- **Verification Status**: VERIFIED
 - **Data Completeness**: COMPLETE
 - **Last Verified**: 2026-08-10

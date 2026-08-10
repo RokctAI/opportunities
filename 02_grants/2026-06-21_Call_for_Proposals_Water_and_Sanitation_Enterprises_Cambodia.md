@@ -3,11 +3,13 @@
 ## Quick Stats
 - **Organization**: Aqua for All
 - **Deadline**: 2026-06-21
-- **Funding Amount**: EUR 50,000
+- **Funding Amount**: Milestone-based grants EUR 50,000-250,000; results-based grants EUR 150,000-300,000; SIINC EUR 150,000-400,000; technical assistance EUR 20,000-100,000
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Registered enterprises already operating in Cambodia with at least two years of operations
+- Clear impact mission aligned with SDG 6; at least proof-of-concept for core products or services
+- Market-based or commercial approach; financially sustainable or a clear pathway toward sustainability
 
 ## Description
 Call for Proposals: Water and Sanitation Enterprises (Cambodia) - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Proposals: Water and Sanitation Enterprises (Cambodia) - Refer to sourc
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10

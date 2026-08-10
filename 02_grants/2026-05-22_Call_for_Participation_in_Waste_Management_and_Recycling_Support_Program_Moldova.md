@@ -1,13 +1,15 @@
 # Grant Opportunity: Call for Participation in Waste Management and Recycling Support Program (Moldova)
 
 ## Quick Stats
-- **Organization**: UNDP
+- **Organization**: European Union and UNDP Moldova
 - **Deadline**: 2026-05-22
-- **Funding Amount**: Unspecified
+- **Funding Amount**: Up to $100,000 per company (non-monetary support in equipment and technical assistance)
 - **Focus Area**: General
 
 ## Eligibility
-- See source for details.
+- Companies in the recycling sector in the Republic of Moldova
+- Focus: waste management, recycling activities, new facilities, modernization, green transition
+- Up to five companies will be selected
 
 ## Description
 Call for Participation in Waste Management and Recycling Support Program (Moldova) - Refer to source for full description.
@@ -18,5 +20,5 @@ Call for Participation in Waste Management and Recycling Support Program (Moldov
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-14
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-10
