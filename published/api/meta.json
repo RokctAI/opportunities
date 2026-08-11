@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-08-10T15:05:27.373247",
+  "last_sync": "2026-08-11T07:26:21.646248",
   "total_verified_all": 2116,
   "global_defaults": [
     "Review Tender Documents",
@@ -7,9 +7,9 @@
   ],
   "registries": {
     "Equity": {
-      "total": 1259,
+      "total": 1173,
       "verified": 912,
-      "incomplete": 9,
+      "incomplete": 0,
       "classifications": {
         "Funder Type": {
           "VC": 744,
