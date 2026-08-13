@@ -13,6 +13,35 @@ PROJECT_ROOT = os.getcwd()
 ROKCT_DIR = os.path.join(PROJECT_ROOT, ".rokct")
 CONFIG_PATH = os.path.join(ROKCT_DIR, ".workspace_config.json")
 
+# Pinned by tools/gen_protocol_lock.py - do not edit these constants by hand.
+# maintenance.yml is installed as a GitHub workflow (i.e. it is code), so the
+# fetch is pinned to a commit and SHA-256 verified before it is written.
+PROTOCOL_REF = "15f0befa044853caa915597e6921d7f98d3a4fbb"
+MAINTENANCE_PATH = "workflows/maintenance.yml"
+MAINTENANCE_SHA256 = "df37cf18061299ce6d413f3f9f5017882a7bd044e56e15bad24a13b03cff473d"
+MAINTENANCE_URL = f"https://raw.githubusercontent.com/RokctAI/The-Rokct-Protocol/{PROTOCOL_REF}/{MAINTENANCE_PATH}"
+
+
+def fetch_maintenance_verified():
+    """Fetch maintenance.yml pinned to PROTOCOL_REF and verify its SHA-256
+    before returning the bytes. Returns None on fetch failure; a hash
+    mismatch aborts outright - the file becomes a GitHub workflow."""
+    try:
+        req = urllib.request.Request(MAINTENANCE_URL, headers={"User-Agent": "Mozilla/5.0", "X-Trace-Id": "agent-http"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            content = r.read()
+    except Exception as e:
+        print(f"[sync] Failed to fetch maintenance workflow: {e}")
+        return None
+    digest = hashlib.sha256(content).hexdigest()
+    if digest != MAINTENANCE_SHA256:
+        print(f"[sync] Integrity check failed for {MAINTENANCE_PATH} (ref {PROTOCOL_REF}):", file=sys.stderr)
+        print(f"[sync]   expected sha256 {MAINTENANCE_SHA256}", file=sys.stderr)
+        print(f"[sync]   actual   sha256 {digest}", file=sys.stderr)
+        print("[sync] Refusing to install unverified workflow.", file=sys.stderr)
+        sys.exit(1)
+    return content
+
 HEADER = "<!-- ROKCT-SYNC-START: {repo}/{session}/{ts} -->\n"
 FOOTER = "<!-- ROKCT-SYNC-END: {repo}/{session}/{ts} -->\n"
 
@@ -86,19 +115,14 @@ def get_child_repo():
     return "unknown-child"
 
 def fetch_maintenance_workflow(dest_path):
-    """Fetch maintenance.yml from the protocol remote repository."""
-    url = "https://raw.githubusercontent.com/RokctAI/The-Rokct-Protocol/main/workflows/maintenance.yml"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "X-Trace-Id": "agent-http"})
-        with urllib.request.urlopen(req, timeout=10) as r:
-            content = r.read()
-            os.makedirs(os.path.dirname(dest_path), exist_ok=True)
-            with open(dest_path, "wb") as f:
-                f.write(content)
-        return True
-    except Exception as e:
-        print(f"[sync] Failed to fetch maintenance workflow: {e}")
+    """Fetch maintenance.yml (pinned + verified) from the protocol repository."""
+    content = fetch_maintenance_verified()
+    if content is None:
         return False
+    os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+    with open(dest_path, "wb") as f:
+        f.write(content)
+    return True
 
 def check_and_update_maintenance(parent_clone):
     """Ensure parent has the maintenance workflow. Only installs if missing to avoid overriding custom cron."""
@@ -110,28 +134,27 @@ def check_and_update_maintenance(parent_clone):
         return False
 
     print("[sync] Parent is missing maintenance workflow. Installing...")
-    url = "https://raw.githubusercontent.com/RokctAI/The-Rokct-Protocol/main/workflows/maintenance.yml"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "X-Trace-Id": "agent-http"})
-        with urllib.request.urlopen(req, timeout=10) as r:
-            remote_content = r.read()
-            os.makedirs(os.path.dirname(maintenance_path), exist_ok=True)
-            with open(maintenance_path, "wb") as f:
-                f.write(remote_content)
-        return True
-    except Exception as e:
-        print(f"[sync] Failed to install maintenance workflow: {e}")
+    remote_content = fetch_maintenance_verified()
+    if remote_content is None:
+        print("[sync] Failed to install maintenance workflow")
         return False
+    os.makedirs(os.path.dirname(maintenance_path), exist_ok=True)
+    with open(maintenance_path, "wb") as f:
+        f.write(remote_content)
+    return True
 
 def sync_to_parent(config):
+    """Sync working files to the parent repo. Returns True when the sync
+    completed (including the no-op cases), False on clone/push failure so
+    main() can keep the .sync_ready marker and exit non-zero."""
     parent_repo = config.get("parent_repo")
     working_files = config.get("working_files", [
         "memory.md", "decision_log.md", "project_map.md", "active_session.txt"
     ])
     if not parent_repo:
         print("[sync] No parent_repo in config")
-        return
-    
+        return True
+
     session = config.get("session_id", "unknown")
     child_repo = get_child_repo()
     
@@ -148,8 +171,8 @@ def sync_to_parent(config):
         result = subprocess.run(["git", "clone", "--branch", config.get("parent_branch", "main"), clone_url, parent_clone], capture_output=True, text=True)
         if result.returncode != 0:
             print(f"[sync] Clone failed: {result.stderr}")
-            return
-    
+            return False
+
     parent_rokct = os.path.join(parent_clone, ".rokct")
     os.makedirs(parent_rokct, exist_ok=True)
     
@@ -176,8 +199,8 @@ def sync_to_parent(config):
     
     if not any_changes:
         print("[sync] No changes to push")
-        return
-    
+        return True
+
     subprocess.run(["git", "-C", parent_clone, "config", "user.email", "rokct-bot@users.noreply.github.com"], capture_output=True)
     subprocess.run(["git", "-C", parent_clone, "config", "user.name", "rokct-bot"], capture_output=True)
     subprocess.run(["git", "-C", parent_clone, "add", ".rokct/"], capture_output=True)
@@ -186,16 +209,22 @@ def sync_to_parent(config):
     result = subprocess.run(["git", "-C", parent_clone, "push"], capture_output=True, text=True)
     if result.returncode == 0:
         print("[sync] Pushed to parent repo")
-    else:
-        print(f"[sync] Push failed: {result.stderr}")
+        return True
+    print(f"[sync] Push failed: {result.stderr}", file=sys.stderr)
+    return False
 
 def main():
     config = load_config()
     if not config:
         return
-    sync_to_parent(config)
-    
-    # Remove the sync marker after attempting sync
+    ok = sync_to_parent(config)
+    if not ok:
+        # Keep the .sync_ready marker so the next run retries the sync, and
+        # exit non-zero so CI surfaces the failure instead of swallowing it.
+        print("[sync] Sync failed - keeping .sync_ready marker for retry", file=sys.stderr)
+        sys.exit(1)
+
+    # Remove the sync marker only after a successful sync
     sync_marker = os.path.join(ROKCT_DIR, ".sync_ready")
     if os.path.exists(sync_marker):
         os.remove(sync_marker)
