@@ -1,11 +1,11 @@
 {
   "repo": "RokctAI/opportunities",
-  "prompt": "TASK: Script Improvement via Failure Log Analysis.\n\n1) READ LOGS: Read '.rokct/agent/logs/requirement_extraction_failures.log' and '.rokct/agent/logs/pdf_extraction_failures.log' in full.\n2) ANALYSE: Identify recurring failure patterns across tender IDs. Group by reason. Note which tender IDs appear in both logs.\n3) DIAGNOSE: For each pattern, read the relevant script that produced the failure:\n   - Failures from requirement_extraction_failures.log \u2192 '.rokct/skills/.rok/opportunities_registry/scripts/tenders/enrichment/extract_requirements.py'\n   - Failures from pdf_extraction_failures.log \u2192 '.rokct/skills/.rok/opportunities_registry/scripts/tenders/enrichment/pdf_to_md.py'\n4) PROPOSE FIXES: For each diagnosed pattern, make a targeted, minimal code change to the relevant script. Do not refactor \u2014 only fix what the logs prove is broken.\n5) CLEAR LOGS: After fixes are committed, truncate both log files to empty (do not delete them).\n\nGoal: Close the loop between script failures and script improvements using real production data. No guessing \u2014 every change must trace back to a log entry.",
+  "prompt": "TASK: Script Improvement via Failure Log Analysis.\n\n1) READ LOGS: Read '.rokct/agent/logs/requirement_extraction_failures.log' and '.rokct/agent/logs/pdf_extraction_failures.log' in full.\n2) ANALYSE: Identify recurring failure patterns across tender IDs. Group by reason. Note which tender IDs appear in both logs.\n3) DIAGNOSE: For each pattern, read the relevant script that produced the failure:\n   - Failures from requirement_extraction_failures.log → '.rokct/skills/.rok/opportunities_registry/scripts/tenders/enrichment/extract_requirements.py'\n   - Failures from pdf_extraction_failures.log → '.rokct/skills/.rok/opportunities_registry/scripts/tenders/enrichment/pdf_to_md.py'\n4) PROPOSE FIXES: For each diagnosed pattern, make a targeted, minimal code change to the relevant script. Do not refactor — only fix what the logs prove is broken.\n5) CLEAR LOGS: After fixes are committed, truncate both log files to empty (do not delete them).\n\nGoal: Close the loop between script failures and script improvements using real production data. No guessing — every change must trace back to a log entry.",
   "branch": "main",
   "title": "Mission: Script Learning from Failures (Monthly)",
   "automation_mode": "AUTO_CREATE_PR",
   "recurrence": "Monthly",
   "immediate": "false",
-  "scheduled_at": "2026-08-14T13:56:08Z",
+  "scheduled_at": "2026-09-14T20:33:52Z",
   "attempts": 0
 }
