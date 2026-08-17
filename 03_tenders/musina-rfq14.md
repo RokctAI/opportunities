@@ -38,7 +38,7 @@ RFQ 14 Service provider to design, print and supply of 2027 municipal diaries, c
 ## Audit & Status
 - **Status**: ACTIVE
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-08-10
+- **Last Verified**: 2026-08-17
 
 ## AI Checklist (Jules)
 <!-- This section is populated by Jules during enrichment. -->
