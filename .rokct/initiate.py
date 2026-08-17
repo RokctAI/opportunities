@@ -1,3 +1,23 @@
+# Copyright (c) 2026 RokctAI
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 # compliance-ignore-file: structural-special-dirs
 import os
 import sys
@@ -17,9 +37,9 @@ import zipfile
 # Every fetch below is pinned to this commit, so what this script downloads is
 # immutable; the executable targets are additionally SHA-256 verified against
 # EXPECTED_SHA256 before they are written anywhere.
-PROTOCOL_REF = "bd7e56f6397ac0beccaa9e5bdcea3b563800bc43"
+PROTOCOL_REF = "9248f48ac4d473e3c2d6f938f145ca7f155b868a"
 EXPECTED_SHA256 = {
-    "profiles/local/initiate.py": "2c0a9a98387755299825ee8ed2bce9b824c41d04e01812cc7a3de6a596522f4c",
+    "profiles/local/initiate.py": "a26e183c892f69fee47a3dae8819267c44a0266f0598c146e26732f124b5e708",
     "workflows/maintenance.yml": "df37cf18061299ce6d413f3f9f5017882a7bd044e56e15bad24a13b03cff473d",
 }
 GITHUB_RAW_BASE = (
@@ -254,6 +274,48 @@ def fetch_dir_from_github(rel_src, dst):
             f"[init] Failed to fetch directory {rel_src} after {getattr(e, 'fetch_attempts', 1)} attempt(s): {e}",
             file=sys.stderr,
         )
+        sys.exit(1)
+
+
+def load_rok_distribution(src_dir):
+    """workflows/.rok/distribution.json maps each canonical workflow to an
+    optional {"trimmed_variant": file, "full_trigger_repos": [repo names]}.
+    A missing manifest means every file distributes verbatim."""
+    manifest_path = os.path.join(src_dir, "distribution.json")
+    if not os.path.exists(manifest_path):
+        return {}
+    with open(manifest_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def select_rok_workflows(src_dir, repo_name):
+    """Pick which workflows/.rok file each repo gets, as (source file,
+    install-as name) pairs. A workflow with a trimmed_variant installs the
+    canonical file only for the repos in full_trigger_repos; every other repo
+    (unknown included) gets the trimmed variant under the canonical name, so
+    repos the shared suite hard-gates away from never carry schedule/push
+    triggers that can only no-op. Unlisted files distribute verbatim."""
+    manifest = load_rok_distribution(src_dir)
+    variants = {
+        cfg["trimmed_variant"]
+        for cfg in manifest.values()
+        if cfg.get("trimmed_variant")
+    }
+    repo = (repo_name or "").lower()
+    pairs = []
+    for item in sorted(os.listdir(src_dir)):
+        if item == "distribution.json" or item in variants:
+            continue
+        if not os.path.isfile(os.path.join(src_dir, item)):
+            continue
+        cfg = manifest.get(item, {})
+        trimmed = cfg.get("trimmed_variant")
+        full_repos = [r.lower() for r in cfg.get("full_trigger_repos", [])]
+        if trimmed and repo not in full_repos:
+            pairs.append((trimmed, item))
+        else:
+            pairs.append((item, item))
+    return pairs
 
 
 def main():
@@ -317,11 +379,14 @@ def main():
         if os.path.isdir(src_dir):
             dst_workflows = os.path.join(PROJECT_ROOT, ".github", "workflows")
             os.makedirs(dst_workflows, exist_ok=True)
-            for item in os.listdir(src_dir):
-                src_file = os.path.join(src_dir, item)
-                if os.path.isfile(src_file):
-                    shutil.copy2(src_file, os.path.join(dst_workflows, item))
-                    print(f"[init] Deployed Protocol workflow: {item}")
+            repo_name = origin_url.split("RokctAI/")[-1].replace(".git", "")
+            for src_name, dst_name in select_rok_workflows(src_dir, repo_name):
+                shutil.copy2(
+                    os.path.join(src_dir, src_name),
+                    os.path.join(dst_workflows, dst_name),
+                )
+                suffix = f" (from {src_name})" if src_name != dst_name else ""
+                print(f"[init] Deployed Protocol workflow: {dst_name}{suffix}")
             if src_dir == temp_rok_workflows and os.path.isdir(temp_rok_workflows):
                 shutil.rmtree(temp_rok_workflows)
                 print("[init] Cleaned up temporary workflows/.rok directory")
@@ -366,6 +431,27 @@ def main():
             with open(ignore, "a", encoding="utf-8") as f:
                 f.write("\n".join(missing) + "\n")
             print(f"[init] Updated .gitignore (added: {', '.join(missing)})")
+
+    # Fleet standard, mirroring the .gitignore ensure above: force LF for
+    # Python files so composer.json sha256 pins (computed from the committed
+    # LF blobs) verify on Windows runners, where autocrlf checkouts otherwise
+    # materialize *.py with CRLF endings and change the on-disk hash.
+    # newline="\n" keeps the file itself LF even when this runs on Windows.
+    attributes = os.path.join(PROJECT_ROOT, ".gitattributes")
+    required_attributes = ("*.py text eol=lf",)
+    if not os.path.exists(attributes):
+        with open(attributes, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\n".join(required_attributes) + "\n")
+        print("[init] Created .gitattributes")
+    else:
+        txt = open(attributes, "r", encoding="utf-8").read()
+        missing = [entry for entry in required_attributes if entry not in txt]
+        if missing:
+            with open(attributes, "a", encoding="utf-8", newline="\n") as f:
+                if txt and not txt.endswith("\n"):
+                    f.write("\n")
+                f.write("\n".join(missing) + "\n")
+            print(f"[init] Updated .gitattributes (added: {', '.join(missing)})")
 
     ensure_file(
         "workflows/sync_workspace.py", os.path.join(ROKCT_DIR, "sync_workspace.py")
