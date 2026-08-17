@@ -8,6 +8,7 @@
 - **Industry**: Tech
 - **Territory**: Global
 - **Country**: Unspecified
+- **Flag**: GLOBAL
 - **Website**: Unspecified
 
 ## Contact
