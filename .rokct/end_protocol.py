@@ -1,3 +1,23 @@
+# Copyright (c) 2026 RokctAI
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 # compliance-ignore-file: structural-special-dirs
 import os
 import hashlib
@@ -10,8 +30,11 @@ PROJECT_ROOT = Path.cwd()
 ROKCT_DIR = PROJECT_ROOT / ".rokct"
 # Pinned by tools/gen_protocol_lock.py - do not edit these constants by hand.
 # Manifest fetches are data-only, but pinning keeps them immutable too.
-PROTOCOL_REF = "15f0befa044853caa915597e6921d7f98d3a4fbb"
-GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/RokctAI/The-Rokct-Protocol/{PROTOCOL_REF}"
+PROTOCOL_REF = "9248f48ac4d473e3c2d6f938f145ca7f155b868a"
+GITHUB_RAW_BASE = (
+    f"https://raw.githubusercontent.com/RokctAI/The-Rokct-Protocol/{PROTOCOL_REF}"
+)
+
 
 def dir_hash(d: Path):
     if not d.is_dir():
@@ -23,12 +46,15 @@ def dir_hash(d: Path):
         h.update(path.read_bytes())
     return h.hexdigest()[:16]
 
+
 def file_hash(path: Path):
     if not path.exists():
         return None
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
+
 _PINNED_HASH_CACHE = {}
+
 
 def pinned_file_hash(rel: str):
     """Full SHA-256 of the protocol's pinned copy of rel: the local checkout
@@ -46,7 +72,9 @@ def pinned_file_hash(rel: str):
     else:
         url = f"{GITHUB_RAW_BASE}/{rel}"
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "X-Trace-Id": "agent-http"})
+            req = urllib.request.Request(
+                url, headers={"User-Agent": "Mozilla/5.0", "X-Trace-Id": "agent-http"}
+            )
             with urllib.request.urlopen(req, timeout=10) as r:
                 digest = hashlib.sha256(r.read()).hexdigest()
         except Exception:
@@ -54,8 +82,10 @@ def pinned_file_hash(rel: str):
     _PINNED_HASH_CACHE[rel] = digest
     return digest
 
+
 def touch(path: Path):
     path.write_text("", encoding="utf-8")
+
 
 def main():
     if not ROKCT_DIR.is_dir():
@@ -88,13 +118,26 @@ def main():
         # install_state.json now lives at .rokct/cache/install_state.json
         # (cache/ is keep-whitelisted below); a legacy copy at .rokct/'s own
         # root is kept explicitly until the composer migrates it there.
-        if item_path.name in ("active_session.txt", "initiate.py", "install_state.json"):
+        if item_path.name in (
+            "active_session.txt",
+            "initiate.py",
+            "install_state.json",
+        ):
             print(f"[end] Kept {item_path.name} (protocol tool)")
             continue
         if item_path.name == ".sync_ready":
             continue
         if item_path.is_dir():
-            if item_path.name in ("workflows", "agent", "evidence", "images", "templates", "types", "config", "cache"):
+            if item_path.name in (
+                "workflows",
+                "agent",
+                "evidence",
+                "images",
+                "templates",
+                "types",
+                "config",
+                "cache",
+            ):
                 continue
             shutil.rmtree(item_path)
             print(f"[end] Deleted directory: {item_path.name}")
@@ -114,8 +157,11 @@ def main():
             print(f"[end] Kept modified {item_path.name}")
 
     touch(ROKCT_DIR / ".sync_ready")
-    print("[end] Created .sync_ready marker — CI will pick this up when active session ends")
+    print(
+        "[end] Created .sync_ready marker — CI will pick this up when active session ends"
+    )
     print("[end] End protocol cleanup complete.")
+
 
 if __name__ == "__main__":
     main()
