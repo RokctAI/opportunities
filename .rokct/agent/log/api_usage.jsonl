@@ -10,3 +10,5 @@
 {"api": "jules", "kind": "create_session", "title": "Mission: Weekly Funder Audit & Enrichment", "session": "ions/4132920395898137468", "prompt_chars": 464, "ts": "2026-08-13T20:47:25Z"}
 {"api": "jules", "kind": "create_session", "title": "Mission: Corporate Grant Hunt", "session": "ons/15404993557110727796", "prompt_chars": 1244, "ts": "2026-08-13T20:47:27Z"}
 {"api": "jules", "kind": "create_session", "title": "Mission: Script Learning from Failures (Monthly)", "session": "ons/18193240408318093498", "prompt_chars": 1101, "ts": "2026-08-14T20:33:52Z"}
+{"api": "jules", "kind": "create_session", "title": "Mission: Weekly Funder Audit & Enrichment", "session": "ions/9307863925787986083", "prompt_chars": 464, "ts": "2026-08-21T20:28:40Z"}
+{"api": "jules", "kind": "create_session", "title": "Mission: Corporate Grant Hunt", "session": "ons/13882644707045446032", "prompt_chars": 1244, "ts": "2026-08-21T20:28:41Z"}
