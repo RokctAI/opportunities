@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 12. India Quotient
+# Equity Opportunity: India Quotient
 
 ## Quick Stats
-- **Organization**: 12. India Quotient
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: India Quotient
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / Consumer / Fintech / SaaS
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://www.indiaquotient.in
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Anand Lunia
+- **LinkedIn**: https://www.linkedin.com/company/india-quotient
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://www.indiaquotient.in
+- **Notes**: Early stage VC fund in India
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Advantage Capital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC / PE
+- **Funding Type**: Growth / Debt / Equity
+- **Industry**: Manufacturing / Tech / Energy / Agribusiness
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.advantagecap.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Steven Sturan
+- **LinkedIn**: https://www.linkedin.com/company/advantage-capital-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.advantagecap.com
+- **Notes**: Impact investment firm based in New Orleans
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

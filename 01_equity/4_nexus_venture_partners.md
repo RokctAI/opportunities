@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 4. Nexus Venture Partners
+# Equity Opportunity: Nexus Venture Partners
 
 ## Quick Stats
-- **Organization**: 4. Nexus Venture Partners
-- **Funder Type**: VC / Accelerator
+- **Organization**: Nexus Venture Partners
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Enterprise SaaS / AI / Commerce / Fintech
+- **Territory**: India / USA
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://nexusvp.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Suvir Sujan
+- **LinkedIn**: https://www.linkedin.com/company/nexus-venture-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://nexusvp.com
+- **Notes**: India US cross-border venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

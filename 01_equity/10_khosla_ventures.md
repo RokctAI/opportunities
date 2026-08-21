@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 10. Khosla Ventures
+# Equity Opportunity: Khosla Ventures
 
 ## Quick Stats
-- **Organization**: 10. Khosla Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: Khosla Ventures
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Tech / AI / Climate / Healthcare
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.khoslaventures.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Vinod Khosla
+- **LinkedIn**: https://www.linkedin.com/company/khosla-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://www.khoslaventures.com
+- **Notes**: Silicon Valley venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

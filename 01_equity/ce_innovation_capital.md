@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: CE Innovation Capital
-- **Funder Type**: VC
-- **Funding Type**: Series A-Z
-- **Industry**: Fintech
-- **Territory**: Asia
+- **Funder Type**: Corporate VC / PE
+- **Funding Type**: Series A / Series B / Growth
+- **Industry**: Fintech / Enterprise Tech / AI
+- **Territory**: Global / Asia
 - **Country**: China
 - **Flag**: CN
-- **Website**: https://ceic.com
+- **Website**: https://www.ceic.com
 
 ## Contact
-- **Contact Person**: Bing Gordon
-- **LinkedIn**: https://www.linkedin.com/in/bing-gordon
+- **Contact Person**: Benson Tam
+- **LinkedIn**: https://www.linkedin.com/company/ce-innovation-capital
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://ceic.com/team
-- **Notes**:
+- **Source / Verification**: https://www.ceic.com
+- **Notes**: Global technology investment firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

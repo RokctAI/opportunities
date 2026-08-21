@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 8. Tiger Global (India)
+# Equity Opportunity: Tiger Global
 
 ## Quick Stats
-- **Organization**: 8. Tiger Global (India)
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Tiger Global
+- **Funder Type**: VC / PE
+- **Funding Type**: Series A-Z / Growth
+- **Industry**: Tech / Internet / SaaS / Consumer
+- **Territory**: India / Global
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.tigerglobal.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Scott Shleifer
+- **LinkedIn**: https://www.linkedin.com/company/tiger-global-management
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://www.tigerglobal.com
+- **Notes**: Global investment firm targeting high-growth tech
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

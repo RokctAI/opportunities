@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Derayah Financial
-- **Funder Type**: VC / Asset Management
-- **Funding Type**: Seed / Series A / Series B
-- **Industry**: Tech / Fintech
-- **Territory**: Saudi Arabia
+- **Funder Type**: PE / Wealth Management
+- **Funding Type**: Growth / Debt / PE
+- **Industry**: Fintech / Tech / Real Estate / Financial Services
+- **Territory**: Middle East
 - **Country**: Saudi Arabia
 - **Flag**: SA
-- **Website**: https://derayah.com/
+- **Website**: https://www.derayah.com
 
 ## Contact
-- **Contact Person**: Faris AlRashed
-- **LinkedIn**: https://www.linkedin.com/in/farisalrashed/
+- **Contact Person**: Mohammed Al Shammasi
+- **LinkedIn**: https://www.linkedin.com/company/derayah-financial
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://derayah.com/en/team/
-- **Notes**: Leading Saudi financial firm.
+- **Source / Verification**: https://www.derayah.com
+- **Notes**: Saudi investment firm and digital asset management platform
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

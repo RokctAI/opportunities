@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Delight Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC / Venture Builder
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / Consumer / AI / Enterprise
+- **Territory**: Asia
+- **Country**: Japan
+- **Flag**: JP
+- **Website**: https://delight-ventures.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Tomoko Namba
+- **LinkedIn**: https://www.linkedin.com/company/delight-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-japan
-- **Notes**: Discovered via equity sync from failory_japan.md
+- **Source / Verification**: https://delight-ventures.com
+- **Notes**: Tokyo based venture capital firm and venture builder
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

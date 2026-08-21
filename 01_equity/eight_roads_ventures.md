@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Eight Roads Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funder Type**: VC / PE
+- **Funding Type**: Series A-Z / Growth
+- **Industry**: Consumer / Healthcare / Enterprise / Fintech
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: UK
+- **Flag**: GB
+- **Website**: https://eightroads.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Michael S. Jones
+- **LinkedIn**: https://www.linkedin.com/company/eight-roads
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://eightroads.com
+- **Notes**: Global venture capital firm backed by Fidelity
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

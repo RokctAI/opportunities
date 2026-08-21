@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Almi Invest
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Sovereign Wealth / VC
+- **Funding Type**: Seed / Early Stage
+- **Industry**: Tech / Life Sciences / Climate Tech / Industry
+- **Territory**: Europe
+- **Country**: Sweden
+- **Flag**: SE
+- **Website**: https://www.almi.se/almi-invest
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Mikael Karlsson
+- **LinkedIn**: https://www.linkedin.com/company/almi-invest
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.almi.se/almi-invest
+- **Notes**: Sweden state-owned early stage venture capital fund
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

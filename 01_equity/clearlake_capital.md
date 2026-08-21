@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Clearlake Capital
+# Equity Opportunity: Clearlake Capital Group
 
 ## Quick Stats
-- **Organization**: Clearlake Capital
-- **Funder Type**: PE
-- **Funding Type**: Late Stage
-- **Industry**: Tech
-- **Territory**: Global
+- **Organization**: Clearlake Capital Group
+- **Funder Type**: PE / Growth
+- **Funding Type**: Growth Equity / Buyout
+- **Industry**: Software / Tech-Enabled Services / Industrial
+- **Territory**: USA / Global
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://clearlake.com
+- **Website**: https://www.clearlake.com
 
 ## Contact
-- **Contact Person**: Behdad Eghbali
-- **LinkedIn**: https://www.linkedin.com/in/behdadeghbali
+- **Contact Person**: Jose E. Feliciano
+- **LinkedIn**: https://www.linkedin.com/company/clearlake-capital-group
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://clearlake.com/team
-- **Notes**:
+- **Source / Verification**: https://www.clearlake.com
+- **Notes**: Santa Monica based private equity and growth investment firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

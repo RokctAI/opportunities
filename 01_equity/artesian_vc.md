@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Artesian VC
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Seed / Early Stage / Growth
+- **Industry**: Agrifoodtech / Climate / Clean Energy / AI
+- **Territory**: Australia / Asia
+- **Country**: Australia
+- **Flag**: AU
+- **Website**: https://www.artesianinvest.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Jeremy Colless
+- **LinkedIn**: https://www.linkedin.com/company/artesian-venture-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.artesianinvest.com
+- **Notes**: Sydney based venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -1,11 +1,11 @@
 ---
-# Equity Opportunity: BP Ventures
+# Equity Opportunity: bp ventures
 
 ## Quick Stats
-- **Organization**: BP Ventures
+- **Organization**: bp ventures
 - **Funder Type**: Corporate VC
-- **Funding Type**: Series A-Z
-- **Industry**: Energy
+- **Funding Type**: Series A / Series B / Growth
+- **Industry**: Energy / Bioenergy / EV Charging / Mobility / Climate
 - **Territory**: Global
 - **Country**: UK
 - **Flag**: GB
@@ -13,15 +13,15 @@
 
 ## Contact
 - **Contact Person**: Gareth Burns
-- **LinkedIn**: https://www.linkedin.com/in/garethburns/
+- **LinkedIn**: https://www.linkedin.com/company/bp-ventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.bp.com/en/global/bp-ventures/who-we-are.html
-- **Notes**:
+- **Source / Verification**: https://www.bp.com/en/global/bp-ventures.html
+- **Notes**: Venture capital arm of bp
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

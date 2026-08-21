@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Cardumen Capital
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Deeptech / AI / Cybersecurity / B2B SaaS
+- **Territory**: Europe / Middle East
+- **Country**: Israel
+- **Flag**: IL
+- **Website**: https://www.cardumencapital.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Igor de la Sota
+- **LinkedIn**: https://www.linkedin.com/company/cardumen-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-israel
-- **Notes**: Discovered via equity sync from failory_israel.md
+- **Source / Verification**: https://www.cardumencapital.com
+- **Notes**: European-Israeli deep tech venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

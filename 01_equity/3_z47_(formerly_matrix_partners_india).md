@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 3. Z47 (formerly Matrix Partners India)
+# Equity Opportunity: Z47
 
 ## Quick Stats
-- **Organization**: 3. Z47 (formerly Matrix Partners India)
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Z47
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Tech / Consumer / Fintech / Enterprise
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://www.z47.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Avnish Bajaj
+- **LinkedIn**: https://www.linkedin.com/company/z47-vc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://www.z47.com
+- **Notes**: Formerly Matrix Partners India
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: CoStone Capital
+# Equity Opportunity: Costone Capital
 
 ## Quick Stats
-- **Organization**: CoStone Capital
+- **Organization**: Costone Capital
 - **Funder Type**: VC
-- **Funding Type**: Series A-Z
-- **Industry**: Tech
-- **Territory**: China
+- **Funding Type**: Seed / Series A
+- **Industry**: Tech / Consumer / Industrial / Energy
+- **Territory**: Asia
 - **Country**: China
 - **Flag**: CN
 - **Website**: http://www.costonecapital.com
 
 ## Contact
-- **Contact Person**: Zhang Wei
-- **LinkedIn**: https://www.linkedin.com/in/zhangwei/
+- **Contact Person**: Wei Zhang
+- **LinkedIn**: https://www.linkedin.com/company/costone-capital
 - **Phone**:
 
 ## Source
 - **Source / Verification**: http://www.costonecapital.com
-- **Notes**:
+- **Notes**: Chinese venture capital and growth equity firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 12. Menlo Ventures
+# Equity Opportunity: Menlo Ventures
 
 ## Quick Stats
-- **Organization**: 12. Menlo Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: Menlo Ventures
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B / Growth
+- **Industry**: AI / Consumer / Enterprise / Healthcare
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.menlovc.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Shawn Carolan
+- **LinkedIn**: https://www.linkedin.com/company/menlo-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://www.menlovc.com
+- **Notes**: Silicon Valley venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

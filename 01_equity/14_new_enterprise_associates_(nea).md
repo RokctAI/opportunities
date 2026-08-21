@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 14. New Enterprise Associates (NEA)
+# Equity Opportunity: New Enterprise Associates (NEA)
 
 ## Quick Stats
-- **Organization**: 14. New Enterprise Associates (NEA)
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: New Enterprise Associates (NEA)
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A-Z / Growth
+- **Industry**: Tech / Healthcare / Enterprise / AI
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.nea.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Scott Sandell
+- **LinkedIn**: https://www.linkedin.com/company/new-enterprise-associates
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://www.nea.com
+- **Notes**: Global venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 7. Elevation Capital (formerly SAIF Partners)
+# Equity Opportunity: Elevation Capital
 
 ## Quick Stats
-- **Organization**: 7. Elevation Capital (formerly SAIF Partners)
-- **Funder Type**: VC / Accelerator
+- **Organization**: Elevation Capital
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Consumer / Fintech / SaaS / Logistics
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://elevationcapital.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Ravi Adusumalli
+- **LinkedIn**: https://www.linkedin.com/company/elevation-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://elevationcapital.com
+- **Notes**: Early stage venture capital firm in India
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

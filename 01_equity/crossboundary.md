@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: CrossBoundary
+# Equity Opportunity: CrossBoundary Energy Access / CrossBoundary Advisory
 
 ## Quick Stats
-- **Organization**: CrossBoundary
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: CrossBoundary Energy Access / CrossBoundary Advisory
+- **Funder Type**: PE / Impact / Debt
+- **Funding Type**: Project Finance / Equity / Infrastructure
+- **Industry**: Renewable Energy / Infrastructure / Agriculture
+- **Territory**: Africa / Emerging Markets
+- **Country**: Kenya
+- **Flag**: KE
+- **Website**: https://crossboundary.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Jake Cusack
+- **LinkedIn**: https://www.linkedin.com/company/crossboundary
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-kenya
-- **Notes**: Discovered via equity sync from failory_kenya.md
+- **Source / Verification**: https://crossboundary.com
+- **Notes**: Investment firm unlocking capital in underserved markets
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

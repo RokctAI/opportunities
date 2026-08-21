@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 5. Kalaari Capital
+# Equity Opportunity: Kalaari Capital
 
 ## Quick Stats
-- **Organization**: 5. Kalaari Capital
-- **Funder Type**: VC / Accelerator
+- **Organization**: Kalaari Capital
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / Consumer / Edtech / Healthtech / Fintech
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://www.kalaari.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Vani Kola
+- **LinkedIn**: https://www.linkedin.com/company/kalaari-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://www.kalaari.com
+- **Notes**: Early stage technology focused venture fund in India
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

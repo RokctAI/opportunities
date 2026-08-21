@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Essence VC
 - **Funder Type**: VC
-- **Funding Type**: Seed
-- **Industry**: Tech / Infrastructure
-- **Territory**: Global
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Developer Tools / Infrastructure / Cybersecurity / Open Source
+- **Territory**: USA / Global
 - **Country**: USA
 - **Flag**: US
 - **Website**: https://essencevc.com
 
 ## Contact
-- **Contact Person**: Crane Hall
-- **LinkedIn**: https://www.linkedin.com/in/cranehall
+- **Contact Person**: Tim Chen
+- **LinkedIn**: https://www.linkedin.com/company/essencevc
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.essencevc.com/team
-- **Notes**:
+- **Source / Verification**: https://essencevc.com
+- **Notes**: Early-stage developer infrastructure VC fund
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

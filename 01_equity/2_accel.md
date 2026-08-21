@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 2. Accel
+# Equity Opportunity: Accel
 
 ## Quick Stats
-- **Organization**: 2. Accel
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: Accel
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Tech / SaaS / Fintech / Consumer / Health
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.accel.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Sameer Gandhi
+- **LinkedIn**: https://www.linkedin.com/company/accel-vc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://www.accel.com
+- **Notes**: Global venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

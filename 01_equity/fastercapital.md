@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: FasterCapital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funder Type**: Incubator / Accelerator / Venture Builder
+- **Funding Type**: Co-funding / Technical Co-founder / Equity
+- **Industry**: Tech / FinTech / HealthTech / AI / Software
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: UAE
+- **Flag**: AE
+- **Website**: https://fastercapital.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Hesham Zreik
+- **LinkedIn**: https://www.linkedin.com/company/fastercapital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://fastercapital.com
+- **Notes**: Online incubator and accelerator in Dubai
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

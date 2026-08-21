@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 500 Istanbul
+# Equity Opportunity: 500 Emerging Europe (formerly 500 Istanbul)
 
 ## Quick Stats
-- **Organization**: 500 Istanbul
-- **Funder Type**: VC
-- **Funding Type**: Seed
-- **Industry**: Tech
-- **Territory**: Turkey
+- **Organization**: 500 Emerging Europe (formerly 500 Istanbul)
+- **Funder Type**: VC / Accelerator
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / Software
+- **Territory**: Eastern Europe / Turkey
 - **Country**: Turkey
 - **Flag**: TR
-- **Website**: https://500istanbul.vc/
+- **Website**: https://500ee.vc
 
 ## Contact
 - **Contact Person**: Enis Hulli
-- **LinkedIn**: https://www.linkedin.com/in/enishulli/
+- **LinkedIn**: https://www.linkedin.com/company/500-emerging-europe
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://500istanbul.vc/team
-- **Notes**: Early stage VC in Turkey.
+- **Source / Verification**: https://500ee.vc
+- **Notes**: Early stage VC firm focusing on CEE and Turkey
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

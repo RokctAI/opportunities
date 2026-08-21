@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Constant Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Seed / Early Stage
+- **Industry**: Fintech / Edtech / Agritech / Logistics
+- **Territory**: West Africa
+- **Country**: Nigeria
+- **Flag**: NG
+- **Website**: https://www.constantcap.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Ike Chioke
+- **LinkedIn**: https://www.linkedin.com/company/constant-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-nigeria
-- **Notes**: Discovered via equity sync from failory_nigeria.md
+- **Source / Verification**: https://www.constantcap.com
+- **Notes**: West African venture capital fund
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

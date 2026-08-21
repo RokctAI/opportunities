@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: European Innovation Council
+# Equity Opportunity: European Innovation Council (EIC Fund)
 
 ## Quick Stats
-- **Organization**: European Innovation Council
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: European Innovation Council (EIC Fund)
+- **Funder Type**: Sovereign Wealth / VC / Grant
+- **Funding Type**: Grant / Equity / Blended Finance
+- **Industry**: Deeptech / Climate / Health / Quantum / AI
+- **Territory**: Europe
+- **Country**: Belgium
+- **Flag**: BE
+- **Website**: https://eic.ec.europa.eu
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Michiel Scheffer
+- **LinkedIn**: https://www.linkedin.com/company/european-innovation-council
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://eic.ec.europa.eu
+- **Notes**: European Commission flagship innovation fund
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

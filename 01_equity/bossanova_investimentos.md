@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Bossanova Investimentos
+# Equity Opportunity: BossaInvest (formerly Bossa Nova Investimentos)
 
 ## Quick Stats
-- **Organization**: Bossanova Investimentos
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: BossaInvest (formerly Bossa Nova Investimentos)
+- **Funder Type**: VC / Micro-VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: B2B SaaS / Tech / Marketplaces
+- **Territory**: LatAm
+- **Country**: Brazil
+- **Flag**: BR
+- **Website**: https://bossainvest.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Joao Kepler
+- **LinkedIn**: https://www.linkedin.com/company/bossainvest
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://visible.vc/blog/venture-capital-in-latin-america/
-- **Notes**: Discovered via equity sync from visible_latam.md
+- **Source / Verification**: https://bossainvest.com
+- **Notes**: Most active micro-VC investor in Latin America
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

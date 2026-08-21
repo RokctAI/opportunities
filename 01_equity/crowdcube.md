@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Crowdcube
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Equity Crowdfunding / Angel Network
+- **Funding Type**: Seed / Series A / Growth
+- **Industry**: Consumer / Tech / Fintech / Clean Energy
+- **Territory**: Europe
+- **Country**: UK
+- **Flag**: GB
+- **Website**: https://www.crowdcube.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Darren Westlake
+- **LinkedIn**: https://www.linkedin.com/company/crowdcube-com
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.crowdcube.com
+- **Notes**: European equity crowdfunding platform
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

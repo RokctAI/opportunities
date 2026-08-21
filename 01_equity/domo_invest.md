@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: DOMO Invest
+# Equity Opportunity: Domo Invest
 
 ## Quick Stats
-- **Organization**: DOMO Invest
+- **Organization**: Domo Invest
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech / Consumer
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: B2B Tech / SaaS / Consumer / Marketplaces
 - **Territory**: LatAm
 - **Country**: Brazil
 - **Flag**: BR
-- **Website**: https://www.domoinvest.com.br/
+- **Website**: https://www.domoinvest.com.br
 
 ## Contact
 - **Contact Person**: Rodrigo Borges
-- **LinkedIn**: https://www.linkedin.com/in/rborges/
+- **LinkedIn**: https://www.linkedin.com/company/domoinvest
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.domoinvest.com.br/team
-- **Notes**: Consumer and SaaS focus in Brazil.
+- **Source / Verification**: https://www.domoinvest.com.br
+- **Notes**: Early stage venture capital fund in Sao Paulo
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

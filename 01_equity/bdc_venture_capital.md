@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: BDC Venture Capital
+# Equity Opportunity: BDC Capital (BDC Venture Capital)
 
 ## Quick Stats
-- **Organization**: BDC Venture Capital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: BDC Capital (BDC Venture Capital)
+- **Funder Type**: Sovereign Wealth / VC
+- **Funding Type**: Seed / Series A / Series B / Growth
+- **Industry**: Tech / Industrial / Clean Tech / Healthcare
+- **Territory**: North America
+- **Country**: Canada
+- **Flag**: CA
+- **Website**: https://www.bdc.ca/en/bdc-capital
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Isabelle Bettez
+- **LinkedIn**: https://www.linkedin.com/company/bdc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.bdc.ca/en/bdc-capital
+- **Notes**: Venture capital arm of Business Development Bank of Canada
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

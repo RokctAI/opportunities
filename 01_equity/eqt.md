@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: EQT
+# Equity Opportunity: EQT Group / EQT Ventures
 
 ## Quick Stats
-- **Organization**: EQT
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: EQT Group / EQT Ventures
+- **Funder Type**: VC / PE
+- **Funding Type**: Seed / Series A-Z / Infrastructure / Buyout
+- **Industry**: Tech / Healthcare / Climate / Infrastructure
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: Sweden
+- **Flag**: SE
+- **Website**: https://eqtgroup.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Christian Sinding
+- **LinkedIn**: https://www.linkedin.com/company/eqt-group
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-sweden
-- **Notes**: Discovered via equity sync from failory_sweden.md
+- **Source / Verification**: https://eqtgroup.com
+- **Notes**: Global purpose-driven investment organization
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Baillie Gifford
-- **Funder Type**: Investment Manager / VC
-- **Funding Type**: Series C-Z
-- **Industry**: Tech / AI
+- **Funder Type**: PE / Growth
+- **Funding Type**: Late Stage / Growth Equity
+- **Industry**: Tech / Life Sciences / Healthcare / Energy
 - **Territory**: Global
 - **Country**: UK
 - **Flag**: GB
-- **Website**: https://bailliegifford.com
+- **Website**: https://www.bailliegifford.com
 
 ## Contact
-- **Contact Person**: Andrew Telfer
-- **LinkedIn**: https://www.linkedin.com/in/andrewtelfer
+- **Contact Person**: Tom Slater
+- **LinkedIn**: https://www.linkedin.com/company/baillie-gifford
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.bailliegifford.com/en/usa/about-us/our-people/
-- **Notes**:
+- **Source / Verification**: https://www.bailliegifford.com
+- **Notes**: Edinburgh based investment management partnership
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

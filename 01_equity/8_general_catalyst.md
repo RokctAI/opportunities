@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 8. General Catalyst
+# Equity Opportunity: General Catalyst
 
 ## Quick Stats
-- **Organization**: 8. General Catalyst
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: General Catalyst
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B / Growth
+- **Industry**: Healthcare / Enterprise / Consumer / AI / Fintech
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.generalcatalyst.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Hemant Taneja
+- **LinkedIn**: https://www.linkedin.com/company/general-catalyst
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://www.generalcatalyst.com
+- **Notes**: Venture capital firm based in Cambridge MA
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

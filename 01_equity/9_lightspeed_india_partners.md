@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 9. Lightspeed India Partners
+# Equity Opportunity: Lightspeed India Partners
 
 ## Quick Stats
-- **Organization**: 9. Lightspeed India Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Lightspeed India Partners
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Tech / Consumer / Enterprise / Fintech
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://www.lightspeedip.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Bejul Somaia
+- **LinkedIn**: https://www.linkedin.com/company/lightspeed-india
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://www.lightspeedip.com
+- **Notes**: India focused early-stage venture capital fund
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

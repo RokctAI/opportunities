@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: BEENEXT
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Fintech / E-Commerce / Software / Healthtech
+- **Territory**: Global / India / SE Asia
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://www.beenext.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Teruhide Sato
+- **LinkedIn**: https://www.linkedin.com/company/beenext
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-singapore
-- **Notes**: Discovered via equity sync from failory_singapore.md
+- **Source / Verification**: https://www.beenext.com
+- **Notes**: Global venture capital firm backing early-stage founders
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

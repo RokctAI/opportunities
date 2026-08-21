@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Capstone Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: PE / Advisory
+- **Funding Type**: Growth / PE / Equity Placement
+- **Industry**: Tech / Consumer / Industrial / Healthcare
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.capstonepartners.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Johnathan B. Lee
+- **LinkedIn**: https://www.linkedin.com/company/capstone-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-korea
-- **Notes**: Discovered via equity sync from failory_south_korea.md
+- **Source / Verification**: https://www.capstonepartners.com
+- **Notes**: Middle market investment bank and private capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

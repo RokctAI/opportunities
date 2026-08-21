@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: 1789 Capital
 - **Funder Type**: VC
-- **Funding Type**: Early Stage
-- **Industry**: Defense / Tech / AI
+- **Funding Type**: Seed / Series A
+- **Industry**: Defense / Tech / Deglobalization
 - **Territory**: USA
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://1789.vc
+- **Website**: https://1789capital.com
 
 ## Contact
-- **Contact Person**: Christopher Buskirk
-- **LinkedIn**: https://www.linkedin.com/in/chrisbuskirk/
+- **Contact Person**: Omeed Malik
+- **LinkedIn**: https://www.linkedin.com/company/1789-capital
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://1789.vc
-- **Notes**:
+- **Source / Verification**: https://1789capital.com
+- **Notes**: Palm Beach based investment firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-22
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Atlantica Ventures
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Fintech / Logistics / Healthtech / Edtech
+- **Territory**: Africa
+- **Country**: Nigeria
+- **Flag**: NG
+- **Website**: https://atlanticavc.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Aniko Szigetvari
+- **LinkedIn**: https://www.linkedin.com/company/atlanticavc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-nigeria
-- **Notes**: Discovered via equity sync from failory_nigeria.md
+- **Source / Verification**: https://atlanticavc.com
+- **Notes**: Pan-African early-stage venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

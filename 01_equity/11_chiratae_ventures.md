@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 11. Chiratae Ventures
+# Equity Opportunity: Chiratae Ventures
 
 ## Quick Stats
-- **Organization**: 11. Chiratae Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Chiratae Ventures
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Tech / Consumer / Fintech / Healthtech
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://www.chiratae.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Sudhir Sethi
+- **LinkedIn**: https://www.linkedin.com/company/chiratae-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://www.chiratae.com
+- **Notes**: Indian venture capital firm formerly IDG Ventures India
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 10. 3one4 Capital
+# Equity Opportunity: 3one4 Capital
 
 ## Quick Stats
-- **Organization**: 10. 3one4 Capital
-- **Funder Type**: VC / Accelerator
+- **Organization**: 3one4 Capital
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / Fintech / Enterprise
+- **Territory**: India / Global
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://3one4capital.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Pranav Pai
+- **LinkedIn**: https://www.linkedin.com/company/3one4-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://3one4capital.com
+- **Notes**: Bangalore-based early stage VC firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

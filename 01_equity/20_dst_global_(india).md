@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 20. DST Global (India)
+# Equity Opportunity: DST Global
 
 ## Quick Stats
-- **Organization**: 20. DST Global (India)
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: DST Global
+- **Funder Type**: VC / PE
+- **Funding Type**: Late Stage / Growth
+- **Industry**: Internet / Tech / Fintech
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: Hong Kong
+- **Flag**: HK
+- **Website**: https://dst-global.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Yuri Milner
+- **LinkedIn**: https://www.linkedin.com/company/dst-global
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://dst-global.com
+- **Notes**: Growth stage internet investment firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

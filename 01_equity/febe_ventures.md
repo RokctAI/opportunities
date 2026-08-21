@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: FEBE Ventures
+# Equity Opportunity: Febe Ventures
 
 ## Quick Stats
-- **Organization**: FEBE Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Febe Ventures
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / Software / Marketplaces / Health / B2B
+- **Territory**: Southeast Asia / Global
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://www.febe.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Olivier Raussin
+- **LinkedIn**: https://www.linkedin.com/company/febe-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://visible.vc/blog/top-venture-capitalists-southeast-asia/
-- **Notes**: Discovered via equity sync from visible_sea.md
+- **Source / Verification**: https://www.febe.vc
+- **Notes**: Early-stage venture capital fund by former entrepreneurs
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

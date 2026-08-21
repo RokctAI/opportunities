@@ -1,11 +1,11 @@
 ---
-# Equity Opportunity: BioGeneration Ventures
+# Equity Opportunity: BioGeneration Ventures (BGV)
 
 ## Quick Stats
-- **Organization**: BioGeneration Ventures
+- **Organization**: BioGeneration Ventures (BGV)
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A-Z
-- **Industry**: HealthTech
+- **Funding Type**: Seed / Series A
+- **Industry**: Biotech / Life Sciences / Healthcare
 - **Territory**: Europe
 - **Country**: Netherlands
 - **Flag**: NL
@@ -13,15 +13,15 @@
 
 ## Contact
 - **Contact Person**: Edward van Wezel
-- **LinkedIn**: https://www.linkedin.com/in/edward-van-wezel
+- **LinkedIn**: https://www.linkedin.com/company/biogeneration-ventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://biogenerationventures.com/team
-- **Notes**:
+- **Source / Verification**: https://biogenerationventures.com
+- **Notes**: Dutch venture capital firm focused on life sciences
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-07-19
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---
