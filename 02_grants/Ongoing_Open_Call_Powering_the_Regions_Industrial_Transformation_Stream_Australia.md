@@ -1,16 +1,16 @@
 # Grant Opportunity: Open Call: Powering the Regions Industrial Transformation Stream (Australia)
 
 ## Quick Stats
-- **Organization**: Avant Group
+- **Organization**: Department of Climate Change, Energy, the Environment and Water (Australia)
 - **Deadline**: Ongoing
-- **Funding Amount**: $500,000
-- **Focus Area**: General
+- **Funding Amount**: $500,000 (grant funding allocated per industrial project)
+- **Focus Area**: Industrial Decarbonisation, Renewable Energy, Emissions Reduction
 
 ## Eligibility
-- Eligible Countries: Australia. 
+- Australian registered businesses operating existing industrial facilities in regional Australia.
 
 ## Description
-Open Call: Powering the Regions Industrial Transformation Stream (Australia) - Refer to source for full description.
+The Powering the Regions Industrial Transformation Stream offers to support the decarbonisation of existing industrial facilities in regional Australia through targeted funding for emissions reduction projects. The program focuses on decarbonisation of industrial facilities, reduction of Scope 1 and Scope 2 greenhouse gas emissions, electrification, energy efficiency improvements, integration of renewable energy technologies, fuel switching, development of energy storage systems, demand management systems, acceleration of emissions reduction, improvement of technological and commercial readiness, collaboration across industries, knowledge sharing, and building workforce capability for low-emissions practices. The Industrial Transformation Stream (ITS) is designed to
 
 ## How to Apply
 - **Applying Link**: https://avantgroup.com.au/grants/powering-the-regions-its/
