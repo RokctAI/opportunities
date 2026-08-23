@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Google Ventures
+# Equity Opportunity: GV (Google Ventures)
 
 ## Quick Stats
-- **Organization**: Google Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: GV (Google Ventures)
+- **Funder Type**: Corporate VC
+- **Funding Type**: Seed / Series A / Growth
+- **Industry**: Tech / Life Sciences / Enterprise / Climate
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.gv.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: David Krane
+- **LinkedIn**: https://www.linkedin.com/company/googleventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.gv.com
+- **Notes**: Alphabet's venture arm managing over $10B with 400+ active portfolio companies
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

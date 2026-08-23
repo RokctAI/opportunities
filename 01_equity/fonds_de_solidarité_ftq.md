@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Fonds de solidarité FTQ
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Development Capital Fund
+- **Funding Type**: Venture / Growth / Development Capital
+- **Industry**: Manufacturing / Tech / Life Sciences / Agrifood
+- **Territory**: Canada
+- **Country**: Canada
+- **Flag**: CA
+- **Website**: https://www.fondsftq.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Janie Béïque
+- **LinkedIn**: https://www.linkedin.com/company/fonds-de-solidarite-ftq
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-canada
-- **Notes**: Discovered via equity sync from failory_canada.md
+- **Source / Verification**: https://www.fondsftq.com
+- **Notes**: Labour-sponsored development capital fund investing in Quebec businesses since 1983
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

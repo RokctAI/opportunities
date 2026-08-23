@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Hummingbird Ventures
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / AI / Gaming / Fintech
+- **Territory**: Europe / Emerging Markets
+- **Country**: Belgium
+- **Flag**: BE
+- **Website**: https://www.hummingbird.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Barend Van den Brande
+- **LinkedIn**: https://www.linkedin.com/company/hummingbird-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://basepoint.vc/guides/top-european-venture-capital-firms-2026
-- **Notes**: Discovered via equity sync from basepoint_europe.md
+- **Source / Verification**: https://www.hummingbird.vc
+- **Notes**: Early-stage firm with offices in Antwerp and London, early backer of Peak Games and Kraken
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: HashKey Capital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Blockchain / Crypto / Web3 / Fintech
+- **Territory**: Asia / Global
+- **Country**: Hong Kong
 - **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Website**: https://hashkey.capital
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Deng Chao
+- **LinkedIn**: https://www.linkedin.com/company/hashkeycapital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-singapore
-- **Notes**: Discovered via equity sync from failory_singapore.md
+- **Source / Verification**: https://hashkey.capital
+- **Notes**: Hong Kong-headquartered crypto fund managing over US$1B, early institutional investor in Ethereum
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Forge Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / SaaS / Fintech
+- **Territory**: Southeast Asia
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://www.forge.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Tiang Lim Foo
+- **LinkedIn**: https://www.linkedin.com/company/forgevc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://visible.vc/blog/top-venture-capitalists-southeast-asia/
-- **Notes**: Discovered via equity sync from visible_sea.md
+- **Source / Verification**: https://www.forge.vc
+- **Notes**: Singapore-headquartered seed fund backing Southeast Asian founders, first fund closed at US$22M
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

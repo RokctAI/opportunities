@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: H2O Capital
+# Equity Opportunity: HTwenty Capital (formerly H20 Capital Innovation)
 
 ## Quick Stats
-- **Organization**: H2O Capital
+- **Organization**: HTwenty Capital (formerly H20 Capital Innovation)
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: LatAm
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Fintech / AI / B2B SaaS / Marketplaces
+- **Territory**: LatAm / USA
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://h2o.vc/
+- **Website**: https://htwenty.vc
 
 ## Contact
-- **Contact Person**: Daniel Bilbao
-- **LinkedIn**: https://www.linkedin.com/in/danielbilbao/
+- **Contact Person**: Daniel Lloreda
+- **LinkedIn**: https://www.linkedin.com/company/htwenty
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://h2o.vc/team
-- **Notes**: Site reachable but some automated checks may fail due to SSL/Bot-protection.
+- **Source / Verification**: https://htwenty.vc
+- **Notes**: Cross-border US-LatAm early-stage fund with offices in Miami, Mexico City and Bogota
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Goldman Sachs
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funder Type**: Investment Bank / Growth Equity
+- **Funding Type**: Series B / Growth / Late Stage
+- **Industry**: Tech / Fintech / Healthcare / Enterprise Software
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.goldmansachs.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: David Solomon
+- **LinkedIn**: https://www.linkedin.com/company/goldman-sachs
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.goldmansachs.com
+- **Notes**: Global investment bank whose GS Growth arm invests in growth-stage technology companies
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

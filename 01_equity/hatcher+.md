@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Hatcher+
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Tech / AI / Data
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://www.hatcher.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: John Sharp
+- **LinkedIn**: https://www.linkedin.com/company/hatcher
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-singapore
-- **Notes**: Discovered via equity sync from failory_singapore.md
+- **Source / Verification**: https://www.hatcher.com
+- **Notes**: Singapore-based data-driven venture firm running the AI-powered FAAST platform
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

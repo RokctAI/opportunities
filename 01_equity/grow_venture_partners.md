@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Grow Venture Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Deeptech / Quantum / Photonics / Medtech
+- **Territory**: Spain
+- **Country**: Spain
+- **Flag**: ES
+- **Website**: https://growventurepartners.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Francisco Badia
+- **LinkedIn**: https://www.linkedin.com/company/grow-venture-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-spain
-- **Notes**: Discovered via equity sync from failory_spain.md
+- **Source / Verification**: https://growventurepartners.com
+- **Notes**: Barcelona-based deep tech and technology transfer fund investing in university spin-offs
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
