@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Technology Development Fund
+# Equity Opportunity: Technology Development Fund (DRDO)
 
 ## Quick Stats
-- **Organization**: Technology Development Fund
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Technology Development Fund (DRDO)
+- **Funder Type**: Government Fund / Grant Provider
+- **Funding Type**: Grant
+- **Industry**: Defence / Aerospace / Dual-use Technology
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://tdf.drdo.gov.in
 
 ## Contact
-- **Contact Person**: Unspecified
+- **Contact Person**: Director, Technology Development Fund (DRDO)
 - **LinkedIn**: Unspecified
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://tdf.drdo.gov.in
+- **Notes**: Ministry of Defence grant scheme executed by DRDO funding Indian MSMEs and startups developing defence technologies
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

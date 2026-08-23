@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: TNB Aura
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Series A / Series B
+- **Industry**: Tech / Enterprise / Consumer
+- **Territory**: Southeast Asia
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://www.tnbaura.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Charles Wong
+- **LinkedIn**: https://www.linkedin.com/company/tnbaura
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-singapore
-- **Notes**: Discovered via equity sync from failory_singapore.md
+- **Source / Verification**: https://www.tnbaura.vc
+- **Notes**: Singapore thesis-led VC investing US$2-10m in Series A and B startups across Southeast Asia
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
