@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Spintop Ventures
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Software / SaaS / Sustainability
+- **Territory**: Nordics
+- **Country**: Sweden
+- **Flag**: SE
+- **Website**: https://spintopventures.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Finn Persson
+- **LinkedIn**: https://www.linkedin.com/company/spintop-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-sweden
-- **Notes**: Discovered via equity sync from failory_sweden.md
+- **Source / Verification**: https://spintopventures.com
+- **Notes**: Stockholm-based Nordic seed-stage VC founded in 2010 investing in software companies with sustainability impact
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

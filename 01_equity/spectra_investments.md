@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Spectra Investments
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: PE / Fund of Funds
+- **Funding Type**: Growth / Buyout / Secondaries
+- **Industry**: Diversified / Tech / Financial Services
+- **Territory**: Latin America
+- **Country**: Brazil
+- **Flag**: BR
+- **Website**: https://spectrainvest.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Ricardo Kanitz
+- **LinkedIn**: https://www.linkedin.com/company/spectra-investimentos
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://visible.vc/blog/venture-capital-in-latin-america/
-- **Notes**: Discovered via equity sync from visible_latam.md
+- **Source / Verification**: https://spectrainvest.com
+- **Notes**: São Paulo alternative asset manager investing in Latin American private equity venture capital and secondaries
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

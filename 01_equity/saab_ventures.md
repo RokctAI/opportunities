@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Saab Ventures
 - **Funder Type**: Corporate VC
-- **Funding Type**: Series A-Z
-- **Industry**: Defense
-- **Territory**: Global
+- **Funding Type**: Early Stage / Growth
+- **Industry**: Defense / Aerospace / Security
+- **Territory**: Europe
 - **Country**: Sweden
 - **Flag**: SE
-- **Website**: https://www.saab.com/about/innovation/saab-ventures
+- **Website**: https://www.saab.com/about/innovation/ventures
 
 ## Contact
-- **Contact Person**: Micael Johansson
-- **LinkedIn**: https://www.linkedin.com/in/micael-johansson-saab/
+- **Contact Person**: Marcus Wandt
+- **LinkedIn**: https://www.linkedin.com/company/saab
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.saab.com/about/innovation/saab-ventures
-- **Notes**:
+- **Source / Verification**: https://www.saab.com/about/innovation/ventures
+- **Notes**: Corporate venture arm of Saab established in 2001 investing in and spinning out technology companies
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

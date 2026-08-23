@@ -5,7 +5,7 @@
 - **Organization**: Savannah Fund
 - **Funder Type**: VC
 - **Funding Type**: Seed
-- **Industry**: Tech
+- **Industry**: Fintech / Edtech / Logistics / Healthtech
 - **Territory**: Africa
 - **Country**: Kenya
 - **Flag**: KE
@@ -13,15 +13,15 @@
 
 ## Contact
 - **Contact Person**: Mbwana Alliy
-- **LinkedIn**: https://www.linkedin.com/in/mbwana/
+- **LinkedIn**: https://www.linkedin.com/company/savannah-fund
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://savannah.vc/team
-- **Notes**:
+- **Source / Verification**: https://savannah.vc
+- **Notes**: Nairobi-based seed fund investing across Sub-Saharan Africa since 2012 backed by IFC
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
