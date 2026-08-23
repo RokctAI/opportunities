@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Canary Ventures
+# Equity Opportunity: Canary
 
 ## Quick Stats
-- **Organization**: Canary Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Canary
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / Software / Fintech / Consumer
+- **Territory**: LatAm
+- **Country**: Brazil
+- **Flag**: BR
+- **Website**: https://www.canary.com.br
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Florian Hagenbuch
+- **LinkedIn**: https://www.linkedin.com/company/canary-vc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://visible.vc/blog/venture-capital-in-latin-america/
-- **Notes**: Discovered via equity sync from visible_latam.md
+- **Source / Verification**: https://www.canary.com.br
+- **Notes**: First check venture capital firm in Latin America
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

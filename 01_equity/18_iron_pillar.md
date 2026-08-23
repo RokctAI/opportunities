@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 18. Iron Pillar
+# Equity Opportunity: Iron Pillar
 
 ## Quick Stats
-- **Organization**: 18. Iron Pillar
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Iron Pillar
+- **Funder Type**: VC
+- **Funding Type**: Series B / Growth
+- **Industry**: Consumer Tech / Enterprise SaaS
+- **Territory**: India / Global
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://ironpillarfund.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Devanjit Singh
+- **LinkedIn**: https://www.linkedin.com/company/iron-pillar
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://ironpillarfund.com
+- **Notes**: Venture growth investor targeting mid-stage tech companies
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

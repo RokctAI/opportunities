@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 3. Lightspeed Venture Partners
+# Equity Opportunity: Lightspeed Venture Partners
 
 ## Quick Stats
-- **Organization**: 3. Lightspeed Venture Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: Lightspeed Venture Partners
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B / Growth
+- **Industry**: Enterprise / Consumer / Health / Fintech
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://lsvp.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Ravi Mhatre
+- **LinkedIn**: https://www.linkedin.com/company/lightspeed-venture-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://lsvp.com
+- **Notes**: Global venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

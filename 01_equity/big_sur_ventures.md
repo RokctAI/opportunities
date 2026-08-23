@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Big Sur Ventures
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / B2B Software / Internet
+- **Territory**: Europe
+- **Country**: Spain
+- **Flag**: ES
+- **Website**: https://bigsurventures.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Manuel Suñer
+- **LinkedIn**: https://www.linkedin.com/company/big-sur-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-spain
-- **Notes**: Discovered via equity sync from failory_spain.md
+- **Source / Verification**: https://bigsurventures.com
+- **Notes**: Madrid based early stage technology fund
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

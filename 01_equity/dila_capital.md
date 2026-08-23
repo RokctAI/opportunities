@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Dila Capital
+# Equity Opportunity: DILA Capital
 
 ## Quick Stats
-- **Organization**: Dila Capital
+- **Organization**: DILA Capital
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A-Z
-- **Industry**: Tech / Fintech
-- **Territory**: Latin America
+- **Funding Type**: Seed / Series A
+- **Industry**: Tech / B2B SaaS / Edtech / Fintech
+- **Territory**: LatAm
 - **Country**: Mexico
 - **Flag**: MX
 - **Website**: https://dila.vc
 
 ## Contact
-- **Contact Person**: Eduardo Clavé
-- **LinkedIn**: https://www.linkedin.com/in/eduardoclave
+- **Contact Person**: Alejandro Diez Barroso
+- **LinkedIn**: https://www.linkedin.com/company/dila-capital
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.dila.vc/team
-- **Notes**:
+- **Source / Verification**: https://dila.vc
+- **Notes**: Mexico City based venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

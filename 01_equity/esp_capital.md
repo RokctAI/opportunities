@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: ESP Capital
 - **Funder Type**: VC
-- **Funding Type**: Seed
-- **Industry**: Tech
-- **Territory**: Vietnam
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / E-Commerce / SaaS / Fintech
+- **Territory**: Southeast Asia
 - **Country**: Vietnam
 - **Flag**: VN
-- **Website**: https://espcapital.vc/
+- **Website**: https://espcapital.vc
 
 ## Contact
-- **Contact Person**: Le Vy
-- **LinkedIn**: https://www.linkedin.com/in/vyle/
+- **Contact Person**: Le Hoang Uyen Vy
+- **LinkedIn**: https://www.linkedin.com/company/esp-capital
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://espcapital.vc/team
-- **Notes**: Site reachable but some automated checks may fail due to SSL/Bot-protection.
+- **Source / Verification**: https://espcapital.vc
+- **Notes**: Early stage venture capital firm in Vietnam
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

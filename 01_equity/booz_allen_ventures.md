@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Booz Allen Ventures
 - **Funder Type**: Corporate VC
-- **Funding Type**: Seed / Series A
-- **Industry**: Military / AI / Cybersecurity
-- **Territory**: North America
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Defense / Cybersecurity / AI / Deeptech / Space
+- **Territory**: USA
 - **Country**: USA
 - **Flag**: US
 - **Website**: https://www.boozallen.com/about/ventures.html
 
 ## Contact
-- **Contact Person**: Travis Bales
-- **LinkedIn**: https://www.linkedin.com/in/travisbales
+- **Contact Person**: Brian MacCarthy
+- **LinkedIn**: https://www.linkedin.com/company/booz-allen-hamilton
 - **Phone**:
 
 ## Source
 - **Source / Verification**: https://www.boozallen.com/about/ventures.html
-- **Notes**:
+- **Notes**: CVC arm of Booz Allen Hamilton investing in dual-use tech
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

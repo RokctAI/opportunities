@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Ethos Private Equity
+# Equity Opportunity: Ethos Private Equity (Rohatyn Group)
 
 ## Quick Stats
-- **Organization**: Ethos Private Equity
+- **Organization**: Ethos Private Equity (Rohatyn Group)
 - **Funder Type**: PE
-- **Funding Type**: Growth / PE
-- **Industry**: General
+- **Funding Type**: Growth / Buyout / Mezzanine
+- **Industry**: Telecom / Consumer / Industrial / Financial Services
 - **Territory**: Africa
 - **Country**: South Africa
 - **Flag**: ZA
-- **Website**: https://www.ethos.co.za/
+- **Website**: https://www.ethos.co.za
 
 ## Contact
-- **Contact Person**: Stuart MacKenzie
-- **LinkedIn**: https://www.linkedin.com/in/stuartmackenzie/
+- **Contact Person**: Stuart Bradley
+- **LinkedIn**: https://www.linkedin.com/company/ethos-private-equity
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.ethos.co.za/team/
-- **Notes**: Site reachable but some automated checks may fail due to SSL/Bot-protection.
+- **Source / Verification**: https://www.ethos.co.za
+- **Notes**: African private equity manager integrated into TRG
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

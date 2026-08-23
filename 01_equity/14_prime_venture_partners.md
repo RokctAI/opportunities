@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 14. Prime Venture Partners
+# Equity Opportunity: Prime Venture Partners
 
 ## Quick Stats
-- **Organization**: 14. Prime Venture Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Prime Venture Partners
+- **Funder Type**: VC
+- **Funding Type**: Seed / Early Stage
+- **Industry**: Fintech / SaaS / Healthtech / Edtech
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://primevp.in
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Sanjay Swamy
+- **LinkedIn**: https://www.linkedin.com/company/prime-venture-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://primevp.in
+- **Notes**: Early stage VC firm based in Bangalore
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

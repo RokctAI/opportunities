@@ -5,23 +5,23 @@
 - **Organization**: All Iron Ventures
 - **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech / Consumer / SaaS
+- **Industry**: Tech / B2C / Marketplace / SaaS
 - **Territory**: Europe
 - **Country**: Spain
 - **Flag**: ES
-- **Website**: https://alliron.vc/
+- **Website**: https://alliron.vc
 
 ## Contact
 - **Contact Person**: Ander Michelena
-- **LinkedIn**: https://www.linkedin.com/in/andermichelena/
+- **LinkedIn**: https://www.linkedin.com/company/allironventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://alliron.vc/team
-- **Notes**: Marketplaces and SaaS.
+- **Source / Verification**: https://alliron.vc
+- **Notes**: Early stage VC based in Bilbao Spain
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

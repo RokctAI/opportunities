@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 6. Blume Ventures
+# Equity Opportunity: Blume Ventures
 
 ## Quick Stats
-- **Organization**: 6. Blume Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Blume Ventures
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Tech / Consumer / B2B / Deep Tech
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://blume.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Karthik Reddy
+- **LinkedIn**: https://www.linkedin.com/company/blume-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://blume.vc
+- **Notes**: Early stage venture capital firm in India
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

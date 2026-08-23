@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Caffeinated Capital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Tech / Crypto / Enterprise / AI
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.caffeinated.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Raymond Tonsing
+- **LinkedIn**: https://www.linkedin.com/company/caffeinated-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/climate-sustainability-venture-capital-firms
-- **Notes**: Discovered via equity sync from failory_climate.md
+- **Source / Verification**: https://www.caffeinated.com
+- **Notes**: Early-stage venture capital firm based in San Francisco
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

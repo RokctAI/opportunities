@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Acurio Ventures
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / Software / Deeptech
+- **Territory**: Europe
+- **Country**: Spain
+- **Flag**: ES
+- **Website**: https://acurio.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Inaki Arrola
+- **LinkedIn**: https://www.linkedin.com/company/acurio-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-spain
-- **Notes**: Discovered via equity sync from failory_spain.md
+- **Source / Verification**: https://acurio.vc
+- **Notes**: Formerly K Fund / Spanish early stage VC
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

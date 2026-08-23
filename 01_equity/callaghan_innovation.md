@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Callaghan Innovation
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Sovereign Wealth / Grant / VC
+- **Funding Type**: Grant / Co-Investment
+- **Industry**: Deeptech / Agritech / Cleantech / Health
+- **Territory**: Oceania
+- **Country**: New Zealand
+- **Flag**: NZ
+- **Website**: https://www.callaghaninnovation.govt.nz
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Stefan Korn
+- **LinkedIn**: https://www.linkedin.com/company/callaghan-innovation
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.callaghaninnovation.govt.nz
+- **Notes**: New Zealand innovation agency providing grant and equity support
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

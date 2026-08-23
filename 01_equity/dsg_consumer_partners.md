@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: DSG Consumer Partners
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Consumer Brands / Food / Personal Care / Retail
+- **Territory**: India / SE Asia
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://www.dsgcp.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Deepak Shahdadpuri
+- **LinkedIn**: https://www.linkedin.com/company/dsg-consumer-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-singapore
-- **Notes**: Discovered via equity sync from failory_singapore.md
+- **Source / Verification**: https://www.dsgcp.com
+- **Notes**: Consumer-focused venture capital firm in India and Southeast Asia
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 17. Index Ventures
+# Equity Opportunity: Index Ventures
 
 ## Quick Stats
-- **Organization**: 17. Index Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: Index Ventures
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B / Growth
+- **Industry**: Tech / AI / Fintech / Gaming / Biotech
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: UK
+- **Flag**: GB
+- **Website**: https://www.indexventures.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Danny Rimer
+- **LinkedIn**: https://www.linkedin.com/company/index-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://www.indexventures.com
+- **Notes**: International venture capital firm with HQ in London and SF
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

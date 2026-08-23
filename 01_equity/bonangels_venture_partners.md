@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: BonAngels Venture Partners
 - **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / Mobile / Consumer / AI
+- **Territory**: Asia
+- **Country**: South Korea
+- **Flag**: KR
+- **Website**: https://bonangels.net
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Inkyu Kang
+- **LinkedIn**: https://www.linkedin.com/company/bonangels
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-korea
-- **Notes**: Discovered via equity sync from failory_south_korea.md
+- **Source / Verification**: https://bonangels.net
+- **Notes**: Leading early-stage VC firm in Seoul South Korea
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

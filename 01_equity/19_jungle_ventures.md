@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 19. Jungle Ventures
+# Equity Opportunity: Jungle Ventures
 
 ## Quick Stats
-- **Organization**: 19. Jungle Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Jungle Ventures
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Tech / Consumer / Fintech / Enterprise
+- **Territory**: Southeast Asia / India
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://jungle.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Amit Anand
+- **LinkedIn**: https://www.linkedin.com/company/jungle-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://jungle.vc
+- **Notes**: Singapore-based venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

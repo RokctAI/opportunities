@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: DGF
+# Equity Opportunity: DGF Investimentos
 
 ## Quick Stats
-- **Organization**: DGF
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: DGF Investimentos
+- **Funder Type**: VC
+- **Funding Type**: Series A / Series B
+- **Industry**: B2B Software / Enterprise Tech / SaaS
+- **Territory**: LatAm
+- **Country**: Brazil
+- **Flag**: BR
+- **Website**: https://www.dgf.com.br
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Frederico Greve
+- **LinkedIn**: https://www.linkedin.com/company/dgf-investimentos
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-brazil
-- **Notes**: Discovered via equity sync from failory_brazil.md
+- **Source / Verification**: https://www.dgf.com.br
+- **Notes**: Sao Paulo based B2B software venture capital fund
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

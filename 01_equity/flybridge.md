@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Flybridge
+# Equity Opportunity: Flybridge Capital Partners
 
 ## Quick Stats
-- **Organization**: Flybridge
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Flybridge Capital Partners
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: AI / Community-driven / B2B SaaS
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.flybridge.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Jeff Bussgang
+- **LinkedIn**: https://www.linkedin.com/company/flybridge-capital-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.flybridge.com
+- **Notes**: Early-stage VC firm in Boston and New York
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

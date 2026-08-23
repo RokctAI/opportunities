@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: 20VC (The Twenty Minute VC)
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Industry**: Tech / SaaS / Consumer
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: UK
+- **Flag**: GB
+- **Website**: https://www.thetwenty-minutevc.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Harry Stebbings
+- **LinkedIn**: https://www.linkedin.com/company/20vc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://basepoint.vc/guides/top-european-venture-capital-firms-2026
-- **Notes**: Discovered via equity sync from basepoint_europe.md
+- **Source / Verification**: https://www.thetwenty-minutevc.com
+- **Notes**: Venture firm founded by Harry Stebbings
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

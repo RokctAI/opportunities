@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 16. WaterBridge Ventures
+# Equity Opportunity: WaterBridge Ventures
 
 ## Quick Stats
-- **Organization**: 16. WaterBridge Ventures
-- **Funder Type**: VC / Accelerator
+- **Organization**: WaterBridge Ventures
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / Consumer / B2B / Healthcare
+- **Territory**: India
+- **Country**: India
+- **Flag**: IN
+- **Website**: https://waterbridge.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Manish Kheterpal
+- **LinkedIn**: https://www.linkedin.com/company/waterbridge-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://quintedge.com/blog/venture-capital-firms-in-india
-- **Notes**: Discovered via equity sync from quintedge_india.md
+- **Source / Verification**: https://waterbridge.vc
+- **Notes**: Early stage VC fund in India
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

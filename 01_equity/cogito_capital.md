@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Cogito Capital
+# Equity Opportunity: Cogito Capital Partners
 
 ## Quick Stats
-- **Organization**: Cogito Capital
+- **Organization**: Cogito Capital Partners
 - **Funder Type**: VC
-- **Funding Type**: Series A
-- **Industry**: Tech / SaaS
-- **Territory**: Europe
+- **Funding Type**: Series A / Series B
+- **Industry**: Enterprise Software / B2B Tech / FinTech / AI
+- **Territory**: Europe / USA
 - **Country**: Poland
 - **Flag**: PL
-- **Website**: https://cogitocapital.vc
+- **Website**: https://www.cogitocapital.vc
 
 ## Contact
-- **Contact Person**: Martin Jasinski
-- **LinkedIn**: https://www.linkedin.com/in/martin-jasinski
+- **Contact Person**: Sylwester Janik
+- **LinkedIn**: https://www.linkedin.com/company/cogitocapital
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://cogitocapital.vc/team
-- **Notes**:
+- **Source / Verification**: https://www.cogitocapital.vc
+- **Notes**: Venture capital firm based in Warsaw and New York
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

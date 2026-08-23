@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 6. Founders Fund
+# Equity Opportunity: Founders Fund
 
 ## Quick Stats
-- **Organization**: 6. Founders Fund
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: Founders Fund
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A-Z
+- **Industry**: AI / Aerospace / Biotech / Enterprise / Defense
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://foundersfund.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Peter Thiel
+- **LinkedIn**: https://www.linkedin.com/company/founders-fund
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://foundersfund.com
+- **Notes**: San Francisco based venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

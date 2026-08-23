@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 15. First Round Capital
+# Equity Opportunity: First Round Capital
 
 ## Quick Stats
-- **Organization**: 15. First Round Capital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: First Round Capital
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / Enterprise / Consumer / Hardware
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://firstround.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Josh Kopelman
+- **LinkedIn**: https://www.linkedin.com/company/first-round-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://firstround.com
+- **Notes**: Seed-stage venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

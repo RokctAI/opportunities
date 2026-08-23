@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Ampli Ventures
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Deeptech / AI / Software
+- **Territory**: Europe
+- **Country**: Finland
+- **Flag**: FI
+- **Website**: https://ampli.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Petteri Suoranta
+- **LinkedIn**: https://www.linkedin.com/company/ampli-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-sweden
-- **Notes**: Discovered via equity sync from failory_sweden.md
+- **Source / Verification**: https://ampli.vc
+- **Notes**: Helsinki based early stage VC fund
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

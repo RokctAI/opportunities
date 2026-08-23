@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: 13. Benchmark
+# Equity Opportunity: Benchmark
 
 ## Quick Stats
-- **Organization**: 13. Benchmark
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: Benchmark
+- **Funder Type**: VC
+- **Funding Type**: Early Stage / Seed / Series A
+- **Industry**: Tech / Consumer / Enterprise / AI
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.benchmark.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Peter Fenton
+- **LinkedIn**: https://www.linkedin.com/company/benchmark-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.openvc.app/country/USA
-- **Notes**: Discovered via equity sync from openvc_us.md
+- **Source / Verification**: https://www.benchmark.com
+- **Notes**: Early stage venture capital firm based in San Francisco
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

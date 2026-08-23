@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Base Partners
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Latin America
+- **Funding Type**: Series A / Series B / Growth
+- **Industry**: Tech / Software / Internet / AI
+- **Territory**: LatAm / Global
 - **Country**: Brazil
 - **Flag**: BR
-- **Website**: https://basepartners.com
+- **Website**: https://www.basepartners.com.br
 
 ## Contact
-- **Contact Person**: Fernando Spnola
-- **LinkedIn**: https://www.linkedin.com/in/fernandospnola
+- **Contact Person**: Fernando Pacheco
+- **LinkedIn**: https://www.linkedin.com/company/base-partners
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://basepartners.com/team
-- **Notes**:
+- **Source / Verification**: https://www.basepartners.com.br
+- **Notes**: Sao Paulo based global tech growth venture firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

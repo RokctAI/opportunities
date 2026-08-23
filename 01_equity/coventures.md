@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: CoVentures
+# Equity Opportunity: Coventures
 
 ## Quick Stats
-- **Organization**: CoVentures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Coventures
+- **Funder Type**: Venture Studio / VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / B2B SaaS / Marketplace
+- **Territory**: Europe
+- **Country**: Finland
+- **Flag**: FI
+- **Website**: https://www.coventures.io
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Marko Oksanen
+- **LinkedIn**: https://www.linkedin.com/company/coventures-io
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-africa
-- **Notes**: Discovered via equity sync from failory_za.md
+- **Source / Verification**: https://www.coventures.io
+- **Notes**: Helsinki based venture builder and early stage investor
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

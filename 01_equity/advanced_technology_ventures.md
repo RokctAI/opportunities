@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Advanced Technology Ventures
 - **Funder Type**: VC
-- **Funding Type**: Series A-Z
-- **Industry**: Tech / Health
+- **Funding Type**: Series A / Series B
+- **Industry**: Biotech / IT / Cleantech
 - **Territory**: USA
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://www.atv.com
+- **Website**: https://www.atvcapital.com
 
 ## Contact
-- **Contact Person**: Jean George
-- **LinkedIn**: https://www.linkedin.com/in/jeangeorge/
+- **Contact Person**: Michael Carusi
+- **LinkedIn**: https://www.linkedin.com/company/advanced-technology-ventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.atv.com/team
-- **Notes**:
+- **Source / Verification**: https://www.atvcapital.com
+- **Notes**: Biotech and tech venture capital firm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

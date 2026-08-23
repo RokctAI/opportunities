@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Cohort Capital
-- **Funder Type**: VC
-- **Funding Type**: Seed
-- **Industry**: Tech
+- **Funder Type**: Private Debt / PE
+- **Funding Type**: Bridge Financing / Mezzanine / Debt
+- **Industry**: Real Estate / Commercial / Special Situations
 - **Territory**: Europe
 - **Country**: UK
 - **Flag**: GB
-- **Website**: https://cohortcapital.com
+- **Website**: https://www.cohortcapital.com
 
 ## Contact
-- **Contact Person**: Mark Evans
-- **LinkedIn**: https://www.linkedin.com/in/mark-evans
+- **Contact Person**: Matt Thame
+- **LinkedIn**: https://www.linkedin.com/company/cohort-capital
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://cohortcapital.com/team
-- **Notes**:
+- **Source / Verification**: https://www.cohortcapital.com
+- **Notes**: London based private capital lender
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

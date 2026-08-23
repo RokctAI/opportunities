@@ -5,23 +5,23 @@
 - **Organization**: Catalyst Fund
 - **Funder Type**: VC / Accelerator
 - **Funding Type**: Pre-Seed / Seed
-- **Industry**: Fintech / Climate Tech
-- **Territory**: Emerging Markets
+- **Industry**: Climate / Agritech / Fintech / Water
+- **Territory**: Africa
 - **Country**: Kenya
 - **Flag**: KE
-- **Website**: https://www.catalystfund.vc/
+- **Website**: https://www.catalystfund.vc
 
 ## Contact
 - **Contact Person**: Maelis Carraro
-- **LinkedIn**: https://www.linkedin.com/in/maeliscarraro/
+- **LinkedIn**: https://www.linkedin.com/company/catalyst-fund
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.catalystfund.vc/team
-- **Notes**: Focuses on inclusive fintech and climate resilience.
+- **Source / Verification**: https://www.catalystfund.vc
+- **Notes**: Pre-seed climate venture fund and accelerator in Africa
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Bpifrance
-- **Funder Type**: Gov/Grant
-- **Funding Type**: Grant / Debt / Equity
-- **Industry**: Tech / All
-- **Territory**: France
+- **Funder Type**: Sovereign Wealth / VC / PE
+- **Funding Type**: Seed / Series A-Z / Growth / Debt
+- **Industry**: Tech / Innovation / Healthcare / Climate / Industry
+- **Territory**: Europe
 - **Country**: France
 - **Flag**: FR
 - **Website**: https://www.bpifrance.fr
 
 ## Contact
 - **Contact Person**: Nicolas Dufourcq
-- **LinkedIn**: https://www.linkedin.com/in/nicolas-dufourcq
+- **LinkedIn**: https://www.linkedin.com/company/bpifrance
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.bpifrance.fr/nous-connaitre
-- **Notes**:
+- **Source / Verification**: https://www.bpifrance.fr
+- **Notes**: French national public investment bank
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---

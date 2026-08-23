@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Applied Ventures
 - **Funder Type**: Corporate VC
-- **Funding Type**: Series A-Z
-- **Industry**: Deep Tech / Defense
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Semiconductors / AI / Display / Life Sciences
 - **Territory**: Global
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://www.appliedventures.com/
+- **Website**: https://www.appliedmaterials.com/us/en/applied-ventures.html
 
 ## Contact
-- **Contact Person**: Om Nalamasu
-- **LinkedIn**: https://www.linkedin.com/in/om-nalamasu-5a9b91/
+- **Contact Person**: Anand Kamannavar
+- **LinkedIn**: https://www.linkedin.com/company/applied-ventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.appliedventures.com/team
-- **Notes**: Site reachable but some automated checks may fail due to SSL/Bot-protection.
+- **Source / Verification**: https://www.appliedmaterials.com/us/en/applied-ventures.html
+- **Notes**: Venture capital arm of Applied Materials
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-28
 ---
