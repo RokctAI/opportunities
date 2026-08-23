@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: IRIS
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Growth
+- **Industry**: Tech / Enterprise Software / Deeptech
+- **Territory**: Europe
+- **Country**: France
+- **Flag**: FR
+- **Website**: https://www.iris.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Erik de la Rivière
+- **LinkedIn**: https://www.linkedin.com/company/iris-capital-management
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-france
-- **Notes**: Discovered via equity sync from failory_france.md
+- **Source / Verification**: https://www.iris.vc
+- **Notes**: Paris-based venture and growth firm founded in 1986 as Iris Capital with teams in Paris, Berlin and Munich
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

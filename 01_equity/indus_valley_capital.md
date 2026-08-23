@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Indus Valley Capital
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Fintech / Logistics / Marketplaces
 - **Territory**: Pakistan
 - **Country**: Pakistan
 - **Flag**: PK
-- **Website**: https://www.indusvalley.vc/
+- **Website**: https://www.indus.vc
 
 ## Contact
 - **Contact Person**: Aatif Awan
-- **LinkedIn**: https://www.linkedin.com/in/aatifawan/
+- **LinkedIn**: https://www.linkedin.com/company/indusvalleycap
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.indusvalley.vc/team
-- **Notes**: Site reachable but some automated checks may fail due to SSL/Bot-protection.
+- **Source / Verification**: https://www.indus.vc
+- **Notes**: Karachi-based early-stage fund founded in 2020 by former LinkedIn VP Aatif Awan
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

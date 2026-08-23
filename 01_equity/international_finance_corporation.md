@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: International Finance Corporation
+# Equity Opportunity: International Finance Corporation (IFC)
 
 ## Quick Stats
-- **Organization**: International Finance Corporation
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Organization**: International Finance Corporation (IFC)
+- **Funder Type**: Development Finance Institution
+- **Funding Type**: Equity / Debt / Blended Finance
+- **Industry**: Infrastructure / Financial Services / Agribusiness / Healthcare
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.ifc.org
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Makhtar Diop
+- **LinkedIn**: https://www.linkedin.com/company/ifclinkedin
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.ifc.org
+- **Notes**: Private sector arm of the World Bank Group investing in emerging markets since 1956
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

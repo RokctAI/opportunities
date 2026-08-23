@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Inveready
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC / PE
+- **Funding Type**: Seed / Series A / Venture Debt
+- **Industry**: Tech / Biotech / Deeptech
+- **Territory**: Spain
+- **Country**: Spain
+- **Flag**: ES
+- **Website**: https://inveready.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Josep Maria Echarri
+- **LinkedIn**: https://www.linkedin.com/company/inveready
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-spain
-- **Notes**: Discovered via equity sync from failory_spain.md
+- **Source / Verification**: https://inveready.com
+- **Notes**: Barcelona-based alternative asset manager with over 2bn euros AUM across venture capital, debt and biotech funds
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

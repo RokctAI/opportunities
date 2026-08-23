@@ -5,23 +5,23 @@
 - **Organization**: Intudo Ventures
 - **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech / Emerging Markets
-- **Territory**: Southeast Asia
+- **Industry**: Tech / Fintech / Agritech
+- **Territory**: Indonesia
 - **Country**: Indonesia
 - **Flag**: ID
-- **Website**: https://intudo.vc
+- **Website**: https://www.intudovc.com
 
 ## Contact
 - **Contact Person**: Eddy Chan
-- **LinkedIn**: https://www.linkedin.com/in/eddychan
+- **LinkedIn**: https://www.linkedin.com/company/intudoventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://intudo.vc/team
+- **Source / Verification**: https://www.intudovc.com
 - **Notes**:
 
-## Audit & Status
+Indonesia-only independent venture firm founded in 2017 by Eddy Chan and Patrick Yip
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

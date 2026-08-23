@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Iterative
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Accelerator / VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / Consumer / Fintech
+- **Territory**: Southeast Asia
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://www.iterative.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Hsu Ken Ooi
+- **LinkedIn**: https://www.linkedin.com/company/iterativevc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-singapore
-- **Notes**: Discovered via equity sync from failory_singapore.md
+- **Source / Verification**: https://www.iterative.vc
+- **Notes**: YC-style accelerator for Southeast Asia founded in 2020 by Hsu Ken Ooi and Brian Ma
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

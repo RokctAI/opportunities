@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Kakao Ventures
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: Corporate VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / AI / Consumer / Gaming
+- **Territory**: South Korea
+- **Country**: South Korea
+- **Flag**: KR
+- **Website**: https://www.kakao.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Ki-Jun Kim
+- **LinkedIn**: https://www.linkedin.com/company/kakao-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-korea
-- **Notes**: Discovered via equity sync from failory_south_korea.md
+- **Source / Verification**: https://www.kakao.vc
+- **Notes**: Seed-stage subsidiary of Kakao Corp founded in 2012 as K Cube Ventures with 190+ portfolio companies
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

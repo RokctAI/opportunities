@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Indicator Capital
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: IoT / AI / Smart Cities / Deeptech
+- **Territory**: Latin America
+- **Country**: Brazil
+- **Flag**: BR
+- **Website**: https://indicatorcapital.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Derek Lundgren Bittar
+- **LinkedIn**: https://www.linkedin.com/company/indicatorcap
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-brazil
-- **Notes**: Discovered via equity sync from failory_brazil.md
+- **Source / Verification**: https://indicatorcapital.com
+- **Notes**: Sao Paulo early-stage firm managing Latin America's first IoT-focused fund with BNDES and Qualcomm Ventures
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
