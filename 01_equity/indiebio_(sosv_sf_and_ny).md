@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: IndieBio (SOSV SF & NY)
+# Equity Opportunity: IndieBio (SOSV)
 
 ## Quick Stats
-- **Organization**: IndieBio (SOSV SF & NY)
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: IndieBio (SOSV)
+- **Funder Type**: Accelerator / VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Biotech / Life Sciences / Food / Climate
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://indiebio.co
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Po Bronson
+- **LinkedIn**: https://www.linkedin.com/company/indiebio
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://indiebio.co
+- **Notes**: SOSV's biotech accelerator in San Francisco and New York, the world's largest early-stage biotech program
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

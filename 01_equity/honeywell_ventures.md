@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Honeywell Ventures
 - **Funder Type**: Corporate VC
-- **Funding Type**: Early Stage
-- **Industry**: Industrial Tech / Aerospace
+- **Funding Type**: Series A / Series B / Growth
+- **Industry**: Industrial Tech / Aerospace / Energy / Software
 - **Territory**: Global
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://www.honeywell.com/us/en/honeywell-ventures
+- **Website**: https://www.honeywell.com/us/en/company/ventures
 
 ## Contact
-- **Contact Person**: Murray Grainger
-- **LinkedIn**: https://www.linkedin.com/in/murraygrainger/
+- **Contact Person**: Patrick Hogan
+- **LinkedIn**: https://www.linkedin.com/company/honeywell
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.honeywell.com/us/en/honeywell-ventures
-- **Notes**: Venture arm of Honeywell.
+- **Source / Verification**: https://www.honeywell.com/us/en/company/ventures
+- **Notes**: Corporate venture arm of Honeywell investing in early-stage industrial and deep tech companies
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

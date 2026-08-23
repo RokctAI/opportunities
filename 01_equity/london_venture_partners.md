@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: London Venture Partners
+# Equity Opportunity: London Venture Partners (LVP)
 
 ## Quick Stats
-- **Organization**: London Venture Partners
+- **Organization**: London Venture Partners (LVP)
 - **Funder Type**: VC
-- **Funding Type**: Seed
-- **Industry**: Gaming
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Gaming / Games Technology / Interactive Entertainment
 - **Territory**: Global
 - **Country**: UK
 - **Flag**: GB
-- **Website**: https://lvp.vc
+- **Website**: https://londonvp.com
 
 ## Contact
 - **Contact Person**: David Lau-Kee
-- **LinkedIn**: https://www.linkedin.com/in/davidlaukee
+- **LinkedIn**: https://www.linkedin.com/company/londonvp
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://lvp.vc/team
+- **Source / Verification**: https://londonvp.com
 - **Notes**:
 
-## Audit & Status
+Gaming-only seed fund whose partners were seed investors in Supercell, Unity and Playfish
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

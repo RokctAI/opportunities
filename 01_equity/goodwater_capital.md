@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Goodwater Capital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Growth
+- **Industry**: Consumer Tech / Fintech / Marketplaces
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.goodwatercap.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Eric Kim
+- **LinkedIn**: https://www.linkedin.com/company/goodwater-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.goodwatercap.com
+- **Notes**: Consumer tech focused VC founded in 2014 by Eric Kim and Chi-Hua Chien with over US$3.3B under management
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

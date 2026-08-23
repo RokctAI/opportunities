@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Hetz Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: AI Infrastructure / Cybersecurity / DevTools / Enterprise Software
+- **Territory**: Israel
+- **Country**: Israel
+- **Flag**: IL
+- **Website**: https://www.hetz.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Judah Taub
+- **LinkedIn**: https://www.linkedin.com/company/hetz-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-israel
-- **Notes**: Discovered via equity sync from failory_israel.md
+- **Source / Verification**: https://www.hetz.vc
+- **Notes**: Tel Aviv seed fund managing about $500M, closed its $140M Fund IV in 2026
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

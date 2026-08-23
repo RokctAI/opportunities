@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Korea Investment Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Growth
+- **Industry**: Tech / Bio / Consumer
+- **Territory**: Asia
+- **Country**: South Korea
+- **Flag**: KR
+- **Website**: https://www.kipvc.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Hwang Man-soon
+- **LinkedIn**: https://www.linkedin.com/company/kipvc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-korea
-- **Notes**: Discovered via equity sync from failory_south_korea.md
+- **Source / Verification**: https://www.kipvc.com
+- **Notes**: Leading Korean VC under Korea Investment Holdings managing about US$4B across 58 funds
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

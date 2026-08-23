@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: KKR Next Generation Technology
-- **Funder Type**: PE
-- **Funding Type**: Series A-Z
-- **Industry**: Tech
+- **Funder Type**: PE / Growth Equity
+- **Funding Type**: Growth / Late Stage
+- **Industry**: Software / Cybersecurity / Fintech / Media
 - **Territory**: Global
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://kkr.com
+- **Website**: https://www.kkr.com
 
 ## Contact
-- **Contact Person**: Richard Sarnoff
-- **LinkedIn**: https://www.linkedin.com/in/richardsarnoff
+- **Contact Person**: Dave Welsh
+- **LinkedIn**: https://www.linkedin.com/company/kkr
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.kkr.com/team
+- **Source / Verification**: https://www.kkr.com
 - **Notes**:
 
-## Audit & Status
+KKR's technology growth equity strategy whose third NGT fund closed at nearly $3B in 2023
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

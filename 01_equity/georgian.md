@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Georgian
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Growth Equity / VC
+- **Funding Type**: Series B / Series C / Series D
+- **Industry**: B2B Software / AI / Fintech
+- **Territory**: North America
+- **Country**: Canada
+- **Flag**: CA
+- **Website**: https://georgian.io
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Simon Chong
+- **LinkedIn**: https://www.linkedin.com/company/georgian
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-canada
-- **Notes**: Discovered via equity sync from failory_canada.md
+- **Source / Verification**: https://georgian.io
+- **Notes**: Toronto-based growth investor in AI-driven B2B software companies managing over US$5B
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: K Fund
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed / Series A / Series B
+- **Industry**: Tech / SaaS / Fintech
+- **Territory**: Southern Europe
+- **Country**: Spain
+- **Flag**: ES
+- **Website**: https://www.kfund.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Iñaki Arrola
+- **LinkedIn**: https://www.linkedin.com/company/kfund
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-spain
-- **Notes**: Discovered via equity sync from failory_spain.md
+- **Source / Verification**: https://www.kfund.vc
+- **Notes**: Madrid-based multi-stage firm founded in 2016 with over 500M euros AUM investing across Spain, Portugal and LatAm
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

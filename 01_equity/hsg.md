@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: HSG
+# Equity Opportunity: HSG (HongShan Capital Group)
 
 ## Quick Stats
-- **Organization**: HSG
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
+- **Organization**: HSG (HongShan Capital Group)
+- **Funder Type**: VC / PE
+- **Funding Type**: Seed / Series A / Growth
+- **Industry**: Tech / Healthcare / Consumer
+- **Territory**: Asia / Global
+- **Country**: Hong Kong
 - **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Website**: https://www.hsgcap.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Neil Shen
+- **LinkedIn**: https://www.linkedin.com/company/hong-shan
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.hsgcap.com
+- **Notes**: Formerly Sequoia Capital China, managing over US$55B across venture and growth funds
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

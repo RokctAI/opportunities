@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Luminar Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Tech / SaaS / Fintech / Gaming
+- **Territory**: Nordics
+- **Country**: Sweden
+- **Flag**: SE
+- **Website**: https://www.luminarventures.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Jacob Key
+- **LinkedIn**: https://www.linkedin.com/company/luminar-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-sweden
-- **Notes**: Discovered via equity sync from failory_sweden.md
+- **Source / Verification**: https://www.luminarventures.com
+- **Notes**: Stockholm seed-stage fund founded in 2017 by Magnus Bergman and Jacob Key, second fund closed at 65M euros
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

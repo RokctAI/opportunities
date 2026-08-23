@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Global Brain Corporation
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Growth
+- **Industry**: Tech / AI / Fintech / Deeptech
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: Japan
+- **Flag**: JP
+- **Website**: https://globalbrains.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Yasuhiko Yurimoto
+- **LinkedIn**: https://www.linkedin.com/company/globalbrain
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://globalbrains.com
+- **Notes**: Tokyo-headquartered VC founded in 1998 with 300+ investments and offices across Asia, US and Europe
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
