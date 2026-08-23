@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Version One Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: SaaS / Marketplaces / Fintech / Healthcare
+- **Territory**: North America
+- **Country**: Canada
+- **Flag**: CA
+- **Website**: https://versionone.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Boris Wertz
+- **LinkedIn**: https://www.linkedin.com/company/version-one-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-canada
-- **Notes**: Discovered via equity sync from failory_canada.md
+- **Source / Verification**: https://versionone.vc
+- **Notes**: Vancouver early-stage fund founded in 2012 by Boris Wertz backing network-effect businesses across North America
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

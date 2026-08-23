@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: VinaCapital Ventures
 - **Funder Type**: VC
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Fintech / Healthtech / Logistics / SaaS
 - **Territory**: Vietnam
 - **Country**: Vietnam
 - **Flag**: VN
-- **Website**: https://vinacapital.com/ventures/
+- **Website**: https://ventures.vinacapital.com
 
 ## Contact
 - **Contact Person**: Trung Hoang
-- **LinkedIn**: https://www.linkedin.com/in/trung-hoang-b8b2b1/
+- **LinkedIn**: https://www.linkedin.com/company/vinacapital
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://vinacapital.com/ventures/team/
-- **Notes**:
+- **Source / Verification**: https://ventures.vinacapital.com
+- **Notes**: Technology investment arm of VinaCapital backing Vietnamese startups from seed to growth
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

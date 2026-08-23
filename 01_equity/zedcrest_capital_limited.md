@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Zedcrest Capital Limited
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: Investment Firm / VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Fintech / Financial Services / Consumer Lending
+- **Territory**: Africa
+- **Country**: Nigeria
+- **Flag**: NG
+- **Website**: https://zedcrest.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Adedayo Amzat
+- **LinkedIn**: https://www.linkedin.com/company/zedcrest-capital-limited
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-nigeria
-- **Notes**: Discovered via equity sync from failory_nigeria.md
+- **Source / Verification**: https://zedcrest.com
+- **Notes**: Lagos financial services group founded by Adedayo Amzat investing in early-stage startups and buyouts across Africa
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

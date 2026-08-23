@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Whitecap Venture Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Series A / Series B
+- **Industry**: ICT / Medtech / Food Tech
+- **Territory**: North America
+- **Country**: Canada
+- **Flag**: CA
+- **Website**: https://www.whitecapvp.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Carey Diamond
+- **LinkedIn**: https://www.linkedin.com/company/whitecap-venture-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-canada
-- **Notes**: Discovered via equity sync from failory_canada.md
+- **Source / Verification**: https://www.whitecapvp.com
+- **Notes**: Toronto early-stage VC investing in ICT, medtech and food tech across Eastern Canada and the northeastern US
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

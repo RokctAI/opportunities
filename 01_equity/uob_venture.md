@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: UOB Venture
+# Equity Opportunity: UOB Venture Management
 
 ## Quick Stats
-- **Organization**: UOB Venture
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: UOB Venture Management
+- **Funder Type**: Corporate VC / PE
+- **Funding Type**: Series A / Series B / Growth
+- **Industry**: Tech / Healthcare / Consumer
+- **Territory**: Southeast Asia / China
+- **Country**: Singapore
+- **Flag**: SG
+- **Website**: https://www.uobvm.com.sg
 
 ## Contact
-- **Contact Person**: Unspecified
+- **Contact Person**: Seah Kian Wee
 - **LinkedIn**: Unspecified
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-singapore
-- **Notes**: Discovered via equity sync from failory_singapore.md
+- **Source / Verification**: https://www.uobvm.com.sg
+- **Notes**: Wholly-owned private equity arm of United Overseas Bank investing in private companies across ASEAN and China since 1992
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

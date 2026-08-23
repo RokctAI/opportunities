@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Unpopular Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
+- **Funder Type**: VC / Syndicate
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Tech / Fintech / SaaS / Emerging Markets
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.unpopular.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Peter Livingston
+- **LinkedIn**: https://www.linkedin.com/company/unpopular-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.unpopular.vc
+- **Notes**: AngelList syndicate and rolling fund led by Peter Livingston investing in overlooked startups worldwide
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
