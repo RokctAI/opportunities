@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: OMERS Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC / Pension Fund
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Fintech / Enterprise SaaS / AI / Vertical Software
+- **Territory**: Canada / USA / Europe
+- **Country**: Canada
+- **Flag**: CA
+- **Website**: https://www.omersventures.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Michael Block
+- **LinkedIn**: https://www.linkedin.com/company/omers-ventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-canada
-- **Notes**: Discovered via equity sync from failory_canada.md
+- **Source / Verification**: https://www.omersventures.com
+- **Notes**: Venture arm of Canadian pension fund OMERS, moved under OMERS Private Capital in 2024
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

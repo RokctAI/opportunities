@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Oriental Fortune Capital
 - **Funder Type**: VC
-- **Funding Type**: Series A-Z
-- **Industry**: Tech
+- **Funding Type**: Series A / Series B / Growth
+- **Industry**: TMT / Greentech / Advanced Manufacturing / Healthcare
 - **Territory**: China
 - **Country**: China
 - **Flag**: CN
-- **Website**: http://www.ofc.com.cn
+- **Website**: http://www.ofcapital.com
 
 ## Contact
 - **Contact Person**: Chen Wei
-- **LinkedIn**: https://www.linkedin.com/in/chenwei/
+- **LinkedIn**: Unspecified
 - **Phone**:
 
 ## Source
-- **Source / Verification**: http://www.ofc.com.cn
-- **Notes**:
+- **Source / Verification**: http://www.ofcapital.com
+- **Notes**: Shenzhen venture firm founded in 2006 by Chen Wei with $4.8 billion under management
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Norwest
+# Equity Opportunity: Norwest Venture Partners
 
 ## Quick Stats
-- **Organization**: Norwest
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Norwest Venture Partners
+- **Funder Type**: VC / Growth Equity
+- **Funding Type**: Seed / Series A / Series B / Growth
+- **Industry**: Tech / Consumer / Healthcare / Fintech / SaaS
+- **Territory**: USA / India / Israel
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.nvp.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Jeff Crowe
+- **LinkedIn**: https://www.linkedin.com/company/norwest-venture-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.nvp.com
+- **Notes**: Venture and growth equity firm founded in 1961 with $15.5 billion under management
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: NTT DOCOMO Ventures
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Corporate VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Telecom / AI / ICT / Deep Tech
+- **Territory**: Japan / Global
+- **Country**: Japan
+- **Flag**: JP
+- **Website**: https://www.nttdocomo-v.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Jun Yasumoto
+- **LinkedIn**: https://www.linkedin.com/company/nttdocomo-v
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-japan
-- **Notes**: Discovered via equity sync from failory_japan.md
+- **Source / Verification**: https://www.nttdocomo-v.com
+- **Notes**: Corporate venture capital arm of the NTT Group founded in 2008
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
