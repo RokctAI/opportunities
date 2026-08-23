@@ -8,7 +8,7 @@
 - **Industry**: Internet / Tech / Fintech
 - **Territory**: Global
 - **Country**: Hong Kong
-- **Flag**: HK
+- **Flag**: GLOBAL
 - **Website**: https://dst-global.com
 
 ## Contact
