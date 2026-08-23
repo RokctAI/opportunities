@@ -5,23 +5,23 @@
 - **Organization**: Wellcome Trust
 - **Funder Type**: Grant Provider
 - **Funding Type**: Grant
-- **Industry**: Health
+- **Industry**: Health / Life Sciences / Infectious Disease / Mental Health
 - **Territory**: Global
 - **Country**: UK
 - **Flag**: GB
-- **Website**: https://wellcome.org/
+- **Website**: https://wellcome.org
 
 ## Contact
 - **Contact Person**: John-Arne Røttingen
-- **LinkedIn**: https://www.linkedin.com/in/john-arne-r%C3%B8ttingen-30571b6/
+- **LinkedIn**: https://www.linkedin.com/company/wellcome-trust
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://wellcome.org/about-us/leadership-and-governance
-- **Notes**:
+- **Source / Verification**: https://wellcome.org
+- **Notes**: London charitable foundation with a £37.6bn endowment funding health research worldwide
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

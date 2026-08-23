@@ -5,23 +5,23 @@
 - **Organization**: Venturra Capital
 - **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech / Consumer / Fintech
+- **Industry**: Tech / Consumer / Fintech / Healthcare
 - **Territory**: Southeast Asia
 - **Country**: Indonesia
 - **Flag**: ID
-- **Website**: https://www.venturra.id/
+- **Website**: https://www.venturra.com
 
 ## Contact
 - **Contact Person**: Stefan Jung
-- **LinkedIn**: https://www.linkedin.com/in/stefanjung/
+- **LinkedIn**: https://www.linkedin.com/company/venturra-capital
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.venturra.id/team
-- **Notes**: SE Asia tech focus.
+- **Source / Verification**: https://www.venturra.com
+- **Notes**: Jakarta VC founded in 2015 by Rudy Ramawy, Stefan Jung and John Riady investing in early-stage Southeast Asian startups
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
