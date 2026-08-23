@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: PIF
+# Equity Opportunity: Public Investment Fund (PIF)
 
 ## Quick Stats
-- **Organization**: PIF
+- **Organization**: Public Investment Fund (PIF)
 - **Funder Type**: Sovereign Wealth Fund
 - **Funding Type**: Late Stage / Growth
-- **Industry**: Diversified
+- **Industry**: Diversified / Tech / Infrastructure / Tourism
 - **Territory**: Global
 - **Country**: Saudi Arabia
 - **Flag**: SA
-- **Website**: https://www.pif.gov.sa/
+- **Website**: https://www.pif.gov.sa
 
 ## Contact
 - **Contact Person**: Yasir Al-Rumayyan
-- **LinkedIn**:
+- **LinkedIn**: https://www.linkedin.com/company/pifsaudi
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.pif.gov.sa/en/about-pif/leadership
-- **Notes**: Public Investment Fund of Saudi Arabia.
+- **Source / Verification**: https://www.pif.gov.sa
+- **Notes**: Sovereign wealth fund of Saudi Arabia with estimated assets of around $900 billion
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

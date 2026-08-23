@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Pale blue dot
+# Equity Opportunity: Pale Blue Dot
 
 ## Quick Stats
-- **Organization**: Pale blue dot
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Pale Blue Dot
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed
+- **Industry**: Climate Tech / Sustainability / Software
+- **Territory**: Europe / USA
+- **Country**: Sweden
+- **Flag**: SE
+- **Website**: https://paleblue.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Hampus Jakobsson
+- **LinkedIn**: https://www.linkedin.com/company/palebluedotvcclimate
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-sweden
-- **Notes**: Discovered via equity sync from failory_sweden.md
+- **Source / Verification**: https://paleblue.vc
+- **Notes**: Malmo-based seed fund founded in 2020 backing European and US climate tech startups
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

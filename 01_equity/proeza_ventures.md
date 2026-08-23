@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Proeza Ventures
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: Corporate VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Mobility / Industrial Tech / Logistics / Smart Components
+- **Territory**: Americas
+- **Country**: Mexico
+- **Flag**: MX
+- **Website**: https://www.proezaventures.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Enrique M. Zambrano
+- **LinkedIn**: https://www.linkedin.com/company/proezaventures
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-mexico
-- **Notes**: Discovered via equity sync from failory_mexico.md
+- **Source / Verification**: https://www.proezaventures.com
+- **Notes**: Mobility-focused venture fund backed by Mexico's Proeza Group with offices in Monterrey and Houston
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
