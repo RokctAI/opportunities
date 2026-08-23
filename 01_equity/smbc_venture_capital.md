@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: SMBC Venture Capital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Corporate VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Tech / Biotech / Consumer / Services
+- **Territory**: Japan
+- **Country**: Japan
+- **Flag**: JP
+- **Website**: https://www.smbc-vc.co.jp
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Tomofumi Saeki
+- **LinkedIn**: https://www.linkedin.com/company/smbc-venture-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.smbc-vc.co.jp
+- **Notes**: Venture capital arm of Sumitomo Mitsui Financial Group with over 400 portfolio company IPOs
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

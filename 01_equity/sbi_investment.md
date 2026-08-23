@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: SBI Investment
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Corporate VC
+- **Funding Type**: Seed / Series A / Series B / Growth
+- **Industry**: Fintech / AI / Blockchain / Biotech
+- **Territory**: Asia
+- **Country**: Japan
+- **Flag**: JP
+- **Website**: https://www.sbinvestment.co.jp
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Yoshitaka Kitao
+- **LinkedIn**: https://www.linkedin.com/company/sbi-investment
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-japan
-- **Notes**: Discovered via equity sync from failory_japan.md
+- **Source / Verification**: https://www.sbinvestment.co.jp
+- **Notes**: Tokyo-based venture capital arm of SBI Group established in 1996
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Sofinnova Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Growth
+- **Industry**: Biotech / Medtech / Digital Health / Industrial Biotech
+- **Territory**: Europe
+- **Country**: France
+- **Flag**: FR
+- **Website**: https://sofinnovapartners.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Antoine Papiernik
+- **LinkedIn**: https://www.linkedin.com/company/sofinnova-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-france
-- **Notes**: Discovered via equity sync from failory_france.md
+- **Source / Verification**: https://sofinnovapartners.com
+- **Notes**: Paris life sciences venture firm founded in 1972 with over €4B under management
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

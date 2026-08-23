@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Raed Ventures
-- **Funder Type**: VC
+- **Funder Type**: Corporate VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech / Fintech / Logistics
+- **Industry**: Fintech / SaaS / Edtech / AI
 - **Territory**: Middle East / North Africa
 - **Country**: Saudi Arabia
 - **Flag**: SA
-- **Website**: https://www.raedvc.com/
+- **Website**: https://raed.vc
 
 ## Contact
 - **Contact Person**: Omar Almajdouie
-- **LinkedIn**: https://www.linkedin.com/in/omar-almajdouie/
+- **LinkedIn**: https://www.linkedin.com/company/raedvc
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.raedvc.com/team
-- **Notes**: Saudi and MENA focus.
+- **Source / Verification**: https://raed.vc
+- **Notes**: Saudi venture firm established by Almajdouie Holding in 2015 investing in seed and early-stage MENA startups
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

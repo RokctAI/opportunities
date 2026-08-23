@@ -9,19 +9,19 @@
 - **Territory**: Latin America
 - **Country**: Brazil
 - **Flag**: BR
-- **Website**: https://rpeventures.com.br/
+- **Website**: https://rpev.com.br
 
 ## Contact
 - **Contact Person**: Anderson Thees
-- **LinkedIn**: https://www.linkedin.com/in/athees/
+- **LinkedIn**: https://www.linkedin.com/company/redpoint-eventures-brazil
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://rpeventures.com.br/team
-- **Notes**: Latin America focus.
+- **Source / Verification**: https://rpev.com.br
+- **Notes**: São Paulo VC founded with Redpoint Ventures and e.ventures backing Brazilian startups and co-creator of Cubo Itaú
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

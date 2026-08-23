@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Saudi Aramco Energy Ventures
+# Equity Opportunity: Aramco Ventures
 
 ## Quick Stats
-- **Organization**: Saudi Aramco Energy Ventures
+- **Organization**: Aramco Ventures
 - **Funder Type**: Corporate VC
 - **Funding Type**: Early Stage / Growth
-- **Industry**: Energy / Tech
+- **Industry**: Energy / Cleantech / Industrial / Deep Tech
 - **Territory**: Global
 - **Country**: Saudi Arabia
 - **Flag**: SA
-- **Website**: https://www.saev.com/
+- **Website**: https://aramcoventures.com
 
 ## Contact
 - **Contact Person**: Mahdi Aladel
-- **LinkedIn**: https://www.linkedin.com/in/mahdialadel/
+- **LinkedIn**: https://www.linkedin.com/company/aramco-ventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.saev.com/team/
-- **Notes**: Venture arm of Saudi Aramco.
+- **Source / Verification**: https://aramcoventures.com
+- **Notes**: Corporate venture capital arm of Aramco formerly Saudi Aramco Energy Ventures headquartered in Dhahran
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

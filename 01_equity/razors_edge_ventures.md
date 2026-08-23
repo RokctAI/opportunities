@@ -9,19 +9,19 @@
 - **Territory**: USA
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://www.razorsedge.com/
+- **Website**: https://www.razorsvc.com
 
 ## Contact
 - **Contact Person**: Peggy Styer
-- **LinkedIn**: https://www.linkedin.com/in/peggy-styer-5a5b5c1/
+- **LinkedIn**: https://www.linkedin.com/company/razorsvc
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.razorsedge.com/team
-- **Notes**: National security tech.
+- **Source / Verification**: https://www.razorsvc.com
+- **Notes**: Reston Virginia multi-stage VC founded in 2011 investing in national security and defense technology
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

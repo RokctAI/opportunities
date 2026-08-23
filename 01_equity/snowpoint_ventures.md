@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Snowpoint Ventures
 - **Funder Type**: VC
-- **Funding Type**: Early Stage
-- **Industry**: Defense / GovTech
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Defense / Aerospace / Cyber / AI
 - **Territory**: USA
 - **Country**: USA
 - **Flag**: US
-- **Website**: https://www.snowpointventures.com
+- **Website**: https://www.snowpoint.com
 
 ## Contact
 - **Contact Person**: Doug Philippone
-- **LinkedIn**: https://www.linkedin.com/in/doug-philippone-2b1b2a/
+- **LinkedIn**: https://www.linkedin.com/company/snowpoint-ventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.snowpointventures.com/team
-- **Notes**:
+- **Source / Verification**: https://www.snowpoint.com
+- **Notes**: Defense tech VC founded in 2021 by Palantir veteran Doug Philippone with investments including Shield AI and Gecko Robotics
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
