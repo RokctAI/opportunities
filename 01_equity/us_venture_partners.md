@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: U.S. Venture Partners
+# Equity Opportunity: U.S. Venture Partners (USVP)
 
 ## Quick Stats
-- **Organization**: U.S. Venture Partners
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: U.S. Venture Partners (USVP)
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Enterprise Software / Cybersecurity / Healthcare / Consumer
+- **Territory**: North America
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.usvp.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Casey Tansey
+- **LinkedIn**: https://www.linkedin.com/company/u.s.-venture-partners
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.usvp.com
+- **Notes**: Menlo Park venture firm investing in early-stage companies since 1981 with 93 portfolio IPOs
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
