@@ -28,6 +28,10 @@
     "MD059": false
   },
   "ignores": [
+    // 03_tenders/** is machine-written by the sync engine (tender sync,
+    // PDF extraction, registry refresh) and is regenerated on every run,
+    // so hand-fixing lint findings there would be overwritten.
+    "03_tenders/**",
     "node_modules",
     ".git",
     "build",
