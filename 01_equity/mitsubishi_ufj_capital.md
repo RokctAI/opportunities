@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Mitsubishi UFJ Capital
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: Corporate VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Life Sciences / ICT / Deep Tech
+- **Territory**: Japan
+- **Country**: Japan
+- **Flag**: JP
+- **Website**: https://www.mucap.co.jp
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Takuro Kojima
+- **LinkedIn**: https://www.linkedin.com/company/mitsubishi-ufj-capital
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.mucap.co.jp
+- **Notes**: Venture capital arm of Mitsubishi UFJ Financial Group founded in 1974
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

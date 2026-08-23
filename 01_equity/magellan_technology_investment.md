@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Magellan Technology Investment
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Biotech / Healthcare / ICT / Materials
+- **Territory**: South Korea
+- **Country**: South Korea
+- **Flag**: KR
+- **Website**: http://www.mtivc.com
 
 ## Contact
-- **Contact Person**: Unspecified
+- **Contact Person**: Seo Byung-hee
 - **LinkedIn**: Unspecified
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-korea
-- **Notes**: Discovered via equity sync from failory_south_korea.md
+- **Source / Verification**: http://www.mtivc.com
+- **Notes**: Seoul-based venture capital firm founded in 2011 investing in biotech, ICT and materials
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-08
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

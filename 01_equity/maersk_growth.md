@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Maersk Growth
-- **Funder Type**: VC
-- **Funding Type**: Seed / Series A-Z
-- **Industry**: AI / Emerging Markets
+- **Funder Type**: Corporate VC
+- **Funding Type**: Seed / Series A / Series B
+- **Industry**: Logistics / Supply Chain / Energy Transition / Maritime
 - **Territory**: Global
-- **Country**: Global
-- **Flag**: GLOBAL
-- **Website**: https://maersk.com
+- **Country**: Denmark
+- **Flag**: DK
+- **Website**: https://www.maersk.com/growth
 
 ## Contact
-- **Contact Person**: Peter Votkjaer Jorgensen
-- **LinkedIn**: https://www.linkedin.com/in/peter-votkjaer-jorgensen
+- **Contact Person**: Elizabeth Gunner Schermer
+- **LinkedIn**: https://www.linkedin.com/company/maersk-growth
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.maersk.com/transportation-services/ground-freight?utm_campaign=NAM_MCO_BRO_EN_MM_FBM_HERO-BANNER-MGF-Q225_Q2_2025_127200&utm_source=salescollateral&utm_medium=na&utm_content=Hero-Banner-MGF-Q2-2025
-- **Notes**:
+- **Source / Verification**: https://www.maersk.com/growth
+- **Notes**: Corporate venture and venture clienting arm of A.P. Moller-Maersk in Copenhagen
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

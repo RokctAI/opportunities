@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Matrix
+# Equity Opportunity: Matrix (formerly Matrix Partners)
 
 ## Quick Stats
-- **Organization**: Matrix
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Matrix (formerly Matrix Partners)
+- **Funder Type**: VC
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Tech / AI / Enterprise SaaS / Fintech
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://matrix.vc
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Dana Stalder
+- **LinkedIn**: https://www.linkedin.com/company/matrix-vc
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://matrix.vc
+- **Notes**: US early-stage venture firm founded in 1977, rebranded from Matrix Partners in 2024
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: New Enterprise Associates
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B / Growth
+- **Industry**: Tech / Healthcare / Biotech / Fintech
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.nea.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Scott Sandell
+- **LinkedIn**: https://www.linkedin.com/company/new-enterprise-associates
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.nea.com
+- **Notes**: Global venture firm founded in 1977 with more than $35 billion under management
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
