@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Madrona
+# Equity Opportunity: Madrona Venture Group
 
 ## Quick Stats
-- **Organization**: Madrona
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: Madrona Venture Group
+- **Funder Type**: VC
+- **Funding Type**: Seed / Series A / Series B / Series C
+- **Industry**: Tech / AI / Cloud / Enterprise SaaS
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.madrona.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Matt McIlwain
+- **LinkedIn**: https://www.linkedin.com/company/madrona-venture-group
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.madrona.com
+- **Notes**: Seattle-based venture firm founded in 1995, early investor in Amazon and Smartsheet
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

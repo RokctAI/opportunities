@@ -4,24 +4,24 @@
 ## Quick Stats
 - **Organization**: Manutara Ventures
 - **Funder Type**: VC
-- **Funding Type**: Seed
-- **Industry**: Tech
-- **Territory**: Chile
+- **Funding Type**: Pre-Seed / Seed / Series A
+- **Industry**: Tech / Fintech / SaaS / Proptech
+- **Territory**: Chile / Latin America
 - **Country**: Chile
 - **Flag**: CL
-- **Website**: https://www.manutara.vc/
+- **Website**: https://www.manutaraventures.com
 
 ## Contact
 - **Contact Person**: Cristian Olea
-- **LinkedIn**: https://www.linkedin.com/in/cristianolea/
+- **LinkedIn**: https://www.linkedin.com/company/manutara-ventures
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.manutara.vc/team
-- **Notes**: Site reachable but some automated checks may fail due to SSL/Bot-protection.
+- **Source / Verification**: https://www.manutaraventures.com
+- **Notes**: Chilean early-stage venture fund co-founded by Cristian Olea and Ricardo Donoso
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

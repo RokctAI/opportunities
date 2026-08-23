@@ -3,25 +3,25 @@
 
 ## Quick Stats
 - **Organization**: Mayfield Fund
-- **Funder Type**: VC / Accelerator
+- **Funder Type**: VC
 - **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Industry**: Tech / AI / Enterprise SaaS / Healthtech
+- **Territory**: USA
+- **Country**: USA
+- **Flag**: US
+- **Website**: https://www.mayfield.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Navin Chaddha
+- **LinkedIn**: https://www.linkedin.com/company/mayfield-fund
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.mayfield.com
+- **Notes**: Menlo Park venture firm with over $3 billion under management led by Navin Chaddha
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---

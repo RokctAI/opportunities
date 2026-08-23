@@ -1,27 +1,27 @@
 ---
-# Equity Opportunity: Matrix Partners China
+# Equity Opportunity: MPC (formerly Matrix Partners China)
 
 ## Quick Stats
-- **Organization**: Matrix Partners China
-- **Funder Type**: VC / Accelerator
-- **Funding Type**: Seed / Series A
-- **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Organization**: MPC (formerly Matrix Partners China)
+- **Funder Type**: VC
+- **Funding Type**: Series A / Series B / Growth
+- **Industry**: Deep Tech / Healthcare / Consumer / Industrial Digitalization
+- **Territory**: China
+- **Country**: China
+- **Flag**: CN
+- **Website**: https://www.matrixpartners.com.cn
 
 ## Contact
-- **Contact Person**: Unspecified
+- **Contact Person**: Zhang Ying
 - **LinkedIn**: Unspecified
 - **Phone**: 
 
 ## Source
-- **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Source / Verification**: https://www.matrixpartners.com.cn
+- **Notes**: Beijing venture firm founded in 2008, rebranded from Matrix Partners China to MPC in 2024
 
 ## Audit & Status
 - **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-23
 ---
