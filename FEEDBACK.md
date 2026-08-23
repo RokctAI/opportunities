@@ -10,8 +10,8 @@ This document outlines suggested features and improvements for the Opportunities
 *   **Recommendation**: Use specialized Python libraries (like `PyMuPDF` or `pdfplumber`) to minimize hallucinations during extraction.
 *   **Impact**: Extract "Mandatory Requirements" (B-BBEE level, tax compliance) and "Evaluation Criteria" with high accuracy.
 
-### 1.2 Automated Suitability Scoring [FUTURE FEATURE]
-*   **Status**: ⏳ **FUTURE FEATURE**.
+### 1.2 Automated Suitability Scoring [DONE]
+*   **Status**: ✅ **DONE**. Implemented in the tender SDK (RokctAI/corporate `tender/frappe`): deterministic 0-100 fit score with strong/possible/poor/ineligible bands via the `get_tender_suitability` gateway endpoint, scoring this registry's published cards against the user's Tender Business Profile (hard eligibility gates incl. CIDB grading, compliance-rule coverage, sector/geography fit, functionality-threshold demand). No AI - fixture rules and whitelisted extraction only.
 *   **Feature**: Implement a scoring algorithm that compares opportunity requirements against a user-provided "Business Profile".
 *   **Impact**: Prioritize opportunities based on specific business competencies.
 
