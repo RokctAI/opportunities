@@ -1,0 +1,9 @@
+{
+  "ocds-9t57fa": {
+    "known_bad_ids": [
+      166057
+    ],
+    "last_max_id": 166555,
+    "last_run": "2026-08-21"
+  }
+}

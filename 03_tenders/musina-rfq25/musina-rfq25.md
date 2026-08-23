@@ -38,9 +38,14 @@ RFQ25 Supply and delivery of Working tools of trade (pdf)
 ## Audit & Status
 - **Status**: ACTIVE
 - **Data Completeness**: INCOMPLETE — missing: closing date
-- **Last Verified**: 2026-08-17
+- **Last Verified**: 2026-08-21
 
 ## AI Checklist (Jules)
 <!-- This section is populated by Jules during enrichment. -->
-- [ ] Review Tender Documents | 1
-- [ ] Prepare Initial Response | 3
+- [ ] Complete and sign all mandatory forms: MBD 9, MBD4, MBD6, MBD8, MBD9 | 1
+- [ ] Download and attach latest Full CSD Report (ensure MAAA is correct) | 1
+- [ ] Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2
+- [ ] Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1
+- [ ] Draft detailed methodology addressing 'Total points forPriceandSPECIFIC GOALS' (100 pts) | 3
+- [ ] Draft detailed methodology addressing 'SPECIFICGOALS' (20 pts) | 3
+- [ ] Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2

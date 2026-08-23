@@ -3,7 +3,7 @@
 ## Quick Stats
 - **Organization**: Department of Climate Change, Energy, the Environment and Water (Australia)
 - **Deadline**: Ongoing
-- **Funding Amount**: Grant funding allocated per industrial project
+- **Funding Amount**: $500,000 (grant funding allocated per industrial project)
 - **Focus Area**: Industrial Decarbonisation, Renewable Energy, Emissions Reduction
 
 ## Eligibility
@@ -19,4 +19,5 @@ The Powering the Regions Industrial Transformation Stream offers to support the 
 
 ## Audit & Status
 - **Verification Status**: UNVERIFIED
+- **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified)
 - **Last Verified**: 2026-08-21
