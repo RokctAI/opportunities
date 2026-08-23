@@ -58,3 +58,7 @@ header:
     - '.nojekyll'
     - '.pre-commit-config.yaml'
     - 'docs/.gitkeep'
+    - '.cursorrules'
+    - '.gitattributes'
+    - '.markdownlint-cli2.jsonc'
+    - '04_eeip/sources/.gitkeep'

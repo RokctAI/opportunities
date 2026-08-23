@@ -71,7 +71,7 @@ within ~1h, poll → collect keyed by `custom_id` = tender slug).
 - **Output:** structured outputs (`output_config.format`, `json_schema`) — guaranteed-valid
   JSON requirements matrix:
 
-```
+```jsonc
 {
   "mandatory_documents":   [{"name", "detail", "source_quote"}],   // SBD/MBD forms, CSD, tax PIN, B-BBEE, COIDA, JV, deposits…
   "eligibility_thresholds":[{"requirement", "source_quote"}],      // CIDB grading, registrations, minimum experience
