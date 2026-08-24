@@ -1,0 +1,23 @@
+# Grant Opportunity: Funding Opportunity for Sustainable Steel Research Projects
+
+## Quick Stats
+- **Organization**: European Commission
+- **Deadline**: 2026-09-16
+- **Funding Amount**: €20,500,000
+- **Focus Area**: General
+
+## Eligibility
+- Eligible Countries: Latest Grants And Resources In Aruba, Austria, Belgium, Latest Grants And Resources In Bonaire Sint Eustatius And Saba, Bulgaria, Croatia, Latest Grants And Resources In Curaaao, Cyprus, Czech Republic, Denmark, Latest Grants And Resources In Estonia, Finland, France, Latest Grants And Resources In French Polynesia, Latest Grants And Resources In French Southern Territories, Germany, Greece, Latest Grants And Resources In Greenland, Hungary, Ireland, Italy, Latest Grants And Resources In Latvia, Latest Grants And Resources In Lithuania, Luxembourg, Malta, Netherlands, Latest Grants And Resources In New Caledonia, Poland, Latest Grants And Resources In Portugal, Romania, Latest Grants And Resources In Saint Barthalemy, Latest Grants And Resources In Saint Pierre And Miquelon, Latest Grants And Resources In Sint Maarten Dutch Part, Slovak Republic, Slovenia, Spain, Sweden, Latest Grants And Resources In Wallis And Futuna. 
+
+## Description
+Funding Opportunity for Sustainable Steel Research Projects - Refer to source for full description.
+
+## How to Apply
+- **Applying Link**: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/RFCS-2026-02-RPJ?order=DESC&pageNumber=1&pageSize=50&sortBy=startDate&isExactMatch=true&status=31094502
+- **Source**: https://fundsforcompanies.fundsforngos.org/grant/funding-opportunity-for-sustainable-steel-research-projects/
+- **Source Card**: sources/fundsforcompaniesUS.md
+
+## Audit & Status
+- **Verification Status**: UNVERIFIED
+- **Data Completeness**: COMPLETE
+- **Last Verified**: 2026-08-24

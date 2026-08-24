@@ -14,10 +14,10 @@ Applications open for Critical Minerals Innovation Fund (Canada) - Refer to sour
 
 ## How to Apply
 - **Applying Link**: https://www.ontario.ca/page/available-funding-opportunities-ontario-government#section-10
-- **Source**: https://fundsforcompanies.fundsforngos.org/grant/applications-open-for-critical-minerals-innovation-fund-canada/
+- **Source**: https://fundsforcompanies.fundsforngos.org/grant/applications-open-for-critical-minerals-innovation-fund-canada-2/
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
 - **Verification Status**: UNVERIFIED
 - **Data Completeness**: INCOMPLETE — missing: deadline ('Ongoing' is an extraction fallback, not verified)
-- **Last Verified**: 2026-08-21
+- **Last Verified**: 2026-08-24
