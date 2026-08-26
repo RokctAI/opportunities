@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://eqvista.com/best-100-active-venture-capitalist-firms-for-startup-funding/
-- **Notes**: Discovered via equity sync from eqvista_global.md
+- **Notes**: Discovered via equity sync from eqvista_global.md. Ceased operations; filed Chapter 7 liquidation in 2023.
 
 ## Audit & Status
-- **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-05-21
+- **Status**: INACTIVE
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-26
 ---

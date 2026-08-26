@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: http://www.shvc.com.cn
-- **Notes**:
+- **Notes**: Domain has no DNS records; registries report the company closed.
 
 ## Audit & Status
-- **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Status**: INACTIVE
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-26
 ---

@@ -18,11 +18,11 @@
 
 ## Source
 - **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-south-africa
-- **Notes**: Discovered via equity sync from failory_za.md
+- **Notes**: Discovered via equity sync from failory_za.md. No official website findable anywhere; no verifiable funder presence.
 
 ## Audit & Status
-- **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
+- **Status**: INACTIVE
+- **Verification Status**: VERIFIED
 - **Data Completeness**: INCOMPLETE — missing: website
-- **Last Verified**: 2026-08-17
+- **Last Verified**: 2026-08-26
 ---

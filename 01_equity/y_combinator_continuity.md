@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.ycombinator.com/continuity/
-- **Notes**: YC alumni growth fund.
+- **Notes**: YC alumni growth fund. Fund wound down in March 2023; YC discontinued its Continuity growth-stage fund.
 
 ## Audit & Status
-- **Status**: ACTIVE
-- **Verification Status**: UNVERIFIED
-- **Last Verified**: 2026-06-07
+- **Status**: INACTIVE
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-08-26
 ---
