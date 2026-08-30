@@ -1,10 +1,11 @@
 {
-  "title": "EEIP Verification Queue: 2026-08-26",
-  "pending_count": 4,
+  "title": "EEIP Verification Queue: 2026-08-30",
+  "pending_count": 5,
   "files": [
     "04_eeip/aws.md",
     "04_eeip/ibm.md",
     "04_eeip/j_p_morgan.md",
-    "04_eeip/microsoft.md"
+    "04_eeip/microsoft.md",
+    "04_eeip/pepsico_kgodiso_development_fund.md"
   ]
 }

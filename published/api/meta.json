@@ -1,6 +1,6 @@
 {
-  "last_sync": "2026-08-26T07:18:46.042791",
-  "total_verified_all": 3341,
+  "last_sync": "2026-08-30T08:30:25.182882",
+  "total_verified_all": 3343,
   "global_defaults": [
     "Review Tender Documents",
     "Prepare Initial Response"
@@ -903,34 +903,38 @@
       }
     },
     "EEIP": {
-      "total": 16,
-      "verified": 4,
+      "total": 22,
+      "verified": 6,
       "incomplete": 0,
       "classifications": {
         "Multinational Company": {
+          "Turner & Townsend": 1,
           "AITF (Automotive Industry Transformation Fund)": 1,
           "Dell Technologies": 1,
           "Caterpillar": 1,
+          "MSC (Mediterranean Shipping Company)": 1,
           "Samsung": 1
         },
         "Application Status": {
-          "ONGOING": 4
+          "ONGOING": 6
         },
         "Focus Area": {
-          "Supplier Development": 2,
+          "Enterprise Development": 4,
+          "Supplier Development": 3,
+          "Skills Development": 4,
           "Localization": 1,
           "Job Creation": 1,
-          "Skills Development": 2,
-          "Enterprise Development": 2,
           "Industrialization": 1,
           "R&D": 1
         },
         "Investment / Funding Type": {
+          "Grants": 5,
+          "Mentorship": 1,
+          "Market Access": 1,
           "Debt Financing": 2,
-          "Grants": 3,
-          "Supplier Development": 2,
+          "Supplier Development": 3,
           "Incubation": 2,
-          "Training": 1,
+          "Training": 2,
           "Technical Support": 1
         }
       }
