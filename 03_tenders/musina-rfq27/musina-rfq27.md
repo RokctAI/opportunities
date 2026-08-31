@@ -38,7 +38,7 @@ RFQ27 Service provider for Repair and Restore New Building at Municipal Vehicle 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Data Completeness**: INCOMPLETE — missing: closing date
-- **Last Verified**: 2026-08-24
+- **Last Verified**: 2026-08-31
 
 ## AI Checklist (Jules)
 <!-- This section is populated by Jules during enrichment. -->
