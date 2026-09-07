@@ -9,7 +9,7 @@
 - **Territory**: Global
 - **Country**: Global
 - **Flag**: GLOBAL
-- **Website**: https://marketonecapital.com
+- **Website**: https://moc.vc
 
 ## Contact
 - **Contact Person**: Marcin Kurek
@@ -17,9 +17,10 @@
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://www.HugeDomains.com/about.cfm
-- **Notes**:
+- **Source / Verification**: https://moc.vc
+- **Notes**: European early stage venture capital fund focused on marketplaces and network effect platforms.
 
 ## Audit & Status
 - **Status**: ACTIVE
-**Verification Status**: VERIFIED
+- **Verification Status**: VERIFIED
+- **Last Verified**: 2026-09-05
