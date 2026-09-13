@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-09-13T07:37:46.434835",
+  "last_sync": "2026-09-13T08:13:59.979183",
   "total_verified_all": 2806,
   "global_defaults": [
     "Review Tender Documents",
@@ -467,7 +467,7 @@
       }
     },
     "Grants": {
-      "total": 830,
+      "total": 840,
       "verified": 309,
       "incomplete": 242,
       "classifications": {
