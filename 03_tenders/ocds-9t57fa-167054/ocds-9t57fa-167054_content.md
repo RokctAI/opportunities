@@ -1,0 +1,44 @@
+TENDERNOTICE
+PROJECTNAME TENDER COMPULSARY DOCUMENT PPPFA ENQUIRIES
+NUMBER BREIFING& PRICE
+CLOSINGDATE
+SCMRelated:Ms.AMagqaza
+APPOINTMENTOFA SCM06/08/202 BRIEFINGSESSION1 R500.00 90/10 TelNo:0458072090
+PROFESSIONALSERVICE 6 EmailAddress:
+DATE:28AUGUST AMagqaza@enochmgijima.gov.z
+PROVIDER:
+2026 a
+RECONSTRUCTIONOF
+TOWNHALLAND VENUE:20BREWERY TechnicallyRelated:MrZSabata
+MUNICIPALITYOFFICES ROAD,Komani,5320 TelNo:0605289646
+EmailAdress:
+TIME:10H00AM ZSabata@enochmgijima.gov.za
+BRIEFIGSESSION2
+DATE:02
+SEPTEMBER2026
+VENUE:20BREWERY
+ROAD,Komani,5320
+TIME:10H00AM
+CLOSINGDATE:
+25September2026
+12H00
+ThePPPFAactNo.5of2000andtheNewamendedregulationsof2022effectiveasfromthe16January2023aspergazetteNo.
+47452isscheduledasfollows:
+PPPFA– 90/10 Bankingdetails
+PRICE– 90Points :AccName:EnochMgijimaLocalMunicipality
+BBBEE– 5Points Bank :FNB
+LOCALITY- 5Points AccNo :62438159809
+AccType :Cheque
+BranchCode :250655(internetBanking)
+Ref :3010142551022
+Bid documents containing detailed terms of reference will be available as from 27 August 2026 ; 08h00 - 16h00 week
+days,fromtheSupplyChainManagementoffices:BudgetandtreasuryofficesatNo.25-27OwenStreet;Queenstown
+uponpaymentofanon–refundablefee(eitherincashorbymeansofanEFTmadepayabletotheEnochMgijimaLocal
+Municipality).CompletedbiddocumentsaretobeplaceinasealedenvelopeclearlymarkedtheBidnumberandProject
+NameandmustbedepositedinabidBoxsituatedatBudgetandtreasuryofficesatNo.25-27OwenStreet;Queenstown
+nolaterthan12h00pmontheclosingdateatwhichallbidswillbeopenedinpublic
+MoredetailsabouttheadvertcontactMs.AMagqaza(0458072090)
+IssuedBy
+AAMKANGELWA OFFICEOFTHEMUNICPALMANAGER
+ACTINGMUNICIPALMANAGER 08OWENSTREET
+KOMANI

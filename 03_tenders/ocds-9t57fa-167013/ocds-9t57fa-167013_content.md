@@ -1,0 +1,3603 @@
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+Transnet Rail Infrastructure Manager
+an Operating Division TRANSNET SOC LTD
+[Registration Number 1990/000900/30]
+REQUEST FOR QUOTATION (RFQ)
+FOR THE SUPPLY, DELIVERY AND INSTALLATION OF CLEAR-VIEW FENCING FOR
+KRUGERSDORP DEPOT
+RFQ NUMBER : TRIM/2026/06/1186/6479/RFQ
+ISSUE DATE : 26 AUGUST 2026
+COMPULSORY SITE BRIEFING : 08 SEPTEMBER 2026
+CLOSING DATE : 25 SEPTEMBER 2026
+CLOSING TIME : 10:00am
+TENDER VALIDITY PERIOD : 12 weeks from closing date
+NEC3 ENGINEERING AND CONSTRUCTION CONTRACT Tender Documents
+CPM 2020 Rev 01 Page 1 of 2
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+Contents
+Number Heading
+The Tender
+Part T1: Tendering Procedures
+T1.1 Tender Notice and Invitation to Tender
+T1.2 Tender Data
+Part T2: Returnable Documents
+T2.1 List of Returnable Documents
+T2.2 Returnable Schedules
+T2.3 Evaluation Schedules
+The Contract
+Part C1: Agreements and Contract Data
+C1.1 Form of Offer and Acceptance
+C1.2 Contract Data (Parts 1 & 2)
+C1.3 Form of Guarantee
+Part C2: Pricing Data
+C2.1 Pricing Instructions
+C2.2 Bill of Quantities
+Part C3: Scope of Work
+C3.1 Works Information
+Part C4: Site Information
+C4.1 Site Information
+NEC3 ENGINEERING AND CONSTRUCTION CONTRACT Tender Documents
+CPM 2020 Rev 01 Page 2 of 2
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T1.1 TENDER NOTICE AND INVITATION TO TENDER
+SECTION 1: NOTICE TO TENDERERS
+1. INVITATION TO TENDER
+Responses to this Tender [hereinafter referred to as a Tender] are requested from persons,
+companies, close corporations or enterprises [hereinafter referred to as a Tenderer].
+The Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp
+DESCRIPTION
+Depot.
+This Tender may be downloaded directly from the National Treasury
+TENDER eTenders Publication Portal at www.etenders.gov.za and the Transnet e-
+DOWNLOADING Supplier Portal at https://esupplierportal.transnet.net/portal/) (please use
+Google Chrome to access Transnet link) FREE OF CHARGE.
+A Compulsory Tender Clarification Meeting will be conducted at
+Magaliesburg Area, Gauteng (GPS coordinates: (-26.001484,
+27.547611) on the 08 September 2026 at 10:00am [10 O’clock] for
+a period of ± 2 (two) hours. [Tenderers to provide own transportation and
+accommodation].
+The Compulsory Tender Clarification Meeting will start punctually, and
+information will not be repeated for the benefit of Tenderers arriving late.
+A Site visit/walk will take place; tenderers are to note:
+• Tenderers are required to wear safety shoes, goggles, long sleeve shirts,
+high visibility vests and hard hats.
+• Tenderers without the recommended PPE will not be allowed on the site
+walk.
+COMPULSORY
+TENDER • Tenderers and their employees, visitors, clients and customers entering
+CLARIFICATION Transnet Offices, Depots, Workshops and Stores will have to undergo
+MEETING breathalyser testing.
+• All forms of firearms are prohibited on Transnet properties and premises.
+• The relevant persons attending the meeting must ensure that their
+identity documents, passports or driver’s licences are on them for
+inspection at the access control gates.
+•
+Certificate of Attendance in the form set out in the Returnable Schedule
+T2.2-01 hereto must be completed and submitted with your Tender as
+proof of attendance is required for a compulsory site meeting and/or
+tender briefing.
+Tenderers are required to bring this Returnable Schedule T2.2-01
+to the Compulsory Tender Clarification Meeting to be signed by the
+Employer’s Representative.
+CPM 2020 Rev05 Part T1: Tendering procedures
+Page 1 of 4 T 1.1: Tender Notice and Invitation
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Tenderers failing to attend the compulsory tender briefing will be
+disqualified.
+10:00 am on 25 September 2026
+CLOSING DATE Tenderers must ensure that tenders are uploaded timeously onto the
+system. If a tender is late, it will not be accepted for consideration.
+1. TENDER SUBMISSION
+Transnet has implemented a new electronic tender submission system, the e-Tender Submission
+Portal, in line with the overall Transnet digitalization strategy where suppliers can view advertised
+tenders, register their information, log their intent to respond to bids and upload their bid
+proposals/responses on to the system.
+a) The Transnet e-Tender Submission Portal can be accessed as follows:
+Log on to the Transnet e-Supplier Portal website
+https://esupplierportal.transnet.net/portal/);
+ Click on “ADVERTISED TENDERS” to view advertised tenders;
+ Click on “SIGN IN/REGISTER – for bidder to register their information (must fill in all
+mandatory information);
+ Click on “SIGN IN/REGISTER” - to sign in if already registered;
+ Toggle (click to switch) the “Log an Intent” button to submit a bid;
+ Submit bid documents by uploading them into the system against each tender selected.
+ Tenderers are required to ensure that electronic bid submissions are done at
+least a day before the closing date to prevent issues which they may encounter
+due to their internet speed, bandwidth or the size of the number of uploads
+they are submitting. Transnet will not be held liable for any challenges
+experienced by bidders as a result of the technical challenges. Please do not
+wait for the last hour to submit. A Tenderer can upload 30mb per upload and
+multiple uploads are permitted.
+b) The tender offers to this tender will be opened as soon as possible after the closing date and
+time. Transnet shall not, at the opening of tenders, disclose to any other company any
+confidential details pertaining to the Tender Offers / information received, i.e. pricing,
+delivery, etc. The names and locations of the Tenderers will be divulged to other Tenderers
+upon request.
+c) Submissions must not contain documents relating to any Tender other than that shown on
+the submission.
+CPM 2020 Rev05 Part T1: Tendering procedures
+Page 2 of 4 T 1.1: Tender Notice and Invitation
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+1. CONFIDENTIALITY
+All information related to this RFQ is to be treated with strict confidentiality. In this regard
+Tenderers are required to certify that they have acquainted themselves with the Non-Disclosure
+Agreement. All information related to a subsequent contract, both during and after completion
+thereof, will be treated with strict confidence. Should the need however arise to divulge any
+information gleaned from provision of the Works, which is either directly or indirectly related to
+Transnet’s business, written approval to divulge such information must be obtained from
+Transnet.
+1. DISCLAIMERS
+Tenderers are hereby advised that Transnet is not committed to any course of action as a
+result of its issuance of this Tender and/or its receipt of a tender offer. In particular, please
+note that Transnet reserves the right to:
+4.1. Award the business to the highest scoring Tenderer/s unless objective criteria justify the award
+to another tenderer.
+4.2. Not necessarily accept the lowest priced tender or an alternative Tender;
+4.3. Go to the open market if the quoted rates (for award of work) are deemed unreasonable;
+4.4. Should the Tenderers be awarded business on strength of information furnished by the
+Tenderer, which after conclusion of the contract is proved to have been incorrect, Transnet
+reserves the right to terminate the contract;
+4.5. Request audited financial statements or other documentation for the purposes of a due
+diligence exercise;
+4.6. Not accept any changes or purported changes by the Tenderer to the tender rates after the
+closing date;
+4.7. Verify any information supplied by a Tenderer by submitting a tender, the Tenderer/s hereby
+irrevocably grant the necessary consent to the Transnet to do so;
+4.8. Conduct the evaluation process in parallel. The evaluation of Tenderers at any given stage
+must therefore not be interpreted to mean that Tenderers have necessarily passed any
+previous stage(s);
+4.9. Unless otherwise expressly stated, each tender lodged in response to the invitation to tender
+shall be deemed to be an offer by the Tenderer. The Employer has the right in its sole and
+unfettered discretion not to accept any offer.
+CPM 2020 Rev05 Part T1: Tendering procedures
+Page 3 of 4 T 1.1: Tender Notice and Invitation
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+4.10. Not be held liable if tenderers do not provide the correct contact details during the
+clarification session and do not receive the latest information regarding this RFQ with the
+possible consequence of being disadvantaged or disqualified as a result thereof.
+4.11. Transnet reserves the right to exclude any Tenderers from the tender process who has been
+convicted of a serious breach of law during the preceding 5 [five] years including but not
+limited to breaches of the Competition Act 89 of 1998, as amended. Tenderers are required
+to indicate in tender returnable [ on T2.2-12], [Breach of Law] whether or not they have
+been found guilty of a serious breach of law during the past 5 [five] years.
+4.12. Transnet reserves the right to perform a risk analysis on the preferred tenderer to ascertain if
+any of the following might present an unacceptable commercial risk to the employer:
+• unduly high or unduly low tendered rates or amounts in the tender offer;
+• contract data of contract provided by the tenderer; or
+• the contents of the tender returnables which are to be included in the contract.
+1. Transnet will not reimburse any Tenderer for any preparatory costs or other work performed in
+connection with this Tender, whether or not the Tenderer is awarded a contract.
+1. NATIONAL TREASURY’S CENTRAL SUPPLIER DATABASE
+Tenderers are required to self-register on National Treasury’s Central Supplier Database (CSD)
+which has been established to centrally administer supplier information for all organs of state
+and facilitate the verification of certain key supplier information. The CSD can be accessed at
+https://secure.csd.gov.za/. Tenderers are required to provide the following to Transnet in order
+to enable it to verify information on the CSD:
+Supplier Number………………………………… and Unique registration reference
+number…………………………… (Tender Data)
+Transnet urges its clients, suppliers and the general public
+to report any fraud or corruption to
+TIP-OFFS ANONYMOUS: 0800 003 056 OR Transnet@tip-offs.com
+CPM 2020 Rev05 Part T1: Tendering procedures
+Page 4 of 4 T 1.1: Tender Notice and Invitation
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T1.2 TENDER DATA
+The conditions of tender are the Standard Conditions of Tender as contained in Annex C of the CIDB
+Standard for Uniformity in Engineering and Construction Works Contracts. The Standard for
+Uniformity in Construction Procurement was first published in Board Notice 62 of 2004 in
+Government Gazette No 26427 of 9 June 2004. It was subsequently amended in Board Notice 67 of
+2005 in Government Gazette No 28127 of 14 October 2005, Board Notice 93 of 2006 in Government
+Gazette No 29138 of 18 August 2006, Board Notice No 9 of 2008 in Government Gazette No 31823
+of 30 January 2009, Board Notice 86 of 2010 in Government Gazette No 33239 of 28 May 2010,
+Board Notice 136 of 2015 in Government Gazette 38960 of 10 July 2015 and Board Notice 423 of
+2019 in Government Gazette No 42622 of 8 August 2019.
+This edition incorporates the amendments made in Board Notice 423 of 2019 in Government Gazette
+42622 of 8 August 2019. (see www.cidb.org.za).
+The Standard Conditions of Tender make several references to Tender data for detail that apply
+specifically to this tender. The Tender Data shall have precedence in the interpretation of any
+ambiguity or inconsistency between it and the Standard Conditions of Tender.
+Each item of data given below is cross-referenced in the left-hand column to the clause in the
+Standard Conditions of Tender to which it mainly applies.
+Clause Data
+C.1.1 The Employer is Transnet SOC Ltd
+(Reg No. 1990/000900/30)
+C.1.2 The tender documents issued by the Employer comprise:
+Part T: The Tender
+Part T1: Tendering procedures T1.1 Tender notice and invitation to tender
+T1.2 Tender data
+Part T2: Returnable documents T2.1 List of returnable documents
+T2.2 Returnable Schedules
+Part C: The contract
+Part C1: Agreements and contract data C1.1 Form of offer and acceptance
+C1.2 Contract data (Part 1 & 2)
+C1.3 Form of Securities
+Part C2: Pricing data C2.1 Pricing instructions
+C2.2 Bill of Quantities
+Part C3: Scope of work C3.1 Works Information
+Tender Data CPM 2020 Rev 07 Page 1 of 6 Part 1: Tendering Procedures
+T1.2: Tender Data
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Part C4: Site information C4.1 Site information
+C.1.4 The Employer’s agent is: Technical Buyer
+Name: Dineo Noko
+Address: No.1 Anvil Road, Admin Building, Isando,
+1600
+Tel No. 011 308 1344
+E – mail dineo.noko@transnet.net
+C.2.1 Only those tenderers who satisfy the following eligibility criteria are eligible to submit
+tenders:
+1. Eligibility with regards to attendance at the compulsory clarification
+meeting:
+An authorised representative of the tendering entity or a representative of a
+tendering entity that intends to form a Joint Venture (JV) must attend the
+compulsory clarification meeting in terms C2.7
+1. Eligibility in terms of the Construction Industry Development Board:
+a) Only those tenderers who are registered with the CIDB, or are capable of being so
+prior to the evaluation of submissions, in a contractor grading designation equal to
+or higher than a contractor grading designation determined in accordance with the
+sum tendered or a value determined in accordance with Regulation 25 (1B) or
+25(7A) of the Construction Industry Development Regulations, designation of 3SQ
+or higher class of construction work, are eligible to have their tenders evaluated.
+b) Joint Venture (JV)
+Joint ventures are eligible to submit tenders subject to the following:
+1. every member of the joint venture is registered with the CIDB;
+2. the lead partner has a contractor grading designation of not lower than one
+level below the required class of construction works under consideration and
+possesses the required recognition status; and
+1. the combined Contractor grading designation calculated in accordance with the
+Construction Industry Development Regulations is equal to or higher than a
+Contractor grading designation determined in accordance with the sum
+tendered for a 3SQ or higher class of construction work or a value determined
+in accordance with Regulation 25(1B) or 25(7A) of the Construction Industry
+Development Regulations
+The tenderer shall provide a certified copy of its signed joint venture agreement
+C.2.7 The arrangements for a compulsory clarification meeting are as stated in the Tender
+Notice and Invitation to Tender. Tenderers must complete and sign the
+attendance register. Addenda will be issued to, and tenders will only be received
+Tender Data CPM 2020 Rev 07 Page 2 of 6 Part 1: Tendering Procedures
+T1.2: Tender Data
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+from those tendering entities including those entities that intends forming a joint
+venture appearing on the attendance register.
+Tenderers are also required to bring their RFQ document to the briefing session
+and have their returnable document T2.2-01 certificate of attendance signed
+off by the Employer’s authorised representative.
+C.2.12 No alternative tender offers will be considered.
+C.2.13.3 Each tender offer shall be in the English Language.
+C.2.13.5 The Employer’s details and identification details that are to be shown on each tender
+C2.15.1 offer are as follows:
+Identification details: The tender documents must be uploaded with:
+ Name of Tenderer: (insert company name)
+ Contact person and details: (insert details)
+ The Tender Number: TRIM/2026/06/1186/6479/RFQ
+ The Tender Description: Supply, Delivery and
+Installation of Clear-View Fencing for Krugersdorp
+Depot.
+Documents must be marked for the attention of:
+Employer’s Representative: Dineo Noko
+C.2.13.9 Telephonic, telegraphic, facsimile or e-mailed tender offers will not be accepted.
+C.2.15 The closing time for submission of tender offers is:
+Time: 10:00am on the 25 September 2026.
+Location: The Transnet e-Supplier Portal:
+(https://esupplierportal.transnet.net/portal/)
+NO LATE TENDERS WILL BE ACCEPTED
+C.2.16 The tender offer validity period is 12 weeks after the closing date. Tenderers are to
+note that they may be requested to extend the validity period of their tender, on the
+same terms and conditions, if Transnet’s internal evaluation and governance approval
+processes has not been finalised within the validity period.
+C.2.23 The tenderer is required to submit with this tender:
+1. A valid Tax Clearance Certificate issued by the South African Revenue Services.
+Tenderers also to provide Transnet with a TCS PIN to verify Tenderers
+compliance status.
+1. A valid B-BBEE Certificate from a Verification Agency accredited by the South
+African Accreditation System [SANAS], or a sworn affidavit confirming annual
+turnover and level of black ownership in case of all EMEs and QSEs with 51% black
+ownership or more together with the tender;
+Tender Data CPM 2020 Rev 07 Page 3 of 6 Part 1: Tendering Procedures
+T1.2: Tender Data
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+1. Proof of registration on the Central Supplier Database;
+2. Letter of Good Standing with the Workmen’s compensation fund by the tendering
+entity or separate Letters of Good Standing from all members of a newly constituted
+JV.
+1. Annex G Compulsory Enterprise Questionnaire
+Note: Refer to Section T2.1 for List of Returnable Documents
+C.3.11. Only tenders that are Administratively and Substantively Responsive will be evaluated
+further in accordance with the 80/20 preference points systems as described in
+Transnet Preferential Procurement Policy
+80 where the financial value of one or more responsive tenders received have a value
+equal to or below R50 million, inclusive of all applicable taxes,
+and
+Up to 100 minus W tender evaluation points will be awarded to tenderers who
+1
+complete the preferencing schedule and who are found to be eligible for the preference
+claimed. Should the BBBEE rating not be provided, tenderers with no
+verification will score zero points for preferencing.
+Note: Transnet reserves the right to carry out an independent audit of the tenderer’s
+scorecard components at any stage from the date of close of the tenders until
+completion of the contract.
+Evaluation Criteria Final Weighted Scores
+Price 80
+Preference (Specific Goals)
+B-BBEE Level of contributor (1 or 2) 10
++50% Black Youth Owned 5
+30% Black Women Owned Entities 5
+Non-Compliant and/or B-BBEE Level 3-8 0
+contributors
+TOTAL SCORE: 100
+Tender Data CPM 2020 Rev 07 Page 4 of 6 Part 1: Tendering Procedures
+T1.2: Tender Data
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+The following Table represents the evidence to be submitted for claiming preference
+points for applicable specific goals in a particular tender:
+Specific Goals Acceptable Evidence
+B-BBEE Certificate / Sworn-Affidavit B-BBEE Certificate (in
+B-BBEE case of JV, a consolidate scorecard will be accept) as per
+DTIC guidelines
+B-BBEE Certificate / Sworn- Affidavit / B-BBEE CIPC
+30% Black Women Owned
+Certificate (in case of JV, a consolidated scorecard will be
+Entities
+accepted) as per DTIC guideline
+Certified copy of ID Documents of the Owners and B-BBEE
++50% Black Youth Owned Certificate / Sworn- Affidavit / B-BBEE CIPC Certificate (in
+Entities case of JV, a consolidated scorecard will be accepted) as per
+DTIC guideline
+C.3.13 Tender offers will only be accepted if:
+1. The tenderer or any of its directors/shareholders is not listed on the Register
+of Tender Defaulters in terms of the Prevention and Combating of Corrupt
+Activities Act of 2004 as a person prohibited from doing business with the
+public sector;
+1. the tenderer does not appear on Transnet’s list for restricted tenderers and
+National Treasury’s list of Tender Defaulters;
+1. the tenderer has fully and properly completed the Compulsory Enterprise
+Questionnaire and there are no conflicts of interest which may impact on the
+tenderer’s ability to perform the contract in the best interests of the Employer
+or potentially compromise the tender process and persons in the employ of
+the state.
+1. Transnet reserves the right to award the tender to the tenderer who scores the
+highest number of points overall, unless there are objective criteria which will
+justify the award of the tender to another tenderer. Objective criteria include
+but are not limited to the outcome of a due diligence exercise to be conducted.
+The due diligence exercise may take the following factors into account inter alia;
+the tenderer:
+a) is not under restrictions, or has principals who are under restrictions,
+preventing participating in the employer’s procurement,
+b) can, as necessary and in relation to the proposed contract, demonstrate that
+he or she possesses the professional and technical qualifications, professional
+and technical competence, financial resources, equipment and other physical
+facilities, managerial capability, reliability, experience and reputation, expertise
+and the personnel, to perform the contract,
+c) has the legal capacity to enter into the contract,
+Tender Data CPM 2020 Rev 07 Page 5 of 6 Part 1: Tendering Procedures
+T1.2: Tender Data
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+d) is not insolvent, in receivership, under Business Rescue as provided for in
+chapter 6 of the Companies Act, 2008, bankrupt or being wound up, has his
+affairs administered by a court or a judicial officer, has suspended his business
+activities, or is subject to legal proceedings in respect of any of the foregoing,
+e) complies with the legal requirements, if any, stated in the tender data and
+f) is able, in the option of the employer to perform the contract free of conflicts
+of interest.
+C.3.17 The number of paper copies of the signed contract to be provided by the Employer is
+1 (one).
+Tender Data CPM 2020 Rev 07 Page 6 of 6 Part 1: Tendering Procedures
+T1.2: Tender Data
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.1 List of Returnable Documents
+2.1.1 Eligibility with regards to attendance at the compulsory clarification meeting:
+T2.2-01 Certificate of Attendance
+2.1.2 Returnable Schedules:
+General:
+T2.2-02 Proof of Previous Experience
+T2.2-03 Availability of Equipment and Other Resources
+T2.2-04 Authority to submit tender
+T2.2-05 Risk Elements
+T2.2-06 Insurance provided by Contractor
+T2.2-07 CIDB SFU Annex G Compulsory Questionnaire
+T2.2-08 Non-Disclosure Agreement
+T2.2-09 Supplier Declaration Form
+T2.2-10 RFQ Declaration Form
+T2.2-11 Service Provider Integrity Pact
+T2.2-12 RFQ – Breach of Law
+T2.2-13 Agreement in terms of (POPIA)
+T2.2-14 Certificate of Acquaintance with Tender Document
+T2.2-15 Supplier Code of Conduct
+2.2 C1.1 Offer portion of Form of Offer & Acceptance
+2.3 C1.2 Contract Data Part Two (Data by the Contractor)
+2.4 C2.1 Pricing (Bill of Quantities)
+Part T2: Returnable Documents
+CPM 2020 – Rev 02 Page 1 of 1 T2.2: Returnable Schedules
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-01: Eligibility Criteria Schedule:
+Certificate of Attendance at Tender Clarification Meeting
+This is to certify that
+(Company Name)
+Represented (Name and
+by: Surname)
+Was represented at the compulsory tender clarification meeting
+Held at:
+On (date) Starting time: 10:00
+Particulars of person(s) attending the meeting:
+Name Signature
+Capacity
+Attendance of the above company at the meeting was confirmed:
+Name Signature
+For and on Behalf of the
+Employers Agent. Date
+CPM 2020 Rev 01 T2.2: Returnable Schedules
+Page 1 of 1 T2.2-01: Eligibility Criteria Schedule:
+Certificate of Attendance
+at Tender Clarification Meeting
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-02: Proof of Previous Experience
+Note to tenderers:
+Contractors should provide two (02) completion certificates or written reference in a letterhead of similar
+scope of work (SoW) that has been done before.
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 1 of 1 T2.2-02: Proven Experience
+
+Transnet Rail Infrastructure Management
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-03: Availability of Equipment and Other Resources
+The Tenderer to submit a list of all Equipment and other resources that will be used to execute
+the works as described in the Works Information.
+Equipment Type and Availability – Hourly Rate Number of Details of
+Description Equipment Ownership
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 1 of 1 T2.2-03: Availability of Equipment
+and Other Resources
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-04: Authority to submit tender
+Indicate the status of the tenderer by ticking the appropriate box hereunder. The tenderer must
+complete the certificate set out below for his category of organisation or alternatively attach a
+certified copy of a company / organisation document which provides the same information for
+the relevant category as requested here.
+A - COMPANY B - PARTNERSHIP C - JOINT VENTURE D - SOLE PROPRIETOR
+A. Certificate for Company
+I, chairperson of the board of directors
+, hereby confirm that by resolution of the
+board taken on (date), Mr/Ms ,
+acting in the capacity of , was authorised to sign all
+documents in connection with this tender offer and any contract resulting from it on behalf of
+the company.
+Signed Date
+Name Position Chairman of the Board of Directors
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 1 of 4 T2.2-04: Authority to submit tender
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+B. Certificate for Partnership
+We, the undersigned, being the key partners in the business trading as
+hereby authorise Mr/Ms
+acting in the capacity of , to sign all documents in
+connection with the tender offer for Contract and any
+contract resulting from it on our behalf.
+Name Address Signature Date
+NOTE: This certificate is to be completed and signed by the full number of Partners necessary
+to commit the Partnership. Attach additional pages if more space is required.
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 2 of 4 T2.2-04: Authority to submit tender
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+C. Certificate for Joint Venture
+We, the undersigned, are submitting this tender offer in Joint Venture and hereby authorise
+Mr/Ms , an authorised signatory of the company
+, acting in the capacity of lead
+partner, to sign all documents in connection with the tender offer for Contract
+and any contract resulting from it on our behalf.
+This authorisation is evidenced by the attached power of attorney signed by legally authorised
+signatories of all the partners to the Joint Venture.
+Furthermore we attach to this Schedule a copy of the joint venture agreement which
+incorporates a statement that all partners are liable jointly and severally for the execution of
+the contract and that the lead partner is authorised to incur liabilities, receive instructions and
+payments and be responsible for the entire execution of the contract for and on behalf of any
+and all the partners.
+Authorising signature,
+Name of firm Address name (in caps) and
+capacity
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 3 of 4 T2.2-04: Authority to submit tender
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+D. Certificate for Sole Proprietor
+I, , hereby confirm that I am the sole owner of the
+business trading as .
+Signed Date
+Name Position Sole Proprietor
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 4 of 4 T2.2-04: Authority to submit tender
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-05: Risk Elements
+Tenderers to identify and evaluate the potential risk elements associated with the Service
+and possible mitigation thereof. The risk elements and the mitigation as identified thereof
+by the Tenderer are to be submitted.
+If No Risks are identified “No Risks” must be stated on this schedule.
+Tenderers are also to evaluate any risk/s stated by the Employer in Contract Data Part C1
+and provide possible mitigation thereof.
+Tenders to note: Notwithstanding this information, all costs related to risk elements which are
+at the Contractor’s risk are deemed to be included in the tenderer’s offered total of the Prices.
+CPM 2020 – Rev 02 Part T2: Returnable Schedules
+Page 1 of 1 T2.2-05: Risk Elements
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-06: Insurance provided by the Contractor
+Clause 83.1 in NEC3 Engineering Construction Contract (June 2005) (amended June 2006 and
+April 2013) requires that the Contractor provides the insurance stated in the insurance table
+except any insurance which the Employer is to provide as stated in the Contract Data.
+Please provide the following details for insurance which the Contractor is still to provide.
+Notwithstanding this information all costs related to insurance are deemed included in the
+tenderer’s rates and prices.
+Insurance against Name of Insurance
+Cover Premium
+(See clause 83.2 of the ECC) Company
+Liability for death of or bodily injury to
+employees of the Contractor arising out of
+and in the course of their employment in
+connection with this contract
+Motor Vehicle Liability Insurance comprising
+(as a minimum) "Balance of Third Party"
+Risks including Passenger and Unauthorised
+Passenger Liability indemnity with a minimum
+indemnity limit of R5,000,000.
+Insurance in respect of loss of or damage to
+own property and equipment.
+CPM 2020 – Rev 01 Part T2: Returnable Schedules
+Page 1 of 1 T2.2-06: Insurance provided by the Contractor
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+T2.2-07 : ANNEX G Compulsory Enterprise Questionnaire
+The following particulars hereunder must be furnished.
+In the case of a Joint Venture, separate enterprise questionnaires in respect of each
+partner/member must be completed and submitted.
+Section 1: Name of enterprise:
+Section 2: VAT registration number, if any:
+Section 3: CIDB registration number, if any:
+Section 4: CSD number:
+Section 5: Particulars of sole proprietors and partners in partnerships
+Name Identity number Personal income tax
+number
+* Complete only if sole proprietor or partnership and attach separate page if more than 3
+partners
+Section 6: Particulars of companies and close corporations
+Company registration number
+Close corporation number
+Tax reference number:
+Section 7: The attached SBD4 must be completed for each tender and be
+attached as a tender requirement.
+Section 8: The attached SBD 6 must be completed for each tender and be
+attached as a requirement.
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 1 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+The undersigned, who warrants that he / she is duly authorised to do so on behalf of the
+enterprise:
+i) authorizes the Employer to obtain a tax clearance certificate from the South African
+Revenue Services that my / our tax matters are in order;
+ii) confirms that the neither the name of the enterprise or the name of any partner,
+manager, director or other person, who wholly or partly exercises, or may exercise,
+control over the enterprise appears on the Register of Tender Defaulters established
+in terms of the Prevention and Combating of Corrupt Activities Act of 2004;
+iii) confirms that no partner, member, director or other person, who wholly or partly
+exercises, or may exercise, control over the enterprise appears, has within the last
+five years been convicted of fraud or corruption;
+iv) confirms that I / we are not associated, linked or involved with any other tendering
+entities submitting tender offers and have no other relationship with any of the
+tenderers or those responsible for compiling the scope of work that could cause or be
+interpreted as a conflict of interest; and
+v) confirms that the contents of this questionnaire are within my personal knowledge
+and are to the best of my belief both true and correct.
+Signed Date
+Name Position
+Enterprise
+name
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 2 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+SBD 6.1
+PREFERENCE POINTS CLAIM FORM
+This preference form must form part of all bids invited. It contains general information and
+serves as a claim for preference points for Specific Goals contribution. Transnet will award
+preference points to companies who provide valid proof of evidence as per the table of evidence
+in paragraph 4.1 below.
+1. GENERAL CONDITIONS
+1.1 The following preference point systems are applicable to all bids:
+- the 80/20 system for requirements with a Rand value of up to R50 000 000 (all
+applicable taxes included); and
+1.2 The value of this bid is estimated to not exceed R50 000 000 (all applicable taxes
+included) and therefore the 80/20 preference point system shall be applicable. Despite
+the stipulated preference point system, Transnet shall use the lowest acceptable bid
+to determine the applicable preference point system in a situation where all received
+acceptable bids are received outside the stated preference point system.
+1.3 Preference points for this bid shall be awarded for:
+(a) Price;
+(b) B-BBEE Status Level of Contribution; and
+(c) Any other specific goal determined in the Transnet preferential procurement policy
+1.4 The maximum points for this bid are allocated as follows:
+POINTS
+80
+PRICE
+PREFERENCE (SPECIFIC GOALS)
+B-BBEE Level of contributor (1 or 2) 10
+At least 30% Black Women Owned Entities 5
+At least +50% Black Youth Owned Entities 5
+Non-Compliant and/or B-BBEE Level 3-8 contributors 0
+Total points for Price and Specific Goals must not exceed 100
+1.5 Failure on the part of a bidder to submit proof of evidence required for any of the specific
+goals together with the bid will be interpreted to mean that preference points for that
+specific goal are not claimed.
+1.6 The purchaser reserves the right to require of a bidder, either before a bid is adjudicated
+or at any time subsequently, to substantiate any claim in regard to preferences, in any
+manner required by the purchaser.
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 3 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+1. DEFINITIONS
+(a) “all applicable taxes” includes value-added tax, pay as you earn, income tax,
+unemployment insurance fund contributions and skills development levies;
+(b) “B-BBEE” means broad-based black economic empowerment as defined in section
+1 of the Broad-Based Black Economic Empowerment Act;
+(c) “B-BBEE status level of contributor” means the B-BBEE status received by a
+measured entity based on its overall performance using the relevant scorecard
+contained in the Codes of Good Practice on Black Economic Empowerment, issued
+in terms of section 9(1) of the Broad-Based Black Economic Empowerment Act;
+(d) “bid” means a written offer in a prescribed or stipulated form in response to an
+invitation by an organ of state for the supply/provision of services, works or goods,
+through price quotations, advertised competitive bidding processes or proposals;
+(e) “Broad-Based Black Economic Empowerment Act” means the Broad-Based
+Black Economic Empowerment Act, 2003 (Act No. 53 of 2003);
+(f) “EME” means an Exempted Micro Enterprise as defines by Codes of Good Practice
+under section 9 (1) of the Broad-Based Black Economic Empowerment Act, 2003
+(Act No. 53 of 2003);
+(g) “functionality” means the ability of a bidder to provide goods or services in
+accordance with specification as set out in the bid documents
+(h) “Price” includes all applicable taxes less all unconditional discounts.
+(i) “Proof of B-BBEE Status Level of Contributor”
+i) the B-BBBEE status level certificate issued by an authorised body or person;
+ii) a sworn affidavit as prescribed by the B-BBEE Codes of Good Practice; or
+iii) any other requirement prescribed in terms of the B-BBEE Act.
+(j) “QSE” means a Qualifying Small Enterprise as defines by Codes of Good Practice
+under section 9 (1) of the Broad-Based Black Economic Empowerment Act, 2003 (
+Act No. 53 of 2003);
+(k) “rand value” means the total estimated value of a contract in South African
+currency, calculated at the time of bid invitations, and includes all applicable taxes
+and excise duties.
+(l) Specific goals” means targeted advancement areas or categories of persons or
+groups either previously disadvantaged or falling within the scope of the
+Reconstruction and Development Programme identified by Transnet to be given
+preference in allocation of procurement contracts in line with section 2(1) of the
+PPPFA.
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 4 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+1. POINTS AWARDED FOR PRICE
+3.1 THE 80 PREFERENCE POINT SYSTEMS
+A maximum of 80 points is allocated for price on the following basis:
+80/20
+ Pt − Pmin
+Ps=801− 
+ Pmin 
+Where
+Ps = Points scored for comparative price of bid under consideration
+Pt = Comparative price of bid under consideration
+Pmin = Comparative price of lowest acceptable bid
+1. EVIDENCE REQUIRED FOR CLAIMING SPECIFIC GOALS
+4.1 In terms of Transnet Preferential Procurement Policy (TPPP) and Procurement Manuals,
+preference points must be awarded to a bidder for providing evidence in accordance
+with the table below:
+Specific Goals Acceptable Evidence
+B-BBEE Certificate / Sworn-Affidavit B-BBEE Certificate (in case of
+B-BBEE
+JV, a consolidate scorecard will be accept) as per DTIC guidelines
+B-BBEE Certificate / Sworn- Affidavit / B-BBEE CIPC Certificate (in
+At least 30% Black Women
+case of JV, a consolidated scorecard will be accepted) as per DTIC
+Owned Entities
+guideline
+Certified copy of ID Documents of the Owners and B-BBEE
+At least +50% Black Youth
+Certificate / Sworn- Affidavit / B-BBEE CIPC Certificate (in case of
+Owned Entities
+JV, a consolidated scorecard will be accepted) as per DTIC guideline
+4.2 The table below indicates the required proof of B-BBEE status depending on the category
+of enterprises:
+Enterprise B-BBEE Certificate & Sworn Affidavit
+Large Certificate issued by SANAS accredited verification agency
+QSE Certificate issued by SANAS accredited verification agency
+Sworn Affidavit signed by the authorised QSE representative and attested by
+a Commissioner of Oaths confirming annual turnover and black ownership
+(only black-owned QSEs - 51% to 100% Black owned)
+[Sworn affidavits must substantially comply with the format that can be
+obtained on the DTI’s website at
+www.dti.gov.za/economic_empowerment/bee_codes.jsp.]
+EME Sworn Affidavit signed by the authorised EME representative and attested by
+a Commissioner of Oaths confirming annual turnover and black ownership
+Certificate issued by CIPC (formerly CIPRO) confirming annual turnover and
+black ownership
+Certificate issued by SANAS accredited verification agency only if the EME is
+being measured on the QSE scorecard
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 5 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+4.3 A trust, consortium or joint venture (including unincorporated consortia
+and joint ventures) must submit a consolidated B-BBEE Status Level verification
+certificate for every separate bid.
+4.4 Tertiary Institutions and Public Entities will be required to submit their B-BBEE status
+level certificates in terms of the specialized scorecard contained in the B-BBEE Codes
+of Good Practice.
+4.5 A person will not be awarded points for B-BBEE status level if it is indicated in the bid
+documents that such a bidder intends sub-contracting more than 25% of the value of
+the contract to any other enterprise that does not qualify for at least the points that
+such a bidder qualifies for, unless the intended sub-contractor is an EME that has the
+capability and ability to execute the sub-contract.
+4.6 A person awarded a contract may not sub-contract more than 25% of the value of the
+contract to any other enterprise that does not have an equal or higher B-BBEE status
+level than the person concerned, unless the contract is sub-contracted to an EME that
+has the capability and ability to execute the sub-contract.
+4.7 Bidders are to note that the rules pertaining to B-BBEE verification and other B-BBEE
+requirements may be changed from time to time by regulatory bodies such as National
+Treasury or the DTI. It is the Bidder’s responsibility to ensure that his/her bid complies
+fully with all B-BBEE requirements at the time of the submission of the bid.
+1. BID DECLARATION
+5.1 Bidders who claim points in respect of B-BBEE Status Level of Contribution must
+complete the following:
+1. B-BBEE STATUS LEVEL OF CONTRIBUTION CLAIMED IN TERMS OF
+PARAGRAPHS 1.4 AND 6.1
+6.1 B-BBEE Status Level of Contribution: . = ……… (maximum of 20 points)
+(Points claimed in respect of paragraph 6.1 must be in accordance with the table
+reflected in paragraph 4.1 and must be substantiated by relevant proof of B-BBEE
+status level of contributor.
+1. SUB-CONTRACTING
+7.1 Will any portion of the contract be sub-contracted?
+(Tick applicable box)
+YES NO
+7.1.1 If yes, indicate:
+i) What percentage of the contract will be subcontracted............…………….…………%
+ii) The name of the sub-contractor…………………………………………………………..
+iii) The B-BBEE status level of the sub-contractor......................................……………..
+iv) Whether the sub-contractor is an EME or QSE.
+(Tick applicable box)
+YES NO
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 6 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+An EME or QSE which is at last 51% owned by: EME √ QSE √
+Black people
+Black people who are youth
+Black people who are women
+Black people with disabilities
+Black people living in rural or underdeveloped areas or townships
+Cooperative owned by black people
+Black people who are military veterans
+OR
+Any EME
+Any QSE
+1. DECLARATION WITH REGARD TO COMPANY/FIRM
+8.1 Name of company/firm: …………………………………………………………………………….
+8.2 VAT registration number: ……………………………………….…………………………………
+8.3 Company registration number: …………….……………………….…………………………….
+8.4 TYPE OF COMPANY/ FIRM
+  Partnership/Joint Venture / Consortium
+  One person business/sole propriety
+  Close corporation
+  Company
+  (Pty) Limited
+[TICK APPLICABLE BOX]
+8.5 DESCRIBE PRINCIPAL BUSINESS ACTIVITIES
+…………………………………………………………………………………………………………………………
+…………………………………………………………………………………………………………………………
+…………………………………………
+8.6 COMPANY CLASSIFICATION
+  Manufacturer
+  Supplier
+  Professional Supplier/Service provider
+  Other Suppliers/Service providers, e.g. transporter, etc.
+[TICK APPLICABLE BOX]
+8.7 Total number of years the company/firm has been in business: ……………………………
+8.8 I/we, the undersigned, who is / are duly authorised to do so on behalf of the
+company/firm, certify that the points claimed, based on the B-BBE status level of
+contribution indicated in paragraphs 1.4 and 6.1 of the foregoing certificate, qualifies
+the company/ firm for the preference(s) shown and I / we acknowledge that:
+i) The information furnished is true and correct;
+ii) The preference points claimed are in accordance with the General Conditions as
+indicated in paragraph 1 of this form;
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 7 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+iii) In the event of a contract being awarded as a result of points claimed
+as shown in paragraph 1.4 and 6.1, the contractor may be required to furnish
+documentary proof to the satisfaction of the purchaser that the claims are correct;
+iv) If a bidder submitted false information regarding its B-BBEE status level of
+contributor,, which will affect or has affected the evaluation of a bid, or where a
+bidder has failed to declare any subcontracting arrangements or any of the
+conditions of contract have not been fulfilled, the purchaser may, in addition to
+any other remedy it may have
+(a) disqualify the person from the bidding process;
+(b) recover costs, losses or damages it has incurred or suffered as a
+result of that person’s conduct;
+(c) cancel the contract and claim any damages which it has suffered
+as a result of having to make less favourable arrangements due to
+such cancellation;
+(d) if the successful bidder subcontracted a portion of the bid to
+another person without disclosing it, Transnet reserves the right to
+penalise the bidder up to 10 percent of the value of the contract;
+(e) recommend that the bidder or contractor, its shareholders and
+directors, or only the shareholders and directors who acted on a
+fraudulent basis, be restricted by the National Treasury from
+obtaining business from any organ of state for a period not
+exceeding 10 years, after the audi alteram partem (hear the other
+side) rule has been applied; and
+(f) forward the matter for criminal prosecution.
+WITNESSES ……………………………………….
+1. …………………………………….. SIGNATURE(S) OF BIDSDBEDR4S (S)
+DATE: …………………………………..
+1. …………………………………….
+ADDRESS …………………………………..
+…………………………………..
+…………………………………..
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 8 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+BIDDER’S DISCLOSURE (SBD4)
+1. PURPOSE OF THE FORM
+1.1. Any person (natural or juristic) may make an offer or offers in terms of this invitation
+to bid. In line with the principles of transparency, accountability, impartiality, and ethics
+as enshrined in the Constitution of the Republic of South Africa, 1996 (Constitution),
+and further expressed in the various applicable legislation, it is required for the bidder
+to make this declaration in respect of the details required hereunder.
+1.2. If a person is listed in the Register for Tender Defaulters and/or the List of Restricted
+Suppliers, that person will automatically be disqualified from the bid process.
+1. DECLARATION ON EMPLOYMENT BY ORGAN OF STATE
+2.1. Is the bidder, or any of the directors / trustees / shareholders / members / partners
+of the bidder employed by an organ of state, as defined in section 239 of the
+Constitution? YES/NO
+2.2. If YES, furnish particulars of the names, individual identity numbers, in the table
+below:
+Full Name Identity Name of organ of state
+Number
+2.3. Do you, or any person connected with the bidder, have a relationship with any person
+who is employed by the procuring institution? YES/NO
+2.4. If so, furnish particulars:
+…………………………………………………………………………………………………………………………………
+……………………………………………………………………………………………………………………
+2.5. Does the bidder or any of its directors/trustees/shareholders members/partners or
+any person having a controlling interest in the enterprise have any interest in any
+other related enterprise, whether or not they are bidding for this contract? YES/NO
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 9 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+2.6. If so, indicate all companies registered in the CSD in the table below:
+Supplier registration number Status (active/inactive/deleted)
+(MAAA)
+Failure to disclose all CSD-registered active companies linked to all Directors will lead
+to disqualification.
+1. GENERAL DECLARATION
+I, ………………………………………………………………………, the undersigned, in submitting the
+accompanying bid, do hereby make the following statements that I certify to be true and
+complete in every respect:
+3.1 I have read and I understand the contents of this disclosure.
+3.2 I understand that the accompanying bid will be disqualified if this disclosure is found
+to be false.
+3.3 The bidder has arrived at the accompanying bid independently from, and without
+consultation, communication, agreement or arrangement with any competitor.
+3.4 In addition, there have been no consultations, communications, agreements or
+arrangements with any competitor regarding the quality, quantity, specifications,
+prices, including methods, factors or formulas used to calculate prices, market
+allocation, the intention or decision to submit or not to submit the bid, bidding with the
+intention not to win the bid and conditions or delivery particulars of the products or
+services to which this bid invitation relates.
+3.5 The terms of the accompanying bid have not been, and will not be, disclosed by the
+bidder, directly or indirectly, to any competitor, prior to the date and time of the official
+bid opening or of the awarding of the contract.
+3.6 There have been no consultations, communications, agreements or arrangements
+made by the bidder with any official of the procuring institution in relation to this
+procurement process prior to and during the bidding process except to provide
+clarification on the bid submitted where so required by the institution; and the bidder
+was not involved in the drafting of the specifications or terms of reference for this bid.
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 10 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot
+3.7 I am aware that, in addition and without prejudice to any other remedy provided to
+combat any restrictive practices related to bids and contracts, bids that are suspicious
+will be reported to the Competition Commission for investigation and possible
+imposition of administrative penalties in terms of section 59 of the Competition Act,
+1998 (Act No. 89 of 1998) and or may be referred to law enforcement agencies for
+criminal investigation and or may be restricted from conducting business with the state
+for a period not exceeding 10 years in terms of the Prevention and Combating of
+Corrupt Activities Act, 2004 (Act No. 12 of 2004) or any other applicable legislation.
+I CERTIFY THAT THE ABOVE IS CORRECT.
+I ACCEPT THAT THE PROCURING INSTITUTION MAY REJECT THE BID OR TAKE
+APPROPRIATE ACTION AGAINST ME IF THIS DECLARATION IS FALSE.
+…………………………………………… …………………………………………
+Signature Date
+…………………………………………… ……………………………………………
+Designation Name of bidder
+CPM 2020 Rev 05 Part T2: Returnable Schedules
+Page 11 of 11 T2.2-07: Compulsory Questionnaire
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-08: NON-DISCLOSURE AGREEMENT
+[…………….. 2026]
+Note to tenderers: This Non-Disclosure Agreement is to be completed and signed by
+an authorised signatory:
+THIS AGREEMENT is made effective as of ........... day of ............................... 20...... by and
+between:
+TRANSNET SOC LTD
+(Registration No. 1990/000900/30), a company incorporated and existing under the laws of
+South Africa, having its principal place of business at Transnet Corporate Centre 96 Rissik,
+Braamfontein, Johannesburg 2000
+and
+...........................................................................................................................................
+...............................
+(Registration No. .........................................), a private company incorporated and existing
+under the laws of South Africa having its principal place of business at
+...........................................................................................................................................
+...............................
+...........................................................................................................................................
+...............................
+WHEREAS
+Transnet and the Company wish to exchange Information [as defined below] and it is envisaged
+that each party may from time to time receive Information relating to the other in respect
+thereof. In consideration of each party making available to the other such Information, the
+parties jointly agree that any dealings between them shall be subject to the terms and conditions
+of this Agreement which themselves will be subject to the parameters of the Tender Document.
+Part T2: Returnable Documents
+CPM 2020 – Rev 02 Page 1 of 6 T2.2-08: Non-Disclosure Agreement
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+IT IS HEREBY AGREED
+1. INTERPRETATION
+In this Agreement:
+1.1 Agents mean directors, officers, employees, agents, professional advisers, contractors
+or sub-contractors, or any Group member;
+1.2 Bid or Bid Document (hereinafter Tender) means Transnet’s Request for Information
+[RFI] Request for Proposal [RFP] or Request for Quotation [RFQ], as the case may
+be;
+1.3 Confidential Information means any information or other data relating to one party
+[the Disclosing Party] and/or the business carried on or proposed or intended to be
+carried on by that party and which is made available for the purposes of the Bid to the
+other party [the Receiving Party] or its Agents by the Disclosing Party or its Agents
+or recorded in agreed minutes following oral disclosure and any other information
+otherwise made available by the Disclosing Party or its Agents to the Receiving Party
+or its Agents, whether before, on or after the date of this Agreement, and whether in
+writing or otherwise, including any information, analysis or specifications derived from,
+containing or reflecting such information but excluding information which:
+1.3.1 is publicly available at the time of its disclosure or becomes publicly available
+[other than as a result of disclosure by the Receiving Party or any of its Agents
+contrary to the terms of this Agreement]; or
+1.3.2 was lawfully in the possession of the Receiving Party or its Agents [as can be
+demonstrated by its written records or other reasonable evidence] free of any
+restriction as to its use or disclosure prior to its being so disclosed; or
+1.3.3 following such disclosure, becomes available to the Receiving Party or its Agents
+[as can be demonstrated by its written records or other reasonable evidence]
+from a source other than the Disclosing Party or its Agents, which source is not
+bound by any duty of confidentiality owed, directly or indirectly, to the Disclosing
+Party in relation to such information;
+1.4 Group means any subsidiary, any holding company and any subsidiary of any holding
+company of either party; and
+1.5 Information means all information in whatever form including, without limitation, any
+information relating to systems, operations, plans, intentions, market opportunities,
+Part T2: Returnable Documents
+CPM 2020 – Rev 02 Page 2 of 6 T2.2-08: Non-Disclosure Agreement
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+know-how, trade secrets and business affairs whether in writing, conveyed
+orally or by machine-readable medium.
+1. CONFIDENTIAL INFORMATION
+2.1 All Confidential Information given by one party to this Agreement [the Disclosing
+Party] to the other party [the Receiving Party] will be treated by the Receiving Party
+as secret and confidential and will not, without the Disclosing Party’s written consent,
+directly or indirectly communicate or disclose [whether in writing or orally or in any
+other manner] Confidential Information to any other person other than in accordance
+with the terms of this Agreement.
+2.2 The Receiving Party will only use the Confidential Information for the sole purpose of
+technical and commercial discussions between the parties in relation to the Tender or
+for the subsequent performance of any contract between the parties in relation to the
+Tender.
+2.3 Notwithstanding clause 2.1 above, the Receiving Party may disclose Confidential
+Information:
+2.3.1 to those of its Agents who strictly need to know the Confidential Information for
+the sole purpose set out in clause 2.2 above, provided that the Receiving Party
+shall ensure that such Agents are made aware prior to the disclosure of any part
+of the Confidential Information that the same is confidential and that they owe a
+duty of confidence to the Disclosing Party. The Receiving Party shall at all times
+remain liable for any actions of such Agents that would constitute a breach of this
+Agreement; or
+2.3.2 to the extent required by law or the rules of any applicable regulatory authority,
+subject to clause 2.4 below.
+2.4 In the event that the Receiving Party is required to disclose any Confidential
+Information in accordance with clause 2.3.2 above, it shall promptly notify the
+Disclosing Party and cooperate with the Disclosing Party regarding the form, nature,
+content and purpose of such disclosure or any action which the Disclosing Party may
+reasonably take to challenge the validity of such requirement.
+2.5 In the event that any Confidential Information shall be copied, disclosed or used
+otherwise than as permitted under this Agreement then, upon becoming aware of the
+same, without prejudice to any rights or remedies of the Disclosing Party, the Receiving
+Party shall as soon as practicable notify the Disclosing Party of such event and if
+requested take such steps [including the institution of legal proceedings] as shall be
+Part T2: Returnable Documents
+CPM 2020 – Rev 02 Page 3 of 6 T2.2-08: Non-Disclosure Agreement
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+necessary to remedy [if capable of remedy] the default and/or to prevent
+further unauthorised copying, disclosure or use.
+2.6 All Confidential Information shall remain the property of the Disclosing Party and its
+disclosure shall not confer on the Receiving Party any rights, including intellectual
+property rights over the Confidential Information whatsoever, beyond those contained
+in this Agreement.
+1. RECORDS AND RETURN OF INFORMATION
+3.1 The Receiving Party agrees to ensure proper and secure storage of all Information and
+any copies thereof.
+3.2 The Receiving Party shall keep a written record, to be supplied to the Disclosing Party
+upon request, of the Confidential Information provided and any copies made thereof
+and, so far as is reasonably practicable, of the location of such Confidential Information
+and any copies thereof.
+3.3 The Company shall, within 7 [seven] days of receipt of a written demand from
+Transnet:
+3.3.1 return all written Confidential Information [including all copies]; and
+3.3.2 expunge or destroy any Confidential Information from any computer, word
+processor or other device whatsoever into which it was copied, read or programmed
+by the Company or on its behalf.
+3.4 The Company shall on request supply a certificate signed by a director as to its full
+compliance with the requirements of clause 3.3.2 above.
+1. ANNOUNCEMENTS
+4.1 Neither party will make or permit to be made any announcement or disclosure of its
+prospective interest in the Tender without the prior written consent of the other party.
+4.2 Neither party shall make use of the other party’s name or any information acquired
+through its dealings with the other party for publicity or marketing purposes without
+the prior written consent of the other party.
+1. DURATION
+The obligations of each party and its Agents under this Agreement shall survive the
+termination of any discussions or negotiations between the parties regarding the Tender
+and continue thereafter for a period of 5 [five] years.
+Part T2: Returnable Documents
+CPM 2020 – Rev 02 Page 4 of 6 T2.2-08: Non-Disclosure Agreement
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+1. PRINCIPAL
+Each party confirms that it is acting as principal and not as nominee, agent or broker for
+any other person and that it will be responsible for any costs incurred by it or its advisers
+in considering or pursuing the Tender and in complying with the terms of this Agreement.
+1. ADEQUACY OF DAMAGES
+Nothing contained in this Agreement shall be construed as prohibiting the Disclosing Party
+from pursuing any other remedies available to it, either at law or in equity, for any such
+threatened or actual breach of this Agreement, including specific performance, recovery of
+damages or otherwise.
+1. PRIVACY AND DATA PROTECTION
+8.1 The Receiving Party undertakes to comply with South Africa’s general privacy protection
+in terms Section 14 of the Bill of Rights in connection with this Tender and shall procure
+that its personnel shall observe the provisions of such Act [as applicable] or any
+amendments and re-enactments thereof and any regulations made pursuant thereto.
+8.2 The Receiving Party warrants that it and its Agents have the appropriate technical and
+organisational measures in place against unauthorised or unlawful processing of data
+relating to the Tender and against accidental loss or destruction of, or damage to such
+data held or processed by them.
+1. GENERAL
+9.1 Neither party may assign the benefit of this Agreement, or any interest hereunder,
+except with the prior written consent of the other, save that Transnet may assign this
+Agreement at any time to any member of the Transnet Group.
+9.2 No failure or delay in exercising any right, power or privilege under this Agreement will
+operate as a waiver of it, nor will any single or partial exercise of it preclude any further
+exercise or the exercise of any right, power or privilege under this Agreement or
+otherwise.
+9.3 The provisions of this Agreement shall be severable in the event that any of its
+provisions are held by a court of competent jurisdiction or other applicable authority to
+be invalid, void or otherwise unenforceable, and the remaining provisions shall remain
+enforceable to the fullest extent permitted by law.
+9.4 This Agreement may only be modified by a written agreement duly signed by persons
+authorised on behalf of each party.
+Part T2: Returnable Documents
+CPM 2020 – Rev 02 Page 5 of 6 T2.2-08: Non-Disclosure Agreement
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+9.5 Nothing in this Agreement shall constitute the creation of a partnership,
+joint venture or agency between the parties.
+9.6 This Agreement will be governed by and construed in accordance with South African
+law and the parties irrevocably submit to the exclusive jurisdiction of the South African
+courts.
+Signed ……………………………….. Date .……………………………………
+Name ……………………………….. Position …………………………………….
+Tenderer ……………………………………………………………………………………………………
+Part T2: Returnable Documents
+CPM 2020 – Rev 02 Page 6 of 6 T2.2-08: Non-Disclosure Agreement
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-09: SUPPLIER DECLARATION FORM
+Transnet Vendor Management has received a request to load / change your company details onto
+the Transnet vendor master database. Please return the completed Supplier Declaration Form (SDF)
+together with the required supporting documents as per Appendix A to the Transnet Official who is
+intending to procure your company’s services / products, to enable us to process this request. Please
+only submit the documentation relevant to your request.
+Please Note: all organisations, institutions and individuals who wish to provide goods and/or services
+to organs of the State must be registered on the National Treasury’s Central Supplier Database (CSD).
+This needs to be done via their portal at https://secure.csd.gov.za/ before applying to Transnet.
+General Terms and Conditions:
+Please Note: Failure to submit the relevant documentation will delay the vendor creation / change
+process.
+Where applicable, the respective Transnet Operating Division processing your application may request
+further or additional information from your company.
+The Service Provider warrants that the details of its bank account (“the nominated account”)
+provided herein, are correct and acknowledges that payments due to the Supplier will be made into
+the nominated account. If details of the nominated account should change, the Service Provider
+must notify Transnet in writing of such change, failing which any payments made by Transnet into
+the nominated account will constitute a full discharge of the indebtedness of Transnet to the Supplier
+in respect of the payment so made. Transnet will incur no liability for any payments made to the
+incorrect account or any costs associated therewith. In such an event, the Service Provider
+indemnifies and holds Transnet harmless in respect of any payments made to an incorrect bank
+account and will, on demand, pay Transnet any costs associated herewith.
+Transnet expects its suppliers to timeously renew their Tax Clearance and B-BBEE certificates (Large
+Enterprises and QSEs less than 51% black owned) as well as sworn affidavits in the case of EMEs
+and QSEs with more than 51% black ownership as per Appendices C and D.
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 1 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+In addition, please take note of the following very important information:
+1. If your annual turnover is R10 million or less, then in terms of the DTI Generic Codes of
+Good Practice, you are classified as an Exempted Micro Enterprise (EME). If your company is classified
+as an EME, please include in your submission a sworn affidavit confirming your company’s most recent
+annual turnover is less than R10 million and percentage of black ownership and black female
+ownership in the company (Appendix C) OR B-BBEE certificate issued by a verification agency
+accredited by SANAS in terms of the EME scorecard should you feel you will be able to attain a better
+B-BBEE score. It is only in this context that an EME may submit a B-BBEE verification certificate.
+These EME sworn affidavits must be accepted by the Government introduced this mechanism
+specifically to reduce the cost of doing business and regulatory burden for these entities and the
+template for the sworn affidavit is available at no cost on the website www.thedti.gov.za or EME
+certificates at CIPC from www.cipic.co.za.
+The B-BBEE Commission said “that only time an EME can be verified by a SANAS accredited
+verification professional is when it wishes to maximise its B-BBEE points and move to a higher B-
+BBEEE recognition level, and that must be done use the QSE Scorecard”.
+1. If your annual turnover is between R10 million and R50 million, then in terms of the DTI
+codes, you are classified as a Qualifying Small Enterprise (QSE). A QSE which is at least 51% black
+owned, is required to submit a sworn affidavit confirming their annual total revenue of between R10
+million and R50 million and level of black ownership (Appendix D). QSE ‘that does not qualify for 51%
+of black ownership, are required to submit a B-BBEE verification certificate issued by a verification
+agency accredited by SANAS their QSEs are required to submit a B-BBEE verification certificate issued
+by a verification agency accredited by SANAS.
+Please Note: B-BBEE certificate and detailed scorecard should be obtained from an accredited rating
+agency (e.g. SANAS Member).
+1. If your annual turnover exceeds R50 million, then in terms of the DTI codes, you are
+classified as a Large Enterprise. Large Enterprises are required to submit a B-BBEE level verification
+certificate issued by a verification agency accredited by SANAS.
+Please Note: B-BBEE certificate and detailed scorecard should be obtained from an accredited rating
+agency (e.g. SANAS Member).
+1. The supplier to furnish proof to the procurement department as required in the Fourth
+Schedule of the Income Tax Act. 58 of 1962 whether a supplier of service is to be classified as
+an “employee”, “personal service provider” or “labour broker”. Failure to do so will result in the
+supplier being subject to employee’s tax.
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 2 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+1. No payments can be made to a vendor until the vendor has been
+registered / updated, and no vendor can be registered / updated until the vendor application form,
+together with its supporting documentation, has been received and processed. No payments can be
+made to a vendor until the vendor has met / comply with the procurement requirements.
+1. It is in line with PPPFA Regulations, only valid B-BBBEE status level certificate issued by an
+unauthorised body or person OR a sworn affidavit as prescribed by the B-BBEE Codes of Good
+Practice, OR any other requirement prescribed in terms of the Broad- Based Black Economic
+Empowerment Act.
+1. The B-BBEE Commission advises entities and organs of state to reject B-BBEE certificates that
+have been issues by verification agencies or professionals who are not accredited by South African
+National Accreditation Systems (“SANAS) as such B-BBEE certificates are invalid for lack of authority
+and mandate to issue them. A list of SANAS Accredited agencies is available on the SANAS website
+at www.sanas.co.za.
+1. Presenting banking details. Please note: Banks have decided to enable the customers and
+provide the ability for customers to generate Account Confirmation/Bank Account letters via their
+online platform; this is a digital approach to the authentication of banking details.
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 3 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+SUPPLIER DECLARATION FORM
+Supplier Declaration Form
+Important Notice: all organisations, institutions and individuals who wish to provide goods and/or
+services to organs of the State must be registered on the National Treasury Central Supplier
+Database (CSD). This needs to be done via their portal at https://secure.csd.gov.za/ before
+applying to Transnet.
+CSD Number (MAAA xxxxxxx):
+Company Trading Name
+Company Registered Name
+Company Registration No Or ID
+No If a Sole Proprietor
+Company Income Tax Number
+Sole
+CC Trust Pty Ltd Limited Partnership
+Proprietor
+Non-profit
+Personal State National Provincial
+(NPO’s or Local Govt
+Form of Entity Liability Co Owned Co Govt Govt
+NPC)
+Education Specialise
+Financial Joint Foreign Foreign
+al d
+Institution Venture International Branch Office
+Institution Profession
+Did your company previously operate under another name? Yes No
+If YES state the previous details below:
+Trading Name
+Registered Name
+Company Registration No Or ID
+No If a Sole Proprietor
+Sole
+CC Trust Pty Ltd Limited Partnership
+Proprietor
+Non-profit
+Personal State National Provincial
+(NPO’s or Local Govt
+Form of Entity Liability Co Owned Co Govt Govt
+NPC)
+Education Specialise
+Financial Joint Foreign Foreign
+al d
+Institution Venture International Branch Office
+Institution Profession
+Your Current Company’s VAT Registration Status
+VAT Registration Number
+If Exempted from VAT
+registration, state reason and
+submit proof from SARS in
+confirming the exemption status
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 4 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+If your business entity is not VAT Registered, please submit a current original sworn affidavit (see
+example in Appendix I). Your Non-VAT Registration must be confirmed annually.
+Company Banking Details Bank Name
+Bank Account
+Universal Branch Code
+Number
+Company Physical Address
+Code
+Company Postal Address
+Code
+Company Telephone number
+Company Fax Number
+Company E-Mail Address
+Company Website Address
+Company Contact Person Name
+Designation
+Telephone
+Email
+Is your company a Labour Broker? Yes No
+Main Product / Service Supplied e.g. Stationery /
+Consulting / Labour etc.
+How many personnel does the business employ? Full Time Part Time
+Please Note: Should your business employ more than 2 full time employees who are not connected
+persons as defined in the Income Tax Act, please submit a sworn affidavit, as per Appendix II.
+>R10Million >R50Million
+Most recent Financial Year’s <R10Million
+<R50Million Large
+Annual Turnover EME
+QSE Enterprise
+Does your company have a valid proof of B-BBEE status? Yes N o
+Please indicate your Broad-Based BEE status (Level
+1 2 3 4 5 6 7 8 9
+1 to 9)
+Majority Race of Ownership
+% Black Women % Black Disabled % Black
+% Black
+Ownership person(s) Youth
+Ownership
+Ownership Ownership
+% Black People
+% Black % Black Military
+Living in Rural
+Unemployed Veterans
+Areas
+Please Note: Please provide proof of B-BBEE status as per Appendix C and D:
+• Large Enterprise and QSEs with less than 51% black ownership need to obtain a B-BBEE
+certificate and detailed scorecard from an accredited rating agency;
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 5 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+• EMEs and QSEs with at least 51% black ownership may provide an affidavit using the
+templates provided in Appendix C and D respectively;
+• Black Disabled person(s) ownership will only be accepted if accompanied with a certified
+letter signed by a physician on the physician’s letterhead confirming the disability;
+• A certified South African identification document will be required for all Black Youth
+Ownership.
+Supplier Development Information Required
+EMPOWERING SUPPLIER
+YES  NO 
+An Empowering Supplier is a B-BBEE compliant Entity which
+complies with at least three criteria if it is a large Entity, or one
+criterion if it is a Qualifying Small Enterprise (“QSE”), as
+detailed in Statement 400 of the New Codes.
+In terms of the requirements of an Empowering Supplier,
+numerous companies found it challenging to meet the target of
+25% transformation of raw materials or beneficiation including
+local manufacturing, particularly so, if these companies
+imported goods or products from offshore. The matter was
+further compounded by the requirement for 25% of Cost of
+Sales, excluding labour cost and depreciation, to be procured
+from local producers or suppliers.
+FIRST TIME SUPPLIER
+YES  NO 
+A supplier that we haven’t as yet Traded within Transnet and
+will be registered via our database for the 1st time.
+SUPPLIER DEVELOPMENT PLAN
+YES  NO 
+Supplier Development Plan is a plan that when we as Transnet
+award a supplier a long-term contract depending on the
+complexity of the Transaction. We will negotiate supplier
+development obligations that they must meet throughout the
+contract duration. e.g. we might request that they (create jobs
+or do skills development or encourage procurement from
+designated groups. (BWO, BYO & BDO etc.).
+DEVELOPMENT PLAN DOCUMENT YES  NO 
+Agreed plan that will be crafted with the supplier in regard to *If Yes- Attach supporting
+their development (It could be for ED OR SD in terms of their documents
+developmental needs they may require with the company.
+ENTERPRISE DEVELOPMENT BENEFICIARY
+YES  NO 
+A supplier that is not as yet in our value chain that we are
+assisting in their developmental area.
+SUPPLIER DEVELOPMENT BENEFICIARY
+YES  NO 
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 6 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+A supplier that we are already doing business with or
+transacting with and we are also assisting them assisting them
+in their developmental area e.g. (They might require training
+or financial assistance etc.)
+GRADUATION FROM ED TO SD BENEFICIARY
+YES  NO 
+When a supplier that we assisted with as an ED beneficiary
+then gets awarded a business and we start Transacting with.
+ENTERPRISE DEVELOPMENT RECIPIENT
+YES  NO 
+A supplier that isn’t in our value chain as yet, but we have
+assisted them with an ED intervention
+By signing below, I hereby verify that I am duly authorised to sign for and on behalf of
+firm / organisation and that all information contained herein and attached herewith are
+true and correct
+Name and Surname
+Designation
+Signature Date
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 7 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+APPENDIX B
+Affidavit or Solemn Declaration as to VAT registration status
+Affidavit or Solemn Declaration
+I, solemnly swear/declare
+that is not a registered VAT
+vendor and is not required to register as a VAT vendor because the combined value of taxable supplies
+made by the provider in any 12 month period has not exceeded or is not expected to exceed R1million
+threshold, as required in terms of the Value Added Tax Act.
+Signature:
+Designation:
+Date:
+Commissioner of Oaths
+Thus, signed and sworn to before me at on this the
+day of 20 ,
+The Deponent having knowledge that he/she knows and understands the contents of this Affidavit,
+and that he/she has no objection to taking the prescribed oath, which he/she regards binding on
+his/her conscience and that the allegations herein contained are all true and correct.
+Commissioner of Oaths
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 8 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+APPENDIX C
+SWORN AFFIDAVIT – B-BBEE QUALIFYING SMALL ENTERPRISE – GENERAL
+I, the undersigned,
+Full name & Surname
+Identity number
+Hereby declare under oath as follows:
+1. The contents of this statement are to the best of my knowledge a true reflection of the facts.
+2. I am a Member / Director / Owner of the following enterprise and am duly authorised to act
+on its behalf:
+Enterprise
+Name:
+Trading Name
+(If
+Applicable):
+Registration
+Number:
+Enterprise
+Physical
+Address:
+Type of Entity
+(CC, (Pty)
+Ltd, Sole Prop
+etc.):
+Nature of
+Business:
+Definition of As per the Broad-Based Black Economic Empowerment Act 53 of 2003 as
+“Black People”
+Amended by Act No 46 of 2013 “Black People” is a generic term which
+means Africans, Coloureds and Indians –
+(a) who are citizens of the Republic of South Africa by birth or descent;
+or
+(b) who became citizens of the Republic of South Africa by naturalisationi-
+i. before 27 April 1994; or
+ii. on or after 27 April 1994 and who would have been entitled to
+acquire citizenship by naturalization prior to that date;”
+Definition of Black Designated Groups means:
+“Black
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 9 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Designated (a) unemployed black people not attending and not required by law to
+Groups”
+attend an educational institution and not awaiting admission to an
+educational institution;
+(b) Black people who are youth as defined in the National Youth
+Commission Act of 1996;
+(c) Black people who are persons with disabilities as defined in the Code of
+Good Practice on employment of people with disabilities issued under
+the Employment Equity Act;
+(d) Black people living in rural and under developed areas;
+(e) Black military veterans who qualifies to be called a military veteran in
+terms of the Military Veterans Act 18 of 2011;”
+1. I hereby declare under Oath that:
+• The Enterprise is ______________% Black Owned as per Amended Code Series 100 of the
+Amended Codes of Good Practice issued under section 9 (1) of B-BBEE Act No 53 of 2003 as
+Amended by Act No 46 of 2013,
+• The Enterprise is ______________% Black Female Owned as per Amended Code Series 100
+of the Amended Codes of Good Practice issued under section 9 (1) of B-BBEE Act No 53 of
+2003 as Amended by Act No 46 of 2013,
+• The Enterprise is ______________% Black Designated Group Owned as per Amended Code
+Series 100 of the Amended Codes of Good Practice issued under section 9 (1) of B-BBEE Act
+No 53 of 2003 as Amended by Act No 46 of 2013,
+• Black Designated Group Owned % Breakdown as per the definition stated above:
+• Black Youth % = ______________%
+• Black Disabled % =______________%
+• Black Unemployed % =______________%
+• Black People living in Rural areas % = ______________%
+• Black Military Veterans % =______________%
+• Based on the Financial Statements/Management Accounts and other information available
+on the latest financial year-end of _________________, the annual Total Revenue was
+between R10,000,000.00 (Ten Million Rands) and R50,000,000.00 (Fifty Million Rands),
+• Please confirm on the table below the B-BBEE level contributor, by ticking the applicable
+box.
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 10 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+100% Black Owned Level One (135% B-BBEE procurement recognition
+level)
+At Least 51% black owned Level Two (125% B-BBEE procurement recognition
+level)
+1. I know and understand the contents of this affidavit, and I have no objection to take the
+prescribed oath and consider the oath binding on my conscience and on the owners of the
+enterprise which I represent in this matter.
+1. The sworn affidavit will be valid for a period of 12 months from the date signed by commissioner.
+Deponent Signature ……………………………………………….
+Date ………………………………………………..
+---
+Commissioner of Oaths
+Signature & stamp
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 11 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+APPENDIX D
+SWORN AFFIDAVIT – B-BBEE EXEMPTED MICRO ENTERPRISE – GENERAL
+I, the undersigned,
+Full name & Surname
+Identity number
+Hereby declare under oath as follows:
+1. The contents of this statement are to the best of my knowledge a true reflection of the facts.
+2. I am a Member / Director / Owner of the following enterprise and am duly authorised to act on
+its behalf:
+Enterprise Name:
+Trading Name (If
+Applicable):
+Registration
+Number:
+Enterprise Physical
+Address:
+Type of Entity (CC,
+(Pty) Ltd, Sole Prop
+etc.):
+Nature of Business:
+Definition of As per the Broad-Based Black Economic Empowerment Act 53 of
+“Black People” 2003 as Amended by Act No 46 of 2013 “Black People” is a generic
+term which means Africans, Coloureds and Indians –
+(a) who are citizens of the Republic of South Africa by birth or
+descent;
+or
+(b) who became citizens of the Republic of South Africa by
+naturalisation-
+i. before 27 April 1994; or
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 12 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+ii. on or after 27 April 1994 and who would have been
+entitled to acquire citizenship by naturalization prior to
+that date;”
+Definition of “Black “Black Designated Groups means:
+Designated Groups” (a) unemployed black people not attending and not required by
+law to attend an educational institution and not awaiting
+admission to an educational institution;
+(b) Black people who are youth as defined in the National Youth
+Commission Act of 1996;
+(c) Black people who are persons with disabilities as defined in the
+Code of Good Practice on employment of people with disabilities
+issued under the Employment Equity Act;
+(d) Black people living in rural and under developed areas;
+(e) Black military veterans who qualifies to be called a military
+veteran in terms of the Military Veterans Act 18 of 2011;”
+1. I hereby declare under Oath that:
+• The Enterprise is ______________% Black Owned as per Amended Code Series 100 of the
+Amended Codes of Good Practice issued under section 9 (1) of B-BBEE Act No 53 of 2003 as
+Amended by Act No 46 of 2013,
+• The Enterprise is ______________% Black Female Owned as per Amended Code Series 100
+of the Amended Codes of Good Practice issued under section 9 (1) of B-BBEE Act No 53 of
+2003 as Amended by Act No 46 of 2013,
+• The Enterprise is ______________% Black Designated Group Owned as per Amended Code
+Series 100 of the Amended Codes of Good Practice issued under section 9 (1) of B-BBEE Act
+No 53 of 2003 as Amended by Act No 46 of 2013,
+• Black Designated Group Owned % Breakdown as per the definition stated above:
+• Black Youth % = ______________%
+• Black Disabled % =______________%
+• Black Unemployed % =______________%
+• Black People living in Rural areas % = ______________%
+• Black Military Veterans % =______________%
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 13 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+• Based on the Financial Statements/Management Accounts and other information available
+on the latest financial year-end of _____________, the annual Total Revenue was
+R10,000,000.00 (Ten Million Rands) or less
+• Please Confirm on the below table the B-BBEE Level Contributor, by ticking the
+applicable box.
+100% Black Owned Level One (135% B-BBEE procurement recognition
+At least 51% Black Level Two (125% B-BBEE procurement recognition
+Owned level)
+Less than 51% Black Level Four (100% B-BBEE procurement recognition
+Owned level)
+1. I know and understand the contents of this affidavit, and I have no objection to take the
+prescribed oath and consider the oath binding on my conscience and on the Owners of the
+Enterprise which I represent in this matter.
+1. The sworn affidavit will be valid for a period of 12 months from the date signed by commissioner.
+Deponent Signature ……………………………………………….
+Date ………………………………………………..
+---
+Commissioner of Oaths
+Signature & stamp
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 14 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+VENDOR REGISTRATION DOCUMENTS CHECKLIST
+Please note that you will have to provide the first two documents on the list
+(highlighted in red) and the rest will be provided by the supplier:
+Yes No
+1. Complete the “Supplier Declaration Form” (SDF) (commissioned). See
+attachment.
+1. Complete the “Supplier Code of Conduct” (SCC). See attachment.
+2. Copy of cancelled cheque OR letter from the bank verifying banking
+details (with bank stamp not older than 3 Months & sign by Bank
+Teller).
+1. Certified (Not Older than 3 Months) copy of Identity document of
+Shareholders/Directors/Members (where applicable).
+1. Certified copy of certificate of incorporation, CM29 / CM9 (name
+change).
+1. Certified copy of share Certificates of Shareholders, CK1 / CK2 (if CC).
+2. A letter with the company’s letterhead confirming both Physical and
+Postal address.
+1. Original or certified copy of SARS Tax Clearance certificate and Vat
+registration certificate.
+1. BBBEE certificate and detailed scorecard from a SANAS Accredited
+Verification Agency and/or Sworn Certified Affidavit.
+1. Central Supplier Database (CSD) Summary Registration Report.
+Part T2: Returnable Schedules
+CPM 2020 Rev01 Page 15 of 15 T2.2-09: Supplier Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-10: RFQ DECLARATION FORM
+NAME OF COMPANY: _______________________________________________________We______________________________________________________ do hereby certify that:
+1. Transnet has supplied and we have received appropriate tender offers to any/all questions
+(as applicable) which were submitted by ourselves for tender clarification purposes;
+1. we have received all information we deemed necessary for the completion of this Tender;
+2. at no stage have we received additional information relating to the subject matter of this
+tender from Transnet sources, other than information formally received from the
+designated Transnet contact(s) as nominated in the tender documents;
+1. we are satisfied, insofar as our company is concerned, that the processes and procedures
+adopted by Transnet in issuing this tender and the requirements requested from tenderers
+in responding to this tender have been conducted in a fair and transparent manner; and
+1. furthermore, we acknowledge that a direct relationship exists between a family member
+and/or an owner / member / director / partner / shareholder (unlisted companies) of our
+company and an employee or board member of the Transnet Group as indicated below:
+[Respondent to indicate if this section is not applicable]
+FULL NAME OF OWNER/MEMBER/DIRECTOR/
+PARTNER/SHAREHOLDER: ADDRESS:
+---
+---
+---
+Indicate nature of relationship with Transnet:
+---
+---
+---
+---
+[Failure to furnish complete and accurate information in this regard may lead to
+the disqualification of your response and may preclude a Respondent from
+doing future business with Transnet]
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 1 of 3 T2.2-10: RFQ Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+We declare, to the extent that we are aware or become aware of any
+relationship between ourselves and Transnet (other than any existing and appropriate
+business relationship with Transnet) which could unfairly advantage our company in the
+forthcoming adjudication process, we shall notify Transnet immediately in writing of such
+circumstances.
+1. We accept that any dispute pertaining to this tender will be resolved through
+the Ombudsman process and will be subject to the Terms of Reference of the
+Ombudsman. The Ombudsman process must first be exhausted before judicial
+review of a decision is sought. (Refer “Important Notice to respondents”
+below).
+1. We further accept that Transnet reserves the right to reverse a tender award
+or decision based on the recommendations of the Ombudsman without having
+to follow a formal court process to have such award or decision set aside.
+1. We have acquainted ourselves and agree with the content of T2.2-18 “Service
+Provider Integrity Pact”.
+For and on behalf of
+………………………………………………………………………………………………………………………..……
+duly authorised thereto
+Name:
+Signature:
+Date:
+IMPORTANT NOTICE TO TENDERERS
+• Transnet has appointed a Procurement Ombudsman to investigate any material complaint
+in respect of tenders exceeding R5,000,000.00 (five million S.A. Rand) in value. Should a
+Tenderer have any material concern regarding an tender process which meets this value
+threshold, a complaint may be lodged with Transnet’s Procurement Ombudsman for further
+investigation.
+• It is incumbent on the Tenderer to familiarise himself/herself with the Terms of Reference
+for the Transnet Procurement Ombudsman, details of which are available for review at
+Transnet’s website www.transnet.net.
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 2 of 3 T2.2-10: RFQ Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+• An official complaint form may be downloaded from this website and
+submitted, together with any supporting documentation, within the prescribed period, to
+procurement.ombud@transnet.net
+• For transactions below the R5,000,000.00 (five million S.A. Rand) threshold, a complaint
+may be lodged with the Chief Procurement Officer of the relevant Transnet Operating
+Division.
+• All Tenderers should note that a complaint must be made in good faith. If a complaint is
+made in bad faith, Transnet reserves the right to place such a tenderer on its List of
+Excluded Bidders.
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 3 of 3 T2.2-10: RFQ Declaration Form
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-11: Service Provider Integrity Pact
+Important Note: All potential tenderers must read this document and certify in the
+RFQ Declaration Form that that have acquainted themselves with and agree with
+the content.
+The contract with the successful tenderer will automatically incorporate this
+Integrity Pact and shall be deemed as part of the final concluded contract.
+INTEGRITY PACT
+Between
+TRANSNET SOC LTD
+Registration Number: 1990/000900/30
+(“Transnet”)
+and
+The Contractor (hereinafter referred to as the “Tenderer/Service Providers/Contractor”)
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 1 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+PREAMBLE
+Transnet values full compliance with all relevant laws and regulations, ethical standards and
+the principles of economical use of resources, fairness and transparency in its relations with
+its Tenderers/Service Providers/Contractors.
+In order to achieve these goals, Transnet and the Tenderer/Service Provider/Contractor
+hereby enter into this agreement hereinafter referred to as the “Integrity Pact” which will form
+part of the Tenderer’s/Service Provider’s/Contractor’s application for registration with Transnet
+as a vendor.
+The general purpose of this Integrity Pact is to agree on avoiding all forms of dishonesty,
+fraud and corruption by following a system that is fair, transparent and free from any undue
+influence prior to, during and subsequent to the currency of any procurement and/or reverse
+logistics event and any further contract to be entered into between the Parties, relating to
+such event.
+All Tenderers/Service Providers/Contractor’s will be required to sign and comply with
+undertakings contained in this Integrity Pact, should they want to be registered as a Transnet
+vendor.
+1 OBJECTIVES
+1.1 Transnet and the Tenderer/Service Provider/Contractor agree to enter into this
+Integrity Pact, to avoid all forms of dishonesty, fraud and corruption including
+practices that are anti-competitive in nature, negotiations made in bad faith and
+under-pricing by following a system that is fair, transparent and free from any
+influence/unprejudiced dealings prior to, during and subsequent to the currency
+of the contract to be entered into with a view to:
+a) Enable Transnet to obtain the desired contract at a reasonable and
+competitive price in conformity to the defined specifications of the works,
+goods and services; and
+b) Enable Tenderers/Service Providers/Contractors to abstain from bribing or
+participating in any corrupt practice in order to secure the contract.
+2 COMMITMENTS OF TRANSNET
+Transnet commits to take all measures necessary to prevent dishonesty, fraud and
+corruption and to observe the following principles:
+2.1 Transnet hereby undertakes that no employee of Transnet connected directly or
+indirectly with the sourcing event and ensuing contract, will demand, take a
+promise for or accept directly or through intermediaries any bribe, consideration,
+gift, reward, favour or any material or immaterial benefit or any other advantage
+from the Tenderer, either for themselves or for any person, organisation or third
+party related to the contract in exchange for an advantage in the tendering
+process, Tender evaluation, contracting or implementation process related to any
+contract.
+2.2 Transnet will, during the registration and tendering process treat all Tenderers/
+Service Providers/Contractor with equity, transparency and fairness. Transnet
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 2 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+will in particular, before and during the registration process, provide
+to all Tenderers/ Service Providers/Contractors the same information and will not
+provide to any Tenderers/Service Providers/Contractors confidential/additional
+information through which the Tenderers/Service Providers/Contractors could
+obtain an advantage in relation to any tendering process.
+2.3 Transnet further confirms that its employees will not favour any prospective
+Tenderers/Service Providers/Contractors in any form that could afford an undue
+advantage to a particular Tenderer during the tendering stage, and will further
+treat all Tenderers/Service Providers/Contractors participating in the tendering
+process in a fair manner.
+2.4 Transnet will exclude from the tender process such employees who have any
+personal interest in the Tenderers/Service Providers/Contractors participating in
+the tendering process.
+3 OBLIGATIONS OF THE TENDERER / SERVICE PROVIDER
+3.1 Transnet has a ‘Zero Gifts’ Policy. No employee is allowed to accept gifts,
+favours or benefits.
+a) Transnet officials and employees shall not solicit, give or accept, or from
+agreeing to solicit, give, accept or receive directly or indirectly, any gift,
+gratuity, favour, entertainment, loan, or anything of monetary value, from any
+person or juridical entities in the course of official duties or in connection with
+any operation being managed by, or any transaction which may be affected by
+the functions of their office.
+b) Transnet officials and employees shall not solicit or accept gifts of any kind,
+from vendors, suppliers, customers, potential employees, potential vendors,
+and suppliers, or any other individual or organisation irrespective of the value.
+c) Under no circumstances should gifts, business courtesies or hospitality
+packages be accepted from or given to prospective suppliers participating in a
+tender process at the respective employee’s Operating Division, regardless of
+retail value.
+d) Gratuities, bribes or kickbacks of any kind must never be solicited, accepted or
+offered, either directly or indirectly. This includes money, loans, equity, special
+privileges, personal favours, benefit or services. Such favours will be considered
+to constitute corruption.
+3.2 The Tenderer/Service Provider/Contractor commits itself to take all measures
+necessary to prevent corrupt practices, unfair means and illegal activities during
+any stage of its Tender or during any ensuing contract stage in order to secure
+the contract or in furtherance to secure it and in particular the Tenderer/Service
+Provider/Contractor commits to the following:
+a) The Tenderer/Service Provider/Contractor will not, directly or through any
+other person or firm, offer, promise or give to Transnet or to any of
+Transnet’s employees involved in the tendering process or to any third
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 3 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+person any material or other benefit or payment, in order to obtain
+in exchange an advantage during the tendering process; and
+b) The Tenderer/Service Provider/Contractor will not offer, directly or through
+intermediaries, any bribe, gift, consideration, reward, favour, any material
+or immaterial benefit or other advantage, commission, fees, brokerage or
+inducement to any employee of Transnet, connected directly or indirectly
+with the tendering process, or to any person, organisation or third party
+related to the contract in exchange for any advantage in the tendering,
+evaluation, contracting and implementation of the contract.
+3.3 The Tenderer/Service Provider/Contractor will not collude with other parties
+interested in the contract to preclude a competitive Tender price, impair the
+transparency, fairness and progress of the tendering process, Tender evaluation,
+contracting and implementation of the contract. The Tenderer / Service Provider
+further commits itself to delivering against all agreed upon conditions as
+stipulated within the contract.
+3.4 The Tenderer/Service Provider/Contractor will not enter into any illegal or
+dishonest agreement or understanding, whether formal or informal with other
+Tenderers/Service Providers/Contractors. This applies in particular to
+certifications, submissions or non-submission of documents or actions that are
+restrictive or to introduce cartels into the tendering process.
+3.5 The Tenderer/Service Provider/Contractor will not commit any criminal offence
+under the relevant anti-corruption laws of South Africa or any other country.
+Furthermore, the Tenderer/Service Provider/Contractor will not use for
+illegitimate purposes or for restrictive purposes or personal gain, or pass on to
+others, any information provided by Transnet as part of the business relationship,
+regarding plans, technical proposals and business details, including information
+contained or transmitted electronically.
+3.6 A Tenderer/Service Provider/Contractor of foreign origin shall disclose the name
+and address of its agents or representatives in South Africa, if any, involved
+directly or indirectly in the registration or tendering process. Similarly, the
+Tenderer / Service Provider / Contractor of South African nationality shall furnish
+the name and address of the foreign principals, if any, involved directly or
+indirectly in the registration or tendering process.
+3.7 The Tenderer/Service Provider/Contractor will not misrepresent facts or furnish
+false or forged documents or information in order to influence the tendering
+process to the advantage of the Tenderer/Service Provider/Contractor or
+detriment of Transnet or other competitors.
+3.8 Transnet may require the Tenderer/Service Provider/Contractor to furnish
+Transnet with a copy of its code of conduct. Such code of conduct must address
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 4 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+the compliance programme for the implementation of the code of
+conduct and reject the use of bribes and other dishonest and unethical conduct.
+3.9 The Tenderer/Service Provider/Contractor will not instigate third persons to
+commit offences outlined above or be an accessory to such offences.
+3.10 The Tenderer/Service Provider/Contractor confirms that they will uphold the ten
+principles of the United Nations Global Compact (UNGC) in the fields of Human
+Rights, Labour, Anti-Corruption and the Environment when undertaking business
+with Transnet as follows:
+a) Human Rights
+• Principle 1: Businesses should support and respect the protection of
+internationally proclaimed human rights; and
+• Principle 2: make sure that they are not complicit in human rights abuses.
+b) Labour
+• Principle 3: Businesses should uphold the freedom of association and the
+effective recognition of the right to collective bargaining;
+• Principle 4: the elimination of all forms of forced and compulsory labour;
+• Principle 5: the effective abolition of child labour; and
+• Principle 6: the elimination of discrimination in respect of employment and
+occupation.
+c) Environment
+• Principle 7: Businesses should support a precautionary approach to
+environmental challenges;
+• Principle 8: undertake initiatives to promote greater environmental responsibility;
+and
+• Principle 9: encourage the development and diffusion of environmentally friendly
+technologies.
+d) Anti-Corruption
+• Principle 10: Businesses should work against corruption in all its forms,
+including extortion and bribery.
+4 INDEPENDENT TENDERING
+4.1 For the purposes of that Certificate in relation to any submitted Tender, the
+Tenderer declares to fully understand that the word “competitor” shall include
+any individual or organisation, other than the Tenderer, whether or not affiliated
+with the Tenderer, who:
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 5 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+a) has been requested to submit a Tender in response to this Tender
+invitation;
+b) could potentially submit a Tender in response to this Tender invitation,
+based on their qualifications, abilities or experience; and
+c) provides the same Goods and Services as the Tenderer and/or is in the same
+line of business as the Tenderer.
+4.2 The Tenderer has arrived at his submitted Tender independently from, and
+without consultation, communication, agreement or arrangement with any
+competitor. However communication between partners in a joint venture or
+consortium will not be construed as collusive tendering.
+4.3 In particular, without limiting the generality of paragraph 5 above, there has
+been no consultation, communication, agreement or arrangement with any
+competitor regarding:
+a) prices;
+b) geographical area where Goods or Services will be rendered [market
+allocation];
+c) methods, factors or formulas used to calculate prices;
+d) the intention or decision to submit or not to submit, a Tender;
+e) the submission of a Tender which does not meet the specifications and
+conditions of the RFQ; or
+f) tendering with the intention of not winning the Tender.
+4.4 In addition, there have been no consultations, communications, agreements or
+arrangements with any competitor regarding the quality, quantity, specifications
+and conditions or delivery particulars of the Goods or Services to which his/her
+tender relates.
+4.5 The terms of the Tender as submitted have not been, and will not be, disclosed
+by the Tenderer, directly or indirectly, to any competitor, prior to the date and
+time of the official Tender opening or of the awarding of the contract.
+4.6 Tenderers are aware that, in addition and without prejudice to any other remedy
+provided to combat any restrictive practices related to Tenders and contracts,
+Tenders that are suspicious will be reported to the Competition Commission for
+investigation and possible imposition of administrative penalties in terms of
+section 59 of the Competition Act No 89 of 1998 and/or may be reported to the
+National Prosecuting Authority [NPA] for criminal investigation and/or may be
+restricted from conducting business with the public sector for a period not
+exceeding 10 [ten] years in terms of the Prevention and Combating of Corrupt
+Activities Act No 12 of 2004 or any other applicable legislation.
+4.7 Should the Tenderer find any terms or conditions stipulated in any of the relevant
+documents quoted in the Tender unacceptable, it should indicate which
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 6 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+conditions are unacceptable and offer alternatives by written
+submission on its company letterhead, attached to its submitted Tender. Any
+such submission shall be subject to review by Transnet’s Legal Counsel who shall
+determine whether the proposed alternative(s) are acceptable or otherwise, as
+the case may be.
+5 DISQUALIFICATION FROM TENDERING PROCESS
+5.1 If the Tenderer/Service Provider/Contractor has committed a transgression
+through a violation of section 3 of this Integrity Pact or in any other form such
+as to put its reliability or credibility as a Tenderer/Service Provider/Contractor
+into question, Transnet may reject the Tenderer’s / Service Provider’s /
+Contractor’s application from the registration or tendering process and remove
+the Tenderer/Service Provider/Contractor from its database, if already
+registered.
+5.2 If the Tenderer/Service Provider/Contractor has committed a transgression
+through a violation of section 3, or any material violation, such as to put its
+reliability or credibility into question. Transnet may after following due
+procedures and at its own discretion also exclude the Tenderer/Service Provider
+/Contractor from future tendering processes. The imposition and duration of the
+exclusion will be determined by the severity of the transgression. The severity
+will be determined by the circumstances of the case, which will include amongst
+others the number of transgressions, the position of the transgressors within the
+company hierarchy of the Tenderer/Service Provider/Contractor and the amount
+of the damage. The exclusion will be imposed for up to a maximum of 10 (ten)
+years. However, Transnet reserves the right to impose a longer period of
+exclusion, depending on the gravity of the misconduct.
+5.3 If the Tenderer/Service Provider/Contractor can prove that it has restored the
+damage caused by it and has installed a suitable corruption prevention system,
+or taken other remedial measures as the circumstances of the case may require,
+Transnet may at its own discretion revoke the exclusion or suspend the imposed
+penalty.
+6 TRANSNET’S LIST OF EXCLUDED TENDERERS (BLACKLIST)
+6.1 The process of restriction is used to exclude a company/person from conducting
+future business with Transnet and other organs of state for a specified period. No
+Tender shall be awarded to a Tenderer whose name (or any of its members,
+directors, partners or trustees) appear on the Register of Tender Defaulters kept
+by National Treasury, or who have been placed on National Treasury’s List of
+Restricted Suppliers. Transnet reserves the right to withdraw an award, or cancel
+a contract concluded with a Tenderer should it be established, at any time, that a
+tenderer has been restricted with National Treasury by another government
+institution.
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 7 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+6.2 All the stipulations on Transnet’s restriction process as laid down in
+Transnet’s Supply Chain Policy and Procurement Procedures Manual (CPM
+included) are included herein by way of reference. Below follows a condensed
+summary of this restriction procedure.
+6.3 On completion of the restriction procedure, Transnet will submit the restricted
+entity’s details (including the identity number of the individuals and registration
+number of the entity) to National Treasury for placement on National Treasury’s
+Database of Restricted Suppliers for the specified period of exclusion. National
+Treasury will make the final decision on whether to restrict an entity from doing
+business with any organ of state for a period not exceeding 10 years and place
+the entity concerned on the Database of Restricted Suppliers published on its
+official website.
+6.4 The decision to restrict is based on one of the grounds for restriction. The standard
+of proof to commence the restriction process is whether a “prima facie” (i.e. on
+the face of it) case has been established.
+6.5 Depending on the seriousness of the misconduct and the strategic importance of
+the Goods/Services, in addition to restricting a company/person from future
+business, Transnet may decide to terminate some or all existing contracts with the
+company/person as well.
+6.6 A Service Provider or Contractor to Transnet may not subcontract any portion of
+the contract to a blacklisted company.
+6.7 Grounds for blacklisting include: If any person/Enterprise which has submitted a
+Tender, concluded a contract, or, in the capacity of agent or subcontractor, has
+been associated with such Tender or contract:
+a) Has, in bad faith, withdrawn such Tender after the advertised closing date
+and time for the receipt of Tenders;
+b) has, after being notified of the acceptance of his Tender, failed or refused
+to sign a contract when called upon to do so in terms of any condition
+forming part of the Tender documents;
+c) has carried out any contract resulting from such Tender in an unsatisfactory
+manner or has breached any condition of the contract;
+d) has offered, promised or given a bribe in relation to the obtaining or
+execution of the contract;
+e) has acted in a fraudulent or improper manner or in bad faith towards
+Transnet or any Government Department or towards any public body,
+Enterprise or person;
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 8 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+f) has made any incorrect statement in a certificate or other
+communication with regard to the Local Content of his Goods or his B-BBEE
+status and is unable to prove to the satisfaction of Transnet that:
+(i) he made the statement in good faith honestly believing it to be correct;
+and
+(ii) before making such statement he took all reasonable steps to satisfy
+himself of its correctness;
+g) caused Transnet damage, or to incur costs in order to meet the contractor’s
+requirements and which could not be recovered from the contractor;
+h) has litigated against Transnet in bad faith.
+6.8 Grounds for blacklisting include a company/person recorded as being a company
+or person prohibited from doing business with the public sector on National
+Treasury’s database of Restricted Service Providers or Register of Tender
+Defaulters.
+6.9 Companies associated with the person/s guilty of misconduct (i.e. entities
+owned, controlled or managed by such persons), any companies subsequently
+formed by the person(s) guilty of the misconduct and/or an existing company
+where such person(s) acquires a controlling stake may be considered for
+blacklisting. The decision to extend the blacklist to associated companies will be
+at the sole discretion of Transnet.
+7 PREVIOUS TRANSGRESSIONS
+7.1 The Tenderer/Service Provider/Contractor hereby declares that no previous
+transgressions resulting in a serious breach of any law, including but not limited
+to, corruption, fraud, theft, extortion and contraventions of the Competition Act
+89 of 1998, which occurred in the last 5 (five) years with any other public sector
+undertaking, government department or private sector company that could
+justify its exclusion from its registration on the Tenderer’s/Service
+Provider’s/Contractor’s database or any tendering process.
+7.2 If it is found to be that the Tenderer/Service Provider/Contractor made an
+incorrect statement on this subject, the Tenderer/Service Provider/Contractor
+can be rejected from the registration process or removed from the Tenderer/
+Service Provider/Contractor database, if already registered, for such reason
+(refer to the Breach of Law Returnable Form contained in the document.)
+8 SANCTIONS FOR VIOLATIONS
+8.1 Transnet shall also take all or any of the following actions, wherever required to:
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 9 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+a) Immediately exclude the Tenderer/Service Provider/Contractor from the
+tendering process or call off the pre-contract negotiations without giving any
+compensation the Tenderer/Service Provider/Contractor. However, the
+proceedings with the other Tenderer/ Service Provider/Contractor may continue;
+b) Immediately cancel the contract, if already awarded or signed, without giving any
+compensation to the Tenderer/Service Provider/Contractor;
+c) Recover all sums already paid by Transnet;
+d) Encash the advance bank guarantee and performance bond or warranty bond, if
+furnished by the Tenderer/Service Provider/Contractor, in order to recover the
+payments, already made by Transnet, along with interest;
+e) Cancel all or any other contracts with the Tenderer/Service Provider/Contractor;
+and
+f) Exclude the Tenderer/ Service Provider/Contractor from entering into any Tender
+with Transnet in future.
+9 CONFLICTS OF INTEREST
+9.1 A conflict of interest includes, inter alia, a situation in which:
+a) A Transnet employee has a personal financial interest in a tendering / supplying
+entity; and
+b) A Transnet employee has private interests or personal considerations or has an
+affiliation or a relationship which affects, or may affect, or may be perceived to
+affect his / her judgment in action in the best interest of Transnet, or could affect
+the employee’s motivations for acting in a particular manner, or which could result
+in, or be perceived as favouritism or nepotism.
+9.2 A Transnet employee uses his / her position, or privileges or information obtained
+while acting in the capacity as an employee for:
+a) Private gain or advancement; or
+b) The expectation of private gain, or advancement, or any other advantage accruing
+to the employee must be declared in a prescribed form.
+Thus, conflicts of interest of any Tender committee member or any person
+involved in the sourcing process must be declared in a prescribed form.
+9.3 If a Tenderer/Service Provider/Contractor has or becomes aware of a conflict of
+interest i.e. a family, business and / or social relationship between its owner(s)/
+member(s)/director(s)/partner(s)/shareholder(s) and a Transnet employee/
+member of Transnet’s Board of Directors in respect of a Tender which will be
+considered for the Tender process, the Tenderer/Service Provider/ Contractor:
+a) must disclose the interest and its general nature, in the Request for Proposal
+(“RFX”) declaration form; or
+b) must notify Transnet immediately in writing once the circumstances has arisen.
+9.4 The Tenderer/Service Provider/Contractor shall not lend to or borrow any money
+from or enter into any monetary dealings or transactions, directly or indirectly,
+with any committee member or any person involved in the sourcing process,
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 10 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+where this is done, Transnet shall be entitled forthwith to rescind the
+contract and all other contracts with the Tenderer/Service Provider/Contractor.
+10 DISPUTE RESOLUTION
+10.1 Transnet recognises that trust and good faith are pivotal to its relationship with
+its Tenderer / Service Provider / Contractor. When a dispute arises between
+Transnet and its Tenderer / Service Provider / Contractor, the parties should use
+their best endeavours to resolve the dispute in an amicable manner, whenever
+possible. Litigation in bad faith negates the principles of trust and good faith on
+which commercial relationships are based. Accordingly, following a blacklisting
+process as mentioned in paragraph 6 above, Transnet will not do business with
+a company that litigates against it in bad faith or is involved in any action that
+reflects bad faith on its part. Litigation in bad faith includes, but is not limited to
+the following instances:
+a) Vexatious proceedings: these are frivolous proceedings which have been
+instituted without proper grounds;
+b) Perjury: where a Tenderer / Service Provider / Contractor make a false statement
+either in giving evidence or on an affidavit;
+c) Scurrilous allegations: where a Tenderer / Service Provider / Contractor makes
+allegations regarding a senior Transnet employee which are without proper
+foundation, scandalous, abusive or defamatory; and
+d) Abuse of court process: when a Tenderer / Service Provider / Contractor abuses
+the court process in order to gain a competitive advantage during a Tender
+process.
+11 GENERAL
+11.1 This Integrity Pact is governed by and interpreted in accordance with the laws
+of the Republic of South Africa.
+11.2 The actions stipulated in this Integrity Pact are without prejudice to any other
+legal action that may follow in accordance with the provisions of the law relating
+to any civil or criminal proceedings.
+11.3 The validity of this Integrity Pact shall cover all the tendering processes and will
+be valid for an indefinite period unless cancelled by either Party.
+11.4 Should one or several provisions of this Integrity Pact turn out to be invalid the
+remainder of this Integrity Pact remains valid.
+11.5 Should a Tenderer/Service Provider/Contractor be confronted with dishonest,
+fraudulent or corruptive behaviour of one or more Transnet employees, Transnet
+expects its Tenderer/Service Provider/Contractor to report this behaviour directly
+to a senior Transnet official/employee or alternatively by using Transnet’s “Tip-
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 11 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Off Anonymous” hotline number 0800 003 056, whereby your
+confidentiality is guaranteed.
+The Parties hereby declare that each of them has read and understood the clauses of
+this Integrity Pact and shall abide by it. To the best of the Parties’ knowledge and belief,
+the information provided in this Integrity Pact is true and correct.
+I ……………………………………….. duly authorised by the tendering entity, hereby certify
+that the tendering entity are fully acquainted with the contents of the Integrity Pact
+and further agree to abide by it in full.
+Signature …………………………………
+Date ………………………………………..
+T2.2-11: Service Provider Integrity Pact
+CPM 2020 Rev02 Page 12 of 12 Private & Confidential
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-12: REQUEST FOR QUOTATION – BREACH OF LAW
+NAME OF COMPANY: _______________________________________________________I / We___________________________________________________________ do hereby
+certify that I/we have/have not been found guilty during the preceding 5 (five) years of a
+serious breach of law, including but not limited to a breach of the Competition Act, 89 of
+1998, by a court of law, tribunal or other administrative body. The type of breach that the
+Tenderer is required to disclose excludes relatively minor offences or misdemeanours, e.g.
+traffic offences.
+Where found guilty of such a serious breach, please disclose:
+NATURE OF BREACH:
+---
+---
+---
+DATE OF BREACH:
+---
+Furthermore, I/we acknowledge that Transnet SOC Ltd reserves the right to exclude any
+Tenderer from the tendering process, should that person or company have been found guilty
+of a serious breach of law, tribunal or regulatory obligation.
+Signed on this _____day of_________________ 20____
+---
+SIGNATURE OF TENDER
+CPM 2020 Rev01 Part T2: Returnable Schedules
+Page 1 of 1 T2.2-12: RFQ – Breach of Law
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-13: Agreement in terms of Protection of Personal Information
+Act, 4 of 2013 (“POPIA”)
+1. PREAMBLE AND INTRODUCTION
+1.1. The rights and obligation of the Parties in terms of the Protection of Personal Information Act,
+4 of 2013 (“POPIA”) are included as forming part of the terms and conditions of this contract.
+1. PROTECTION OF PERSONAL INFORMATION
+2.1. The following terms shall bear the same meaning as contemplated in Section 1 of the Protection
+of Person information act, No. of 2013 ”(POPIA”):
+consent; data subject; electronic communication; information officer; operator; person;
+personal information; processing; record; Regulator; responsible party; special information; as
+well as any terms derived from these terms.
+2.2. The Operator will process all information by the Transnet in terms of the requirements
+contemplated in Section 4(1) of the POPIA:
+Accountability; Processing limitation; Purpose specification; Further processing limitation;
+Information quality; Openness; Security safeguards and Data subject participation.
+2.3. The Parties acknowledge and agree that, in relation to personal information of Transnet and
+the information of a third party that will be processed pursuant to this Agreement, the Operator
+is (...............................................................name of Tenderer/Contractor) hereinafter
+Operator and the Data subject is “Transnet”. Operator will process personal information only
+with the knowledge and authorisation of Transnet and will treat personal information and the
+information of a third party which comes to its knowledge as confidential and will not disclose
+it, unless so required by law or subject to the exceptions contained in the POPIA.
+2.4. Transnet reserves all the rights afforded to it by the POPIA in the processing of any of its
+information as contained in this Agreement and the Operator is required to comply with all
+prescripts as detailed in the POPIA relating to all information concerning Transnet.
+2.5. In terms of this Agreement, the Operator acknowledges that it will obtain and have access to
+personal information of Transnet and the information of a third party and agrees that it shall
+only process the information disclosed by Transnet in terms of this Agreement and only for the
+purposes as detailed in this Agreement and in accordance with any applicable law.
+2.6. Should there be a need for the Operator to process the personal information and the
+information of a third party in a way that is not agreed to in this Agreement, the Operator must
+request consent from Transnet to the processing of its personal information or and the
+information of a third party in a manner other than that it was collected for, which consent
+cannot be unreasonably withheld.
+CPM 2021 Rev 01 Part T2: Returnable Schedules
+Page 1 of 3 T2.2-13: Agreement in terms of Protection of
+Personal Information Act, 4 of 2013 (“POPIA”)
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+2.7. Furthermore, the Operator will not otherwise modify, amend or alter any personal information
+and the information of a third party submitted by Transnet or disclose or permit the disclosure
+of any personal information and the information of a third party to any third party without prior
+written consent from Transnet.
+2.8. The Operator shall, at all times, ensure compliance with any applicable laws put in place and
+maintain sufficient measures, policies and systems to manage and secure against all forms of
+risks to any information that may be shared or accessed pursuant to the services offered to
+Transnet in terms of this Agreement (physically, through a computer or any other form of
+electronic communication).
+2.9. The Operator shall notify Transnet in writing of any unauthorised access to personal information
+and the information of a third party, cybercrimes or suspected cybercrimes, in its knowledge
+and report such crimes or suspected crimes to the relevant authorities in accordance with
+applicable laws, after becoming aware of such crimes or suspected crime. The Operator must
+inform Transnet of the breach as soon as it has occurred to allow Transnet to take all necessary
+remedial steps to mitigate the extent of the loss or compromise of personal information and
+the information of a third party and to restore the integrity of the affected personal information
+as quickly as is possible.
+2.10. Transnet may, in writing, request the Operator to confirm and/or make available any personal
+information and the information of a third party in its possession in relation to Transnet and if
+such personal information has been accessed by third parties and the identity thereof in terms
+of the POPIA.
+2.11. Transnet may further request that the Operator correct, delete, destroy, withdraw consent or
+object to the processing of any personal information and the information of a third party relating
+to the Transnet or a third party in the Operator’s s possession in terms of the provision of the
+POPIA and utilizing Form 2 of the POPIA Regulations.
+2.12. In signing this addendum that is in terms of the POPIA, the Operator hereby agrees that it has
+adequate measures in place to provide protection of the personal information and the
+information of a third party given to it by Transnet in line with the 8 conditions of the POPIA
+and that it will provide to Transnet satisfactory evidence of these measures whenever called
+upon to do so by Transnet.
+The Operator is required to provide confirmation that all measures in terms of the POPIA
+are in place when processing personal information and the information of a third party
+received from Transnet:
+YES NO
+CPM 2021 Rev 01Part T2: Returnable Schedules Page 2 of 3 T2.2-13: Agreement in terms of
+Protection of Personal Information
+Act, 4 of 2013 (“POPIA”)
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+2.13. Further, the Operator acknowledges that it will be held liable by Transnet should it fail to
+process personal information in line with the requirements of the POPIA. The Operator will be
+subject to any civil or criminal action, administrative fines or other penalty or loss that may
+arise as a result of the processing of any personal information that Transnet submitted to it.
+2.14. Should a Tenderer have any complaints or objections to processing of its personal information,
+by Transnet, the Tenderer can submit a complaint to the Information Regulator on
+https://www.justice.gov.za/inforeg/, click on contact us, click on complaints.IR@justice.gov.za
+1. SOLE AGREEMENT
+3.1. The Agreement, constitute the sole agreement between the parties relating to the subject
+matter referred to in paragraph 1.1 of this and no amendment/variation/change shall be of any
+force and effect unless reduced to writing and signed by or on behalf of both parties.
+Signed at ____________________on this______day of _____________________ 2026
+Name: _________________________Title:_________________________Signature:______________________
+………………………………………………………………. (Pty) Ltd
+(Operator)
+Authorised signatory for and on behalf of ………………………………………………………………. (Pty) Ltd who
+warrants that he/she is duly authorised to sign this Agreement.
+AS WITNESSES:
+1. Name: ________________________Signature:_______________________2. Name:________________________Signature:_______________________
+CPM 2021 Rev 01Part T2: Returnable Schedules Page 3 of 3 T2.2-13: Agreement in terms of
+Protection of Personal Information
+Act, 4 of 2013 (“POPIA”)
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-14: Certificate of Acquaintance with Tender Documents
+NAME OF TENDERING ENTITY:
+---
+1. By signing this certificate, I/we acknowledge that I/we have made myself/ourselves
+thoroughly familiar with, and agree with all the conditions governing this RFP. This
+includes those terms and conditions of the Contract, the Supplier Integrity Pact, Non-
+Disclosure Agreement etc. contained in any printed form stated to form part of the
+documents thereof, but not limited to those listed in this clause.
+1. I/we furthermore agree that Transnet SOC Ltd shall recognise no claim from me/us for
+relief based on an allegation that I/we overlooked any tender/contract condition or failed
+to take it into account for the purpose of calculating my/our offered prices or otherwise.
+1. I/we understand that the accompanying Tender will be disqualified if this Certificate is
+found not to be true and complete in every respect.
+1. For the purposes of this Certificate and the accompanying Tender, I/we understand that
+the word “competitor” shall include any individual or organisation, other than the
+Tenderer, whether or not affiliated with the Tenderer, who:
+a) has been requested to submit a Tender in response to this Tender invitation;
+b) could potentially submit a Tender in response to this Tender invitation, based on
+their qualifications, abilities or experience; and
+c) provides the same Services as the Tenderer and/or is in the same line of business
+as the Tenderer
+1. The Tenderer has arrived at the accompanying Tender independently from, and without
+consultation, communication, agreement or arrangement with any competitor.
+However, communication between partners in a joint venture or consortium will not be
+construed as collusive Tendering.
+1. In particular, without limiting the generality of paragraph 5 above, there has been no
+consultation, communication, agreement or arrangement with any competitor
+regarding:
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 1 of 2 T2.2-14: Certificate of Acquaintance with
+Tender Documents
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+a) prices;
+b) geographical area where Services will be rendered [market allocation]
+c) methods, factors or formulas used to calculate prices;
+d) the intention or decision to submit or not to submit, a Tender;
+e) the submission of a tender which does not meet the specifications and conditions
+of the tender; or
+f) Tendering with the intention not winning the tender.
+1. In addition, there have been no consultations, communications, agreements or
+arrangements with any competitor regarding the quality, quantity, specifications and
+conditions or delivery particulars of the Services to which this tender relates.
+1. The terms of the accompanying tender have not been, and will not be, disclosed by the
+Tenderer, directly or indirectly, to any competitor, prior to the date and time of the
+official tender opening or of the awarding of the contract.
+1. I/We am/are aware that, in addition and without prejudice to any other remedy provided
+to combat any restrictive practices related to tenders and contracts, tenders that are
+suspicious will be reported to the Competition Commission for investigation and possible
+imposition of administrative penalties in terms of section 59 of the Competition Act No
+89 of 1998 and/or may be reported to the National Prosecuting Authority [NPA] for
+criminal investigation. In addition, Tenderers that submit suspicious tenders may be
+restricted from conducting business with the public sector for a period not exceeding 10
+[ten] years in terms of the Prevention and Combating of Corrupt Activities Act No 12 of
+2004 or any other applicable legislation.
+Signed on this _____day of___________________20___
+---
+SIGNATURE OF TENDERER
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 2 of 2 T2.2-14: Certificate of Acquaintance with
+Tender Documents
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+T2.2-15: Supplier Code of Conduct
+Transnet SOC Limited aims to achieve the best value for money when buying or selling goods
+and obtaining services. This however must be done in an open and fair manner that supports
+and drives a competitive economy. Underpinning our process are several acts and policies that
+any supplier dealing with Transnet must understand and support. These are:
+• The Transnet Procurement Policy – A guide for Tenderers.
+• Section 217 of the Constitution - the five pillars of Public PSCM (Procurement and Supply
+Chain Management): fair, equitable, transparent, competitive and cost effective;
+• The Public Finance Management Act (PFMA);
+• The Broad Based Black Economic Empowerment Act (BBBEE)
+• The Prevention and Combating of Corrupt Activities Act (PRECCA); and
+• The Construction Industry Development Board Act (CIDB Act).
+This code of conduct has been included in this contract to formally appraise Transnet Suppliers
+of Transnet’s expectations regarding behaviour and conduct of its Suppliers.
+Prohibition of Bribes, Kickbacks, Unlawful Payments, and Other Corrupt Practices
+Transnet is in the process of transforming itself into a self-sustaining State Owned Enterprise,
+actively competing in the logistics industry. Our aim is to become a world class, profitable,
+logistics organisation. As such, our transformation is focused on adopting a performance culture
+and to adopt behaviours that will enable this transformation.
+1. Transnet SOC Limited will not participate in corrupt practices. Therefore, it
+expects its suppliers to act in a similar manner.
+• Transnet and its employees will follow the laws of this country and keep accurate
+business records that reflect actual transactions with, and payments to, our
+suppliers.
+• Employees must not accept or request money or anything of value, directly or
+indirectly, from suppliers.
+• Employees may not receive anything that is calculated to:
+- Illegally influence their judgement or conduct or to ensure the desired outcome
+of a sourcing activity;
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 1 of 3 T2.2-15:: Supplier Code of Conduct
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+- Win or retain business or to influence any act or decision of any
+person involved in sourcing decisions; or
+- Gain an improper advantage.
+• There may be times when a supplier is confronted with fraudulent or corrupt
+behaviour of Transnet employees. We expect our Suppliers to use our “Tip-offs
+Anonymous” Hot line to report these acts. (0800 003 056).
+1. Transnet SOC Limited is firmly committed to the ideas of free and competitive
+enterprise.
+• Suppliers are expected to comply with all applicable laws and regulations regarding
+fair competition and antitrust practices.
+• Transnet does not engage with non-value adding agents or representatives solely
+for the purpose of increasing BBBEE spend (fronting).
+1. Transnet’s relationship with suppliers requires us to clearly define
+requirements, to exchange information and share mutual benefits.
+• Generally, suppliers have their own business standards and regulations. Although
+Transnet cannot control the actions of our suppliers, we will not tolerate any illegal
+activities. These include, but are not limited to:
+- Misrepresentation of their product (origin of manufacture, specifications,
+intellectual property rights, etc);
+- Collusion;
+- Failure to disclose accurate information required during the sourcing activity
+(ownership, financial situation, BBBEE status, etc.);
+- Corrupt activities listed above; and
+- Harassment, intimidation or other aggressive actions towards Transnet
+employees.
+• Suppliers must be evaluated and approved before any materials, components,
+products or services are purchased from them. Rigorous due diligence is conducted
+and the supplier is expected to participate in an honest and straight forward manner.
+• Suppliers must record and report facts accurately, honestly and objectively.
+Financial records must be accurate in all material respects.
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 2 of 3 T2.2-15:: Supplier Code of Conduct
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Conflicts of Interest
+A conflict of interest arises when personal interests or activities influence (or appear to
+influence) the ability to act in the best interests of Transnet SOC Limited.
+• Doing business with family members.
+• Having a financial interest in another company in our industry
+Where possible, contracts will be negotiated to include the above in the terms of such contracts.
+To the extent such terms are not included in contractual obligations and any of the above code
+is breached, then Transnet reserves its right to review doing business with these suppliers.
+I, of
+(insert name of Director or as per (insert name of Company)
+Authority Resolution from Board of
+Directors)
+hereby acknowledge having read, understood and agree to the terms and conditions set out in
+the “Transnet Supplier Code of Conduct.”
+Signed this on day ___________________________ at
+---
+---
+Signature
+CPM 2020 Rev 01 Part T2: Returnable Schedules
+Page 3 of 3 T2.2-15:: Supplier Code of Conduct
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+C1.1: Form of Offer & Acceptance
+Offer
+The Employer, identified in the Acceptance signature block, has solicited offers to enter into a
+contract for the procurement of:
+The Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+The tenderer, identified in the Offer signature block, has examined the documents listed in the
+Tender Data and addenda thereto as listed in the Returnable Schedules, and by submitting this Offer
+has accepted the Conditions of Tender.
+By the representative of the tenderer, deemed to be duly authorised, signing this part of this Form
+of Offer and Acceptance the tenderer offers to perform all of the obligations and liabilities of the
+Contractor under the contract including compliance with all its terms and conditions according to
+their true intent and meaning for an amount to be determined in accordance with the conditions of
+contract identified in the Contract Data.
+The offered total of the Prices exclusive of VAT is R
+Value Added Tax @ 15% is R
+The offered total of the Prices inclusive of VAT is R
+(in words)
+This Offer may be accepted by the Employer by signing the Acceptance part of this Form of Offer
+and Acceptance and returning one copy of this document including the Schedule of Deviations (if
+any) to the tenderer before the end of the period of validity stated in the Tender Data, or other
+period as agreed, whereupon the tenderer becomes the party named as the Contractor in the
+conditions of contract identified in the Contract Data.
+Signature(s)
+Name(s)
+Capacity
+For the
+tenderer:
+(Insert name and address of organisation)
+Name & Date
+signature of
+witness
+Tenderer’s CIDB registration number:
+CPM 2020 Rev01 Page 1 of 4 C1.1 Form of Offer and Acceptance
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Acceptance
+By signing this part of this Form of Offer and Acceptance, the Employer identified below accepts the
+tenderer’s Offer. In consideration thereof, the Employer shall pay the Contractor the amount due
+in accordance with the conditions of contract identified in the Contract Data. Acceptance of the
+tenderer’s Offer shall form an agreement between the Employer and the tenderer upon the terms
+and conditions contained in this agreement and in the contract that is the subject of this agreement.
+The terms of the contract, are contained in:
+Part C1 Agreements and Contract Data, (which includes this Form of Offer and
+Acceptance)
+Part C2 Pricing Data
+Part C3 Scope of Work: Works Information
+Part C4 Site Information
+and drawings and documents (or parts thereof), which may be incorporated by reference into the
+above listed Parts.
+Deviations from and amendments to the documents listed in the Tender Data and any addenda
+thereto listed in the Returnable Schedules as well as any changes to the terms of the Offer agreed
+by the tenderer and the Employer during this process of offer and acceptance, are contained in the
+Schedule of Deviations attached to and forming part of this Form of Offer and Acceptance. No
+amendments to or deviations from said documents are valid unless contained in this Schedule.
+The tenderer shall within two weeks of receiving a completed copy of this agreement, including the
+Schedule of Deviations (if any), contact the Employer’s Representative (whose details are given in
+the Contract Data) to arrange the delivery of any securities, bonds, guarantees, proof of insurance
+and any other documentation to be provided in terms of the conditions of contract identified in the
+Contract Data at, or just after, the date this agreement comes into effect. Failure to fulfil any of
+these obligations in accordance with those terms shall constitute a repudiation of this agreement.
+Notwithstanding anything contained herein, this agreement comes into effect on the date when the
+tenderer receives one fully completed original copy of this document, including the Schedule of
+Deviations (if any).
+CPM 2020 Rev01 Page 2 of 4 C1.1 Form of Offer and Acceptance
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Unless the tenderer (now Contractor) within five working days of the date of such
+receipt notifies the Employer in writing of any reason why he cannot accept the
+contents of this agreement, this agreement shall constitute a binding contract between the Parties.
+Signature(s)
+Name(s)
+Capacity
+for the Transnet SOC Ltd
+Employer
+(Insert name and address of organisation)
+Name &
+signature of Date
+witness
+CPM 2020 Rev01 Page 3 of 4 C1.1 Form of Offer and Acceptance
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Schedule of Deviations
+Note:
+1. To be completed by the Employer prior to award of contract. This part of the Offer &
+Acceptance would not be required if the contract has been developed by negotiation between
+the Parties and is not the result of a process of competitive tendering.
+1. The extent of deviations from the tender documents issued by the Employer prior to the
+tender closing date is limited to those permitted in terms of the Conditions of Tender.
+1. A tenderer’s covering letter must not be included in the final contract document. Should any
+matter in such letter, which constitutes a deviation as aforesaid be the subject of agreement
+reached during the process of Offer and Acceptance, the outcome of such agreement shall
+be recorded here, and the final draft of the contract documents shall be revised to
+incorporate the effect of it.
+No. Subject Details
+1
+2
+3
+4
+5
+By the duly authorised representatives signing this Schedule of Deviations below, the Employer and
+the tenderer agree to and accept this Schedule of Deviations as the only deviations from and
+amendments to the documents listed in the Tender Data and any addenda thereto listed in the
+Tender Schedules, as well as any confirmation, clarification or changes to the terms of the Offer
+agreed by the tenderer and the Employer during this process of Offer and Acceptance.
+It is expressly agreed that no other matter whether in writing, oral communication or implied
+during the period between the issue of the tender documents and the receipt by the tenderer of a
+completed signed copy of this Form shall have any meaning or effect in the contract between the
+parties arising from this Agreement.
+For the tenderer: For the Employer
+Signature
+Name
+Capacity
+On behalf (Insert name and address of organisation) Transnet SOC Ltd
+of
+Name &
+signature
+of witness
+Date
+CPM 2020 Rev01 Page 4 of 4 C1.1 Form of Offer and Acceptance
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+C1.2 Contract Data
+Part one - Data provided by the Employer
+Clause Statement Data
+1 General
+The conditions of contract are the
+core clauses and the clauses for
+main Option
+B: Priced contract with bill of quantities
+dispute resolution Option W1: Dispute resolution procedure
+and secondary Options
+X2 Changes in the law
+X7: Delay damages
+X18: Limitation of liability
+Z: Additional conditions of contract
+of the NEC3 Engineering and
+Construction Contract June 2005
+(amended June 2006 and April
+2013)
+10.1 The Employer is: Transnet SOC Ltd
+(Registration No. 1990/000900/30)
+Address Registered address:
+Transnet Corporate Centre
+96 Rissik Street
+Braamfontein
+Johannesburg
+2017
+Having elected its Contractual
+Address for the purposes of this Transnet Rail Infrastructure Manager
+contract as: 1 Station Road
+Krugersdorp, Millsite Depot
+1739
+10.1 The Project Manager is: (Name) Ncedisa Mashiyi
+CPM 2020 Rev 02 PAGE 1 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Address 1 Station Road
+Krugersdorp, Millsite Depot
+1739
+Tel 011 950 1392
+e-mail Ncedisa.Mashiyi@transnet.net
+10.1 The Supervisor is: (Name) Ronald Kalimashe
+Address 1 Station Road
+Krugersdorp, Millsite Depot
+1739
+Tel No. 011 950 1238
+e-mail Ronald.Kalimashe@transnet.net
+11.2(13) The works are The Supply, Delivery and Installation of
+Clear-View Fencing for Krugersdorp Depot.
+11.2(14) The following matters will be 1. Working on active railway line.
+included in the Risk Register 2. Working at heights.
+1. Access of unauthorised personnel to the
+project site i.e. members of community.
+11.2(15) The boundaries of the site are As stated in Part C4.1.” Description of the
+Site and its surroundings”
+11.2(16) The Site Information is in Part C4
+11.2(19) The Works Information is in Part C3
+12.2 The law of the contract is the law the Republic of South Africa subject to the
+of jurisdiction of the Courts of South Africa.
+13.1 The language of this contract is English
+13.3 The period for reply is 2 weeks
+2 The Contractor's main No additional data is required for this section
+responsibilities of the conditions of contract.
+3 Time
+11.2(3) The completion date for the whole 30 December 2026
+of the works is
+30.1 The access dates are Part of the Site Date
+Magaliesburg 2 October 2026
+CPM 2020 Rev 02 PAGE 2 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+31.1 The Contractor is to submit a first 2 weeks of the Contract Date.
+programme for acceptance within
+31.2 The starting date is 2 October 2026
+32.2 The Contractor submits revised
+programmes at intervals no 1 week
+longer than
+35.1 The Employer is not willing to take
+over the works before the
+Completion Date.
+4 Testing and Defects
+42.2 The defects date is 26 weeks after completion of the whole of
+the works
+43.2 The defect correction period is 2 weeks
+5 Payment
+50.1 The assessment interval is 25th (twenty fifth) day of each successive
+monthly on the month.
+51.1 The currency of this contract is South African Rand.
+the
+51.2 The period within which payments Payment will be effected on or before the last
+are made is day of the month following the month during
+which a valid Tax Invoice and Statement
+were received.
+51.4 The interest rate is the prime lending rate of Standard Bank of
+South Africa.
+CPM 2020 Rev 02 PAGE 3 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+6 Compensation events
+60.1(13) The weather measurements to be
+recorded for each calendar month the cumulative rainfall (mm)
+are,
+the number of days with rainfall more than
+10 mm
+the number of days with minimum air
+temperature less than 0 degrees Celsius
+the number of days with snow lying at 08:00
+hours South African Time
+and these measurements: N/A
+The place where weather is to be The Contractor’s Site establishment area
+recorded (on the Site) is:
+The weather data are the records Krugersdorp
+of past weather measurements for
+each calendar month which were
+recorded at:
+and which are available from: South African Weather Service 012 367 6023
+or info3@weathersa.co.za.
+7 Title No additional data is required for this section
+of the conditions of contract.
+8 Risks and insurance
+80.1 These are additional Employer's Nil
+risks
+84.1 The Employer provides these
+insurances from the Insurance
+Table
+1 Insurance against: Loss of or damage to the works, Plant and
+Materials is as stated in the Insurance policy
+for Contract Works/ Public Liability.
+Cover / indemnity: to the extent as stated in the insurance policy
+for Contract Works / Public Liability
+CPM 2020 Rev 02 PAGE 4 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+The deductibles are: as stated in the insurance policy for Contract
+Works / Public Liability
+2 Insurance against: Loss of or damage to property (except the
+works, Plant and Materials & Equipment) and
+liability for bodily injury to or death of a
+person (not an employee of the Contractor)
+arising out of or in connection with the
+performance of the Contract as stated in the
+insurance policy for Contract Works / Public
+Liability
+Cover / indemnity Is to the extent as stated in the insurance
+policy for Contract Works / Public Liability
+The deductibles are as stated in the insurance policy for Contract
+Works / Public Liability
+3 Insurance against: Loss of or damage to Equipment (Temporary
+Works only) as stated in the insurance policy
+for contract Works and Public Liability
+Cover / indemnity Is to the extent as stated in the insurance
+policy for Contract Works / Public Liability
+The deductibles are: As stated in the insurance policy for Contract
+Works / Public Liability
+4 Insurance against: Contract Works SASRIA insurance subject to
+the terms, exceptions and conditions of the
+SASRIA coupon
+Cover / indemnity Cover / indemnity is to the extent provided
+by the SASRIA coupon
+The deductibles are The deductibles are, in respect of each and
+every theft claim, 0,1% of the contract value
+subject to a minimum of R2,500 and a
+maximum of R25,000.
+Note: The deductibles for the insurance as stated
+above are listed in the document titled
+“Certificate of Insurance: Transnet (SOC)
+Limited Principal Controlled Insurance.”
+CPM 2020 Rev 02 PAGE 5 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+84.1 The minimum limit of indemnity The Contractor must comply at a minimum
+for insurance in respect of death with the provisions of the Compensation for
+of or bodily injury to employees of Occupational Injuries and Diseases Act No.
+the Contractor arising out of and 130 of 1993 as amended.
+in the course of their employment
+in connection with this contract for
+any one event is
+The Contractor provides these 1 Where the contract requires that the
+additional Insurances design of any part of the works shall be
+provided by the Contractor the Contractor
+shall satisfy the Employer that
+professional indemnity insurance cover in
+connection therewith has been affected
+2 Where the contract involves manufacture,
+and/or fabrication of Plant & Materials,
+components or other goods to be
+incorporated into the works at premises
+other than the site, the Contractor shall
+satisfy the Employer that such plant &
+materials, components or other goods for
+incorporation in the works are adequately
+insured during manufacture and/or
+fabrication and transportation to the site.
+3 Should the Employer have an insurable
+interest in such items during manufacture,
+and/or fabrication, such interest shall be
+noted by endorsement to the Contractor’s
+policies of insurance as well as those of
+any sub-contractor
+4 Motor Vehicle Liability Insurance
+comprising (as a minimum) "Balance of
+Third Party" Risks including Passenger and
+Unauthorised Passenger Liability
+indemnity with a minimum indemnity limit
+of R5,000,000.
+CPM 2020 Rev 02 PAGE 6 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+5 The insurance coverage referred to in 1,
+2, 3, 4, above shall be obtained from an
+insurer(s) in terms of an insurance policy
+approved by the Employer. The
+Contractor shall arrange with the insurer
+to submit to the Project Manager the
+original and the duplicate original of the
+policy or policies of insurance and the
+receipts for payment of current
+premiums, together with a certificate
+from the insurer or insurance broker
+concerned, confirming that the policy or
+policies provide the full coverage as
+required. The original policy will be
+returned to the Contractor.
+84.2 The minimum limit of indemnity Whatever the Contractor requires in
+for insurance in respect of loss of addition to the amount of insurance taken
+or damage to property (except the out by the Employer for the same risk.
+works, Plant, Materials and
+Equipment) and liability for bodily
+injury to or death of a person (not
+an employee of the Contractor)
+caused by activity in connection
+with this contract for any one
+event is
+84.2 The insurance against loss of or Principal Controlled Insurance policy for
+damage to the works, Plant and Contract
+Materials as stated in the
+insurance policy for contract
+works and public liability selected
+from:
+9 Termination There is no additional Contract Data required
+for this section of the conditions of contract.
+10 Data for main Option clause
+B Priced contract with Bill of No additional data is required for this Option.
+Quantities
+60.6 The method of measurement is The Bill of Quantities have been measured in
+accordance with SANS 1200 unless indicated
+otherwise.
+CPM 2020 Rev 02 PAGE 7 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+11 Data for Option W1
+W1.1 The Adjudicator is Both parties will agree as and when a dispute
+arises. If the parties cannot reach an
+agreement on the Adjudicator, the Chairman
+of the Association of Arbitrators will appoint
+an Adjudicator.
+W1.2(3) The Adjudicator nominating body The Chairman of the Association of
+is: Arbitrators (Southern Africa)
+If no Adjudicator nominating body
+is entered, it is: the Association of Arbitrators (Southern
+Africa)
+W1.4(2) The tribunal is: Arbitration
+W1.4(5) The arbitration procedure is The Rules for the Conduct of Arbitrations of
+the Association of Arbitrators (Southern
+Africa)
+The place where arbitration is to Johannesburg, South Africa
+be held is
+The person or organisation who The Chairman of the Association of
+will choose an arbitrator Arbitrators (Southern Africa)
+- if the Parties cannot agree a
+choice or
+- if the arbitration procedure
+does not state who selects an
+arbitrator, is
+12 Data for secondary Option
+clauses
+X2 Changes in the law No additional data is required for this Option
+X7 Delay damages
+X7.1 Delay damages for Completion of R750.00 per day of delay
+the whole of the works are
+X18 Limitation of liability
+CPM 2020 Rev 02 PAGE 8 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+X18.1 The Contractor’s liability to the Nil
+Employer for indirect or
+consequential loss is limited to:
+X18.2 For any one event, the The deductible of the relevant insurance
+Contractor’s liability to the policy
+Employer for loss of or damage
+to the Employer’s property is
+limited to:
+X18.3 The Contractor’s liability for The cost of correcting the Defect
+Defects due to his design which
+are not listed on the Defects
+Certificate is limited to:
+X18.4 The Contractor’s total liability to The Total of the Prices
+the Employer for all matters
+arising under or in connection
+with this contract, other than
+excluded matters, is limited to:
+X18.5 The end of liability date is 26 weeks after Completion of the works
+Z Additional conditions of
+contract are:
+Z1 Additional clauses relating to Insert the additional core clause 27.5
+Joint Venture
+Z1.1 27.5. In the instance that the Contractor is a
+joint venture, the Contractor shall provide
+the Employer with a certified copy of its
+signed joint venture agreement, and in the
+instance that the joint venture is an
+‘Incorporated Joint Venture,’ the
+Memorandum of Incorporation, within 4
+(four) weeks of the Contract Date.
+The Joint Venture agreement shall contain
+but not be limited to the following:
+CPM 2020 Rev 02 PAGE 9 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+• A brief description of the Contract and
+the Deliverables;
+• The name, physical address,
+communications addresses and
+domicilium citandi et executandi of
+each of the constituents and of the
+Joint Venture;
+• The constituent’s interests;
+• A schedule of the insurance policies,
+sureties, indemnities and guarantees
+which must be taken out by the Joint
+Venture and by the individual
+constituents;
+• Details of an internal dispute
+resolution procedure;
+• Written confirmation by all of the
+constituents:
+• of their joint and several liabilities to
+the Employer to Provide the Works;
+• identification of the lead partner in the
+joint venture confirming the authority
+of the lead partner to bind the joint
+venture through the Contractor’s
+representative;
+• Identification of the roles and
+responsibilities of the constituents to
+provide the Works.
+•
+• Financial requirements for the Joint
+Venture:
+i. the working capital
+requirements for the Joint
+Venture and the extent to
+which and manner whereby
+this will be provided and/or
+guaranteed by the constituents
+from time to time;
+• the names of the auditors and others,
+if any, who will provide auditing and
+accounting services to the Joint
+Venture.
+CPM 2020 Rev 02 PAGE 10 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Z1.2 Insert additional core clause 27.6
+27.6. The Contractor shall not alter its
+composition or legal status of the Joint
+Venture without the prior approval of the
+Employer.
+Z2 Additional obligations in
+respect of Termination
+Z2.1 The following will be included under core
+clause 91.1:
+In the second main bullet, after the word
+‘partnership’ add ‘joint venture whether
+incorporate or otherwise (including any
+constituent of the joint venture)’ and
+Under the second main bullet, insert the
+following additional bullets after the last
+sub-bullet:
+• commenced business rescue
+proceedings (R22)
+• repudiated this Contract (R23)
+Z2.2 Termination Table The following will be included under core
+clause 90.2 Termination Table as follows:
+Amend “A reason other than R1 – R21” to “A
+reason other than R1 – R23”
+Z2.3 Amend “R1 – R15 or R18” to “R1 – R15, R18,
+R22 or R23.”
+Z3 Right Reserved by the
+Employer to Conduct Vetting
+through SSA
+CPM 2020 Rev 02 PAGE 11 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+Z3.1 The Employer reserves the right to conduct
+vetting through State Security Agency (SSA)
+for security clearances of any Contractor who
+has access to National Key Points for the
+following without limitations:
+1. Confidential – this clearance is based
+on any information which may be used
+by malicious, opposing or hostile
+elements to harm the objectives and
+functions of an organ of state.
+1. Secret – clearance is based on any
+information which may be used by
+malicious, opposing or hostile
+elements to disrupt the objectives and
+functions of an organ of state.
+1. Top Secret – this clearance is based on
+information which may be used by
+malicious, opposing or hostile
+elements to neutralise the objectives
+and functions of an organ of state.
+Z4 Additional Clause Relating to
+Collusion in the Construction
+Industry
+Z4.1 The contract award is made without
+prejudice to any rights the Employer may
+have to take appropriate action later with
+regard to any declared tender rigging
+including blacklisting.
+Z5 Protection of Personal
+Information Act
+Z5.1 The Employer and the Contractor are
+required to process information obtained for
+the duration of the Agreement in a manner
+that is aligned to the Protection of Personal
+Information Act.
+CPM 2020 Rev 02 PAGE 12 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+C1.2 Contract Data
+Part two - Data provided by the Contractor
+The tendering Contractor is advised to read both the NEC3 Engineering and Construction Contract -
+June 2005 (with amendments June 2006 and April 2013) and the relevant parts of its Guidance
+Notes (ECC3-GN) in order to understand the implications of this Data which the tenderer is required
+to complete. An example of the completed Data is provided on pages 156 to 158 of the ECC3
+Guidance Notes.
+Completion of the data in full, according to Options chosen, is essential to create a complete contract.
+Clause Statement Data
+10.1 The Contractor is (Name):
+Address
+Tel No.
+Fax No.
+11.2(8) The direct fee percentage is %
+The subcontracted fee percentage is %
+24.1 The Contractor's key persons are:
+1 Name:
+Job:
+Responsibilities:
+Qualifications:
+Experience:
+2 Name:
+Job
+Responsibilities:
+Qualifications:
+Experience:
+CV's (and further key persons data
+including CVs) are appended to Tender
+Schedule entitled.
+CPM 2020 Rev 02 PAGE 1 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+B Priced contract with bill of
+quantities
+11.2(21) The bill of quantities is in Part C2 Pricing Data
+11.2(31) The tendered total of the Prices is ………………………………………………… (in figures)
+………………………………………………………………
+(in words), excluding VAT
+B Priced contract with bill of Data for the Shorter Schedule of Cost
+quantities Components
+41 in The percentage for people overheads %
+SSCC is:
+21 in The published list of Equipment is the
+SSCC last edition of the list published by
+The percentage for adjustment for
+Equipment in the published list is % (state plus or minus)
+22 in The rates of other Equipment are: Equipment Size or Rate
+SSCC capacity
+61 in The hourly rates for Defined Cost of
+SSCC design outside the Working Areas are Category of employee Hourly rate
+62 in The percentage for design overheads %
+SSCC is
+63 in The categories of design employees
+SSCC whose travelling expenses to and from
+the Working Areas are included in
+Defined Cost are:
+CPM 2020 Rev 02 PAGE 2 Part C1: Contract Data
+Contract Data provided by the Employer
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+PART C2: PRICING DATA
+Document reference Title No of
+pages
+Cover Page 1
+C2.1 Pricing instructions: Option B 2
+C2.2 The Bill of Quantities 7
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+C2.1 Pricing instructions: Option B
+1. The conditions of contract
+1.1. How the contract prices work and assesses it for progress payments
+Clause 11 in NEC3 Engineering and Construction Contract, June 2005 and 2013 (ECC) Option B
+states:
+Identified 11
+and defined
+11.2 (21) The Bill of Quantities is the bill of quantities as changed in
+terms
+accordance with this contract to accommodate implemented
+compensation events and for accepted quotations for acceleration.
+(22) Defined Cost is the cost of the components in the Shorter
+Schedule of Cost Components whether work is subcontracted or not
+excluding the cost of preparing quotations for compensation events.
+(28) The Price for Work Done to Date is the total of
+• the quantity of the work which the Contractor has completed for
+each item in the Bill of Quantities multiplied by the rate and
+• a proportion of each lump sum which is the proportion of the
+work covered by the item which the Contractor has completed.
+Completed work is work without Defects which would either delay or
+be covered by immediately following work.
+(31) The Prices are the lump sums and the amounts obtained by
+multiplying the rates by the quantities for the items in the Bill of
+Quantities.
+This confirms that Option B is a re-measurement contract and the bill comprises only items measured
+using quantities and rates or stated as lump sums. Value related items are not used. Time related
+items are items measured using rates where the rate is a unit of time.
+CPM 2020 Rev 02 Part C2: PRICING DATA
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+1.2. Function of the Bill of Quantities
+Clause 55.1 in Option B states, “Information in the Bill of Quantities is not Works Information or Site
+Information”. This confirms that instructions to do work or how it is to be done are not included in
+the Bill, but in the Works Information. This is further confirmed by Clause 20.1 which states, “The
+Contractor Provides the Works in accordance with the Works Information”. Hence the Contractor
+does not Provide the Works in accordance with the Bill of Quantities. The Bill of Quantities is only
+a pricing document.
+1.3. Guidance before pricing and measuring
+Employers preparing tenders or contract documents, and tendering contractors are advised to
+consult the sections dealing with the bill of quantities in the NEC3 Engineering and Construction
+Contract (June 2005) Guidance Notes before preparing the bill of quantities or before entering
+rates and lump sums into the bill.
+Historically bill of quantities-based contracts in South Africa have been influenced by the different
+approaches of the civil engineering and building sectors of the industry through their respective
+discipline based standard forms of contract and methods of measurement. This is particularly
+apparent in the approach to the Preliminary and General bill. On the other hand, because ECC
+caters for a number of disciplines in the same contract, including electrical works, a different
+approach not currently found in local methods of measurement to the Preliminary & General bill
+items may have been used.
+The NEC approach to the P & G bill assumes use will be made of method related charges for
+Equipment applied to Providing the Works based on durations shown in the Accepted Programme,
+fixed charges for the use of Equipment that is required throughout the construction phase, time
+related charges for people working in a supervisory capacity for the period required, and lump
+sum charges for other facilities or services not directly related to performing work items typically
+included in other parts of the bill.
+CPM 2020 Rev 02 Part C2: PRICING DATA
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+1. Measurement and payment
+2.1. Symbols
+The units of measurement described in the Bill of Quantities are metric units abbreviated as follows:
+Abbreviation Unit
+% percent
+h hour
+ha hectare
+kg kilogram
+kl kilolitre
+km kilometre
+km-pass kilometre-pass
+kPa kilopascal
+kW kilowatt
+l litre
+m metre
+mm millimetre
+m2 square metre
+m2-pass square metre pass
+m3 cubic metre
+m3-km cubic metre-kilometre
+MN meganewton
+MN.m meganewton-metre
+CPM 2020 Rev 02 Part C2: PRICING DATA
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+MPa megapascal
+No. number
+Prov sum1 provisional sum
+PC-sum prime cost sum
+R/only Rate only
+sum Lump sum
+t ton (1000kg)
+W/day Work day
+2.2. General assumptions
+2.2.1. Unless otherwise stated, items are measured net in accordance with the drawings, and
+no allowance has been made in the quantities for waste.
+2.2.2. The Prices and rates stated for each item in the Bill of Quantities shall be treated as
+being fully inclusive of all work, risks, liabilities, obligations, overheads, profit and
+everything necessary as incurred or required by the Contractor in carrying out or
+providing that item.
+2.2.3. Clause 63.13 in Option B provides that these rates and Prices may be used as a basis for
+assessment of compensation events instead of Defined Cost.
+2.2.4. Where this contract requires detailed drawings, designs or other information to be
+provided, and no rates or prices are included in the bill specifically for such matters, then
+the Contractor is deemed to have allowed for all costs associated with such requirements
+within the tendered rates and Prices in the Bill of Quantities.
+2.2.5. An item against which no Price is entered will be treated as covered by other Prices or
+rates in the bill of quantities. If a number of items are grouped together for pricing
+purposes, this will be treated as a single lump sum.
+1 Provisional Sums should not be used unless absolutely unavoidable. Rather include specifications and associated bill
+items for the most likely scope of work, and then change later using the compensation event procedure if necessary.
+This is because tenderers cannot programme effectively for unknown scopes of work
+CPM 2020 Rev 02 Part C2: PRICING DATA
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+2.2.6. The quantities contained in the Bill of Quantities may not be final and
+do not necessarily represent the actual amount of work to be done. The quantities of
+work assessed and certified for payment by the Project Manager at each assessment
+date will be used for determining payments due and not the quantities given in the Bill
+of Quantities.
+2.2.7. The short descriptions of the items of payment given in the bill of quantities are only for
+the purposes of identifying the items. More detail regarding the extent of the work
+entailed under each item is provided in the Works Information.
+2.3. Departures from the method of measurement
+N/A
+2.4. Amplification of or assumptions about measurement items
+N/A
+CPM 2020 Rev 02 Part C2: PRICING DATA
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+Bill of Quantities (BOQ)
+PART C2.2: BILL OF QUANTITIES
+Bidders to note that all pricing must be fully completed in the e-supplier portal, electronic
+pricing. No paper pricing schedule will be accepted.
+ITEM DESCRIPTION UNIT OF QUANTITY
+NO. MEASURE
+1 Site establishment sum 1
+2 Site de-establishment sum 1
+Site Clearence (Trees, bushes, vegetation
+3 m² 1200
+and tall trees)
+Supply of Clear-view 76 x 25 Aperture,
+Per
+3.00mm x 4.00mm diameter, 4 x V bends,
+4 200
+2400mm(h) x 3050mm(w) Zincalume Coated 3.050m/panel
+Wire - Total length is 600m
+Supply of Clear-view Fence Posts, 3000mm
+5 Long, Zinc Aluminium Coated, Incl. Cover No. 205
+Plates And Anti-Tamper Fixings
+Installation of Clear-view fence including
+6 m 600
+settingnout, concrete foundations and erection
+Supply, laying and compaction of G2 material
+7 m³ 90
+To 90% MOD ASHTO (600m x 0.150m x 1.0m)
+Removal, Dismantling, Rolling and Stacking of
+8 sum 1
+Existing Fence Material (Provisional)
+Transportation of rubble material to the
+9 sum 1
+nearest approved dump site
+10 Cut Off Drainage 200m m 200
+CPM 2020 Rev 02 Part C2: PRICING DATA
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+PART C3: SCOPE OF WORK
+Document Title No of
+reference page
+This cover page 1
+C3.1 Employer’s Works Information 2 - 4
+Total number of pages 2
+1
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+C3.1 EMPLOYER’S WORKS INFORMATION
+1. DESCRIPTION / SCOPE OF WORK
+1.1. This contract covers the supply, delivery and installation of Clear-view welded mesh
+high-security fence along the railway line under the geographical control of Krugersdorp
+Depot in the Gauteng Province.
+1.2. The Works include Clear-view fence panels, posts, anti-tamper fixings, concrete
+foundations and all ancillary components.
+1.3. The Contractor shall not use subcontractors without prior written approval from the
+Project Manager.
+1.4. The Contractor shall dismantle and remove all existing and scrap fencing material from
+the site. Wire shall be neatly rolled and packed, and old fence poles stacked separately
+to facilitate loading. All scrap material shall be transported to the designated farmer’s
+property or approved excess area for loading. All removed scrap material remains the
+property of Transnet Rail Infrastructure Manager and shall be handled strictly as
+instructed.
+1.5. The essence of the contract is that Transnet Rail Infrastructure Manager requires the
+Contractor to supply and install Clear-view high-security fencing at Magaliesburg in the
+Gauteng Province.
+1.6. Clear-view welded mesh panels shall have a 76mm x 25mm aperture, wire diameter
+3.0mm horizontal x 4.0mm vertical and V-bend reinforcement.
+1.7. Posts shall be zinc aluminium coated and installed vertically in 25MPa concrete
+foundations to a minimum depth of 600mm.
+1.8. Panels shall be fixed using the clear-view anti-tamper cover plate fixing system, mounted
+from the front side only.
+1.9. The fence shall be erected straight, plumb, secure and free from visible defects.
+1.10. The clear-view fence shall have a minimum installed height of 2.4 m measured from
+final ground level to the top of the fence panel.
+1.11. Fence posts shall be installed to a minimum depth of 900 mm below finished ground
+level and cast in concrete foundations suitable to site conditions.
+1.12. Concrete foundations shall be allowed to cure for a minimum period of 24 to 48 hours
+before fence panels are attached.
+1.13. The fence line and foundation base shall be constructed using G2 material compacted
+to a minimum of 90% Modified AASHTO density.
+1.14. A cut-off drainage system shall be constructed along the newly installed fence to prevent
+water accumulation and erosion.
+1.15. All trees, shrubs and vegetation along the fence line and surrounding areas shall be
+cleared to allow for safe installation and maintenance.
+2
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+1.16. The Contractor shall identify, obtain approval for, and utilize a secure
+deposit site for the disposal of spoil material.
+1.17. All material supplied shall be under SABS approved standard and shall be fully galvanised
+anything will be rejected.
+1. GUARANTEE
+2.1. Clear-view fence materials shall complied with SANS 10244-2 Class A and shall have a
+minimum of ten (10) year underwritten Anti-Corrosion guarantee life span to be
+provided.
+1. LOCATION OF SITE
+3.1. The site is located at Magaliesburg Transnet Rail Infrastructure Manager operational
+areas under the control of Krugersdorp Depot.
+1. SITE MEETINGS
+4.1. The contractor shall attend all site meetings convened by the Contract Supervisor. Such
+meetings shall be for the purpose of discussing progress, delays, materials, specification
+etc.
+1. SAFETY
+5.1. Transnet Rail Infrastructure Manager is the organisation that strictly complies with
+safety.
+5.2. For the purpose of this contract safety file is required before the commencement of
+work.
+5.3. The safety file should be submitted to the Contract Supervisor 2 days before starting the
+work.
+5.4. Personal protective equipment required: (Reflective vest, Safety boots, Dust musk).
+1. RESPONSIBILITY OF TRANSNET RAIL INFRASTRUCTURE MANAGER
+6.1. Arrangement with landowners and statutory authorities regarding access and other
+statutory requirements.
+6.2. Liaise with electrical to provide electrical induction for the team would be working on
+site.
+6.3. Arrange occupations when required.
+6.4. Inspect the works after being finished.
+1. RESPONSIBILITY OF CONTRACTOR
+7.1. The contractor will provide all labour and all plant required for the completion of the
+works.
+7.2. All arrangements regarding water and sanitation requirements for the duration of the
+contract are upon contractor to arrange.
+3
+
+Transnet Rail Infrastructure Manager
+Tender Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-view Fence for Krugersdorp Depot.
+7.3. The Contractor must make his own arrangement for accommodation of his
+staff, only accommodation of night watchmen will be allowed on site.
+7.4. Where services are encountered below the surface during the course of the excavation,
+such should be communicated to the relevant Transnet Rail Infrastructure Manager
+representative or to the Project Manager. The contractor shall take all reasonable
+measures to ensure that careless damage to services and other property is avoided,
+failure of which the replacement or repair therefore will be to the contractor’s account.
+7.5. Prior approval of the Project Manager to be sought before destroying or disturbing any
+part of the environment for stockpile, spoil or for any other purpose.
+7.6. For payment purposes, the onus shall lie with the contractor to ensure that all quantities
+are measured and agreed with the Project Manager or any such person that may be
+delegated by the Project Manager.
+7.7. The contractor must safeguard the surrounding, adhere to PPE (Personal Protective
+Equipment), to always have first aid box kit on site and supply the neat and tidy
+completed area.
+4
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+PART C4: SITE INFORMATION
+Document Title No of
+reference pages
+This cover page 1
+Site Information 2-3
+Total number of 3
+pages
+CPM 2020 Rev 02 Part C4: SITE INFORMATION
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+PART 4: SITE INFORMATION
+Core clause 11.2(16) states
+“Site Information is information which describes the Site and its surroundings and is in the documents
+which the Contract Data states it is in.”
+In Contract Data, reference has been made to this Part 4 of the contract for the location of Site
+Information.
+1. Description of the Site and its surroundings
+1.1. General description
+The site is located within the railway vicinity in Magaliesburg area, Gauteng, with GPS
+coordinates: (-26.001484, 27.547611).
+The Contractor shall attend the site briefing and be acquainted with the nature of the works,
+the conditions under which the work is to be performed, the means of access to the site, any
+limitations or other authorities and in general with all matters that may influence or affect the
+contract.
+The Contractor shall be deemed to have allowed in their tender for any additional cost to be
+involved due to the foregoing.
+1.2. Existing buildings, structures, and plant & machinery on the Site
+The site is in the railway vicinity, and safe working distances are to be always maintained. It is
+adjacent to the residential area and there are restaurants and shops nearby.
+The railway line is operational, and the construction work is to be conducted in such a way so as
+not to disrupt movement of trains. The Contractor shall allow for working under these conditions.
+Access to areas adjacent to the construction site shall be always maintained.
+1.3. Subsoil information
+It is also to be noted that the topsoil is made up of gravel soil, and the area is mostly shale
+rock, should there be a trench of 2m or deeper than there will be underground water surfacing
+up. If the work is done in spring or summer, it is to be noted that the service road will be
+slippery because of rains so a construction vehicle that can withstand slippery roads is
+recommended.
+1.4. Hidden services
+It is the responsibility of the Contractor to detect and protect the existing services. The Contractor
+shall liaise with the Project Manager in this regard.
+CPM 2020 Rev 02 Part C4: SITE INFORMATION
+
+Transnet Rail Infrastructure Manager
+Contract Number: TRIM/2026/06/1186/6479/RFQ
+Description of the Works: Supply, Delivery and Installation of Clear-View Fencing for Krugersdorp Depot.
+CPM 2020 Rev 02 Part C4: SITE INFORMATION
