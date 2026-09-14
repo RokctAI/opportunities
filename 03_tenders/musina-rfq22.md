@@ -38,7 +38,7 @@ RFQ 22 Procurement of a service provider for the rehabilitation of Madimbo Stadi
 ## Audit & Status
 - **Status**: ACTIVE
 - **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-09-07
+- **Last Verified**: 2026-09-14
 
 ## AI Checklist (Jules)
 <!-- This section is populated by Jules during enrichment. -->
