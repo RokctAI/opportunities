@@ -2,9 +2,9 @@
 
 | File Path | Mode | Status | Last Audit Date | Verified Rows | Total Rows |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 03_tenders/ | LIVING | IN_PROGRESS | 2026-09-20 | 888 | 888 |
+| 03_tenders/ | LIVING | IN_PROGRESS | 2026-09-21 | 626 | 626 |
 
 ## Recent Changes
-- Automated audit log update: 2026-09-20 17:18
-- Verified: 888/888 (100.0%)
-- Incomplete (missing required fields): 4/888
+- Automated audit log update: 2026-09-21 04:21
+- Verified: 626/626 (100.0%)
+- Incomplete (missing required fields): 3/626
