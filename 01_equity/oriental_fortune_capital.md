@@ -13,7 +13,7 @@
 
 ## Contact
 - **Contact Person**: Chen Wei
-- **LinkedIn**: Unspecified
+- **LinkedIn**: https://www.linkedin.com/company/oriental-fortune-capital/
 - **Phone**:
 
 ## Source
@@ -23,5 +23,5 @@
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-08-23
+- **Last Verified**: 2026-10-10
 ---
