@@ -1,16 +1,16 @@
 # Grant Opportunity: Entries open for Net Zero Challenge
 
 ## Quick Stats
-- **Organization**: Net Zero Challenge (Vietnam)
+- **Organization**: Touchstone Partners & Temasek Foundation
 - **Deadline**: 2026-08-31
-- **Funding Amount**: VND 15 billion in equity-free grants plus VND 5.2 billion in in-kind support and mentorship
-- **Focus Area**: General
+- **Funding Amount**: VND 15 billion
+- **Focus Area**: Climate Tech / Net Zero Solutions
 
 ## Eligibility
-- Eligible Countries: Vietnam. Technology-based solutions (software, AI, hardware, deeptech, food-tech, agri-tech, new materials, new energy, bio/chemical engineering, tech-enabled business models) with a minimally viable product and pilot plan; tracks: Renewables & Carbon Removal, Food Systems & Sustainable Agriculture, Circular Economy & Waste Management.
+- Private sector / Companies: technology-based solutions, including software, AI, hardware, deeptech, food-tech, agri-tech, new materials, new energy technology, new processes, innovations in bio or chemical engineering, and technology-enabled business models.
 
 ## Description
-Entries open for Net Zero Challenge - Refer to source for full description.
+Deadline Date: August 31, 2026 Applicants are now invited to submit applications to support climate technology solutions with pilot implementation and commercialization potential in Vietnam. The competition features three tracks: Renewables & Carbon Removal, Food Systems & Sustainable Agriculture, and Circular Economy & Waste Management, supporting innovative climate technology solutions for Vietnam. The competition offers a total equity-free grant funding pool of VND 15 billion to support pilot...
 
 ## How to Apply
 - **Applying Link**: https://netzerochallenge.vn/
@@ -18,6 +18,5 @@ Entries open for Net Zero Challenge - Refer to source for full description.
 - **Source Card**: sources/fundsforcompaniesUS.md
 
 ## Audit & Status
-- **Verification Status**: VERIFIED
-- **Data Completeness**: COMPLETE
-- **Last Verified**: 2026-08-10
+- **Verification Status**: UNVERIFIED
+- **Last Verified**: 2026-03-13
