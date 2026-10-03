@@ -6,22 +6,22 @@
 - **Funder Type**: VC / Accelerator
 - **Funding Type**: Seed / Series A
 - **Industry**: Tech
-- **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Territory**: Latin America
+- **Country**: Mexico
+- **Flag**: MX
+- **Website**: https://www.failory.com/blog/venture-capital-firms-mexico
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Discovered Entity
+- **LinkedIn**: https://www.linkedin.com/company/the-ark-fund/
 - **Phone**: 
 
 ## Source
 - **Source / Verification**: https://www.failory.com/blog/venture-capital-firms-mexico
-- **Notes**: Discovered via equity sync from failory_mexico.md. Only findable domain is a Squarespace parking page; no funder web presence.
+- **Notes**: Discovered via equity sync from failory_mexico.md. Standalone web domain non-functional/parked page.
 
 ## Audit & Status
 - **Status**: INACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-08-26
+- **Last Verified**: 2026-10-10
 ---

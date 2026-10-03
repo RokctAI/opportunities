@@ -7,13 +7,13 @@
 - **Funding Type**: Seed / Series A
 - **Industry**: Tech
 - **Territory**: Global
-- **Country**: Unspecified
-- **Flag**: GLOBAL
-- **Website**: Unspecified
+- **Country**: United States
+- **Flag**: US
+- **Website**: https://newchip.com
 
 ## Contact
-- **Contact Person**: Unspecified
-- **LinkedIn**: Unspecified
+- **Contact Person**: Andrew Ryan
+- **LinkedIn**: https://www.linkedin.com/company/newchip-accelerator/
 - **Phone**: 
 
 ## Source
@@ -23,5 +23,5 @@
 ## Audit & Status
 - **Status**: INACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-08-26
+- **Last Verified**: 2026-10-10
 ---

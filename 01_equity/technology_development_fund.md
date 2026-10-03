@@ -12,8 +12,8 @@
 - **Website**: https://tdf.drdo.gov.in
 
 ## Contact
-- **Contact Person**: Director, Technology Development Fund (DRDO)
-- **LinkedIn**: Unspecified
+- **Contact Person**: Nidhi Bansal
+- **LinkedIn**: https://www.linkedin.com/company/defence-research-and-development-organisation-drdo/
 - **Phone**: 
 
 ## Source
@@ -23,5 +23,5 @@
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-08-23
+- **Last Verified**: 2026-10-10
 ---

@@ -12,8 +12,8 @@
 - **Website**: https://www.matrixpartners.com.cn
 
 ## Contact
-- **Contact Person**: Zhang Ying
-- **LinkedIn**: Unspecified
+- **Contact Person**: David Zhang
+- **LinkedIn**: https://www.linkedin.com/company/matrix-partners-china/
 - **Phone**: 
 
 ## Source
@@ -23,5 +23,5 @@
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-08-23
+- **Last Verified**: 2026-10-10
 ---
