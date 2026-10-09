@@ -12,12 +12,12 @@
 - **Website**: https://creativedestructionlab.com/
 
 ## Contact
-- **Contact Person**:
+- **Contact Person**: Sonia Sennik (CEO)
 - **LinkedIn**:
 - **Phone**:
 
 ## Source
-- **Source / Verification**: https://creativedestructionlab.com/
+- **Source / Verification**: https://creativedestructionlab.com/about/
 - **Notes**: Non-profit, objectives-based, equity-free programme for science-based startups, founded 2012 at University of Toronto Rotman. Multiple sites in Canada, US, Europe, Australia; mentors/investors may invest separately.
 
 ## Audit & Status
