@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.knifecap.com/team
-- **Notes**:
+- **Notes**: Active venture capital firm focusing on innovation-driven high-growth tech business in Africa.
 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-08-10
+- **Last Verified**: 2026-10-17
 ---

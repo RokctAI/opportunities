@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.foundersfactory.africa/
-- **Notes**:
+- **Notes**: Pan-African tech venture development and investment firm (now 54 Collective).
 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-05-15
+- **Last Verified**: 2026-10-17
 ---
