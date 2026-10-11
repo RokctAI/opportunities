@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://kalonvp.com/team
-- **Notes**:
+- **Notes**: South African technology venture capital fund investing in high growth digital technology companies.
 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-04-14
+- **Last Verified**: 2026-10-17
 ---
