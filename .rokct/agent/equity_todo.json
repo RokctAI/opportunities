@@ -1,5 +1,10 @@
 {
   "title": "Equity Audit Queue: 2026-10-18",
   "pending_count": 0,
-  "files": []
+  "files": [],
+  "audited_files": [
+    "01_equity/1337_ventures.md",
+    "01_equity/ascend_vietnam_ventures.md"
+  ],
+  "last_audit_date": "2026-10-18"
 }
