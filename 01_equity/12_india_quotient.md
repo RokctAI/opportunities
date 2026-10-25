@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.indiaquotient.in
-- **Notes**: Early stage VC fund in India
+- **Notes**: Early stage VC fund in India backing tech, fintech, consumer, and SaaS startups.
 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-08-28
+- **Last Verified**: 2026-11-01
 ---

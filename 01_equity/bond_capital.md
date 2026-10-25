@@ -18,10 +18,10 @@
 
 ## Source
 - **Source / Verification**: https://www.bondcap.com
-- **Notes**:
+- **Notes**: Growth equity firm led by Mary Meeker backing internet and technology market leaders.
 
 ## Audit & Status
 - **Status**: ACTIVE
 - **Verification Status**: VERIFIED
-- **Last Verified**: 2026-04-14
+- **Last Verified**: 2026-11-01
 ---
