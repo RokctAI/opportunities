@@ -36,85 +36,85 @@ state="$dir/.before.sha"
 index_tag=ocds-index
 
 tag_for() {
-	case "$1" in
-	releases-[0-9][0-9][0-9][0-9]-[0-9][0-9].jsonl.gz) echo "ocds-${1:9:4}" ;;
-	*) echo "$index_tag" ;;
-	esac
+  case "$1" in
+  releases-[0-9][0-9][0-9][0-9]-[0-9][0-9].jsonl.gz) echo "ocds-${1:9:4}" ;;
+  *) echo "$index_tag" ;;
+  esac
 }
 
 ocds_tags() {
-	gh release list --limit 200 --json tagName -q '.[].tagName' | grep -E '^ocds-' || true
+  gh release list --limit 200 --json tagName -q '.[].tagName' | grep -E '^ocds-' || true
 }
 
 checksums() {
-	(cd "$dir" && find . -maxdepth 1 -type f ! -name '.*' -printf '%f\n' | sort | xargs -r sha256sum | sort)
+  (cd "$dir" && find . -maxdepth 1 -type f ! -name '.*' -printf '%f\n' | sort | xargs -r sha256sum | sort)
 }
 
 ensure_release() {
-	local tag=$1 title notes
-	gh release view "$tag" >/dev/null 2>&1 && return 0
-	if [ "$tag" = "$index_tag" ]; then
-		title="eTenders OCDS archive: index"
-		notes="Manifest, ocid index and legacy/undated records for the eTenders OCDS archive. Updated in place by the OCDS Archive Sync workflow; see ocds/README.md."
-	else
-		title="eTenders OCDS archive: ${tag#ocds-}"
-		notes="Every eTenders OCDS release dated ${tag#ocds-}, one gzipped JSONL file per month. Pre-release while the year is running, a full release once it has ended; late awards are still added in place. See ocds/README.md."
-	fi
-	gh release create "$tag" --prerelease --latest=false --title "$title" --notes "$notes"
+  local tag=$1 title notes
+  gh release view "$tag" >/dev/null 2>&1 && return 0
+  if [ "$tag" = "$index_tag" ]; then
+    title="eTenders OCDS archive: index"
+    notes="Manifest, ocid index and legacy/undated records for the eTenders OCDS archive. Updated in place by the OCDS Archive Sync workflow; see ocds/README.md."
+  else
+    title="eTenders OCDS archive: ${tag#ocds-}"
+    notes="Every eTenders OCDS release dated ${tag#ocds-}, one gzipped JSONL file per month. Pre-release while the year is running, a full release once it has ended; late awards are still added in place. See ocds/README.md."
+  fi
+  gh release create "$tag" --prerelease --latest=false --title "$title" --notes "$notes"
 }
 
 download() {
-	mkdir -p "$dir"
-	local tags
-	tags=$(ocds_tags)
-	if [ -z "$tags" ]; then
-		# Bootstrap: the archive was committed to git (PR #100) until it moved
-		# to release assets; restore it from the last commit that still had it.
-		local del
-		del=$(git rev-list -1 HEAD -- ocds/manifest.json)
-		git archive "${del}^" ocds/ | tar -x -C "$dir" --strip-components=1 \
-			--wildcards 'ocds/*.gz' 'ocds/manifest.json'
-		: >"$state"
-	else
-		for t in $tags; do
-			gh release download "$t" --dir "$dir" --clobber
-		done
-		checksums >"$state"
-	fi
-	echo "downloaded $(find "$dir" -maxdepth 1 -type f ! -name '.*' | wc -l) files"
+  mkdir -p "$dir"
+  local tags
+  tags=$(ocds_tags)
+  if [ -z "$tags" ]; then
+    # Bootstrap: the archive was committed to git (PR #100) until it moved
+    # to release assets; restore it from the last commit that still had it.
+    local del
+    del=$(git rev-list -1 HEAD -- ocds/manifest.json)
+    git archive "${del}^" ocds/ | tar -x -C "$dir" --strip-components=1 \
+      --wildcards 'ocds/*.gz' 'ocds/manifest.json'
+    : >"$state"
+  else
+    for t in $tags; do
+      gh release download "$t" --dir "$dir" --clobber
+    done
+    checksums >"$state"
+  fi
+  echo "downloaded $(find "$dir" -maxdepth 1 -type f ! -name '.*' | wc -l) files"
 }
 
 upload() {
-	local changed n=0
-	changed=$(comm -13 "$state" <(checksums) | awk '{print $2}')
-	for f in $changed; do
-		local tag
-		tag=$(tag_for "$f")
-		ensure_release "$tag"
-		gh release upload "$tag" "$dir/$f" --clobber
-		n=$((n + 1))
-	done
-	echo "uploaded $n assets"
+  local changed n=0
+  changed=$(comm -13 "$state" <(checksums) | awk '{print $2}')
+  for f in $changed; do
+    local tag
+    tag=$(tag_for "$f")
+    ensure_release "$tag"
+    gh release upload "$tag" "$dir/$f" --clobber
+    n=$((n + 1))
+  done
+  echo "uploaded $n assets"
 
-	local year
-	year=$(date -u +%Y)
-	for t in $(ocds_tags); do
-		for a in $(gh release view "$t" --json assets -q '.assets[].name'); do
-			[ -e "$dir/$a" ] || gh release delete-asset "$t" "$a" --yes
-		done
-		if [[ $t =~ ^ocds-([0-9]{4})$ ]] && [ "${BASH_REMATCH[1]}" -lt "$year" ] &&
-			[ "$(gh release view "$t" --json isPrerelease -q .isPrerelease)" = "true" ]; then
-			gh release edit "$t" --prerelease=false --latest=false
-			echo "promoted $t to a full release"
-		fi
-	done
+  local year
+  year=$(date -u +%Y)
+  for t in $(ocds_tags); do
+    for a in $(gh release view "$t" --json assets -q '.assets[].name'); do
+      [ -e "$dir/$a" ] || gh release delete-asset "$t" "$a" --yes
+    done
+    if [[ $t =~ ^ocds-([0-9]{4})$ ]] && [ "${BASH_REMATCH[1]}" -lt "$year" ] &&
+      [ "$(gh release view "$t" --json isPrerelease -q .isPrerelease)" = "true" ]; then
+      gh release edit "$t" --prerelease=false --latest=false
+      echo "promoted $t to a full release"
+    fi
+  done
 }
 
 case "$cmd" in
 download) download ;;
 upload) upload ;;
 *)
-	echo "unknown command: $cmd" >&2
-	exit 2
-	;;
+  echo "unknown command: $cmd" >&2
+  exit 2
+  ;;
 esac
