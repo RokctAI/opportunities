@@ -6,10 +6,29 @@ The archive of every OCDS release published by the National Treasury
 [OCDS Archive Sync workflow](../.github/workflows/ocds-archive-sync.yml)
 (`ocds/sync_ocds.py`).
 
+**The data is not in git.** It lives in this repo's
+[GitHub Releases](https://github.com/RokctAI/opportunities/releases),
+overwritten in place on each sync, so the repository does not grow:
+
+- `ocds-YYYY`, one release per year from 2021, holding that year's monthly
+  shards. A year is a **pre-release** while it is running and becomes a
+  full **release** once it has ended. Late awards are still added in place
+  for 12 months after that.
+- `ocds-index`, always a pre-release, holding `manifest.json`,
+  `ocids.txt.gz` and the legacy / undated shards.
+
+Download everything with:
+
+```sh
+for t in $(gh release list --limit 200 --json tagName -q '.[].tagName' | grep '^ocds-'); do
+  gh release download "$t" --dir ocds-data
+done
+```
+
 As of 2026-10-30: **168,670 releases**, tender IDs 1 to **176,377**,
 real coverage April 2021 onward. `manifest.json` always has the live numbers.
 
-## Contents
+## Contents of the release assets
 
 - `releases-YYYY-MM.jsonl.gz` — one OCDS release JSON per line, gzipped,
   sharded by month of the release `date` field (from 2021-01), sorted by
@@ -20,7 +39,9 @@ real coverage April 2021 onward. `manifest.json` always has the live numbers.
 - `manifest.json` — max ID, per-shard counts, empty-ID count, IDs pending
   retry, and stats from the last run.
 - `ocids.txt.gz` — sorted list of every ocid in the archive.
-- `sync_ocds.py` — the sync script (Python stdlib only).
+
+In git: `sync_ocds.py` (the sync script, Python stdlib only) and
+`release_assets.sh` (moves the data to and from the release assets).
 
 ## Keeping it current
 
@@ -29,7 +50,10 @@ real coverage April 2021 onward. `manifest.json` always has the live numbers.
 | Light | Tue + Fri, 02:00 UTC | New IDs since the last max, the top 300 IDs of the previous range, and IDs we hold no snapshot for |
 | Full | 1st of each month, 03:00 UTC | Light, plus every release dated in the last 365 days (late awards / contracts) |
 
-Run it by hand with `python ocds/sync_ocds.py [--refetch-days 365]`.
+Run it by hand with `bash ocds/release_assets.sh download ocds-data`,
+`python ocds/sync_ocds.py --archive-dir ocds-data [--refetch-days 365]`,
+then `bash ocds/release_assets.sh upload ocds-data`, or trigger the
+workflow manually.
 
 ## Completeness: the honest exceptions
 
@@ -57,18 +81,19 @@ archive enumerates the sequential ID space instead, via
 
 ## Format choice
 
-Gzipped JSONL. Plain JSONL would be ~10× larger (~500 MB vs ~50 MB) and
-every sync would add that much more to git history. Gzip output is
-deterministic (fixed mtime, records sorted by ID), so a shard's bytes
-change only when its content does, and monthly shards (largest ~1.2 MB,
-far under GitHub's 50 MB warning) keep each sync's rewrite small.
+Gzipped JSONL, about 50 MB in total (plain JSONL would be ~500 MB). Gzip
+output is deterministic (fixed mtime, records sorted by ID), so a shard's
+bytes change only when its content does, and each sync re-uploads only
+the monthly shards that changed (largest ~1.2 MB; release assets allow up
+to 2 GB each). The data was first committed to git in PR #100 (~50 MB of
+history) and moved to release assets right after.
 
 ## Reading the archive
 
 ```python
 import gzip, glob, json
 
-for path in sorted(glob.glob("ocds/releases-*.jsonl.gz")):
+for path in sorted(glob.glob("ocds-data/releases-*.jsonl.gz")):
     with gzip.open(path, "rt", encoding="utf-8") as f:
         for line in f:
             release = json.loads(line)

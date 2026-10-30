@@ -105,3 +105,6 @@ yarn-error.log*
 .svn/
 .swiftpm/
 migrate_working_dir/
+
+# OCDS archive working dir (data lives in GitHub Release assets)
+ocds-data/
