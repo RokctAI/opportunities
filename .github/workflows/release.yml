@@ -21,11 +21,12 @@ concurrency:
   cancel-in-progress: true
 
 permissions: write-all
+# Automatic triggers (push to main/develop, weekly Friday cron) are off:
+# this repo's GitHub Releases now hold the OCDS archive (`ocds-YYYY`
+# pre-releases/releases and `ocds-index`, see ocds/README.md), and the
+# shared pipeline's RC cleanup and "latest" handling must not touch them.
+# Manual runs remain possible; check the ocds-* releases survive one first.
 on:
-  push:
-    branches: [main, develop]
-  schedule:
-    - cron: '0 23 * * 5'
   workflow_dispatch:
     inputs:
       backfill_ai_notes_cutoff_version:
