@@ -39,6 +39,7 @@ jobs:
     timeout-minutes: 300
     permissions:
       contents: write
+      issues: write
     concurrency:
       group: ocds-archive-sync
       cancel-in-progress: false
@@ -63,9 +64,36 @@ jobs:
           REFETCH_DAYS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.refetch_days || (github.event.schedule == '0 3 1 * *' && '365' || '0') }}
         run: |
           python ocds/sync_ocds.py --archive-dir "$DATA" \
-            --refetch-days "$REFETCH_DAYS" --concurrency 16
+            --refetch-days "$REFETCH_DAYS" --concurrency 16 \
+            --new-buyers-out new_buyers.json
 
       - name: Upload changed assets
         run: |
           bash ocds/release_assets.sh upload "$DATA"
           python -c "import json; m=json.load(open('$DATA/manifest.json')); print('releases:', m['unique_release_count'], '| max ID:', m['max_id_probed'], '| pending retry:', m['pending_retry_count'])"
+
+      - name: Open an issue for new buyers
+        run: |
+          python - <<'EOF' > new_buyers.md
+          import json
+          new = json.load(open("new_buyers.json"))
+          for b in new:
+              links = ", ".join(
+                  f"[{o}](https://ocds-api.etenders.gov.za/api/OCDSReleases/release/{o})"
+                  for o in b["ocids"][:10])
+              more = f" and {len(b['ocids']) - 10} more" if len(b["ocids"]) > 10 else ""
+              print(f"- **{b['name']}**: {b['tenders']} tenders ({links}{more})")
+          EOF
+          if [ ! -s new_buyers.md ]; then
+            echo "No new buyers."
+            exit 0
+          fi
+          {
+            echo "The OCDS Archive Sync found buyers that no earlier run had seen."
+            echo "Add them to the buyer profiles if they are relevant."
+            echo
+            cat new_buyers.md
+            echo
+            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } > issue.md
+          gh issue create --title "New eTenders buyers detected ($(date -u +%Y-%m-%d))" --body-file issue.md

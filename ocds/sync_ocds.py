@@ -236,6 +236,60 @@ def write_shard(path, records, dry_run):
     return True
 
 
+def buyer_name(line):
+    rec = json.loads(line)
+    name = (rec.get("buyer") or {}).get("name") \
+        or ((rec.get("tender") or {}).get("procuringEntity") or {}).get("name") or ""
+    return " ".join(name.split())
+
+
+def update_buyers(adir, shards, out_path, dry_run):
+    """Maintain buyers.json (every buyer seen, keyed by normalized name) and
+    report buyers not seen on any earlier run to `out_path`.
+
+    The first run (no buyers.json yet) only builds the index; it reports
+    nothing, since every buyer would be "new".
+    """
+    path = os.path.join(adir, "buyers.json")
+    known = None
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            known = json.load(f)
+    seen = {}  # key -> {"name", "tenders", "ocids"}
+    for recs in shards.values():
+        for n in sorted(recs):
+            ocid, _, line = recs[n]
+            name = buyer_name(line)
+            key = name.lower()
+            b = seen.setdefault(key, {"name": name, "tenders": 0, "ocids": []})
+            b["tenders"] += 1
+            b["ocids"].append(ocid)
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    index = {}
+    new = []
+    for key, b in sorted(seen.items()):
+        prev = (known or {}).get(key)
+        index[key] = {"name": b["name"], "tenders": b["tenders"],
+                      "first_seen": prev["first_seen"] if prev else today}
+        if known is not None and prev is None:
+            new.append({"name": b["name"], "tenders": b["tenders"],
+                        "ocids": sorted(b["ocids"], key=numeric_id)})
+    if not dry_run:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(index, f, indent=1, ensure_ascii=False, sort_keys=True)
+            f.write("\n")
+        if out_path:
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(new, f, indent=1, ensure_ascii=False)
+                f.write("\n")
+    if known is None:
+        log("buyers index built: %d buyers (first run, nothing reported)" % len(index))
+    else:
+        log("buyers: %d known, %d new" % (len(index), len(new)))
+        for b in new:
+            log("  NEW BUYER: %s (%d tenders)" % (b["name"], b["tenders"]))
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--archive-dir", default=os.path.dirname(os.path.abspath(__file__)))
@@ -245,6 +299,8 @@ def main():
                     help="skip probing and use this max ID")
     ap.add_argument("--start-id", type=int, default=0,
                     help="re-check every unheld ID from here up (default: last max - %d)" % TOP_RECHECK)
+    ap.add_argument("--new-buyers-out", default="",
+                    help="write buyers first seen on this run to this JSON file")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -373,6 +429,8 @@ def main():
         if old != buf.getvalue():
             with open(ocids_path, "wb") as f:
                 f.write(buf.getvalue())
+
+    update_buyers(adir, shards, args.new_buyers_out, args.dry_run)
 
     pending = {n for n in (pending | failed_now) if n not in fetched}
     total_after = sum(len(s) for s in shards.values())
