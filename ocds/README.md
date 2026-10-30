@@ -62,7 +62,9 @@ workflow manually.
 Each sync compares the buyers in the archive against `buyers.json`. Any
 buyer no earlier run has seen gets a GitHub issue titled "New eTenders
 buyers detected (date)", listing the buyer, its tender count and links to
-its releases. The first run only builds the index and opens nothing.
+its releases. On the first run the index is seeded from
+`ocds/buyers_seed.txt` (the buyers in the 2026-08-20 snapshot), so buyers
+that appeared after that snapshot are reported too.
 Matching is on the exact buyer name (whitespace- and case-normalised), so
 a renamed department shows up as a new buyer.
 

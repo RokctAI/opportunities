@@ -247,14 +247,21 @@ def update_buyers(adir, shards, out_path, dry_run):
     """Maintain buyers.json (every buyer seen, keyed by normalized name) and
     report buyers not seen on any earlier run to `out_path`.
 
-    The first run (no buyers.json yet) only builds the index; it reports
-    nothing, since every buyer would be "new".
+    Without buyers.json the index is seeded from buyers_seed.txt (the
+    2026-08-20 snapshot's buyers) next to this script, so buyers that
+    appeared after that are still reported; without either, the run only
+    builds the index.
     """
     path = os.path.join(adir, "buyers.json")
+    seed = os.path.join(os.path.dirname(os.path.abspath(__file__)), "buyers_seed.txt")
     known = None
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
             known = json.load(f)
+    elif os.path.exists(seed):
+        with open(seed, encoding="utf-8") as f:
+            known = {line.strip().lower(): {"first_seen": "2026-08-20"}
+                     for line in f if line.strip() and not line.startswith("#")}
     seen = {}  # key -> {"name", "tenders", "ocids"}
     for recs in shards.values():
         for n in sorted(recs):
@@ -271,7 +278,7 @@ def update_buyers(adir, shards, out_path, dry_run):
         prev = (known or {}).get(key)
         index[key] = {"name": b["name"], "tenders": b["tenders"],
                       "first_seen": prev["first_seen"] if prev else today}
-        if known is not None and prev is None:
+        if known is not None and prev is None and key:
             new.append({"name": b["name"], "tenders": b["tenders"],
                         "ocids": sorted(b["ocids"], key=numeric_id)})
     if not dry_run:

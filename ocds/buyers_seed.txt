@@ -1,0 +1,782 @@
+# Buyers in the 2026-08-20 corpus snapshot (163,321 releases). Used only to seed
+# buyers.json on the first sync, so buyers that appeared after it are reported.
+Abaqulusi Local Municipality
+Academy of Science of South Africa
+Accounting Standards Board
+African Exploration Mining and Finance Corporation Soc Ltd
+Agricultural Research Council
+Agricultural Sector Education and Training Authority
+Agrément South Africa
+Air Chefs SOC Ltd
+Air Traffic and Navigation Services Company Limited
+Airports Company of South Africa
+Airports Company of South Africa Limited
+Alexkor Limited
+Alfred Duma Local Municipality
+Amahlathi Local Municipality
+Amajuba District Municipality
+Amatola Water Board
+Amazwi - South African Museum of Literature
+ARMSCOR
+Arts & Culture
+Artscape
+Atlantis Special Economic Zone SOC LTD
+Automotive Industry Development Centre (AIDC)
+AUTOPAX
+Ba-Phalaborwa Local Municipality
+Banking Sector Education and Training Authority
+Basic Education
+Beaufort West Municipality
+Bela Bela Local Municipality
+Bergrivier - WC Local Municipality
+Big Five Hlabisa Local Municipality
+Bitou Municipality
+Blouberg Municipality
+Blue crane route local municipality
+Bojanala District Municipality
+Border Management Authority
+BRAND RSA
+Breede Valley Municipality
+Breede-Gouritz Catchment Management Agency
+Broadband Infraco SOC
+BUFFALO CITY METROPOLITAN DEVELOPMENT AGENCY
+Buffalo City Metropolitan Municipality
+Buffalo City TVET
+Cape Agency For Sustainable Integrated Development in Rural Areas (CASIDRA)
+Cape Agulhas Municipality
+Cape Town International Convention Centre
+Cape Town Stadium (RF) SOC LIMITED
+Cape Winelands District Municipality
+Capricorn District Municipality
+Capricorn TVET College
+CASIDRA (SOC) Limited
+Castle Control Board
+Cederberg Municipality
+CEF (Pty) Ltd
+CENTLEC SOC LTD
+Central Karoo District Municipality
+Centre for Public Service Innovation
+Chemical Industries Education and Training Authority
+Chief Albert Luthuli Municipality
+City Council of Johannesburg
+City of Cape Town
+City of Ekurhuleni
+City Of Joburg Property Company (SOC) Ltd
+City of Johannesburg - Metro Bus
+City of Johannesburg - Metropolitan Trading Company
+City of Tshwane
+City of Tshwane - Housing Company
+City Power – Johannesburg
+Civilian Secretariat for Police
+Commission for Conciliation Mediation & Arbitration
+Commission for Gender Equality
+Communications
+Community Schemes Ombud Service
+Companies and Intellectual Property Commission
+Companies Tribunal
+Competition Commission
+Competition Tribunal
+Constitution Hill Development Company
+Construction Education and Training Authority
+Construction Industry Development Board
+Correctional Services
+Correctional Services - Judicial Inspectorate
+Council for Geoscience
+Council for Medical Schemes
+Council for Scientific and Industrial Research (CSIR)
+Council for the Built Environment
+Council on Higher Education
+Cross-Border Road Transport Agency
+CSIR
+Culture Arts, Tourism, Hospitality And Sport Sector Education And Training Authority (CATHSSETA)
+Dannhauser Local Municipality
+Dawid kruiper Local Municipality
+Defence
+DENEL (Pty) Ltd
+Department of Agriculture, Land Reform & Rural Development
+Department of Community Safety and Transport Management
+Department of Corporative Governance and Traditional Affairs
+DEPARTMENT OF ECONOMIC, SMALL BUSINESS DEVELOPMENT, TOURISM AND ENVIRONMENTAL AFFAIRS
+Department of Rural Development & Land Reform
+Department of Sports, Arts & Culture
+Department of Women, Youth and Persons with Disabilities (DWYPD)
+DEPARTMENTOF COMMUNICATIONS AND DIGITAL TECHNOLOGIES
+Development Bank of Southern Africa
+Die Afrikaanse Taal Museum
+Dihlabeng Local Municipality
+Dikgatlong Local Municipality
+Dipaliseng local Municipality
+Ditsobotla Local Municipality
+Ditsong: Museums of South Africa
+Dr Beyers Naude Local Municipality
+Dr JS Moroka Local Municipality
+Dr Kenneth Kaunda District Municipality
+Dr Nkosazana Dlamini Zuma Local Municipality
+Dr Pixley Ka Isaka Seme Local Municipality
+DR PIXLEY KA SEME MEMORIAL HOSPITAL
+Dr Ruth Mompati District Municipality
+Drakenstein Municipality
+Driving Licence Card Account
+Dube Tradeport
+Eastcape Midlands Tvet College
+Eastern Cape - Agriculture
+Eastern Cape - AIDC Development Centre Eastern Cape SOC Ltd
+Eastern Cape - Coega Development Cooperation
+Eastern Cape - Cooperative Governance and Traditional Affairs
+Eastern Cape - East London Industrial Development Zone Corporation
+Eastern Cape - Eastern Cape Development Corporation
+Eastern Cape - Eastern Cape Gambling and Betting Board
+Eastern Cape - Eastern Cape Parks and Tourism Agency
+Eastern Cape - Eastern Cape Socio-Economic Consultative Council
+Eastern Cape - Economic Development & Environmental Affairs
+Eastern Cape - Education
+Eastern Cape - Health
+Eastern Cape - Human Settlements
+Eastern Cape - Mayibuye Transport Corporation
+Eastern Cape - Officer of the Premier
+Eastern Cape - Provincial arts and culture council
+Eastern Cape - Provincial Treasury
+Eastern Cape - Roads and Public Works
+Eastern Cape - Rural Development and Agrarian Reform
+Eastern Cape - Safety and Liaison
+Eastern Cape - Social Development and Special Programmes
+Eastern Cape - Sport Recreation Arts and Culture
+Eastern Cape - Transport
+Eastern Cape CET College
+Eastern Cape Liquor Board
+EASTERN CAPE PARKS & TOURISM AGENCY
+Eastern Cape Rural Development Agency
+Education
+Education, Training and Development Practices SETA
+eDumbe Local Municipality
+Ehlanzeni District Municipality
+Ekurhuieni Housing Company
+Ekurhuleni East Tvet College
+Ekurhuleni Water Care Company (ERWAT)
+Ekurhuleni West TVET College
+Elangeni TVET College
+Electoral Commission (IEC)
+Elias Motsoaledi Local Municipality
+Elundini Local Municipality
+Emadlangeni Local Municipality
+EMAKHAZENI LOCAL MUNICIPALITY
+Emalahleni Local Municipality
+Emthanjeni Local Municipality
+Endumeni Local Municipality
+Energy and Water Sector Education and Training Authority
+Enoch Mgijima Local Municipality
+Ephraim Mogale Local Municipality
+ESKOM
+Eskom National Transmission Company of South Africa
+Estate Agency Affairs Board
+Ethekwini Metropolitan Municipality
+Export Credit Insurance Corporation of South Africa Limited
+False Bay TVET College
+Fetakgomo Tubatse Local Municipality
+Fezile Dabi District Municipality
+Fiber Processing Manufacturing Sector Education and Training Authority
+Film and Publication Board
+Finance and Accounting Services Sector Education and Training Authority (Fasset)
+Financial and Fiscal Commission
+Financial Intelligence Centre
+FINANCIAL SECTOR CONDUCT AUTHORITY (FSCA)
+Flavius Mareka TVET College
+Food and Beverages Manufacturing Industry
+Francis Baard District Municipality
+Free State - Agriculture and Rural Development
+Free State - Corporate Governance Traditional Affairs
+Free State - Economic, Small Business Development and Environmental Affairs (DESTEA)
+Free State - Education
+Free State - Fleet Management
+Free State - Free State Development Corporation
+Free State - Free State Gambling, Liquor and Tourism Authority
+Free State - Health
+Free State - Human Settlement
+Free State - Legislature
+Free State - Office of the Premier
+Free State - Police, Roads and Transport
+Free State - Provincial Treasury
+Free State - Public Works
+Free State - Social Development
+Free State - Sport Arts Culture & Recreation
+Freedom Park Trust
+Ga-Segonyana Local Municipality
+Gamagara Local Municipality
+Garden Route District Local Municipality
+Gauteng - Agriculture and Rural Development
+Gauteng - Co-operative Governance & Traditional Affairs (COGTA)
+Gauteng - Community Safety
+Gauteng - Economic Development
+Gauteng - Education
+Gauteng - Gauteng Department of e-Government
+Gauteng - Gauteng Department of Human Settlements
+Gauteng - Gauteng Enterprise Propeller
+Gauteng - Gauteng Gambling Board
+Gauteng - Gauteng Infrastructure Funding Agency
+Gauteng - Gauteng Tourism Authority
+Gauteng - Gautrain Management Agency
+Gauteng - Health
+Gauteng - Infrastructure Development
+Gauteng - Legislature
+Gauteng - Officer of the Premier
+Gauteng - Provincial Treasury
+Gauteng - Roads and Transport
+Gauteng - Social Development
+Gauteng - Sport Arts Culture and Recreation
+Gauteng Department of Social Development
+Gauteng Film Commission - Sport, Arts , Culture and Recreation
+Gauteng G-Fleet
+Gauteng Growth and Development Agency (GGDA)
+Gauteng Partnership Fund
+Gauteng – Community Education and Training College
+George Municipality
+Gert Sibande District Municipality
+GERT SIBANDE TVET COLLEGE
+Govan Mbeki Local Municipality
+Government Communications (GCIS)
+Government Pensions Administration Agency (GPAA)
+Government Printing Works
+Government Technical Advisory Centre (GTAC)
+Great Kei Municipality
+Great North Transport (SOC)Ltd
+Greater Kokstad Local Municipality
+Greater Taung Local Municipality
+Greater Tzaneen Municipality
+Hantam Local Municipality
+Harry Gwala Development Agency
+Harry Gwala District Municipality
+Health
+Health and Welfare Sector Education and Training Authority
+Hessequa Municipality
+Higher Education & Training
+Higher education and training - Boland TVET College
+Higher Education and Training - Central Johannesburg College
+Higher Education and Training - College of Cape Town
+Higher Education and Training - Mnambithi TVET College
+Higher Education and Training - Mopani East TVET College
+Home Affairs
+Housing Development Agency
+Human Sciences Research Council
+Human Settlements
+IKHALA PUBLIC TVET COLLEGE
+ILembe - Enterprise iLembe Economic Development Agency
+ILembe District Municipality
+Independent Communications Authority of South Africa (ICASA)
+Independent Development Trust
+Independent Police Investigative Directorate
+Independent Power Producer Office (IPPO) - part of Department of Mineral Resources and Energy
+Independent Regulatory Board for Auditors
+Industrial Development Corporation of South Africa Limited
+Information Regulator
+Ingonyama Trust Board
+Ingquza Hill Local Municipality
+Ingwe Tvet College
+Inkomati Catchment Management Agency
+Inkosi Langalibalele Local Municipality
+Insurance Sector Education and Training Authority
+Interfront
+International Relations & Cooperation
+International Trade Administration Commission
+Intsika Yethu Local Municipality
+Inxuba Yethemba Local Municipality
+iSimangaliso Wetland Park
+ITHALA SOC LIMITED
+Iziko Museums of Cape Town
+JB Marks Local Municipality
+JOBURG THEATRE (SOC) LTD
+Joe Gqabi - Economic Development Agency (Jogeda)
+Joe Gqabi District Municipality
+Joe Morolong Local Municipality
+Johannes Phumani Phungula Local Municipality
+Johannesburg City Parks and Zoo
+Johannesburg Development Agency
+Johannesburg Market
+Johannesburg Metropolitan Bus Services (SOC) Ltd
+Johannesburg Road Agency (JRA)
+Johannesburg Water
+John Taolo Gaetsewe District Municipality
+Jozini - KZ Local Municipality
+Justice & Constitutional Development
+Kagisano-Molopo Local Municiality
+Kannaland Municipality
+Kareeberg Municipality
+Karoo Hoogland Local Municipality
+Kgatelopele Local Municipality
+Kgetlengrivier Local municipality
+Khai-Ma Local Municipality
+Khai/Garib Local Municipality
+Kheis Local Municipality
+King Cetshwayo Municipality
+King Hintsa College
+King Sabata Dalindyebo Local Municipality
+Knysna Municipality
+Kopanong Local Municipality
+Kouga Municipality
+Koukamma Municipality
+Kwa-Zulu Natal - Agri-Business Development Agency
+Kwa-Zulu Natal - Dube TradePort Corporation
+Kwa-Zulu Natal - Ezemvelo KwaZulu-Natal Wildlife
+Kwa-Zulu Natal - Ithala Development Finance Corporation
+Kwa-Zulu Natal - KwaZulu-Natal Gaming and Betting Board
+Kwa-Zulu Natal - Natal Sharks Board
+Kwa-Zulu Natal - Trade and Investment KwaZulu-Natal
+Kwadukuza Municipality
+Kwazulu Natal - Arts and Culture
+Kwazulu Natal - Community Safety and Liaison
+Kwazulu Natal - Cooperative Governance and Traditional Affairs
+Kwazulu Natal - Department of Agriculture and Rural Develeopment
+Kwazulu Natal - Economic Development, Tourism and Environ Affairs
+Kwazulu Natal - Education
+Kwazulu Natal - Health
+Kwazulu Natal - Human Settlements
+Kwazulu Natal - Office of the Premier
+Kwazulu Natal - Provincial Legislature
+Kwazulu Natal - Provincial Treasury
+Kwazulu Natal - Public Works (Head Office)
+Kwazulu Natal - Social Development
+Kwazulu Natal - Transport
+KwaZulu Natal Economic Regulatory Authority
+KwaZulu Natal-Community Education and Training College
+KwaZulu-Natal - Tourism And Film Authority
+KwaZulu-Natal Film Commission
+KwaZulu-Natal Liquor Authority
+KwaZulu-Natal Museum
+KwaZulu-Natal Tourism Authority
+KZN Growth Fund Trust
+Labour
+Laingsburg Municipality
+Land and Agricultural Development Bank of South Africa
+Langeberg Municipality
+Legal Aid South Africa
+Lejweleputswa Development Agency
+Lejweleputswa District Municipality
+Lekwa Local Municipality
+Lepelle Northern Water
+Lepelle-Nkumpi Municipality
+Lesedi Local Municipality
+Letaba TVET College
+Limpopo - Agriculture
+Limpopo - Co-operative Governance, Human Settlements and Traditional Affairs
+Limpopo - Department of Community Safety and Transport Management
+Limpopo - Economic Development Agency
+Limpopo - Economic Development Environment & Tourism
+Limpopo - Education
+Limpopo - Gateway Airport Authority Limited
+Limpopo - Health
+Limpopo - Legislature
+Limpopo - Limpopo Gambling Board
+Limpopo - Limpopo Roads Agency
+Limpopo - Limpopo Tourism Agency
+Limpopo - Office of the Premier
+Limpopo - Provincial Treasury
+Limpopo - Public Works
+Limpopo - Social Development
+Limpopo - Sport Arts and culture
+Local Government Education and Training Authority
+Luthuli museum
+Madibeng Local Municipality
+Mafube Local Municipality
+Magalies Water
+Magareng Local Municipality
+Majuba Tvet college
+Makana Local Municipality
+Makhado Local Municipality
+Makhuduthamaga Local Municipality
+Maluti Tvet College
+Maluti-a-Phofung Local Municipality
+Maluti-A-Phofung Special Economic Zone
+Maluti-a-Phofung Water
+Mamusa Local Municipality
+Mandela Bay Development Agency
+Mandela Bay Theatre Complex
+Mandeni Local Municipality
+Mangaung Metropolitan Municipality
+Mantsopa Local Municipality
+Manufacturing, Engineering and Related Services SETA (merSETA)
+Maphumulo Local Municipality
+Maquassi hill Local Municipality
+Marine Living Resources Fund
+Market Theatre Foundation
+Masilonyana local municipality
+Matatiele Local Municipality
+Matjhabeng Local Municipality
+Matlosana Local Municipality
+Matzikama Municipality
+Mbhashe Local Municipality
+Mbombela Local Municipality
+Mcgregor Museum (Kimberly)
+Media Development and Diversity Agency
+Media, Information and Communication Technologies Sector Education and training Authority (MICT SETA)
+Medical Research Council of South Africa
+Merafong Local Municipality
+Metsimaholo Local Municipality
+Mhlathuze Water
+Mhlontlo Local Municipality
+Midvaal Local Municipality
+Military Veterans
+Mine Health and Safety Council
+Mineral Resources
+Mining Qualifications Authority
+MINTEK
+MKHAMBATHINI LOCAL MUNICIPALITY
+Mkhondo Local Municipality
+Mnquma Local Municipality
+Mogalakwena Local Municipality
+Mogale City Local Municipality
+Mohokare Local Municipality
+Mopani District Municipality
+Moqhaka Local Municipality
+Moretele Local Municipality
+Moses Kotane Institute
+Moses Kotane Local Municipality
+Mossel Bay Municipality
+Mpofana Local Municipality
+Mpumalanga - Agriculture Rural Development and Land Administration
+Mpumalanga - Co-operative Governance, Human Settlements, and Traditional Affairs
+Mpumalanga - Community Education and Training
+Mpumalanga - Community Safety Security and Liaison
+Mpumalanga - Cooperative Governance and Traditional Affairs
+Mpumalanga - Culture Sport and Recreation
+Mpumalanga - Economic Development Environment and Tourism
+Mpumalanga - Economic Regulator
+Mpumalanga - Education
+Mpumalanga - Finance
+Mpumalanga - Health
+Mpumalanga - Human Settlements
+Mpumalanga - Mpumalanga Economic Growth Agency (MEGA)
+Mpumalanga - Mpumalanga Regional Training Trust (MRTT)
+Mpumalanga - Mpumalanga Tourism and Parks Agency (MTPA)
+Mpumalanga - Nkangala Economic Development agency
+Mpumalanga - Office of the Premier
+Mpumalanga - Provincial Treasury
+Mpumalanga - Public Works Roads and Transport
+Mpumalanga Social Development
+Mpupalanga - Mpumalanga Economic Growth Agency
+Msinga Local Municipality
+Msinsi Holding (SOC)
+Msukaligwa Local Municipality
+Msunduzi Local Municipality
+Msunduzi Museum
+Mthashana TVET
+Municipal Demarcation Board
+Municipal Infrastructure Support Agent
+Musina Local Municipality
+Nala Local Municipality
+Naledi - NW Local Municipality
+Nama Khoi Local Municipality
+NamaKwa District Municipality
+National - Department of Agriculture
+National - Department of Electricity and Energy
+National - Department of Mineral and Petroleum Resources
+National - Employment and Labour
+National - Environment, Forestry and Fisheries
+National Agricultural Marketing Council
+National Arts Council of South Africa
+National Bargaining Council Road Freight and Logistics Industry
+National Consumer Commission
+National Consumer Tribunal
+National Credit Regulator
+National Development Agency
+National Economic Development and Labour Council
+National Electronic Media Institute of South Africa
+National Empowerment Fund
+National Energy Regulator of South Africa
+National Film and Video Foundation of South Africa
+National Gambling Board of South Africa
+National Health Laboratory Service
+National Heritage Council of South Africa
+National Home Builders Registration Council
+National Housing Finance Corporation Limited
+NATIONAL INSTITUTE FOR THE HUMANITIES AND SOCIAL SCIENCES (NIHSS)
+National Library of South Africa
+National Lotteries Commission
+NATIONAL METROLOGY INSTITUTE OF SOUTH AFRICA
+National Museum Bloemfontein
+National Nuclear Regulator
+National Prosecuting Authority (NPA)
+National Radioactive Waste Disposal Institute (NRWDI)
+National Regulator for Compulsory Specifications
+National Research Foundation
+National School of Government
+National Skills Fund (NSF)
+National Student Financial Aid Scheme
+National Treasury
+National Youth Development Agency
+Ncome Museum
+Ndlambe Local Municipality
+Ndwedwe Local Municipality
+Nelson Mandela Bay Municipality
+Nelson Mandela National Museum
+Newcastle Local Municipality
+Ngaka Modiri Molema District Municipality
+Ngwathe Local Municipality
+Nkandla Local Municipality
+Nkangala District Municipality
+Nkangala TVET College
+Nkomazi Local Municipality
+Nkomazi Special Economic Zone
+Nongoma Local Municipality
+North West - Department of Agriculture and Rural Development
+North West - Department of Arts, Culture, Sports and Recreation
+North West - Department of Community Safety and Transport Management
+North West - Department of Cooperative Governance and Traditional Affairs (GoGTA)
+North West - Department of Economy and Enterprise Development
+North West - Department of Education and Sport Development
+North West - Department of Employment and Labour
+North West - Department of Finance
+North West - Department of Health
+North West - Department of Local Government and Human Settlements
+North West - Department of Public Works and Roads
+North West - Department of Social Development
+North West - Legislature
+North West - Mmabana Arts, Culture and Sport Foundation
+North West - North West Community Education and Training College
+North West - North West Development Corporation (Pty) ltd
+North West - North West Gambling Board
+North West - North West Housing Corporation
+North West - North West Parks and Tourism Board
+North West - Office of the Premier
+North West - Provincial Treasury
+NORTH WEST UNIVERSITY
+Northern Cape - Agriculture and Land Reform
+Northern Cape - Community Education and Training College
+Northern Cape - Cooperative Governance Human Settlement and Traditional Affairs
+Northern Cape - Economic Development and Tourism
+Northern Cape - Economic Development, Trade and Investment Promotion Agency
+Northern Cape - Education
+Northern Cape - Health
+Northern Cape - Office of the Premier
+Northern Cape - Provincial Treasury
+Northern Cape - Roads and Public works
+Northern Cape - Social Development
+Northern Cape - Sport Arts and Culture
+Northern Cape - Tourism Authority
+Northern Cape - Transport Safety and Liaison
+Northlink TVET College
+Nquthu Local Municipality
+Ntabankulu Local Municipality
+Ntinga O.R Tambo Development Agengy
+Office of Health Standards Compliance (OHSC)
+Office of the Chief Justice
+Office of the Ombud for Financial Service Providers
+Office of the Pension Funds Adjudicator
+Office Of The Valuer-General
+Okhahlamba Local Municipality
+Ombud Council
+Onderstepoort Biological Products Limited
+ORBIT TVET COLLEGE
+Oudtshoorn Municipality
+Overberg District Municipality
+Overberg Water
+Overstrand Municipality
+PAN SOUTH AFRICAN LANGUAGE BOARD (PANSALB)
+Parliament of the Republic of South Africa
+Passenger Rail Agency of South Africa
+Performing Arts Council of the Free State
+Perishable Products Export Control Board
+Petroleum Agency SA
+PetroSA
+Phokwane Local Municipality
+Phumelela Local Municipality
+Pick it up
+Pixley Ka Seme District Municipality
+Polokwane Municipality
+Port Elizabeth TVET College
+Port St Johns Local Municipality
+Ports Regulator of South Africa
+Postbank SOC
+Prince Albert Municipality
+Private Security Industry Regulatory Authority
+Productivity SA
+Public Enterprises
+Public Investment Corporation Limited
+Public Protector South Africa
+Public Service & Administration
+Public Service Commission
+Public Service Sector Education and Training Authority
+Public Works
+Purchasing Consortium Southern Africa (PURCOSA)
+Quality Council for Trades and Occupations
+Railway Safety Regulator
+RAMOTSHERE MOILOA LOCAL MUNICIPALITY
+Rand Water
+Rand West Local Municipality
+Ratlou Local Municipality
+Ray Nkonyeni Local Municipality
+Renosterburg Local Municipality
+Richmond - KZ Local Municipality
+Richtersveld Municipality
+Rights of Cultural, Religious & Linguistic Communities
+Road Accident Fund
+Road Traffic Infringement Agency
+Road Traffic Management Corporation
+Robben Island Museum
+Rural Development & Land Reform
+Rustenburg Local Municipality
+SA Bureau of Standards
+Safety and Security Sector Education and Training Authority (Sasseta)
+Sakhisizwe Local Municipality
+SALDANHA BAY INDUSTRIAL DEVELOPMENT ZONE
+SALDANHA BAY MUNICIPALITY
+Sarah Baartman District Municipality
+SASRIA
+Science & Technology
+Sedibeng District Municipality
+Sedibeng TVET College
+Sedibeng Water
+Sekhukhune District Municipality
+Senqu Local Municipality
+Sentech Limited
+Services Sector Education and Training Authority
+Siyancuma Local Municipality
+Siyathemba Local Municipality
+Small Business Development
+Small Enterprise Development Agency
+Small Enterprise Development and Finance Agency
+Small Enterprise Finance Agency
+Social Development
+Social Housing Regulatory Authority
+Solplaatje Local Municipality
+South African Airways (Pty) Limited
+South African Broadcasting Corporation Limited
+South African Civil Aviation Authority
+South African Council for Educators
+South African Council for Natural Scientific Professions
+South African Diamond and Precious Metals Regulator
+South African Forestry Company Limited
+SOUTH AFRICAN HEALTH PRODUCTS REGULATORY AUTHORITY
+South African Heritage Resources Agency
+South African Human Rights Commission
+South African Library for the Blind
+South African Local Government Association
+South African Maritime Safety Authority
+South African National Accreditation System
+South African National Biodiversity Institute
+South African National Energy Development Institute
+South African National Parks
+South African National Petroleum Company
+South African National Roads Agency Soc Limited (SANRAL)
+South African National Space Agency
+South African Nuclear Energy Corporation Limited
+South African Nursing Council
+South African Police Service
+South African Post Office Limited
+South African Qualifications Authority
+South African Revenue Service
+South African Social Security Agency
+SOUTH AFRICAN SPECIAL RISKS INSURANCE ASSOCIATION (Sasria Soc Ltd)
+South African Tourism
+South African Weather Service
+South Cape TVET College
+Special Investigation Unit
+State Diamond Trader
+State Information Technology Agency
+State Security Agency
+Statistics South Africa
+Stellenbosch Municipality
+Steve Tshwete Local Municipality
+Strategic Fuel Fund
+Sundays River Valley Municipality
+Swartland Municipality
+Swellendam Municipality
+Takeover Regulation Panel
+Taletso TVET College
+Technology Innovation Agency
+Thabazimbi Local Municipality
+The Department of Planning, Monitoring and Evaluation
+The Innovation Hub Management Centre
+The Limpopo Community Education and Training College
+THE MVULA TRUST
+The Playhouse Company
+The Presidency
+The Richards Bay Industrial Development Zone
+The Social Housing Regulatory Authority
+The South African Bureau of Standards (SABS)
+The South African Council for Project and Construction Management Professions
+The South African Institute for Drug-Free Sport
+The South African Qualifications Authority (SAQA)
+The South African State Theatre
+Theewaterkloof Municipality
+Thekwini TVET College
+Thembelihle Local Municipality
+Thembisile Hani Local Municipality
+Thulamela Local Municipality
+Tokologo Local Municipality
+Tourism
+Trade & Industry
+Trans-Caledon Tunnel Authority
+Transnet National Ports Authority
+Transnet SOC Ltd
+Transport
+Transport Education and Training Authority
+TSHWANE AUTOMOTIVE SPECIAL ECONOMIC ZONE
+TSHWANE ECONOMIC DEVELOPMENT AGENCY
+Tshwane north tvet college
+Tswaing Local Municipality
+Tswelopele Local Municipality
+Tygerburg Hospital
+Ubuhlebezwe Local Municipality
+UBUNTU LOCAL MUNICIPALITY
+Ugu Disctrict Munucipality
+Ulundi Local Municipality
+uMalusi Council for Quality Assurance in General and Further Education and Training
+Umdoni Local Municipality
+uMgungundlovu District Municipality
+Umgungundlovu Economic Development Agency SOC
+Umhlabuyalingana Local Municipality
+uMhlathuze Municipality
+Umkhanyakude District Municipality
+uMlalazi Municipality
+Umngeni Municipality
+uMngeni-uThukela Water
+uMshwathi local Municipality
+Umsobomvu Local Municipality
+Umuziwabantu Local Municipality
+Umvoti Local Municipality
+Umzimkhulu Local Municipality
+Umzimvubu Local Municipality
+Umzinyathi District Municipality
+Unemployment Insurance Fund
+Universal Service and Access Agency of South Africa
+UNIVERSITY OF SOUTH AFRICA (UNISA)
+Uphongolo Local Municipality
+uThukela District Municipality
+uThukela Water (Pty) Ltd
+Vaal Central Water
+Vhembe District Municipality
+Victor Khanye Local Municipality
+VUSELELA TVET COLLEGE
+Walter Sisulu Local Municipality
+War Museum of the Boer Republics
+Water and Sanitation
+Water Research Commission
+Waterberg District Municipality
+Waterberg TVET College
+West Rand District Municipality
+Western Cape - Agriculture
+Western Cape - Community Safety
+Western Cape - Cultural Affairs and Sport
+Western Cape - Department of Mobility
+Western Cape - Economic Development and Tourism
+Western Cape - Education
+Western Cape - Environmental Affairs and Development
+Western Cape - Gambling and Racing Board
+Western Cape - Health
+Western Cape - Human Settlements
+Western Cape - Local Government
+Western Cape - Nature Conservation Board
+Western Cape - Office of the Premier
+Western Cape - Provincial Treasury
+Western Cape - Social Development
+Western Cape - Transport and Public Works
+Western Cape - Western Cape Investments and Trade Promotion Agency
+Western Cape - Western Cape Liquor Board
+Western Cape Tourism, Trade and Investment Promotion Agency
+WESTERN COLLEGE TVET (WESTCOL)
+Wholesale and Retail Sector Education and Training Authority
+William Humphreys Art Gallery
+Winnie Madikizela-Mandela Local Municipality
+Witzenberg Municipality
+Xhariep District Municipality
+ZF Mgcawu District Municipality
+Zululand District Municipality
