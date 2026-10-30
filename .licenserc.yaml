@@ -52,6 +52,7 @@ header:
     - '.github/.rc-cleanup-done'
     - '**/*.md'
     - '**/*.json'
+    - '**/*.gz'
     - '**/dist/**'
     - '**/node_modules/**'
     - '.github/dependabot.yml'

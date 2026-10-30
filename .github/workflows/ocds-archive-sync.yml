@@ -1,0 +1,65 @@
+# Copyright (c) 2026 ROKCT INTELLIGENCE (PTY) LTD
+name: "Opportunities: OCDS Archive Sync"
+
+# Keeps ocds/ (the full eTenders OCDS release archive) current using
+# single-release ID enumeration only. The list endpoint's pagination
+# silently drops records and must not be used.
+#
+# Light run (Tue + Fri): new IDs since the last max, the top of the last
+#   range (IDs allocated before publication), and retries of IDs we hold
+#   no snapshot for. Rewrites only the newest monthly shards.
+# Full run (1st of the month): additionally re-fetches every release dated
+#   in the last 365 days, so awards / contracts / amendments land.
+
+on:
+  schedule:
+    - cron: '0 2 * * 2,5' # light: Tue + Fri 02:00 UTC (04:00 SAST)
+    - cron: '0 3 1 * *'   # full: 1st of each month 03:00 UTC
+  workflow_dispatch:
+    inputs:
+      refetch_days:
+        description: "Re-fetch window in days for late awards (0 = light run)"
+        required: false
+        default: "365"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # A full run is ~35k requests; the API's persistent HTTP 500s and a
+    # flaky edge make it slow (~75 min observed 2026-10-30).
+    timeout-minutes: 300
+    permissions:
+      contents: write
+    concurrency:
+      group: ocds-archive-sync
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sync OCDS archive
+        env:
+          REFETCH_DAYS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.refetch_days || (github.event.schedule == '0 3 1 * *' && '365' || '0') }}
+        run: python ocds/sync_ocds.py --refetch-days "$REFETCH_DAYS" --concurrency 16
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A ocds/
+          if git diff --cached --quiet; then
+            echo "No archive changes."
+            exit 0
+          fi
+          MAXID=$(python -c "import json;print(json.load(open('ocds/manifest.json'))['max_id_probed'])")
+          COUNT=$(python -c "import json;print(json.load(open('ocds/manifest.json'))['unique_release_count'])")
+          git commit -m "chore(ocds): archive sync, ${COUNT} releases, max ID ${MAXID} [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
