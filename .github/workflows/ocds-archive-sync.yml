@@ -1,13 +1,19 @@
 # Copyright (c) 2026 ROKCT INTELLIGENCE (PTY) LTD
 name: "Opportunities: OCDS Archive Sync"
 
-# Keeps ocds/ (the full eTenders OCDS release archive) current using
-# single-release ID enumeration only. The list endpoint's pagination
-# silently drops records and must not be used.
+# Keeps the full eTenders OCDS release archive current using single-release
+# ID enumeration only. The list endpoint's pagination silently drops
+# records and must not be used.
+#
+# The data does NOT live in git, so the repository does not grow: it lives
+# in GitHub Release assets, overwritten in place each run (see
+# ocds/release_assets.sh). One release per year (`ocds-YYYY`), a
+# pre-release while the year runs and a full release once it ends, plus an
+# `ocds-index` pre-release for the manifest, ocid index and legacy records.
 #
 # Light run (Tue + Fri): new IDs since the last max, the top of the last
 #   range (IDs allocated before publication), and retries of IDs we hold
-#   no snapshot for. Rewrites only the newest monthly shards.
+#   no snapshot for.
 # Full run (1st of the month): additionally re-fetches every release dated
 #   in the last 365 days, so awards / contracts / amendments land.
 
@@ -20,7 +26,10 @@ on:
       refetch_days:
         description: "Re-fetch window in days for late awards (0 = light run)"
         required: false
-        default: "365"
+        default: "0"
+
+env:
+  DATA: ocds-data
 
 jobs:
   sync:
@@ -33,33 +42,30 @@ jobs:
     concurrency:
       group: ocds-archive-sync
       cancel-in-progress: false
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history only matters for the one-time bootstrap below.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
+      - name: Download archive from release assets
+        run: bash ocds/release_assets.sh download "$DATA"
+
       - name: Sync OCDS archive
         env:
           REFETCH_DAYS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.refetch_days || (github.event.schedule == '0 3 1 * *' && '365' || '0') }}
-        run: python ocds/sync_ocds.py --refetch-days "$REFETCH_DAYS" --concurrency 16
-
-      - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A ocds/
-          if git diff --cached --quiet; then
-            echo "No archive changes."
-            exit 0
-          fi
-          MAXID=$(python -c "import json;print(json.load(open('ocds/manifest.json'))['max_id_probed'])")
-          COUNT=$(python -c "import json;print(json.load(open('ocds/manifest.json'))['unique_release_count'])")
-          git commit -m "chore(ocds): archive sync, ${COUNT} releases, max ID ${MAXID} [skip ci]"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
-            sleep $((i * 10))
-          done
-          exit 1
+          python ocds/sync_ocds.py --archive-dir "$DATA" \
+            --refetch-days "$REFETCH_DAYS" --concurrency 16
+
+      - name: Upload changed assets
+        run: |
+          bash ocds/release_assets.sh upload "$DATA"
+          python -c "import json; m=json.load(open('$DATA/manifest.json')); print('releases:', m['unique_release_count'], '| max ID:', m['max_id_probed'], '| pending retry:', m['pending_retry_count'])"
