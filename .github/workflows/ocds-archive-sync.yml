@@ -79,3 +79,24 @@ jobs:
         run: |
           python ocds/buyer_issues.py --archive-dir "$DATA" \
             --new-buyers new_buyers.json
+
+      # Part B: read each new buyer's latest tender packs, run the fixed-rule
+      # scan and post a Part B comment (ocds/buyer_quirks.py). No AI is wired
+      # yet, so the comment carries a checklist for a person to finish. To add
+      # one, pass GROQ_API_KEY (+ optional QUIRKS_MODEL), ANTHROPIC_API_KEY or
+      # QUIRKS_AI_CMD here from repo secrets.
+      - name: Part B pack scan for new-buyer issues
+        continue-on-error: true
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr >/dev/null
+          python ocds/buyer_quirks.py --archive-dir "$DATA" --max-issues 3
+
+      - name: Keep Part B prompts for people or any AI
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: buyer-quirks
+          path: buyer-quirks/
+          if-no-files-found: ignore
+          retention-days: 30

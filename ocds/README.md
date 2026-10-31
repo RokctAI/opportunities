@@ -84,9 +84,36 @@ place by every sync while the issue is open, so a buyer that gets more
 tenders keeps one issue and one up-to-date comment. When the tender count
 changes, a dated line is added under "Updates" in that comment.
 
-**Part B** is the quirks half (what the buyer's tender packs actually
-demand), read from the documents by AI or a person. It is not automated
-yet.
+**Part B** is the quirks half: what the buyer's tender packs actually
+demand. `ocds/buyer_quirks.py` runs after Part A on up to 3 open
+`needs-quirks` issues per sync that have no Part B comment yet:
+
+1. picks the buyer's latest 3 tenders that have documents;
+2. downloads the PDFs (no auth needed) and extracts the text
+   (`pdftotext`, or `tesseract` OCR for scanned packs);
+3. runs a fixed-rule scan (briefing / site meeting, CIDB grade,
+   functionality pass mark, 80/20 or 90/10, bid forms such as SBD or a
+   province's own, local content, CSD, tax, submission method, validity,
+   guarantees, required subcontracting, registrations, document fee,
+   specific goals);
+4. builds a prompt from Part A, the scan and the pack text, saved in the
+   run's `buyer-quirks` artifact;
+5. calls an AI only if one is configured. The AI gets text and returns
+   JSON; it never has repo access. First match wins: `QUIRKS_AI_CMD` (any
+   provider as a shell command: JSON request on stdin, JSON reply on
+   stdout), `GROQ_API_KEY` (`QUIRKS_MODEL` picks the model), then
+   `ANTHROPIC_API_KEY`;
+6. posts one Part B comment: the AI's quirks if it ran, otherwise a
+   checklist for a person to finish, plus the scan table and the
+   documents read.
+
+No AI is wired into the workflow yet, so Part B is currently for a person
+to finish. The prompt in the artifact can also be pasted into any AI chat.
+Opening the buyer-profile PR, and the `profile-pr-open` label, is still
+manual.
+
+Try it locally on one buyer, printing instead of posting:
+`python ocds/buyer_quirks.py --archive-dir ocds-data --buyer "Name" --no-ai`.
 
 ## Completeness: the honest exceptions
 
