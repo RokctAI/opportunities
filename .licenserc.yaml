@@ -53,6 +53,7 @@ header:
     - '**/*.md'
     - '**/*.json'
     - '**/*.gz'
+    - 'ocds/buyers_seed.txt'
     - '**/dist/**'
     - '**/node_modules/**'
     - '.github/dependabot.yml'

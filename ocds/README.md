@@ -39,6 +39,8 @@ real coverage April 2021 onward. `manifest.json` always has the live numbers.
 - `manifest.json` — max ID, per-shard counts, empty-ID count, IDs pending
   retry, and stats from the last run.
 - `ocids.txt.gz` — sorted list of every ocid in the archive.
+- `buyers.json` — every buyer ever seen (keyed by lower-cased name), with
+  its display name, tender count and the date it was first seen.
 
 In git: `sync_ocds.py` (the sync script, Python stdlib only) and
 `release_assets.sh` (moves the data to and from the release assets).
@@ -54,6 +56,17 @@ Run it by hand with `bash ocds/release_assets.sh download ocds-data`,
 `python ocds/sync_ocds.py --archive-dir ocds-data [--refetch-days 365]`,
 then `bash ocds/release_assets.sh upload ocds-data`, or trigger the
 workflow manually.
+
+## New-buyer alerts
+
+Each sync compares the buyers in the archive against `buyers.json`. Any
+buyer no earlier run has seen gets a GitHub issue titled "New eTenders
+buyers detected (date)", listing the buyer, its tender count and links to
+its releases. On the first run the index is seeded from
+`ocds/buyers_seed.txt` (the buyers in the 2026-08-20 snapshot), so buyers
+that appeared after that snapshot are reported too.
+Matching is on the exact buyer name (whitespace- and case-normalised), so
+a renamed department shows up as a new buyer.
 
 ## Completeness: the honest exceptions
 
