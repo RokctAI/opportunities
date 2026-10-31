@@ -60,13 +60,33 @@ workflow manually.
 ## New-buyer alerts
 
 Each sync compares the buyers in the archive against `buyers.json`. Any
-buyer no earlier run has seen gets a GitHub issue titled "New eTenders
-buyers detected (date)", listing the buyer, its tender count and links to
-its releases. On the first run the index is seeded from
-`ocds/buyers_seed.txt` (the buyers in the 2026-08-20 snapshot), so buyers
-that appeared after that snapshot are reported too.
+buyer no earlier run has seen gets its own GitHub issue, "New eTenders
+buyer: <name>" (`ocds/buyer_issues.py`). On the first run the index is
+seeded from `ocds/buyers_seed.txt` (the buyers in the 2026-08-20
+snapshot), so buyers that appeared after that snapshot are reported too.
 Matching is on the exact buyer name (whitespace- and case-normalised), so
 a renamed department shows up as a new buyer.
+
+The issue stays open while the buyer profile is built, and its labels
+show where it is:
+
+| Labels | Meaning |
+| --- | --- |
+| `new-buyer` + `needs-quirks` | Opened by the sync; Part A is posted, Part B is pending |
+| `profile-pr-open` | A buyer-profile PR exists (set by Part B) |
+| closed | The profile PR has merged |
+
+**Part A** is the data half of the profile, built from the archive with no
+AI: tender count, categories, procurement methods, bid windows, documents
+per tender, awards and their values, B-BBEE notes, top suppliers, contact
+emails and the latest tenders. It is one comment on the issue, rewritten in
+place by every sync while the issue is open, so a buyer that gets more
+tenders keeps one issue and one up-to-date comment. When the tender count
+changes, a dated line is added under "Updates" in that comment.
+
+**Part B** is the quirks half (what the buyer's tender packs actually
+demand), read from the documents by AI or a person. It is not automated
+yet.
 
 ## Completeness: the honest exceptions
 

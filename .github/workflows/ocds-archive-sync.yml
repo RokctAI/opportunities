@@ -72,28 +72,10 @@ jobs:
           bash ocds/release_assets.sh upload "$DATA"
           python -c "import json; m=json.load(open('$DATA/manifest.json')); print('releases:', m['unique_release_count'], '| max ID:', m['max_id_probed'], '| pending retry:', m['pending_retry_count'])"
 
-      - name: Open an issue for new buyers
+      # One issue per new buyer, labelled new-buyer + needs-quirks, with a
+      # Part A comment (buyer data from the archive) that every later sync
+      # refreshes in place while the issue is open. See ocds/buyer_issues.py.
+      - name: Open / refresh new-buyer issues
         run: |
-          python - <<'EOF' > new_buyers.md
-          import json
-          new = json.load(open("new_buyers.json"))
-          for b in new:
-              links = ", ".join(
-                  f"[{o}](https://ocds-api.etenders.gov.za/api/OCDSReleases/release/{o})"
-                  for o in b["ocids"][:10])
-              more = f" and {len(b['ocids']) - 10} more" if len(b["ocids"]) > 10 else ""
-              print(f"- **{b['name']}**: {b['tenders']} tenders ({links}{more})")
-          EOF
-          if [ ! -s new_buyers.md ]; then
-            echo "No new buyers."
-            exit 0
-          fi
-          {
-            echo "The OCDS Archive Sync found buyers that no earlier run had seen."
-            echo "Add them to the buyer profiles if they are relevant."
-            echo
-            cat new_buyers.md
-            echo
-            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          } > issue.md
-          gh issue create --title "New eTenders buyers detected ($(date -u +%Y-%m-%d))" --body-file issue.md
+          python ocds/buyer_issues.py --archive-dir "$DATA" \
+            --new-buyers new_buyers.json
