@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-11-15T09:47:59.271279",
+  "last_sync": "2026-11-22T10:08:22.094412",
   "total_verified_all": 1623,
   "global_defaults": [
     "Review Tender Documents",
@@ -13,462 +13,462 @@
       "classifications": {
         "Funder Type": {
           "VC": 930,
-          "PE": 82,
-          "Development Bank": 1,
-          "Debt": 6,
-          "Fintech": 1,
-          "Growth Equity": 5,
-          "Accelerator": 45,
-          "Gov": 17,
-          "Private Equity": 4,
-          "Incubator": 10,
-          "Growth": 2,
           "Platform": 5,
-          "Secondary": 2,
-          "Hedge Fund": 2,
-          "Sovereign Wealth": 15,
-          "Corporate VC": 70,
-          "Grant Provider": 22,
-          "Private Credit": 1,
-          "Grant": 13,
-          "Impact": 6,
-          "Venture Builder": 6,
-          "Impact VC": 7,
+          "PE": 82,
           "Alternatives": 1,
-          "Pension Fund": 6,
-          "Crowdfunding": 5,
-          "Angel Group": 27,
-          "Family Office": 2,
-          "Investment Bank": 1,
-          "Advisory": 2,
-          "Wealth Management": 1,
-          "Investment Manager": 1,
-          "Venture Studio": 1,
           "Venture Debt": 3,
-          "Strategic": 2,
+          "Impact": 6,
+          "Debt": 6,
+          "Corporate VC": 70,
           "Impact Fund": 1,
-          "Digital Assets": 1,
-          "Fund": 1,
-          "Mezzanine": 2,
-          "Syndicate": 1,
-          "NBFC": 1,
-          "Angel": 1,
-          "Asset Management": 1,
-          "Corporate": 4,
-          "Asset Manager": 1,
-          "Angel Network": 3,
-          "Equity Crowdfunding": 1,
-          "Trading": 1,
-          "Public VC": 1,
+          "Wealth Management": 1,
+          "Growth": 2,
           "Micro-VC": 1,
           "Growth Fund": 1,
-          "Development Finance Institution": 1,
-          "Investment Fund": 1,
-          "Fund of Funds": 2,
-          "Development Capital Fund": 1,
-          "Government Fund": 1,
-          "Investment Firm": 1,
-          "Private Debt": 1,
+          "Accelerator": 45,
+          "Incubator": 10,
+          "Sovereign Wealth": 15,
+          "NBFC": 1,
+          "Development Bank": 1,
+          "Gov": 17,
+          "Grant": 13,
           "Venture Creation": 1,
-          "Community": 1,
+          "Angel Group": 27,
+          "Investment Fund": 1,
+          "Grant Provider": 22,
+          "Crowdfunding": 5,
+          "Mezzanine": 2,
+          "Strategic": 2,
+          "Development Capital Fund": 1,
+          "Trading": 1,
+          "Pension Fund": 6,
+          "Family Office": 2,
+          "Venture Builder": 6,
+          "Private Debt": 1,
+          "Government Fund": 1,
+          "Fund": 1,
+          "Impact VC": 7,
+          "Advisory": 2,
+          "Development Finance Institution": 1,
+          "Fintech": 1,
           "Government-backed VC": 1,
+          "Asset Management": 1,
+          "Venture Studio": 1,
+          "Secondary": 2,
+          "Investment Manager": 1,
+          "Angel": 1,
+          "Private Equity": 4,
+          "Growth Equity": 5,
+          "Hedge Fund": 2,
+          "Equity Crowdfunding": 1,
+          "Angel Network": 3,
+          "Investment Firm": 1,
+          "Syndicate": 1,
+          "Asset Manager": 1,
+          "Company Builder": 1,
+          "Investment Bank": 1,
+          "Public VC": 1,
+          "Corporate": 4,
+          "Fund of Funds": 2,
+          "Community": 1,
+          "Digital Assets": 1,
           "Sovereign Wealth Fund": 1,
-          "Company Builder": 1
+          "Private Credit": 1
         },
         "Funding Type": {
+          "Pre-Seed": 108,
           "Seed": 818,
+          "Early Stage": 55,
           "Series A-Z": 353,
-          "Late Stage": 45,
-          "Venture": 2,
-          "Growth": 124,
-          "Debt Financing": 1,
           "Series A": 355,
           "Series B": 104,
-          "Debt": 19,
-          "Series B-Z": 6,
-          "Series C": 2,
-          "Series D": 1,
-          "Early Stage": 55,
-          "Pre-Seed": 108,
-          "Greenfield": 1,
-          "Brownfield": 1,
-          "Pre-Series A": 3,
-          "Growth Equity": 2,
-          "Secondary": 3,
-          "Series C-Z": 9,
-          "Later Stage": 1,
-          "Grants": 8,
-          "Mezzanine": 3,
-          "Equity": 12,
-          "Grant": 27,
-          "Project Finance": 1,
-          "Infrastructure": 2,
+          "Growth": 124,
           "PE": 8,
-          "Pre-seed": 4,
-          "Other": 1,
-          "Equity Placement": 1,
-          "Series B+": 1,
-          "Buyout": 4,
-          "License": 1,
+          "Debt": 19,
+          "Equity": 12,
+          "Late Stage": 45,
+          "Growth Equity": 2,
           "Structured Finance": 1,
-          "Series A-B": 7,
-          "Credits": 1,
-          "Trade Finance": 1,
-          "Co-Investment": 1,
-          "Blended Finance": 2,
-          "Direct": 1,
-          "Fund": 1,
+          "Venture": 2,
+          "Debt Financing": 1,
+          "Grant": 27,
+          "Series C-Z": 9,
+          "Series B-Z": 6,
           "Development Capital": 1,
-          "Bridge Financing": 1,
           "Venture Debt": 1,
-          "Secondaries": 1,
-          "Fund-of-Funds": 1,
+          "Credits": 1,
+          "Series A-B": 7,
+          "Grants": 8,
+          "Bridge Financing": 1,
+          "Mezzanine": 3,
+          "License": 1,
+          "Pre-seed": 4,
+          "Later Stage": 1,
+          "Blended Finance": 2,
           "Co-funding": 1,
           "Technical Co-founder": 1,
+          "Equity Placement": 1,
+          "Secondary": 3,
+          "Other": 1,
+          "IPO": 1,
+          "Pre-Series A": 3,
+          "Series C": 2,
+          "Series D": 1,
+          "Co-Investment": 1,
           "EIS": 1,
+          "Series B+": 1,
+          "Buyout": 4,
+          "Trade Finance": 1,
           "Strategic": 2,
-          "IPO": 1
+          "Infrastructure": 2,
+          "Secondaries": 1,
+          "Fund-of-Funds": 1,
+          "Direct": 1,
+          "Fund": 1,
+          "Greenfield": 1,
+          "Brownfield": 1,
+          "Project Finance": 1
         },
         "Industry": {
-          "Fintech": 246,
-          "AI": 309,
           "Tech": 693,
-          "Impact": 16,
-          "Industrial": 9,
-          "Infrastructure": 10,
-          "Consumer": 81,
-          "Financial Services": 12,
-          "DeepTech": 35,
-          "FinTech": 11,
-          "SaaS": 79,
-          "ICT": 4,
-          "Medtech": 5,
-          "Food Tech": 1,
-          "B2B Software": 3,
-          "Defense": 40,
-          "Robotics": 5,
-          "Life Sciences": 22,
-          "Multi-sector": 7,
-          "Hospitality": 1,
-          "Health": 29,
-          "Web3": 8,
-          "Metaverse": 1,
-          "Deep Tech": 26,
-          "Climate": 25,
-          "TechBio": 1,
-          "Space": 8,
-          "Cybersecurity": 33,
-          "Industry": 4,
-          "Healthcare": 58,
-          "Energy": 19,
-          "Emerging Markets": 34,
-          "Public": 1,
-          "Private": 1,
-          "Enterprise": 40,
-          "Defence": 2,
-          "Aerospace": 20,
-          "Security": 3,
-          "Biotech": 26,
-          "Education": 3,
-          "Economic Opportunity": 1,
-          "Cloud": 2,
-          "B2B Tech": 5,
-          "Software": 25,
-          "IT": 3,
-          "Manufacturing": 3,
-          "Pharma": 1,
-          "Medical Devices": 1,
-          "Enterprise SaaS": 9,
-          "Commerce": 1,
-          "Bio": 5,
-          "Agritech": 6,
-          "Military": 26,
-          "Gaming": 14,
-          "Hardware": 8,
-          "Crypto": 29,
-          "HealthTech": 6,
-          "Renewable Energy": 2,
-          "Agriculture": 2,
-          "Telecom": 3,
-          "Logistics": 16,
-          "Science": 6,
-          "Economics": 1,
-          "Internet": 6,
-          "Clean Energy": 3,
-          "E-commerce": 6,
-          "IoT": 4,
-          "Private Equity": 1,
           "B2B": 10,
-          "Water": 1,
-          "Diversified": 13,
+          "SaaS": 79,
+          "Edtech": 12,
+          "Fintech": 246,
+          "Crypto": 29,
+          "AI": 309,
+          "Biology": 1,
+          "Health": 29,
+          "E-commerce": 6,
+          "Gaming": 14,
+          "Healthtech": 11,
+          "Infrastructure": 10,
+          "Private Equity": 1,
+          "Impact": 16,
+          "Renewable Energy": 2,
+          "Consumer": 81,
+          "Enterprise": 40,
+          "Cybersecurity": 33,
+          "Defense": 40,
+          "Emerging Markets": 34,
+          "Inclusion": 3,
+          "Climate": 25,
+          "Biotech": 26,
+          "IT": 3,
+          "Cleantech": 4,
+          "Military": 26,
+          "AI Infrastructure": 1,
+          "DevTools": 2,
+          "Enterprise Software": 12,
+          "Energy": 19,
+          "Social Impact": 2,
+          "Deep Tech": 26,
+          "Aerospace": 20,
+          "Real Estate": 2,
+          "Financial Services": 12,
+          "Healthcare": 58,
+          "Telecom": 3,
+          "Life Sciences": 22,
           "General": 21,
           "B2B SaaS": 11,
           "Marketplaces": 11,
-          "Venture Debt": 1,
-          "Digital Health": 3,
-          "Industrial Biotech": 1,
-          "AgriTech": 2,
-          "Inclusion": 3,
-          "Construction": 1,
-          "Enterprise Software": 12,
-          "PropTech": 3,
-          "Dual-Use Tech": 1,
-          "Services": 2,
-          "Healthtech": 11,
-          "Real Estate": 2,
-          "Innovation": 2,
-          "Climate Tech": 6,
-          "Green Tech": 1,
-          "Sustainability": 8,
-          "Digital": 3,
-          "Media": 2,
-          "Dual-use": 1,
+          "B2B Software": 3,
           "Enterprise Tech": 5,
-          "Deeptech": 15,
-          "Marketplace": 2,
-          "Agri": 2,
-          "Food": 3,
-          "Mobile": 2,
-          "Cloud Infra": 1,
-          "Cyber": 11,
-          "Diverse Tech": 1,
-          "Edtech": 12,
-          "Global Development": 2,
-          "Deglobalization": 1,
-          "Deep Science": 2,
-          "Mobility": 6,
-          "Social Justice": 1,
-          "Consumer Brands": 2,
-          "D2C": 1,
-          "Industrials": 1,
-          "Regional": 1,
-          "Ocean": 1,
-          "Social Impact": 2,
-          "Digital Assets": 1,
-          "Mining": 1,
-          "Biology": 1,
-          "Tech-Enabled Services": 1,
-          "Voice": 1,
+          "Medtech": 5,
+          "Market Enablement": 1,
+          "High-Growth Innovation": 1,
+          "Automation": 1,
+          "DeepTech": 35,
           "Financial Inclusion": 2,
           "MSME Finance": 1,
-          "Platforms": 1,
+          "Food Security": 1,
+          "Logistics": 16,
+          "Industrial": 9,
+          "Consumer Tech": 9,
+          "Digital Health": 3,
+          "B2B Tech": 5,
           "Industrial Tech": 3,
+          "Software": 25,
+          "Diversified": 13,
+          "PropTech": 3,
+          "Social Justice": 1,
+          "Digital Infrastructure": 1,
+          "Journalism": 1,
+          "Multi-sector": 7,
+          "Retail": 3,
+          "Innovation": 2,
+          "Industry": 4,
+          "Cyber": 11,
+          "Autonomy": 1,
+          "Mobility": 6,
+          "Sustainability": 8,
+          "Manufacturing": 3,
+          "Agrifood": 1,
+          "Industrial Digitalization": 1,
+          "Future of Food": 1,
+          "Enterprise SaaS": 9,
+          "Vertical Software": 1,
+          "Semiconductors": 3,
+          "Data Infrastructure": 1,
+          "Bio": 5,
+          "Deeptech": 15,
+          "HealthTech": 6,
+          "Proptech": 2,
+          "Agri": 2,
+          "Food": 3,
+          "FinTech": 11,
+          "Voice": 1,
+          "Regional": 1,
+          "Global Development": 2,
+          "Hardware": 8,
+          "Commercial": 1,
+          "Special Situations": 1,
+          "Defence": 2,
+          "Dual-use Technology": 1,
+          "Deep Science": 2,
+          "Cloud Infra": 1,
+          "Computing": 1,
           "Smart Components": 1,
-          "Financial Tech": 1,
+          "Science": 6,
+          "ClimateTech": 1,
+          "Climate Tech": 6,
+          "Green Tech": 1,
+          "Networking": 1,
+          "Civic Tech": 1,
+          "Data Rights": 1,
+          "B2B Enterprise Software": 1,
+          "Gen": 1,
+          "Infectious Disease": 1,
+          "Mental Health": 1,
+          "Digital": 3,
+          "Real Estate Tech": 1,
+          "AgTech": 4,
+          "Rural Tech": 1,
+          "Agribusiness": 2,
+          "Security": 3,
+          "Agrifoodtech": 1,
+          "Clean Energy": 3,
+          "Robotics": 5,
+          "Mobile": 2,
+          "IoT": 4,
+          "Smart Cities": 1,
+          "Defense Tech": 2,
+          "Dual-Use": 1,
+          "InsurTech": 1,
+          "Internet": 6,
+          "Digital Tech": 1,
+          "Chemistry": 1,
+          "Ocean": 1,
+          "Diverse Tech": 1,
+          "Indigenous Business": 1,
+          "Data Science": 1,
+          "Web3": 8,
+          "Supply Chain": 2,
+          "Games": 2,
+          "Games Technology": 1,
+          "Interactive Entertainment": 1,
+          "Education": 3,
+          "Future of Work": 1,
+          "EdTech": 2,
+          "Marketplace": 2,
+          "Blockchain": 2,
+          "Agtech": 1,
+          "Space": 8,
+          "ICT": 4,
+          "Developer Tools": 2,
+          "Frontier": 1,
+          "Deglobalization": 1,
+          "GovTech": 2,
+          "Bioenergy": 1,
+          "EV Charging": 1,
+          "Engineering": 1,
+          "Dual-Use Tech": 1,
+          "TechBio": 1,
+          "Consumer Brands": 2,
+          "D2C": 1,
+          "Metaverse": 1,
+          "Agritech": 6,
+          "Water": 1,
+          "Energy Transition": 2,
+          "Quantum": 2,
+          "Public": 1,
+          "Private": 1,
           "B2C": 1,
-          "Internet Health": 1,
-          "E-Commerce": 2,
           "TMT": 1,
           "Greentech": 1,
           "Advanced Manufacturing": 1,
-          "B2B Enterprise Software": 1,
-          "Intelligence": 1,
-          "Research": 1,
-          "Consumer Tech": 9,
-          "Developer Tools": 2,
-          "Infectious Disease": 1,
-          "Mental Health": 1,
-          "High-Growth Innovation": 1,
-          "Bioenergy": 1,
-          "EV Charging": 1,
-          "Semiconductors": 3,
-          "Display": 1,
-          "Clean Tech": 2,
-          "Agrifoodtech": 1,
-          "Enterprise AI": 1,
-          "Insurtech": 1,
-          "AI Infrastructure": 1,
-          "DevTools": 2,
-          "EdTech": 2,
-          "ClimateTech": 1,
-          "AgTech": 4,
-          "Hardtech": 1,
-          "Autonomy": 1,
-          "Materials": 1,
-          "Cleantech": 4,
-          "Games": 2,
-          "Defense Tech": 2,
-          "Dual-Use": 1,
-          "Commodities": 1,
-          "Civic Tech": 1,
-          "Data Rights": 1,
-          "Future of Work": 1,
-          "GovTech": 2,
-          "Proptech": 2,
-          "Supply Chain": 2,
-          "Energy Transition": 2,
-          "Maritime": 1,
-          "Narrative Violations": 1,
-          "Digital Tech": 1,
-          "Chemistry": 1,
-          "Frontier": 1,
-          "Real Estate Tech": 1,
-          "Smart Cities": 1,
-          "Gen": 1,
-          "Agtech": 1,
-          "Networking": 1,
-          "Data Science": 1,
-          "Market Enablement": 1,
-          "Agribusiness": 2,
           "Therapeutics": 1,
           "Rare Diseases": 1,
-          "Design": 1,
-          "InsurTech": 1,
+          "Hardtech": 1,
+          "AgriTech": 2,
           "Data": 1,
-          "Agrifood": 1,
-          "Rural Tech": 1,
-          "Dual-use Technology": 1,
           "Consumer Lending": 1,
-          "Decarbonization": 1,
-          "Infra Software": 1,
-          "Commercial": 1,
-          "Special Situations": 1,
-          "Industrial Digitalization": 1,
-          "Digital Identity": 1,
-          "Personal Care": 1,
-          "Retail": 3,
+          "Construction": 1,
+          "Materials": 1,
+          "Cloud": 2,
+          "Pharma": 1,
+          "Medical Devices": 1,
           "Big Data": 1,
-          "Automation": 1,
-          "Content": 1,
-          "Quantum": 2,
-          "Data Infrastructure": 1,
+          "E-Commerce": 2,
+          "Media": 2,
+          "Digital Identity": 1,
           "Photonics": 1,
-          "Digital Infrastructure": 1,
+          "Decarbonization": 1,
+          "Intelligence": 1,
+          "Maritime": 1,
+          "Clean Tech": 2,
+          "Display": 1,
+          "Agriculture": 2,
+          "Commodities": 1,
+          "Content": 1,
+          "Food Tech": 1,
+          "Insurtech": 1,
+          "Design": 1,
+          "Venture Debt": 1,
+          "Industrials": 1,
+          "Enterprise AI": 1,
           "Open Source": 1,
-          "Digital Economy": 1,
-          "Indigenous Business": 1,
+          "Platforms": 1,
+          "Commerce": 1,
+          "Dual-use": 1,
+          "Personal Care": 1,
           "Network Effects": 1,
-          "Food Security": 1,
-          "Blockchain": 2,
-          "Games Technology": 1,
-          "Interactive Entertainment": 1,
-          "Computing": 1,
-          "Engineering": 1,
-          "Journalism": 1,
-          "Future of Food": 1,
+          "Financial Tech": 1,
+          "Tech-Enabled Services": 1,
+          "Hospitality": 1,
+          "Services": 2,
+          "Economic Opportunity": 1,
+          "Research": 1,
           "Community-driven": 1,
+          "Infra Software": 1,
+          "Digital Assets": 1,
+          "Mining": 1,
+          "Narrative Violations": 1,
           "Tourism": 1,
-          "Vertical Software": 1
+          "Industrial Biotech": 1,
+          "Economics": 1,
+          "Internet Health": 1,
+          "Digital Economy": 1
         },
         "Territory": {
-          "Global": 479,
-          "China": 23,
-          "Europe": 153,
-          "South Korea": 5,
-          "Latin America": 24,
-          "India": 51,
-          "US": 3,
-          "North America": 133,
-          "USA": 103,
-          "MENA": 10,
-          "Africa": 61,
-          "Sub-Saharan Africa": 2,
-          "Nordics": 8,
-          "Baltics": 4,
-          "Israel": 23,
-          "Emerging Markets": 21,
-          "Asia": 37,
-          "Middle East": 18,
-          "Japan": 8,
-          "Southeast Asia": 24,
-          "Indonesia": 4,
-          "SE Asia": 4,
           "LatAm": 17,
-          "Brazil": 4,
-          "Eastern Europe": 1,
-          "Turkey": 2,
-          "Pakistan": 5,
-          "Spain": 5,
-          "Canada": 4,
+          "Global": 479,
+          "Europe": 153,
+          "Middle East": 18,
           "North Africa": 11,
-          "Southern Europe": 2,
-          "LATAM": 1,
-          "Australia": 10,
-          "Egypt": 3,
-          "Malaysia": 1,
-          "Mexico": 2,
-          "CEE": 3,
-          "Italy": 1,
-          "UK": 7,
+          "India": 51,
+          "Africa": 61,
+          "USA": 103,
+          "Asia": 37,
+          "Emerging Markets": 21,
+          "China": 23,
+          "Israel": 23,
           "East Africa": 2,
-          "Germany": 2,
-          "Central & Eastern Europe": 1,
-          "Americas": 1,
-          "Russia": 1,
-          "Sweden": 1,
-          "Saudi Arabia": 2,
+          "Latin America": 24,
+          "North America": 133,
+          "Sub-Saharan Africa": 2,
+          "South Africa": 3,
+          "Southeast Asia": 24,
+          "South Korea": 5,
+          "Japan": 8,
+          "MENA": 10,
+          "UK": 7,
+          "Australia": 10,
+          "New Zealand": 1,
+          "Indonesia": 4,
           "Korea": 1,
           "Vietnam": 6,
-          "South Africa": 3,
-          "Global Emerging Markets": 1,
-          "SEA": 6,
-          "Oceania": 1,
-          "Chile": 2,
+          "US": 3,
+          "Pakistan": 5,
           "Greece": 2,
-          "New Zealand": 1,
-          "Europe (CEE)": 1,
-          "West Africa": 1,
+          "Canada": 4,
+          "Saudi Arabia": 2,
+          "Southeast Europe": 1,
+          "Spain": 5,
+          "Chile": 2,
+          "Nordics": 8,
+          "Baltics": 4,
+          "Sweden": 1,
+          "Americas": 1,
+          "SEA": 6,
+          "CEE": 3,
+          "Germany": 2,
+          "Mexico": 2,
+          "Brazil": 4,
+          "SE Asia": 4,
+          "Egypt": 3,
+          "Global Emerging Markets": 1,
+          "Oceania": 1,
+          "Eastern Europe": 1,
+          "Turkey": 2,
+          "Italy": 1,
           "DACH": 1,
-          "Southeast Europe": 1
+          "Europe (CEE)": 1,
+          "Southern Europe": 2,
+          "LATAM": 1,
+          "Russia": 1,
+          "West Africa": 1,
+          "Malaysia": 1,
+          "Central & Eastern Europe": 1
         },
         "Flag": {
-          "GLOBAL": 104,
-          "CN": 31,
-          "GB": 91,
-          "FR": 35,
-          "KR": 13,
           "BR": 22,
-          "IN": 45,
-          "AT": 3,
           "US": 468,
-          "CA": 20,
           "DE": 34,
           "AE": 18,
-          "MU": 4,
+          "IN": 45,
           "ZA": 21,
-          "FI": 7,
-          "SE": 14,
-          "QA": 1,
+          "FR": 35,
+          "GLOBAL": 104,
           "IL": 29,
-          "LU": 3,
-          "IE": 2,
-          "JP": 18,
-          "SG": 38,
-          "MX": 12,
-          "ID": 7,
-          "BE": 4,
-          "KE": 10,
           "CH": 6,
-          "ES": 16,
-          "NG": 20,
-          "TR": 2,
-          "KW": 2,
-          "PK": 5,
-          "AU": 15,
+          "CN": 31,
           "NL": 8,
-          "EG": 5,
-          "TN": 2,
-          "HU": 2,
-          "GR": 3,
-          "PL": 5,
+          "IE": 2,
           "SA": 11,
-          "MY": 3,
+          "ES": 16,
+          "GB": 91,
           "GH": 2,
-          "IT": 2,
-          "NO": 1,
-          "EE": 2,
-          "RU": 1,
-          "VN": 6,
+          "KE": 10,
+          "NG": 20,
+          "MY": 3,
+          "SE": 14,
+          "ID": 7,
+          "KR": 13,
           "DK": 3,
+          "JP": 18,
+          "EG": 5,
+          "CA": 20,
+          "AU": 15,
+          "QA": 1,
+          "SG": 38,
+          "PK": 5,
+          "GR": 3,
+          "VN": 6,
           "AR": 4,
+          "BG": 1,
           "ET": 1,
-          "NZ": 1,
           "CL": 2,
-          "MT": 1,
-          "HR": 1,
+          "FI": 7,
+          "PL": 5,
+          "MX": 12,
+          "KW": 2,
+          "MU": 4,
+          "TN": 2,
+          "LU": 3,
           "PT": 1,
+          "HR": 1,
+          "AT": 3,
+          "BE": 4,
+          "NO": 1,
+          "NZ": 1,
+          "HU": 2,
+          "TR": 2,
+          "IT": 2,
           "CZ": 1,
-          "BG": 1
+          "RU": 1,
+          "MT": 1,
+          "EE": 2
         }
       }
     },
@@ -479,11 +479,11 @@
       "classifications": {
         "Focus Area": {
           "General": 298,
+          "international travel costs, national travel costs, transport costs, insurance, taxes and permits, fees, accommodation costs, daily allowances, technical rental costs, exhibition material costs, technical fees, general technical costs, communication costs, publication costs, administration costs, and other specified eligible expenses": 1,
+          "scaling of wafer-level photonic processes for key materials such as SiN, InP, and GaAs; development of scalable, automated packaging and test solutions compatible with co-packaged optics and advanced photonic-electronic integration; integration of heterogeneous materials and components including on-chip lasers, modulators, and detectors; design-process-equipment co-optimisation for cost-effective production of complex photonic circuits and systems; and demonstration of system-level functionality through application-relevant use cases in strategic sectors such as AI, sensing, telecommunication, mobility, health, and defence": 1,
           "Unspecified": 5,
           "supporting exhibitions featuring contemporary visual artists, promoting the French art scene in Germany, strengthening collaborations between galleries and artists, and supporting monographic exhibitions by emerging artists": 1,
           "the future of work and entrepreneurship, sustainable production and consumption, and innovation for strengthening a sustainable economy": 1,
-          "scaling of wafer-level photonic processes for key materials such as SiN, InP, and GaAs; development of scalable, automated packaging and test solutions compatible with co-packaged optics and advanced photonic-electronic integration; integration of heterogeneous materials and components including on-chip lasers, modulators, and detectors; design-process-equipment co-optimisation for cost-effective production of complex photonic circuits and systems; and demonstration of system-level functionality through application-relevant use cases in strategic sectors such as AI, sensing, telecommunication, mobility, health, and defence": 1,
-          "international travel costs, national travel costs, transport costs, insurance, taxes and permits, fees, accommodation costs, daily allowances, technical rental costs, exhibition material costs, technical fees, general technical costs, communication costs, publication costs, administration costs, and other specified eligible expenses": 1,
           "innovative design and integration concepts for neuromorphic computing systems with very low energy consumption, connectivity, and embedded functions for mobile applications; alternative semiconductor chip manufacturing process technologies for frontend and backend heterogeneous integration; and advanced packaging solutions for integrating multiple functions and materials in communication, sensing, actuating, power management, and active": 1,
           "passive integration applications": 1
         }
@@ -495,52 +495,52 @@
       "incomplete": 3,
       "classifications": {
         "Institution": {
-          "Air Traffic and Navigation Services Company Limited": 6,
-          "Eskom National Transmission Company of South Africa": 5,
           "City of Cape Town": 6,
-          "uMngeni-uThukela Water": 2,
+          "Air Traffic and Navigation Services Company Limited": 6,
           "Drakenstein Municipality": 5,
-          "South African National Roads Agency Soc Limited (SANRAL)": 3,
-          "Industrial Development Corporation of South Africa Limited": 3,
-          "ESKOM": 27,
-          "Western Cape - Health": 1,
           "Transnet National Ports Authority": 6,
-          "Transnet SOC Ltd": 21,
-          "Kgetlengrivier Local municipality": 2,
-          "South African Police Service": 1,
-          "City Of Joburg Property Company (SOC) Ltd": 6,
-          "Maquassi hill Local Municipality": 1,
-          "Nkomazi Local Municipality": 3,
-          "Greater Taung Local Municipality": 9,
-          "National Health Laboratory Service": 1,
-          "Siyancuma Local Municipality": 2,
-          "NamaKwa District Municipality": 1,
-          "Development Bank of Southern Africa": 2,
-          "Postbank SOC": 1,
-          "Western Cape - Transport and Public Works": 3,
-          "Makhado Local Municipality": 3,
-          "Airports Company of South Africa": 2,
-          "Water and Sanitation": 2,
-          "South African Revenue Service": 1,
+          "Western Cape - Health": 1,
+          "uMngeni-uThukela Water": 2,
+          "Eskom National Transmission Company of South Africa": 5,
+          "South African National Roads Agency Soc Limited (SANRAL)": 3,
+          "ESKOM": 27,
+          "Industrial Development Corporation of South Africa Limited": 3,
           "South African Social Security Agency": 1,
-          "South African National Accreditation System": 1,
-          "Cederberg Municipality": 1,
-          "Thembisile Hani Local Municipality": 1,
-          "Gauteng - Agriculture and Rural Development": 1,
-          "Musina Local Municipality": 3,
-          "PetroSA": 1,
-          "Council for Scientific and Industrial Research (CSIR)": 1,
-          "Freedom Park Trust": 1,
-          "Johannesburg Water": 1,
-          "Mangaung Metropolitan Municipality": 1,
+          "City Of Joburg Property Company (SOC) Ltd": 6,
+          "Transnet SOC Ltd": 21,
           "Basic Education": 1,
-          "uMhlathuze Municipality": 1,
+          "Maquassi hill Local Municipality": 1,
           "Victor Khanye Local Municipality": 2,
-          "State Information Technology Agency": 1,
+          "South African Police Service": 1,
+          "Greater Taung Local Municipality": 9,
           "uMgungundlovu District Municipality": 1,
-          "Science & Technology": 1,
+          "Development Bank of Southern Africa": 2,
+          "Gauteng - Agriculture and Rural Development": 1,
+          "Nkomazi Local Municipality": 3,
+          "Musina Local Municipality": 3,
+          "Kwadukuza Municipality": 1,
+          "Siyancuma Local Municipality": 2,
+          "Water and Sanitation": 2,
+          "Johannesburg Water": 1,
+          "Airports Company of South Africa": 2,
+          "uMhlathuze Municipality": 1,
+          "National Health Laboratory Service": 1,
+          "Mangaung Metropolitan Municipality": 1,
+          "South African National Accreditation System": 1,
+          "Makhado Local Municipality": 3,
           "National - Environment, Forestry and Fisheries": 1,
-          "Kwadukuza Municipality": 1
+          "South African Revenue Service": 1,
+          "Western Cape - Transport and Public Works": 3,
+          "Kgetlengrivier Local municipality": 2,
+          "Postbank SOC": 1,
+          "Freedom Park Trust": 1,
+          "Thembisile Hani Local Municipality": 1,
+          "Science & Technology": 1,
+          "Cederberg Municipality": 1,
+          "NamaKwa District Municipality": 1,
+          "Council for Scientific and Industrial Research (CSIR)": 1,
+          "PetroSA": 1,
+          "State Information Technology Agency": 1
         },
         "Flag": {
           "ZA": 149
@@ -553,14 +553,14 @@
           "Expression of interest": 1
         },
         "Province": {
-          "National": 22,
           "Western Cape": 24,
+          "National": 22,
           "Limpopo": 17,
           "Gauteng": 27,
-          "North West": 15,
-          "Northern Cape": 9,
           "KwaZulu-Natal": 9,
+          "North West": 15,
           "Mpumalanga": 21,
+          "Northern Cape": 9,
           "Eastern Cape": 1,
           "Free State": 2
         }
@@ -572,63 +572,83 @@
       "incomplete": 0,
       "classifications": {
         "Multinational Company": {
+          "Samsung": 1,
+          "AITF (Automotive Industry Transformation Fund)": 1,
+          "Turner & Townsend": 1,
           "Dell Technologies": 1,
           "Caterpillar": 1,
-          "Samsung": 1,
-          "MSC (Mediterranean Shipping Company)": 1,
-          "AITF (Automotive Industry Transformation Fund)": 1,
-          "Turner & Townsend": 1
+          "MSC (Mediterranean Shipping Company)": 1
         },
         "Application Status": {
           "ONGOING": 6
         },
         "Focus Area": {
-          "Skills Development": 4,
           "Enterprise Development": 4,
-          "Supplier Development": 3,
-          "Industrialization": 1,
+          "Skills Development": 4,
           "R&D": 1,
+          "Supplier Development": 3,
           "Localization": 1,
-          "Job Creation": 1
+          "Job Creation": 1,
+          "Industrialization": 1
         },
         "Investment / Funding Type": {
-          "Incubation": 2,
           "Grants": 5,
-          "Training": 2,
-          "Debt Financing": 2,
-          "Technical Support": 1,
+          "Incubation": 2,
           "Supplier Development": 3,
+          "Debt Financing": 2,
           "Mentorship": 1,
-          "Market Access": 1
+          "Market Access": 1,
+          "Training": 2,
+          "Technical Support": 1
         }
       }
     }
   },
   "advanced_enrichment": {
-    "ocds-9t57fa-165586": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'Attendance of compulsory briefing [a] Bidder is required to attend the br') | 1",
-        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-167433": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'e' (6 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-164941": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'Protection of the Environment Declaration' (74 pts) | 3",
         "Draft detailed methodology addressing 'Occupational Health and Safety Agreement' (73 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166412": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'The minimum qualifying threshold for functionality' (70 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-165961": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory clarification meeting will be held') | 1",
+        "Complete and sign all mandatory forms: MBD 1 | 1"
+      ]
+    },
+    "ocds-9t57fa-165033": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'THE TRANSNET NATIONAL PORTS AUTHORITY' (03 pts) | 3",
+        "Draft detailed methodology addressing 'APPROVED BY' (03 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166438": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 4 | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and B-BBEE must not exceed' (100 pts) | 3",
+        "Draft detailed methodology addressing 'B-BBEE STATUS LEVEL OF CONTRIBUTOR' (20 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -644,11 +664,11 @@
         "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
       ]
     },
-    "ocds-9t57fa-165964": {
+    "ocds-9t57fa-167433": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory clarification meeting will be held') | 1",
-        "Complete and sign all mandatory forms: MBD 1 | 1"
+        "Draft detailed methodology addressing 'e' (6 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
     "ocds-9t57fa-165702": {
@@ -657,103 +677,10 @@
         "Confirm CIDB contractor grading '9CE OR HIGHER' is active and in good standing (stated in tender document) | 1"
       ]
     },
-    "ocds-9t57fa-165553": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing '3.1 Monthly P+G Per Month' (60 pts) | 3",
-        "Draft detailed methodology addressing 'Temporary Pumps, hoses and fittings' (14 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-167442": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'Attendance of compulsory briefing 1') | 1",
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-165967": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1 | 1"
-      ]
-    },
-    "ocds-9t57fa-166412": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'The minimum qualifying threshold for functionality' (70 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-167465": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
-        "Draft detailed methodology addressing 'OHS Competency' (7 pts) | 3",
-        "Draft detailed methodology addressing 'OHS policy signed by CEO' (6 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
     "ocds-9t57fa-167445": {
       "enrichment": "ADVANCED",
       "tasks": [
         "Draft detailed methodology addressing 'Regret Letter' (1 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-165961": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory clarification meeting will be held') | 1",
-        "Complete and sign all mandatory forms: MBD 1 | 1"
-      ]
-    },
-    "ocds-9t57fa-166438": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and B-BBEE must not exceed' (100 pts) | 3",
-        "Draft detailed methodology addressing 'B-BBEE STATUS LEVEL OF CONTRIBUTOR' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-165958": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory clarification meeting will be held') | 1",
-        "Complete and sign all mandatory forms: MBD 1 | 1"
-      ]
-    },
-    "ocds-9t57fa-166393": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'The minimum qualifying threshold for functionality' (70 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-165033": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'THE TRANSNET NATIONAL PORTS AUTHORITY' (03 pts) | 3",
-        "Draft detailed methodology addressing 'APPROVED BY' (03 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -776,103 +703,77 @@
         "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
       ]
     },
-    "ocds-9t57fa-166924": {
+    "ocds-9t57fa-165553": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Draft detailed methodology addressing '1300: CONTRACTORS ESTABLISHMENT ON SITE' (10 pts) | 3",
+        "Draft detailed methodology addressing '3.1 Monthly P+G Per Month' (60 pts) | 3",
+        "Draft detailed methodology addressing 'Temporary Pumps, hoses and fittings' (14 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-166151": {
+    "ocds-9t57fa-167465": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Draft detailed methodology addressing 'Imported bedding sand' (90 pts) | 3",
-        "Draft detailed methodology addressing 'Directional emergency signs' (40 pts) | 3",
+        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
+        "Draft detailed methodology addressing 'OHS Competency' (7 pts) | 3",
+        "Draft detailed methodology addressing 'OHS policy signed by CEO' (6 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-167430": {
+    "ocds-9t57fa-165586": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Complete and sign all mandatory forms: SBD 6 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Document Identifier' (1 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166505": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Confirm CIDB contractor grading '7CE OR HIGHER' is active and in good standing (stated in tender document) | 1",
-        "Complete and sign all mandatory forms: MBD 1, MBD 4, MBD 5, MBD 6, MBD 7, MBD 8, MBD 9, MBD2, MBD3, MBD4, MBD5, MBD6, MBD7, MBD8, MBD9 | 1",
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'Attendance of compulsory briefing [a] Bidder is required to attend the br') | 1",
+        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
         "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1"
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-163347": {
+    "ocds-9t57fa-165964": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (90 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory clarification meeting will be held') | 1",
+        "Complete and sign all mandatory forms: MBD 1 | 1"
       ]
     },
-    "ocds-9t57fa-166673": {
+    "ocds-9t57fa-165958": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory clarification meeting will be held') | 1",
+        "Complete and sign all mandatory forms: MBD 1 | 1"
+      ]
+    },
+    "ocds-9t57fa-167442": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'Attendance of compulsory briefing 1') | 1",
+        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD7 | 1",
         "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and Specific goals must not' (100 pts) | 3",
-        "Draft detailed methodology addressing 'provided that the lowest acceptable' (90 pts) | 3"
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-164432": {
+    "ocds-9t57fa-165967": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
+        "Complete and sign all mandatory forms: MBD 1 | 1"
+      ]
+    },
+    "ocds-9t57fa-166393": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE, PREFERENCE POINTS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'A bidder that scores less than' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-167398": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Number of erven' (50 pts) | 3",
-        "Draft detailed methodology addressing 'No Billing data' (48 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-167511": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 6 | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Draft detailed methodology addressing 'SDL&I Strategy Setting' (4 pts) | 3",
-        "Draft detailed methodology addressing 'Mechanical Pump' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166546": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Functional Requirements Criteria' (200 pts) | 3",
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+        "Draft detailed methodology addressing 'The minimum qualifying threshold for functionality' (70 pts) | 3"
       ]
     },
     "ocds-9t57fa-167602": {
@@ -880,312 +781,6 @@
       "tasks": [
         "Draft detailed methodology addressing '2025/10/30 13:44' (61 pts) | 3",
         "Draft detailed methodology addressing 'CITY OF JOHANNESBURG' (2 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-167634": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Jubilee Clamps for' (100 pts) | 3",
-        "Draft detailed methodology addressing '1.8 x 1.2 x 3 mm' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-160742": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Document Identifier' (9 pts) | 3",
-        "Draft detailed methodology addressing '(FORM A)' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-167018": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD3, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Bidders who score less than' (70 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166629": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Confirm CIDB contractor grading '1GB OR HIGHER' is active and in good standing (stated in tender document) | 1",
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory briefing session will be held') | 1",
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1"
-      ]
-    },
-    "ocds-9t57fa-167578": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'PFILED - TR768' (5 pts) | 3",
-        "Draft detailed methodology addressing 'CITY OF JOHANNESBURG' (4 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166964": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
-        "Draft detailed methodology addressing 'Eskom Standard' (12 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166773": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'The bidder has submitted more than ten projects co' (100 pts) | 3",
-        "Draft detailed methodology addressing 'The record indicates more than 6000km accumulated ' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-167093": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD 7, SBD1, SBD4, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'MINIMUM THRESHOLD' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-163751": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'eve the minimum threshold score for each' (70 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-167216": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'Attendance of compulsory briefing session') | 1",
-        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD4 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
-      ]
-    },
-    "ocds-9t57fa-165298": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory clarification meeting will be held') | 1",
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
-      ]
-    },
-    "ocds-9t57fa-166660": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'TOTAL POINTS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and Specific goals must not' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-166663": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total Evaluation points for quality' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Total points for Price and Specific goals must not' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-167599": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory briefing session will be held') | 1",
-        "Complete and sign all mandatory forms: MBD 1, MBD 2, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC' (100 pts) | 3",
-        "Draft detailed methodology addressing 'A maximum of' (80 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-167255": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 4, MBD 8 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Attach valid PSIRA registration certificates (company and directors) | 1",
-        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
-      ]
-    },
-    "ocds-9t57fa-167025": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-166503": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD 3, SBD 6 | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166671": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Confirm CIDB contractor grading '1GB' is active and in good standing (stated in tender document) | 1"
-      ]
-    },
-    "musina-rfq27": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 9, MBD4, MBD6, MBD8, MBD9 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points forPriceandSPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFICGOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166635": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Confirm CIDB contractor grading '1GB' is active and in good standing (stated in tender document) | 1"
-      ]
-    },
-    "ocds-9t57fa-165071": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1"
-      ]
-    },
-    "ocds-9t57fa-162756": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Tenderer to compile and submit method statement ba' (4 pts) | 3",
-        "Draft detailed methodology addressing 'Specifying Eskom supplier quality requirements. Te' (3 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-167394": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: SBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and Preference Points must ' (100 pts) | 3",
-        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (80 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-167347": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Meeting Minutes' (9 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "musina-rfq26": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 9, MBD4, MBD6, MBD8, MBD9 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total pointsfor PriceandSPECIFICGOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'SPECIFICGOALS' (20 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-163594": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Confirm CIDB contractor grading '8CE' is active and in good standing (stated in tender document) | 1"
-      ]
-    },
-    "ocds-9t57fa-164016": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Confirm CIDB contractor grading '9CE' is active and in good standing (stated in tender document) | 1",
-        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
-      ]
-    },
-    "ocds-9t57fa-167022": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD3, MBD7 | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'Bidders who score less than' (70 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166654": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Confirm CIDB contractor grading '2GB OR HIGHER' is active and in good standing (stated in tender document) | 1",
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Attach valid NHBRC registration proof | 1"
-      ]
-    },
-    "ocds-9t57fa-166672": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and Specific goals must not' (100 pts) | 3",
-        "Draft detailed methodology addressing 'provided that the lowest acceptable' (90 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-166919": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'The tenderer to submit proof that it' (5 pts) | 3",
-        "Draft detailed methodology addressing 'The tenderer shall provide the' (5 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -1201,22 +796,11 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-166395": {
+    "ocds-9t57fa-166151": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
-        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
-        "Draft detailed methodology addressing 'The minimum qualifying threshold for functionality' (70 pts) | 3"
-      ]
-    },
-    "ocds-9t57fa-164696": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Rem of Farm Richards Bay' (22 pts) | 3",
+        "Draft detailed methodology addressing 'Imported bedding sand' (90 pts) | 3",
+        "Draft detailed methodology addressing 'Directional emergency signs' (40 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -1232,34 +816,22 @@
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
       ]
     },
-    "ocds-9t57fa-165261": {
+    "ocds-9t57fa-164016": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Draft detailed methodology addressing 'Within Funder control' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Within control of the System Operator' (5 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-166957": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Complete and sign all mandatory forms: MBD 2, MBD 3, MBD 4, MBD 5, MBD 6, MBD 7, MBD 8, MBD 9, MBD5 | 1",
-        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Confirm CIDB contractor grading '9CE' is active and in good standing (stated in tender document) | 1",
+        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD4 | 1",
         "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
         "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
-        "Attach valid PSIRA registration certificates (company and directors) | 1",
-        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
+        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
       ]
     },
-    "ocds-9t57fa-163912": {
+    "ocds-9t57fa-166635": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
-        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
-        "Draft detailed methodology addressing 'Any change in the law that is reinforced as per cl' (14 pts) | 3",
-        "Draft detailed methodology addressing 'Updated and compliant safety file regarding Covid ' (13 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+        "Confirm CIDB contractor grading '1GB' is active and in good standing (stated in tender document) | 1"
       ]
     },
     "ocds-9t57fa-165011": {
@@ -1274,6 +846,69 @@
         "Draft detailed methodology addressing 'Total points for Price and Specific Goals' (100 pts) | 3"
       ]
     },
+    "ocds-9t57fa-163751": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'eve the minimum threshold score for each' (70 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166660": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'TOTAL POINTS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'Total points for Price and Specific goals must not' (100 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-166673": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and Specific goals must not' (100 pts) | 3",
+        "Draft detailed methodology addressing 'provided that the lowest acceptable' (90 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-166503": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 3, SBD 6 | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166505": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Confirm CIDB contractor grading '7CE OR HIGHER' is active and in good standing (stated in tender document) | 1",
+        "Complete and sign all mandatory forms: MBD 1, MBD 4, MBD 5, MBD 6, MBD 7, MBD 8, MBD 9, MBD2, MBD3, MBD4, MBD5, MBD6, MBD7, MBD8, MBD9 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1"
+      ]
+    },
+    "ocds-9t57fa-166654": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Confirm CIDB contractor grading '2GB OR HIGHER' is active and in good standing (stated in tender document) | 1",
+        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Attach valid NHBRC registration proof | 1"
+      ]
+    },
     "musina-rfq25": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -1286,12 +921,162 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-167610": {
+    "ocds-9t57fa-165261": {
       "enrichment": "ADVANCED",
       "tasks": [
+        "Draft detailed methodology addressing 'Within Funder control' (6 pts) | 3",
+        "Draft detailed methodology addressing 'Within control of the System Operator' (5 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166629": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Confirm CIDB contractor grading '1GB OR HIGHER' is active and in good standing (stated in tender document) | 1",
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory briefing session will be held') | 1",
+        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1"
+      ]
+    },
+    "ocds-9t57fa-166672": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and Specific goals must not' (100 pts) | 3",
+        "Draft detailed methodology addressing 'provided that the lowest acceptable' (90 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-167347": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'Meeting Minutes' (9 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166773": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'The bidder has submitted more than ten projects co' (100 pts) | 3",
+        "Draft detailed methodology addressing 'The record indicates more than 6000km accumulated ' (100 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-163594": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Confirm CIDB contractor grading '8CE' is active and in good standing (stated in tender document) | 1"
+      ]
+    },
+    "ocds-9t57fa-163912": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
         "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
-        "Draft detailed methodology addressing 'OHS Competency' (7 pts) | 3",
-        "Draft detailed methodology addressing 'OHS policy signed by CEO.' (6 pts) | 3",
+        "Draft detailed methodology addressing 'Any change in the law that is reinforced as per cl' (14 pts) | 3",
+        "Draft detailed methodology addressing 'Updated and compliant safety file regarding Covid ' (13 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-162756": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'Tenderer to compile and submit method statement ba' (4 pts) | 3",
+        "Draft detailed methodology addressing 'Specifying Eskom supplier quality requirements. Te' (3 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-164696": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'Rem of Farm Richards Bay' (22 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166671": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Confirm CIDB contractor grading '1GB' is active and in good standing (stated in tender document) | 1"
+      ]
+    },
+    "ocds-9t57fa-166663": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total Evaluation points for quality' (100 pts) | 3",
+        "Draft detailed methodology addressing 'Total points for Price and Specific goals must not' (100 pts) | 3"
+      ]
+    },
+    "musina-rfq26": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 9, MBD4, MBD6, MBD8, MBD9 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total pointsfor PriceandSPECIFICGOALS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'SPECIFICGOALS' (20 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-163347": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (90 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-167093": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD 7, SBD1, SBD4, SBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'MINIMUM THRESHOLD' (80 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-167511": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 6 | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Draft detailed methodology addressing 'SDL&I Strategy Setting' (4 pts) | 3",
+        "Draft detailed methodology addressing 'Mechanical Pump' (3 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-167430": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 6 | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Draft detailed methodology addressing 'Document Identifier' (1 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-167022": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD3, MBD7 | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'Bidders who score less than' (70 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
@@ -1307,6 +1092,174 @@
         "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
       ]
     },
+    "musina-rfq27": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 9, MBD4, MBD6, MBD8, MBD9 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points forPriceandSPECIFIC GOALS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'SPECIFICGOALS' (20 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166924": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing '1300: CONTRACTORS ESTABLISHMENT ON SITE' (10 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-164530": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'Tender Cancellation Letter' (1 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-167634": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'Jubilee Clamps for' (100 pts) | 3",
+        "Draft detailed methodology addressing '1.8 x 1.2 x 3 mm' (100 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166546": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 4, SBD 6, SBD1, SBD7 | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Functional Requirements Criteria' (200 pts) | 3",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-167018": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD3, MBD7 | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'Bidders who score less than' (70 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-160742": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'Document Identifier' (9 pts) | 3",
+        "Draft detailed methodology addressing '(FORM A)' (3 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-164369": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'Regret Letter' (6 pts) | 3",
+        "Draft detailed methodology addressing 'Document' (2 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-165298": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory clarification meeting will be held') | 1",
+        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
+      ]
+    },
+    "ocds-9t57fa-166919": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'The tenderer to submit proof that it' (5 pts) | 3",
+        "Draft detailed methodology addressing 'The tenderer shall provide the' (5 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-167610": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
+        "Draft detailed methodology addressing 'OHS Competency' (7 pts) | 3",
+        "Draft detailed methodology addressing 'OHS policy signed by CEO.' (6 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-164432": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 1, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1, MBD7 | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'TOTAL POINTS FOR PRICE, PREFERENCE POINTS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'A bidder that scores less than' (80 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-167394": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD7 | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and Preference Points must ' (100 pts) | 3",
+        "Draft detailed methodology addressing 'PREFERENCE POINT SYSTEMS' (80 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166957": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 2, MBD 3, MBD 4, MBD 5, MBD 6, MBD 7, MBD 8, MBD 9, MBD5 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Attach valid PSIRA registration certificates (company and directors) | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-167599": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'compulsory briefing session will be held') | 1",
+        "Complete and sign all mandatory forms: MBD 1, MBD 2, MBD 3, MBD 4, MBD 6, MBD 7, MBD 8, MBD 9, MBD1 | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC' (100 pts) | 3",
+        "Draft detailed methodology addressing 'A maximum of' (80 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-166964": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
+        "Draft detailed methodology addressing 'Eskom Standard' (12 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-167578": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Draft detailed methodology addressing 'PFILED - TR768' (5 pts) | 3",
+        "Draft detailed methodology addressing 'CITY OF JOHANNESBURG' (4 pts) | 3",
+        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
     "ocds-9t57fa-164323": {
       "enrichment": "ADVANCED",
       "tasks": [
@@ -1314,6 +1267,36 @@
         "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
         "Draft detailed methodology addressing 'SDL&I Strategy Setting' (4 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-166395": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 3, SBD 4, SBD 6, SBD1, SBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3",
+        "Draft detailed methodology addressing 'The minimum qualifying threshold for functionality' (70 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-165071": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1"
+      ]
+    },
+    "ocds-9t57fa-167255": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: MBD 4, MBD 8 | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Attach valid PSIRA registration certificates (company and directors) | 1",
+        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
       ]
     },
     "ocds-9t57fa-167024": {
@@ -1327,11 +1310,36 @@
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     },
-    "ocds-9t57fa-164530": {
+    "ocds-9t57fa-167398": {
       "enrichment": "ADVANCED",
       "tasks": [
-        "Draft detailed methodology addressing 'Tender Cancellation Letter' (1 pts) | 3",
+        "Draft detailed methodology addressing 'Number of erven' (50 pts) | 3",
+        "Draft detailed methodology addressing 'No Billing data' (48 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
+      ]
+    },
+    "ocds-9t57fa-167025": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Complete and sign all mandatory forms: SBD 1, SBD 4, SBD 6, SBD1, SBD7 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2",
+        "Draft detailed methodology addressing 'Total points for Price and SPECIFIC GOALS' (100 pts) | 3"
+      ]
+    },
+    "ocds-9t57fa-167216": {
+      "enrichment": "ADVANCED",
+      "tasks": [
+        "Attend the compulsory briefing/site meeting and sign the attendance register (document states: 'Attendance of compulsory briefing session') | 1",
+        "Complete and sign all mandatory forms: SBD 1, SBD 3, SBD 4, SBD 6, SBD4 | 1",
+        "Download and attach latest Full CSD Report (ensure MAAA is correct) | 1",
+        "Verify Tax Compliance status on SARS and provide valid PIN | 1",
+        "Attach valid B-BBEE Certificate or correctly commissioned Sworn Affidavit | 1",
+        "Verify the company and every director are NOT listed on National Treasury's Restricted Suppliers / Tender Defaulters registers | 1",
+        "Obtain COIDA Letter of Good Standing from the Compensation Fund | 2"
       ]
     },
     "ocds-9t57fa-166920": {
@@ -1339,14 +1347,6 @@
       "tasks": [
         "Draft detailed methodology addressing 'Score for General:' (100 pts) | 3",
         "Draft detailed methodology addressing 'Proof of previous contracts, orders and delivery n' (40 pts) | 3",
-        "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
-      ]
-    },
-    "ocds-9t57fa-164369": {
-      "enrichment": "ADVANCED",
-      "tasks": [
-        "Draft detailed methodology addressing 'Regret Letter' (6 pts) | 3",
-        "Draft detailed methodology addressing 'Document' (2 pts) | 3",
         "Gather Trinity of Evidence (Appointment, SLA, Completion) for previous projects | 2"
       ]
     }
