@@ -40,8 +40,8 @@ RFQ26-25-26 Replacement of Complete Mouldboard cylinder (pdf)
 - **Data Completeness**: INCOMPLETE — missing: closing date
 - **Last Verified**: 2026-10-05
 
-## AI Checklist (Jules)
-<!-- This section is populated by Jules during enrichment. -->
+## AI Checklist
+<!-- This section is populated during enrichment. -->
 - [ ] Complete and sign all mandatory forms: MBD 9, MBD4, MBD6, MBD8, MBD9 | 1
 - [ ] Download and attach latest Full CSD Report (ensure MAAA is correct) | 1
 - [ ] Obtain recent municipal accounts (<90 days) for the Company and all Directors | 2
