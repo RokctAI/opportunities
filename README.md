@@ -24,7 +24,7 @@
 The repository uses a **Universal Sync Engine** (`.github/workflows/sync-engine.yml`) to manage the pipeline:
 
 1.  **Weekly Sync (Mondays)**: Performs heavy OCDS and Musina scraping to find new opportunities.
-2.  **Maintenance**: Purges closed tenders and generates the weekly `todo.json` for Jules.
+2.  **Maintenance**: Purges closed tenders and generates the weekly `todo.json` enrichment queue.
 3.  **Fast Refresh (On Push)**: Triggered by manual edits. Heals metadata (Flags/Verified) and instantly regenerates the JSON API.
 
 ## How to Contribute

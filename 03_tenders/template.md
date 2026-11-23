@@ -17,7 +17,7 @@
 [Full description of the requirement]
 
 ### AI Analysis: Compliance & Requirements
-<!-- This section is populated by Jules after document analysis -->
+<!-- This section is populated after document analysis -->
 - **Mandatory Requirements**: [e.g., B-BBEE Level 1, ISO 9001]
 - **Key Deliverables**: [Brief list of what needs to be done]
 - **Technical Specs**: [Crucial technical details]
@@ -45,8 +45,8 @@
 - **Status**: ACTIVE
 - **Last Verified**: [YYYY-MM-DD]
 
-## AI Checklist (Jules)
-<!-- This section is populated by Jules during enrichment. Format: - [ ] Subject | Due Date Offset (Days) -->
+## AI Checklist
+<!-- This section is populated during enrichment. Format: - [ ] Subject | Due Date Offset (Days) -->
 - [ ] Analyze Tender Documents for specific requirements | 1
 - [ ] Identify Mandatory Compliance items | 2
 - [ ] Prepare Initial Response Proposal | 3

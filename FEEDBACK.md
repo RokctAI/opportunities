@@ -4,7 +4,7 @@ This document outlines suggested features and improvements for the Opportunities
 
 ## 1. AI-Driven Automation & Enrichment
 
-### 1.1 Deep Document Parsing (Jules v2) [DONE - Musina]
+### 1.1 Deep Document Parsing (v2) [DONE - Musina]
 *   **Status**: ✅ **DONE** for Musina municipality; pending integration into `tender_sync_api.py`.
 *   **Feature**: Enhance enrichment tasks to download and OCR/analyze PDF attachments (e.g., SBD forms, TORs).
 *   **Recommendation**: Use specialized Python libraries (like `PyMuPDF` or `pdfplumber`) to minimize hallucinations during extraction.
@@ -62,5 +62,5 @@ This document outlines suggested features and improvements for the Opportunities
 *   **Status**: ✅ **DONE**. `.gitignore` updated to exclude `*.pyc` and `__pycache__/`.
 
 ---
-*Prepared by Jules (AI Senior Engineer)*
+*Prepared by the AI engineering agent*
 *Date: 2026-04-12*

@@ -15,7 +15,7 @@ plus a deterministic Python grounding check**: an extraction *pipeline* (single-
 tier), not an agentic loop, and nothing in it is vendor- or model-specific. The documents are
 small (~5–50KB of text), so long-context capability is irrelevant; the "self-verification" was
 deliberately moved *out* of the model into string matching; any capable model runs the
-identical script. What Jules/regex lacks and this adds is simply model *reading comprehension*
+identical script. What regex lacks and this adds is simply model *reading comprehension*
 over the full document — which many models provide. Accordingly this brief is
 model-agnostic, and **which model runs it is a measured cost/quality decision made during the
 canary bake-off**, not an architecture choice made up front.
@@ -28,15 +28,15 @@ compliance checklist. This fixes the product-blocking coverage gap (only ~2 of 5
 tenders have any checklist; the 443 enriched entries in `meta.json` are historical) while
 raising checklist quality from "regex keyword hits, capped at 5 tasks" to a genuine
 requirements matrix. **The output contract does not change** — cards still get an
-`## AI Checklist (Jules)` block, the orchestrator still publishes `meta.json`
+`## AI Checklist` block, the orchestrator still publishes `meta.json`
 `advanced_enrichment` from cards, and the v1 backend/frontend consume it unchanged.
 
 ## Current pipeline (verified, all paths relative to `opportunities/`)
 
 1. `registry_orchestrator/index.py` scans `03_tenders/` cards. Cards with a real
-   `## AI Checklist (Jules)` block → published into `meta.json.advanced_enrichment`
+   `## AI Checklist` block → published into `meta.json.advanced_enrichment`
    (`scanners.py:94`, `updaters.py:78`). Cards without → queued in `.rokct/agent/todo.json`.
-2. The enrichment worker ("Jules") consumes `todo.json`:
+2. The enrichment worker consumes `todo.json`:
    - `scripts/tenders/enrichment/pdf_to_md.py` — downloads the card's Direct Link PDF,
      extracts text with pdfplumber → `{id}_content.md`.
    - `scripts/tenders/enrichment/extract_requirements.py` — **the part being replaced**:
