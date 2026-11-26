@@ -78,3 +78,5 @@ This log tracks all automated AI task delegations (Jules, Groq, etc.) within the
 | 2026-11-24 04:39 | Mission: Corporate Grant Hunt | jules | ❌ FAILED | 45327900680 | Attempt 1. Reason: } |
 | 2026-11-25 03:25 | Mission: Weekly Funder Audit & Enrichment | jules | ❌ FAILED | 45539839192 | Attempt 1. Reason: } |
 | 2026-11-25 03:25 | Mission: Corporate Grant Hunt | jules | ❌ FAILED | 45539839192 | Attempt 1. Reason: } |
+| 2026-11-26 02:41 | Mission: Weekly Funder Audit & Enrichment | jules | ❌ FAILED | 45744102162 | Attempt 1. Reason: Error: Agent API Key is missing. Provide via --api-key, AGENT_API_KEY, or JULES_API_KEY env var. |
+| 2026-11-26 02:41 | Mission: Corporate Grant Hunt | jules | ❌ FAILED | 45744102162 | Attempt 1. Reason: Error: Agent API Key is missing. Provide via --api-key, AGENT_API_KEY, or JULES_API_KEY env var. |
